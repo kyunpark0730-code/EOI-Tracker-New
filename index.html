@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EOI Tracker — 해외사업 공고 취합</title>
+<style>
+  :root{
+    --paper:#f6f4ee;
+    --ink:#1c2a33;
+    --navy:#1f3b52;
+    --navy-deep:#152735;
+    --line:#c9c2b2;
+    --accent:#b5542a;
+    --accent-soft:#e7dccb;
+    --mono: "IBM Plex Mono","SFMono-Regular",Consolas,monospace;
+    --serif: "Source Serif 4","Noto Serif KR",serif;
+    --sans: "Pretendard","Noto Sans KR",-apple-system,sans-serif;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    background:var(--paper);
+    color:var(--ink);
+    font-family:var(--sans);
+    background-image:
+      linear-gradient(var(--line) 1px, transparent 1px),
+      linear-gradient(90deg, var(--line) 1px, transparent 1px);
+    background-size:32px 32px;
+    background-attachment:fixed;
+  }
+  header{
+    background:var(--navy-deep);
+    color:var(--paper);
+    padding:28px 32px 22px;
+    border-bottom:4px solid var(--accent);
+  }
+  header .eyebrow{
+    font-family:var(--mono);
+    font-size:12px;
+    letter-spacing:.12em;
+    text-transform:uppercase;
+    color:var(--accent-soft);
+    opacity:.85;
+  }
+  header h1{
+    margin:6px 0 4px;
+    font-family:var(--serif);
+    font-weight:600;
+    font-size:28px;
+    letter-spacing:-0.01em;
+  }
+  header .sub{
+    font-size:13px;
+    color:#c8d2da;
+  }
+  .meta-bar{
+    max-width:1180px;
+    margin:0 auto;
+    padding:16px 32px 0;
+    display:flex;
+    gap:24px;
+    flex-wrap:wrap;
+    align-items:baseline;
+    font-family:var(--mono);
+    font-size:12px;
+    color:#5b6a72;
+  }
+  .meta-bar b{color:var(--navy);}
+  main{max-width:1180px;margin:0 auto;padding:20px 32px 60px;}
+  .toolbar{
+    display:flex;
+    gap:10px;
+    flex-wrap:wrap;
+    background:#fffdf8;
+    border:1px solid var(--line);
+    padding:14px;
+    margin-bottom:22px;
+  }
+  .toolbar input, .toolbar select{
+    font-family:var(--sans);
+    font-size:13px;
+    padding:8px 10px;
+    border:1px solid var(--line);
+    background:#fff;
+    color:var(--ink);
+  }
+  .toolbar input[type="text"]{flex:1 1 220px;}
+  .toolbar select{flex:0 0 auto;}
+  .count-pill{
+    font-family:var(--mono);
+    font-size:12px;
+    align-self:center;
+    color:var(--accent);
+    margin-left:auto;
+    white-space:nowrap;
+  }
+  .grid{display:flex; flex-direction:column; gap:10px;}
+  .card{
+    background:#fffdf8;
+    border:1px solid var(--line);
+    border-left:4px solid var(--navy);
+    padding:16px 18px;
+    position:relative;
+    transition:border-color .15s;
+  }
+  .card.type-eoi{border-left-color:var(--accent);}
+  .card-top{
+    display:flex; justify-content:space-between; gap:12px; flex-wrap:wrap; margin-bottom:6px;
+  }
+  .tag-row{display:flex; gap:8px; flex-wrap:wrap; align-items:center;}
+  .tag{
+    font-family:var(--mono);
+    font-size:11px;
+    padding:3px 8px;
+    border:1px solid var(--line);
+    color:var(--navy);
+    text-transform:uppercase;
+    letter-spacing:.03em;
+  }
+  .tag.eoi{border-color:var(--accent); color:var(--accent);}
+  .country{font-family:var(--mono); font-size:11px; color:#5b6a72;}
+  .date{font-family:var(--mono); font-size:11px; color:#5b6a72; white-space:nowrap;}
+  .card h3{
+    margin:4px 0 6px;
+    font-family:var(--serif);
+    font-size:16px;
+    font-weight:600;
+    line-height:1.35;
+  }
+  .card .desc{font-size:13px; color:#3d4a52; line-height:1.55; margin-bottom:8px;}
+  .card .summary{
+    font-size:12.5px; color:#6b7680; line-height:1.6;
+    max-height:0; overflow:hidden; transition:max-height .2s ease;
+  }
+  .card.open .summary{max-height:400px; margin-bottom:8px;}
+  .card-foot{
+    display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px;
+    font-size:12px; color:#5b6a72;
+  }
+  .card-foot a{color:var(--navy); text-decoration:none; border-bottom:1px solid var(--navy);}
+  .toggle-btn{
+    background:none; border:none; font-family:var(--mono); font-size:11px;
+    color:var(--accent); cursor:pointer; padding:0;
+  }
+  .empty-state{
+    text-align:center; padding:60px 20px; color:#5b6a72;
+    font-family:var(--serif); font-size:15px; border:1px dashed var(--line);
+  }
+  footer{
+    max-width:1180px; margin:0 auto; padding:0 32px 40px;
+    font-family:var(--mono); font-size:11px; color:#8b8677;
+  }
+  @media (max-width:600px){
+    header{padding:20px;}
+    main{padding:16px;}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="eyebrow">Dasan Consultants · Overseas Business Development</div>
+  <h1>EOI / 제안서 공고 취합 대시보드</h1>
+  <div class="sub">World Bank 공식 조달 공고를 매일 자동 수집합니다 (초기 버전 — 대상 기관 순차 확대 예정)</div>
+</header>
+
+<div class="meta-bar">
+  <span>최근 업데이트: <b id="generatedAt">-</b></span>
+  <span>수집 범위: 최근 <b id="lookbackDays">-</b>일</span>
+  <span>전체 <b id="totalCount">0</b>건</span>
+</div>
+
+<main>
+  <div class="toolbar">
+    <input type="text" id="searchInput" placeholder="프로젝트명, 국가, 키워드 검색...">
+    <select id="typeFilter">
+      <option value="">전체 공고유형</option>
+    </select>
+    <select id="countryFilter">
+      <option value="">전체 국가</option>
+    </select>
+    <span class="count-pill" id="filteredCount"></span>
+  </div>
+
+  <div class="grid" id="grid"></div>
+</main>
+
+<footer>
+  source: search.worldbank.org/api/procnotices · 매일 KST 06:00 자동 갱신 (GitHub Actions)
+</footer>
+
+<script>
+async function loadData(){
+  const grid = document.getElementById('grid');
+  try{
+    const res = await fetch('data/notices.json?_=' + Date.now());
+    const data = await res.json();
+    render(data);
+  }catch(e){
+    grid.innerHTML = '<div class="empty-state">데이터를 불러오지 못했습니다. 첫 자동 수집이 아직 실행되지 않았을 수 있습니다.</div>';
+  }
+}
+
+let ALL = [];
+
+function render(data){
+  document.getElementById('generatedAt').textContent = data.generated_at
+    ? new Date(data.generated_at).toLocaleString('ko-KR', {timeZone:'Asia/Seoul'}) + ' (KST)'
+    : '아직 수집 전';
+  document.getElementById('lookbackDays').textContent = data.lookback_days ?? '-';
+  document.getElementById('totalCount').textContent = data.count ?? 0;
+
+  ALL = data.notices || [];
+
+  const typeSel = document.getElementById('typeFilter');
+  const countrySel = document.getElementById('countryFilter');
+  const types = [...new Set(ALL.map(n => n.notice_type).filter(Boolean))].sort();
+  const countries = [...new Set(ALL.map(n => n.country).filter(Boolean))].sort();
+  typeSel.innerHTML = '<option value="">전체 공고유형</option>' + types.map(t => `<option value="${escapeAttr(t)}">${escapeHtml(t)}</option>`).join('');
+  countrySel.innerHTML = '<option value="">전체 국가</option>' + countries.map(c => `<option value="${escapeAttr(c)}">${escapeHtml(c)}</option>`).join('');
+
+  applyFilters();
+}
+
+function escapeHtml(s){
+  return (s||'').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+}
+function escapeAttr(s){ return escapeHtml(s); }
+
+function applyFilters(){
+  const q = document.getElementById('searchInput').value.trim().toLowerCase();
+  const type = document.getElementById('typeFilter').value;
+  const country = document.getElementById('countryFilter').value;
+
+  const filtered = ALL.filter(n => {
+    if (type && n.notice_type !== type) return false;
+    if (country && n.country !== country) return false;
+    if (q){
+      const hay = [n.project_name, n.country, n.bid_description, n.notice_type, n.bid_reference_no]
+        .join(' ').toLowerCase();
+      if (!hay.includes(q)) return false;
+    }
+    return true;
+  });
+
+  document.getElementById('filteredCount').textContent = `${filtered.length} / ${ALL.length}건 표시`;
+  renderGrid(filtered);
+}
+
+function renderGrid(items){
+  const grid = document.getElementById('grid');
+  if (items.length === 0){
+    grid.innerHTML = '<div class="empty-state">조건에 맞는 공고가 없습니다.</div>';
+    return;
+  }
+  grid.innerHTML = items.map((n, i) => {
+    const isEoi = (n.notice_type || '').toLowerCase().includes('expression of interest');
+    return `
+    <div class="card ${isEoi ? 'type-eoi' : ''}" id="card-${i}">
+      <div class="card-top">
+        <div class="tag-row">
+          <span class="tag ${isEoi ? 'eoi' : ''}">${escapeHtml(n.notice_type || '기타')}</span>
+          <span class="country">${escapeHtml(n.country || '-')}</span>
+        </div>
+        <span class="date">${escapeHtml(n.notice_date || n.submission_date || '')}</span>
+      </div>
+      <h3>${escapeHtml(n.project_name || '(프로젝트명 없음)')}</h3>
+      <div class="desc">${escapeHtml(n.bid_description || '')}</div>
+      <div class="summary" id="summary-${i}">${escapeHtml(n.summary || '')}</div>
+      <div class="card-foot">
+        <span>Ref. ${escapeHtml(n.bid_reference_no || '-')} · ${escapeHtml(n.procurement_method || '')}</span>
+        <span>
+          <button class="toggle-btn" onclick="toggleCard(${i})">본문 미리보기 ▾</button>
+          &nbsp;·&nbsp;
+          <a href="${n.source_url}" target="_blank" rel="noopener">World Bank 원문 열기 →</a>
+        </span>
+      </div>
+    </div>`;
+  }).join('');
+}
+
+function toggleCard(i){
+  document.getElementById('card-' + i).classList.toggle('open');
+}
+
+document.getElementById('searchInput').addEventListener('input', applyFilters);
+document.getElementById('typeFilter').addEventListener('change', applyFilters);
+document.getElementById('countryFilter').addEventListener('change', applyFilters);
+
+loadData();
+</script>
+</body>
+</html>
