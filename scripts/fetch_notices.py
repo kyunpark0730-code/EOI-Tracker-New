@@ -41,6 +41,19 @@ ROWS_PER_PAGE = 100
 MAX_PAGES = 10
 
 
+def parse_notice_date(raw: str):
+    """'31-Oct-2019' 같은 'DD-Mon-YYYY' 형식 문자열을 datetime으로 변환.
+    실패하면 None을 반환 (정렬/필터에서 가장 오래된 것으로 취급)."""
+    if not raw:
+        return None
+    for fmt in ("%d-%b-%Y", "%d-%B-%Y", "%Y-%m-%d", "%m/%d/%Y"):
+        try:
+            return datetime.strptime(raw.strip(), fmt)
+        except ValueError:
+            continue
+    return None
+
+
 def fetch_page(notice_type: str, offset: int, start_date: str) -> dict:
     params = {
         "format": "json",
@@ -48,7 +61,9 @@ def fetch_page(notice_type: str, offset: int, start_date: str) -> dict:
         "os": str(offset),
         "strdate": start_date,
         "notice_type_exact": notice_type,
-        "srt": "noticedate",
+        # 실제 응답 필드명은 'notice_date' (이전 버전은 'noticedate'로 잘못 지정되어
+        # 서버가 정렬 파라미터를 무시하고 있었음)
+        "srt": "notice_date",
         "order": "desc",
     }
     url = f"{API_BASE}?{urllib.parse.urlencode(params)}"
@@ -70,7 +85,8 @@ def strip_html(text: str) -> str:
 
 
 def collect() -> list:
-    start_date = (datetime.now(timezone.utc) - timedelta(days=LOOKBACK_DAYS)).strftime("%Y-%m-%d")
+    cutoff = datetime.now(timezone.utc).replace(tzinfo=None) - timedelta(days=LOOKBACK_DAYS)
+    start_date = cutoff.strftime("%Y-%m-%d")
     all_notices = {}
 
     for notice_type in NOTICE_TYPES:
@@ -86,11 +102,19 @@ def collect() -> list:
             if not items:
                 break
 
+            page_dates = []
             for item in items:
                 nid = item.get("id")
                 if not nid:
                     continue
+                notice_date_raw = item.get("noticedate", "")
+                parsed = parse_notice_date(notice_date_raw)
+                page_dates.append(parsed)
+                # 수집 기간(cutoff)보다 오래된 공고는 건너뜀 (서버 정렬이 안 먹더라도 안전하게 필터링)
+                if parsed and parsed < cutoff:
+                    continue
                 all_notices[nid] = {
+                    "_sort_date": parsed.isoformat() if parsed else "",
                     "id": nid,
                     "notice_type": item.get("notice_type", ""),
                     "notice_date": item.get("noticedate", ""),
@@ -111,15 +135,25 @@ def collect() -> list:
 
             total = int(data.get("total", 0))
             offset += ROWS_PER_PAGE
+
+            # 이 페이지의 항목이 전부 cutoff보다 오래됐다면(서버가 실제로 최신순 정렬을
+            # 반영했다는 전제 하에) 더 이상 넘겨봐도 최신 공고가 나올 가능성이 낮으므로 종료
+            valid_dates = [d for d in page_dates if d is not None]
+            if valid_dates and max(valid_dates) < cutoff:
+                break
+
             if offset >= total:
                 break
             time.sleep(0.3)  # 서버 부담 방지
 
-    # 최신순 정렬 (notice_date 문자열 기준, 형식이 제각각일 수 있어 안전하게 처리)
+    # 실제 파싱된 날짜(_sort_date, ISO 형식이라 문자열 비교로도 시간순 정렬됨) 기준 최신순 정렬.
+    # 날짜 파싱 실패한 항목은 맨 뒤로 보냄.
     def sort_key(n):
-        return n.get("notice_date") or n.get("submission_date") or ""
+        return n.get("_sort_date") or ""
 
     result = sorted(all_notices.values(), key=sort_key, reverse=True)
+    for n in result:
+        n.pop("_sort_date", None)
     return result
 
 
