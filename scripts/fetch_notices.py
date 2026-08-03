@@ -109,15 +109,24 @@ def collect() -> list:
                     continue
                 notice_date_raw = item.get("noticedate", "")
                 parsed = parse_notice_date(notice_date_raw)
+                # notice_date가 비어있으면 submission_date(마감일)로라도 시도
+                fallback_raw = ""
+                if not parsed:
+                    fallback_raw = item.get("submission_date", "")
+                    parsed = parse_notice_date(fallback_raw)
                 page_dates.append(parsed)
-                # 수집 기간(cutoff)보다 오래된 공고는 건너뜀 (서버 정렬이 안 먹더라도 안전하게 필터링)
-                if parsed and parsed < cutoff:
+                # 날짜를 전혀 알 수 없는 항목은 "최근 것인지 확인 불가능"하므로 제외 (fail-safe)
+                if parsed is None:
                     continue
+                # 수집 기간(cutoff)보다 오래된 공고는 건너뜀 (서버 정렬이 안 먹더라도 안전하게 필터링)
+                if parsed < cutoff:
+                    continue
+                display_date = notice_date_raw or fallback_raw
                 all_notices[nid] = {
                     "_sort_date": parsed.isoformat() if parsed else "",
                     "id": nid,
                     "notice_type": item.get("notice_type", ""),
-                    "notice_date": item.get("noticedate", ""),
+                    "notice_date": display_date,
                     "submission_date": item.get("submission_date", ""),
                     "country": item.get("project_ctry_name", ""),
                     "project_id": item.get("project_id", ""),
