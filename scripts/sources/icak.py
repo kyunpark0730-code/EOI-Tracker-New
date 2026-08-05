@@ -62,9 +62,9 @@ def fetch() -> list:
     raw_preview = json.dumps(data, ensure_ascii=False)[:600]
     print(f"[ICAK 디버그] 원본 응답: {raw_preview}", file=sys.stderr)
 
-    items = data.get("data", [])
+    items = data.get("data", {})
     if isinstance(items, dict):
-        items = [items]
+        items = items.get("list", [])
 
     print(f"[ICAK 디버그] 원본 항목 수: {len(items) if isinstance(items, list) else 'N/A'}, cutoff={cutoff.date()}", file=sys.stderr)
 
