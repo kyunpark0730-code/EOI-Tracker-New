@@ -7,8 +7,11 @@
 조건 (사용자가 나라장터 사이트에서 직접 검색했던 조건과 동일하게 맞춤):
 - 용역 분야 입찰공고
 - 수요기관명에 "해외"가 포함된 공고만 (예: 한국해외인프라도시개발지원공사 등)
-- 최근 6개월 이내 공고
+- 최근 3개월 이내 공고
 - '계약체결/낙찰' 정보 아님 - 순수 "입찰공고" 목록만 (이 API 자체가 공고 정보만 제공)
+
+※ 이 API는 한 번의 요청으로 조회 가능한 기간이 제한되어 있어("입력범위값 초과" 에러),
+   전체 기간을 14일 단위로 잘라서 여러 번 나눠 요청한 뒤 결과를 합친다.
 """
 
 import json
@@ -25,9 +28,10 @@ API_BASE = "https://apis.data.go.kr/1230000/ad/BidPublicInfoService/getBidPblanc
 # 클라이언트에서도 한 번 더 확인함)
 INSTITUTION_KEYWORD = os.environ.get("G2B_INSTITUTION_KEYWORD", "해외")
 
-LOOKBACK_DAYS = 183  # 약 6개월
+LOOKBACK_DAYS = 90  # 약 3개월
+CHUNK_DAYS = 14      # 한 번에 조회할 기간 (API 제한을 피하기 위해 안전하게 14일)
 ROWS_PER_PAGE = 100
-MAX_PAGES = 30
+MAX_PAGES_PER_CHUNK = 10
 
 
 def _fetch_page(page_no: int, begin_dt: str, end_dt: str, api_key: str) -> dict:
@@ -52,9 +56,24 @@ def _fetch_page(page_no: int, begin_dt: str, end_dt: str, api_key: str) -> dict:
             return json.loads(body)
         except Exception as e:
             last_err = e
-            print(f"[나라장터 경고] page={page_no} 시도 {attempt + 1}/3 실패: {e}", file=sys.stderr)
+            print(f"[나라장터 경고] {begin_dt}~{end_dt} page={page_no} 시도 {attempt + 1}/3 실패: {e}", file=sys.stderr)
             time.sleep(3)
     raise last_err
+
+
+def _date_chunks(total_days: int, chunk_days: int):
+    """오늘부터 거꾸로 total_days 만큼을 chunk_days 단위로 잘라 (시작, 끝) 튜플 리스트로 반환."""
+    now = datetime.now(timezone.utc).replace(tzinfo=None)
+    chunks = []
+    end = now
+    remaining = total_days
+    while remaining > 0:
+        span = min(chunk_days, remaining)
+        begin = end - timedelta(days=span)
+        chunks.append((begin, end))
+        end = begin
+        remaining -= span
+    return chunks
 
 
 def fetch() -> list:
@@ -63,69 +82,65 @@ def fetch() -> list:
         print("[나라장터 경고] G2B_API_KEY 환경변수가 없어 건너뜁니다.", file=sys.stderr)
         return []
 
-    now = datetime.now(timezone.utc).replace(tzinfo=None)
-    begin = now - timedelta(days=LOOKBACK_DAYS)
-    begin_dt = begin.strftime("%Y%m%d0000")
-    end_dt = now.strftime("%Y%m%d2359")
-
     results = {}
     debug_printed = False
-    debug_printed_count = False
 
-    for page in range(1, MAX_PAGES + 1):
-        try:
-            data = _fetch_page(page, begin_dt, end_dt, api_key)
-        except Exception as e:
-            print(f"[나라장터 경고] page={page} 요청 실패: {e}", file=sys.stderr)
-            break
+    for begin, end in _date_chunks(LOOKBACK_DAYS, CHUNK_DAYS):
+        begin_dt = begin.strftime("%Y%m%d0000")
+        end_dt = end.strftime("%Y%m%d2359")
 
-        header = data.get("response", {}).get("header", {})
-        result_code = header.get("resultCode", "")
-        result_msg = header.get("resultMsg", "")
-        if not debug_printed:
-            raw_preview = json.dumps(data, ensure_ascii=False)[:800]
-            print(f"[나라장터 디버그] 원본 응답: {raw_preview}", file=sys.stderr)
-            debug_printed = True
-        if result_code not in ("00", "0", ""):
-            print(f"[나라장터 경고] API 오류 응답: {result_code} - {result_msg}", file=sys.stderr)
-            break
+        for page in range(1, MAX_PAGES_PER_CHUNK + 1):
+            try:
+                data = _fetch_page(page, begin_dt, end_dt, api_key)
+            except Exception as e:
+                print(f"[나라장터 경고] {begin_dt}~{end_dt} page={page} 요청 실패: {e}", file=sys.stderr)
+                break
 
-        body = data.get("response", {}).get("body", {})
-        items_raw = body.get("items", [])
-        # 결과가 1건일 때 dict로, 여러 건일 때 list로 오는 경우가 있어 방어적으로 처리
-        if isinstance(items_raw, dict):
-            items_raw = [items_raw]
-        if not items_raw:
-            break
+            header = data.get("response", {}).get("header", {})
+            result_code = header.get("resultCode", "")
+            result_msg = header.get("resultMsg", "")
+            if not debug_printed:
+                raw_preview = json.dumps(data, ensure_ascii=False)[:500]
+                print(f"[나라장터 디버그] 원본 응답 샘플: {raw_preview}", file=sys.stderr)
+                debug_printed = True
+            if result_code not in ("00", "0", ""):
+                print(f"[나라장터 경고] {begin_dt}~{end_dt} API 오류: {result_code} - {result_msg}", file=sys.stderr)
+                break
 
-        for item in items_raw:
-            dminstt = item.get("dminsttNm", "") or ""
-            if INSTITUTION_KEYWORD not in dminstt:
-                continue  # 안전하게 클라이언트에서도 한 번 더 필터링
+            body = data.get("response", {}).get("body", {})
+            items_raw = body.get("items", [])
+            if isinstance(items_raw, dict):
+                items_raw = [items_raw]
+            if not items_raw:
+                break
 
-            nid = item.get("bidNtceNo", "") + "-" + item.get("bidNtceOrd", "")
-            results[nid] = {
-                "id": f"g2b-{nid}",
-                "notice_type": "용역 입찰공고",
-                "notice_date": item.get("bidNtceDt", ""),
-                "submission_date": item.get("bidClseDt", ""),
-                "country": "대한민국",
-                "project_id": item.get("bidNtceNo", ""),
-                "project_name": item.get("bidNtceNm", ""),
-                "bid_reference_no": item.get("bidNtceNo", ""),
-                "bid_description": dminstt,
-                "procurement_method": item.get("cntrctCnclsMthdNm", ""),
-                "summary": "",
-                "source": "나라장터(G2B)",
-                "source_url": item.get("bidNtceDtlUrl") or "https://www.g2b.go.kr",
-            }
+            for item in items_raw:
+                dminstt = item.get("dminsttNm", "") or ""
+                if INSTITUTION_KEYWORD not in dminstt:
+                    continue
 
-        total_count = int(body.get("totalCount", 0))
-        if not debug_printed_count:
-            print(f"[나라장터 디버그] totalCount={total_count}", file=sys.stderr)
-            debug_printed_count = True
-        if page * ROWS_PER_PAGE >= total_count:
-            break
-        time.sleep(0.2)
+                nid = item.get("bidNtceNo", "") + "-" + item.get("bidNtceOrd", "")
+                results[nid] = {
+                    "id": f"g2b-{nid}",
+                    "notice_type": "용역 입찰공고",
+                    "notice_date": item.get("bidNtceDt", ""),
+                    "submission_date": item.get("bidClseDt", ""),
+                    "country": "대한민국",
+                    "project_id": item.get("bidNtceNo", ""),
+                    "project_name": item.get("bidNtceNm", ""),
+                    "bid_reference_no": item.get("bidNtceNo", ""),
+                    "bid_description": dminstt,
+                    "procurement_method": item.get("cntrctCnclsMthdNm", ""),
+                    "summary": "",
+                    "source": "나라장터(G2B)",
+                    "source_url": item.get("bidNtceDtlUrl") or "https://www.g2b.go.kr",
+                }
+
+            total_count = int(body.get("totalCount", 0))
+            if page * ROWS_PER_PAGE >= total_count:
+                break
+            time.sleep(0.2)
+
+        time.sleep(0.3)  # 청크 사이 서버 부담 방지
 
     return list(results.values())
