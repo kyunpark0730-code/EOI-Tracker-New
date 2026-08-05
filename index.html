@@ -97,7 +97,7 @@
   .grid{display:flex; flex-direction:column; gap:8px;}
   .row-card{
     display:grid;
-    grid-template-columns: 96px 140px 100px 1fr 130px;
+    grid-template-columns: 96px 190px 100px 1fr 130px;
     gap:16px;
     align-items:start;
     background:var(--surface);
@@ -106,10 +106,11 @@
     padding:14px 16px;
     box-shadow:0 1px 2px rgba(16,24,40,.04);
     transition:box-shadow .15s, border-color .15s;
+    overflow:hidden;
   }
   .row-card:hover{box-shadow:0 4px 12px rgba(16,24,40,.08); border-color:#d7dae0;}
   .row-head{
-    display:grid; grid-template-columns: 96px 140px 100px 1fr 130px; gap:16px;
+    display:grid; grid-template-columns: 96px 190px 100px 1fr 130px; gap:16px;
     padding:0 16px 6px; font-size:11px; font-weight:700; color:var(--ink-soft);
     text-transform:uppercase; letter-spacing:.03em;
   }
@@ -137,8 +138,8 @@
     color:var(--primary);
     text-transform:uppercase;
     letter-spacing:.02em;
-    white-space:nowrap;
     display:inline-block;
+    line-height:1.4;
   }
   .tag.eoi{background:var(--eoi-soft); color:var(--eoi);}
   .country{font-size:12.5px; color:var(--ink-soft); padding-top:2px;}
