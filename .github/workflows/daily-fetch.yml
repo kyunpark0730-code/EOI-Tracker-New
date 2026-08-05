@@ -2,8 +2,9 @@ name: Daily EOI Notice Fetch
 
 on:
   schedule:
+    # 매일 UTC 21:00 = 한국시간(KST) 익일 06:00
     - cron: "0 21 * * *"
-  workflow_dispatch: {}
+  workflow_dispatch: {}   # 수동 실행 버튼도 사용 가능
 
 permissions:
   contents: write
@@ -26,8 +27,11 @@ jobs:
         with:
           python-version: "3.11"
 
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
       - name: Fetch notices
-        run: python scripts/fetch_notices.py
+        run: python scripts/fetch_all.py
 
       - name: Commit updated data
         run: |
