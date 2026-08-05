@@ -17,12 +17,13 @@ from datetime import datetime, timezone
 
 sys.path.insert(0, os.path.dirname(__file__))
 
-from sources import worldbank, ekacem, adb  # noqa: E402
+from sources import worldbank, ekacem, adb, g2b  # noqa: E402
 
 SOURCES = [
     ("World Bank", worldbank),
     ("한국건설엔지니어링협회", ekacem),
     ("ADB", adb),
+    ("나라장터(G2B)", g2b),
 ]
 
 
