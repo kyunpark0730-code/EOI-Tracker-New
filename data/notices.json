@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-08-05T04:04:53.515870+00:00",
+  "generated_at": "2026-08-05T04:14:09.171013+00:00",
   "sources": [
-    "World Bank 584건",
+    "World Bank 585건",
     "한국건설엔지니어링협회 0건",
     "ADB 645건"
   ],
-  "count": 1229,
+  "count": 1230,
   "notices": [
     {
       "id": "wb-OP00458725",
@@ -3773,6 +3773,21 @@
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00458569"
     },
     {
+      "id": "wb-OP00458729",
+      "notice_type": "Request for Expression of Interest",
+      "notice_date": "24-Jul-2026",
+      "submission_date": "2026-08-14T00:00:00Z",
+      "country": "Uzbekistan",
+      "project_id": "P504420",
+      "project_name": "INnovative SOcial Protection System for inclusiON of Vulnerable People Project",
+      "bid_reference_no": "UZ-INSON-QCBS-2.1.1.2.",
+      "bid_description": "Practical Advisory Services for the Improvement of Social Inspection Activities",
+      "procurement_method": "Quality And Cost-Based Selection",
+      "summary": "REQUEST FOR EXPRESSIONS OF INTEREST (CONSULTING SERVICES &ndash; FIRMS SELECTION) Country: The Republic of Uzbekistan Implementation Agency: National Agency for Social Protection (NASP) under the President of the Republic of Uzbekistan Name of Project: &ldquo;Innovative Social Protection System for Inclusion of Vulnerable People&rdquo; (INSON) Financing Agreement No. 7555-UZ / Grant Agreement No. TF C4589-UZ Assignment Title: Practical Advisory Services for the Improvement of Social Inspection A",
+      "source": "World Bank",
+      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00458729"
+    },
+    {
       "id": "wb-OP00458793",
       "notice_type": "Invitation for Bids",
       "notice_date": "24-Jul-2026",
@@ -4373,21 +4388,6 @@
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00458490"
     },
     {
-      "id": "wb-OP00456142",
-      "notice_type": "Request for Expression of Interest",
-      "notice_date": "23-Jul-2026",
-      "submission_date": "2026-08-10T00:00:00Z",
-      "country": "Guinea",
-      "project_id": "P180906",
-      "project_name": "Guinea Kounki Fisheries and Aquaculture Project",
-      "bid_reference_no": "GN-KOUNKI-547509-CS-INDV",
-      "bid_description": "Recrutement d'une Secrétaire pour l'UGP Kounki.",
-      "procurement_method": "Individual Consultant Selection",
-      "summary": "AVIS A MANIFESTATIONS D&rsquo;INTERET N&deg;003/KOUNKI/2026 SERVICES DE CONSULTANTS POUR LE RECRUTEMENT D&rsquo;UN (E )SECRETAIRE DU PROJET . Date de d&eacute;but : 23 Juillet 2026 Date limite : 10 Aout 2026 CONTEXTE ET JUSTIFICATION Le secteur de la p&ecirc;che en Guin&eacute;e joue un r&ocirc;le primordial pour la s&eacute;curit&eacute; alimentaire, l&rsquo;am&eacute;lioration des moyens de subsistance, l&rsquo;emploi et la croissance &eacute;conomique[1]. Une rationalisation de la gestion des",
-      "source": "World Bank",
-      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00456142"
-    },
-    {
       "id": "wb-OP00458426",
       "notice_type": "Request for Expression of Interest",
       "notice_date": "23-Jul-2026",
@@ -4401,6 +4401,21 @@
       "summary": "REQUEST FOR EXPRESSION OF INTEREST (Consulting Services &ndash; Individual Selection) Country: Republic of South Sudan Project: South Sudan Energy Sector Access and Institutional Strengthening Project (ASSIST) Grant No.: E166-SS Assignment Title: Procurement of Project Accountant Reference No.: SS-MOED-559480-CS-INDV The Government of South Sudan (GoSS) has received funding from the World Bank towards the cost of implementing Access and Institutional Strengthening Project (ASSIST) and is being i",
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00458426"
+    },
+    {
+      "id": "wb-OP00456142",
+      "notice_type": "Request for Expression of Interest",
+      "notice_date": "23-Jul-2026",
+      "submission_date": "2026-08-10T00:00:00Z",
+      "country": "Guinea",
+      "project_id": "P180906",
+      "project_name": "Guinea Kounki Fisheries and Aquaculture Project",
+      "bid_reference_no": "GN-KOUNKI-547509-CS-INDV",
+      "bid_description": "Recrutement d'une Secrétaire pour l'UGP Kounki.",
+      "procurement_method": "Individual Consultant Selection",
+      "summary": "AVIS A MANIFESTATIONS D&rsquo;INTERET N&deg;003/KOUNKI/2026 SERVICES DE CONSULTANTS POUR LE RECRUTEMENT D&rsquo;UN (E )SECRETAIRE DU PROJET . Date de d&eacute;but : 23 Juillet 2026 Date limite : 10 Aout 2026 CONTEXTE ET JUSTIFICATION Le secteur de la p&ecirc;che en Guin&eacute;e joue un r&ocirc;le primordial pour la s&eacute;curit&eacute; alimentaire, l&rsquo;am&eacute;lioration des moyens de subsistance, l&rsquo;emploi et la croissance &eacute;conomique[1]. Une rationalisation de la gestion des",
+      "source": "World Bank",
+      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00456142"
     },
     {
       "id": "wb-OP00458550",
