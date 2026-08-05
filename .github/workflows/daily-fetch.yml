@@ -31,6 +31,8 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Fetch notices
+        env:
+          G2B_API_KEY: ${{ secrets.G2B_API_KEY }}
         run: python scripts/fetch_all.py
 
       - name: Commit updated data
