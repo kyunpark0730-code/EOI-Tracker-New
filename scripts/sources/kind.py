@@ -61,11 +61,10 @@ def fetch() -> list:
         if any_id_links:
             print(f"[KIND 디버그] 예시 href: {any_id_links[0].get('href')}", file=sys.stderr)
 
-    for link in matched_links:
-        row = link.find_parent("tr")
-        if row is None:
-            continue
+    skipped_no_date = 0
+    skipped_old = 0
 
+    for link in matched_links:
         href = link.get("href", "")
         id_match = re.search(r"[?&]id=(\d+)", href)
         if not id_match:
@@ -76,7 +75,18 @@ def fetch() -> list:
         if not title:
             continue
 
-        date_match = re.search(r"\d{4}-\d{2}-\d{2}", row.get_text())
+        # <tr>가 아닐 수도 있으므로, 상위로 올라가며 날짜 패턴이 보이는 첫 컨테이너를 찾는다
+        date_match = None
+        node = link
+        for _ in range(6):
+            node = node.parent
+            if node is None:
+                break
+            m = re.search(r"\d{4}-\d{2}-\d{2}", node.get_text())
+            if m:
+                date_match = m
+                break
+
         notice_date = date_match.group(0) if date_match else ""
 
         parsed_date = None
@@ -85,8 +95,11 @@ def fetch() -> list:
                 parsed_date = datetime.strptime(notice_date, "%Y-%m-%d")
             except ValueError:
                 parsed_date = None
+        else:
+            skipped_no_date += 1
 
         if parsed_date and parsed_date < cutoff:
+            skipped_old += 1
             continue  # 오래된 공고는 제외
 
         # 대괄호 안 공고 유형([입찰공고 26-28호], [사전규격 공개] 등) 추출
@@ -109,4 +122,5 @@ def fetch() -> list:
             "source_url": f"{DETAIL_BASE}?id={notice_id}&menuMode=READ&q=",
         })
 
+    print(f"[KIND 디버그] 최종 {len(results)}건 (날짜못찾음 {skipped_no_date}건, 오래된공고 제외 {skipped_old}건)", file=sys.stderr)
     return results
