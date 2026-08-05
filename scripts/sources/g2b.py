@@ -69,12 +69,24 @@ def fetch() -> list:
     end_dt = now.strftime("%Y%m%d2359")
 
     results = {}
+    debug_printed = False
+    debug_printed_count = False
 
     for page in range(1, MAX_PAGES + 1):
         try:
             data = _fetch_page(page, begin_dt, end_dt, api_key)
         except Exception as e:
             print(f"[나라장터 경고] page={page} 요청 실패: {e}", file=sys.stderr)
+            break
+
+        header = data.get("response", {}).get("header", {})
+        result_code = header.get("resultCode", "")
+        result_msg = header.get("resultMsg", "")
+        if not debug_printed:
+            print(f"[나라장터 디버그] resultCode={result_code} resultMsg={result_msg}", file=sys.stderr)
+            debug_printed = True
+        if result_code not in ("00", "0", ""):
+            print(f"[나라장터 경고] API 오류 응답: {result_code} - {result_msg}", file=sys.stderr)
             break
 
         body = data.get("response", {}).get("body", {})
@@ -108,6 +120,9 @@ def fetch() -> list:
             }
 
         total_count = int(body.get("totalCount", 0))
+        if not debug_printed_count:
+            print(f"[나라장터 디버그] totalCount={total_count}", file=sys.stderr)
+            debug_printed_count = True
         if page * ROWS_PER_PAGE >= total_count:
             break
         time.sleep(0.2)
