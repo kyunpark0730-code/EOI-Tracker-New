@@ -6,150 +6,153 @@
 <title>EOI Tracker — 해외사업 공고 취합</title>
 <style>
   :root{
-    --paper:#f6f4ee;
-    --ink:#1c2a33;
-    --navy:#1f3b52;
-    --navy-deep:#152735;
-    --line:#c9c2b2;
-    --accent:#b5542a;
-    --accent-soft:#e7dccb;
-    --mono: "IBM Plex Mono","SFMono-Regular",Consolas,monospace;
-    --serif: "Source Serif 4","Noto Serif KR",serif;
-    --sans: "Pretendard","Noto Sans KR",-apple-system,sans-serif;
+    --bg:#f7f8fa;
+    --surface:#ffffff;
+    --ink:#1a1d23;
+    --ink-soft:#5b6270;
+    --border:#e5e7eb;
+    --primary:#2563eb;
+    --primary-soft:#eff4ff;
+    --eoi:#d97706;
+    --eoi-soft:#fef3e2;
+    --sans: "Pretendard","Noto Sans KR",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
   }
   *{box-sizing:border-box;}
   body{
     margin:0;
-    background:var(--paper);
+    background:var(--bg);
     color:var(--ink);
     font-family:var(--sans);
-    background-image:
-      linear-gradient(var(--line) 1px, transparent 1px),
-      linear-gradient(90deg, var(--line) 1px, transparent 1px);
-    background-size:32px 32px;
-    background-attachment:fixed;
+    -webkit-font-smoothing:antialiased;
   }
   header{
-    background:var(--navy-deep);
-    color:var(--paper);
-    padding:28px 32px 22px;
-    border-bottom:4px solid var(--accent);
+    background:var(--surface);
+    border-bottom:1px solid var(--border);
+    padding:28px 32px 24px;
   }
   header .eyebrow{
-    font-family:var(--mono);
     font-size:12px;
-    letter-spacing:.12em;
+    font-weight:600;
+    letter-spacing:.06em;
     text-transform:uppercase;
-    color:var(--accent-soft);
-    opacity:.85;
+    color:var(--primary);
   }
   header h1{
-    margin:6px 0 4px;
-    font-family:var(--serif);
-    font-weight:600;
-    font-size:28px;
-    letter-spacing:-0.01em;
+    margin:6px 0 6px;
+    font-weight:700;
+    font-size:26px;
+    letter-spacing:-0.02em;
+    color:var(--ink);
   }
   header .sub{
-    font-size:13px;
-    color:#c8d2da;
+    font-size:13.5px;
+    color:var(--ink-soft);
   }
   .meta-bar{
-    max-width:1180px;
+    max-width:1100px;
     margin:0 auto;
-    padding:16px 32px 0;
+    padding:14px 32px 0;
     display:flex;
-    gap:24px;
+    gap:20px;
     flex-wrap:wrap;
     align-items:baseline;
-    font-family:var(--mono);
-    font-size:12px;
-    color:#5b6a72;
+    font-size:12.5px;
+    color:var(--ink-soft);
   }
-  .meta-bar b{color:var(--navy);}
-  main{max-width:1180px;margin:0 auto;padding:20px 32px 60px;}
+  .meta-bar b{color:var(--ink); font-weight:600;}
+  main{max-width:1100px;margin:0 auto;padding:20px 32px 60px;}
   .toolbar{
     display:flex;
     gap:10px;
     flex-wrap:wrap;
-    background:#fffdf8;
-    border:1px solid var(--line);
-    padding:14px;
-    margin-bottom:22px;
+    background:var(--surface);
+    border:1px solid var(--border);
+    border-radius:12px;
+    padding:12px;
+    margin-bottom:20px;
+    box-shadow:0 1px 2px rgba(16,24,40,.04);
   }
   .toolbar input, .toolbar select{
     font-family:var(--sans);
-    font-size:13px;
-    padding:8px 10px;
-    border:1px solid var(--line);
+    font-size:13.5px;
+    padding:9px 12px;
+    border:1px solid var(--border);
+    border-radius:8px;
     background:#fff;
     color:var(--ink);
+  }
+  .toolbar input:focus, .toolbar select:focus{
+    outline:none; border-color:var(--primary);
   }
   .toolbar input[type="text"]{flex:1 1 220px;}
   .toolbar select{flex:0 0 auto;}
   .count-pill{
-    font-family:var(--mono);
-    font-size:12px;
+    font-size:12.5px;
+    font-weight:600;
     align-self:center;
-    color:var(--accent);
+    color:var(--primary);
     margin-left:auto;
     white-space:nowrap;
   }
-  .grid{display:flex; flex-direction:column; gap:10px;}
-  .card{
-    background:#fffdf8;
-    border:1px solid var(--line);
-    border-left:4px solid var(--navy);
-    padding:16px 18px;
-    position:relative;
-    transition:border-color .15s;
+  .grid{display:flex; flex-direction:column; gap:8px;}
+  .row-card{
+    display:grid;
+    grid-template-columns: 96px 140px 100px 1fr 130px;
+    gap:16px;
+    align-items:start;
+    background:var(--surface);
+    border:1px solid var(--border);
+    border-radius:10px;
+    padding:14px 16px;
+    box-shadow:0 1px 2px rgba(16,24,40,.04);
+    transition:box-shadow .15s, border-color .15s;
   }
-  .card.type-eoi{border-left-color:var(--accent);}
-  .card-top{
-    display:flex; justify-content:space-between; gap:12px; flex-wrap:wrap; margin-bottom:6px;
+  .row-card:hover{box-shadow:0 4px 12px rgba(16,24,40,.08); border-color:#d7dae0;}
+  .row-head{
+    display:grid; grid-template-columns: 96px 140px 100px 1fr 130px; gap:16px;
+    padding:0 16px 6px; font-size:11px; font-weight:700; color:var(--ink-soft);
+    text-transform:uppercase; letter-spacing:.03em;
   }
-  .tag-row{display:flex; gap:8px; flex-wrap:wrap; align-items:center;}
+  .col-source{font-size:12px; color:var(--ink-soft); font-weight:600; padding-top:2px;}
+  .col-title-block .title-link{
+    font-size:14.5px; font-weight:700; color:var(--ink); text-decoration:none; line-height:1.4;
+  }
+  .col-title-block .title-link:hover{color:var(--primary); text-decoration:underline;}
+  .col-title-block .desc-line{
+    display:block; font-size:12.5px; color:var(--ink-soft); line-height:1.5; margin-top:4px;
+  }
+  .col-title-block .meta-row{margin-top:6px; display:flex; gap:6px; flex-wrap:wrap;}
+  .meta-chip{
+    font-size:11px; color:var(--ink-soft); background:#f3f4f6; border-radius:6px;
+    padding:2px 8px; white-space:nowrap;
+  }
+  .col-date{font-size:12px; color:var(--ink-soft); line-height:1.6;}
+  .col-date .deadline{color:var(--primary); font-weight:700;}
   .tag{
-    font-family:var(--mono);
     font-size:11px;
-    padding:3px 8px;
-    border:1px solid var(--line);
-    color:var(--navy);
-    text-transform:uppercase;
-    letter-spacing:.03em;
-  }
-  .tag.eoi{border-color:var(--accent); color:var(--accent);}
-  .country{font-family:var(--mono); font-size:11px; color:#5b6a72;}
-  .date{font-family:var(--mono); font-size:11px; color:#5b6a72; white-space:nowrap;}
-  .card h3{
-    margin:4px 0 6px;
-    font-family:var(--serif);
-    font-size:16px;
     font-weight:600;
-    line-height:1.35;
+    padding:3px 9px;
+    border-radius:999px;
+    background:var(--primary-soft);
+    color:var(--primary);
+    text-transform:uppercase;
+    letter-spacing:.02em;
+    white-space:nowrap;
+    display:inline-block;
   }
-  .card .desc{font-size:13px; color:#3d4a52; line-height:1.55; margin-bottom:8px;}
-  .card .summary{
-    font-size:12.5px; color:#6b7680; line-height:1.6;
-    max-height:0; overflow:hidden; transition:max-height .2s ease;
-  }
-  .card.open .summary{max-height:400px; margin-bottom:8px;}
-  .card-foot{
-    display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px;
-    font-size:12px; color:#5b6a72;
-  }
-  .card-foot a{color:var(--navy); text-decoration:none; border-bottom:1px solid var(--navy);}
-  .toggle-btn{
-    background:none; border:none; font-family:var(--mono); font-size:11px;
-    color:var(--accent); cursor:pointer; padding:0;
-  }
+  .tag.eoi{background:var(--eoi-soft); color:var(--eoi);}
+  .country{font-size:12.5px; color:var(--ink-soft); padding-top:2px;}
   .empty-state{
-    text-align:center; padding:60px 20px; color:#5b6a72;
-    font-family:var(--serif); font-size:15px; border:1px dashed var(--line);
+    text-align:center; padding:60px 20px; color:var(--ink-soft);
+    font-size:14.5px; border:1px dashed var(--border); border-radius:12px; background:var(--surface);
+  }
+  @media (max-width:820px){
+    .row-head{display:none;}
+    .row-card{grid-template-columns:1fr; gap:6px;}
   }
   footer{
-    max-width:1180px; margin:0 auto; padding:0 32px 40px;
-    font-family:var(--mono); font-size:11px; color:#8b8677;
+    max-width:1100px; margin:0 auto; padding:0 32px 40px;
+    font-size:11.5px; color:#a1a7b0;
   }
   @media (max-width:600px){
     header{padding:20px;}
@@ -160,7 +163,7 @@
 <body>
 
 <header>
-  <div class="eyebrow">Dasan Consultants · Overseas Business Development</div>
+  <div class="eyebrow">Dasan Consultants · Overseas Project</div>
   <h1>EOI / 제안서 공고 취합 대시보드</h1>
   <div class="sub">국내외 발주기관 공고를 매일 자동 수집합니다 (대상 사이트 순차 확대 중)</div>
 </header>
@@ -262,30 +265,45 @@ function renderGrid(items){
     grid.innerHTML = '<div class="empty-state">조건에 맞는 공고가 없습니다.</div>';
     return;
   }
-  grid.innerHTML = items.map((n, i) => {
+
+  const head = `
+    <div class="row-head">
+      <span>출처</span>
+      <span>유형</span>
+      <span>국가</span>
+      <span>제목</span>
+      <span>일정</span>
+    </div>`;
+
+  const rows = items.map((n) => {
     const isEoi = (n.notice_type || '').toLowerCase().includes('expression of interest');
+
+    const chips = [];
+    if (n.bid_reference_no) chips.push(`<span class="meta-chip">Ref. ${escapeHtml(n.bid_reference_no)}</span>`);
+    if (n.procurement_method) chips.push(`<span class="meta-chip">${escapeHtml(n.procurement_method)}</span>`);
+    const metaRow = chips.length ? `<div class="meta-row">${chips.join('')}</div>` : '';
+    const descLine = n.bid_description ? `<span class="desc-line">${escapeHtml(n.bid_description)}</span>` : '';
+
+    const dateBits = [];
+    if (n.notice_date) dateBits.push(`게시 ${escapeHtml(n.notice_date)}`);
+    if (n.submission_date) dateBits.push(`<span class="deadline">마감 ${escapeHtml(n.submission_date)}</span>`);
+    const dateBlock = dateBits.length ? dateBits.join('<br>') : '-';
+
     return `
-    <div class="card ${isEoi ? 'type-eoi' : ''}" id="card-${i}">
-      <div class="card-top">
-        <div class="tag-row">
-          <span class="tag ${isEoi ? 'eoi' : ''}">${escapeHtml(n.notice_type || '기타')}</span>
-          <span class="country">${escapeHtml(n.country || '-')}</span>
-        </div>
-        <span class="date">${n.submission_date ? '마감 ' + escapeHtml(n.submission_date) : (n.notice_date ? '게시 ' + escapeHtml(n.notice_date) : '')}</span>
+    <div class="row-card">
+      <div class="col-source">${escapeHtml(n.source || '-')}</div>
+      <div><span class="tag ${isEoi ? 'eoi' : ''}">${escapeHtml(n.notice_type || '기타')}</span></div>
+      <div class="country">${escapeHtml(n.country || '-')}</div>
+      <div class="col-title-block">
+        <a class="title-link" href="${n.source_url}" target="_blank" rel="noopener">${escapeHtml(n.project_name || '(프로젝트명 없음)')}</a>
+        ${descLine}
+        ${metaRow}
       </div>
-      <h3>${escapeHtml(n.project_name || '(프로젝트명 없음)')}</h3>
-      <div class="desc">${escapeHtml(n.bid_description || '')}</div>
-      <div class="summary" id="summary-${i}">${escapeHtml(n.summary || '')}</div>
-      <div class="card-foot">
-        <span>${escapeHtml(n.source || '')}${n.bid_reference_no ? ' · Ref. ' + escapeHtml(n.bid_reference_no) : ''}${n.procurement_method ? ' · ' + escapeHtml(n.procurement_method) : ''}${n.notice_date && n.submission_date ? ' · 게시 ' + escapeHtml(n.notice_date) : ''}</span>
-        <span>
-          <button class="toggle-btn" onclick="toggleCard(${i})">본문 미리보기 ▾</button>
-          &nbsp;·&nbsp;
-          <a href="${n.source_url}" target="_blank" rel="noopener">${escapeHtml(n.source || '')} 원문 열기 →</a>
-        </span>
-      </div>
+      <div class="col-date">${dateBlock}</div>
     </div>`;
   }).join('');
+
+  grid.innerHTML = head + rows;
 }
 
 function toggleCard(i){
