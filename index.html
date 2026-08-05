@@ -162,12 +162,12 @@
 <header>
   <div class="eyebrow">Dasan Consultants · Overseas Business Development</div>
   <h1>EOI / 제안서 공고 취합 대시보드</h1>
-  <div class="sub">World Bank 공식 조달 공고를 매일 자동 수집합니다 (초기 버전 — 대상 기관 순차 확대 예정)</div>
+  <div class="sub">국내외 발주기관 공고를 매일 자동 수집합니다 (대상 사이트 순차 확대 중)</div>
 </header>
 
 <div class="meta-bar">
   <span>최근 업데이트: <b id="generatedAt">-</b></span>
-  <span>수집 기준: <b id="filterDesc">-</b></span>
+  <span>수집 소스: <b id="sourcesDesc">-</b></span>
   <span>전체 <b id="totalCount">0</b>건</span>
 </div>
 
@@ -187,7 +187,7 @@
 </main>
 
 <footer>
-  source: search.worldbank.org/api/procnotices · 매일 KST 06:00 자동 갱신 (GitHub Actions)
+  매일 KST 06:00 자동 갱신 (GitHub Actions) · 수집 소스는 상단 참고
 </footer>
 
 <script>
@@ -208,7 +208,7 @@ function render(data){
   document.getElementById('generatedAt').textContent = data.generated_at
     ? new Date(data.generated_at).toLocaleString('ko-KR', {timeZone:'Asia/Seoul'}) + ' (KST)'
     : '아직 수집 전';
-  document.getElementById('filterDesc').textContent = data.filter || '전체';
+  document.getElementById('sourcesDesc').textContent = (data.sources || []).join(' · ') || '-';
   document.getElementById('totalCount').textContent = data.count ?? 0;
 
   ALL = data.notices || [];
@@ -263,17 +263,17 @@ function renderGrid(items){
           <span class="tag ${isEoi ? 'eoi' : ''}">${escapeHtml(n.notice_type || '기타')}</span>
           <span class="country">${escapeHtml(n.country || '-')}</span>
         </div>
-        <span class="date">마감 ${escapeHtml(n.submission_date || n.notice_date || '')}</span>
+        <span class="date">${n.submission_date ? '마감 ' + escapeHtml(n.submission_date) : (n.notice_date ? '게시 ' + escapeHtml(n.notice_date) : '')}</span>
       </div>
       <h3>${escapeHtml(n.project_name || '(프로젝트명 없음)')}</h3>
       <div class="desc">${escapeHtml(n.bid_description || '')}</div>
       <div class="summary" id="summary-${i}">${escapeHtml(n.summary || '')}</div>
       <div class="card-foot">
-        <span>Ref. ${escapeHtml(n.bid_reference_no || '-')} · ${escapeHtml(n.procurement_method || '')}${n.notice_date ? ' · 게시 ' + escapeHtml(n.notice_date) : ''}</span>
+        <span>${escapeHtml(n.source || '')}${n.bid_reference_no ? ' · Ref. ' + escapeHtml(n.bid_reference_no) : ''}${n.procurement_method ? ' · ' + escapeHtml(n.procurement_method) : ''}${n.notice_date && n.submission_date ? ' · 게시 ' + escapeHtml(n.notice_date) : ''}</span>
         <span>
           <button class="toggle-btn" onclick="toggleCard(${i})">본문 미리보기 ▾</button>
           &nbsp;·&nbsp;
-          <a href="${n.source_url}" target="_blank" rel="noopener">World Bank 원문 열기 →</a>
+          <a href="${n.source_url}" target="_blank" rel="noopener">${escapeHtml(n.source || '')} 원문 열기 →</a>
         </span>
       </div>
     </div>`;
