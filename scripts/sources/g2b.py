@@ -19,7 +19,7 @@ import urllib.request
 import urllib.parse
 from datetime import datetime, timedelta, timezone
 
-API_BASE = "http://apis.data.go.kr/1230000/BidPublicInfoService/getBidPblancListInfoServcPPSSrch"
+API_BASE = "https://apis.data.go.kr/1230000/BidPublicInfoService/getBidPblancListInfoServcPPSSrch"
 
 # 수요기관명에 이 키워드가 포함된 공고만 남긴다 (서버가 필터를 무시할 경우를 대비해
 # 클라이언트에서도 한 번 더 확인함)
@@ -43,9 +43,18 @@ def _fetch_page(page_no: int, begin_dt: str, end_dt: str, api_key: str) -> dict:
     }
     url = f"{API_BASE}?{urllib.parse.urlencode(params)}"
     req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 (EOI-Tracker/1.0)"})
-    with urllib.request.urlopen(req, timeout=30) as resp:
-        body = resp.read().decode("utf-8", errors="replace")
-    return json.loads(body)
+
+    last_err = None
+    for attempt in range(3):
+        try:
+            with urllib.request.urlopen(req, timeout=60) as resp:
+                body = resp.read().decode("utf-8", errors="replace")
+            return json.loads(body)
+        except Exception as e:
+            last_err = e
+            print(f"[나라장터 경고] page={page_no} 시도 {attempt + 1}/3 실패: {e}", file=sys.stderr)
+            time.sleep(3)
+    raise last_err
 
 
 def fetch() -> list:
