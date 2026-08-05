@@ -7,6 +7,7 @@
 
 import re
 import sys
+import time
 import urllib.request
 from datetime import datetime, timezone, timedelta
 
@@ -23,9 +24,22 @@ LOOKBACK_DAYS = 30
 
 
 def _fetch_html(url: str) -> str:
-    req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 (EOI-Tracker/1.0)"})
-    with urllib.request.urlopen(req, timeout=30) as resp:
-        raw = resp.read()
+    req = urllib.request.Request(url, headers={
+        "User-Agent": "Mozilla/5.0 (EOI-Tracker/1.0)",
+        "Connection": "close",
+    })
+    last_err = None
+    for attempt in range(3):
+        try:
+            with urllib.request.urlopen(req, timeout=25) as resp:
+                raw = resp.read()
+            break
+        except Exception as e:
+            last_err = e
+            print(f"[ekacem 경고] 시도 {attempt + 1}/3 실패: {e}", file=sys.stderr)
+            time.sleep(2)
+    else:
+        raise last_err
     for enc in ("euc-kr", "cp949", "utf-8"):
         try:
             return raw.decode(enc)
