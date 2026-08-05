@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-05T05:31:50.272715+00:00",
+  "generated_at": "2026-08-05T05:36:47.765407+00:00",
   "sources": [
     "World Bank 585건",
     "한국건설엔지니어링협회 0건",
@@ -5874,6 +5874,21 @@
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00457718"
     },
     {
+      "id": "wb-OP00457658",
+      "notice_type": "Invitation for Bids",
+      "notice_date": "19-Jul-2026",
+      "submission_date": "2026-08-18T00:00:00Z",
+      "country": "Nigeria",
+      "project_id": "P170664",
+      "project_name": "Adolescent Girls Initiative for Learning and Empowerment",
+      "bid_reference_no": "NG-NIGER ADF-557975-GO-RFB",
+      "bid_description": "Supply and installation of solar system to selected School in Niger State",
+      "procurement_method": "Request for Bids",
+      "summary": "Invitation for Bids FEDERAL REPUBLIC OF NIGERIA NIGER STATE GOVERNMENT MINISTRY OF BASIC AND SECONDARY EDUCATION SPECIFIC PROCUREMENT NOTICE Invitation for Bids-Goods (One-Envelope Bidding Process) Country: Nigeria Project: Niger State Adolescent Girls&rsquo; Initiative for Learning &amp; Empowerment Project (NIGERAGILE) Credit No.: IDA 74060 -NG Contract Title - SUPPLY AND INSTALLATION OF SOLAR POWER SYSTEM TO 175 SELECTED SCHOOLS IN NIGER STATE . RFB No: NG-NIGER ADF-557975-GO-RFB Issued on : ",
+      "source": "World Bank",
+      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00457658"
+    },
+    {
       "id": "wb-OP00457531",
       "notice_type": "Invitation for Bids",
       "notice_date": "18-Jul-2026",
@@ -6817,21 +6832,6 @@
       "summary": "SPECIFIC PROCUREMENT NOTICE (PROCUREMENT OF GOODS/WORKS) Initial Selection Document (ISD) Invitation for Initial Selection Works (Design and Build) THE CO-OPERATIVE REPUBLIC OF GUYANA INTEGRATED TRANSPORT CORRIDORS PROJECT (ITCP) Credit No.: IDA-77040/ IDA-77050/ IDA-77060 Contract Title: Improvement (Rehabilitation and Upgrade) of the Selected Regional Road Corridor - Reconstruction of Existing Road Network on the East Coast Demerara &ndash; Lot 2: Design and Build Bridges: Across the Mahaica, ",
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00456509"
-    },
-    {
-      "id": "wb-OP00455352",
-      "notice_type": "Invitation for Bids",
-      "notice_date": "14-Jul-2026",
-      "submission_date": "2026-08-18T00:00:00Z",
-      "country": "Nigeria",
-      "project_id": "P170664",
-      "project_name": "Adolescent Girls Initiative for Learning and Empowerment",
-      "bid_reference_no": "NG-NASARAWA ADF-552008-GO-RFB",
-      "bid_description": "Procurement and installation  of solar light  for  85 schools including existing  55 schools for digital learning and 30 schools for new construction",
-      "procurement_method": "Request for Bids",
-      "summary": "NASARAWA STATE GOVERNMENT STATE MINISTRY OF EDUCATION ADOLESCENT GIRLS&rsquo; INITIATIVE FOR LEARNING AND EMPOWERMENT (AGILE) PROJECT. WORLD BANK ASSISTED - (IDA Credit 67380 NG) STATE PROJECT IMPLEMENTATION UNIT S T A N D A R D P R O C U R E M E N T D O C U M E N T FOR PROCUREMENT AND INSTALLATION OF SOLAR LIGHT FOR 85 FOR 55 DIGITAL LITERACYSCHOOLS AND REMODELED SCHOOLS IN NASARAWA STATE &ndash; LOT1 (RFB NUMBER: NG-NASARAWA ADF-552008-GO-RFB) Through NATIONAL COMPETITIVE BIDDING (NCB) (USING ",
-      "source": "World Bank",
-      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00455352"
     },
     {
       "id": "wb-OP00446406",
