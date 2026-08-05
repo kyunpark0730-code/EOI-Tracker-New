@@ -1,9 +1,10 @@
 {
-  "generated_at": "2026-08-05T04:14:09.171013+00:00",
+  "generated_at": "2026-08-05T04:43:53.858325+00:00",
   "sources": [
     "World Bank 585건",
     "한국건설엔지니어링협회 0건",
-    "ADB 645건"
+    "ADB 645건",
+    "나라장터(G2B) 0건"
   ],
   "count": 1230,
   "notices": [
@@ -3068,21 +3069,6 @@
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00459004"
     },
     {
-      "id": "wb-OP00459002",
-      "notice_type": "Request for Expression of Interest",
-      "notice_date": "27-Jul-2026",
-      "submission_date": "2026-08-14T00:00:00Z",
-      "country": "Mozambique",
-      "project_id": "P509890",
-      "project_name": "Urban Water Security Project",
-      "bid_reference_no": "FIPAG/UWSP/CON-29/25",
-      "bid_description": "Communication and Image (Re-Branding)",
-      "procurement_method": "Quality And Cost-Based Selection",
-      "summary": "REP&Uacute;BLICA DE MO&Ccedil;AMBIQUE MINIST&Eacute;RIO DE OBRAS P&Uacute;BLICAS, HABITA&Ccedil;&Atilde;O E RECURSOS H&Iacute;DRICOS, FUNDO DE INVESTIMENTO E PATRIM&Oacute;NIO DE ABASTECIMENTO DE &Aacute;GUA E SANEAMENTO &ndash; FIPAAS PROGRAMA DE SEGURAN&Ccedil;A H&Iacute;DRICA URBANA &ndash; P509890 SOLICITA&Ccedil;&Atilde;O DE MANIFESTA&Ccedil;&Atilde;O DE INTERESSE FIPAG/UWSP/CON-29/25 PRESTA&Ccedil;&Atilde;O DE SERVI&Ccedil;OS DE COMUNICA&Ccedil;&Atilde;O E IMAGEM (Re-Branding) O Governo de",
-      "source": "World Bank",
-      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00459002"
-    },
-    {
       "id": "wb-OP00457151",
       "notice_type": "Request for Expression of Interest",
       "notice_date": "27-Jul-2026",
@@ -4388,21 +4374,6 @@
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00458490"
     },
     {
-      "id": "wb-OP00458426",
-      "notice_type": "Request for Expression of Interest",
-      "notice_date": "23-Jul-2026",
-      "submission_date": "2026-08-10T00:00:00Z",
-      "country": "South Sudan",
-      "project_id": "P178891",
-      "project_name": "South Sudan Energy Sector Access and Institutional Strengthening Project",
-      "bid_reference_no": "SS-MOED-559480-CS-INDV",
-      "bid_description": "Procurement of Project Accountant",
-      "procurement_method": "Individual Consultant Selection",
-      "summary": "REQUEST FOR EXPRESSION OF INTEREST (Consulting Services &ndash; Individual Selection) Country: Republic of South Sudan Project: South Sudan Energy Sector Access and Institutional Strengthening Project (ASSIST) Grant No.: E166-SS Assignment Title: Procurement of Project Accountant Reference No.: SS-MOED-559480-CS-INDV The Government of South Sudan (GoSS) has received funding from the World Bank towards the cost of implementing Access and Institutional Strengthening Project (ASSIST) and is being i",
-      "source": "World Bank",
-      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00458426"
-    },
-    {
       "id": "wb-OP00456142",
       "notice_type": "Request for Expression of Interest",
       "notice_date": "23-Jul-2026",
@@ -4416,6 +4387,21 @@
       "summary": "AVIS A MANIFESTATIONS D&rsquo;INTERET N&deg;003/KOUNKI/2026 SERVICES DE CONSULTANTS POUR LE RECRUTEMENT D&rsquo;UN (E )SECRETAIRE DU PROJET . Date de d&eacute;but : 23 Juillet 2026 Date limite : 10 Aout 2026 CONTEXTE ET JUSTIFICATION Le secteur de la p&ecirc;che en Guin&eacute;e joue un r&ocirc;le primordial pour la s&eacute;curit&eacute; alimentaire, l&rsquo;am&eacute;lioration des moyens de subsistance, l&rsquo;emploi et la croissance &eacute;conomique[1]. Une rationalisation de la gestion des",
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00456142"
+    },
+    {
+      "id": "wb-OP00458426",
+      "notice_type": "Request for Expression of Interest",
+      "notice_date": "23-Jul-2026",
+      "submission_date": "2026-08-10T00:00:00Z",
+      "country": "South Sudan",
+      "project_id": "P178891",
+      "project_name": "South Sudan Energy Sector Access and Institutional Strengthening Project",
+      "bid_reference_no": "SS-MOED-559480-CS-INDV",
+      "bid_description": "Procurement of Project Accountant",
+      "procurement_method": "Individual Consultant Selection",
+      "summary": "REQUEST FOR EXPRESSION OF INTEREST (Consulting Services &ndash; Individual Selection) Country: Republic of South Sudan Project: South Sudan Energy Sector Access and Institutional Strengthening Project (ASSIST) Grant No.: E166-SS Assignment Title: Procurement of Project Accountant Reference No.: SS-MOED-559480-CS-INDV The Government of South Sudan (GoSS) has received funding from the World Bank towards the cost of implementing Access and Institutional Strengthening Project (ASSIST) and is being i",
+      "source": "World Bank",
+      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00458426"
     },
     {
       "id": "wb-OP00458550",
@@ -6831,6 +6817,21 @@
       "summary": "SPECIFIC PROCUREMENT NOTICE (PROCUREMENT OF GOODS/WORKS) Initial Selection Document (ISD) Invitation for Initial Selection Works (Design and Build) THE CO-OPERATIVE REPUBLIC OF GUYANA INTEGRATED TRANSPORT CORRIDORS PROJECT (ITCP) Credit No.: IDA-77040/ IDA-77050/ IDA-77060 Contract Title: Improvement (Rehabilitation and Upgrade) of the Selected Regional Road Corridor - Reconstruction of Existing Road Network on the East Coast Demerara &ndash; Lot 2: Design and Build Bridges: Across the Mahaica, ",
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00456509"
+    },
+    {
+      "id": "wb-OP00455352",
+      "notice_type": "Invitation for Bids",
+      "notice_date": "14-Jul-2026",
+      "submission_date": "2026-08-18T00:00:00Z",
+      "country": "Nigeria",
+      "project_id": "P170664",
+      "project_name": "Adolescent Girls Initiative for Learning and Empowerment",
+      "bid_reference_no": "NG-NASARAWA ADF-552008-GO-RFB",
+      "bid_description": "Procurement and installation  of solar light  for  85 schools including existing  55 schools for digital learning and 30 schools for new construction",
+      "procurement_method": "Request for Bids",
+      "summary": "NASARAWA STATE GOVERNMENT STATE MINISTRY OF EDUCATION ADOLESCENT GIRLS&rsquo; INITIATIVE FOR LEARNING AND EMPOWERMENT (AGILE) PROJECT. WORLD BANK ASSISTED - (IDA Credit 67380 NG) STATE PROJECT IMPLEMENTATION UNIT S T A N D A R D P R O C U R E M E N T D O C U M E N T FOR PROCUREMENT AND INSTALLATION OF SOLAR LIGHT FOR 85 FOR 55 DIGITAL LITERACYSCHOOLS AND REMODELED SCHOOLS IN NASARAWA STATE &ndash; LOT1 (RFB NUMBER: NG-NASARAWA ADF-552008-GO-RFB) Through NATIONAL COMPETITIVE BIDDING (NCB) (USING ",
+      "source": "World Bank",
+      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00455352"
     },
     {
       "id": "wb-OP00446406",
