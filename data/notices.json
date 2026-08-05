@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-05T08:13:14.195790+00:00",
+  "generated_at": "2026-08-05T08:22:49.265563+00:00",
   "sources": [
-    "World Bank 586건",
+    "World Bank 584건",
     "한국건설엔지니어링협회 0건",
     "ADB 645건",
     "나라장터(G2B) 38건",
@@ -9,7 +9,7 @@
     "EIB 200건",
     "KIND 0건"
   ],
-  "count": 1473,
+  "count": 1471,
   "notices": [
     {
       "id": "wb-OP00458725",
@@ -3072,21 +3072,6 @@
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00459004"
     },
     {
-      "id": "wb-OP00459002",
-      "notice_type": "Request for Expression of Interest",
-      "notice_date": "27-Jul-2026",
-      "submission_date": "2026-08-14T00:00:00Z",
-      "country": "Mozambique",
-      "project_id": "P509890",
-      "project_name": "Urban Water Security Project",
-      "bid_reference_no": "FIPAG/UWSP/CON-29/25",
-      "bid_description": "Communication and Image (Re-Branding)",
-      "procurement_method": "Quality And Cost-Based Selection",
-      "summary": "REP&Uacute;BLICA DE MO&Ccedil;AMBIQUE MINIST&Eacute;RIO DE OBRAS P&Uacute;BLICAS, HABITA&Ccedil;&Atilde;O E RECURSOS H&Iacute;DRICOS, FUNDO DE INVESTIMENTO E PATRIM&Oacute;NIO DE ABASTECIMENTO DE &Aacute;GUA E SANEAMENTO &ndash; FIPAAS PROGRAMA DE SEGURAN&Ccedil;A H&Iacute;DRICA URBANA &ndash; P509890 SOLICITA&Ccedil;&Atilde;O DE MANIFESTA&Ccedil;&Atilde;O DE INTERESSE FIPAG/UWSP/CON-29/25 PRESTA&Ccedil;&Atilde;O DE SERVI&Ccedil;OS DE COMUNICA&Ccedil;&Atilde;O E IMAGEM (Re-Branding) O Governo de",
-      "source": "World Bank",
-      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00459002"
-    },
-    {
       "id": "wb-OP00457151",
       "notice_type": "Request for Expression of Interest",
       "notice_date": "27-Jul-2026",
@@ -5875,21 +5860,6 @@
       "summary": "REQUEST FOR EXPRESSIONS OF INTEREST (CONSULTING SERVICES &ndash; FIRM SELECTION) Country: Ethiopia Name of Project: The Building Institutions and Systems to Harness and Realize Agenda (BIASHARA) 2063 Project Grant No : P180117 Assignment Title: Consulting Services for Revision and Harmonization of the Standard Operating Procedures (SOP) for the Conduct of Investigations &ndash; Office of Internal Oversight (OIO), African Union Commission Reference No . ET-AUC-524051-CS-QCBS The African Union Com",
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00457718"
-    },
-    {
-      "id": "wb-OP00457658",
-      "notice_type": "Invitation for Bids",
-      "notice_date": "19-Jul-2026",
-      "submission_date": "2026-08-18T00:00:00Z",
-      "country": "Nigeria",
-      "project_id": "P170664",
-      "project_name": "Adolescent Girls Initiative for Learning and Empowerment",
-      "bid_reference_no": "NG-NIGER ADF-557975-GO-RFB",
-      "bid_description": "Supply and installation of solar system to selected School in Niger State",
-      "procurement_method": "Request for Bids",
-      "summary": "Invitation for Bids FEDERAL REPUBLIC OF NIGERIA NIGER STATE GOVERNMENT MINISTRY OF BASIC AND SECONDARY EDUCATION SPECIFIC PROCUREMENT NOTICE Invitation for Bids-Goods (One-Envelope Bidding Process) Country: Nigeria Project: Niger State Adolescent Girls&rsquo; Initiative for Learning &amp; Empowerment Project (NIGERAGILE) Credit No.: IDA 74060 -NG Contract Title - SUPPLY AND INSTALLATION OF SOLAR POWER SYSTEM TO 175 SELECTED SCHOOLS IN NIGER STATE . RFB No: NG-NIGER ADF-557975-GO-RFB Issued on : ",
-      "source": "World Bank",
-      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00457658"
     },
     {
       "id": "wb-OP00457531",
