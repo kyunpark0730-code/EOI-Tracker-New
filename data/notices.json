@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-05T06:15:36.128641+00:00",
+  "generated_at": "2026-08-05T06:19:31.964551+00:00",
   "sources": [
-    "World Bank 586건",
+    "World Bank 585건",
     "한국건설엔지니어링협회 0건",
     "ADB 645건",
     "나라장터(G2B) 0건",
-    "해외건설협회(ICAK) 0건"
+    "해외건설협회(ICAK) 4건"
   ],
-  "count": 1231,
+  "count": 1234,
   "notices": [
     {
       "id": "wb-OP00458725",
@@ -1043,21 +1043,6 @@
       "summary": "REQUEST FOR EXPRESSIONS OF INTEREST (LEARN-IC-ECEDO-05 &ndash; ECPE Model Diversification Expert) Market Approach - Open, National UKRAINE Lifting Education Access and Resilience in Times of Need in Ukraine Program Grant URFT TF0D0612 Assignment Title: ECPE Model Diversification Expert Reference No. LEARN-IC-ECEDO-05 Ukraine with the International Bank for Reconstruction and Development and the International Development Association (hereinafter referred to as the World Bank) have signed the agre",
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00455611"
-    },
-    {
-      "id": "wb-OP00455613",
-      "notice_type": "Request for Expression of Interest",
-      "notice_date": "31-Jul-2026",
-      "submission_date": "2026-08-14T00:00:00Z",
-      "country": "Ukraine",
-      "project_id": "P504171",
-      "project_name": "Lifting Education Access and Resilience in times of Need in Ukraine Program",
-      "bid_reference_no": "LEARN-IC-ECEDO-08",
-      "bid_description": "Data Analyst Expert",
-      "procurement_method": "Individual Consultant Selection",
-      "summary": "REQUEST FOR EXPRESSIONS OF INTEREST (LEARN-IC-ECEDO-08 &ndash; Data Analyst Expert) Market Approach - Open, National UKRAINE Lifting Education Access and Resilience in Times of Need in Ukraine Program URFT TF0D0612 Assignment Title: Data Analyst Expert Reference No. LEARN-IC-ECEDO-08 Ukraine with the International Bank for Reconstruction and Development and the International Development Association (hereinafter referred to as the World Bank) have signed the agreements for the Program &ldquo;Lift",
-      "source": "World Bank",
-      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00455613"
     },
     {
       "id": "wb-OP00459906",
@@ -18473,6 +18458,66 @@
       "summary": "",
       "source": "ADB",
       "source_url": "https://www.adb.org/node/330186"
+    },
+    {
+      "id": "icak-503456",
+      "notice_type": "입찰공고",
+      "notice_date": "2026-08-03 00:00:00",
+      "submission_date": "2099-12-31 23:59:00",
+      "country": "대한민국",
+      "project_id": "",
+      "project_name": "두큼 라스 마르카즈 원유저장소 확장사업",
+      "bid_reference_no": "",
+      "bid_description": "",
+      "procurement_method": "",
+      "summary": "주오만대한민국대사관에서 수령한 주요 입찰정보 공유 드립니다. ● 사업명: Ras Markaz Crude Oil Park 프로젝트 ● 사업 내용: 라스 마르카즈 원유 저장소에 약 65만 배럴의 원유 저장탱크 8기를 추가 건설하는 사업으로, 완공 시 원유 저장능력이 약 520만 배럴 확대될 예정임. ○ 동 원유 저장소는 현재 2,500만 배럴 규모이며, 장기적으로 최대 2억 배럴 규모로 확장할 계획 ● 입찰 참여: 입찰 참여 희망기업은 참여확인서(Confirmation of Participation)를 작성하여 Tradebridge-PQQ@ottco.om에 이메일로 제출 ○ 제출 마감기한: 2026.8.4. ○ 후속 서류 수령 및 절차 참여를 위해 OQ 전자입찰 플랫폼인 Tawreed Portal 플랫폼*에 등록 필요 ■ https://tawreed.oq.com/esop/oma-host/public/oq/web/login.jst# ○ OTTCO사는 동 사업 수행에 필요한 기술 전문성, ",
+      "source": "해외건설협회(ICAK)",
+      "source_url": "https://www.icak.or.kr/board/bidPblancList"
+    },
+    {
+      "id": "icak-503394",
+      "notice_type": "입찰공고",
+      "notice_date": "2026-07-20 00:00:00",
+      "submission_date": "2099-12-31 23:59:00",
+      "country": "대한민국",
+      "project_id": "",
+      "project_name": "(신규사업 입찰공고)2028년 국토교통 ODA 공모 제안사업 사업형성 고도화 용역 입찰공고 안내",
+      "bid_reference_no": "",
+      "bid_description": "",
+      "procurement_method": "",
+      "summary": "□ 사전규격 개요 ㅇ 입찰공고 개시일: 2026.7.20.(월) ㅇ 입찰공고 마감일: 2026.8.5.(수) ㅇ 발주기관: 해외건설협회 □ 사전규격 접속 방법 ㅇ 국가종합전자조달 나라장터 홈페이지 ((http://www.g2b.go.kr)→발주→사전규격공개→'수요기관'을 '해외건설협회'코드(Z021121)로 검색) □ 대상 용역 ㅇ 2028년 국토교통ODA 신규사업 형성 고도화 용역 □ 문의처 ㅇ 해외건설협회 국제개발협력센터 (사전규격 공개 게시물 내 과업지시서 참조)",
+      "source": "해외건설협회(ICAK)",
+      "source_url": "https://www.icak.or.kr/board/bidPblancList"
+    },
+    {
+      "id": "icak-503387",
+      "notice_type": "입찰공고",
+      "notice_date": "2026-07-16 00:00:00",
+      "submission_date": "2099-12-31 23:59:00",
+      "country": "대한민국",
+      "project_id": "",
+      "project_name": "(신규사업 사전규격 공개) 2028년 국토교통ODA 신규사업 형성 고도화 용역 사전규격 공개 안내",
+      "bid_reference_no": "",
+      "bid_description": "",
+      "procurement_method": "",
+      "summary": "□ 사전규격 개요 ㅇ 사전규격 공개 개시일: 2026.7.15.(수) ㅇ 사전규격 공개 마감일: 2026.7.19.(일) ㅇ 발주기관: 해외건설협회 □ 사전규격 접속 방법 ㅇ 국가종합전자조달 나라장터 홈페이지 ((http://www.g2b.go.kr)→발주→사전규격공개→'수요기관'을 '해외건설협회'코드(Z021121)로 검색) □ 대상 용역 ㅇ 2028년 국토교통ODA 신규사업 형성 고도화 용역 □ 문의처 ㅇ 해외건설협회 국제개발협력센터 (사전규격 공개 게시물 내 과업지시서 참조)",
+      "source": "해외건설협회(ICAK)",
+      "source_url": "https://www.icak.or.kr/board/bidPblancList"
+    },
+    {
+      "id": "icak-503360",
+      "notice_type": "입찰공고",
+      "notice_date": "2026-07-08 00:00:00",
+      "submission_date": "2099-12-31 23:59:00",
+      "country": "대한민국",
+      "project_id": "",
+      "project_name": "[주한브루나이대사관] 브루나이 입찰정보 안내('26.7)",
+      "bid_reference_no": "",
+      "bid_description": "",
+      "procurement_method": "",
+      "summary": "주한브루나이대사관에서 수령한 주요입찰정보 공유 드립니다. ㅇ프로젝트명: Request for Proposal (RFP) to Design, Build, Finance, Operate and Maintain the Development and Land at STKRJ Kampung Rimba - 제안서 관련 문의: eoi.dil@mod.gov.bn - 제안서(RFP) 구입 요청: hasil.kewangan@mod.gov.bn - 제안서 제출 마감 기한: 2026년 9월 29일(화) 15:00 (한국 시간) / 14:00 (브루나이 시간) 붙임: 상세 참고자료. 끝.",
+      "source": "해외건설협회(ICAK)",
+      "source_url": "https://www.icak.or.kr/board/bidPblancList"
     }
   ]
 }
