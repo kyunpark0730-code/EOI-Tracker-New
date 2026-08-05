@@ -59,9 +59,14 @@ def fetch() -> list:
         print(f"[ICAK 경고] 요청 실패: {e}", file=sys.stderr)
         return []
 
+    raw_preview = json.dumps(data, ensure_ascii=False)[:600]
+    print(f"[ICAK 디버그] 원본 응답: {raw_preview}", file=sys.stderr)
+
     items = data.get("data", [])
     if isinstance(items, dict):
         items = [items]
+
+    print(f"[ICAK 디버그] 원본 항목 수: {len(items) if isinstance(items, list) else 'N/A'}, cutoff={cutoff.date()}", file=sys.stderr)
 
     for item in items:
         sn = item.get("sn")
