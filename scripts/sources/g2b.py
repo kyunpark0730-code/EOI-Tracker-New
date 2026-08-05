@@ -49,15 +49,15 @@ def _fetch_page(page_no: int, begin_dt: str, end_dt: str, api_key: str) -> dict:
     req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 (EOI-Tracker/1.0)"})
 
     last_err = None
-    for attempt in range(3):
+    for attempt in range(2):
         try:
-            with urllib.request.urlopen(req, timeout=60) as resp:
+            with urllib.request.urlopen(req, timeout=20) as resp:
                 body = resp.read().decode("utf-8", errors="replace")
             return json.loads(body)
         except Exception as e:
             last_err = e
-            print(f"[나라장터 경고] {begin_dt}~{end_dt} page={page_no} 시도 {attempt + 1}/3 실패: {e}", file=sys.stderr)
-            time.sleep(3)
+            print(f"[나라장터 경고] {begin_dt}~{end_dt} page={page_no} 시도 {attempt + 1}/2 실패: {e}", file=sys.stderr)
+            time.sleep(2)
     raise last_err
 
 
@@ -84,16 +84,21 @@ def fetch() -> list:
 
     results = {}
     debug_printed = False
+    consecutive_chunk_failures = 0
+    MAX_CONSECUTIVE_FAILURES = 2
 
     for begin, end in _date_chunks(LOOKBACK_DAYS, CHUNK_DAYS):
         begin_dt = begin.strftime("%Y%m%d0000")
         end_dt = end.strftime("%Y%m%d2359")
+        chunk_failed = False
 
         for page in range(1, MAX_PAGES_PER_CHUNK + 1):
             try:
                 data = _fetch_page(page, begin_dt, end_dt, api_key)
             except Exception as e:
                 print(f"[나라장터 경고] {begin_dt}~{end_dt} page={page} 요청 실패: {e}", file=sys.stderr)
+                if page == 1:
+                    chunk_failed = True
                 break
 
             header = data.get("response", {}).get("header", {})
@@ -140,6 +145,14 @@ def fetch() -> list:
             if page * ROWS_PER_PAGE >= total_count:
                 break
             time.sleep(0.2)
+
+        if chunk_failed:
+            consecutive_chunk_failures += 1
+            if consecutive_chunk_failures >= MAX_CONSECUTIVE_FAILURES:
+                print(f"[나라장터 경고] {MAX_CONSECUTIVE_FAILURES}개 구간 연속 실패 — 이번 실행은 여기서 포기하고 다음 소스로 넘어갑니다.", file=sys.stderr)
+                break
+        else:
+            consecutive_chunk_failures = 0
 
         time.sleep(0.3)  # 청크 사이 서버 부담 방지
 
