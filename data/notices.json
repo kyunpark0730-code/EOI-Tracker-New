@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-05T05:48:02.326028+00:00",
+  "generated_at": "2026-08-05T05:53:57.721013+00:00",
   "sources": [
-    "World Bank 586건",
+    "World Bank 584건",
     "한국건설엔지니어링협회 0건",
     "ADB 645건",
     "나라장터(G2B) 0건"
   ],
-  "count": 1231,
+  "count": 1229,
   "notices": [
     {
       "id": "wb-OP00458725",
@@ -1044,21 +1044,6 @@
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00455611"
     },
     {
-      "id": "wb-OP00455613",
-      "notice_type": "Request for Expression of Interest",
-      "notice_date": "31-Jul-2026",
-      "submission_date": "2026-08-14T00:00:00Z",
-      "country": "Ukraine",
-      "project_id": "P504171",
-      "project_name": "Lifting Education Access and Resilience in times of Need in Ukraine Program",
-      "bid_reference_no": "LEARN-IC-ECEDO-08",
-      "bid_description": "Data Analyst Expert",
-      "procurement_method": "Individual Consultant Selection",
-      "summary": "REQUEST FOR EXPRESSIONS OF INTEREST (LEARN-IC-ECEDO-08 &ndash; Data Analyst Expert) Market Approach - Open, National UKRAINE Lifting Education Access and Resilience in Times of Need in Ukraine Program URFT TF0D0612 Assignment Title: Data Analyst Expert Reference No. LEARN-IC-ECEDO-08 Ukraine with the International Bank for Reconstruction and Development and the International Development Association (hereinafter referred to as the World Bank) have signed the agreements for the Program &ldquo;Lift",
-      "source": "World Bank",
-      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00455613"
-    },
-    {
       "id": "wb-OP00459906",
       "notice_type": "Request for Expression of Interest",
       "notice_date": "31-Jul-2026",
@@ -1837,21 +1822,6 @@
       "summary": "REP&Uacute;BLICA DE MO&Ccedil;AMBIQUE MINIST&Eacute;RIO DAS OBRAS P&Uacute;BLICAS, HABITA&Ccedil;&Atilde;O E RECURSOS H&Iacute;DRICOS DIREC&Ccedil;&Atilde;O NACIONAL DE ABASTECIMENTO DE &Aacute;GUA E SANEAMENTO Projecto de Seguran&ccedil;a H&iacute;drica Urbana de Mo&ccedil;ambique (PSHU) &ndash; P509890 AN&Uacute;NCIO DE CONCURSO P&Uacute;BLICO MOZ-ARASUL-UWSP/G/30 Fornecimento e Instala&ccedil;&atilde;o de Contadores Autom&aacute;ticos A Direc&ccedil;&atilde;o Nacional de Abastecimento de &Aac",
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00459598"
-    },
-    {
-      "id": "wb-OP00459414",
-      "notice_type": "Request for Expression of Interest",
-      "notice_date": "29-Jul-2026",
-      "submission_date": "2026-08-18T00:00:00Z",
-      "country": "Angola",
-      "project_id": "P151224",
-      "project_name": "Second Water Sector Institutional Development Project",
-      "bid_reference_no": "107ACS4/UCP/24",
-      "bid_description": "Procurement Audit of Second Water Sector Institutional Development Project (WSIDP 2) for the years 2024 – 2026",
-      "procurement_method": "Least Cost Selection",
-      "summary": "REQUEST FOR EXPRESSIONS OF INTEREST (CONSULTING SERVICES &ndash; FIRMS SELECTION) Country: ANGOLA Project: SECOND WATER SECTOR INSTITUTIONAL DEVELOPMENT PROJECT (WSIDP-2) Loan No. IBRD-87020/ IBRD-88760/ COFN-C1560 Project ID: P151224 Title: CONSULTANCY SERVICES FOR PROCUREMENT AUDIT OF THE WSIDP 2 Reference No.: 107ACS4/UCP/24 The Government of the Republic of Angola (GoA) has received financing from the World Bank and the French Development Agency (AFD) toward the cost of the Second Water Sect",
-      "source": "World Bank",
-      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00459414"
     },
     {
       "id": "wb-OP00459663",
