@@ -83,7 +83,8 @@ def fetch() -> list:
         result_code = header.get("resultCode", "")
         result_msg = header.get("resultMsg", "")
         if not debug_printed:
-            print(f"[나라장터 디버그] resultCode={result_code} resultMsg={result_msg}", file=sys.stderr)
+            raw_preview = json.dumps(data, ensure_ascii=False)[:800]
+            print(f"[나라장터 디버그] 원본 응답: {raw_preview}", file=sys.stderr)
             debug_printed = True
         if result_code not in ("00", "0", ""):
             print(f"[나라장터 경고] API 오류 응답: {result_code} - {result_msg}", file=sys.stderr)
