@@ -19,7 +19,7 @@ import urllib.request
 import urllib.parse
 from datetime import datetime, timedelta, timezone
 
-API_BASE = "https://apis.data.go.kr/1230000/BidPublicInfoService/getBidPblancListInfoServcPPSSrch"
+API_BASE = "https://apis.data.go.kr/1230000/ad/BidPublicInfoService/getBidPblancListInfoServcPPSSrch"
 
 # 수요기관명에 이 키워드가 포함된 공고만 남긴다 (서버가 필터를 무시할 경우를 대비해
 # 클라이언트에서도 한 번 더 확인함)
