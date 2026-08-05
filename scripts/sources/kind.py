@@ -43,8 +43,16 @@ def fetch() -> list:
 
     soup = BeautifulSoup(html, "html.parser")
 
-    # 게시글 상세 링크(?id=NNNN&menuMode=READ)가 있는 행만 대상으로
-    for link in soup.find_all("a", href=re.compile(r"[?&]id=\d+.*menuMode=READ")):
+    matched_links = soup.find_all("a", href=re.compile(r"[?&]id=\d+.*menuMode=READ"))
+    print(f"[KIND 디버그] HTML 길이={len(html)}, 매칭된 링크 수={len(matched_links)}", file=sys.stderr)
+    if not matched_links:
+        # 패턴이 안 맞을 경우를 대비해, id= 만 들어간 링크가 있는지도 확인
+        any_id_links = soup.find_all("a", href=re.compile(r"[?&]id=\d+"))
+        print(f"[KIND 디버그] id= 만 포함된 링크 수={len(any_id_links)}", file=sys.stderr)
+        if any_id_links:
+            print(f"[KIND 디버그] 예시 href: {any_id_links[0].get('href')}", file=sys.stderr)
+
+    for link in matched_links:
         row = link.find_parent("tr")
         if row is None:
             continue
