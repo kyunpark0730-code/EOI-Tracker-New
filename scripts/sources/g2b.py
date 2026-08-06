@@ -22,6 +22,8 @@ import urllib.request
 import urllib.parse
 from datetime import datetime, timedelta, timezone
 
+from _country_extract import extract_country
+
 API_BASE = "https://apis.data.go.kr/1230000/ad/BidPublicInfoService/getBidPblancListInfoServcPPSSrch"
 
 # 수요기관명에 이 키워드가 포함된 공고만 남긴다 (서버가 필터를 무시할 경우를 대비해
@@ -130,7 +132,7 @@ def fetch() -> list:
                     "notice_type": "용역 입찰공고",
                     "notice_date": item.get("bidNtceDt", ""),
                     "submission_date": item.get("bidClseDt", ""),
-                    "country": "대한민국",
+                    "country": extract_country(item.get("bidNtceNm", "")),
                     "project_id": item.get("bidNtceNo", ""),
                     "project_name": item.get("bidNtceNm", ""),
                     "bid_reference_no": item.get("bidNtceNo", ""),
