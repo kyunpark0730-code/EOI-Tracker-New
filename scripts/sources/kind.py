@@ -10,6 +10,8 @@ import time
 import urllib.request
 from datetime import datetime, timezone, timedelta
 
+from _country_extract import extract_country
+
 try:
     from bs4 import BeautifulSoup
 except ImportError:
@@ -111,7 +113,7 @@ def fetch() -> list:
             "notice_type": notice_type,
             "notice_date": notice_date,
             "submission_date": "",
-            "country": "",
+            "country": extract_country(title),
             "project_id": notice_id,
             "project_name": title,
             "bid_reference_no": "",
