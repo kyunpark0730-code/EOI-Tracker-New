@@ -10,6 +10,8 @@ import sys
 import urllib.request
 from datetime import datetime, timezone, timedelta
 
+from _country_extract import extract_country
+
 API_URL = (
     "https://www.icak.or.kr/board/api/bbsList"
     "?pageIndex=1&bbsId=705&expnsItmList%5B0%5D.cnTxt=&limit=100&searchInputOpt="
@@ -82,19 +84,21 @@ def fetch() -> list:
             continue
 
         deadline_raw = item.get("pstgEndDt", "")
+        title = item.get("titl", "")
+        summary_text = _strip_html(item.get("cnTxt", ""))[:500]
 
         results.append({
             "id": f"icak-{sn}",
             "notice_type": item.get("cateNm") or "입찰공고",
             "notice_date": posted_raw,
             "submission_date": deadline_raw,
-            "country": "대한민국",
+            "country": extract_country(title, summary_text),
             "project_id": "",
-            "project_name": item.get("titl", ""),
+            "project_name": title,
             "bid_reference_no": "",
             "bid_description": "",
             "procurement_method": "",
-            "summary": _strip_html(item.get("cnTxt", ""))[:500],
+            "summary": summary_text,
             "source": "해외건설협회(ICAK)",
             "source_url": "https://www.icak.or.kr/board/bidPblancList",
         })
