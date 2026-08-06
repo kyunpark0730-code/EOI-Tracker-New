@@ -13,7 +13,7 @@ data/notices.json 으로 저장하는 오케스트레이터.
 import json
 import os
 import sys
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 
 sys.path.insert(0, os.path.dirname(__file__))
 
@@ -29,8 +29,41 @@ SOURCES = [
     ("KIND", kind),
 ]
 
+KST = timezone(timedelta(hours=9))
+OUT_PATH = os.path.join(os.path.dirname(__file__), "..", "data", "notices.json")
+
+
+def _load_previous_first_seen():
+    """이전 data/notices.json에서 공고 id -> 첫 발견일(first_seen) 매핑을 읽어온다.
+    처음 보는 공고는 나중에 오늘 날짜로 채워지고, 기존에 있었지만 first_seen 기록이
+    없던 공고(이 기능 도입 이전 데이터)는 '예전 실행 시점에라도 이미 있었던 것'으로
+    간주해 이전 generated_at 날짜를 대신 넣어준다 (오늘 신규로 잘못 표시되는 것 방지)."""
+    if not os.path.exists(OUT_PATH):
+        return {}
+    try:
+        with open(OUT_PATH, encoding="utf-8") as f:
+            old_data = json.load(f)
+    except Exception:
+        return {}
+
+    fallback_date = None
+    old_generated_at = old_data.get("generated_at")
+    if old_generated_at:
+        fallback_date = old_generated_at[:10]
+
+    mapping = {}
+    for n in old_data.get("notices", []):
+        nid = n.get("id")
+        if not nid:
+            continue
+        mapping[nid] = n.get("first_seen") or fallback_date
+    return mapping
+
 
 def main():
+    today_kst = datetime.now(KST).strftime("%Y-%m-%d")
+    previous_first_seen = _load_previous_first_seen()
+
     all_notices = []
     summary = []
 
@@ -48,22 +81,30 @@ def main():
         return n.get("_sort_date") or ""
 
     all_notices.sort(key=sort_key, reverse=True)
+
+    new_today_count = 0
     for n in all_notices:
         n.pop("_sort_date", None)
+        nid = n.get("id")
+        first_seen = previous_first_seen.get(nid) or today_kst
+        n["first_seen"] = first_seen
+        if first_seen == today_kst:
+            new_today_count += 1
 
     out = {
         "generated_at": datetime.now(timezone.utc).isoformat(),
+        "today_kst": today_kst,
         "sources": summary,
         "count": len(all_notices),
+        "new_today_count": new_today_count,
         "notices": all_notices,
     }
 
-    out_path = os.path.join(os.path.dirname(__file__), "..", "data", "notices.json")
-    os.makedirs(os.path.dirname(out_path), exist_ok=True)
-    with open(out_path, "w", encoding="utf-8") as f:
+    os.makedirs(os.path.dirname(OUT_PATH), exist_ok=True)
+    with open(OUT_PATH, "w", encoding="utf-8") as f:
         json.dump(out, f, ensure_ascii=False, indent=2)
 
-    print(f"전체 수집 완료: {len(all_notices)}건 -> {out_path}")
+    print(f"전체 수집 완료: {len(all_notices)}건 (오늘 신규 {new_today_count}건) -> {OUT_PATH}")
 
 
 if __name__ == "__main__":
