@@ -94,6 +94,24 @@
     margin-left:auto;
     white-space:nowrap;
   }
+  .toggle-pill{
+    font-family:var(--sans);
+    font-size:13px;
+    font-weight:700;
+    padding:9px 14px;
+    border-radius:8px;
+    border:1px solid var(--border);
+    background:#fff;
+    color:var(--ink-soft);
+    cursor:pointer;
+    white-space:nowrap;
+    transition:background .15s, color .15s, border-color .15s;
+  }
+  .toggle-pill.active{
+    background:var(--primary);
+    border-color:var(--primary);
+    color:#fff;
+  }
   .grid{display:flex; flex-direction:column; gap:8px;}
   .row-card{
     display:grid;
@@ -177,6 +195,7 @@
 
 <main>
   <div class="toolbar">
+    <button type="button" id="newOnlyToggle" class="toggle-pill active">오늘 신규만</button>
     <input type="text" id="searchInput" placeholder="프로젝트명, 국가, 키워드 검색...">
     <select id="sourceFilter">
       <option value="">전체 출처</option>
@@ -210,6 +229,8 @@ async function loadData(){
 }
 
 let ALL = [];
+let TODAY_KST = '';
+let newOnly = true;
 
 function render(data){
   document.getElementById('generatedAt').textContent = data.generated_at
@@ -219,6 +240,7 @@ function render(data){
   document.getElementById('totalCount').textContent = data.count ?? 0;
 
   ALL = data.notices || [];
+  TODAY_KST = data.today_kst || '';
 
   const typeSel = document.getElementById('typeFilter');
   const countrySel = document.getElementById('countryFilter');
@@ -245,6 +267,7 @@ function applyFilters(){
   const source = document.getElementById('sourceFilter').value;
 
   const filtered = ALL.filter(n => {
+    if (newOnly && TODAY_KST && n.first_seen !== TODAY_KST) return false;
     if (type && n.notice_type !== type) return false;
     if (country && n.country !== country) return false;
     if (source && n.source !== source) return false;
@@ -256,14 +279,18 @@ function applyFilters(){
     return true;
   });
 
-  document.getElementById('filteredCount').textContent = `${filtered.length} / ${ALL.length}건 표시`;
-  renderGrid(filtered);
+  document.getElementById('filteredCount').textContent = newOnly
+    ? `오늘 신규 ${filtered.length}건 (전체 ${ALL.length}건)`
+    : `${filtered.length} / ${ALL.length}건 표시`;
+  renderGrid(filtered, newOnly);
 }
 
-function renderGrid(items){
+function renderGrid(items, isNewOnly){
   const grid = document.getElementById('grid');
   if (items.length === 0){
-    grid.innerHTML = '<div class="empty-state">조건에 맞는 공고가 없습니다.</div>';
+    grid.innerHTML = isNewOnly
+      ? '<div class="empty-state">오늘 새로 올라온 공고가 아직 없습니다. 위 "오늘 신규만" 버튼을 눌러 전체보기로 확인해보세요.</div>'
+      : '<div class="empty-state">조건에 맞는 공고가 없습니다.</div>';
     return;
   }
 
@@ -315,6 +342,12 @@ document.getElementById('searchInput').addEventListener('input', applyFilters);
 document.getElementById('typeFilter').addEventListener('change', applyFilters);
 document.getElementById('countryFilter').addEventListener('change', applyFilters);
 document.getElementById('sourceFilter').addEventListener('change', applyFilters);
+document.getElementById('newOnlyToggle').addEventListener('click', () => {
+  newOnly = !newOnly;
+  document.getElementById('newOnlyToggle').classList.toggle('active', newOnly);
+  document.getElementById('newOnlyToggle').textContent = newOnly ? '오늘 신규만' : '전체보기 중';
+  applyFilters();
+});
 
 loadData();
 </script>
