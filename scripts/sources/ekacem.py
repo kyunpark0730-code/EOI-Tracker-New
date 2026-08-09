@@ -11,7 +11,7 @@ import time
 import urllib.request
 from datetime import datetime, timezone, timedelta
 
-from _country_extract import extract_country
+from sources._country_extract import extract_country
 
 try:
     from bs4 import BeautifulSoup
