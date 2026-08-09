@@ -10,7 +10,7 @@ import sys
 import urllib.request
 from datetime import datetime, timezone, timedelta
 
-from _country_extract import extract_country
+from sources._country_extract import extract_country
 
 API_URL = (
     "https://www.icak.or.kr/board/api/bbsList"
