@@ -22,7 +22,7 @@ import urllib.request
 import urllib.parse
 from datetime import datetime, timedelta, timezone
 
-from _country_extract import extract_country
+from sources._country_extract import extract_country
 
 API_BASE = "https://apis.data.go.kr/1230000/ad/BidPublicInfoService/getBidPblancListInfoServcPPSSrch"
 
