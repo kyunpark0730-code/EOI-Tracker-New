@@ -58,7 +58,7 @@ def _fetch_page(page_no: int, begin_dt: str, end_dt: str, api_key: str, institut
     last_err = None
     for attempt in range(2):
         try:
-            with urllib.request.urlopen(req, timeout=20) as resp:
+            with urllib.request.urlopen(req, timeout=45) as resp:
                 body = resp.read().decode("utf-8", errors="replace")
             return json.loads(body)
         except Exception as e:
