@@ -18,6 +18,7 @@ from datetime import datetime, timezone, timedelta
 sys.path.insert(0, os.path.dirname(__file__))
 
 from sources import worldbank, ekacem, adb, g2b, icak, eib, kind, aiib, afdb  # noqa: E402
+from sources._sector_filter import is_relevant  # noqa: E402
 
 SOURCES = [
     ("World Bank", worldbank),
@@ -83,6 +84,15 @@ def main():
         return n.get("_sort_date") or ""
 
     all_notices.sort(key=sort_key, reverse=True)
+
+    before_filter = len(all_notices)
+    all_notices = [
+        n for n in all_notices
+        if is_relevant(n.get("project_name", ""), n.get("bid_description", ""),
+                        n.get("notice_type", ""), n.get("summary", ""))
+    ]
+    filtered_out = before_filter - len(all_notices)
+    print(f"분야 필터로 제외됨: {filtered_out}건 (관개/도로/수자원 등과 무관)")
 
     new_today_count = 0
     for n in all_notices:
