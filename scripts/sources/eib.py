@@ -8,6 +8,7 @@ EIB(유럽투자은행) 조달공고(Procurement) 수집기.
 
 import json
 import sys
+import time
 import urllib.request
 import urllib.parse
 from datetime import datetime, timezone
@@ -17,6 +18,14 @@ LIST_PAGE_URL = "https://www.eib.org/en/about/procurement/all/index.htm"
 
 ITEMS_PER_PAGE = 25
 MAX_PAGES = 8  # 최대 200건 정도까지
+
+BROWSER_HEADERS = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+                  "(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+    "Accept": "application/json, text/plain, */*",
+    "Accept-Language": "en-US,en;q=0.9",
+    "Referer": "https://www.eib.org/en/about/procurement/all/index.htm",
+}
 
 
 def _fetch_page(page_no: int) -> list:
@@ -34,12 +43,21 @@ def _fetch_page(page_no: int) -> list:
         "or_g_procurementInformations_type": "true",
     }
     url = f"{API_BASE}?{urllib.parse.urlencode(params)}"
-    req = urllib.request.Request(url, headers={
-        "User-Agent": "Mozilla/5.0 (EOI-Tracker/1.0)",
-        "Accept": "application/json",
-    })
-    with urllib.request.urlopen(req, timeout=30) as resp:
-        body = resp.read().decode("utf-8", errors="replace")
+    req = urllib.request.Request(url, headers=BROWSER_HEADERS)
+
+    last_err = None
+    for attempt in range(3):
+        try:
+            with urllib.request.urlopen(req, timeout=30) as resp:
+                body = resp.read().decode("utf-8", errors="replace")
+            break
+        except Exception as e:
+            last_err = e
+            print(f"[EIB 경고] page={page_no} 시도 {attempt + 1}/3 실패: {e}", file=sys.stderr)
+            time.sleep(3)
+    else:
+        raise last_err
+
     data = json.loads(body)
     if isinstance(data, list):
         return data
