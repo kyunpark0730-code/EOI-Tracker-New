@@ -55,6 +55,12 @@ EXCLUDE_PATTERNS = [
     r"transmission infrastructure", r"power grid", r"substation",
     r"송전", r"배전", r"변전소", r"전력망",
     r"ligne de transmission", r"r[ée]seau [ée]lectrique", r"linha de transmiss[ãa]o", r"l[íi]nea de transmisi[óo]n",
+    r"cybersecurity", r"cyber security", r"cybers[ée]curit[ée]", r"ciberseguridad",
+    r"\bICT\b", r"information and communications technology",
+    r"digital transformation", r"digital integration", r"e-government",
+    r"computer emergency response", r"\bCERT\b",
+    r"telecommunications sector", r"telecomunica[çc][õo]es", r"telecomunicaciones",
+    r"data center", r"network security", r"information security",
 ]
 
 _INCLUDE_RE = re.compile("|".join(INCLUDE_PATTERNS), re.IGNORECASE)
