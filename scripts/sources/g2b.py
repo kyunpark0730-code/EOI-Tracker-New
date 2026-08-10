@@ -26,9 +26,14 @@ from sources._country_extract import extract_country
 
 API_BASE = "https://apis.data.go.kr/1230000/ad/BidPublicInfoService/getBidPblancListInfoServcPPSSrch"
 
-# 수요기관명에 이 키워드가 포함된 공고만 남긴다 (서버가 필터를 무시할 경우를 대비해
-# 클라이언트에서도 한 번 더 확인함)
-INSTITUTION_KEYWORD = os.environ.get("G2B_INSTITUTION_KEYWORD", "해외")
+# 수요기관명에 이 키워드들 중 하나라도 포함된 공고를 남긴다 (여러 개 지원).
+# "해외" = 해외인프라/해외건설 관련 기관, "국제협력단" = KOICA(한국국제협력단, 최근 조달을
+# 나라장터로 완전히 이전함)
+_default_keywords = "해외,국제협력단"
+INSTITUTION_KEYWORDS = [
+    k.strip() for k in os.environ.get("G2B_INSTITUTION_KEYWORD", _default_keywords).split(",")
+    if k.strip()
+]
 
 LOOKBACK_DAYS = 90  # 약 3개월
 CHUNK_DAYS = 14      # 한 번에 조회할 기간 (API 제한을 피하기 위해 안전하게 14일)
@@ -36,14 +41,14 @@ ROWS_PER_PAGE = 100
 MAX_PAGES_PER_CHUNK = 10
 
 
-def _fetch_page(page_no: int, begin_dt: str, end_dt: str, api_key: str) -> dict:
+def _fetch_page(page_no: int, begin_dt: str, end_dt: str, api_key: str, institution_keyword: str) -> dict:
     params = {
         "ServiceKey": api_key,
         "type": "json",
         "inqryDiv": "1",           # 1 = 공고게시일시 기준 기간 검색
         "inqryBgnDt": begin_dt,    # YYYYMMDDHHMM
         "inqryEndDt": end_dt,
-        "dminsttNm": INSTITUTION_KEYWORD,  # 수요기관명 (부분 검색)
+        "dminsttNm": institution_keyword,  # 수요기관명 (부분 검색)
         "pageNo": str(page_no),
         "numOfRows": str(ROWS_PER_PAGE),
     }
@@ -86,76 +91,78 @@ def fetch() -> list:
 
     results = {}
     debug_printed = False
-    consecutive_chunk_failures = 0
-    MAX_CONSECUTIVE_FAILURES = 2
 
-    for begin, end in _date_chunks(LOOKBACK_DAYS, CHUNK_DAYS):
-        begin_dt = begin.strftime("%Y%m%d0000")
-        end_dt = end.strftime("%Y%m%d2359")
-        chunk_failed = False
+    for institution_keyword in INSTITUTION_KEYWORDS:
+        consecutive_chunk_failures = 0
+        MAX_CONSECUTIVE_FAILURES = 2
 
-        for page in range(1, MAX_PAGES_PER_CHUNK + 1):
-            try:
-                data = _fetch_page(page, begin_dt, end_dt, api_key)
-            except Exception as e:
-                print(f"[나라장터 경고] {begin_dt}~{end_dt} page={page} 요청 실패: {e}", file=sys.stderr)
-                if page == 1:
-                    chunk_failed = True
-                break
+        for begin, end in _date_chunks(LOOKBACK_DAYS, CHUNK_DAYS):
+            begin_dt = begin.strftime("%Y%m%d0000")
+            end_dt = end.strftime("%Y%m%d2359")
+            chunk_failed = False
 
-            header = data.get("response", {}).get("header", {})
-            result_code = header.get("resultCode", "")
-            result_msg = header.get("resultMsg", "")
-            if not debug_printed:
-                raw_preview = json.dumps(data, ensure_ascii=False)[:500]
-                print(f"[나라장터 디버그] 원본 응답 샘플: {raw_preview}", file=sys.stderr)
-                debug_printed = True
-            if result_code not in ("00", "0", ""):
-                print(f"[나라장터 경고] {begin_dt}~{end_dt} API 오류: {result_code} - {result_msg}", file=sys.stderr)
-                break
+            for page in range(1, MAX_PAGES_PER_CHUNK + 1):
+                try:
+                    data = _fetch_page(page, begin_dt, end_dt, api_key, institution_keyword)
+                except Exception as e:
+                    print(f"[나라장터 경고][{institution_keyword}] {begin_dt}~{end_dt} page={page} 요청 실패: {e}", file=sys.stderr)
+                    if page == 1:
+                        chunk_failed = True
+                    break
 
-            body = data.get("response", {}).get("body", {})
-            items_raw = body.get("items", [])
-            if isinstance(items_raw, dict):
-                items_raw = [items_raw]
-            if not items_raw:
-                break
+                header = data.get("response", {}).get("header", {})
+                result_code = header.get("resultCode", "")
+                result_msg = header.get("resultMsg", "")
+                if not debug_printed:
+                    raw_preview = json.dumps(data, ensure_ascii=False)[:500]
+                    print(f"[나라장터 디버그] 원본 응답 샘플: {raw_preview}", file=sys.stderr)
+                    debug_printed = True
+                if result_code not in ("00", "0", ""):
+                    print(f"[나라장터 경고][{institution_keyword}] {begin_dt}~{end_dt} API 오류: {result_code} - {result_msg}", file=sys.stderr)
+                    break
 
-            for item in items_raw:
-                dminstt = item.get("dminsttNm", "") or ""
-                if INSTITUTION_KEYWORD not in dminstt:
-                    continue
+                body = data.get("response", {}).get("body", {})
+                items_raw = body.get("items", [])
+                if isinstance(items_raw, dict):
+                    items_raw = [items_raw]
+                if not items_raw:
+                    break
 
-                nid = item.get("bidNtceNo", "") + "-" + item.get("bidNtceOrd", "")
-                results[nid] = {
-                    "id": f"g2b-{nid}",
-                    "notice_type": "용역 입찰공고",
-                    "notice_date": item.get("bidNtceDt", ""),
-                    "submission_date": item.get("bidClseDt", ""),
-                    "country": extract_country(item.get("bidNtceNm", "")),
-                    "project_id": item.get("bidNtceNo", ""),
-                    "project_name": item.get("bidNtceNm", ""),
-                    "bid_reference_no": item.get("bidNtceNo", ""),
-                    "bid_description": dminstt,
-                    "procurement_method": item.get("cntrctCnclsMthdNm", ""),
-                    "summary": "",
-                    "source": "나라장터(G2B)",
-                    "source_url": item.get("bidNtceDtlUrl") or "https://www.g2b.go.kr",
-                }
+                for item in items_raw:
+                    dminstt = item.get("dminsttNm", "") or ""
+                    if institution_keyword not in dminstt:
+                        continue
 
-            total_count = int(body.get("totalCount", 0))
-            if page * ROWS_PER_PAGE >= total_count:
-                break
-            time.sleep(0.2)
+                    nid = item.get("bidNtceNo", "") + "-" + item.get("bidNtceOrd", "")
+                    results[nid] = {
+                        "id": f"g2b-{nid}",
+                        "notice_type": "용역 입찰공고",
+                        "notice_date": item.get("bidNtceDt", ""),
+                        "submission_date": item.get("bidClseDt", ""),
+                        "country": extract_country(item.get("bidNtceNm", "")),
+                        "project_id": item.get("bidNtceNo", ""),
+                        "project_name": item.get("bidNtceNm", ""),
+                        "bid_reference_no": item.get("bidNtceNo", ""),
+                        "bid_description": dminstt,
+                        "procurement_method": item.get("cntrctCnclsMthdNm", ""),
+                        "summary": "",
+                        "source": "나라장터(G2B)",
+                        "source_url": item.get("bidNtceDtlUrl") or "https://www.g2b.go.kr",
+                    }
 
-        if chunk_failed:
-            consecutive_chunk_failures += 1
-            if consecutive_chunk_failures >= MAX_CONSECUTIVE_FAILURES:
-                print(f"[나라장터 경고] {MAX_CONSECUTIVE_FAILURES}개 구간 연속 실패 — 이번 실행은 여기서 포기하고 다음 소스로 넘어갑니다.", file=sys.stderr)
-                break
-        else:
-            consecutive_chunk_failures = 0
+                total_count = int(body.get("totalCount", 0))
+                if page * ROWS_PER_PAGE >= total_count:
+                    break
+                time.sleep(0.2)
 
-        time.sleep(0.3)  # 청크 사이 서버 부담 방지
+            if chunk_failed:
+                consecutive_chunk_failures += 1
+                if consecutive_chunk_failures >= MAX_CONSECUTIVE_FAILURES:
+                    print(f"[나라장터 경고][{institution_keyword}] {MAX_CONSECUTIVE_FAILURES}개 구간 연속 실패 — 이 키워드는 여기서 포기하고 다음으로 넘어갑니다.", file=sys.stderr)
+                    break
+            else:
+                consecutive_chunk_failures = 0
+
+            time.sleep(0.3)  # 청크 사이 서버 부담 방지
 
     return list(results.values())
