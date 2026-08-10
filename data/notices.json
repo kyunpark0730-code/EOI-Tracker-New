@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-10T23:09:10.518618+00:00",
+  "generated_at": "2026-08-10T23:33:32.300042+00:00",
   "today_kst": "2026-08-11",
   "sources": [
-    "World Bank 641건",
+    "World Bank 642건",
     "한국건설엔지니어링협회 0건",
     "ADB 0건",
     "나라장터(G2B) 88건",
     "해외건설협회(ICAK) 3건",
-    "EIB 191건",
+    "EIB 200건",
     "KIND 4건",
     "AIIB 4건"
   ],
@@ -18,11 +18,11 @@
     },
     "한국건설엔지니어링협회": {
       "last_success": "알 수 없음",
-      "consecutive_failures": 2
+      "consecutive_failures": 3
     },
     "ADB": {
       "last_success": "알 수 없음",
-      "consecutive_failures": 2
+      "consecutive_failures": 3
     },
     "나라장터(G2B)": {
       "last_success": "2026-08-11",
@@ -33,8 +33,8 @@
       "consecutive_failures": 0
     },
     "EIB": {
-      "last_success": "2026-08-10",
-      "consecutive_failures": 1
+      "last_success": "2026-08-11",
+      "consecutive_failures": 0
     },
     "KIND": {
       "last_success": "2026-08-11",
@@ -45,8 +45,8 @@
       "consecutive_failures": 0
     }
   },
-  "count": 806,
-  "new_today_count": 121,
+  "count": 808,
+  "new_today_count": 128,
   "notices": [
     {
       "id": "wb-OP00461473",
@@ -3041,6 +3041,23 @@
       "first_seen": "2026-08-06"
     },
     {
+      "id": "wb-OP00460103",
+      "notice_type": "Invitation for Bids",
+      "notice_date": "01-Aug-2026",
+      "submission_date": "2026-08-12T00:00:00Z",
+      "country": "Nigeria",
+      "project_id": "P179447",
+      "project_name": "Nigeria for Women Program Scale Up Project",
+      "bid_reference_no": "NG-ONDO SPCU-551444-GO-RFB",
+      "bid_description": "Procurement of 650 Nos. of Tablets, Power Bank Pouch & Screen Guard  for  Ward Facilitators",
+      "procurement_method": "Request for Bids",
+      "summary": "GOVERNMENT OF ONDO STATE STATE MINISTRY OF WOMEN AFFAIRS AND SOCIAL DEVELOPMENT, DEVELOPMENT HOUSE, IGBATORO ROAD, AKURE Request for Bids - Goods (National Competitive Bidding) Issued on: 29th July, 2026 Country: Nigeria Name of Project: Nigeria for Women Program Scale-up (NFWP-SU) Project Contract Title: Procurement of 650 Nos. of Tablets, Power Bank, Pouch &amp; Screen guard for Ward Facilitators Credit No.: 73600 RFB Reference No.: NG-ONDO SPCU-551444-GO-RFB The Federal Government of Nigeria ",
+      "source": "World Bank",
+      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00460103",
+      "_source_label": "World Bank",
+      "first_seen": "2026-08-11"
+    },
+    {
       "id": "wb-OP00460094",
       "notice_type": "Invitation for Bids",
       "notice_date": "01-Aug-2026",
@@ -4367,23 +4384,6 @@
       "first_seen": "2026-08-06"
     },
     {
-      "id": "wb-OP00459690",
-      "notice_type": "Request for Expression of Interest",
-      "notice_date": "29-Jul-2026",
-      "submission_date": "2026-08-18T00:00:00Z",
-      "country": "Brazil",
-      "project_id": "P177070",
-      "project_name": "Progestão Alagoas: Public Sector Management Efficiency",
-      "bid_reference_no": "BR-ALPREV/AL-517816-CS-QCBS",
-      "bid_description": "AL 3 - Contratação de consultoria especializada para transformação de processos e levantamento de requisitos para futuro desenvolvimento de solução tecnológica para apoio a administração e gestão do regime próprio da AL PREV (unidade gestora única)",
-      "procurement_method": "Quality And Cost-Based Selection",
-      "summary": "Brasil Programa Progest&atilde;o Alagoas Empr&eacute;stimo n&ordm; 9435-BR N&uacute;mero de Refer&ecirc;ncia: BR-ALPREV/AL-517816-CS-QCBS O Estado de Alagoas recebeu financiamento do Banco Mundial para custear parcialmente o Programa Progest&atilde;o Alagoas, e pretende aplicar parte dos recursos para servi&ccedil;os de consultoria. Os servi&ccedil;os desta consultoria referem-se &agrave; contrata&ccedil;&atilde;o de empresa de consultoria especializada para prestar apoio &agrave; transforma&cce",
-      "source": "World Bank",
-      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00459690",
-      "_source_label": "World Bank",
-      "first_seen": "2026-08-06"
-    },
-    {
       "id": "wb-OP00459598",
       "notice_type": "Invitation for Bids",
       "notice_date": "29-Jul-2026",
@@ -4654,6 +4654,23 @@
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00459417",
       "_source_label": "World Bank",
       "first_seen": "2026-08-06"
+    },
+    {
+      "id": "wb-OP00458168",
+      "notice_type": "Request for Expression of Interest",
+      "notice_date": "28-Jul-2026",
+      "submission_date": "2026-08-12T00:00:00Z",
+      "country": "Tuvalu",
+      "project_id": "P177100",
+      "project_name": "Maritime Investment in Climate Resilient Operations II",
+      "bid_reference_no": "TV-CPMO-528245-CS-INDV",
+      "bid_description": "Director of CPMO",
+      "procurement_method": "Individual Consultant Selection",
+      "summary": "Project: Central Project Management Office (P177100) Reference:TV-CPMO-528245-CS-INDV Request for Expressions of Interest/CV (Consultant Services, Individual) This position is intended for a International Consultant Country: Tuvalu Project: Central Project Management Officer (CPMO) Assignment Name: Individual &ndash; Director of CPMO Top of Form Grant/Credit/Loan: IDA- IDA-E3240 Project ID: P177100 Ref: TV-CPMO-528245-CS-INDV BACKGROUND: The Ministry of Finance and Economic Development (MFED) is",
+      "source": "World Bank",
+      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00458168",
+      "_source_label": "World Bank",
+      "first_seen": "2026-08-11"
     },
     {
       "id": "wb-OP00458246",
@@ -10470,6 +10487,91 @@
       "first_seen": "2026-08-06"
     },
     {
+      "id": "eib-6a79e5c4c3644c6383dfd7fa",
+      "notice_type": "Project procurement",
+      "notice_date": "10/08/2026",
+      "submission_date": "21/09/2026",
+      "country": "Ukraine",
+      "project_id": "UMIP-OP-2-VOL-052-4",
+      "project_name": "Ukraine Municipal Infrastructure Programme / Complex Modernization of Water Supply and Sewerage Systems in the city Lutsk",
+      "bid_reference_no": "UMIP-OP-2-VOL-052-4",
+      "bid_description": "On going",
+      "procurement_method": "",
+      "summary": "",
+      "source": "EIB",
+      "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
+      "_source_label": "EIB",
+      "first_seen": "2026-08-11"
+    },
+    {
+      "id": "eib-6a7990e9c3644c6383dfd7cd",
+      "notice_type": "Project procurement",
+      "notice_date": "10/08/2026",
+      "submission_date": "29/09/2026",
+      "country": "",
+      "project_id": "EIB-GtP/n°09/2026/DRANEF-FM/CNHP",
+      "project_name": "Achat et fourniture d’un engin amphibie multifonction de gestion des végétaux aquatiques",
+      "bid_reference_no": "EIB-GtP/n°09/2026/DRANEF-FM/CNHP",
+      "bid_description": "On going",
+      "procurement_method": "",
+      "summary": "",
+      "source": "EIB",
+      "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
+      "_source_label": "EIB",
+      "first_seen": "2026-08-11"
+    },
+    {
+      "id": "eib-6a7993bec3644c6383dfd7d6",
+      "notice_type": "Project procurement",
+      "notice_date": "10/08/2026",
+      "submission_date": "22/09/2026",
+      "country": "",
+      "project_id": "",
+      "project_name": "Development of Water Supply Scheme (Tube wells, rising mains, OHTs, Distribution System &amp; House Service Connections including Allied Works) with 2 years O&M at Sitarganj Town",
+      "bid_reference_no": "",
+      "bid_description": "On going",
+      "procurement_method": "",
+      "summary": "",
+      "source": "EIB",
+      "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
+      "_source_label": "EIB",
+      "first_seen": "2026-08-11"
+    },
+    {
+      "id": "eib-6a798d5bc3644c6383dfd7c6",
+      "notice_type": "Project procurement",
+      "notice_date": "10/08/2026",
+      "submission_date": "21/09/2026",
+      "country": "",
+      "project_id": "20130260-20",
+      "project_name": "Construction of Çorum (Central) Wastewater Treatment Plant",
+      "bid_reference_no": "20130260-20",
+      "bid_description": "On going",
+      "procurement_method": "",
+      "summary": "",
+      "source": "EIB",
+      "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
+      "_source_label": "EIB",
+      "first_seen": "2026-08-11"
+    },
+    {
+      "id": "eib-6a5791d6526cf801f68a180e",
+      "notice_type": "TA operations",
+      "notice_date": "10/08/2026",
+      "submission_date": "21/09/2026",
+      "country": "",
+      "project_id": "AA-013009-001",
+      "project_name": "Technical Assistance for the Project “Clean Oceans Initiative – Integrated Solid Waste Management System for Greater Libreville, Gabon”: Detailed Studies.",
+      "bid_reference_no": "AA-013009-001",
+      "bid_description": "On going",
+      "procurement_method": "",
+      "summary": "",
+      "source": "EIB",
+      "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
+      "_source_label": "EIB",
+      "first_seen": "2026-08-11"
+    },
+    {
       "id": "eib-6a72dbf1e7ef4138bc2314b7",
       "notice_type": "Project procurement",
       "notice_date": "07/08/2026",
@@ -10818,7 +10920,7 @@
       "project_id": "426186",
       "project_name": "Technical assistance services – Governance and financing models for the 3 REHs in Iasi, Cluj and Craiova",
       "bid_reference_no": "426186",
-      "bid_description": "On going",
+      "bid_description": "Closed",
       "procurement_method": "",
       "summary": "",
       "source": "EIB",
@@ -13640,74 +13742,6 @@
       "project_id": "20161020-03",
       "project_name": "Lana River-front Urban Redevelopment",
       "bid_reference_no": "20161020-03",
-      "bid_description": "Closed",
-      "procurement_method": "",
-      "summary": "",
-      "source": "EIB",
-      "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
-      "_source_label": "EIB",
-      "first_seen": "2026-08-10"
-    },
-    {
-      "id": "eib-6891b4e888c9a201f624d0a4",
-      "notice_type": "Project procurement",
-      "notice_date": "05/08/2025",
-      "submission_date": "30/09/2025",
-      "country": "",
-      "project_id": "20170671-31",
-      "project_name": "Technical Assistance for implementation of  the Serbian Inland Waterway Infrastructure  Project",
-      "bid_reference_no": "20170671-31",
-      "bid_description": "Closed",
-      "procurement_method": "",
-      "summary": "",
-      "source": "EIB",
-      "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
-      "_source_label": "EIB",
-      "first_seen": "2026-08-10"
-    },
-    {
-      "id": "eib-688cabfc6644e74bc75dd13a",
-      "notice_type": "TA operations",
-      "notice_date": "01/08/2025",
-      "submission_date": "30/09/2025",
-      "country": "",
-      "project_id": "TA20250801 R0 FWA",
-      "project_name": "Framework Agreement to support EIB Advisory Activities - Public and Infrastructure Finance",
-      "bid_reference_no": "TA20250801 R0 FWA",
-      "bid_description": "Closed",
-      "procurement_method": "",
-      "summary": "",
-      "source": "EIB",
-      "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
-      "_source_label": "EIB",
-      "first_seen": "2026-08-10"
-    },
-    {
-      "id": "eib-6889cab3575a9f610158f3ea",
-      "notice_type": "Calls for tenders",
-      "notice_date": "31/07/2025",
-      "submission_date": "10/10/2025",
-      "country": "",
-      "project_id": "CFT-1804",
-      "project_name": "GLOBAL PAYROLL AND LEGAL SERVICES FOR EIB NON-EU EXTERNAL OFFICES",
-      "bid_reference_no": "CFT-1804",
-      "bid_description": "Closed",
-      "procurement_method": "",
-      "summary": "",
-      "source": "EIB",
-      "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
-      "_source_label": "EIB",
-      "first_seen": "2026-08-10"
-    },
-    {
-      "id": "eib-688a086a575a9f610158f487",
-      "notice_type": "Project procurement",
-      "notice_date": "30/07/2025",
-      "submission_date": "27/10/2025",
-      "country": "",
-      "project_id": "20120004-24",
-      "project_name": "Supplying, Installing and Commissioning of a Satellite Earth Stations and Microwave Network, Consisting of a 2 HUB Stations and 30 Remote Stations",
-      "bid_reference_no": "20120004-24",
       "bid_description": "Closed",
       "procurement_method": "",
       "summary": "",
