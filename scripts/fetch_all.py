@@ -17,7 +17,7 @@ from datetime import datetime, timezone, timedelta
 
 sys.path.insert(0, os.path.dirname(__file__))
 
-from sources import worldbank, ekacem, adb, g2b, icak, eib, kind  # noqa: E402
+from sources import worldbank, ekacem, adb, g2b, icak, eib, kind, aiib, afdb  # noqa: E402
 
 SOURCES = [
     ("World Bank", worldbank),
@@ -27,6 +27,8 @@ SOURCES = [
     ("해외건설협회(ICAK)", icak),
     ("EIB", eib),
     ("KIND", kind),
+    ("AIIB", aiib),
+    ("AfDB", afdb),
 ]
 
 KST = timezone(timedelta(hours=9))
