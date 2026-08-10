@@ -23,7 +23,7 @@ NOTICE_TYPES = [
 ]
 
 ROWS_PER_PAGE = 100
-MAX_PAGES = 20
+MAX_PAGES = 100  # 최대 1만 건까지 - 정렬 순서와 무관하게 잘리는 문제 자체를 없애기 위함
 
 
 def _parse_date(raw: str):
@@ -54,7 +54,7 @@ def _fetch_page(offset: int, deadline_strdate: str) -> dict:
         "rows": str(ROWS_PER_PAGE),
         "os": str(offset),
         "srt": "submission_deadline_date",
-        "order": "desc",
+        "order": "asc",
         "apilang": "en",
         "srce": "both",
         "notice_type_exact": notice_type_value,
@@ -83,6 +83,7 @@ def fetch() -> list:
     all_notices = {}
 
     offset = 0
+    total_seen = 0
     for _ in range(MAX_PAGES):
         try:
             data = _fetch_page(offset, deadline_strdate)
@@ -126,9 +127,15 @@ def fetch() -> list:
             }
 
         total = int(data.get("total", 0))
+        total_seen = total
         offset += ROWS_PER_PAGE
+        if offset == ROWS_PER_PAGE:  # 첫 페이지에서 한 번만 출력
+            print(f"[World Bank 디버그] 전체 열려있는 공고 수: {total}건 (최대 {ROWS_PER_PAGE * MAX_PAGES}건까지 수집)", file=sys.stderr)
         if offset >= total:
             break
         time.sleep(0.3)
+
+    if total_seen > ROWS_PER_PAGE * MAX_PAGES:
+        print(f"[World Bank 경고] 전체 {total_seen}건 중 {ROWS_PER_PAGE * MAX_PAGES}건만 수집됨 — 일부 공고가 잘렸을 수 있음", file=sys.stderr)
 
     return list(all_notices.values())
