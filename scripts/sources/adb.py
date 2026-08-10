@@ -12,7 +12,7 @@ import re
 import sys
 import urllib.request
 import xml.etree.ElementTree as ET
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 
 FEEDS = {
     "Consulting Services Recruitment Notice": "http://feeds.feedburner.com/adb-csrn",
@@ -20,6 +20,10 @@ FEEDS = {
     "Invitation for Prequalification": "http://feeds.feedburner.com/adb-invitation-for-prequalification",
     "Advanced Notice": "http://feeds.feedburner.com/adb-advanced-notices",
 }
+
+# 피드마다 담고 있는 기간 범위가 달라서(어떤 건 최근 것만, 어떤 건 과거 이력까지 섞여 있음),
+# 최근 N일 이내 공고만 남기고 오래된 건 제외한다.
+LOOKBACK_DAYS = 90
 
 
 def _fetch_xml(url: str) -> str:
@@ -41,6 +45,7 @@ def _parse_category(category_text: str) -> dict:
 
 def fetch() -> list:
     results = []
+    cutoff = datetime.now(timezone.utc).replace(tzinfo=None) - timedelta(days=LOOKBACK_DAYS)
 
     for notice_type, feed_url in FEEDS.items():
         try:
@@ -63,6 +68,10 @@ def fetch() -> list:
             except ValueError:
                 parsed = None
 
+            # 날짜를 모르거나(안전하게 제외), cutoff보다 오래된 공고는 건너뜀
+            if parsed is None or parsed < cutoff:
+                continue
+
             nid = guid or link or title
             results.append({
                 "id": f"adb-{nid}",
@@ -78,7 +87,7 @@ def fetch() -> list:
                 "summary": "",
                 "source": "ADB",
                 "source_url": link,
-                "_sort_date": (parsed or datetime.min).isoformat(),
+                "_sort_date": parsed.isoformat(),
             })
 
     return results
