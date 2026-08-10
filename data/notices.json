@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-10T06:39:14.062438+00:00",
+  "generated_at": "2026-08-10T06:49:09.985762+00:00",
   "today_kst": "2026-08-10",
   "sources": [
-    "World Bank 596건",
+    "World Bank 595건",
     "한국건설엔지니어링협회 0건",
     "ADB 0건",
     "나라장터(G2B) 36건",
@@ -12,25 +12,9 @@
     "AIIB 4건",
     "AfDB 0건"
   ],
-  "count": 784,
-  "new_today_count": 276,
+  "count": 778,
+  "new_today_count": 273,
   "notices": [
-    {
-      "id": "aiib-https://www.aiib.org/en/projects/details/2026/_download/Bangladesh/Project-Procurement-Plan.pdf",
-      "notice_type": "Procurement Plan",
-      "notice_date": "Aug 7, 2026",
-      "submission_date": "",
-      "country": "Bangladesh",
-      "project_id": "",
-      "project_name": "Southern Chattogram and Kaliakoir Transmission Infrastructure Development Project",
-      "bid_reference_no": "",
-      "bid_description": "",
-      "procurement_method": "",
-      "summary": "",
-      "source": "AIIB",
-      "source_url": "https://www.aiib.org/en/projects/details/2026/_download/Bangladesh/Project-Procurement-Plan.pdf",
-      "first_seen": "2026-08-10"
-    },
     {
       "id": "wb-OP00460987",
       "notice_type": "Request for Expression of Interest",
@@ -496,22 +480,6 @@
       "first_seen": "2026-08-10"
     },
     {
-      "id": "wb-OP00459053",
-      "notice_type": "Request for Expression of Interest",
-      "notice_date": "06-Aug-2026",
-      "submission_date": "2026-09-02T00:00:00Z",
-      "country": "Mozambique",
-      "project_id": "P507759",
-      "project_name": "Accelerating Sustainable and Clean Energy Access Transformation in Mozambique",
-      "bid_reference_no": "MZ-EDM-554056-CS-QCBS",
-      "bid_description": "Supervision of Works for the Construction of Medium and Low Voltage Networks in the Southern and Northern Regions of Mozambique",
-      "procurement_method": "Quality And Cost-Based Selection",
-      "summary": "REQUEST FOR EXPRESSIONS OF INTEREST (CONSULTANT SERVICES) Country: MOZAMBIQUE Project: Accelerating the Transformation of Access to Clean and Sustainable Energy (ASCENT) Grant No.: IDA-E4240 Assignment Title: Supervision of Works for the Construction of Medium and Low Voltage Networks in the Southern and Northern Regions of Mozambique Reference No.: MZ-EDM-554056-CS-QCBS 1. The Government of Mozambique (GoM) hereinafter referred to as &ldquo;the Borrower&rdquo; have received the Grant funds from",
-      "source": "World Bank",
-      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00459053",
-      "first_seen": "2026-08-10"
-    },
-    {
       "id": "wb-OP00460940",
       "notice_type": "Invitation for Bids",
       "notice_date": "06-Aug-2026",
@@ -798,6 +766,22 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00460673",
       "first_seen": "2026-08-07"
+    },
+    {
+      "id": "wb-OP00460702",
+      "notice_type": "Request for Expression of Interest",
+      "notice_date": "05-Aug-2026",
+      "submission_date": "2026-08-19T00:00:00Z",
+      "country": "Sri Lanka",
+      "project_id": "P514086",
+      "project_name": "Sri Lanka Ports and Logistics Development Program",
+      "bid_reference_no": "LK-SLPA-GFPP-560842-CS-QCBS",
+      "bid_description": "Hiring of of a consultancy firm for Study on the Modernization of Jaya Container Terminal (JCT) of Port of Colombo",
+      "procurement_method": "Quality And Cost-Based Selection",
+      "summary": "REQUEST FOR EXPRESSIONS OF INTEREST (CONSULTANCY SERVICES &ndash; FIRMS SELECTION) SRI LANKA SRI LANKA PORTS AND LOGISTICS DEVELOPMENT PROJECT Grant No.: TF0D0285 Assignment Title: Study on the Modernization of Jaya Container Terminal (JCT) of Port of Colombo Reference No. LK-SLPA-GFPP-560842-CS-QCBS The Democratic Socialist Republic of Sri Lanka has received financing from the World Bank toward the Sri Lanka Ports and Logistics Development Project, and intends to apply part of the proceeds for ",
+      "source": "World Bank",
+      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00460702",
+      "first_seen": "2026-08-10"
     },
     {
       "id": "wb-OP00460707",
@@ -3021,22 +3005,6 @@
       "summary": "REQUEST FOR EXPRESSIONS OF INTEREST National Recovery Program Bureau (NRPB) Consulting services for feasibility assessment, detailed design, procurement support, and construction supervision for the development of the VROMI Waste Diversion and Waste Management Yard Country: Sint Maarten Project: The Sint Maarten Emergency Debris Management Project Assignment Title: Consulting Services for Land Survey and Planning Credit/Loan no.: TF-B9747 Reference no.: SX-NRPB-556005-CS-CQS Deadline: 5:00 p.m. ",
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00456527",
-      "first_seen": "2026-08-06"
-    },
-    {
-      "id": "wb-OP00459885",
-      "notice_type": "Request for Expression of Interest",
-      "notice_date": "30-Jul-2026",
-      "submission_date": "2026-08-12T00:00:00Z",
-      "country": "Burkina Faso",
-      "project_id": "P177022",
-      "project_name": "Burkina Faso Digital Acceleration Project",
-      "bid_reference_no": "BF-PACTDIGITAL-556431-CS-FBS",
-      "bid_description": "Recrutement d’une ONG/OSC spécialisée dans la lutte contre les exploitations et abus sexuels/harcèlement sexuel (EAS/HS) et la violence basée sur le genre (VBG) dans le cadre de la mise en œuvre du projet PactDigital",
-      "procurement_method": "Fixed Budget Selection",
-      "summary": "AVIS A MANIFESTATION D&rsquo;INTERET N&deg; 2026-005/MTDPCE/SG/DMP DU 24/07/2026 RELATIF AU RECRUTEMENT D&rsquo;UNE ONG/OSC SPECIALISEE DANS LA LUTTE CONTRE LES EXPLOITATIONS ET ABUS SEXUELS/HARCELEMENT SEXUEL (EAS/HS) ET LA VIOLENCE BASEE SUR LE GENRE (VBG) DANS LE CADRE DE LA MISE EN &OElig;UVRE DU PROJET PACTDIGITAL CONTEXTE Le Gouvernement du Burkina Faso a obtenu un cr&eacute;dit de l&rsquo;Association Internationale de D&eacute;veloppement (IDA), pour financer le Projet d&rsquo;acc&eacute;",
-      "source": "World Bank",
-      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00459885",
       "first_seen": "2026-08-06"
     },
     {
@@ -7536,22 +7504,6 @@
       "first_seen": "2026-08-06"
     },
     {
-      "id": "wb-OP00418141",
-      "notice_type": "Invitation for Bids",
-      "notice_date": "13-Jul-2026",
-      "submission_date": "2026-08-12T00:00:00Z",
-      "country": "China",
-      "project_id": "P176989",
-      "project_name": "China Plastic Waste Reduction Project (Shaanxi)",
-      "bid_reference_no": "CPWRP-BS-G-01",
-      "bid_description": "Collection, transportation and other vehicles",
-      "procurement_method": "Request for Bids",
-      "summary": "https://bulletin.cebpubservice.com/bank/biddingBulletin/2026-07-13/6777.html https://ggzy.shaanxi.gov.cn/jydt/001001/001001001/001001001001/20260713/87197f57-c7f9-420e-9c68-ebdbcf38908a.html https://www.chinabidding.cn/public/bidagency/infoDetails?fid=2027828545761281",
-      "source": "World Bank",
-      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00418141",
-      "first_seen": "2026-08-06"
-    },
-    {
       "id": "wb-OP00456553",
       "notice_type": "Invitation for Bids",
       "notice_date": "13-Jul-2026",
@@ -7757,22 +7709,6 @@
       "summary": "Specific Procurement Notice Request for Bids Small Works (Two-Envelope Bidding Process) Employer: Ministry of Planning Project: Accelerating Economic Diversification and Job Creation Project (DIVERSIFICA MAIS) Contract title: Construction Works of the PL Railway Branch of Ca&aacute;la Country: Angola Loan No.: IBRD-95270 RFB No: 93W2/MINPLAN/26 Issued on: July, 2026 The Government of Angola has received financing from the World Bank toward the cost of the Accelerating Economic Diversification an",
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00456408",
-      "first_seen": "2026-08-06"
-    },
-    {
-      "id": "wb-OP00456288",
-      "notice_type": "Invitation for Bids",
-      "notice_date": "13-Jul-2026",
-      "submission_date": "2026-09-04T00:00:00Z",
-      "country": "Uzbekistan",
-      "project_id": "P171683",
-      "project_name": "Electricity Sector Transformation and Resilient Transmission",
-      "bid_reference_no": "RFB/MUTS/2021-7R",
-      "bid_description": "Modernization and upgrade of main grid substations: Gulcha 220 kV, \"0\"220 kV, Gornaya 220 kV and Daugiztau 220 kV",
-      "procurement_method": "Request for Bids",
-      "summary": "Specific Procurement Notice Request for Bids Plant Design, Supply and Installation ( Two-envelope Bidding Process, Without Prequalification) Employer: JSC National Electric Grid of Uzbekistan Project: Electricity Sector Transformation and Resilient Transmission (ESTART) Contract title: Modernization and upgrade of main grid substations: Gulcha SS 220 kV, 0 SS 220 kV, Gornaya SS 220 kV Daugiz-Tau SS 220 kV . Country: Republic of Uzbekistan Credit/Loan No.: IDA-69430, TF0B5804-UZ RFB No: RFB/MUTS/",
-      "source": "World Bank",
-      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00456288",
       "first_seen": "2026-08-06"
     },
     {
@@ -11600,22 +11536,6 @@
       "first_seen": "2026-08-10"
     },
     {
-      "id": "eib-6900924960bd76312173e332",
-      "notice_type": "Project procurement",
-      "notice_date": "28/10/2025",
-      "submission_date": " ",
-      "country": "",
-      "project_id": "20080194-05",
-      "project_name": "Construction of 400kV Substation in Balti",
-      "bid_reference_no": "20080194-05",
-      "bid_description": "On going",
-      "procurement_method": "",
-      "summary": "",
-      "source": "EIB",
-      "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
-      "first_seen": "2026-08-10"
-    },
-    {
       "id": "eib-68f9ed425ef7503baa79aa96",
       "notice_type": "Project procurement",
       "notice_date": " ",
@@ -12457,22 +12377,6 @@
       "project_name": "Technical Assistance for implementation of  the Serbian Inland Waterway Infrastructure  Project",
       "bid_reference_no": "20170671-31",
       "bid_description": "Closed",
-      "procurement_method": "",
-      "summary": "",
-      "source": "EIB",
-      "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
-      "first_seen": "2026-08-10"
-    },
-    {
-      "id": "eib-688caece6644e74bc75dd141",
-      "notice_type": "Project procurement",
-      "notice_date": "01/08/2025",
-      "submission_date": " ",
-      "country": "",
-      "project_id": "20080194-04",
-      "project_name": "Construction of a High-Voltage Electricity Transmission Line Balti-Suceava (400kV OHL)",
-      "bid_reference_no": "20080194-04",
-      "bid_description": "On going",
       "procurement_method": "",
       "summary": "",
       "source": "EIB",
