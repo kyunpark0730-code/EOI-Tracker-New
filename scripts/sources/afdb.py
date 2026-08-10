@@ -16,8 +16,8 @@ from datetime import datetime, timezone, timedelta
 
 from sources._country_extract import extract_country
 
-# "Projects Procurement" 피드 (프로젝트 조달) - 사업성 EOI/입찰공고 위주
-FEED_URL = "https://www.afdb.org/en/projects-and-operations/procurement.xml"
+# "Current Solicitations" 피드로 변경 (procurement.xml이 403으로 막혀서 다른 경로 시도)
+FEED_URL = "https://www.afdb.org/en/about-us/corporate-procurement/procurement-notices/current-solicitations.xml"
 LOOKBACK_DAYS = 45
 
 DATE_FORMATS = (
