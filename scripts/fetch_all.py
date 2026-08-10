@@ -18,7 +18,7 @@ from datetime import datetime, timezone, timedelta
 sys.path.insert(0, os.path.dirname(__file__))
 
 from sources import worldbank, ekacem, adb, g2b, icak, eib, kind, aiib, afdb  # noqa: E402
-from sources._sector_filter import is_relevant  # noqa: E402
+from sources._sector_filter import is_relevant, is_individual_job_posting  # noqa: E402
 
 SOURCES = [
     ("World Bank", worldbank),
@@ -86,12 +86,18 @@ def main():
     all_notices.sort(key=sort_key, reverse=True)
 
     before_filter = len(all_notices)
+
+    before_job_filter = len(all_notices)
+    all_notices = [n for n in all_notices if not is_individual_job_posting(n.get("project_name", ""))]
+    job_filtered_out = before_job_filter - len(all_notices)
+    print(f"채용(개인 직책) 공고로 제외됨: {job_filtered_out}건")
+
     all_notices = [
         n for n in all_notices
         if is_relevant(n.get("project_name", ""), n.get("bid_description", ""),
                         n.get("notice_type", ""), n.get("summary", ""))
     ]
-    filtered_out = before_filter - len(all_notices)
+    filtered_out = before_filter - len(all_notices) - job_filtered_out
     print(f"분야 필터로 제외됨: {filtered_out}건 (관개/도로/수자원 등과 무관)")
 
     new_today_count = 0
