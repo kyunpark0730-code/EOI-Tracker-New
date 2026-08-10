@@ -45,10 +45,44 @@ EXCLUDE_PATTERNS = [
     r"tourism", r"관광",
     r"gender action", r"양성평등",
     r"agricultur(e|al) value chain", r"농업 가치사슬",
+    r"voltage network", r"transmission line", r"transmission network",
+    r"transmission infrastructure", r"power grid", r"substation",
+    r"송전", r"배전", r"변전소", r"전력망",
 ]
 
 _INCLUDE_RE = re.compile("|".join(INCLUDE_PATTERNS), re.IGNORECASE)
 _EXCLUDE_RE = re.compile("|".join(EXCLUDE_PATTERNS), re.IGNORECASE)
+
+# 개인 직책 채용(사업공고가 아니라 사람 한 명 뽑는 공고)을 걸러내기 위한 패턴.
+# "M&E Officer", "HS Specialist", "Road Data Collection Specialist"처럼
+# 제목이 짧고 직책명으로 끝나면 채용공고로 간주한다.
+# (사업 키워드가 있어도 이건 무조건 제외 — "Road Data Collection Specialist"도 걸러야 함)
+_JOB_TITLE_ENDING_RE = re.compile(
+    r"\b(specialist|officer|expert|coordinator|advisor|adviser|analyst|manager|"
+    r"scientist|auditor|economist|consultant)s?\s*$",
+    re.IGNORECASE,
+)
+# 아래 단어가 있으면 '한 명 채용'이 아니라 '용역/사업' 공고이므로 채용으로 간주하지 않음
+_NOT_JOB_HINT_RE = re.compile(
+    r"consultancy services|consulting services|request for proposal|invitation for bid|"
+    r"expression of interest|firm|company|contractor|supplier|construction of|"
+    r"rehabilitation of|upgrading of|supervision of|design and|feasibility",
+    re.IGNORECASE,
+)
+
+
+def is_individual_job_posting(title: str) -> bool:
+    """개인 직책(채용) 공고인지 판단. 짧고 직책명으로 끝나며, 사업/용역을 나타내는
+    문구가 없으면 채용공고로 판단한다."""
+    if not title:
+        return False
+    title = title.strip()
+    word_count = len(title.split())
+    if word_count > 8:
+        return False  # 보통 채용공고 제목은 짧음
+    if _NOT_JOB_HINT_RE.search(title):
+        return False  # 사업/용역 성격 문구가 있으면 채용공고가 아님
+    return bool(_JOB_TITLE_ENDING_RE.search(title))
 
 
 def is_relevant(*texts: str) -> bool:
