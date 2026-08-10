@@ -9,6 +9,7 @@ https://www.afdb.org/en/rss-feeds 에 공식으로 안내된 피드 주소를 �
 
 import re
 import sys
+import time
 import urllib.request
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone, timedelta
@@ -30,11 +31,22 @@ DATE_FORMATS = (
 
 def _fetch_xml(url: str) -> str:
     req = urllib.request.Request(url, headers={
-        "User-Agent": "Mozilla/5.0 (EOI-Tracker/1.0)",
-        "Accept": "application/rss+xml, application/xml, text/xml",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+                      "(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+        "Accept": "application/rss+xml, application/xml, text/xml, */*",
+        "Accept-Language": "en-US,en;q=0.9",
+        "Referer": "https://www.afdb.org/en/projects-and-operations/procurement",
     })
-    with urllib.request.urlopen(req, timeout=30) as resp:
-        return resp.read().decode("utf-8", errors="replace")
+    last_err = None
+    for attempt in range(3):
+        try:
+            with urllib.request.urlopen(req, timeout=30) as resp:
+                return resp.read().decode("utf-8", errors="replace")
+        except Exception as e:
+            last_err = e
+            print(f"[AfDB 경고] 시도 {attempt + 1}/3 실패: {e}", file=sys.stderr)
+            time.sleep(3)
+    raise last_err
 
 
 def _parse_date(raw: str):
