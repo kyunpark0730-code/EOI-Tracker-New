@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-08-10T23:33:32.300042+00:00",
+  "generated_at": "2026-08-10T23:47:45.170755+00:00",
   "today_kst": "2026-08-11",
   "sources": [
     "World Bank 642건",
     "한국건설엔지니어링협회 0건",
     "ADB 0건",
-    "나라장터(G2B) 88건",
+    "나라장터(G2B) 84건",
     "해외건설협회(ICAK) 3건",
     "EIB 200건",
     "KIND 4건",
@@ -18,15 +18,15 @@
     },
     "한국건설엔지니어링협회": {
       "last_success": "알 수 없음",
-      "consecutive_failures": 3
+      "consecutive_failures": 4
     },
     "ADB": {
       "last_success": "알 수 없음",
-      "consecutive_failures": 3
+      "consecutive_failures": 4
     },
     "나라장터(G2B)": {
       "last_success": "2026-08-11",
-      "consecutive_failures": 0
+      "consecutive_failures": 1
     },
     "해외건설협회(ICAK)": {
       "last_success": "2026-08-11",
@@ -45,8 +45,8 @@
       "consecutive_failures": 0
     }
   },
-  "count": 808,
-  "new_today_count": 128,
+  "count": 788,
+  "new_today_count": 127,
   "notices": [
     {
       "id": "wb-OP00461473",
@@ -62,23 +62,6 @@
       "summary": "AVIS DE DEMANDE DE COTATION N 2026/002/MAPA/FSRP/DC Objet : ACQUISITION ET INSTALLATION D&rsquo;UN SYSTEME SOLAIRE AU CRDE DE FOMBONI. Le Gouvernement de l&rsquo;Union des Comores, &agrave; travers le Minist&egrave;re de l&rsquo;Agriculture, de la P&ecirc;che et de l&rsquo;Artisanat, met en &oelig;uvre le Projet de R&eacute;silience des Syst&egrave;mes Alimentaires aux Comores (FSRP-KM) financ&eacute; par la Banque mondiale. Dans le cadre de la mise en &oelig;uvre des activit&eacute;s des Centre",
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00461473",
-      "_source_label": "World Bank",
-      "first_seen": "2026-08-11"
-    },
-    {
-      "id": "wb-OP00461138",
-      "notice_type": "Request for Expression of Interest",
-      "notice_date": "09-Aug-2026",
-      "submission_date": "2026-08-24T00:00:00Z",
-      "country": "Eastern and Southern Africa",
-      "project_id": "P176181",
-      "project_name": "Eastern Africa Regional Digital Integration Project",
-      "bid_reference_no": "SO-MOCT-FGS-557101-CS-QCBS",
-      "bid_description": "CERT Enhancement, NCA",
-      "procurement_method": "Quality And Cost-Based Selection",
-      "summary": "REQUEST FOR EXPRESSIONS OF INTEREST (REOI) COUNTRY: Federal Government of Somalia (FGS) NAME OF PROJECT: Regional Digital Integration Project (EA-RDIP) PROJECT ID : P176181 Assignment Title: Consulting Services for CERT Enhancement Reference No.: SO-MOCT-FGS-557101-CS-QCBS Place of assignment: Mogadishu, Somalia Submission Date: August 24, 2026 at 2.00pm (Mogadishu, Somalia Local Time). The Federal Republic of Somalia has received a grant from the International Development Association (IDA) of t",
-      "source": "World Bank",
-      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00461138",
       "_source_label": "World Bank",
       "first_seen": "2026-08-11"
     },
@@ -317,23 +300,6 @@
       "summary": "REQUEST FOR EXPRESSIONS OF INTEREST (CONSULTANT SERVICES &ndash; FIRMS SELECTION) INDONESIA Global Environment Facility (GEF) Grant: Sustainable Cities Impact Project (SCIP) Grant No.: TF0B8114 Assignment Title: Consulting Services For Sustainable Investment Facilitation Advisory (SIFA) in the Five Pilot Cities of GEF Indonesia SCIP Reference No .: ID-PPP BAPPENAS-508088-CS-CQS The Ministry of National Development Planning/National Development Planning Agency has received financing from the Worl",
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00461331",
-      "_source_label": "World Bank",
-      "first_seen": "2026-08-11"
-    },
-    {
-      "id": "wb-OP00461013",
-      "notice_type": "Request for Expression of Interest",
-      "notice_date": "07-Aug-2026",
-      "submission_date": "2026-08-22T00:00:00Z",
-      "country": "Eastern and Southern Africa",
-      "project_id": "P176181",
-      "project_name": "Eastern Africa Regional Digital Integration Project",
-      "bid_reference_no": "SO-MOCT-FGS-557032-CS-INDV",
-      "bid_description": "Cybersecurity Awareness and Outreach Specialist for NCA",
-      "procurement_method": "Individual Consultant Selection",
-      "summary": "REQUEST FOR EXPRESSIONS OF INTEREST (REOI) COUNTRY: Federal Government of Somalia (FGS) NAME OF PROJECT: Regional Digital Integration Project (EA-RDIP) PROJECT ID: P176181 ASSIGNMENT TITLE: Cybersecurity Awareness and Outreach Specialist REFERENCE NO.: SO-MOCT-FGS-557032-CS-INDV PLACE OF ASSIGNMENT: Mogadishu, Somalia APPLICATION DEADLINE DATE: August 22, 2026, at (2.00pm Mogadishu, Somalia Local Time). Project Background: The Federal Government of Somalia has received a grant from the Internati",
-      "source": "World Bank",
-      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00461013",
       "_source_label": "World Bank",
       "first_seen": "2026-08-11"
     },
@@ -1358,23 +1324,6 @@
       "first_seen": "2026-08-10"
     },
     {
-      "id": "wb-OP00440671",
-      "notice_type": "Invitation for Bids",
-      "notice_date": "06-Aug-2026",
-      "submission_date": "2026-09-18T00:00:00Z",
-      "country": "Chad",
-      "project_id": "P180000",
-      "project_name": "Chad Digital Transformation Project",
-      "bid_reference_no": "TD-CDTP-546154-GO-RFB",
-      "bid_description": "Les équipements de sécurités : -pare-feu(firewall); -Système de Prevention/détection d'Intrusion (IPS/IDS) ; -Sonde de Sécurité réseau(NDR-Network Detection and Reponse); -NAC (Network Access Control); Antivirus/Antimalware; -PLD(Data Lost Prevention).",
-      "procurement_method": "Request for Bids",
-      "summary": "R&Eacute;PUBLIQUE DU TCHAD PR&Eacute;SIDENCE DE LA R&Eacute;PUBLIQUE MINIST&Egrave;RE DES T&Eacute;L&Eacute;COMMUNICATIONS, DE L&rsquo;&Eacute;CONOMIE NUM&Eacute;RIQUE ET DE LA DIGITALISATION SECR&Eacute;TARIAT D&rsquo;&Eacute;TAT SECR&Eacute;TARIAT G&Eacute;N&Eacute;RAL PROJET D&rsquo;APPUI &Agrave; LA TRANSFORMATION NUM&Eacute;RIQUE DU TCHAD (PATN) PASSATION DES MARCHES Avis Sp&eacute;cifique d&rsquo;Appel d&rsquo;Offres (AAO) Appel d&rsquo;Offres pour Fournitures (Processus &agrave; deux enve",
-      "source": "World Bank",
-      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00440671",
-      "_source_label": "World Bank",
-      "first_seen": "2026-08-10"
-    },
-    {
       "id": "wb-OP00461098",
       "notice_type": "Invitation for Bids",
       "notice_date": "06-Aug-2026",
@@ -2276,23 +2225,6 @@
       "first_seen": "2026-08-06"
     },
     {
-      "id": "wb-OP00460174",
-      "notice_type": "Request for Expression of Interest",
-      "notice_date": "04-Aug-2026",
-      "submission_date": "2026-08-20T00:00:00Z",
-      "country": "Eastern and Southern Africa",
-      "project_id": "P176181",
-      "project_name": "Eastern Africa Regional Digital Integration Project",
-      "bid_reference_no": "SO-MOCT-FGS-557030-CS-INDV",
-      "bid_description": "Cybersecurity Capacity Development Specialist for NCA",
-      "procurement_method": "Individual Consultant Selection",
-      "summary": "REQUEST FOR EXPRESSIONS OF INTEREST (REOI) COUNTRY: Federal Government of Somalia (FGS) NAME OF PROJECT: Regional Digital Integration Project (EA-RDIP) PROJECT ID: P176181 ASSIGNMENT TITLE: Cybersecurity Capacity Development Specialist REFERENCE NO.: SO-MOCT-FGS-557030-CS-INDV PLACE OF ASSIGNMENT: Mogadishu, Somalia APPLICATION DEADLINE DATE: August 20, 2026, at (2.00pm Local Time). Project Background: The Federal Government of Somalia has received a grant from the International Development Asso",
-      "source": "World Bank",
-      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00460174",
-      "_source_label": "World Bank",
-      "first_seen": "2026-08-06"
-    },
-    {
       "id": "wb-OP00460419",
       "notice_type": "Request for Expression of Interest",
       "notice_date": "04-Aug-2026",
@@ -2327,23 +2259,6 @@
       "first_seen": "2026-08-06"
     },
     {
-      "id": "wb-OP00460472",
-      "notice_type": "Invitation for Bids",
-      "notice_date": "04-Aug-2026",
-      "submission_date": "2026-08-21T00:00:00Z",
-      "country": "Liberia",
-      "project_id": "P171997",
-      "project_name": "Liberia Investment, Finance and Trade Project",
-      "bid_reference_no": "LR-MOCI-565320-GO-RFB",
-      "bid_description": "Supply and Installation of ICT Equipment and Related Services for Implementation of a National Trade Information Portal and National Single Window (NSW), for the Government of Liberia.",
-      "procurement_method": "Request for Bids",
-      "summary": "REPUBLIC OF LIBERIA MINISTRY OF COMMERCE &amp; INDUSTRY LIBERIA INVESTMENT, FINANCE AND TRADE PROJECT (LIFT-P) INSURANCE BUILDING, 5TH STREET-SINKOR OPPOSITE CONEX GAS STATION MONROVIA, LIBERIA P.O. Box 9041, 1000 Monrovia, 10 Liberia www.moci.gov.lr Special Procurement Notice RE-ADVERTISED Request for Bids &ndash; Goods Procurement (Single Stage &ndash; One Envelope Process) Open International Competitive Bidding for Supply and Installation of ICT Infrastructure for National Single Window Syste",
-      "source": "World Bank",
-      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00460472",
-      "_source_label": "World Bank",
-      "first_seen": "2026-08-06"
-    },
-    {
       "id": "wb-OP00459487",
       "notice_type": "Request for Expression of Interest",
       "notice_date": "04-Aug-2026",
@@ -2357,23 +2272,6 @@
       "summary": "MINISTERE DE L&rsquo;AGRICULTURE ET DE LA SOUVERAINETE ALIMENTAIRE -------------------- SECRETARIAT GENERAL -------------------- DIRECTION G&Eacute;N&Eacute;RALE DE L&rsquo;AGRICULTURE -------------------- PROJET DE R&Eacute;SILIENCE DES SYST&Egrave;MES ALIMENTAIRES DE MADAGASCAR (FSRP) Cr&eacute;dit IDA 71570-MG et Don IDA E0830-MG R&eacute;f&eacute;rence STEP : C 04-26/CN S&Eacute;LECTION DE CONSULTANTS PAR LES EMPRUNTEURS DE LA BANQUE MONDIALE APPEL A MANIFESTATIONS D&rsquo;INTERET N&deg; C 0",
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00459487",
-      "_source_label": "World Bank",
-      "first_seen": "2026-08-06"
-    },
-    {
-      "id": "wb-OP00460176",
-      "notice_type": "Request for Expression of Interest",
-      "notice_date": "04-Aug-2026",
-      "submission_date": "2026-08-22T00:00:00Z",
-      "country": "Eastern and Southern Africa",
-      "project_id": "P176181",
-      "project_name": "Eastern Africa Regional Digital Integration Project",
-      "bid_reference_no": "SO-MOCT-FGS-557099-CS-CQS",
-      "bid_description": "Consulting Service for National guidelines for greening digital infrastructure and e-waste management, NCA",
-      "procurement_method": "Consultant Qualification  Selection",
-      "summary": "COUNTRY: Federal Republic of Somalia NAME OF PROJECT: Regional Digital Integration Project (EA-RDIP) PROJECT ID : P176181 Assignment Title: Consulting Service for National Guidelines for Greening Digital Infrastructure and E-waste Management Reference No.: SO-MOCT-FGS-557099-CS-CQS Place of assignment: Mogadishu, Somalia Submission Date: August 22, 2026, 2.00pm (local time, Mogadishu, Somalia) The Federal Republic of Somalia has received a grant from the International Development Association (ID",
-      "source": "World Bank",
-      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00460176",
       "_source_label": "World Bank",
       "first_seen": "2026-08-06"
     },
@@ -2820,23 +2718,6 @@
       "first_seen": "2026-08-06"
     },
     {
-      "id": "wb-OP00460064",
-      "notice_type": "Request for Expression of Interest",
-      "notice_date": "03-Aug-2026",
-      "submission_date": "2026-08-21T00:00:00Z",
-      "country": "Uganda",
-      "project_id": "P171305",
-      "project_name": "Uganda Digital Acceleration Project - GovNet",
-      "bid_reference_no": "UG-NITA-U-561937-CS-QCBS",
-      "bid_description": "Consultancy services for analysis of cybersecurity status in key sectors and development of customized Cybersecurity Guidelines",
-      "procurement_method": "Quality And Cost-Based Selection",
-      "summary": "NATIONAL INFORMATION TECHNOLOGY AUTHORITY-UGANDA REQUEST FOR EXPRESSION OF INTEREST (CONSULTING SERVICES &ndash; FIRMS SELECTION) UGANDA DIGITAL ACCELERATION PROJECT &ndash; GOVERNMENT NETWORK (UDAP-GOVNET) LOAN NUMBER: P171305 REFERENCE NUMBER: NITA-U/UDAP/CONS/26-27/00002 ASSIGNMENT TITLE: CONSULTANCY SERVICES FOR THE ANALYSIS OF CYBERSECURITY STATUS IN KEY SECTORS AND DEVELOPMENT OF CUSTOMISED CYBERSECURITY GUIDELINES The Government of Uganda represented by the National Information Technology",
-      "source": "World Bank",
-      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00460064",
-      "_source_label": "World Bank",
-      "first_seen": "2026-08-06"
-    },
-    {
       "id": "wb-OP00460281",
       "notice_type": "Request for Expression of Interest",
       "notice_date": "03-Aug-2026",
@@ -3109,23 +2990,6 @@
       "first_seen": "2026-08-06"
     },
     {
-      "id": "wb-OP00460124",
-      "notice_type": "Invitation for Bids",
-      "notice_date": "01-Aug-2026",
-      "submission_date": "2026-08-31T00:00:00Z",
-      "country": "Ethiopia",
-      "project_id": "P179040",
-      "project_name": "Ethiopia Digital ID for Inclusion and Services Project",
-      "bid_reference_no": "ET-NIDP-539792-NC-RFB",
-      "bid_description": "Selection of a Colocation Service Provider for NIDP",
-      "procurement_method": "Request for Bids",
-      "summary": "Specific Procurement Notice Request for Bids Non-Consulting Services Employer: National ID Program Project: Digital ID for Inclusion and Services Project (P179040) Contract title: Selection of Service Provider that Provides a Data Center Colocation Service for NIDP Country: Ethiopia Credit No: 7463-ET RFB No: ET-NIDP-539792-NC-RFB Issued on: July 31, 2026 1. The Federal Democratic Republic of Ethiopia has received financing from the World Bank toward the cost of the Digital ID for Inclusion and ",
-      "source": "World Bank",
-      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00460124",
-      "_source_label": "World Bank",
-      "first_seen": "2026-08-06"
-    },
-    {
       "id": "wb-OP00460142",
       "notice_type": "Invitation for Bids",
       "notice_date": "01-Aug-2026",
@@ -3156,23 +3020,6 @@
       "summary": "MINISTERE DE L&rsquo;AGRICULTURE ET DE LA SOUVERAINETE ALIMENTAIRE ---------- SECRETARIAT GENERAL ---------- PROJET DE RESILIENCE DES SYSTEMES ALIMENTAIRES DE MADAGASCAR (FSRP) ---------- Cr&eacute;dit IDA-71570-MG/Don IDA-E0830-MG &ndash; Madagascar - PPM STEP N&deg; F 03-25/CN Pays : Madagascar Avis d&rsquo;Appel d&rsquo;Offres National Acquisition de bicyclettes et services connexes pour les Agents de Proximit&eacute; de la Production Animale AAON N&deg; F 03-25/CN Emis le : 01er ao&ucirc;t 2",
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00460083",
-      "_source_label": "World Bank",
-      "first_seen": "2026-08-06"
-    },
-    {
-      "id": "wb-OP00460122",
-      "notice_type": "Invitation for Bids",
-      "notice_date": "01-Aug-2026",
-      "submission_date": "2026-09-02T00:00:00Z",
-      "country": "Ethiopia",
-      "project_id": "P179040",
-      "project_name": "Ethiopia Digital ID for Inclusion and Services Project",
-      "bid_reference_no": "ET-NIDP-502637-GO-RFB",
-      "bid_description": "Supply and Delivery of IT Infrastructures (Existing Expansion of Infrastructure)",
-      "procurement_method": "Request for Bids",
-      "summary": "Specific Procurement Notice Request for Bids Goods (Single Stage, One-Envelope Bidding Process) Country: Ethiopia Name of Project: Digital ID for Inclusion and Services Project (P179040) Contract Title: Supply and Delivery of IT Infrastructures (Existing Expansion of Data Center Infrastructure) Credit No: 7463-ET RFB Reference No.: ET-NIDP-502637-GO-RFB The Federal Democratic Republic of Ethiopia has received financing from the World Bank toward the cost of the Digital ID for Inclusion and Servi",
-      "source": "World Bank",
-      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00460122",
       "_source_label": "World Bank",
       "first_seen": "2026-08-06"
     },
@@ -3717,23 +3564,6 @@
       "summary": "REPUBLIQUE DEMOCRATIQUE DU CONGO MINISTERE DU COMMERCE EXTERIEUR Unit&eacute; de Gestion du Projet Projet de Facilitation du Commerce et Int&eacute;gration dans la R&eacute;gion des Grands Lacs (PFCIGL) AVIS DE SOLLICITATION DE MANIFESTATIONS D&rsquo;INTERET (SERVICE DE CONSULTANTS) RECRUTEMENT D&#39;UN(E) CHARGE (E) DES OPERATIONS POUR LE PROJET N&deg;AVIS : 006/MIN.COM-EXT/UGP/PFCIGL/2026 R&eacute;f&eacute;rence dans PPM : ZR-UGP-557094-CS-INDV R&eacute;f&eacute;rence de l&rsquo;accord de fina",
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00459834",
-      "_source_label": "World Bank",
-      "first_seen": "2026-08-06"
-    },
-    {
-      "id": "wb-OP00459745",
-      "notice_type": "Request for Expression of Interest",
-      "notice_date": "30-Jul-2026",
-      "submission_date": "2026-08-15T00:00:00Z",
-      "country": "Eastern and Southern Africa",
-      "project_id": "P176181",
-      "project_name": "Eastern Africa Regional Digital Integration Project",
-      "bid_reference_no": "SO-MOCT-FGS-536515-CS-CQS",
-      "bid_description": "Consultancy Service for Environmental and Social Impact Assessment (ESIA)",
-      "procurement_method": "Consultant Qualification  Selection",
-      "summary": "COUNTRY: Federal Republic of Somalia NAME OF PROJECT: Regional Digital Integration Project (EA-RDIP) PROJECT ID : P176181 Assignment Title: Consultancy Service for Environmental and Social Impact Assessment (ESIA) Reference No.: SO-MOCT-FGS-536515-CS-CQS Place of assignment: Mogadishu, Somalia Submission Date: August 15, 2026, 2.00pm (local time, Mogadishu, Somalia) The Federal Republic of Somalia has received a grant from the International Development Association (IDA) of the World Bank toward ",
-      "source": "World Bank",
-      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00459745",
       "_source_label": "World Bank",
       "first_seen": "2026-08-06"
     },
@@ -4384,6 +4214,23 @@
       "first_seen": "2026-08-06"
     },
     {
+      "id": "wb-OP00459690",
+      "notice_type": "Request for Expression of Interest",
+      "notice_date": "29-Jul-2026",
+      "submission_date": "2026-08-18T00:00:00Z",
+      "country": "Brazil",
+      "project_id": "P177070",
+      "project_name": "Progestão Alagoas: Public Sector Management Efficiency",
+      "bid_reference_no": "BR-ALPREV/AL-517816-CS-QCBS",
+      "bid_description": "AL 3 - Contratação de consultoria especializada para transformação de processos e levantamento de requisitos para futuro desenvolvimento de solução tecnológica para apoio a administração e gestão do regime próprio da AL PREV (unidade gestora única)",
+      "procurement_method": "Quality And Cost-Based Selection",
+      "summary": "Brasil Programa Progest&atilde;o Alagoas Empr&eacute;stimo n&ordm; 9435-BR N&uacute;mero de Refer&ecirc;ncia: BR-ALPREV/AL-517816-CS-QCBS O Estado de Alagoas recebeu financiamento do Banco Mundial para custear parcialmente o Programa Progest&atilde;o Alagoas, e pretende aplicar parte dos recursos para servi&ccedil;os de consultoria. Os servi&ccedil;os desta consultoria referem-se &agrave; contrata&ccedil;&atilde;o de empresa de consultoria especializada para prestar apoio &agrave; transforma&cce",
+      "source": "World Bank",
+      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00459690",
+      "_source_label": "World Bank",
+      "first_seen": "2026-08-11"
+    },
+    {
       "id": "wb-OP00459598",
       "notice_type": "Invitation for Bids",
       "notice_date": "29-Jul-2026",
@@ -4826,23 +4673,6 @@
       "first_seen": "2026-08-06"
     },
     {
-      "id": "wb-OP00459230",
-      "notice_type": "Invitation for Bids",
-      "notice_date": "28-Jul-2026",
-      "submission_date": "2026-08-27T00:00:00Z",
-      "country": "Mozambique",
-      "project_id": "P176459",
-      "project_name": "Mozambique Digital Acceleration Project",
-      "bid_reference_no": "123/MDAP/MCTD/W-RFB/26",
-      "bid_description": "Renovation of Ministry of Communications and Digital Transformation Building",
-      "procurement_method": "Request for Bids",
-      "summary": "REP&Uacute;BLICA DE MO&Ccedil;AMBIQUE MINIST&Eacute;RIO DAS COMUNICA&Ccedil;&Otilde;ES E TRANSFORMA&Ccedil;&Atilde;O DIGITAL PROJECTO DE ACELERA&Ccedil;&Atilde;O DIGITAL DE MO&Ccedil;AMBIQUE Project No: P176459 An&uacute;ncio de Concurso P&uacute;blico Solicita&ccedil;&atilde;o de Propostas (SDP) para Pequenas Obras (Concurso de Um Envelope) Pa&iacute;s: Mo&ccedil;ambique Nome do Projecto: Projecto de Acelera&ccedil;&atilde;o Digital de Mo&ccedil;ambique (PADIM) Objecto do Concurso: Reabilita&cc",
-      "source": "World Bank",
-      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00459230",
-      "_source_label": "World Bank",
-      "first_seen": "2026-08-06"
-    },
-    {
       "id": "wb-OP00459138",
       "notice_type": "Request for Expression of Interest",
       "notice_date": "28-Jul-2026",
@@ -4873,23 +4703,6 @@
       "summary": "PREFEITURA MUNICIPAL DE PORTO ALEGRE SECRETARIA MUNICIPAL DE PLANEJAMENTO E GEST&Atilde;O LicitaCon - Regras Internacionais - n&ordm; 008/2026 SOLICITA&Ccedil;&Atilde;O DE MANIFESTA&Ccedil;&Atilde;O DE INTERESSE SBQC 003/2026 SERVI&Ccedil;OS DE CONSULTORIA &ndash; SELE&Ccedil;&Atilde;O DE EMPRESAS CONSULTORA T&Eacute;CNICA ESPECIALIZADA EM ENGENHARIA PARA ATUA&Ccedil;&Atilde;O COMO ENGENHEIRO FIDIC (YELLOW BOOK) E GERENTE DE PROJETO (PROJETO E OBRAS MENORES) Projeto: Programa de Revitaliza&ccedi",
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00459178",
-      "_source_label": "World Bank",
-      "first_seen": "2026-08-06"
-    },
-    {
-      "id": "wb-OP00459331",
-      "notice_type": "Invitation for Bids",
-      "notice_date": "28-Jul-2026",
-      "submission_date": "2026-09-01T00:00:00Z",
-      "country": "Eastern and Southern Africa",
-      "project_id": "P180117",
-      "project_name": "Building Institutions And Systems to Harness And Realize Agenda 2063 Project",
-      "bid_reference_no": "ET-AUC-555562-GO-RFB",
-      "bid_description": "Supply and Installation of Enterprise Backup & Recovery Software Solution",
-      "procurement_method": "Request for Bids",
-      "summary": "Invitation for Bids (IFB) Issuing date of the IFB: 28 July 2026 Name of Country: Ethiopia Name of Project: Building Institutions and Systems to Harness and Realize Agenda (BIASHARA) 2063 Project Brief Description of the Information System: The scope of the assignment includes the standardization and centralization of backup and recovery services across all MISD managed environments within the African Union Commission. It includes protection of critical workloads hosted in the AU Data Center (VMw",
-      "source": "World Bank",
-      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00459331",
       "_source_label": "World Bank",
       "first_seen": "2026-08-06"
     },
@@ -6318,23 +6131,6 @@
       "summary": "SPECIAL NOTICE FOR SELECTION OF INDIVIDUAL CONSULTANT - COMMUNICATIONS SPECIALIST FOR WSIP-1-AF. Organization: State Entity Municipal Infrastructure Development Project Management Unit (MID PMU) Project: Water Supply and Sanitation Investment Project (Phase-1) Additional Financing (AF) Position: Individual consultant-communications specialist Country: Republic of Tajikistan. Grant No: E 0950-001 TJ Released: July 22th, 2026 . Introduction The Water Supply and Sanitation Investment Project, funde",
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00458173",
-      "_source_label": "World Bank",
-      "first_seen": "2026-08-06"
-    },
-    {
-      "id": "wb-OP00458234",
-      "notice_type": "Request for Expression of Interest",
-      "notice_date": "22-Jul-2026",
-      "submission_date": "2026-08-12T00:00:00Z",
-      "country": "Western and Central Africa",
-      "project_id": "P176932",
-      "project_name": "Digital Transformation for Africa/ Western Africa Regional Digital Integration Program SOP1",
-      "bid_reference_no": "RW-SAA-473606-CS-LCS",
-      "bid_description": "Recruitment of Graphic Design Consultant to support SADA-WARDIP SOP1 implementation",
-      "procurement_method": "Least Cost Selection",
-      "summary": "REQUEST FOR EXPRESSIONS OF INTEREST FOR HIRING OF GRAPHIC DESIGNER &ndash; (PART-TIME CONSULTANT) SADA &ndash; DTFA / WARDIP SOP &ndash; 1 Procuring Agency: Smart Africa Alliance Country: Rwanda Name of Project: Digital Transformation for Africa/ Western Africa Regional Digital Integration Program (DTfA/ WARDIP) SOP-1 Assignement Title : Graphic designer &ndash; (Part-time Consultant) SADA &ndash; DTfA / WARDIP SOP &ndash; 1 Reference No.: RW-SAA-473606-CS-LCS Grant No.: IDA-E2670 The Smart Afri",
-      "source": "World Bank",
-      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00458234",
       "_source_label": "World Bank",
       "first_seen": "2026-08-06"
     },
@@ -7937,23 +7733,6 @@
       "first_seen": "2026-08-06"
     },
     {
-      "id": "wb-OP00456257",
-      "notice_type": "Request for Expression of Interest",
-      "notice_date": "13-Jul-2026",
-      "submission_date": "2026-08-15T00:00:00Z",
-      "country": "Eastern and Southern Africa",
-      "project_id": "P176181",
-      "project_name": "Eastern Africa Regional Digital Integration Project",
-      "bid_reference_no": "SO-MOCT-FGS-557026-CS-INDV",
-      "bid_description": "Pricing & Interconnection Specialist for NCA",
-      "procurement_method": "Individual Consultant Selection",
-      "summary": "REQUEST FOR EXPRESSIONS OF INTEREST (REOI) COUNTRY: Federal Government of Somalia (FGS) NAME OF PROJECT: Regional Digital Integration Project (EA-RDIP) PROJECT ID: P176181 ASSIGNMENT TITLE: Pricing and Interconnection Specialist REFERENCE NO.: SO-MOCT-FGS-557026-CS-INDV PLACE OF ASSIGNMENT: Mogadishu, Somalia APPLICATION DEADLINE DATE: August 15, 2026, at (2.00pm Local Time). Project Background: The Federal Government of Somalia has received a grant from the International Development Association",
-      "source": "World Bank",
-      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00456257",
-      "_source_label": "World Bank",
-      "first_seen": "2026-08-06"
-    },
-    {
       "id": "wb-OP00456370",
       "notice_type": "Invitation for Bids",
       "notice_date": "13-Jul-2026",
@@ -8379,23 +8158,6 @@
       "first_seen": "2026-08-06"
     },
     {
-      "id": "wb-OP00455130",
-      "notice_type": "Invitation for Bids",
-      "notice_date": "07-Jul-2026",
-      "submission_date": "2026-08-19T00:00:00Z",
-      "country": "Uganda",
-      "project_id": "P171305",
-      "project_name": "Uganda Digital Acceleration Project - GovNet",
-      "bid_reference_no": "UG-NITA-U-556604-NC-RFP",
-      "bid_description": "Development of the National Infrastructure Spatial Data Store (NISDS)",
-      "procurement_method": "Request for Proposals",
-      "summary": "Request for Bids Goods ( Single Stage - Two Envelope Process) Purchaser: National Information Technology Authority-Uganda Name of Project: Uganda Digital Acceleration Project (UDAP) Project ID: P171305 Credit No.: 6898-UG Country: Uganda Contract Title: DEVELOPMENT, IMPLEMENTATION AND OPERATIONALIZATION OF THE NATIONAL ICT INFRASTRUCTURE SPATIAL DATA STORE (NISDS) Reference No.: NITA-U/UDAP/NCONS/2025-2026/00042 Issued on: 8th July 2026 1.The Government of Uganda represented by the National Info",
-      "source": "World Bank",
-      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00455130",
-      "_source_label": "World Bank",
-      "first_seen": "2026-08-06"
-    },
-    {
       "id": "wb-OP00455031",
       "notice_type": "Invitation for Bids",
       "notice_date": "07-Jul-2026",
@@ -8477,23 +8239,6 @@
       "summary": "Mal Almlar i&ccedil;in Teklife &Ccedil;ar (Tek Zarfl hale S&uuml;reci) &Uuml;lke : T&uuml;rkiye Projenin Ad : T&uuml;rkiye&#39;de Depremden Etkilenen llerde Tarm Sekt&ouml;r&uuml;n&uuml;n yiletirilmesi Projesi (TARDP) S&ouml;zleme Bal : Mardin l Tarm ve Orman M&uuml;d&uuml;rl&uuml;&uuml; Fidan &Uuml;retim Sahasnda Kullanlmak &Uuml;zere Alet Makine Alm i kraz No. : 9760-TR RFB Referans No. : 2.2.B&Uuml;GEM.GO.08/A 1. T.C. Tarm ve Orman Bakanl, Bitkisel &Uuml;retim Genel M&uuml;d&uuml;rl&uuml;&uum",
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00455003",
-      "_source_label": "World Bank",
-      "first_seen": "2026-08-06"
-    },
-    {
-      "id": "wb-OP00454996",
-      "notice_type": "Request for Expression of Interest",
-      "notice_date": "06-Jul-2026",
-      "submission_date": "2026-08-18T00:00:00Z",
-      "country": "Western and Central Africa",
-      "project_id": "P176932",
-      "project_name": "Digital Transformation for Africa/ Western Africa Regional Digital Integration Program SOP1",
-      "bid_reference_no": "WARDIP-C-004-2026",
-      "bid_description": "Elaboração do Plano de Açao de Reassentamento (PAR) do Backbone",
-      "procurement_method": "Quality And Cost-Based Selection",
-      "summary": "AVISO DE MANIFESTA&Ccedil;&Atilde;O DE INTERESSE WARDIP-C-004-2026 PARA A ELABORA&Ccedil;&Atilde;O DO PLANO DE A&Ccedil;AO DE REASSENTAMENTO (PAR) DO BACKBONE Contexto Para apoiar a transforma&ccedil;&atilde;o digital da regi&atilde;o, o Banco Mundial (BM) est&aacute; a financiar o Programa Regional de Integra&ccedil;&atilde;o Digital da &Aacute;frica Ocidental (WARDIP) &ndash; Guin&eacute;-Bissau &ndash; no valor de 60 milh&otilde;es de d&oacute;lares durante cinco anos. O programa proposto con",
-      "source": "World Bank",
-      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00454996",
       "_source_label": "World Bank",
       "first_seen": "2026-08-06"
     },
@@ -8719,23 +8464,6 @@
       "first_seen": "2026-08-06"
     },
     {
-      "id": "wb-OP00454548",
-      "notice_type": "Invitation for Bids",
-      "notice_date": "29-Jun-2026",
-      "submission_date": "2026-08-12T00:00:00Z",
-      "country": "Liberia",
-      "project_id": "P177478",
-      "project_name": "Governance Reform and Accountability Transformation (GREAT) Project",
-      "bid_reference_no": "LR-MFDP-556735-NC-RFP",
-      "bid_description": "Supply, Installation, Configuration and Commissioning of the National Data Center and Shared Digital Infrastructure",
-      "procurement_method": "Request for Proposals",
-      "summary": "Specific Procurement Notice Request for Proposal Information Systems (Design, Supply and Installation) Purchaser : Ministry of Finance &amp; Development Planning Project : Governance Reform and Accountability (GREAT) Project Contract title : Supply, Installation, Configuration, and Commissioning of the National Data Center and Shared Digital Infrastructure Country : Liberia Credit No. : P177478 RFP No. : LR-MFDP-556735-NC-RFP Issued on : 29 June 2026 The Ministry of Finance &amp; Development Pla",
-      "source": "World Bank",
-      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00454548",
-      "_source_label": "World Bank",
-      "first_seen": "2026-08-06"
-    },
-    {
       "id": "wb-OP00454511",
       "notice_type": "Invitation for Bids",
       "notice_date": "29-Jun-2026",
@@ -8821,23 +8549,6 @@
       "first_seen": "2026-08-06"
     },
     {
-      "id": "wb-OP00453742",
-      "notice_type": "Invitation for Bids",
-      "notice_date": "25-Jun-2026",
-      "submission_date": "2026-08-14T00:00:00Z",
-      "country": "Uganda",
-      "project_id": "P171305",
-      "project_name": "Uganda Digital Acceleration Project - GovNet",
-      "bid_reference_no": "UG-NITA-U-555091-NC-RFB",
-      "bid_description": "Supply, installation, and commissioning of cyber threat intelligence platform and Cyber drills for CNII and testing of business continuity plans (4 Lots) - Fy 25-26",
-      "procurement_method": "Request for Bids",
-      "summary": "Request for Proposals Information Systems (Single Stage-Two Envelope Process) Purchaser: National Information Technology Authority-Uganda Name of Project: Uganda Digital Acceleration Project (UDAP) Project ID: P171305 Credit No.: 6898-UG Country: Uganda Contract Title : Implementation of SOC Environment and Cyber Threat Intelligence Capabilities, Cyber Range and Drills, Upgrade of Cyber Security Infrastructure for 6 priority MDAs and Implementation of SOC Monitoring and Implementation of Secure ",
-      "source": "World Bank",
-      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00453742",
-      "_source_label": "World Bank",
-      "first_seen": "2026-08-06"
-    },
-    {
       "id": "wb-OP00453184",
       "notice_type": "Invitation for Bids",
       "notice_date": "25-Jun-2026",
@@ -8855,23 +8566,6 @@
       "first_seen": "2026-08-06"
     },
     {
-      "id": "wb-OP00453090",
-      "notice_type": "Invitation for Bids",
-      "notice_date": "24-Jun-2026",
-      "submission_date": "2026-08-11T00:00:00Z",
-      "country": "Kenya",
-      "project_id": "P170941",
-      "project_name": "Kenya Digital Economy Acceleration Project",
-      "bid_reference_no": "KE-ICTA-554032-NC-RFB",
-      "bid_description": "Framework Agreement for Provision of Broadband Internet Capacity to Educational Institutions",
-      "procurement_method": "Request for Bids",
-      "summary": "Specific Procurement Notice (SPN) Request for Bids Framework Agreement(s) for Non-Consulting (Primary Procurement, Two-Envelope Bidding Process) Procuring Agency: The Information and Communications Technology Authority Country: Kenya Name of Project: Kenya Digital Economy Acceleration Project Framework Agreement Title: Provision of Broadband Internet Capacity to Educational Institutions RFB Reference No.: KE-ICTA-554032-NC-RFB Loan No./Credit No./Grant No.: 7289-KE and 7290-KE The Government of ",
-      "source": "World Bank",
-      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00453090",
-      "_source_label": "World Bank",
-      "first_seen": "2026-08-06"
-    },
-    {
       "id": "wb-OP00453500",
       "notice_type": "Invitation for Bids",
       "notice_date": "24-Jun-2026",
@@ -8885,40 +8579,6 @@
       "summary": "MINISTRY OF ENERGY AND MINERAL DEVELOPMENT THE ELECTRICITY ACCESS SCALE-UP PROJECT (EASP) Specific Procurement Notice Request for Bids - Works (Two-Envelope Bidding Process, Without Prequalification) Country: Uganda Name of Project: Electricity Access Scale-Up Project (EASP) Contract Title: Procurement of Line Installation Contractors (LIC&rsquo;s) Loan No./Credit No./ Grant No.: 7075-UG RFB Reference No.: MEMD/WRKS/2025-26/00045/EASP Issued on: 25th June 2026 1. The Government of Uganda has rec",
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00453500",
-      "_source_label": "World Bank",
-      "first_seen": "2026-08-06"
-    },
-    {
-      "id": "wb-OP00452180",
-      "notice_type": "Invitation for Bids",
-      "notice_date": "23-Jun-2026",
-      "submission_date": "2026-08-13T00:00:00Z",
-      "country": "Liberia",
-      "project_id": "P177478",
-      "project_name": "Governance Reform and Accountability Transformation (GREAT) Project",
-      "bid_reference_no": "LR-MFDP-552376-GO-RFP",
-      "bid_description": "Supply, Installation and Maintenance of County Service Center ICT Infrastructure",
-      "procurement_method": "Request for Proposals",
-      "summary": "Specific Procurement Notice Request for Proposal Information Systems (Design, Supply and Installation) Purchaser : Ministry of Finance &amp; Development Planning Project : Governance Reform and Accountability (GREAT) Project Contract title : Supply, Installation and Maintenance of County Service Center ICT Infrastructure Country : Liberia Credit No. : P177478 RFP No. : LR-MFDP-552376-GO-RFP Issued on : 23 June 2026 The Ministry of Finance &amp; Development Planning (MFDP) under the Governance Re",
-      "source": "World Bank",
-      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00452180",
-      "_source_label": "World Bank",
-      "first_seen": "2026-08-06"
-    },
-    {
-      "id": "wb-OP00452338",
-      "notice_type": "Invitation for Bids",
-      "notice_date": "19-Jun-2026",
-      "submission_date": "2027-04-30T00:00:00Z",
-      "country": "Tanzania",
-      "project_id": "P180742",
-      "project_name": "Scaling-up Locally Led Climate Action Program",
-      "bid_reference_no": "TZ-PO-RALG-524278-GO-RFQ",
-      "bid_description": "Supply of ICT and electronic equipment for PIU Office",
-      "procurement_method": "Request for Quotations",
-      "summary": "THE UNITED REPUBLIC OF TANZANIA PRIME MINISTER&#39;S OFFICE REGIONAL ADMINISTRATION AND LOCAL GOVERNMENT Quotation No: 56/2025/2026/G/110 For Supply of ICT and Virtual Meeting Equipment for Program PIT Office INVITATION FOR QUOTATIONS 27/04/2026 This Invitation for Quotation follows the General Procurement Notice for this Project, which appeared in the National e-Procurement System of Tanzania (NeST) dated 07/08/2024. The PRIME MINISTER&#39;S OFFICE REGIONAL ADMINISTRATION AND LOCAL GOVERNMENT h",
-      "source": "World Bank",
-      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00452338",
       "_source_label": "World Bank",
       "first_seen": "2026-08-06"
     },
