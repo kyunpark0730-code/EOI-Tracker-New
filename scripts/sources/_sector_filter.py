@@ -62,6 +62,8 @@ EXCLUDE_PATTERNS = [
     r"cybersecurity", r"cyber security", r"cybers[ée]curit[ée]", r"ciberseguridad",
     r"\bICT\b", r"information and communications technology",
     r"digital transformation", r"digital integration", r"e-government",
+    r"digital\s+\w+\s+acceleration", r"digital economy", r"digital government",
+    r"e-governance", r"smart government",
     r"computer emergency response", r"\bCERT\b",
     r"telecommunications sector", r"telecomunica[çc][õo]es", r"telecomunicaciones",
     r"data center", r"network security", r"information security",
