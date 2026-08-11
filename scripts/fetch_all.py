@@ -147,7 +147,14 @@ def main():
     before_filter = len(all_notices)
 
     before_job_filter = len(all_notices)
-    all_notices = [n for n in all_notices if not is_individual_job_posting(n.get("project_name", ""))]
+
+    def _job_title_text(n):
+        # World Bank 등 일부 소스는 실제 직책명이 project_name(사업명 전체)이 아니라
+        # bid_description(과업/직책 제목) 필드에 따로 저장된다. 있으면 그걸 우선 검사하고,
+        # 없으면 기존처럼 project_name을 검사한다.
+        return n.get("bid_description") or n.get("project_name", "")
+
+    all_notices = [n for n in all_notices if not is_individual_job_posting(_job_title_text(n))]
     job_filtered_out = before_job_filter - len(all_notices)
     print(f"채용(개인 직책) 공고로 제외됨: {job_filtered_out}건")
 
