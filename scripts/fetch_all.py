@@ -146,6 +146,15 @@ def main():
 
     before_filter = len(all_notices)
 
+    # World Bank는 procurement_group 필드로 물품(Goods)/공사(Civil Works)/컨설팅
+    # 용역(Consulting Services) 등을 명확히 구분해서 준다. 다산은 컨설팅 용역만
+    # 참여하므로, 다른 소스에는 없는 이 필드가 "GO"(물품 조달)인 건은 텍스트
+    # 키워드 판단 없이 확실하게 제외한다 (지게차, 창고 선반 등 단순 장비 구매 건).
+    before_goods_filter = len(all_notices)
+    all_notices = [n for n in all_notices if n.get("procurement_group") != "GO"]
+    goods_filtered_out = before_goods_filter - len(all_notices)
+    print(f"물품(Goods) 조달로 제외됨: {goods_filtered_out}건")
+
     before_job_filter = len(all_notices)
 
     def _job_title_text(n):
@@ -163,7 +172,7 @@ def main():
         if is_relevant(n.get("project_name", ""), n.get("bid_description", ""),
                         n.get("notice_type", ""), n.get("summary", ""))
     ]
-    filtered_out = before_filter - len(all_notices) - job_filtered_out
+    filtered_out = before_filter - len(all_notices) - job_filtered_out - goods_filtered_out
     print(f"분야 필터로 제외됨: {filtered_out}건 (관개/도로/수자원 등과 무관)")
 
     new_today_count = 0
