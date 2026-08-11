@@ -67,6 +67,8 @@ EXCLUDE_PATTERNS = [
     # RFP/EOI 방식으로 나오면 이 키워드에 안 걸려 계속 포함됨.
     r"demande de cotation", r"request for quotation", r"\bRFQ\b",
     r"shopping method", r"solicitud de cotizaci[óo]n", r"pedido de cota[çc][ãa]o",
+    # 회계/정산 등 행정 지원업무 선정 공고(설계·시공·감리 용역이 아님)
+    r"위탁정산기관", r"정산기관 선정", r"회계법인 선정",
 ]
 
 _INCLUDE_RE = re.compile("|".join(INCLUDE_PATTERNS), re.IGNORECASE)
