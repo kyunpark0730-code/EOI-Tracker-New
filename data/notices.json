@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-08-11T23:26:35.461494+00:00",
+  "generated_at": "2026-08-11T23:53:23.249481+00:00",
   "today_kst": "2026-08-12",
   "sources": [
     "World Bank 656건",
     "한국건설엔지니어링협회 0건",
     "ADB 0건",
-    "나라장터(G2B) 89건",
+    "나라장터(G2B) 81건",
     "해외건설협회(ICAK) 3건",
     "EIB 200건",
     "KIND 4건",
@@ -18,15 +18,15 @@
     },
     "한국건설엔지니어링협회": {
       "last_success": "알 수 없음",
-      "consecutive_failures": 9
+      "consecutive_failures": 10
     },
     "ADB": {
       "last_success": "알 수 없음",
-      "consecutive_failures": 9
+      "consecutive_failures": 10
     },
     "나라장터(G2B)": {
       "last_success": "2026-08-12",
-      "consecutive_failures": 0
+      "consecutive_failures": 1
     },
     "해외건설협회(ICAK)": {
       "last_success": "2026-08-12",
@@ -45,8 +45,8 @@
       "consecutive_failures": 0
     }
   },
-  "count": 592,
-  "new_today_count": 30,
+  "count": 581,
+  "new_today_count": 27,
   "notices": [
     {
       "id": "aiib-https://www.aiib.org/en/projects/details/2026/_download/Azerbaijan/PP-for-P000969-Baku-Metro-Expansion-Project-Phase-I.xlsx",
@@ -64,42 +64,6 @@
       "source_url": "https://www.aiib.org/en/projects/details/2026/_download/Azerbaijan/PP-for-P000969-Baku-Metro-Expansion-Project-Phase-I.xlsx",
       "_source_label": "AIIB",
       "first_seen": "2026-08-11"
-    },
-    {
-      "id": "wb-OP00460308",
-      "notice_type": "Request for Expression of Interest",
-      "notice_date": "10-Aug-2026",
-      "submission_date": "2026-08-11T00:00:00Z",
-      "country": "Nigeria",
-      "project_id": "P170664",
-      "project_name": "Adolescent Girls Initiative for Learning and Empowerment",
-      "bid_reference_no": "BOAGILE/2026/108",
-      "bid_description": "ENGAGEMENT OF TECHNICAL ASSISTANT (T.A) FOR SYSTEM STRENGTHENING",
-      "procurement_method": "Individual Consultant Selection",
-      "procurement_group": "CS",
-      "summary": "REQUEST FOR EXPRESSION OF INTEREST (REOI) CONSULTANCY SERVICES FOR ENGAGEMENT OF TECHNICAL ASSISTANT FOR SYSTEM STRENGTHENING FOR BORNO AGILE.",
-      "source": "World Bank",
-      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00460308",
-      "_source_label": "World Bank",
-      "first_seen": "2026-08-12"
-    },
-    {
-      "id": "wb-OP00461498",
-      "notice_type": "Request for Expression of Interest",
-      "notice_date": "10-Aug-2026",
-      "submission_date": "2026-08-21T00:00:00Z",
-      "country": "Zambia",
-      "project_id": "P505094",
-      "project_name": "Digital Zambia Acceleration Project (DZAP)",
-      "bid_reference_no": "ZM-SZ-554941-CS-QCBS",
-      "bid_description": "Consultancy Services for the Design, Development and Deployment of a Web-Based Data Protection Compliance Management System",
-      "procurement_method": "Quality And Cost-Based Selection",
-      "procurement_group": "CS",
-      "summary": "DIGITAL ZAMBIA ACCELERATION PROJECT (DZAP) REQUEST FOR EXPRESSIONS OF INTEREST (CONSULTING SERVICES &ndash; FIRMS SELECTION) COUNTRY : Zambia NAME OF PROJECT : The Digital Zambia Acceleration Project (DZAP) Loan No./Credit No./ Grant No.: P505094 Name of Implementing Agency: Smart Zambia Institute (SZI) Assignment Title: Selection of a Consulting Firm for the Design, Development, and Deployment of a Digital Data Protection Compliance Management System for the Data Protection Commission of Zambia",
-      "source": "World Bank",
-      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00461498",
-      "_source_label": "World Bank",
-      "first_seen": "2026-08-12"
     },
     {
       "id": "wb-OP00461709",
@@ -134,24 +98,6 @@
       "summary": "AVIS D&rsquo;APPEL A MANIFESTATION D&rsquo;INTERETS Objet : RECRUTEMENT D&rsquo;UN (E) CONSULTANT (E) INDIVIDUEL (LE) SPECIALISTE EN CHAINES DE VALEURS POUR LE PROJET RESILIENCE DES SYSTEMES ALIMENTAIRES AUX COMORES (FSRP-KM). Le Gouvernement de l&rsquo;Union des Comores, &agrave; travers le Minist&egrave;re de l&rsquo;Agriculture, de la P&ecirc;che et de l&rsquo;Artisanat, met en &oelig;uvre le Projet de R&eacute;silience des Syst&egrave;mes Alimentaires aux Comores (FSRP-KM) financ&eacute; par",
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00461491",
-      "_source_label": "World Bank",
-      "first_seen": "2026-08-12"
-    },
-    {
-      "id": "wb-OP00461500",
-      "notice_type": "Request for Expression of Interest",
-      "notice_date": "10-Aug-2026",
-      "submission_date": "2026-08-21T00:00:00Z",
-      "country": "Zambia",
-      "project_id": "P505094",
-      "project_name": "Digital Zambia Acceleration Project (DZAP)",
-      "bid_reference_no": "ZM-SZ-554942-CS-CQS",
-      "bid_description": "Consultancy Services for the Review and Development of National Data Protection Guidelines and Compliance Frameworks.",
-      "procurement_method": "Consultant Qualification  Selection",
-      "procurement_group": "CS",
-      "summary": "DIGITAL ZAMBIA ACCELERATION PROJECT (DZAP) REQUEST FOR EXPRESSIONS OF INTEREST (CONSULTING SERVICES &ndash; FIRMS SELECTION) COUNTRY : Zambia NAME OF PROJECT : The Digital Zambia Acceleration Project (DZAP) Loan No./Credit No./ Grant No.: P505094 Name of Implementing Agency: Smart Zambia Institute (SZI) Assignment Title: Consultancy Services for the Review and Development of National Data Protection Guidelines and Compliance Frameworks. Reference No .: ZM-SZ-554942-CS-CQS Background The Governme",
-      "source": "World Bank",
-      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00461500",
       "_source_label": "World Bank",
       "first_seen": "2026-08-12"
     },
@@ -1684,24 +1630,6 @@
       "first_seen": "2026-08-06"
     },
     {
-      "id": "wb-OP00460331",
-      "notice_type": "Request for Expression of Interest",
-      "notice_date": "04-Aug-2026",
-      "submission_date": "2026-08-17T00:00:00Z",
-      "country": "Senegal",
-      "project_id": "P172524",
-      "project_name": "Senegal Digital Economy Acceleration Project",
-      "bid_reference_no": "SN-MCTN-533664-CS-CQS",
-      "bid_description": "Sélection d'un cabinet de consultants pour la Refonte de la plateforme web de l'Observatoire National du Numérique et alignement des indicateurs avec New Deal Technologique.",
-      "procurement_method": "Consultant Qualification  Selection",
-      "procurement_group": "CS",
-      "summary": "AVIS D&#39;APPEL PUBLIC A MANIFESTATION D&rsquo;INTERET S&eacute;lection d&rsquo;un cabinet pour la mise en place de l&rsquo;Observatoire National du Num&eacute;rique du S&eacute;n&eacute;gal (ONN) - Refonte d&rsquo;une Plateforme Web de collecte, d&rsquo;analyse et de publication des indicateurs du num&eacute;rique Client : Minist&egrave;re des T&eacute;l&eacute;communications et du Num&eacute;rique (MTN) Projet : Projet d&rsquo;Acc&eacute;l&eacute;ration de l&rsquo;Economie Num&eacute;rique au",
-      "source": "World Bank",
-      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00460331",
-      "_source_label": "World Bank",
-      "first_seen": "2026-08-06"
-    },
-    {
       "id": "wb-OP00460576",
       "notice_type": "Request for Expression of Interest",
       "notice_date": "04-Aug-2026",
@@ -3088,42 +3016,6 @@
       "first_seen": "2026-08-10"
     },
     {
-      "id": "wb-OP00459663",
-      "notice_type": "Request for Expression of Interest",
-      "notice_date": "29-Jul-2026",
-      "submission_date": "2026-08-18T00:00:00Z",
-      "country": "Western and Central Africa",
-      "project_id": "P176693",
-      "project_name": "Sub-Saharan Africa Women’s Empowerment and Demographic Dividend Plus Project",
-      "bid_reference_no": "BF-WAHO-BF-523825-CS-INDV",
-      "bid_description": "Recrutement d’un statisticien - démographe pour l’observatoire régional du dividende démographique",
-      "procurement_method": "Individual Consultant Selection",
-      "procurement_group": "CS",
-      "summary": "PROJET R&Eacute;GIONAL PLUS POUR L&#39;AUTONOMISATION DES FEMMES ET LE DIVIDENDE D&Eacute;MOGRAPHIQUE EN AFRIQUE SUBSAHARIENNE (SWEDD+) ****** AVIS &Agrave; MANIFESTATION D&rsquo;INT&Eacute;R&Ecirc;T Num&eacute;ro de r&eacute;f&eacute;rence : BF-WAHO-BF-523825-CS-INDV TITRE DU POSTE : Statisticien-D&eacute;mographe pour l&rsquo;observatoire r&eacute;gional du dividende d&eacute;mographique Introduction L&#39;Organisation Ouest Africaine de la Sant&eacute; (OOAS) est l&#39;institution sp&eacute;c",
-      "source": "World Bank",
-      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00459663",
-      "_source_label": "World Bank",
-      "first_seen": "2026-08-06"
-    },
-    {
-      "id": "wb-OP00415225",
-      "notice_type": "Request for Expression of Interest",
-      "notice_date": "29-Jul-2026",
-      "submission_date": "2026-08-18T00:00:00Z",
-      "country": "Western and Central Africa",
-      "project_id": "P176693",
-      "project_name": "Sub-Saharan Africa Women’s Empowerment and Demographic Dividend Plus Project",
-      "bid_reference_no": "BF-WAHO-BF-447082-CS-INDV",
-      "bid_description": "Recrutement d'un spécialiste pour les composantes 2 et 3",
-      "procurement_method": "Individual Consultant Selection",
-      "procurement_group": "CS",
-      "summary": "PROJET R&Eacute;GIONAL PLUS POUR L&#39;AUTONOMISATION DES FEMMES ET LE DIVIDENDE D&Eacute;MOGRAPHIQUE EN AFRIQUE SUBSAHARIENNE (SWEDD+) ****** AVIS &Agrave; MANIFESTATION D&rsquo;INT&Eacute;R&Ecirc;T Num&eacute;ro de r&eacute;f&eacute;rence : BF-WAHO-BF-447082-CS-INDV TITRE DU POSTE : Charg&eacute; de projet pour les composantes 2 et 3 du projet SWEDD+ Introduction L&#39;Organisation Ouest Africaine de la Sant&eacute; (OOAS) est l&#39;institution sp&eacute;cialis&eacute;e de la Communaut&eacute;",
-      "source": "World Bank",
-      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00415225",
-      "_source_label": "World Bank",
-      "first_seen": "2026-08-06"
-    },
-    {
       "id": "wb-OP00459066",
       "notice_type": "Request for Expression of Interest",
       "notice_date": "29-Jul-2026",
@@ -3898,24 +3790,6 @@
       "first_seen": "2026-08-06"
     },
     {
-      "id": "wb-OP00458912",
-      "notice_type": "Request for Expression of Interest",
-      "notice_date": "25-Jul-2026",
-      "submission_date": "2026-08-18T00:00:00Z",
-      "country": "Malawi",
-      "project_id": "P505095",
-      "project_name": "Digital Malawi Acceleration Project (DMAP)",
-      "bid_reference_no": "MW-PPPC-528719-CS-QCBS",
-      "bid_description": "Consulting services to assess the backend infrastructure of the National Registration and Identification System (NRIS) and the Civil Registration and Vital Statistics (CRVS) system and develop detailed user requirements and technical specifications",
-      "procurement_method": "Quality And Cost-Based Selection",
-      "procurement_group": "CS",
-      "summary": "REQUEST FOR EXPRESSIONS OF INTEREST (CONSULTING SERVICES &ndash; FIRMS SELECTION) COUNTRY: MALAWI NAME OF PROJECT: DIGITAL MALAWI ACCELERATION PROJECT GRANT NO: IDA-E338-MW ASSIGNMENT TITLE: PROVISION OF CONSULTANCY SERVICES TO ASSESS THE BACKEND INFRASTRUCTURE OF THE NATIONAL REGISTRATION AND IDENTIFICATION SYSTEM (NRIS) AND THE CIVIL REGISTRATION AND VITAL STATISTICS (CRVS) SYSTEM AND DEVELOP DETAILED USER REQUIREMENTS AND TECHNICAL SPECIFICATIONS REFERENCE NO.: MW-PPPC-528719-CS-QCBS The Gove",
-      "source": "World Bank",
-      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00458912",
-      "_source_label": "World Bank",
-      "first_seen": "2026-08-06"
-    },
-    {
       "id": "wb-OP00458032",
       "notice_type": "Request for Expression of Interest",
       "notice_date": "24-Jul-2026",
@@ -4042,24 +3916,6 @@
       "first_seen": "2026-08-06"
     },
     {
-      "id": "wb-OP00458232",
-      "notice_type": "Invitation for Bids",
-      "notice_date": "24-Jul-2026",
-      "submission_date": "2026-08-20T00:00:00Z",
-      "country": "Nigeria",
-      "project_id": "P170664",
-      "project_name": "Adolescent Girls Initiative for Learning and Empowerment",
-      "bid_reference_no": "YB/AGILE/2026/PP/002",
-      "bid_description": "Construction of 25 Junior and 25 Senior Secondary Schools in Yobe State",
-      "procurement_method": "Request for Bids",
-      "procurement_group": "CW",
-      "summary": "Invitation for Bids (One-Envelope Bidding Process) Country: Nigeria Project: Construction of 50 new secondary school Credit No: IDA 67380-NG Contract Title: Construction of 50 Secondary Schools, including 25 Junior Secondary Schools and 25 Senior Secondary Schools (lots 1 to 9 in Yobe State) RFB No: YB/AGILE/2026/PP/002 Issued July 22nd, 2026 The Federal Republic of Nigeria has received financing from the World bank toward the cost of the Yobe State Adolescent Girls Initiative for Learning and E",
-      "source": "World Bank",
-      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00458232",
-      "_source_label": "World Bank",
-      "first_seen": "2026-08-06"
-    },
-    {
       "id": "wb-OP00458709",
       "notice_type": "Invitation for Bids",
       "notice_date": "24-Jul-2026",
@@ -4074,24 +3930,6 @@
       "summary": "REP&Uacute;BLICA DE MO&Ccedil;AMBIQUE PROV&Iacute;NCIA DE NAMPULA DIREC&Ccedil;&Atilde;O PROVINCIAL DE OBRAS P&Uacute;BLICAS DEPARTAMENTO DE AQUISI&Ccedil;&Otilde;ES SOLICITA&Ccedil;&Atilde;O DE PROPOSTAS GRANT. N.&ordm; D941-MZ CONCURSO N.&ordm; MZ-DPOPN-RSTWSP-OBRAS-P025-2022 Pa&iacute;s: Mo&ccedil;ambique Nome do Projecto: Projecto &Aacute;gua Segura para Vilas e Zonas Rurais -P173518 T&iacute;tulo do Concurso: EMPREITADA DE CONSTRU&Ccedil;&Atilde;O DE 6 SISTEMAS DE ABASTECIMENTO DE &Aacute;G",
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00458709",
-      "_source_label": "World Bank",
-      "first_seen": "2026-08-06"
-    },
-    {
-      "id": "wb-OP00458736",
-      "notice_type": "Request for Expression of Interest",
-      "notice_date": "24-Jul-2026",
-      "submission_date": "2026-08-24T00:00:00Z",
-      "country": "India",
-      "project_id": "P507066",
-      "project_name": "Meghalaya Multisectoral Project for Adolescent Wellbeing, Empowerment and Resilience (MPOWER)",
-      "bid_reference_no": "CS7A",
-      "bid_description": "Direct RFP for Hiring of an Agency for the Design and Implementation of Learning Mission in Meghalaya",
-      "procurement_method": "Quality And Cost-Based Selection",
-      "procurement_group": "CS",
-      "summary": "This consulatancy service is being conducted through a Direct Request for Proposals (Direct RFP), the Expression of Interest (EOI) stage is not applicable. The Specific Procurement Notice (Invitation for Proposals) was issued on 24 July 2026 in The Times of India (Delhi Edition). The deadline for submission of proposals is 24 August 2026 at 15:00 hrs (IST).",
-      "source": "World Bank",
-      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00458736",
       "_source_label": "World Bank",
       "first_seen": "2026-08-06"
     },
@@ -4996,24 +4834,6 @@
       "first_seen": "2026-08-06"
     },
     {
-      "id": "wb-OP00456503",
-      "notice_type": "Invitation for Bids",
-      "notice_date": "13-Jul-2026",
-      "submission_date": "2026-08-11T00:00:00Z",
-      "country": "St Maarten",
-      "project_id": "P172611",
-      "project_name": "Sint Maarten Digital Government Transformation Project",
-      "bid_reference_no": "SX-NRPB-560429-CW-RFB",
-      "bid_description": "Refurbishment and Modernization of Public Service Centers (PSCs) in Philipsburg and Simpson Bay",
-      "procurement_method": "Request for Bids",
-      "procurement_group": "CW",
-      "summary": "Specific Procurement Notice Request for Bids Civil Works Employer: National Recovery Program Bureau (NRPB) Project: Digital Government Transformation Project (DGTP) Project ID: P172611 Contract title: Refurbishment and Modernization of Public Service Centers (PSCs) in Philipsburg and Simpson Bay Country: Sint Maarten RFB No: SX-NRPB-560429-CW-RFB Issued on: July 13th, 2026 1. The Government of Sint Maarten has received financing from the World Bank toward the cost of the Digital Government Trans",
-      "source": "World Bank",
-      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00456503",
-      "_source_label": "World Bank",
-      "first_seen": "2026-08-06"
-    },
-    {
       "id": "wb-OP00456443",
       "notice_type": "Invitation for Bids",
       "notice_date": "13-Jul-2026",
@@ -5226,24 +5046,6 @@
       "summary": "REQUEST FOR EXPRESSIONS OF INTEREST (REOI) with extended deadline CONSULTING SERVICES &ndash; FIRMS SELECTION Name of Project Nairit Environmental Remediation and Regeneration Project (NATURE) Grant Number TF0C8925 Assignment Title Feasibility Study on Treatment of Chemicals in the Nairit Chemical Plant Procurement Plan Ref Number AM-R2E2-557155-CS-CQS Country Republic of Armenia Date: June 11, 2026 The Republic of Armenia has received grant financing from the World Bank to support preparation o",
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00450554",
-      "_source_label": "World Bank",
-      "first_seen": "2026-08-06"
-    },
-    {
-      "id": "wb-OP00456167",
-      "notice_type": "Invitation for Bids",
-      "notice_date": "10-Jul-2026",
-      "submission_date": "2026-08-13T00:00:00Z",
-      "country": "Southwest Indian Ocean",
-      "project_id": "P179293",
-      "project_name": "East Africa Girls' Empowerment and Resilience",
-      "bid_reference_no": "MZ-MGCAS-482863-CW-RFB",
-      "bid_description": "Rehabilitation of the Integrated Service Center (CAI)",
-      "procurement_method": "Request for Bids",
-      "procurement_group": "CW",
-      "summary": "REP&Uacute;BLICA DE MO&Ccedil;AMBIQUE MINIST&Eacute;RIO DO TRABALHO, G&Eacute;NERO E AC&Ccedil;&Atilde;O SOCIAL DIREC&Ccedil;&Atilde;O NACIONAL DO G&Eacute;NERO Unidade de Implementa&ccedil;&atilde;o de Programas (UIP) REGIME ESPECIAL Programa de Empoderamento e Resili&ecirc;ncia das Raparigas da &Aacute;frica Oriental (EAGER) Solicita&ccedil;&atilde;o de Propostas - Pequenas Obras Entidade Contratante : Minist&eacute;rio do Trabalho, G&eacute;nero e Ac&ccedil;&atilde;o Social (MTGAS). Projecto ",
-      "source": "World Bank",
-      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00456167",
       "_source_label": "World Bank",
       "first_seen": "2026-08-06"
     },
@@ -8792,23 +8594,6 @@
       "first_seen": "2026-08-10"
     },
     {
-      "id": "eib-685556ad18d6822642009dda",
-      "notice_type": "Calls for tenders",
-      "notice_date": "20/06/2025",
-      "submission_date": "29/07/2025",
-      "country": "",
-      "project_id": "Consultancy - Financial Manager for the PIU ",
-      "project_name": "Cancellation  Notice - Financial Manager of the Project Implementation Unit",
-      "bid_reference_no": "Consultancy - Financial Manager for the PIU ",
-      "bid_description": "Closed",
-      "procurement_method": "",
-      "summary": "",
-      "source": "EIB",
-      "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
-      "_source_label": "EIB",
-      "first_seen": "2026-08-10"
-    },
-    {
       "id": "eib-685569d518d6822642009e11",
       "notice_type": "Project procurement",
       "notice_date": "20/06/2025",
@@ -8826,14 +8611,14 @@
       "first_seen": "2026-08-10"
     },
     {
-      "id": "eib-685562ae18d6822642009df8",
-      "notice_type": "Project procurement",
+      "id": "eib-685556ad18d6822642009dda",
+      "notice_type": "Calls for tenders",
       "notice_date": "20/06/2025",
-      "submission_date": "25/08/2025",
+      "submission_date": "29/07/2025",
       "country": "",
-      "project_id": "Consultancy - Forestry Expert",
-      "project_name": "Cancellation  Notice - Senior Forestry Expert of the Project Implementation Unit (PIU) for the implementation of the Moldova Forest Development Program",
-      "bid_reference_no": "Consultancy - Forestry Expert",
+      "project_id": "Consultancy - Financial Manager for the PIU ",
+      "project_name": "Cancellation  Notice - Financial Manager of the Project Implementation Unit",
+      "bid_reference_no": "Consultancy - Financial Manager for the PIU ",
       "bid_description": "Closed",
       "procurement_method": "",
       "summary": "",
@@ -8851,6 +8636,23 @@
       "project_id": "Consultancy - Project Manager for the PIU",
       "project_name": "Cancellation Notice  - Project Manager of the Project Implementation Unit (PIU) for the implementation of the Moldova Forest Development Program",
       "bid_reference_no": "Consultancy - Project Manager for the PIU",
+      "bid_description": "Closed",
+      "procurement_method": "",
+      "summary": "",
+      "source": "EIB",
+      "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
+      "_source_label": "EIB",
+      "first_seen": "2026-08-10"
+    },
+    {
+      "id": "eib-685562ae18d6822642009df8",
+      "notice_type": "Project procurement",
+      "notice_date": "20/06/2025",
+      "submission_date": "25/08/2025",
+      "country": "",
+      "project_id": "Consultancy - Forestry Expert",
+      "project_name": "Cancellation  Notice - Senior Forestry Expert of the Project Implementation Unit (PIU) for the implementation of the Moldova Forest Development Program",
+      "bid_reference_no": "Consultancy - Forestry Expert",
       "bid_description": "Closed",
       "procurement_method": "",
       "summary": "",
