@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T07:30:16.396189+00:00",
+  "generated_at": "2026-08-11T07:55:14.513984+00:00",
   "today_kst": "2026-08-11",
   "sources": [
     "World Bank 595건",
@@ -18,15 +18,15 @@
     },
     "한국건설엔지니어링협회": {
       "last_success": "알 수 없음",
-      "consecutive_failures": 7
+      "consecutive_failures": 8
     },
     "ADB": {
       "last_success": "알 수 없음",
-      "consecutive_failures": 7
+      "consecutive_failures": 8
     },
     "나라장터(G2B)": {
       "last_success": "2026-08-11",
-      "consecutive_failures": 1
+      "consecutive_failures": 2
     },
     "해외건설협회(ICAK)": {
       "last_success": "2026-08-11",
@@ -45,9 +45,26 @@
       "consecutive_failures": 0
     }
   },
-  "count": 689,
-  "new_today_count": 118,
+  "count": 690,
+  "new_today_count": 119,
   "notices": [
+    {
+      "id": "aiib-https://www.aiib.org/en/projects/details/2026/_download/Azerbaijan/PP-for-P000969-Baku-Metro-Expansion-Project-Phase-I.xlsx",
+      "notice_type": "Procurement Notice",
+      "notice_date": "Aug 11, 2026",
+      "submission_date": "",
+      "country": "Azerbaijan",
+      "project_id": "",
+      "project_name": "Baku Metro Expansion Project – Phase I",
+      "bid_reference_no": "",
+      "bid_description": "",
+      "procurement_method": "",
+      "summary": "",
+      "source": "AIIB",
+      "source_url": "https://www.aiib.org/en/projects/details/2026/_download/Azerbaijan/PP-for-P000969-Baku-Metro-Expansion-Project-Phase-I.xlsx",
+      "_source_label": "AIIB",
+      "first_seen": "2026-08-11"
+    },
     {
       "id": "wb-OP00461419",
       "notice_type": "Request for Expression of Interest",
@@ -113,6 +130,23 @@
       "summary": "Individual Consultant for Preparation of the Program Operations Manual 1) Background The Government of Uzbekistan, through MoPSE and MEF, is preparing the World Bank-supported BILIM Operation under the Program-for-Results (PforR) instrument, with a complementary IPF Technical Assistance component, financed by an IDA credit and an IFFEd grant. The Operation will be implemented by MoPSE, MEF, and other relevant institutions, supported by an Implementation Office. Results will be measured through D",
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00461239",
+      "_source_label": "World Bank",
+      "first_seen": "2026-08-11"
+    },
+    {
+      "id": "wb-OP00461186",
+      "notice_type": "Request for Expression of Interest",
+      "notice_date": "07-Aug-2026",
+      "submission_date": "2026-08-17T00:00:00Z",
+      "country": "Vanuatu",
+      "project_id": "P513248",
+      "project_name": "Vanuatu: Pacific Islands Regional Oceanscape Program - First Phase",
+      "bid_reference_no": "VU-MFOMA-512230-CS-INDV-2",
+      "bid_description": "Financial Controller",
+      "procurement_method": "Individual Consultant Selection",
+      "summary": "REQUEST FOR EXPRESSIONS OF INTEREST (REOI) (RE-ADVERTISEMENT) Vanuatu Pacific Islands Regional Oceanscape Program &ndash; First Phase Project Preparation Advance No. V555-VU Financial Controller (FC) Reference No.: VU-MFOMA-512230-CS-INDV The Government of Vanuatu has received financing from the World Bank toward the cost of the Pacific Islands Regional Oceanscape Program (PROP), and intends to apply part of the proceeds for consulting services. The consulting services (&ldquo;the Services&rdquo",
+      "source": "World Bank",
+      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00461186",
       "_source_label": "World Bank",
       "first_seen": "2026-08-11"
     },
@@ -7168,23 +7202,6 @@
       "summary": "",
       "source": "나라장터(G2B)",
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01588195&bidPbancOrd=000",
-      "_source_label": "나라장터(G2B)",
-      "first_seen": "2026-08-11"
-    },
-    {
-      "id": "g2b-R26BK01556290-000",
-      "notice_type": "용역 입찰공고",
-      "notice_date": "2026-06-02 11:50:30",
-      "submission_date": "",
-      "country": "",
-      "project_id": "R26BK01556290",
-      "project_name": "2026년 해외건설시장 개척 기업활동 지원사업 위탁정산기관 선정",
-      "bid_reference_no": "R26BK01556290",
-      "bid_description": "해외건설협회",
-      "procurement_method": "제한경쟁",
-      "summary": "",
-      "source": "나라장터(G2B)",
-      "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01556290&bidPbancOrd=000",
       "_source_label": "나라장터(G2B)",
       "first_seen": "2026-08-11"
     },
