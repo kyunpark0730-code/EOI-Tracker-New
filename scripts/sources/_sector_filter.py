@@ -69,6 +69,9 @@ EXCLUDE_PATTERNS = [
     r"shopping method", r"solicitud de cotizaci[óo]n", r"pedido de cota[çc][ãa]o",
     # 회계/정산 등 행정 지원업무 선정 공고(설계·시공·감리 용역이 아님)
     r"위탁정산기관", r"정산기관 선정", r"회계법인 선정",
+    # 행사운영대행(이벤트 에이전시)이나, 국내 정부부처의 공모사업 자체를
+    # 운영·지원해주는 행정지원 용역 (실제 해외 프로젝트 설계/조사가 아님)
+    r"행사\s*대행", r"행사\s*기획", r"공모\s*제안사업",
 ]
 
 _INCLUDE_RE = re.compile("|".join(INCLUDE_PATTERNS), re.IGNORECASE)
@@ -82,7 +85,8 @@ _EXCLUDE_RE = re.compile("|".join(EXCLUDE_PATTERNS), re.IGNORECASE)
 # "직책명으로 끝난다"고 인식하도록 허용 (예: "Project Coordinator (PC).")
 _JOB_TITLE_ENDING_RE = re.compile(
     r"\b(specialist|officer|expert|coordinator|advisor|adviser|analyst|manager|"
-    r"scientist|auditor|economist|consultant)s?\s*(\([A-Za-z&]{1,6}\))?[\s\.\)]*$",
+    r"scientist|auditor|economist|consultant|controller|director|assistant|"
+    r"associate|engineer|accountant|secretary|technician)s?\s*(\([A-Za-z&]{1,6}\))?[\s\.\)]*$",
     re.IGNORECASE,
 )
 # 아래 단어가 있으면 '한 명 채용'이 아니라 '용역/사업' 공고이므로 채용으로 간주하지 않음
