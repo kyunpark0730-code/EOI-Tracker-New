@@ -61,6 +61,12 @@ EXCLUDE_PATTERNS = [
     r"computer emergency response", r"\bCERT\b",
     r"telecommunications sector", r"telecomunica[çc][õo]es", r"telecomunicaciones",
     r"data center", r"network security", r"information security",
+    # 소액 물품/장비 구매용 조달 방식(견적요청). 컨설팅 용역(RFP/EOI)이 아니라
+    # 쇼핑(shopping) 방식 소규모 조달이라 다산이 참여할 대상이 아님.
+    # 분야(태양광 등)가 아니라 조달 방식 자체로 걸러내므로, 관련 분야 공고가
+    # RFP/EOI 방식으로 나오면 이 키워드에 안 걸려 계속 포함됨.
+    r"demande de cotation", r"request for quotation", r"\bRFQ\b",
+    r"shopping method", r"solicitud de cotizaci[óo]n", r"pedido de cota[çc][ãa]o",
 ]
 
 _INCLUDE_RE = re.compile("|".join(INCLUDE_PATTERNS), re.IGNORECASE)
@@ -70,9 +76,11 @@ _EXCLUDE_RE = re.compile("|".join(EXCLUDE_PATTERNS), re.IGNORECASE)
 # "M&E Officer", "HS Specialist", "Road Data Collection Specialist"처럼
 # 제목이 짧고 직책명으로 끝나면 채용공고로 간주한다.
 # (사업 키워드가 있어도 이건 무조건 제외 — "Road Data Collection Specialist"도 걸러야 함)
+# 직책명 뒤에 "(PC)", "(TA)", "(M&E)." 같은 괄호 약어나 마침표가 붙어도
+# "직책명으로 끝난다"고 인식하도록 허용 (예: "Project Coordinator (PC).")
 _JOB_TITLE_ENDING_RE = re.compile(
     r"\b(specialist|officer|expert|coordinator|advisor|adviser|analyst|manager|"
-    r"scientist|auditor|economist|consultant)s?\s*$",
+    r"scientist|auditor|economist|consultant)s?\s*(\([A-Za-z&]{1,6}\))?[\s\.\)]*$",
     re.IGNORECASE,
 )
 # 아래 단어가 있으면 '한 명 채용'이 아니라 '용역/사업' 공고이므로 채용으로 간주하지 않음
