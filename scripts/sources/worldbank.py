@@ -121,6 +121,10 @@ def fetch() -> list:
                 "bid_reference_no": item.get("bid_reference_no", ""),
                 "bid_description": item.get("bid_description", ""),
                 "procurement_method": item.get("procurement_method_name", ""),
+                # GO=Goods(물품), CW=Civil Works(공사), CS=Consulting Services(컨설팅
+                # 용역), NC=Non-Consulting Services 등을 구분하는 필드. 다산은 컨설팅
+                # 용역만 참여하므로 fetch_all.py에서 이 필드로 물품 조달(GO)을 제외한다.
+                "procurement_group": item.get("procurement_group", ""),
                 "summary": _strip_html(item.get("notice_text", ""))[:500],
                 "source": "World Bank",
                 "source_url": f"https://projects.worldbank.org/en/projects-operations/procurement-detail/{nid}",
