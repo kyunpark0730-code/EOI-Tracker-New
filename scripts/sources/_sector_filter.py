@@ -45,6 +45,10 @@ EXCLUDE_PATTERNS = [
     r"\bIT\b system", r"digital platform",
     r"architectur", r"건축\s*설계", r"건물\s*설계", r"architecture\b",
     r"education curriculum", r"교육과정", r"[ée]ducation\b", r"educa[çc][ãa]o\b", r"educaci[óo]n\b",
+    # 청소년/여성 역량강화, 교육·사회개발 프로그램 (교육/사회분야 전반)
+    r"adolescent", r"youth empowerment", r"girls[’']?\s*(initiative|education|empowerment)",
+    r"women['’]?s empowerment", r"skills? training program", r"life skills",
+    r"scholarship program", r"literacy program",
     r"\bhealth\b", r"hospital", r"보건", r"의료", r"sant[ée]\b", r"sa[úu]de\b", r"salud\b",
     r"vaccin",
     r"microfinance", r"banking sector", r"금융권",
