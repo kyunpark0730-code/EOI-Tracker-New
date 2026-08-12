@@ -12,6 +12,11 @@
 
 ※ 이 API는 한 번의 요청으로 조회 가능한 기간이 제한되어 있어("입력범위값 초과" 에러),
    전체 기간을 14일 단위로 잘라서 여러 번 나눠 요청한 뒤 결과를 합친다.
+
+※ 나라장터 서버 자체가 GitHub Actions IP대역을 간헐적으로 막는 문제가 있어(자세한
+   내용은 프로젝트 메모 참고), 실패할 때 워크플로 전체 실행시간을 크게 잡아먹지
+   않도록 타임아웃을 짧게(15초) 잡아둔다. 재시도 2회는 유지 — 완전 차단이 아니라
+   순간적인 서버 부하일 가능성도 있어서 한 번은 더 기회를 준다.
 """
 
 import json
@@ -39,6 +44,7 @@ LOOKBACK_DAYS = 90  # 약 3개월
 CHUNK_DAYS = 14      # 한 번에 조회할 기간 (API 제한을 피하기 위해 안전하게 14일)
 ROWS_PER_PAGE = 100
 MAX_PAGES_PER_CHUNK = 10
+REQUEST_TIMEOUT_SECONDS = 15  # 기존 45초 → 15초로 단축 (실패시 워크플로 시간 절약)
 
 
 def _fetch_page(page_no: int, begin_dt: str, end_dt: str, api_key: str, institution_keyword: str) -> dict:
@@ -58,7 +64,7 @@ def _fetch_page(page_no: int, begin_dt: str, end_dt: str, api_key: str, institut
     last_err = None
     for attempt in range(2):
         try:
-            with urllib.request.urlopen(req, timeout=45) as resp:
+            with urllib.request.urlopen(req, timeout=REQUEST_TIMEOUT_SECONDS) as resp:
                 body = resp.read().decode("utf-8", errors="replace")
             return json.loads(body)
         except Exception as e:
