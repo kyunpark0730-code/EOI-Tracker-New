@@ -63,6 +63,8 @@ EXCLUDE_PATTERNS = [
     r"tourism", r"관광", r"tourisme", r"turismo",
     r"gender action", r"양성평등", r"genre\b", r"g[êe]nero\b",
     r"agricultur(e|al) value chain", r"농업 가치사슬",
+    r"livestock", r"축산", r"dairy", r"낙농", r"[ée]levage", r"b[ée]tail", r"laitier",
+    r"agriculture moderniz", r"농업\s*현대화",
     r"voltage network", r"transmission line", r"transmission network",
     r"transmission infrastructure", r"power grid", r"substation",
     r"송전", r"배전", r"변전소", r"전력망",
