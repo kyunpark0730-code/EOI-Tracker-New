@@ -17,6 +17,12 @@
    내용은 프로젝트 메모 참고), 실패할 때 워크플로 전체 실행시간을 크게 잡아먹지
    않도록 타임아웃을 짧게(15초) 잡아둔다. 재시도 2회는 유지 — 완전 차단이 아니라
    순간적인 서버 부하일 가능성도 있어서 한 번은 더 기회를 준다.
+
+※ [캐시 폴백] "복불복" 특성상 매일 1회 정기 실행 시점엔 실패해도, 하루 중 다른
+   시점(g2b-retry 워크플로, 4시간마다 별도 실행)엔 성공했을 수 있다. 그 성공
+   결과를 data/g2b_cache.json에 저장해두고, 이번 실행이 실패(0건)하면 그 캐시를
+   대신 사용한다 — "어제 데이터"보다 훨씬 최신인 "몇 시간 전 성공 데이터"를 쓸 수
+   있어 더 정확하다.
 """
 
 import json
@@ -45,6 +51,8 @@ CHUNK_DAYS = 14      # 한 번에 조회할 기간 (API 제한을 피하기 위�
 ROWS_PER_PAGE = 100
 MAX_PAGES_PER_CHUNK = 10
 REQUEST_TIMEOUT_SECONDS = 15  # 기존 45초 → 15초로 단축 (실패시 워크플로 시간 절약)
+
+CACHE_PATH = os.path.join(os.path.dirname(__file__), "..", "..", "data", "g2b_cache.json")
 
 
 def _fetch_page(page_no: int, begin_dt: str, end_dt: str, api_key: str, institution_keyword: str) -> dict:
@@ -89,7 +97,8 @@ def _date_chunks(total_days: int, chunk_days: int):
     return chunks
 
 
-def fetch() -> list:
+def _fetch_live() -> list:
+    """나라장터 API를 실제로 호출해서 결과를 가져온다 (캐시 폴백 없이 순수 시도만)."""
     api_key = os.environ.get("G2B_API_KEY", "").strip()
     if not api_key:
         print("[나라장터 경고] G2B_API_KEY 환경변수가 없어 건너뜁니다.", file=sys.stderr)
@@ -172,3 +181,38 @@ def fetch() -> list:
             time.sleep(0.3)  # 청크 사이 서버 부담 방지
 
     return list(results.values())
+
+
+def save_cache(items: list) -> None:
+    """성공한 결과를 캐시 파일에 저장한다 (g2b-retry 워크플로 전용 진입점)."""
+    os.makedirs(os.path.dirname(CACHE_PATH), exist_ok=True)
+    payload = {
+        "fetched_at": datetime.now(timezone.utc).isoformat(),
+        "notices": items,
+    }
+    with open(CACHE_PATH, "w", encoding="utf-8") as f:
+        json.dump(payload, f, ensure_ascii=False, indent=2)
+
+
+def _load_cache() -> list:
+    if not os.path.exists(CACHE_PATH):
+        return []
+    try:
+        with open(CACHE_PATH, encoding="utf-8") as f:
+            payload = json.load(f)
+    except Exception:
+        return []
+    fetched_at = payload.get("fetched_at", "알 수 없음")
+    items = payload.get("notices", [])
+    if items:
+        print(f"[나라장터] 이번 실행은 실패, 캐시(성공 시점: {fetched_at})로 대체 — {len(items)}건", file=sys.stderr)
+    return items
+
+
+def fetch() -> list:
+    """메인 오케스트레이터(fetch_all.py)가 부르는 진입점. 실시간 시도 후,
+    실패(0건)하면 최근 성공했던 캐시로 자동 대체한다."""
+    items = _fetch_live()
+    if items:
+        return items
+    return _load_cache()
