@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-12T02:25:52.242855+00:00",
+  "generated_at": "2026-08-12T02:30:08.394530+00:00",
   "today_kst": "2026-08-12",
   "sources": [
-    "World Bank 621건",
+    "World Bank 622건",
     "한국건설엔지니어링협회 0건",
     "ADB 0건",
     "나라장터(G2B) 88건",
@@ -18,11 +18,11 @@
     },
     "한국건설엔지니어링협회": {
       "last_success": "알 수 없음",
-      "consecutive_failures": 22
+      "consecutive_failures": 23
     },
     "ADB": {
       "last_success": "알 수 없음",
-      "consecutive_failures": 22
+      "consecutive_failures": 23
     },
     "나라장터(G2B)": {
       "last_success": "2026-08-12",
@@ -45,8 +45,8 @@
       "consecutive_failures": 0
     }
   },
-  "count": 462,
-  "new_today_count": 16,
+  "count": 463,
+  "new_today_count": 17,
   "notices": [
     {
       "id": "aiib-https://www.aiib.org/en/projects/details/2026/_download/Azerbaijan/PP-for-P000969-Baku-Metro-Expansion-Project-Phase-I.xlsx",
@@ -3524,6 +3524,25 @@
       "first_seen": "2026-08-06"
     },
     {
+      "id": "wb-OP00456435",
+      "notice_type": "Request for Expression of Interest",
+      "notice_date": "21-Jul-2026",
+      "submission_date": "2026-08-21T00:00:00Z",
+      "country": "Chad",
+      "project_id": "P502142",
+      "project_name": "Chad Adaptive and Productive Safety Nets Project",
+      "bid_reference_no": "TD-UNITE FILETS SOCIAUX-507126-CS-QCBS",
+      "bid_description": "Réalisation des études pour la documentation des leçons et expériences de mise en œuvre du projet",
+      "procurement_method": "Quality And Cost-Based Selection",
+      "procurement_group": "CS",
+      "summary": "R&Eacute;PUBLIQUE DU TCHAD PR&Eacute;SIDENCE DE LA R&Eacute;PUBLIQUE PRIMATURE MINIST&Egrave;RE DE L&rsquo;ACTION SOCIALE, DE LA SOLIDARITE NATIONALE ET DES AFFAIRES HUMANITAIRES SECR&Eacute;TARIAT G&Eacute;N&Eacute;RAL PROJET DES FILETS SOCIAUX ADAPTATIFS ET PRODUCTIFS UNIT&Eacute;-TRAVAIL-PROGR&Egrave;S ********* AVIS &Agrave; MANIFESTATION D&rsquo;INT&Eacute;R&Ecirc;T (AMI) Recrutement d&rsquo;un Consultant International pour l&rsquo;&eacute;valuation du processus des mesures productives, de ",
+      "source": "World Bank",
+      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00456435",
+      "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명(EOI)",
+      "first_seen": "2026-08-12"
+    },
+    {
       "id": "wb-OP00457364",
       "notice_type": "Request for Expression of Interest",
       "notice_date": "17-Jul-2026",
@@ -6880,24 +6899,6 @@
       "first_seen": "2026-08-10"
     },
     {
-      "id": "eib-685556ad18d6822642009dda",
-      "notice_type": "Calls for tenders",
-      "notice_date": "20/06/2025",
-      "submission_date": "29/07/2025",
-      "country": "",
-      "project_id": "Consultancy - Financial Manager for the PIU ",
-      "project_name": "Cancellation  Notice - Financial Manager of the Project Implementation Unit",
-      "bid_reference_no": "Consultancy - Financial Manager for the PIU ",
-      "bid_description": "Closed",
-      "procurement_method": "",
-      "summary": "",
-      "source": "EIB",
-      "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
-      "_source_label": "EIB",
-      "notice_type_normalized": "입찰공고",
-      "first_seen": "2026-08-10"
-    },
-    {
       "id": "eib-685569d518d6822642009e11",
       "notice_type": "Project procurement",
       "notice_date": "20/06/2025",
@@ -6916,21 +6917,21 @@
       "first_seen": "2026-08-10"
     },
     {
-      "id": "eib-685562ae18d6822642009df8",
-      "notice_type": "Project procurement",
+      "id": "eib-685556ad18d6822642009dda",
+      "notice_type": "Calls for tenders",
       "notice_date": "20/06/2025",
-      "submission_date": "25/08/2025",
+      "submission_date": "29/07/2025",
       "country": "",
-      "project_id": "Consultancy - Forestry Expert",
-      "project_name": "Cancellation  Notice - Senior Forestry Expert of the Project Implementation Unit (PIU) for the implementation of the Moldova Forest Development Program",
-      "bid_reference_no": "Consultancy - Forestry Expert",
+      "project_id": "Consultancy - Financial Manager for the PIU ",
+      "project_name": "Cancellation  Notice - Financial Manager of the Project Implementation Unit",
+      "bid_reference_no": "Consultancy - Financial Manager for the PIU ",
       "bid_description": "Closed",
       "procurement_method": "",
       "summary": "",
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
-      "notice_type_normalized": "기타",
+      "notice_type_normalized": "입찰공고",
       "first_seen": "2026-08-10"
     },
     {
@@ -6942,6 +6943,24 @@
       "project_id": "Consultancy - Project Manager for the PIU",
       "project_name": "Cancellation Notice  - Project Manager of the Project Implementation Unit (PIU) for the implementation of the Moldova Forest Development Program",
       "bid_reference_no": "Consultancy - Project Manager for the PIU",
+      "bid_description": "Closed",
+      "procurement_method": "",
+      "summary": "",
+      "source": "EIB",
+      "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
+      "_source_label": "EIB",
+      "notice_type_normalized": "기타",
+      "first_seen": "2026-08-10"
+    },
+    {
+      "id": "eib-685562ae18d6822642009df8",
+      "notice_type": "Project procurement",
+      "notice_date": "20/06/2025",
+      "submission_date": "25/08/2025",
+      "country": "",
+      "project_id": "Consultancy - Forestry Expert",
+      "project_name": "Cancellation  Notice - Senior Forestry Expert of the Project Implementation Unit (PIU) for the implementation of the Moldova Forest Development Program",
+      "bid_reference_no": "Consultancy - Forestry Expert",
       "bid_description": "Closed",
       "procurement_method": "",
       "summary": "",
