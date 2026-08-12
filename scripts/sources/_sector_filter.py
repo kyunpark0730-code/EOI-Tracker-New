@@ -52,6 +52,8 @@ EXCLUDE_PATTERNS = [
     r"\bhealth\b", r"hospital", r"보건", r"의료", r"sant[ée]\b", r"sa[úu]de\b", r"salud\b",
     r"vaccin",
     r"microfinance", r"banking sector", r"금융권",
+    r"finance for jobs", r"jobs? and (economic|livelihood)", r"access to finance",
+    r"financial inclusion", r"private sector development",
     r"tourism", r"관광", r"tourisme", r"turismo",
     r"gender action", r"양성평등", r"genre\b", r"g[êe]nero\b",
     r"agricultur(e|al) value chain", r"농업 가치사슬",
