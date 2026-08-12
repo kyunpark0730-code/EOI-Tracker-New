@@ -195,7 +195,7 @@
 
 <main>
   <div class="toolbar">
-    <button type="button" id="newOnlyToggle" class="toggle-pill active">오늘 신규만</button>
+    <button type="button" id="newOnlyToggle" class="toggle-pill active">마지막 방문 이후 신규</button>
     <input type="text" id="searchInput" placeholder="프로젝트명, 국가, 키워드 검색...">
     <select id="sourceFilter">
       <option value="">전체 출처</option>
@@ -217,6 +217,12 @@
 </footer>
 
 <script>
+// "신규" 판단 기준: 이 브라우저에서 마지막으로 이 페이지를 열었던 날짜(YYYY-MM-DD, KST)를
+// localStorage에 저장해두고, 그 이후로 새로 잡힌(first_seen) 공고만 "신규"로 본다.
+// 주말/연휴처럼 며칠 건너뛰고 들어와도, 그 기간 전체가 자동으로 "신규"에 포함된다.
+// 처음 방문(저장된 값이 없을 때)은 예전처럼 "오늘"만 신규로 본다.
+const LAST_VISIT_KEY = 'eoiTrackerLastVisitDate';
+
 async function loadData(){
   const grid = document.getElementById('grid');
   try{
@@ -230,7 +236,9 @@ async function loadData(){
 
 let ALL = [];
 let TODAY_KST = '';
-let newOnly = true;
+let SINCE_VISIT_DATE = null; // 이번 방문 "이전"에 저장돼 있던 마지막 방문일 (없으면 null)
+// mode: 'since' (마지막 방문 이후, 기본값) -> 'today' (오늘만) -> 'all' (전체보기) -> 'since' ...
+let mode = 'since';
 
 function render(data){
   document.getElementById('generatedAt').textContent = data.generated_at
@@ -241,6 +249,13 @@ function render(data){
 
   ALL = data.notices || [];
   TODAY_KST = data.today_kst || '';
+
+  // 이번 렌더링에는 "이전에 저장돼 있던" 마지막 방문일을 기준으로 쓰고,
+  // 화면을 그린 뒤에 오늘 날짜로 갱신한다 (다음 방문의 기준점이 됨).
+  SINCE_VISIT_DATE = localStorage.getItem(LAST_VISIT_KEY) || null;
+  if (TODAY_KST) {
+    try { localStorage.setItem(LAST_VISIT_KEY, TODAY_KST); } catch (e) { /* 저장 안 되면 그냥 무시 */ }
+  }
 
   const typeSel = document.getElementById('typeFilter');
   const countrySel = document.getElementById('countryFilter');
@@ -260,6 +275,14 @@ function escapeHtml(s){
 }
 function escapeAttr(s){ return escapeHtml(s); }
 
+function isNewUnderCurrentMode(n){
+  if (mode === 'all') return true;
+  if (mode === 'today') return TODAY_KST && n.first_seen === TODAY_KST;
+  // mode === 'since'
+  if (!SINCE_VISIT_DATE) return TODAY_KST && n.first_seen === TODAY_KST; // 첫 방문이면 "오늘"과 동일하게 동작
+  return n.first_seen && n.first_seen > SINCE_VISIT_DATE; // 문자열 YYYY-MM-DD 비교라 그대로 크기 비교 가능
+}
+
 function applyFilters(){
   const q = document.getElementById('searchInput').value.trim().toLowerCase();
   const type = document.getElementById('typeFilter').value;
@@ -267,7 +290,7 @@ function applyFilters(){
   const source = document.getElementById('sourceFilter').value;
 
   const filtered = ALL.filter(n => {
-    if (newOnly && TODAY_KST && n.first_seen !== TODAY_KST) return false;
+    if (!isNewUnderCurrentMode(n)) return false;
     if (type && n.notice_type !== type) return false;
     if (country && n.country !== country) return false;
     if (source && n.source !== source) return false;
@@ -279,18 +302,24 @@ function applyFilters(){
     return true;
   });
 
-  document.getElementById('filteredCount').textContent = newOnly
-    ? `오늘 신규 ${filtered.length}건 (전체 ${ALL.length}건)`
-    : `${filtered.length} / ${ALL.length}건 표시`;
-  renderGrid(filtered, newOnly);
+  const labelMap = {
+    since: `마지막 방문 이후 신규 ${filtered.length}건 (전체 ${ALL.length}건)`,
+    today: `오늘 신규 ${filtered.length}건 (전체 ${ALL.length}건)`,
+    all: `${filtered.length} / ${ALL.length}건 표시`,
+  };
+  document.getElementById('filteredCount').textContent = labelMap[mode];
+  renderGrid(filtered, mode);
 }
 
-function renderGrid(items, isNewOnly){
+function renderGrid(items, currentMode){
   const grid = document.getElementById('grid');
   if (items.length === 0){
-    grid.innerHTML = isNewOnly
-      ? '<div class="empty-state">오늘 새로 올라온 공고가 아직 없습니다. 위 "오늘 신규만" 버튼을 눌러 전체보기로 확인해보세요.</div>'
-      : '<div class="empty-state">조건에 맞는 공고가 없습니다.</div>';
+    const emptyMsgMap = {
+      since: '마지막 방문 이후 새로 올라온 공고가 아직 없습니다. 위 버튼을 눌러 다른 보기로 확인해보세요.',
+      today: '오늘 새로 올라온 공고가 아직 없습니다. 위 버튼을 눌러 다른 보기로 확인해보세요.',
+      all: '조건에 맞는 공고가 없습니다.',
+    };
+    grid.innerHTML = `<div class="empty-state">${emptyMsgMap[currentMode]}</div>`;
     return;
   }
 
@@ -342,10 +371,20 @@ document.getElementById('searchInput').addEventListener('input', applyFilters);
 document.getElementById('typeFilter').addEventListener('change', applyFilters);
 document.getElementById('countryFilter').addEventListener('change', applyFilters);
 document.getElementById('sourceFilter').addEventListener('change', applyFilters);
+
+const MODE_LABELS = {
+  since: '마지막 방문 이후 신규',
+  today: '오늘 신규만',
+  all: '전체보기 중',
+};
+const MODE_ORDER = ['since', 'today', 'all'];
+
 document.getElementById('newOnlyToggle').addEventListener('click', () => {
-  newOnly = !newOnly;
-  document.getElementById('newOnlyToggle').classList.toggle('active', newOnly);
-  document.getElementById('newOnlyToggle').textContent = newOnly ? '오늘 신규만' : '전체보기 중';
+  const idx = MODE_ORDER.indexOf(mode);
+  mode = MODE_ORDER[(idx + 1) % MODE_ORDER.length];
+  const btn = document.getElementById('newOnlyToggle');
+  btn.classList.toggle('active', mode !== 'all');
+  btn.textContent = MODE_LABELS[mode];
   applyFilters();
 });
 
