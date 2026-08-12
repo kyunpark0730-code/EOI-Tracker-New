@@ -51,6 +51,15 @@ def _is_contract_award(raw: str) -> bool:
     return any(kw in low for kw in _CONTRACT_AWARD_KEYWORDS)
 
 
+def _is_procurement_plan(raw: str) -> bool:
+    """조달계획(Procurement Plan)은 개별 지원 가능한 공고가 아니라 사업 전체의
+    계약 목록을 미리 정리해둔 참고용 문서라(대부분 개인 컨설턴트 채용이거나 이미
+    완료(Cleared)된 항목들), 낙찰결과와 마찬가지로 아예 수집 단계에서 제외한다."""
+    if not raw:
+        return False
+    return raw.strip().lower() == "procurement plan"
+
+
 def normalize_notice_type(raw: str) -> str:
     if not raw:
         return "기타"
@@ -197,6 +206,12 @@ def main():
     award_filtered_out = before_award_filter - len(all_notices)
     print(f"낙찰결과(Contract Award)로 제외됨: {award_filtered_out}건")
 
+    # 조달계획(Procurement Plan)도 개별 지원 공고가 아니므로 통째로 제외한다.
+    before_pp_filter = len(all_notices)
+    all_notices = [n for n in all_notices if not _is_procurement_plan(n.get("notice_type", ""))]
+    pp_filtered_out = before_pp_filter - len(all_notices)
+    print(f"조달계획(Procurement Plan)으로 제외됨: {pp_filtered_out}건")
+
     before_job_filter = len(all_notices)
 
     def _job_title_text(n):
@@ -214,7 +229,7 @@ def main():
         if is_relevant(n.get("project_name", ""), n.get("bid_description", ""),
                         n.get("notice_type", ""), n.get("summary", ""))
     ]
-    filtered_out = before_filter - len(all_notices) - job_filtered_out - goods_filtered_out - award_filtered_out
+    filtered_out = before_filter - len(all_notices) - job_filtered_out - goods_filtered_out - award_filtered_out - pp_filtered_out
     print(f"분야 필터로 제외됨: {filtered_out}건 (관개/도로/수자원 등과 무관)")
 
     # 위험국/분쟁국(소말리아, 아프가니스탄 등 - 실제 출장이 어려운 국가)은
