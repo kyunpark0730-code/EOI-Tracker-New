@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-12T23:24:28.572007+00:00",
+  "generated_at": "2026-08-12T23:48:10.307226+00:00",
   "today_kst": "2026-08-13",
   "sources": [
-    "World Bank 661건",
+    "World Bank 660건",
     "한국건설엔지니어링협회 1건",
     "ADB 0건",
     "나라장터(G2B) 77건",
@@ -22,11 +22,11 @@
     },
     "ADB": {
       "last_success": "알 수 없음",
-      "consecutive_failures": 33
+      "consecutive_failures": 34
     },
     "나라장터(G2B)": {
       "last_success": "2026-08-12",
-      "consecutive_failures": 1
+      "consecutive_failures": 2
     },
     "해외건설협회(ICAK)": {
       "last_success": "2026-08-13",
@@ -45,7 +45,7 @@
       "consecutive_failures": 0
     }
   },
-  "count": 396,
+  "count": 395,
   "new_today_count": 15,
   "notices": [
     {
@@ -1297,25 +1297,6 @@
       "summary": "REPUBLIQUE DE GUINEE Minist&egrave;re deS MINES ET DE LA GEOLOGIE (MMG) MINISTERE DE L&rsquo;ENVIRONNEMENT ET DU DEVELOPPEMENT DURABLE (MEDD) PROJET DE GESTION DES RESSOURCES NATURELLES, MINIERES ET DE L&rsquo;ENVIRONNEMENT (PGRNME) CREDIT IDA N&deg; 6885 &ndash; GN ET DON IDA N&deg; 8190 -GN SOLLICITATION DE MANIFESTATION D&rsquo;INTERET SELECTION D&#39;UNE ASSISTANCE JURIDIQUE ET REGLEMENTAIRE PROGRAMME DE REDUCTIONS DES &Eacute;MISSIONS FORESTIERES (REDD+) AU COMPTE DU MINISTERE DE L&rsquo;EN",
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00460052",
-      "_source_label": "World Bank",
-      "notice_type_normalized": "관심표명(EOI)",
-      "first_seen": "2026-08-06"
-    },
-    {
-      "id": "wb-OP00459994",
-      "notice_type": "Request for Expression of Interest",
-      "notice_date": "31-Jul-2026",
-      "submission_date": "2026-08-21T00:00:00Z",
-      "country": "Paraguay",
-      "project_id": "P175320",
-      "project_name": "Asuncion Riverfront Urban Resilience Project",
-      "bid_reference_no": "PY-MOPC-554160-CS-QCBS",
-      "bid_description": "SERVICIO DE CONSULTORÍA PARA AVALÚO Y FISCALIZACIÓN DEL PROYECTO INTEGRAL Y DE LA CONSTRUCCIÓN (FASE I) DEL DISTRITO ECO-INCLUSIVO EN LA FRANJA COSTERA DE ASUNCIÓN",
-      "procurement_method": "Quality And Cost-Based Selection",
-      "procurement_group": "CS",
-      "summary": "INVITACI&Oacute;N A PRESENTAR EXPRESI&Oacute;N DE INTER&Eacute;S (SERVICIOS DE CONSULTOR&Iacute;A-SELECCI&Oacute;N DE FIRMAS) Pa&iacute;s: PARAGUAY Proyecto: RESILIENCIA EN LA FRANJA COSTERA DE ASUNCI&Oacute;N Pr&eacute;stamo N&deg; 9451-PY T&iacute;tulo Asignado: LLAMADO MOPC N&deg;62/2026 . Expresi&oacute;n de Inter&eacute;s Contrataci&oacute;n de firma para el AVAL&Uacute;O Y FISCALIZACI&Oacute;N DEL PROYECTO INTEGRAL Y DE LA CONSTRUCCI&Oacute;N (FASE I) DEL DISTRITO ECO-INCLUSIVO EN LA FRANJ",
-      "source": "World Bank",
-      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00459994",
       "_source_label": "World Bank",
       "notice_type_normalized": "관심표명(EOI)",
       "first_seen": "2026-08-06"
