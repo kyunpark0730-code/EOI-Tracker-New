@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-12T01:06:33.417637+00:00",
+  "generated_at": "2026-08-12T01:19:01.336737+00:00",
   "today_kst": "2026-08-12",
   "sources": [
     "World Bank 622건",
@@ -7,7 +7,7 @@
     "ADB 0건",
     "나라장터(G2B) 88건",
     "해외건설협회(ICAK) 3건",
-    "EIB 192건",
+    "EIB 200건",
     "KIND 4건",
     "AIIB 4건"
   ],
@@ -18,11 +18,11 @@
     },
     "한국건설엔지니어링협회": {
       "last_success": "알 수 없음",
-      "consecutive_failures": 16
+      "consecutive_failures": 17
     },
     "ADB": {
       "last_success": "알 수 없음",
-      "consecutive_failures": 16
+      "consecutive_failures": 17
     },
     "나라장터(G2B)": {
       "last_success": "2026-08-12",
@@ -34,7 +34,7 @@
     },
     "EIB": {
       "last_success": "2026-08-12",
-      "consecutive_failures": 1
+      "consecutive_failures": 0
     },
     "KIND": {
       "last_success": "2026-08-12",
