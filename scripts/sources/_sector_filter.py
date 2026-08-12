@@ -10,6 +10,20 @@
 
 import re
 
+# ["하드 제외"] 이 표현들은 "관개/도로" 같은 핵심 인프라 키워드가 같이 있어도
+# 무조건 제외한다 — 인프라 사업 산하 공고라도, 실제 업무 자체가 다산의 전문영역
+# (설계/조사/감리)과 명백히 다른 별도 전문분야이기 때문. 아래 EXCLUDE_PATTERNS는
+# INCLUDE가 있으면 밀리지만, 이 목록은 INCLUDE보다 먼저 검사해서 항상 이긴다.
+# (실제로 "Road" 등 INCLUDE 키워드와 같이 나와서 놓쳤던 사례들 — ITS 타당성조사,
+# 축산 창고 감리, RAP 이주대책계획 — 을 계기로 만듦)
+HARD_EXCLUDE_PATTERNS = [
+    r"resettlement action plan", r"\bRAP\b", r"이주대책계획",
+    r"land acquisition and resettlement", r"social safeguards", r"involuntary resettlement",
+    r"livestock", r"축산", r"dairy", r"낙농", r"[ée]levage", r"b[ée]tail", r"laitier",
+    r"intelligent transport system", r"\bITS\b", r"지능형\s*교통체계",
+    r"탈탄소화", r"decarboniz",
+]
+
 # 하나라도 걸리면 무조건 포함 (토목/인프라 핵심 분야)
 # 영어/한국어뿐 아니라, World Bank/AfDB 등에 자주 쓰이는 프랑스어/포르투갈어/스페인어도
 # 함께 포함해야 원문이 그 언어인 공고도 정확히 분류할 수 있음 (번역은 안 하지만 키워드는 인식)
@@ -56,15 +70,17 @@ EXCLUDE_PATTERNS = [
     r"financial inclusion", r"private sector development",
     # 탈탄소화/기후정책, 교사교육/스마트교육 등 산업정책·교육 분야 PMC(사업관리)용역
     # (PMC 자체는 다산도 할 수 있는 역할이지만, 관리 대상 사업이 무관 분야인 경우)
-    r"탈탄소화", r"decarboniz", r"교사\s*교육", r"스마트\s*교육", r"학생\s*성장",
+    r"교사\s*교육", r"스마트\s*교육", r"학생\s*성장",
     # 홍보/대국민 인식제고 캠페인 컨설팅 (분야와 무관하게 캠페인/홍보 자체가 다산 업무 아님)
     r"public awareness campaign", r"awareness campaign", r"communication campaign",
     r"인식\s*제고\s*캠페인",
     r"event management", r"행사\s*관리\s*업체",
+    # 이주대책계획(RAP)/토지수용/사회안전장치(social safeguards) 컨설팅.
+    # 도로/댐 등 인프라 사업 산하 공고라 INCLUDE에 걸려도, 실제 업무는 이주·보상·
+    # 젠더 등 사회분야 전문가 영역이라 다산 전문영역(설계/조사/감리)과 다름.
     r"tourism", r"관광", r"tourisme", r"turismo",
     r"gender action", r"양성평등", r"genre\b", r"g[êe]nero\b",
     r"agricultur(e|al) value chain", r"농업 가치사슬",
-    r"livestock", r"축산", r"dairy", r"낙농", r"[ée]levage", r"b[ée]tail", r"laitier",
     r"agriculture moderniz", r"농업\s*현대화",
     r"voltage network", r"transmission line", r"transmission network",
     r"transmission infrastructure", r"power grid", r"substation",
@@ -91,6 +107,7 @@ EXCLUDE_PATTERNS = [
     r"행사\s*대행", r"행사\s*기획", r"공모\s*제안사업",
 ]
 
+_HARD_EXCLUDE_RE = re.compile("|".join(HARD_EXCLUDE_PATTERNS), re.IGNORECASE)
 _INCLUDE_RE = re.compile("|".join(INCLUDE_PATTERNS), re.IGNORECASE)
 _EXCLUDE_RE = re.compile("|".join(EXCLUDE_PATTERNS), re.IGNORECASE)
 
@@ -133,6 +150,8 @@ def is_relevant(*texts: str) -> bool:
     combined = " ".join(t for t in texts if t)
     if not combined:
         return True  # 판단할 정보 자체가 없으면 일단 포함 (안전하게)
+    if _HARD_EXCLUDE_RE.search(combined):
+        return False  # INCLUDE 키워드가 있어도 무조건 제외 (RAP, ITS, 축산 등)
     if _INCLUDE_RE.search(combined):
         return True
     if _EXCLUDE_RE.search(combined):
@@ -145,6 +164,8 @@ def has_strong_relevance_signal(*texts: str) -> bool:
     판단한다. 위험국 필터처럼 "애매하면 포함" 원칙을 뒤집어야 하는 경우에 쓴다."""
     combined = " ".join(t for t in texts if t)
     if not combined:
+        return False
+    if _HARD_EXCLUDE_RE.search(combined):
         return False
     return bool(_INCLUDE_RE.search(combined))
 
