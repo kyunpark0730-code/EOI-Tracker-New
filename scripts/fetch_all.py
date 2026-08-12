@@ -26,7 +26,14 @@ sys.path.insert(0, os.path.dirname(__file__))
 from sources import worldbank, ekacem, adb, g2b, icak, eib, kind, aiib  # noqa: E402
 from sources._sector_filter import (  # noqa: E402
     is_relevant, is_individual_job_posting, is_risk_country, has_strong_relevance_signal,
+    HARD_EXCLUDE_PATTERNS,
 )
+
+# 코드가 최신 버전으로 실제 반영됐는지 로그 맨 앞에서 바로 확인할 수 있게 하는
+# 지문(fingerprint). 이 줄이 로그에 없거나 개수가 다르면, GitHub에 커밋된 파일이
+# 최신본이 아니라는 뜻이다.
+print(f"[버전 확인] HARD_EXCLUDE_PATTERNS {len(HARD_EXCLUDE_PATTERNS)}개 로드됨 "
+      f"(RAP 테스트: {'제외됨' if is_relevant('Resettlement Action Plan Road') is False else '제외 안 됨(구버전 의심)'})")
 
 # 소스마다(영어/프랑스어/한국어) 제각각인 notice_type 원문을 5개 통합 카테고리로
 # 정리한다. 사전 매칭 대신 키워드 패턴으로 판단해서, 새 소스가 추가되거나
