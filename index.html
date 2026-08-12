@@ -260,7 +260,7 @@ function render(data){
   const typeSel = document.getElementById('typeFilter');
   const countrySel = document.getElementById('countryFilter');
   const sourceSel = document.getElementById('sourceFilter');
-  const types = [...new Set(ALL.map(n => n.notice_type).filter(Boolean))].sort();
+  const types = [...new Set(ALL.map(n => n.notice_type_normalized).filter(Boolean))].sort();
   const countries = [...new Set(ALL.map(n => n.country).filter(Boolean))].sort();
   const sourceList = [...new Set(ALL.map(n => n.source).filter(Boolean))].sort();
   typeSel.innerHTML = '<option value="">전체 공고유형</option>' + types.map(t => `<option value="${escapeAttr(t)}">${escapeHtml(t)}</option>`).join('');
@@ -291,7 +291,7 @@ function applyFilters(){
 
   const filtered = ALL.filter(n => {
     if (!isNewUnderCurrentMode(n)) return false;
-    if (type && n.notice_type !== type) return false;
+    if (type && n.notice_type_normalized !== type) return false;
     if (country && n.country !== country) return false;
     if (source && n.source !== source) return false;
     if (q){
@@ -333,7 +333,8 @@ function renderGrid(items, currentMode){
     </div>`;
 
   const rows = items.map((n) => {
-    const isEoi = (n.notice_type || '').toLowerCase().includes('expression of interest');
+    const isEoi = n.notice_type_normalized === '관심표명/제안요청';
+    const typeLabel = n.notice_type_normalized || '기타';
 
     const chips = [];
     if (n.bid_reference_no) chips.push(`<span class="meta-chip">Ref. ${escapeHtml(n.bid_reference_no)}</span>`);
@@ -349,7 +350,7 @@ function renderGrid(items, currentMode){
     return `
     <div class="row-card">
       <div class="col-source">${escapeHtml(n.source || '-')}</div>
-      <div><span class="tag ${isEoi ? 'eoi' : ''}">${escapeHtml(n.notice_type || '기타')}</span></div>
+      <div><span class="tag ${isEoi ? 'eoi' : ''}" title="${escapeAttr(n.notice_type || '')}">${escapeHtml(typeLabel)}</span></div>
       <div class="country">${escapeHtml(n.country || '-')}</div>
       <div class="col-title-block">
         <a class="title-link" href="${n.source_url}" target="_blank" rel="noopener">${escapeHtml(n.project_name || '(프로젝트명 없음)')}</a>
