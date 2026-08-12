@@ -24,7 +24,9 @@ from datetime import datetime, timezone, timedelta
 sys.path.insert(0, os.path.dirname(__file__))
 
 from sources import worldbank, ekacem, adb, g2b, icak, eib, kind, aiib  # noqa: E402
-from sources._sector_filter import is_relevant, is_individual_job_posting  # noqa: E402
+from sources._sector_filter import (  # noqa: E402
+    is_relevant, is_individual_job_posting, is_risk_country, has_strong_relevance_signal,
+)
 
 SOURCES = [
     ("World Bank", worldbank),
@@ -148,12 +150,13 @@ def main():
 
     # World Bank는 procurement_group 필드로 물품(Goods)/공사(Civil Works)/컨설팅
     # 용역(Consulting Services) 등을 명확히 구분해서 준다. 다산은 컨설팅 용역만
-    # 참여하므로, 다른 소스에는 없는 이 필드가 "GO"(물품 조달)인 건은 텍스트
-    # 키워드 판단 없이 확실하게 제외한다 (지게차, 창고 선반 등 단순 장비 구매 건).
+    # 참여하므로, 다른 소스에는 없는 이 필드가 "GO"(물품 조달)나 "CW"(공사, 시공사가
+    # 입찰하는 건)인 경우는 텍스트 키워드 판단 없이 확실하게 제외한다.
+    EXCLUDED_PROCUREMENT_GROUPS = {"GO", "CW"}
     before_goods_filter = len(all_notices)
-    all_notices = [n for n in all_notices if n.get("procurement_group") != "GO"]
+    all_notices = [n for n in all_notices if n.get("procurement_group") not in EXCLUDED_PROCUREMENT_GROUPS]
     goods_filtered_out = before_goods_filter - len(all_notices)
-    print(f"물품(Goods) 조달로 제외됨: {goods_filtered_out}건")
+    print(f"물품/공사(Goods/Civil Works)로 제외됨: {goods_filtered_out}건")
 
     before_job_filter = len(all_notices)
 
@@ -174,6 +177,19 @@ def main():
     ]
     filtered_out = before_filter - len(all_notices) - job_filtered_out - goods_filtered_out
     print(f"분야 필터로 제외됨: {filtered_out}건 (관개/도로/수자원 등과 무관)")
+
+    # 위험국/분쟁국(소말리아, 아프가니스탄 등 - 실제 출장이 어려운 국가)은
+    # "애매하면 포함" 원칙을 적용하지 않고, 관개/도로/댐 등 핵심 인프라 키워드가
+    # 확실히 있을 때만 남긴다. (예: "도로 재건 사업"은 유지, 애매한 건 제외)
+    before_risk_filter = len(all_notices)
+    all_notices = [
+        n for n in all_notices
+        if not is_risk_country(n.get("country", ""))
+        or has_strong_relevance_signal(n.get("project_name", ""), n.get("bid_description", ""),
+                                        n.get("notice_type", ""), n.get("summary", ""))
+    ]
+    risk_filtered_out = before_risk_filter - len(all_notices)
+    print(f"위험국(핵심 인프라 키워드 없음)으로 제외됨: {risk_filtered_out}건")
 
     new_today_count = 0
     for n in all_notices:
