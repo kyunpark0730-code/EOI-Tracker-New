@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-12T08:08:16.514873+00:00",
+  "generated_at": "2026-08-12T08:29:49.902349+00:00",
   "today_kst": "2026-08-12",
   "sources": [
-    "World Bank 622건",
+    "World Bank 621건",
     "한국건설엔지니어링협회 1건",
     "ADB 0건",
     "나라장터(G2B) 88건",
@@ -22,7 +22,7 @@
     },
     "ADB": {
       "last_success": "알 수 없음",
-      "consecutive_failures": 31
+      "consecutive_failures": 32
     },
     "나라장터(G2B)": {
       "last_success": "2026-08-12",
@@ -45,8 +45,8 @@
       "consecutive_failures": 0
     }
   },
-  "count": 383,
-  "new_today_count": 9,
+  "count": 382,
+  "new_today_count": 8,
   "notices": [
     {
       "id": "wb-OP00461709",
@@ -2079,25 +2079,6 @@
       "_source_label": "World Bank",
       "notice_type_normalized": "관심표명(EOI)",
       "first_seen": "2026-08-06"
-    },
-    {
-      "id": "wb-OP00456435",
-      "notice_type": "Request for Expression of Interest",
-      "notice_date": "21-Jul-2026",
-      "submission_date": "2026-08-21T00:00:00Z",
-      "country": "Chad",
-      "project_id": "P502142",
-      "project_name": "Chad Adaptive and Productive Safety Nets Project",
-      "bid_reference_no": "TD-UNITE FILETS SOCIAUX-507126-CS-QCBS",
-      "bid_description": "Réalisation des études pour la documentation des leçons et expériences de mise en œuvre du projet",
-      "procurement_method": "Quality And Cost-Based Selection",
-      "procurement_group": "CS",
-      "summary": "R&Eacute;PUBLIQUE DU TCHAD PR&Eacute;SIDENCE DE LA R&Eacute;PUBLIQUE PRIMATURE MINIST&Egrave;RE DE L&rsquo;ACTION SOCIALE, DE LA SOLIDARITE NATIONALE ET DES AFFAIRES HUMANITAIRES SECR&Eacute;TARIAT G&Eacute;N&Eacute;RAL PROJET DES FILETS SOCIAUX ADAPTATIFS ET PRODUCTIFS UNIT&Eacute;-TRAVAIL-PROGR&Egrave;S ********* AVIS &Agrave; MANIFESTATION D&rsquo;INT&Eacute;R&Ecirc;T (AMI) Recrutement d&rsquo;un Consultant International pour l&rsquo;&eacute;valuation du processus des mesures productives, de ",
-      "source": "World Bank",
-      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00456435",
-      "_source_label": "World Bank",
-      "notice_type_normalized": "관심표명(EOI)",
-      "first_seen": "2026-08-12"
     },
     {
       "id": "wb-OP00457364",
