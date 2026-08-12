@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-08-12T06:54:50.635823+00:00",
+  "generated_at": "2026-08-12T07:04:41.911243+00:00",
   "today_kst": "2026-08-12",
   "sources": [
-    "World Bank 621건",
+    "World Bank 622건",
     "한국건설엔지니어링협회 1건",
     "ADB 0건",
-    "나라장터(G2B) 78건",
+    "나라장터(G2B) 88건",
     "해외건설협회(ICAK) 3건",
     "EIB 200건",
     "KIND 4건",
@@ -22,11 +22,11 @@
     },
     "ADB": {
       "last_success": "알 수 없음",
-      "consecutive_failures": 27
+      "consecutive_failures": 28
     },
     "나라장터(G2B)": {
       "last_success": "2026-08-12",
-      "consecutive_failures": 3
+      "consecutive_failures": 0
     },
     "해외건설협회(ICAK)": {
       "last_success": "2026-08-12",
@@ -45,8 +45,8 @@
       "consecutive_failures": 0
     }
   },
-  "count": 388,
-  "new_today_count": 13,
+  "count": 383,
+  "new_today_count": 9,
   "notices": [
     {
       "id": "wb-OP00461709",
@@ -106,44 +106,6 @@
       "first_seen": "2026-08-12"
     },
     {
-      "id": "wb-OP00461704",
-      "notice_type": "Request for Expression of Interest",
-      "notice_date": "10-Aug-2026",
-      "submission_date": "2026-08-25T00:00:00Z",
-      "country": "Gambia, The",
-      "project_id": "P504762",
-      "project_name": "The Gambia Infrastructure Project",
-      "bid_reference_no": "GM-CPCU - MOFEA-527997-CS-CQS",
-      "bid_description": "Resettlement Action Plan/ Livelihood Restoration Plan for feasibility studies for 500km and detail design of 150km of road construction nationwide.",
-      "procurement_method": "Consultant Qualification  Selection",
-      "procurement_group": "CS",
-      "summary": "CENTRAL PROJECTS COORDINATION UNIT (CPCU) Ministry of Finance and Economic Affairs The Gambia Infrastructure Project (GIP) Request for Expressions of Interest for Consulting Service Country: The Republic of the Gambia Project Title: The Gambia Infrastructure Project (GIP) Assignment Title : Consultancy Services for the Preparation of the Resettlement Action Plan (RAP) for NRA (150km) Rural and Urban Road under the Gambia Infrastructure Project. Procurement Method: Consultant Qualification Select",
-      "source": "World Bank",
-      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00461704",
-      "_source_label": "World Bank",
-      "notice_type_normalized": "관심표명(EOI)",
-      "first_seen": "2026-08-12"
-    },
-    {
-      "id": "wb-OP00461726",
-      "notice_type": "Request for Expression of Interest",
-      "notice_date": "10-Aug-2026",
-      "submission_date": "2026-08-28T00:00:00Z",
-      "country": "Tanzania",
-      "project_id": "P169425",
-      "project_name": "Msimbazi Basin Development Project",
-      "bid_reference_no": "TZ-PO-RALG-561601-CS-CQS",
-      "bid_description": "Consultancy Services to Undertake an Environmental and Social Impact Assessment and Resettlement Action Plan for Flood and Erosion Control Interventions in the Middle and Upper Basin of the Msimbazi River in Dar es Salaam",
-      "procurement_method": "Consultant Qualification  Selection",
-      "procurement_group": "CS",
-      "summary": "THE UNITED REPUBLIC OF TANZANIA PRIME MINISTER&rsquo;S OFFICE REGIONAL ADMINISTRATION AND LOCAL GOVERNMENT MSIMBAZI BASIN DEVELOPMENT PROJECT (MBDP) IDA CREDIT NO. 7215-TZ TENDER NO. 56/2026/2027/C/13 FOR PROVISION OF CONSULTANCY SERVICES TO UNDERTAKE AN ENVIRONMENTAL AND SOCIAL IMPACT ASSESSMENT AND RESETTLEMENT ACTION PLAN FOR FLOOD AND EROSION CONTROL INTERVENTIONS IN THE MIDDLE AND UPPER BASIN OF THE MSIMBAZI RIVER IN DAR ES SALAAM REQUEST FOR EXPRESSIONS OF INTEREST (CONSULTING SERVICES &nd",
-      "source": "World Bank",
-      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00461726",
-      "_source_label": "World Bank",
-      "notice_type_normalized": "관심표명(EOI)",
-      "first_seen": "2026-08-12"
-    },
-    {
       "id": "wb-OP00461733",
       "notice_type": "Request for Expression of Interest",
       "notice_date": "10-Aug-2026",
@@ -182,25 +144,6 @@
       "first_seen": "2026-08-12"
     },
     {
-      "id": "wb-OP00461729",
-      "notice_type": "Request for Expression of Interest",
-      "notice_date": "10-Aug-2026",
-      "submission_date": "2026-08-28T00:00:00Z",
-      "country": "Tanzania",
-      "project_id": "P180298",
-      "project_name": "DAR ES SALAAM METROPOLITAN DEVELOPMENT PROJECT PHASE 2",
-      "bid_reference_no": "TZ-PO-RALG-561346-CS-QCBS",
-      "bid_description": "Consultancy Services for Preparation of ESIAs and RAPs for Area-Based Investments in Dar es Salaam City, Kinondoni, Ubungo, Temeke & Kigamboni Municipalities, and Priority Drainage Interventions in Dar es Salaam under DMDP 2",
-      "procurement_method": "Quality And Cost-Based Selection",
-      "procurement_group": "CS",
-      "summary": "THE UNITED REPUBLIC OF TANZANIA PRIME MINISTER&rsquo;S OFFICE REGIONAL ADMINISTRATION AND LOCAL GOVERNMENT DAR ES SALAAM METROPOLITAN DEVELOPMENT PROJECT - PHASE 2 (DMDP 2) IDA CREDIT NO. 7478-TZ TENDER NO. 56/2026/2027/C/10 FOR PROVISION OF CONSULTANCY SERVICES FOR PREPARATION OF ENVIRONMENTAL AND SOCIAL IMPACT ASSESSMENTS AND RESETTLEMENT ACTION PLANS FOR AREA-BASED INVESTMENTS IN DAR ES SALAAM CITY, KINONDONI, UBUNGO, TEMEKE AND KIGAMBONI MUNICIPALITIES, AND PRIORITY DRAINAGE INTERVENTIONS IN",
-      "source": "World Bank",
-      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00461729",
-      "_source_label": "World Bank",
-      "notice_type_normalized": "관심표명(EOI)",
-      "first_seen": "2026-08-12"
-    },
-    {
       "id": "wb-OP00461617",
       "notice_type": "Request for Expression of Interest",
       "notice_date": "10-Aug-2026",
@@ -234,44 +177,6 @@
       "summary": "R&Eacute;PUBLIQUE D&#39;HA&Iuml;TI MINIST&Egrave;RE DES TRAVAUX PUBLICS, TRANSPORTS ET COMMUNICATIONS UNIT&Eacute; CENTRALE D&rsquo;EX&Eacute;CUTION (UCE) PROJET DE CORRIDORS R&Eacute;SILIENTS (PCR) (P510851) SFQC-002-PCR/2026 APPEL &Agrave; MANIFESTATION D&rsquo;INT&Eacute;R&Ecirc;T &Eacute;TUDES COMPL&Egrave;TES DE TROIS (3) PONTS DANS LA P&Eacute;NINSULE SUD Le Gouvernement de la R&eacute;publique d&rsquo;Ha&iuml;ti a re&ccedil;u un financement de l&rsquo;Association Internationale de D&eacut",
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00461699",
-      "_source_label": "World Bank",
-      "notice_type_normalized": "관심표명(EOI)",
-      "first_seen": "2026-08-12"
-    },
-    {
-      "id": "wb-OP00461647",
-      "notice_type": "Request for Expression of Interest",
-      "notice_date": "10-Aug-2026",
-      "submission_date": "2026-09-02T00:00:00Z",
-      "country": "Niger",
-      "project_id": "P179276",
-      "project_name": "Livestock and Agriculture Modernization Project (LAMP)",
-      "bid_reference_no": "NE-LAMP-535330-CS-CQS",
-      "bid_description": "Recrutement d'un consultant pour les études techniques et Contrôle des Travaux des magasins et des minirizieries",
-      "procurement_method": "Consultant Qualification  Selection",
-      "procurement_group": "CS",
-      "summary": "REPUBLIQUE DU NIGER **************** Fraternit&eacute; &ndash; Travail &ndash; Progr&egrave;s MINISTERE DE L&rsquo;AGRICULTURE ET DE L&rsquo;ELEVAGE PROJET D&rsquo;APPUI AU DEVELOPPEMENT DES CULTURES IRRIGUEES ET A L&rsquo;INTENSISIFICATION DE LA PRODUCTION ANIMALE (PACIPA) AVIS A MANIFESTATIONS D&rsquo;INTERET POUR LE RECRUTEMENT D&rsquo;UN CABINET POUR LE SUIVI ET LE CONTR&Ocirc;LE DES TRAVAUX DE CONSTRUCTION DE CINQ (5) MINI RIZERIES DANS LES R&Eacute;GIONS DE DIFFA, DOSSO ET ZINDER Cr&eacute",
-      "source": "World Bank",
-      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00461647",
-      "_source_label": "World Bank",
-      "notice_type_normalized": "관심표명(EOI)",
-      "first_seen": "2026-08-12"
-    },
-    {
-      "id": "wb-OP00461660",
-      "notice_type": "Request for Expression of Interest",
-      "notice_date": "10-Aug-2026",
-      "submission_date": "2026-09-02T00:00:00Z",
-      "country": "Niger",
-      "project_id": "P179276",
-      "project_name": "Livestock and Agriculture Modernization Project (LAMP)",
-      "bid_reference_no": "NE-LAMP-535048-CS-CQS",
-      "bid_description": "Recrutement d'un consultant pour les études techniques et contrôle des travaux de construction et réhabilitation des marchés à bétail",
-      "procurement_method": "Consultant Qualification  Selection",
-      "procurement_group": "CS",
-      "summary": "REPUBLIQUE DU NIGER **************** Fraternit&eacute; &ndash; Travail &ndash; Progr&egrave;s MINISTERE DE L&rsquo;AGRICULTURE ET DE L&rsquo;ELEVAGE PROJET D&rsquo;APPUI AU DEVELOPPEMENT DES CULTURES IRRIGUEES ET A L&rsquo;INTENSISIFICATION DE LA PRODUCTION ANIMALE (PACIPA) AVIS A MANIFESTATIONS D&rsquo;INTERET POUR LE RECRUTEMENT D&rsquo;UN CABINET POUR LE SUIVI ET CONTR&Ocirc;LE DES TRAVAUX DE CONSTRUCTION ET R&Eacute;HABILITATION DE QUINZE (15) MARCH&Eacute;S &Agrave; B&Eacute;TAIL DANS LES R",
-      "source": "World Bank",
-      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00461660",
       "_source_label": "World Bank",
       "notice_type_normalized": "관심표명(EOI)",
       "first_seen": "2026-08-12"
@@ -2176,6 +2081,25 @@
       "first_seen": "2026-08-06"
     },
     {
+      "id": "wb-OP00456435",
+      "notice_type": "Request for Expression of Interest",
+      "notice_date": "21-Jul-2026",
+      "submission_date": "2026-08-21T00:00:00Z",
+      "country": "Chad",
+      "project_id": "P502142",
+      "project_name": "Chad Adaptive and Productive Safety Nets Project",
+      "bid_reference_no": "TD-UNITE FILETS SOCIAUX-507126-CS-QCBS",
+      "bid_description": "Réalisation des études pour la documentation des leçons et expériences de mise en œuvre du projet",
+      "procurement_method": "Quality And Cost-Based Selection",
+      "procurement_group": "CS",
+      "summary": "R&Eacute;PUBLIQUE DU TCHAD PR&Eacute;SIDENCE DE LA R&Eacute;PUBLIQUE PRIMATURE MINIST&Egrave;RE DE L&rsquo;ACTION SOCIALE, DE LA SOLIDARITE NATIONALE ET DES AFFAIRES HUMANITAIRES SECR&Eacute;TARIAT G&Eacute;N&Eacute;RAL PROJET DES FILETS SOCIAUX ADAPTATIFS ET PRODUCTIFS UNIT&Eacute;-TRAVAIL-PROGR&Egrave;S ********* AVIS &Agrave; MANIFESTATION D&rsquo;INT&Eacute;R&Ecirc;T (AMI) Recrutement d&rsquo;un Consultant International pour l&rsquo;&eacute;valuation du processus des mesures productives, de ",
+      "source": "World Bank",
+      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00456435",
+      "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명(EOI)",
+      "first_seen": "2026-08-12"
+    },
+    {
       "id": "wb-OP00457364",
       "notice_type": "Request for Expression of Interest",
       "notice_date": "17-Jul-2026",
@@ -2374,24 +2298,6 @@
       "summary": "",
       "source": "나라장터(G2B)",
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01588182&bidPbancOrd=000",
-      "_source_label": "나라장터(G2B)",
-      "notice_type_normalized": "입찰공고",
-      "first_seen": "2026-08-11"
-    },
-    {
-      "id": "g2b-R26BK01588195-000",
-      "notice_type": "용역 입찰공고",
-      "notice_date": "2026-06-17 19:02:14",
-      "submission_date": "2026-06-18 17:55:00",
-      "country": "페루",
-      "project_id": "R26BK01588195",
-      "project_name": "페루 리마-찬카이 스마트 지능형교통체계(ITS) 구축사업 타당성조사",
-      "bid_reference_no": "R26BK01588195",
-      "bid_description": "해외건설협회",
-      "procurement_method": "수의계약",
-      "summary": "",
-      "source": "나라장터(G2B)",
-      "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01588195&bidPbancOrd=000",
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
       "first_seen": "2026-08-11"
