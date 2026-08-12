@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-12T01:44:17.488615+00:00",
+  "generated_at": "2026-08-12T02:09:36.958863+00:00",
   "today_kst": "2026-08-12",
   "sources": [
     "World Bank 622건",
@@ -18,11 +18,11 @@
     },
     "한국건설엔지니어링협회": {
       "last_success": "알 수 없음",
-      "consecutive_failures": 19
+      "consecutive_failures": 20
     },
     "ADB": {
       "last_success": "알 수 없음",
-      "consecutive_failures": 19
+      "consecutive_failures": 20
     },
     "나라장터(G2B)": {
       "last_success": "2026-08-12",
@@ -63,6 +63,7 @@
       "source": "AIIB",
       "source_url": "https://www.aiib.org/en/projects/details/2026/_download/Azerbaijan/PP-for-P000969-Baku-Metro-Expansion-Project-Phase-I.xlsx",
       "_source_label": "AIIB",
+      "notice_type_normalized": "기타",
       "first_seen": "2026-08-11"
     },
     {
@@ -81,6 +82,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00461709",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-12"
     },
     {
@@ -99,6 +101,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00461491",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-12"
     },
     {
@@ -117,6 +120,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00461720",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-12"
     },
     {
@@ -135,6 +139,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00461707",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-12"
     },
     {
@@ -153,6 +158,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00461704",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-12"
     },
     {
@@ -171,6 +177,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00461600",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-12"
     },
     {
@@ -189,6 +196,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00461603",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-12"
     },
     {
@@ -207,6 +215,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00461556",
       "_source_label": "World Bank",
+      "notice_type_normalized": "입찰공고",
       "first_seen": "2026-08-12"
     },
     {
@@ -225,6 +234,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00461726",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-12"
     },
     {
@@ -243,6 +253,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00461733",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-12"
     },
     {
@@ -261,6 +272,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00461735",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-12"
     },
     {
@@ -279,6 +291,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00461729",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-12"
     },
     {
@@ -297,6 +310,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00461617",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-12"
     },
     {
@@ -315,6 +329,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00461699",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-12"
     },
     {
@@ -333,6 +348,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00461647",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-12"
     },
     {
@@ -351,6 +367,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00461660",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-12"
     },
     {
@@ -369,6 +386,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00461419",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-11"
     },
     {
@@ -387,6 +405,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00461195",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-11"
     },
     {
@@ -405,6 +424,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00461239",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-11"
     },
     {
@@ -423,6 +443,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00459222",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-06"
     },
     {
@@ -441,6 +462,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00461268",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-11"
     },
     {
@@ -459,6 +481,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00461094",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-11"
     },
     {
@@ -477,6 +500,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00461092",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-11"
     },
     {
@@ -495,6 +519,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00461303",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-11"
     },
     {
@@ -513,6 +538,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00461331",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-11"
     },
     {
@@ -531,6 +557,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00461243",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-11"
     },
     {
@@ -549,6 +576,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00461367",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-11"
     },
     {
@@ -567,6 +595,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00461372",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-11"
     },
     {
@@ -585,6 +614,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00461273",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-11"
     },
     {
@@ -603,6 +633,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00461385",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-11"
     },
     {
@@ -621,6 +652,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00460261",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-11"
     },
     {
@@ -639,6 +671,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00460980",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-10"
     },
     {
@@ -657,6 +690,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00460998",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-10"
     },
     {
@@ -675,6 +709,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00460966",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-10"
     },
     {
@@ -693,6 +728,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00460983",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-10"
     },
     {
@@ -711,6 +747,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00460945",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-10"
     },
     {
@@ -729,6 +766,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00460996",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-10"
     },
     {
@@ -747,6 +785,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00460933",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-10"
     },
     {
@@ -765,6 +804,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00460948",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-10"
     },
     {
@@ -783,6 +823,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00461102",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-10"
     },
     {
@@ -801,6 +842,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00461015",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-10"
     },
     {
@@ -819,6 +861,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00461171",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-10"
     },
     {
@@ -837,6 +880,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00460935",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-10"
     },
     {
@@ -855,6 +899,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00461168",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-10"
     },
     {
@@ -873,6 +918,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00461057",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-10"
     },
     {
@@ -891,6 +937,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00461141",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-10"
     },
     {
@@ -909,6 +956,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00461095",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-10"
     },
     {
@@ -927,6 +975,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00461005",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-10"
     },
     {
@@ -944,6 +993,7 @@
       "source": "AIIB",
       "source_url": "https://www.aiib.org/en/projects/details/2026/_download/Kazakhstan/Atyrau-Dossor-IFB-05-08-26.pdf",
       "_source_label": "AIIB",
+      "notice_type_normalized": "입찰공고",
       "first_seen": "2026-08-10"
     },
     {
@@ -962,6 +1012,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00460913",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-07"
     },
     {
@@ -980,6 +1031,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00460702",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-10"
     },
     {
@@ -998,6 +1050,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00460707",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-07"
     },
     {
@@ -1016,6 +1069,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00460723",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-07"
     },
     {
@@ -1034,6 +1088,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00460729",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-07"
     },
     {
@@ -1052,6 +1107,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00460643",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-07"
     },
     {
@@ -1070,6 +1126,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00455663",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-06"
     },
     {
@@ -1088,6 +1145,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00460511",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-06"
     },
     {
@@ -1106,6 +1164,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00460558",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-07"
     },
     {
@@ -1124,6 +1183,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00460764",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-07"
     },
     {
@@ -1141,6 +1201,7 @@
       "source": "AIIB",
       "source_url": "https://www.aiib.org/en/projects/details/2026/_download/Bangladesh/Sylhet-to-Tamabil-Road-Upgrade-Project_Contract_Award_Publication.pdf",
       "_source_label": "AIIB",
+      "notice_type_normalized": "낙찰결과",
       "first_seen": "2026-08-10"
     },
     {
@@ -1159,6 +1220,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00460485",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-06"
     },
     {
@@ -1177,6 +1239,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00460465",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-06"
     },
     {
@@ -1195,6 +1258,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00460429",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-06"
     },
     {
@@ -1213,6 +1277,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00460576",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-06"
     },
     {
@@ -1231,6 +1296,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00460573",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-06"
     },
     {
@@ -1249,6 +1315,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00460269",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-06"
     },
     {
@@ -1267,6 +1334,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00460580",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-06"
     },
     {
@@ -1285,6 +1353,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00459124",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-06"
     },
     {
@@ -1303,6 +1372,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00429535",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-06"
     },
     {
@@ -1321,6 +1391,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00460414",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-06"
     },
     {
@@ -1339,6 +1410,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00460489",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-06"
     },
     {
@@ -1357,6 +1429,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00460419",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-06"
     },
     {
@@ -1375,6 +1448,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00460268",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-06"
     },
     {
@@ -1393,6 +1467,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00459487",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-06"
     },
     {
@@ -1411,6 +1486,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00460295",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-07"
     },
     {
@@ -1429,6 +1505,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00460353",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-06"
     },
     {
@@ -1447,6 +1524,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00460391",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-06"
     },
     {
@@ -1465,6 +1543,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00460407",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-06"
     },
     {
@@ -1483,6 +1562,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00459656",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-06"
     },
     {
@@ -1501,6 +1581,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00460424",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-06"
     },
     {
@@ -1519,6 +1600,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00460193",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-06"
     },
     {
@@ -1537,6 +1619,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00460212",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-06"
     },
     {
@@ -1555,6 +1638,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00460186",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-06"
     },
     {
@@ -1573,6 +1657,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00456649",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-06"
     },
     {
@@ -1591,6 +1676,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00460281",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-06"
     },
     {
@@ -1609,6 +1695,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00459769",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-06"
     },
     {
@@ -1627,6 +1714,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00460270",
       "_source_label": "World Bank",
+      "notice_type_normalized": "입찰공고",
       "first_seen": "2026-08-06"
     },
     {
@@ -1645,6 +1733,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00452488",
       "_source_label": "World Bank",
+      "notice_type_normalized": "입찰공고",
       "first_seen": "2026-08-06"
     },
     {
@@ -1663,6 +1752,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00460094",
       "_source_label": "World Bank",
+      "notice_type_normalized": "입찰공고",
       "first_seen": "2026-08-06"
     },
     {
@@ -1681,6 +1771,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00460132",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-06"
     },
     {
@@ -1699,6 +1790,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00460000",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-06"
     },
     {
@@ -1717,6 +1809,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00459898",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-06"
     },
     {
@@ -1735,6 +1828,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00455283",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-06"
     },
     {
@@ -1753,6 +1847,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00459913",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-06"
     },
     {
@@ -1771,6 +1866,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00459985",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-06"
     },
     {
@@ -1789,6 +1885,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00459553",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-06"
     },
     {
@@ -1807,6 +1904,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00459979",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-06"
     },
     {
@@ -1825,6 +1923,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00459909",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-06"
     },
     {
@@ -1843,6 +1942,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00459969",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-06"
     },
     {
@@ -1861,6 +1961,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00460057",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-06"
     },
     {
@@ -1879,6 +1980,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00459867",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-06"
     },
     {
@@ -1897,6 +1999,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00460052",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-06"
     },
     {
@@ -1915,6 +2018,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00459994",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-06"
     },
     {
@@ -1933,6 +2037,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00459926",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-06"
     },
     {
@@ -1951,6 +2056,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00460050",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-06"
     },
     {
@@ -1969,6 +2075,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00460015",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-06"
     },
     {
@@ -1987,6 +2094,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00460054",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-06"
     },
     {
@@ -2005,6 +2113,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00459996",
       "_source_label": "World Bank",
+      "notice_type_normalized": "입찰공고",
       "first_seen": "2026-08-06"
     },
     {
@@ -2023,6 +2132,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00459705",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-06"
     },
     {
@@ -2041,6 +2151,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00459834",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-06"
     },
     {
@@ -2059,6 +2170,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00459501",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-06"
     },
     {
@@ -2077,6 +2189,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00459567",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-06"
     },
     {
@@ -2095,6 +2208,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00459490",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-06"
     },
     {
@@ -2113,6 +2227,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00459488",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-06"
     },
     {
@@ -2131,6 +2246,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00459674",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-06"
     },
     {
@@ -2149,6 +2265,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00459676",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-06"
     },
     {
@@ -2167,6 +2284,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00459548",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-06"
     },
     {
@@ -2185,6 +2303,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00459681",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-06"
     },
     {
@@ -2203,6 +2322,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00459492",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-06"
     },
     {
@@ -2221,6 +2341,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00455650",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-06"
     },
     {
@@ -2239,6 +2360,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00459641",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-06"
     },
     {
@@ -2257,6 +2379,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00459414",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-10"
     },
     {
@@ -2275,6 +2398,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00459066",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-06"
     },
     {
@@ -2293,6 +2417,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00459690",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-11"
     },
     {
@@ -2311,6 +2436,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00459630",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-06"
     },
     {
@@ -2329,6 +2455,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00459239",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-06"
     },
     {
@@ -2347,6 +2474,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00459033",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-06"
     },
     {
@@ -2365,6 +2493,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00459519",
       "_source_label": "World Bank",
+      "notice_type_normalized": "입찰공고",
       "first_seen": "2026-08-06"
     },
     {
@@ -2383,6 +2512,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00407011",
       "_source_label": "World Bank",
+      "notice_type_normalized": "입찰공고",
       "first_seen": "2026-08-06"
     },
     {
@@ -2401,6 +2531,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00458168",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-11"
     },
     {
@@ -2419,6 +2550,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00458246",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-06"
     },
     {
@@ -2437,6 +2569,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00459325",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-06"
     },
     {
@@ -2455,6 +2588,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00445288",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-06"
     },
     {
@@ -2473,6 +2607,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00459337",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-06"
     },
     {
@@ -2491,6 +2626,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00458785",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-06"
     },
     {
@@ -2509,6 +2645,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00459138",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-06"
     },
     {
@@ -2527,6 +2664,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00459178",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-06"
     },
     {
@@ -2545,6 +2683,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00459447",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-06"
     },
     {
@@ -2563,6 +2702,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00459015",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-06"
     },
     {
@@ -2581,6 +2721,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00459017",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-06"
     },
     {
@@ -2599,6 +2740,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00459035",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-06"
     },
     {
@@ -2617,6 +2759,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00459022",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-06"
     },
     {
@@ -2635,6 +2778,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00459032",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-06"
     },
     {
@@ -2653,6 +2797,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00458997",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-06"
     },
     {
@@ -2671,6 +2816,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00459004",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-06"
     },
     {
@@ -2689,6 +2835,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00459002",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-06"
     },
     {
@@ -2707,6 +2854,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00458703",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-06"
     },
     {
@@ -2725,6 +2873,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00457840",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-06"
     },
     {
@@ -2743,6 +2892,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00457848",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-06"
     },
     {
@@ -2761,6 +2911,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00457846",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-06"
     },
     {
@@ -2779,6 +2930,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00456899",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-06"
     },
     {
@@ -2797,6 +2949,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00459216",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-06"
     },
     {
@@ -2815,6 +2968,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00459055",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-06"
     },
     {
@@ -2833,6 +2987,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00457919",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-06"
     },
     {
@@ -2851,6 +3006,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00458975",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-06"
     },
     {
@@ -2869,6 +3025,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00457254",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-06"
     },
     {
@@ -2887,6 +3044,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00458032",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-06"
     },
     {
@@ -2905,6 +3063,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00458037",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-06"
     },
     {
@@ -2923,6 +3082,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00458753",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-06"
     },
     {
@@ -2941,6 +3101,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00458729",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-06"
     },
     {
@@ -2959,6 +3120,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00458569",
       "_source_label": "World Bank",
+      "notice_type_normalized": "입찰공고",
       "first_seen": "2026-08-06"
     },
     {
@@ -2977,6 +3139,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00457265",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-06"
     },
     {
@@ -2995,6 +3158,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00456261",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-06"
     },
     {
@@ -3013,6 +3177,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00456262",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-06"
     },
     {
@@ -3031,6 +3196,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00456258",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-06"
     },
     {
@@ -3049,6 +3215,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00456263",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-06"
     },
     {
@@ -3067,6 +3234,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00458179",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-06"
     },
     {
@@ -3085,6 +3253,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00457534",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-06"
     },
     {
@@ -3103,6 +3272,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00458381",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-06"
     },
     {
@@ -3121,6 +3291,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00458384",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-06"
     },
     {
@@ -3139,6 +3310,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00458420",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-06"
     },
     {
@@ -3157,6 +3329,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00458371",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-06"
     },
     {
@@ -3175,6 +3348,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00458375",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-06"
     },
     {
@@ -3193,6 +3367,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00457351",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-06"
     },
     {
@@ -3211,6 +3386,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00458341",
       "_source_label": "World Bank",
+      "notice_type_normalized": "입찰공고",
       "first_seen": "2026-08-06"
     },
     {
@@ -3229,6 +3405,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00458335",
       "_source_label": "World Bank",
+      "notice_type_normalized": "입찰공고",
       "first_seen": "2026-08-06"
     },
     {
@@ -3247,6 +3424,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00458345",
       "_source_label": "World Bank",
+      "notice_type_normalized": "입찰공고",
       "first_seen": "2026-08-06"
     },
     {
@@ -3265,6 +3443,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00458354",
       "_source_label": "World Bank",
+      "notice_type_normalized": "입찰공고",
       "first_seen": "2026-08-06"
     },
     {
@@ -3283,6 +3462,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00458352",
       "_source_label": "World Bank",
+      "notice_type_normalized": "입찰공고",
       "first_seen": "2026-08-06"
     },
     {
@@ -3301,6 +3481,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00458356",
       "_source_label": "World Bank",
+      "notice_type_normalized": "입찰공고",
       "first_seen": "2026-08-06"
     },
     {
@@ -3319,6 +3500,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00457998",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-06"
     },
     {
@@ -3337,6 +3519,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00458393",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-06"
     },
     {
@@ -3355,6 +3538,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00456824",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-06"
     },
     {
@@ -3373,6 +3557,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00456435",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-06"
     },
     {
@@ -3391,6 +3576,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00457364",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-10"
     },
     {
@@ -3409,6 +3595,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00457091",
       "_source_label": "World Bank",
+      "notice_type_normalized": "입찰공고",
       "first_seen": "2026-08-06"
     },
     {
@@ -3427,6 +3614,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00457279",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-06"
     },
     {
@@ -3445,6 +3633,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00448673",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-06"
     },
     {
@@ -3463,6 +3652,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00456499",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-06"
     },
     {
@@ -3481,6 +3671,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00450554",
       "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명/제안요청",
       "first_seen": "2026-08-06"
     },
     {
@@ -3499,6 +3690,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00455292",
       "_source_label": "World Bank",
+      "notice_type_normalized": "입찰공고",
       "first_seen": "2026-08-06"
     },
     {
@@ -3517,6 +3709,7 @@
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00455160",
       "_source_label": "World Bank",
+      "notice_type_normalized": "입찰공고",
       "first_seen": "2026-08-06"
     },
     {
@@ -3534,6 +3727,7 @@
       "source": "나라장터(G2B)",
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01640523&bidPbancOrd=000",
       "_source_label": "나라장터(G2B)",
+      "notice_type_normalized": "입찰공고",
       "first_seen": "2026-08-11"
     },
     {
@@ -3551,6 +3745,7 @@
       "source": "나라장터(G2B)",
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01587173&bidPbancOrd=000",
       "_source_label": "나라장터(G2B)",
+      "notice_type_normalized": "입찰공고",
       "first_seen": "2026-08-11"
     },
     {
@@ -3568,6 +3763,7 @@
       "source": "나라장터(G2B)",
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01587505&bidPbancOrd=000",
       "_source_label": "나라장터(G2B)",
+      "notice_type_normalized": "입찰공고",
       "first_seen": "2026-08-11"
     },
     {
@@ -3585,6 +3781,7 @@
       "source": "나라장터(G2B)",
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01587633&bidPbancOrd=000",
       "_source_label": "나라장터(G2B)",
+      "notice_type_normalized": "입찰공고",
       "first_seen": "2026-08-11"
     },
     {
@@ -3602,6 +3799,7 @@
       "source": "나라장터(G2B)",
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01588162&bidPbancOrd=000",
       "_source_label": "나라장터(G2B)",
+      "notice_type_normalized": "입찰공고",
       "first_seen": "2026-08-11"
     },
     {
@@ -3619,6 +3817,7 @@
       "source": "나라장터(G2B)",
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01588182&bidPbancOrd=000",
       "_source_label": "나라장터(G2B)",
+      "notice_type_normalized": "입찰공고",
       "first_seen": "2026-08-11"
     },
     {
@@ -3636,6 +3835,7 @@
       "source": "나라장터(G2B)",
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01588195&bidPbancOrd=000",
       "_source_label": "나라장터(G2B)",
+      "notice_type_normalized": "입찰공고",
       "first_seen": "2026-08-11"
     },
     {
@@ -3653,6 +3853,7 @@
       "source": "나라장터(G2B)",
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01560878&bidPbancOrd=000",
       "_source_label": "나라장터(G2B)",
+      "notice_type_normalized": "입찰공고",
       "first_seen": "2026-08-11"
     },
     {
@@ -3670,6 +3871,7 @@
       "source": "나라장터(G2B)",
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01560911&bidPbancOrd=000",
       "_source_label": "나라장터(G2B)",
+      "notice_type_normalized": "입찰공고",
       "first_seen": "2026-08-11"
     },
     {
@@ -3687,6 +3889,7 @@
       "source": "나라장터(G2B)",
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01560926&bidPbancOrd=000",
       "_source_label": "나라장터(G2B)",
+      "notice_type_normalized": "입찰공고",
       "first_seen": "2026-08-11"
     },
     {
@@ -3704,6 +3907,7 @@
       "source": "나라장터(G2B)",
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01561612&bidPbancOrd=000",
       "_source_label": "나라장터(G2B)",
+      "notice_type_normalized": "입찰공고",
       "first_seen": "2026-08-11"
     },
     {
@@ -3721,6 +3925,7 @@
       "source": "나라장터(G2B)",
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01561681&bidPbancOrd=000",
       "_source_label": "나라장터(G2B)",
+      "notice_type_normalized": "입찰공고",
       "first_seen": "2026-08-11"
     },
     {
@@ -3738,6 +3943,7 @@
       "source": "나라장터(G2B)",
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01561681&bidPbancOrd=001",
       "_source_label": "나라장터(G2B)",
+      "notice_type_normalized": "입찰공고",
       "first_seen": "2026-08-11"
     },
     {
@@ -3755,6 +3961,7 @@
       "source": "나라장터(G2B)",
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01561612&bidPbancOrd=001",
       "_source_label": "나라장터(G2B)",
+      "notice_type_normalized": "입찰공고",
       "first_seen": "2026-08-11"
     },
     {
@@ -3772,6 +3979,7 @@
       "source": "나라장터(G2B)",
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01563997&bidPbancOrd=000",
       "_source_label": "나라장터(G2B)",
+      "notice_type_normalized": "입찰공고",
       "first_seen": "2026-08-11"
     },
     {
@@ -3789,6 +3997,7 @@
       "source": "나라장터(G2B)",
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01564134&bidPbancOrd=000",
       "_source_label": "나라장터(G2B)",
+      "notice_type_normalized": "입찰공고",
       "first_seen": "2026-08-11"
     },
     {
@@ -3806,6 +4015,7 @@
       "source": "나라장터(G2B)",
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01566513&bidPbancOrd=000",
       "_source_label": "나라장터(G2B)",
+      "notice_type_normalized": "입찰공고",
       "first_seen": "2026-08-11"
     },
     {
@@ -3823,6 +4033,7 @@
       "source": "나라장터(G2B)",
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01572590&bidPbancOrd=000",
       "_source_label": "나라장터(G2B)",
+      "notice_type_normalized": "입찰공고",
       "first_seen": "2026-08-11"
     },
     {
@@ -3840,6 +4051,7 @@
       "source": "나라장터(G2B)",
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01572590&bidPbancOrd=001",
       "_source_label": "나라장터(G2B)",
+      "notice_type_normalized": "입찰공고",
       "first_seen": "2026-08-11"
     },
     {
@@ -3857,6 +4069,7 @@
       "source": "나라장터(G2B)",
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01581793&bidPbancOrd=000",
       "_source_label": "나라장터(G2B)",
+      "notice_type_normalized": "입찰공고",
       "first_seen": "2026-08-11"
     },
     {
@@ -3874,6 +4087,7 @@
       "source": "나라장터(G2B)",
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01540744&bidPbancOrd=000",
       "_source_label": "나라장터(G2B)",
+      "notice_type_normalized": "입찰공고",
       "first_seen": "2026-08-11"
     },
     {
@@ -3891,6 +4105,7 @@
       "source": "나라장터(G2B)",
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01540761&bidPbancOrd=000",
       "_source_label": "나라장터(G2B)",
+      "notice_type_normalized": "입찰공고",
       "first_seen": "2026-08-11"
     },
     {
@@ -3908,6 +4123,7 @@
       "source": "나라장터(G2B)",
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01540772&bidPbancOrd=000",
       "_source_label": "나라장터(G2B)",
+      "notice_type_normalized": "입찰공고",
       "first_seen": "2026-08-11"
     },
     {
@@ -3925,6 +4141,7 @@
       "source": "나라장터(G2B)",
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01540791&bidPbancOrd=000",
       "_source_label": "나라장터(G2B)",
+      "notice_type_normalized": "입찰공고",
       "first_seen": "2026-08-11"
     },
     {
@@ -3942,6 +4159,7 @@
       "source": "나라장터(G2B)",
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01540809&bidPbancOrd=000",
       "_source_label": "나라장터(G2B)",
+      "notice_type_normalized": "입찰공고",
       "first_seen": "2026-08-11"
     },
     {
@@ -3959,6 +4177,7 @@
       "source": "나라장터(G2B)",
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01545880&bidPbancOrd=000",
       "_source_label": "나라장터(G2B)",
+      "notice_type_normalized": "입찰공고",
       "first_seen": "2026-08-11"
     },
     {
@@ -3976,6 +4195,7 @@
       "source": "나라장터(G2B)",
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01545959&bidPbancOrd=000",
       "_source_label": "나라장터(G2B)",
+      "notice_type_normalized": "입찰공고",
       "first_seen": "2026-08-11"
     },
     {
@@ -3993,6 +4213,7 @@
       "source": "나라장터(G2B)",
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01546031&bidPbancOrd=000",
       "_source_label": "나라장터(G2B)",
+      "notice_type_normalized": "입찰공고",
       "first_seen": "2026-08-11"
     },
     {
@@ -4010,6 +4231,7 @@
       "source": "나라장터(G2B)",
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01548113&bidPbancOrd=000",
       "_source_label": "나라장터(G2B)",
+      "notice_type_normalized": "입찰공고",
       "first_seen": "2026-08-11"
     },
     {
@@ -4027,6 +4249,7 @@
       "source": "나라장터(G2B)",
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01526043&bidPbancOrd=000",
       "_source_label": "나라장터(G2B)",
+      "notice_type_normalized": "입찰공고",
       "first_seen": "2026-08-11"
     },
     {
@@ -4044,6 +4267,7 @@
       "source": "나라장터(G2B)",
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01657048&bidPbancOrd=000",
       "_source_label": "나라장터(G2B)",
+      "notice_type_normalized": "입찰공고",
       "first_seen": "2026-08-11"
     },
     {
@@ -4061,6 +4285,7 @@
       "source": "나라장터(G2B)",
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01584318&bidPbancOrd=001",
       "_source_label": "나라장터(G2B)",
+      "notice_type_normalized": "입찰공고",
       "first_seen": "2026-08-11"
     },
     {
@@ -4078,6 +4303,7 @@
       "source": "나라장터(G2B)",
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01650609&bidPbancOrd=000",
       "_source_label": "나라장터(G2B)",
+      "notice_type_normalized": "입찰공고",
       "first_seen": "2026-08-11"
     },
     {
@@ -4095,6 +4321,7 @@
       "source": "나라장터(G2B)",
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01664379&bidPbancOrd=000",
       "_source_label": "나라장터(G2B)",
+      "notice_type_normalized": "입찰공고",
       "first_seen": "2026-08-11"
     },
     {
@@ -4112,6 +4339,7 @@
       "source": "나라장터(G2B)",
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01615313&bidPbancOrd=001",
       "_source_label": "나라장터(G2B)",
+      "notice_type_normalized": "입찰공고",
       "first_seen": "2026-08-11"
     },
     {
@@ -4129,6 +4357,7 @@
       "source": "나라장터(G2B)",
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01672194&bidPbancOrd=000",
       "_source_label": "나라장터(G2B)",
+      "notice_type_normalized": "입찰공고",
       "first_seen": "2026-08-11"
     },
     {
@@ -4146,6 +4375,7 @@
       "source": "나라장터(G2B)",
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01668938&bidPbancOrd=000",
       "_source_label": "나라장터(G2B)",
+      "notice_type_normalized": "입찰공고",
       "first_seen": "2026-08-11"
     },
     {
@@ -4163,6 +4393,7 @@
       "source": "나라장터(G2B)",
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01634598&bidPbancOrd=000",
       "_source_label": "나라장터(G2B)",
+      "notice_type_normalized": "입찰공고",
       "first_seen": "2026-08-11"
     },
     {
@@ -4180,6 +4411,7 @@
       "source": "나라장터(G2B)",
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01636729&bidPbancOrd=000",
       "_source_label": "나라장터(G2B)",
+      "notice_type_normalized": "입찰공고",
       "first_seen": "2026-08-11"
     },
     {
@@ -4197,6 +4429,7 @@
       "source": "나라장터(G2B)",
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01568442&bidPbancOrd=001",
       "_source_label": "나라장터(G2B)",
+      "notice_type_normalized": "입찰공고",
       "first_seen": "2026-08-11"
     },
     {
@@ -4214,6 +4447,7 @@
       "source": "나라장터(G2B)",
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01619680&bidPbancOrd=000",
       "_source_label": "나라장터(G2B)",
+      "notice_type_normalized": "입찰공고",
       "first_seen": "2026-08-11"
     },
     {
@@ -4231,6 +4465,7 @@
       "source": "나라장터(G2B)",
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01638829&bidPbancOrd=000",
       "_source_label": "나라장터(G2B)",
+      "notice_type_normalized": "입찰공고",
       "first_seen": "2026-08-11"
     },
     {
@@ -4248,6 +4483,7 @@
       "source": "나라장터(G2B)",
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01638829&bidPbancOrd=001",
       "_source_label": "나라장터(G2B)",
+      "notice_type_normalized": "입찰공고",
       "first_seen": "2026-08-11"
     },
     {
@@ -4265,6 +4501,7 @@
       "source": "나라장터(G2B)",
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01637510&bidPbancOrd=000",
       "_source_label": "나라장터(G2B)",
+      "notice_type_normalized": "입찰공고",
       "first_seen": "2026-08-11"
     },
     {
@@ -4282,6 +4519,7 @@
       "source": "나라장터(G2B)",
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01644803&bidPbancOrd=000",
       "_source_label": "나라장터(G2B)",
+      "notice_type_normalized": "입찰공고",
       "first_seen": "2026-08-11"
     },
     {
@@ -4299,6 +4537,7 @@
       "source": "나라장터(G2B)",
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01645195&bidPbancOrd=000",
       "_source_label": "나라장터(G2B)",
+      "notice_type_normalized": "입찰공고",
       "first_seen": "2026-08-11"
     },
     {
@@ -4316,6 +4555,7 @@
       "source": "나라장터(G2B)",
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01647739&bidPbancOrd=000",
       "_source_label": "나라장터(G2B)",
+      "notice_type_normalized": "입찰공고",
       "first_seen": "2026-08-11"
     },
     {
@@ -4333,6 +4573,7 @@
       "source": "나라장터(G2B)",
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01647671&bidPbancOrd=000",
       "_source_label": "나라장터(G2B)",
+      "notice_type_normalized": "입찰공고",
       "first_seen": "2026-08-11"
     },
     {
@@ -4350,6 +4591,7 @@
       "source": "나라장터(G2B)",
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01645195&bidPbancOrd=001",
       "_source_label": "나라장터(G2B)",
+      "notice_type_normalized": "입찰공고",
       "first_seen": "2026-08-11"
     },
     {
@@ -4367,6 +4609,7 @@
       "source": "나라장터(G2B)",
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01619680&bidPbancOrd=001",
       "_source_label": "나라장터(G2B)",
+      "notice_type_normalized": "입찰공고",
       "first_seen": "2026-08-11"
     },
     {
@@ -4384,6 +4627,7 @@
       "source": "나라장터(G2B)",
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01608611&bidPbancOrd=000",
       "_source_label": "나라장터(G2B)",
+      "notice_type_normalized": "입찰공고",
       "first_seen": "2026-08-11"
     },
     {
@@ -4401,6 +4645,7 @@
       "source": "나라장터(G2B)",
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01610560&bidPbancOrd=000",
       "_source_label": "나라장터(G2B)",
+      "notice_type_normalized": "입찰공고",
       "first_seen": "2026-08-11"
     },
     {
@@ -4418,6 +4663,7 @@
       "source": "나라장터(G2B)",
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01602087&bidPbancOrd=001",
       "_source_label": "나라장터(G2B)",
+      "notice_type_normalized": "입찰공고",
       "first_seen": "2026-08-11"
     },
     {
@@ -4435,6 +4681,7 @@
       "source": "나라장터(G2B)",
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01615313&bidPbancOrd=000",
       "_source_label": "나라장터(G2B)",
+      "notice_type_normalized": "입찰공고",
       "first_seen": "2026-08-11"
     },
     {
@@ -4452,6 +4699,7 @@
       "source": "나라장터(G2B)",
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01596637&bidPbancOrd=000",
       "_source_label": "나라장터(G2B)",
+      "notice_type_normalized": "입찰공고",
       "first_seen": "2026-08-11"
     },
     {
@@ -4469,6 +4717,7 @@
       "source": "나라장터(G2B)",
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01621561&bidPbancOrd=000",
       "_source_label": "나라장터(G2B)",
+      "notice_type_normalized": "입찰공고",
       "first_seen": "2026-08-11"
     },
     {
@@ -4486,6 +4735,7 @@
       "source": "나라장터(G2B)",
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01613529&bidPbancOrd=000",
       "_source_label": "나라장터(G2B)",
+      "notice_type_normalized": "입찰공고",
       "first_seen": "2026-08-11"
     },
     {
@@ -4503,6 +4753,7 @@
       "source": "나라장터(G2B)",
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01614251&bidPbancOrd=000",
       "_source_label": "나라장터(G2B)",
+      "notice_type_normalized": "입찰공고",
       "first_seen": "2026-08-11"
     },
     {
@@ -4520,6 +4771,7 @@
       "source": "나라장터(G2B)",
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01630949&bidPbancOrd=000",
       "_source_label": "나라장터(G2B)",
+      "notice_type_normalized": "입찰공고",
       "first_seen": "2026-08-11"
     },
     {
@@ -4537,6 +4789,7 @@
       "source": "나라장터(G2B)",
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01630767&bidPbancOrd=000",
       "_source_label": "나라장터(G2B)",
+      "notice_type_normalized": "입찰공고",
       "first_seen": "2026-08-11"
     },
     {
@@ -4554,6 +4807,7 @@
       "source": "나라장터(G2B)",
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01580897&bidPbancOrd=000",
       "_source_label": "나라장터(G2B)",
+      "notice_type_normalized": "입찰공고",
       "first_seen": "2026-08-11"
     },
     {
@@ -4571,6 +4825,7 @@
       "source": "나라장터(G2B)",
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01584318&bidPbancOrd=000",
       "_source_label": "나라장터(G2B)",
+      "notice_type_normalized": "입찰공고",
       "first_seen": "2026-08-11"
     },
     {
@@ -4588,6 +4843,7 @@
       "source": "나라장터(G2B)",
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01578790&bidPbancOrd=000",
       "_source_label": "나라장터(G2B)",
+      "notice_type_normalized": "입찰공고",
       "first_seen": "2026-08-11"
     },
     {
@@ -4605,6 +4861,7 @@
       "source": "나라장터(G2B)",
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01576058&bidPbancOrd=001",
       "_source_label": "나라장터(G2B)",
+      "notice_type_normalized": "입찰공고",
       "first_seen": "2026-08-11"
     },
     {
@@ -4622,6 +4879,7 @@
       "source": "나라장터(G2B)",
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01602087&bidPbancOrd=000",
       "_source_label": "나라장터(G2B)",
+      "notice_type_normalized": "입찰공고",
       "first_seen": "2026-08-11"
     },
     {
@@ -4639,6 +4897,7 @@
       "source": "나라장터(G2B)",
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01603261&bidPbancOrd=000",
       "_source_label": "나라장터(G2B)",
+      "notice_type_normalized": "입찰공고",
       "first_seen": "2026-08-11"
     },
     {
@@ -4656,6 +4915,7 @@
       "source": "나라장터(G2B)",
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01599634&bidPbancOrd=000",
       "_source_label": "나라장터(G2B)",
+      "notice_type_normalized": "입찰공고",
       "first_seen": "2026-08-11"
     },
     {
@@ -4673,6 +4933,7 @@
       "source": "나라장터(G2B)",
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01559646&bidPbancOrd=000",
       "_source_label": "나라장터(G2B)",
+      "notice_type_normalized": "입찰공고",
       "first_seen": "2026-08-11"
     },
     {
@@ -4690,6 +4951,7 @@
       "source": "나라장터(G2B)",
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01561311&bidPbancOrd=000",
       "_source_label": "나라장터(G2B)",
+      "notice_type_normalized": "입찰공고",
       "first_seen": "2026-08-11"
     },
     {
@@ -4707,6 +4969,7 @@
       "source": "나라장터(G2B)",
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01564540&bidPbancOrd=000",
       "_source_label": "나라장터(G2B)",
+      "notice_type_normalized": "입찰공고",
       "first_seen": "2026-08-11"
     },
     {
@@ -4724,6 +4987,7 @@
       "source": "나라장터(G2B)",
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01568442&bidPbancOrd=000",
       "_source_label": "나라장터(G2B)",
+      "notice_type_normalized": "입찰공고",
       "first_seen": "2026-08-11"
     },
     {
@@ -4741,6 +5005,7 @@
       "source": "나라장터(G2B)",
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01576058&bidPbancOrd=000",
       "_source_label": "나라장터(G2B)",
+      "notice_type_normalized": "입찰공고",
       "first_seen": "2026-08-11"
     },
     {
@@ -4758,6 +5023,7 @@
       "source": "나라장터(G2B)",
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01580608&bidPbancOrd=000",
       "_source_label": "나라장터(G2B)",
+      "notice_type_normalized": "입찰공고",
       "first_seen": "2026-08-11"
     },
     {
@@ -4775,6 +5041,7 @@
       "source": "나라장터(G2B)",
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01533408&bidPbancOrd=000",
       "_source_label": "나라장터(G2B)",
+      "notice_type_normalized": "입찰공고",
       "first_seen": "2026-08-11"
     },
     {
@@ -4792,6 +5059,7 @@
       "source": "나라장터(G2B)",
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01543116&bidPbancOrd=000",
       "_source_label": "나라장터(G2B)",
+      "notice_type_normalized": "입찰공고",
       "first_seen": "2026-08-11"
     },
     {
@@ -4809,6 +5077,7 @@
       "source": "나라장터(G2B)",
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01553703&bidPbancOrd=000",
       "_source_label": "나라장터(G2B)",
+      "notice_type_normalized": "입찰공고",
       "first_seen": "2026-08-11"
     },
     {
@@ -4826,6 +5095,7 @@
       "source": "나라장터(G2B)",
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01527567&bidPbancOrd=000",
       "_source_label": "나라장터(G2B)",
+      "notice_type_normalized": "입찰공고",
       "first_seen": "2026-08-11"
     },
     {
@@ -4843,6 +5113,7 @@
       "source": "나라장터(G2B)",
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01528009&bidPbancOrd=000",
       "_source_label": "나라장터(G2B)",
+      "notice_type_normalized": "입찰공고",
       "first_seen": "2026-08-11"
     },
     {
@@ -4860,6 +5131,7 @@
       "source": "해외건설협회(ICAK)",
       "source_url": "https://www.icak.or.kr/board/bidPblancList",
       "_source_label": "해외건설협회(ICAK)",
+      "notice_type_normalized": "입찰공고",
       "first_seen": "2026-08-06"
     },
     {
@@ -4877,6 +5149,7 @@
       "source": "해외건설협회(ICAK)",
       "source_url": "https://www.icak.or.kr/board/bidPblancList",
       "_source_label": "해외건설협회(ICAK)",
+      "notice_type_normalized": "입찰공고",
       "first_seen": "2026-08-06"
     },
     {
@@ -4894,6 +5167,7 @@
       "source": "해외건설협회(ICAK)",
       "source_url": "https://www.icak.or.kr/board/bidPblancList",
       "_source_label": "해외건설협회(ICAK)",
+      "notice_type_normalized": "입찰공고",
       "first_seen": "2026-08-06"
     },
     {
@@ -4911,6 +5185,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "기타",
       "first_seen": "2026-08-10"
     },
     {
@@ -4928,6 +5203,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "기타",
       "first_seen": "2026-08-10"
     },
     {
@@ -4945,6 +5221,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "기타",
       "first_seen": "2026-08-11"
     },
     {
@@ -4962,6 +5239,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "기타",
       "first_seen": "2026-08-11"
     },
     {
@@ -4979,6 +5257,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "기타",
       "first_seen": "2026-08-11"
     },
     {
@@ -4996,6 +5275,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "기타",
       "first_seen": "2026-08-11"
     },
     {
@@ -5013,6 +5293,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "기타",
       "first_seen": "2026-08-11"
     },
     {
@@ -5030,6 +5311,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "기타",
       "first_seen": "2026-08-10"
     },
     {
@@ -5047,6 +5329,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "입찰공고",
       "first_seen": "2026-08-10"
     },
     {
@@ -5064,6 +5347,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "입찰공고",
       "first_seen": "2026-08-10"
     },
     {
@@ -5081,6 +5365,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "기타",
       "first_seen": "2026-08-10"
     },
     {
@@ -5098,6 +5383,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "기타",
       "first_seen": "2026-08-10"
     },
     {
@@ -5115,6 +5401,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "기타",
       "first_seen": "2026-08-10"
     },
     {
@@ -5132,6 +5419,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "기타",
       "first_seen": "2026-08-10"
     },
     {
@@ -5149,6 +5437,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "기타",
       "first_seen": "2026-08-10"
     },
     {
@@ -5166,6 +5455,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "기타",
       "first_seen": "2026-08-10"
     },
     {
@@ -5183,6 +5473,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "기타",
       "first_seen": "2026-08-10"
     },
     {
@@ -5200,6 +5491,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "기타",
       "first_seen": "2026-08-10"
     },
     {
@@ -5217,6 +5509,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "기타",
       "first_seen": "2026-08-10"
     },
     {
@@ -5234,6 +5527,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "기타",
       "first_seen": "2026-08-10"
     },
     {
@@ -5251,6 +5545,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "기타",
       "first_seen": "2026-08-10"
     },
     {
@@ -5268,6 +5563,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "기타",
       "first_seen": "2026-08-10"
     },
     {
@@ -5285,6 +5581,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "기타",
       "first_seen": "2026-08-10"
     },
     {
@@ -5302,6 +5599,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "기타",
       "first_seen": "2026-08-10"
     },
     {
@@ -5319,6 +5617,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "기타",
       "first_seen": "2026-08-10"
     },
     {
@@ -5336,6 +5635,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "기타",
       "first_seen": "2026-08-10"
     },
     {
@@ -5353,6 +5653,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "입찰공고",
       "first_seen": "2026-08-10"
     },
     {
@@ -5370,6 +5671,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "기타",
       "first_seen": "2026-08-10"
     },
     {
@@ -5387,6 +5689,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "기타",
       "first_seen": "2026-08-10"
     },
     {
@@ -5404,6 +5707,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "기타",
       "first_seen": "2026-08-10"
     },
     {
@@ -5421,6 +5725,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "기타",
       "first_seen": "2026-08-10"
     },
     {
@@ -5438,6 +5743,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "기타",
       "first_seen": "2026-08-10"
     },
     {
@@ -5455,6 +5761,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "입찰공고",
       "first_seen": "2026-08-10"
     },
     {
@@ -5472,6 +5779,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "기타",
       "first_seen": "2026-08-10"
     },
     {
@@ -5489,6 +5797,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "기타",
       "first_seen": "2026-08-10"
     },
     {
@@ -5506,6 +5815,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "기타",
       "first_seen": "2026-08-10"
     },
     {
@@ -5523,6 +5833,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "기타",
       "first_seen": "2026-08-10"
     },
     {
@@ -5540,6 +5851,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "기타",
       "first_seen": "2026-08-10"
     },
     {
@@ -5557,6 +5869,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "기타",
       "first_seen": "2026-08-10"
     },
     {
@@ -5574,6 +5887,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "기타",
       "first_seen": "2026-08-10"
     },
     {
@@ -5591,6 +5905,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "기타",
       "first_seen": "2026-08-10"
     },
     {
@@ -5608,6 +5923,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "기타",
       "first_seen": "2026-08-10"
     },
     {
@@ -5625,6 +5941,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "기타",
       "first_seen": "2026-08-10"
     },
     {
@@ -5642,6 +5959,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "기타",
       "first_seen": "2026-08-10"
     },
     {
@@ -5659,6 +5977,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "기타",
       "first_seen": "2026-08-10"
     },
     {
@@ -5676,6 +5995,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "기타",
       "first_seen": "2026-08-10"
     },
     {
@@ -5693,6 +6013,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "기타",
       "first_seen": "2026-08-10"
     },
     {
@@ -5710,6 +6031,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "기타",
       "first_seen": "2026-08-10"
     },
     {
@@ -5727,6 +6049,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "기타",
       "first_seen": "2026-08-10"
     },
     {
@@ -5744,6 +6067,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "기타",
       "first_seen": "2026-08-10"
     },
     {
@@ -5761,6 +6085,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "기타",
       "first_seen": "2026-08-10"
     },
     {
@@ -5778,6 +6103,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "기타",
       "first_seen": "2026-08-10"
     },
     {
@@ -5795,6 +6121,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "기타",
       "first_seen": "2026-08-10"
     },
     {
@@ -5812,6 +6139,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "기타",
       "first_seen": "2026-08-10"
     },
     {
@@ -5829,6 +6157,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "기타",
       "first_seen": "2026-08-10"
     },
     {
@@ -5846,6 +6175,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "입찰공고",
       "first_seen": "2026-08-10"
     },
     {
@@ -5863,6 +6193,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "기타",
       "first_seen": "2026-08-10"
     },
     {
@@ -5880,6 +6211,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "기타",
       "first_seen": "2026-08-10"
     },
     {
@@ -5897,6 +6229,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "기타",
       "first_seen": "2026-08-10"
     },
     {
@@ -5914,6 +6247,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "입찰공고",
       "first_seen": "2026-08-10"
     },
     {
@@ -5931,6 +6265,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "기타",
       "first_seen": "2026-08-10"
     },
     {
@@ -5948,6 +6283,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "기타",
       "first_seen": "2026-08-10"
     },
     {
@@ -5965,6 +6301,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "기타",
       "first_seen": "2026-08-10"
     },
     {
@@ -5982,6 +6319,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "기타",
       "first_seen": "2026-08-10"
     },
     {
@@ -5999,6 +6337,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "기타",
       "first_seen": "2026-08-10"
     },
     {
@@ -6016,6 +6355,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "기타",
       "first_seen": "2026-08-10"
     },
     {
@@ -6033,6 +6373,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "기타",
       "first_seen": "2026-08-10"
     },
     {
@@ -6050,6 +6391,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "기타",
       "first_seen": "2026-08-10"
     },
     {
@@ -6067,6 +6409,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "기타",
       "first_seen": "2026-08-10"
     },
     {
@@ -6084,6 +6427,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "기타",
       "first_seen": "2026-08-10"
     },
     {
@@ -6101,6 +6445,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "입찰공고",
       "first_seen": "2026-08-10"
     },
     {
@@ -6118,6 +6463,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "입찰공고",
       "first_seen": "2026-08-10"
     },
     {
@@ -6135,6 +6481,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "기타",
       "first_seen": "2026-08-10"
     },
     {
@@ -6152,6 +6499,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "기타",
       "first_seen": "2026-08-10"
     },
     {
@@ -6169,6 +6517,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "입찰공고",
       "first_seen": "2026-08-10"
     },
     {
@@ -6186,6 +6535,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "기타",
       "first_seen": "2026-08-10"
     },
     {
@@ -6203,6 +6553,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "입찰공고",
       "first_seen": "2026-08-10"
     },
     {
@@ -6220,6 +6571,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "기타",
       "first_seen": "2026-08-10"
     },
     {
@@ -6237,6 +6589,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "기타",
       "first_seen": "2026-08-10"
     },
     {
@@ -6254,6 +6607,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "기타",
       "first_seen": "2026-08-10"
     },
     {
@@ -6271,6 +6625,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "기타",
       "first_seen": "2026-08-10"
     },
     {
@@ -6288,6 +6643,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "기타",
       "first_seen": "2026-08-10"
     },
     {
@@ -6305,6 +6661,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "기타",
       "first_seen": "2026-08-10"
     },
     {
@@ -6322,6 +6679,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "입찰공고",
       "first_seen": "2026-08-10"
     },
     {
@@ -6339,6 +6697,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "기타",
       "first_seen": "2026-08-10"
     },
     {
@@ -6356,6 +6715,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "기타",
       "first_seen": "2026-08-10"
     },
     {
@@ -6373,6 +6733,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "기타",
       "first_seen": "2026-08-10"
     },
     {
@@ -6390,6 +6751,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "입찰공고",
       "first_seen": "2026-08-10"
     },
     {
@@ -6407,6 +6769,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "기타",
       "first_seen": "2026-08-10"
     },
     {
@@ -6424,6 +6787,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "기타",
       "first_seen": "2026-08-10"
     },
     {
@@ -6441,6 +6805,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "입찰공고",
       "first_seen": "2026-08-10"
     },
     {
@@ -6458,6 +6823,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "기타",
       "first_seen": "2026-08-10"
     },
     {
@@ -6475,6 +6841,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "기타",
       "first_seen": "2026-08-10"
     },
     {
@@ -6492,6 +6859,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "기타",
       "first_seen": "2026-08-10"
     },
     {
@@ -6509,6 +6877,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "기타",
       "first_seen": "2026-08-10"
     },
     {
@@ -6526,6 +6895,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "기타",
       "first_seen": "2026-08-10"
     },
     {
@@ -6543,23 +6913,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
-      "first_seen": "2026-08-10"
-    },
-    {
-      "id": "eib-685569d518d6822642009e11",
-      "notice_type": "Project procurement",
-      "notice_date": "20/06/2025",
-      "submission_date": "25/08/2025",
-      "country": "",
-      "project_id": "Consultancy - Procurement Expert ",
-      "project_name": "Cancellation Notice - Procurement Expert of the Project Implementation Unit",
-      "bid_reference_no": "Consultancy - Procurement Expert ",
-      "bid_description": "Closed",
-      "procurement_method": "",
-      "summary": "",
-      "source": "EIB",
-      "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
-      "_source_label": "EIB",
+      "notice_type_normalized": "입찰공고",
       "first_seen": "2026-08-10"
     },
     {
@@ -6577,23 +6931,25 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "입찰공고",
       "first_seen": "2026-08-10"
     },
     {
-      "id": "eib-68556c6218d6822642009e1d",
+      "id": "eib-685569d518d6822642009e11",
       "notice_type": "Project procurement",
       "notice_date": "20/06/2025",
-      "submission_date": "29/07/2025",
+      "submission_date": "25/08/2025",
       "country": "",
-      "project_id": "Consultancy - Project Manager for the PIU",
-      "project_name": "Cancellation Notice  - Project Manager of the Project Implementation Unit (PIU) for the implementation of the Moldova Forest Development Program",
-      "bid_reference_no": "Consultancy - Project Manager for the PIU",
+      "project_id": "Consultancy - Procurement Expert ",
+      "project_name": "Cancellation Notice - Procurement Expert of the Project Implementation Unit",
+      "bid_reference_no": "Consultancy - Procurement Expert ",
       "bid_description": "Closed",
       "procurement_method": "",
       "summary": "",
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "기타",
       "first_seen": "2026-08-10"
     },
     {
@@ -6611,6 +6967,25 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "기타",
+      "first_seen": "2026-08-10"
+    },
+    {
+      "id": "eib-68556c6218d6822642009e1d",
+      "notice_type": "Project procurement",
+      "notice_date": "20/06/2025",
+      "submission_date": "29/07/2025",
+      "country": "",
+      "project_id": "Consultancy - Project Manager for the PIU",
+      "project_name": "Cancellation Notice  - Project Manager of the Project Implementation Unit (PIU) for the implementation of the Moldova Forest Development Program",
+      "bid_reference_no": "Consultancy - Project Manager for the PIU",
+      "bid_description": "Closed",
+      "procurement_method": "",
+      "summary": "",
+      "source": "EIB",
+      "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
+      "_source_label": "EIB",
+      "notice_type_normalized": "기타",
       "first_seen": "2026-08-10"
     },
     {
@@ -6628,6 +7003,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "기타",
       "first_seen": "2026-08-10"
     },
     {
@@ -6645,6 +7021,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "기타",
       "first_seen": "2026-08-10"
     },
     {
@@ -6662,6 +7039,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "기타",
       "first_seen": "2026-08-10"
     },
     {
@@ -6679,6 +7057,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "기타",
       "first_seen": "2026-08-10"
     },
     {
@@ -6696,6 +7075,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "기타",
       "first_seen": "2026-08-10"
     },
     {
@@ -6713,6 +7093,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "기타",
       "first_seen": "2026-08-10"
     },
     {
@@ -6730,6 +7111,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "기타",
       "first_seen": "2026-08-10"
     },
     {
@@ -6747,6 +7129,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "기타",
       "first_seen": "2026-08-10"
     },
     {
@@ -6764,6 +7147,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "기타",
       "first_seen": "2026-08-10"
     },
     {
@@ -6781,6 +7165,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "기타",
       "first_seen": "2026-08-10"
     },
     {
@@ -6798,6 +7183,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "기타",
       "first_seen": "2026-08-10"
     },
     {
@@ -6815,6 +7201,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "기타",
       "first_seen": "2026-08-10"
     },
     {
@@ -6832,6 +7219,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "기타",
       "first_seen": "2026-08-10"
     },
     {
@@ -6849,6 +7237,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "기타",
       "first_seen": "2026-08-10"
     },
     {
@@ -6866,6 +7255,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "기타",
       "first_seen": "2026-08-10"
     },
     {
@@ -6883,6 +7273,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "입찰공고",
       "first_seen": "2026-08-10"
     },
     {
@@ -6900,6 +7291,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "기타",
       "first_seen": "2026-08-10"
     },
     {
@@ -6917,6 +7309,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "기타",
       "first_seen": "2026-08-10"
     },
     {
@@ -6934,6 +7327,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "입찰공고",
       "first_seen": "2026-08-10"
     },
     {
@@ -6951,6 +7345,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "기타",
       "first_seen": "2026-08-10"
     },
     {
@@ -6968,6 +7363,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "입찰공고",
       "first_seen": "2026-08-10"
     },
     {
@@ -6985,6 +7381,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "입찰공고",
       "first_seen": "2026-08-10"
     },
     {
@@ -7002,6 +7399,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "기타",
       "first_seen": "2026-08-10"
     },
     {
@@ -7019,6 +7417,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "기타",
       "first_seen": "2026-08-10"
     },
     {
@@ -7036,6 +7435,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "기타",
       "first_seen": "2026-08-10"
     },
     {
@@ -7053,6 +7453,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "기타",
       "first_seen": "2026-08-10"
     },
     {
@@ -7070,6 +7471,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "입찰공고",
       "first_seen": "2026-08-10"
     },
     {
@@ -7087,6 +7489,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "기타",
       "first_seen": "2026-08-10"
     },
     {
@@ -7104,6 +7507,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "입찰공고",
       "first_seen": "2026-08-10"
     },
     {
@@ -7121,6 +7525,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "기타",
       "first_seen": "2026-08-10"
     },
     {
@@ -7138,6 +7543,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "기타",
       "first_seen": "2026-08-10"
     },
     {
@@ -7155,6 +7561,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "입찰공고",
       "first_seen": "2026-08-10"
     },
     {
@@ -7172,6 +7579,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "기타",
       "first_seen": "2026-08-10"
     },
     {
@@ -7189,6 +7597,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "기타",
       "first_seen": "2026-08-10"
     },
     {
@@ -7206,6 +7615,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "기타",
       "first_seen": "2026-08-10"
     },
     {
@@ -7223,6 +7633,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "입찰공고",
       "first_seen": "2026-08-10"
     },
     {
@@ -7240,6 +7651,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "입찰공고",
       "first_seen": "2026-08-10"
     },
     {
@@ -7257,6 +7669,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "입찰공고",
       "first_seen": "2026-08-10"
     },
     {
@@ -7274,6 +7687,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "입찰공고",
       "first_seen": "2026-08-10"
     },
     {
@@ -7291,6 +7705,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "입찰공고",
       "first_seen": "2026-08-10"
     },
     {
@@ -7308,6 +7723,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "입찰공고",
       "first_seen": "2026-08-10"
     },
     {
@@ -7325,6 +7741,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "기타",
       "first_seen": "2026-08-10"
     },
     {
@@ -7342,6 +7759,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "기타",
       "first_seen": "2026-08-10"
     },
     {
@@ -7359,6 +7777,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "입찰공고",
       "first_seen": "2026-08-10"
     },
     {
@@ -7376,6 +7795,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "기타",
       "first_seen": "2026-08-10"
     },
     {
@@ -7393,6 +7813,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "기타",
       "first_seen": "2026-08-10"
     },
     {
@@ -7410,6 +7831,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "기타",
       "first_seen": "2026-08-10"
     },
     {
@@ -7427,6 +7849,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "입찰공고",
       "first_seen": "2026-08-10"
     },
     {
@@ -7444,6 +7867,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "입찰공고",
       "first_seen": "2026-08-10"
     },
     {
@@ -7461,6 +7885,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "입찰공고",
       "first_seen": "2026-08-10"
     },
     {
@@ -7478,6 +7903,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "입찰공고",
       "first_seen": "2026-08-10"
     },
     {
@@ -7495,6 +7921,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "입찰공고",
       "first_seen": "2026-08-10"
     },
     {
@@ -7512,6 +7939,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "기타",
       "first_seen": "2026-08-10"
     },
     {
@@ -7529,6 +7957,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "기타",
       "first_seen": "2026-08-10"
     },
     {
@@ -7546,6 +7975,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "입찰공고",
       "first_seen": "2026-08-10"
     },
     {
@@ -7563,6 +7993,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "기타",
       "first_seen": "2026-08-10"
     },
     {
@@ -7580,6 +8011,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "입찰공고",
       "first_seen": "2026-08-10"
     },
     {
@@ -7597,6 +8029,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "기타",
       "first_seen": "2026-08-10"
     },
     {
@@ -7614,6 +8047,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "기타",
       "first_seen": "2026-08-10"
     },
     {
@@ -7631,6 +8065,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "기타",
       "first_seen": "2026-08-10"
     },
     {
@@ -7648,6 +8083,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "기타",
       "first_seen": "2026-08-10"
     },
     {
@@ -7665,6 +8101,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "입찰공고",
       "first_seen": "2026-08-10"
     },
     {
@@ -7682,6 +8119,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "기타",
       "first_seen": "2026-08-10"
     },
     {
@@ -7699,6 +8137,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "기타",
       "first_seen": "2026-08-10"
     },
     {
@@ -7716,6 +8155,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "기타",
       "first_seen": "2026-08-10"
     },
     {
@@ -7733,6 +8173,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "입찰공고",
       "first_seen": "2026-08-10"
     },
     {
@@ -7750,6 +8191,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "기타",
       "first_seen": "2026-08-10"
     },
     {
@@ -7767,6 +8209,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "기타",
       "first_seen": "2026-08-10"
     },
     {
@@ -7784,6 +8227,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "기타",
       "first_seen": "2026-08-10"
     },
     {
@@ -7801,6 +8245,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "입찰공고",
       "first_seen": "2026-08-10"
     },
     {
@@ -7818,6 +8263,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "기타",
       "first_seen": "2026-08-10"
     },
     {
@@ -7835,6 +8281,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "입찰공고",
       "first_seen": "2026-08-10"
     },
     {
@@ -7852,6 +8299,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "기타",
       "first_seen": "2026-08-10"
     },
     {
@@ -7869,6 +8317,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "기타",
       "first_seen": "2026-08-10"
     },
     {
@@ -7886,6 +8335,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "입찰공고",
       "first_seen": "2026-08-10"
     },
     {
@@ -7903,6 +8353,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "기타",
       "first_seen": "2026-08-10"
     },
     {
@@ -7920,6 +8371,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "기타",
       "first_seen": "2026-08-10"
     },
     {
@@ -7937,6 +8389,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "입찰공고",
       "first_seen": "2026-08-10"
     },
     {
@@ -7954,6 +8407,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "입찰공고",
       "first_seen": "2026-08-10"
     },
     {
@@ -7971,6 +8425,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "기타",
       "first_seen": "2026-08-10"
     },
     {
@@ -7988,6 +8443,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "기타",
       "first_seen": "2026-08-10"
     },
     {
@@ -8005,6 +8461,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "기타",
       "first_seen": "2026-08-10"
     },
     {
@@ -8022,6 +8479,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "기타",
       "first_seen": "2026-08-10"
     },
     {
@@ -8039,6 +8497,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "기타",
       "first_seen": "2026-08-10"
     },
     {
@@ -8056,6 +8515,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "기타",
       "first_seen": "2026-08-10"
     },
     {
@@ -8073,6 +8533,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "입찰공고",
       "first_seen": "2026-08-10"
     },
     {
@@ -8090,6 +8551,7 @@
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
+      "notice_type_normalized": "기타",
       "first_seen": "2026-08-10"
     },
     {
@@ -8107,6 +8569,7 @@
       "source": "KIND",
       "source_url": "https://www.kindkorea.or.kr/pages/72?id=11421&menuMode=READ&q=",
       "_source_label": "KIND",
+      "notice_type_normalized": "사전공개",
       "first_seen": "2026-08-10"
     },
     {
@@ -8124,6 +8587,7 @@
       "source": "KIND",
       "source_url": "https://www.kindkorea.or.kr/pages/72?id=11322&menuMode=READ&q=",
       "_source_label": "KIND",
+      "notice_type_normalized": "입찰공고",
       "first_seen": "2026-08-06"
     }
   ]
