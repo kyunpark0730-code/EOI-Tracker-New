@@ -57,6 +57,9 @@ EXCLUDE_PATTERNS = [
     # 탈탄소화/기후정책, 교사교육/스마트교육 등 산업정책·교육 분야 PMC(사업관리)용역
     # (PMC 자체는 다산도 할 수 있는 역할이지만, 관리 대상 사업이 무관 분야인 경우)
     r"탈탄소화", r"decarboniz", r"교사\s*교육", r"스마트\s*교육", r"학생\s*성장",
+    # 홍보/대국민 인식제고 캠페인 컨설팅 (분야와 무관하게 캠페인/홍보 자체가 다산 업무 아님)
+    r"public awareness campaign", r"awareness campaign", r"communication campaign",
+    r"인식\s*제고\s*캠페인",
     r"tourism", r"관광", r"tourisme", r"turismo",
     r"gender action", r"양성평등", r"genre\b", r"g[êe]nero\b",
     r"agricultur(e|al) value chain", r"농업 가치사슬",
@@ -132,3 +135,36 @@ def is_relevant(*texts: str) -> bool:
     if _EXCLUDE_RE.search(combined):
         return False
     return True  # 애매하면 포함
+
+
+def has_strong_relevance_signal(*texts: str) -> bool:
+    """INCLUDE_PATTERNS(관개/도로/댐 등 핵심 인프라 키워드)에 확실히 걸리는지만
+    판단한다. 위험국 필터처럼 "애매하면 포함" 원칙을 뒤집어야 하는 경우에 쓴다."""
+    combined = " ".join(t for t in texts if t)
+    if not combined:
+        return False
+    return bool(_INCLUDE_RE.search(combined))
+
+
+# 자체적으로 출장이 어려운 위험국/분쟁국. 이 국가들은 "애매하면 포함" 원칙을
+# 적용하지 않고, 관개/도로/댐 등 핵심 인프라 키워드가 확실히 있을 때만 포함한다
+# (예: "도로 재건 사업"은 유지, "CERT 컨설팅"처럼 애매한 건 제외).
+# 국가명은 World Bank(영문) / 국내 소스(국문) 양쪽 표기를 모두 등록해야 함.
+# 남수단은 제외 대상에서 뺐음(사용자 확인) — "수단"의 부분 문자열이 아니라
+# 정확히 일치하는 국가명만 매칭하므로 "남수단"/"South Sudan"은 걸리지 않음.
+RISK_COUNTRIES_EN = {
+    "somalia", "afghanistan", "yemen", "syria", "syrian arab republic",
+    "libya", "sudan", "ukraine",
+}
+RISK_COUNTRIES_KR = {
+    "소말리아", "아프가니스탄", "예멘", "시리아", "리비아", "수단", "우크라이나",
+}
+
+
+def is_risk_country(country: str) -> bool:
+    if not country:
+        return False
+    c = country.strip()
+    if c in RISK_COUNTRIES_KR:
+        return True
+    return c.lower() in RISK_COUNTRIES_EN
