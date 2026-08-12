@@ -60,6 +60,7 @@ EXCLUDE_PATTERNS = [
     # 홍보/대국민 인식제고 캠페인 컨설팅 (분야와 무관하게 캠페인/홍보 자체가 다산 업무 아님)
     r"public awareness campaign", r"awareness campaign", r"communication campaign",
     r"인식\s*제고\s*캠페인",
+    r"event management", r"행사\s*관리\s*업체",
     r"tourism", r"관광", r"tourisme", r"turismo",
     r"gender action", r"양성평등", r"genre\b", r"g[êe]nero\b",
     r"agricultur(e|al) value chain", r"농업 가치사슬",
