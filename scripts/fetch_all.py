@@ -222,7 +222,17 @@ def main():
         # 없으면 기존처럼 project_name을 검사한다.
         return n.get("bid_description") or n.get("project_name", "")
 
-    all_notices = [n for n in all_notices if not is_individual_job_posting(_job_title_text(n))]
+    def _is_job_posting(n):
+        # World Bank는 procurement_method 필드에 언어 무관하게 항상 영어로
+        # "Individual Consultant Selection"이라고 명시해준다 (참조번호의 CS-INDV와
+        # 대응). 공고 원문이 프랑스어/포르투갈어/스페인어라 제목 정규식으로는
+        # 못 잡는 채용공고도, 이 필드로는 언어와 상관없이 확실하게 잡아낼 수 있다.
+        method = (n.get("procurement_method") or "").lower()
+        if "individual consultant" in method:
+            return True
+        return is_individual_job_posting(_job_title_text(n))
+
+    all_notices = [n for n in all_notices if not _is_job_posting(n)]
     job_filtered_out = before_job_filter - len(all_notices)
     print(f"채용(개인 직책) 공고로 제외됨: {job_filtered_out}건")
 
