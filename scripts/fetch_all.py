@@ -28,6 +28,28 @@ from sources._sector_filter import (  # noqa: E402
     is_relevant, is_individual_job_posting, is_risk_country, has_strong_relevance_signal,
 )
 
+# 소스마다(영어/프랑스어/한국어) 제각각인 notice_type 원문을 5개 통합 카테고리로
+# 정리한다. 사전 매칭 대신 키워드 패턴으로 판단해서, 새 소스가 추가되거나
+# 예상 못 한 값이 들어와도(예: "입찰공고 26-027호"처럼 번호가 붙은 값) 자동으로
+# 적절한 카테고리에 묶이게 한다.
+_NOTICE_TYPE_RULES = [
+    ("낙찰결과", ["award", "낙찰", "계약체결", "attribution"]),
+    ("관심표명/제안요청", ["expression of interest", "proposal", "관심표명", "제안요청", "manifestation"]),
+    ("사전공개", ["general procurement", "사전규격", "사전공개", "prior information", "avis general"]),
+    ("입찰공고", ["bid", "tender", "prequalification", "입찰", "appel d'offres", "appel doffres"]),
+]
+
+
+def normalize_notice_type(raw: str) -> str:
+    if not raw:
+        return "기타"
+    low = raw.lower()
+    for category, keywords in _NOTICE_TYPE_RULES:
+        if any(kw in low for kw in keywords):
+            return category
+    return "기타"
+
+
 SOURCES = [
     ("World Bank", worldbank),
     ("한국건설엔지니어링협회", ekacem),
@@ -194,6 +216,7 @@ def main():
     new_today_count = 0
     for n in all_notices:
         n.pop("_sort_date", None)
+        n["notice_type_normalized"] = normalize_notice_type(n.get("notice_type", ""))
         nid = n.get("id")
         first_seen = previous_first_seen.get(nid) or today_kst
         n["first_seen"] = first_seen
