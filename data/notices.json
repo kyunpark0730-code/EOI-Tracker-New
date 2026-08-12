@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-08-12T05:19:44.207363+00:00",
+  "generated_at": "2026-08-12T05:40:29.910430+00:00",
   "today_kst": "2026-08-12",
   "sources": [
     "World Bank 622건",
     "한국건설엔지니어링협회 0건",
     "ADB 0건",
-    "나라장터(G2B) 88건",
+    "나라장터(G2B) 78건",
     "해외건설협회(ICAK) 3건",
     "EIB 200건",
     "KIND 4건",
@@ -18,15 +18,15 @@
     },
     "한국건설엔지니어링협회": {
       "last_success": "알 수 없음",
-      "consecutive_failures": 24
+      "consecutive_failures": 25
     },
     "ADB": {
       "last_success": "알 수 없음",
-      "consecutive_failures": 24
+      "consecutive_failures": 25
     },
     "나라장터(G2B)": {
       "last_success": "2026-08-12",
-      "consecutive_failures": 0
+      "consecutive_failures": 1
     },
     "해외건설협회(ICAK)": {
       "last_success": "2026-08-12",
@@ -45,27 +45,9 @@
       "consecutive_failures": 0
     }
   },
-  "count": 463,
+  "count": 462,
   "new_today_count": 17,
   "notices": [
-    {
-      "id": "aiib-https://www.aiib.org/en/projects/details/2026/_download/Azerbaijan/PP-for-P000969-Baku-Metro-Expansion-Project-Phase-I.xlsx",
-      "notice_type": "Procurement Notice",
-      "notice_date": "Aug 11, 2026",
-      "submission_date": "",
-      "country": "Azerbaijan",
-      "project_id": "",
-      "project_name": "Baku Metro Expansion Project – Phase I",
-      "bid_reference_no": "",
-      "bid_description": "",
-      "procurement_method": "",
-      "summary": "",
-      "source": "AIIB",
-      "source_url": "https://www.aiib.org/en/projects/details/2026/_download/Azerbaijan/PP-for-P000969-Baku-Metro-Expansion-Project-Phase-I.xlsx",
-      "_source_label": "AIIB",
-      "notice_type_normalized": "기타",
-      "first_seen": "2026-08-11"
-    },
     {
       "id": "wb-OP00461709",
       "notice_type": "Request for Expression of Interest",
