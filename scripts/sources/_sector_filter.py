@@ -164,9 +164,16 @@ RISK_COUNTRIES_KR = {
 
 
 def is_risk_country(country: str) -> bool:
+    """World Bank API는 국가명을 "Somalia, Federal Republic of"처럼 풀네임으로
+    줄 때가 많아서 정확히 일치(exact match)하면 놓친다. 그래서 포함(contains)
+    방식으로 판단하되, "South Sudan"/"남수단"이 "Sudan"/"수단"의 부분 문자열이라
+    잘못 걸리지 않도록 먼저 명시적으로 예외 처리한다."""
     if not country:
         return False
     c = country.strip()
-    if c in RISK_COUNTRIES_KR:
+    cl = c.lower()
+    if "south sudan" in cl or "남수단" in c:
+        return False
+    if any(name in c for name in RISK_COUNTRIES_KR):
         return True
-    return c.lower() in RISK_COUNTRIES_EN
+    return any(name in cl for name in RISK_COUNTRIES_EN)
