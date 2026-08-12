@@ -1,0 +1,42 @@
+name: G2B Retry (나라장터 전용 재시도)
+
+on:
+  schedule:
+    # UTC 기준 0,4,8,12,16,20시 = KST 기준 9,13,17,21,1,5시 (4시간 간격, 하루 6번)
+    - cron: "0 */4 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  retry-g2b:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install requests beautifulsoup4
+
+      - name: Retry G2B fetch
+        env:
+          G2B_API_KEY: ${{ secrets.G2B_API_KEY }}
+        run: python scripts/fetch_g2b_cache.py
+
+      - name: Commit cache if changed
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          if ! git diff --quiet -- data/g2b_cache.json; then
+            git add data/g2b_cache.json
+            git commit -m "chore: update G2B cache (retry workflow)"
+            git push
+          else
+            echo "No changes to commit."
+          fi
