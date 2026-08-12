@@ -1,48 +1,42 @@
 name: Daily EOI Notice Fetch
-
 on:
   schedule:
     # 매일 UTC 21:00 = 한국시간(KST) 익일 06:00
     - cron: "0 21 * * *"
   workflow_dispatch: {}   # 수동 실행 버튼도 사용 가능
-
 permissions:
   contents: write
   pages: write
   id-token: write
-
 concurrency:
   group: "pages"
   cancel-in-progress: false
-
 jobs:
   fetch-and-update:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-
       - name: Install dependencies
         run: pip install -r requirements.txt
-
       - name: Fetch notices
         env:
           G2B_API_KEY: ${{ secrets.G2B_API_KEY }}
         run: python scripts/fetch_all.py
-
       - name: Commit updated data
         run: |
           git config user.name "eoi-tracker-bot"
           git config user.email "actions@users.noreply.github.com"
           git add data/notices.json
           git diff --quiet && git diff --staged --quiet || git commit -m "chore: update notices $(date -u +'%Y-%m-%d %H:%M UTC')"
+          # G2B Retry 워크플로가 그 사이 먼저 푸시했을 수 있으니, 푸시 전에
+          # 원격의 최신 변경사항을 먼저 받아와서 합친다 (충돌로 인한 push 실패 방지).
+          git pull --rebase origin main
           git push
-
   deploy-pages:
     needs: fetch-and-update
     runs-on: ubuntu-latest
@@ -54,15 +48,12 @@ jobs:
         uses: actions/checkout@v4
         with:
           ref: main
-
       - name: Setup Pages
         uses: actions/configure-pages@v5
-
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: "."
-
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
