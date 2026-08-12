@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-08-12T00:25:11.127337+00:00",
+  "generated_at": "2026-08-12T00:46:13.197427+00:00",
   "today_kst": "2026-08-12",
   "sources": [
     "World Bank 622건",
     "한국건설엔지니어링협회 0건",
     "ADB 0건",
-    "나라장터(G2B) 88건",
+    "나라장터(G2B) 78건",
     "해외건설협회(ICAK) 3건",
     "EIB 200건",
     "KIND 4건",
@@ -18,15 +18,15 @@
     },
     "한국건설엔지니어링협회": {
       "last_success": "알 수 없음",
-      "consecutive_failures": 12
+      "consecutive_failures": 13
     },
     "ADB": {
       "last_success": "알 수 없음",
-      "consecutive_failures": 12
+      "consecutive_failures": 13
     },
     "나라장터(G2B)": {
       "last_success": "2026-08-12",
-      "consecutive_failures": 0
+      "consecutive_failures": 1
     },
     "해외건설협회(ICAK)": {
       "last_success": "2026-08-12",
@@ -45,8 +45,8 @@
       "consecutive_failures": 0
     }
   },
-  "count": 564,
-  "new_today_count": 24,
+  "count": 563,
+  "new_today_count": 23,
   "notices": [
     {
       "id": "aiib-https://www.aiib.org/en/projects/details/2026/_download/Azerbaijan/PP-for-P000969-Baku-Metro-Expansion-Project-Phase-I.xlsx",
@@ -296,24 +296,6 @@
       "summary": "THE UNITED REPUBLIC OF TANZANIA PRIME MINISTER&rsquo;S OFFICE REGIONAL ADMINISTRATION AND LOCAL GOVERNMENT DAR ES SALAAM METROPOLITAN DEVELOPMENT PROJECT - PHASE 2 (DMDP 2) IDA CREDIT NO. 7478-TZ TENDER NO. 56/2026/2027/C/10 FOR PROVISION OF CONSULTANCY SERVICES FOR PREPARATION OF ENVIRONMENTAL AND SOCIAL IMPACT ASSESSMENTS AND RESETTLEMENT ACTION PLANS FOR AREA-BASED INVESTMENTS IN DAR ES SALAAM CITY, KINONDONI, UBUNGO, TEMEKE AND KIGAMBONI MUNICIPALITIES, AND PRIORITY DRAINAGE INTERVENTIONS IN",
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00461729",
-      "_source_label": "World Bank",
-      "first_seen": "2026-08-12"
-    },
-    {
-      "id": "wb-OP00461554",
-      "notice_type": "Request for Expression of Interest",
-      "notice_date": "10-Aug-2026",
-      "submission_date": "2026-08-31T00:00:00Z",
-      "country": "Tajikistan",
-      "project_id": "P506611",
-      "project_name": "Tajikistan Digital Foundations Project",
-      "bid_reference_no": "TDFP-CS-CQS-2",
-      "bid_description": "Consultancy Service for conducting Public Awareness Campaigns",
-      "procurement_method": "Consultant Qualification  Selection",
-      "procurement_group": "CS",
-      "summary": "REQUEST FOR EXPRESSIONS OF INTEREST (CONSULTING SERVICES &ndash; FIRMS SELECTION) REPUBLIC OF TAJIKISTAN TAJIKISTAN DIGITAL FOUNDATIONS PROJECT Loan No./Credit No./ Grant No.: TF-C6744 Assignment Title: Consultancy Service for conducting Public Awareness Campaigns Reference No . (as per Procurement Plan): TDFP-CS-CQS-2 The Republic of Tajikistan has received financing from the World Bank toward the cost of the &quot;Tajikistan Digital Foundations Project&quot; and intends to apply part of the pr",
-      "source": "World Bank",
-      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00461554",
       "_source_label": "World Bank",
       "first_seen": "2026-08-12"
     },
