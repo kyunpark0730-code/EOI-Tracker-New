@@ -194,11 +194,13 @@ def main():
     # 용역(Consulting Services) 등을 명확히 구분해서 준다. 다산은 컨설팅 용역만
     # 참여하므로, 다른 소스에는 없는 이 필드가 "GO"(물품 조달)나 "CW"(공사, 시공사가
     # 입찰하는 건)인 경우는 텍스트 키워드 판단 없이 확실하게 제외한다.
-    EXCLUDED_PROCUREMENT_GROUPS = {"GO", "CW"}
+    # NC = Non-Consulting Services(비컨설팅 용역: 행사관리, 경비, 청소 등) —
+    # 다산은 컨설팅 용역(CS)만 하므로 GO/CW와 마찬가지로 통째로 제외한다.
+    EXCLUDED_PROCUREMENT_GROUPS = {"GO", "CW", "NC"}
     before_goods_filter = len(all_notices)
     all_notices = [n for n in all_notices if n.get("procurement_group") not in EXCLUDED_PROCUREMENT_GROUPS]
     goods_filtered_out = before_goods_filter - len(all_notices)
-    print(f"물품/공사(Goods/Civil Works)로 제외됨: {goods_filtered_out}건")
+    print(f"물품/공사/비컨설팅용역(Goods/CW/NC)으로 제외됨: {goods_filtered_out}건")
 
     # 낙찰결과(Contract Award)는 이미 끝난 결과 통보라 지원 기회가 아니므로 통째로 제외한다.
     before_award_filter = len(all_notices)
