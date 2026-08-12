@@ -15,6 +15,8 @@
     --primary-soft:#eff4ff;
     --eoi:#d97706;
     --eoi-soft:#fef3e2;
+    --rfp:#7c3aed;
+    --rfp-soft:#f3ecfe;
     --sans: "Pretendard","Noto Sans KR",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
   }
   *{box-sizing:border-box;}
@@ -160,6 +162,7 @@
     line-height:1.4;
   }
   .tag.eoi{background:var(--eoi-soft); color:var(--eoi);}
+  .tag.rfp{background:var(--rfp-soft); color:var(--rfp);}
   .country{font-size:12.5px; color:var(--ink-soft); padding-top:2px;}
   .empty-state{
     text-align:center; padding:60px 20px; color:var(--ink-soft);
@@ -333,7 +336,8 @@ function renderGrid(items, currentMode){
     </div>`;
 
   const rows = items.map((n) => {
-    const isEoi = n.notice_type_normalized === '관심표명/제안요청';
+    const isEoi = n.notice_type_normalized === '관심표명(EOI)';
+    const isRfp = n.notice_type_normalized === '제안요청(RFP)';
     const typeLabel = n.notice_type_normalized || '기타';
 
     const chips = [];
@@ -350,7 +354,7 @@ function renderGrid(items, currentMode){
     return `
     <div class="row-card">
       <div class="col-source">${escapeHtml(n.source || '-')}</div>
-      <div><span class="tag ${isEoi ? 'eoi' : ''}" title="${escapeAttr(n.notice_type || '')}">${escapeHtml(typeLabel)}</span></div>
+      <div><span class="tag ${isEoi ? 'eoi' : (isRfp ? 'rfp' : '')}" title="${escapeAttr(n.notice_type || '')}">${escapeHtml(typeLabel)}</span></div>
       <div class="country">${escapeHtml(n.country || '-')}</div>
       <div class="col-title-block">
         <a class="title-link" href="${n.source_url}" target="_blank" rel="noopener">${escapeHtml(n.project_name || '(프로젝트명 없음)')}</a>
