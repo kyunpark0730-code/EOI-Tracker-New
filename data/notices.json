@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-12T07:10:25.136681+00:00",
+  "generated_at": "2026-08-12T07:35:55.013869+00:00",
   "today_kst": "2026-08-12",
   "sources": [
     "World Bank 622건",
@@ -22,7 +22,7 @@
     },
     "ADB": {
       "last_success": "알 수 없음",
-      "consecutive_failures": 29
+      "consecutive_failures": 30
     },
     "나라장터(G2B)": {
       "last_success": "2026-08-12",
