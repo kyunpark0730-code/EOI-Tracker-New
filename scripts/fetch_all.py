@@ -33,11 +33,22 @@ from sources._sector_filter import (  # noqa: E402
 # 예상 못 한 값이 들어와도(예: "입찰공고 26-027호"처럼 번호가 붙은 값) 자동으로
 # 적절한 카테고리에 묶이게 한다.
 _NOTICE_TYPE_RULES = [
-    ("낙찰결과", ["award", "낙찰", "계약체결", "attribution"]),
-    ("관심표명/제안요청", ["expression of interest", "proposal", "관심표명", "제안요청", "manifestation"]),
+    ("관심표명(EOI)", ["expression of interest", "관심표명", "manifestation d'int", "manifestation d’int"]),
+    ("제안요청(RFP)", ["request for proposal", "제안요청", "demande de proposition"]),
     ("사전공개", ["general procurement", "사전규격", "사전공개", "prior information", "avis general"]),
     ("입찰공고", ["bid", "tender", "prequalification", "입찰", "appel d'offres", "appel doffres"]),
 ]
+
+# 낙찰결과(Contract Award)는 이미 끝난 결과 통보라 지원 기회가 아니므로,
+# 카테고리로 분류하지 않고 아예 수집 단계에서 제외한다 (아래 _is_contract_award 참고).
+_CONTRACT_AWARD_KEYWORDS = ["award", "낙찰", "계약체결", "attribution"]
+
+
+def _is_contract_award(raw: str) -> bool:
+    if not raw:
+        return False
+    low = raw.lower()
+    return any(kw in low for kw in _CONTRACT_AWARD_KEYWORDS)
 
 
 def normalize_notice_type(raw: str) -> str:
@@ -180,6 +191,12 @@ def main():
     goods_filtered_out = before_goods_filter - len(all_notices)
     print(f"물품/공사(Goods/Civil Works)로 제외됨: {goods_filtered_out}건")
 
+    # 낙찰결과(Contract Award)는 이미 끝난 결과 통보라 지원 기회가 아니므로 통째로 제외한다.
+    before_award_filter = len(all_notices)
+    all_notices = [n for n in all_notices if not _is_contract_award(n.get("notice_type", ""))]
+    award_filtered_out = before_award_filter - len(all_notices)
+    print(f"낙찰결과(Contract Award)로 제외됨: {award_filtered_out}건")
+
     before_job_filter = len(all_notices)
 
     def _job_title_text(n):
@@ -197,7 +214,7 @@ def main():
         if is_relevant(n.get("project_name", ""), n.get("bid_description", ""),
                         n.get("notice_type", ""), n.get("summary", ""))
     ]
-    filtered_out = before_filter - len(all_notices) - job_filtered_out - goods_filtered_out
+    filtered_out = before_filter - len(all_notices) - job_filtered_out - goods_filtered_out - award_filtered_out
     print(f"분야 필터로 제외됨: {filtered_out}건 (관개/도로/수자원 등과 무관)")
 
     # 위험국/분쟁국(소말리아, 아프가니스탄 등 - 실제 출장이 어려운 국가)은
