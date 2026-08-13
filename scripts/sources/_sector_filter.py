@@ -201,7 +201,7 @@ def has_strong_relevance_signal(*texts: str) -> bool:
 # 정확히 일치하는 국가명만 매칭하므로 "남수단"/"South Sudan"은 걸리지 않음.
 RISK_COUNTRIES_EN = {
     "somalia", "afghanistan", "yemen", "syria", "syrian arab republic",
-    "libya", "sudan", "ukraine", "Lebanon", "Lebanese",
+    "libya", "sudan", "ukraine", "lebanon", "lebanese",
 }
 RISK_COUNTRIES_KR = {
     "소말리아", "아프가니스탄", "예멘", "시리아", "리비아", "수단", "우크라이나", "레바논"
