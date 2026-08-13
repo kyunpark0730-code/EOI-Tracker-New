@@ -24,6 +24,13 @@ HARD_EXCLUDE_PATTERNS = [
     # 소프트웨어 개발자/IT 인력 파견(아웃소싱), 인일(jours-homme) 단위 IT 상주지원.
     # 프로젝트명이 뭐든(디지털화/전자정부 등) 업무 자체가 개발 인력 파견이면 무조건 제외.
     r"d[ée]veloppeur", r"software developer", r"ux/ui", r"devops",
+    # 산림복원/바이오경제/기후스마트농업 프로그램의 PMO/PMC 등 사업관리 용역
+    # (PMO/PMC 역할 자체는 다산도 하지만, 관리대상 사업이 산림·생물다양성 분야면 무관)
+    r"bioeconomy", r"forest restoration", r"climate-smart agriculture",
+    r"reflorestamento", r"agroforest",
+    # 법률/사법 분야 교육·역량강화 (판사·행정관 연수, 파산법 등 법조인 대상 훈련)
+    r"insolvency", r"judges? and administrators", r"judicial training",
+    r"commercial law", r"legal training program",
     r"jours-homme", r"person-days? of it", r"it staffing",
     r"탈탄소화", r"decarboniz",
 ]
