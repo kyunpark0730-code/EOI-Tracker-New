@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-08-13T06:59:00.637584+00:00",
+  "generated_at": "2026-08-13T07:22:13.507622+00:00",
   "today_kst": "2026-08-13",
   "sources": [
-    "World Bank 620건",
+    "World Bank 618건",
     "한국건설엔지니어링협회 1건",
     "ADB 0건",
-    "나라장터(G2B) 49건",
+    "나라장터(G2B) 89건",
     "해외건설협회(ICAK) 3건",
     "EIB 200건",
     "KIND 4건",
@@ -22,11 +22,11 @@
     },
     "ADB": {
       "last_success": "알 수 없음",
-      "consecutive_failures": 50
+      "consecutive_failures": 51
     },
     "나라장터(G2B)": {
       "last_success": "2026-08-13",
-      "consecutive_failures": 4
+      "consecutive_failures": 0
     },
     "해외건설협회(ICAK)": {
       "last_success": "2026-08-13",
@@ -45,8 +45,8 @@
       "consecutive_failures": 0
     }
   },
-  "count": 339,
-  "new_today_count": 11,
+  "count": 367,
+  "new_today_count": 39,
   "notices": [
     {
       "id": "wb-OP00461888",
@@ -2185,15 +2185,575 @@
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
-      "first_seen": "2026-08-11",
-      "traffic_survey_signal": false
+      "traffic_survey_signal": false,
+      "first_seen": "2026-08-11"
+    },
+    {
+      "id": "g2b-R26BK01560878-000",
+      "notice_type": "용역 입찰공고",
+      "notice_date": "2026-06-04 16:52:20",
+      "submission_date": "2026-06-15 10:00:00",
+      "country": "Indonesia",
+      "project_id": "R26BK01560878",
+      "project_name": "인도네시아 북칼리만탄주 Kayan1 수력발전 사업 예비 타당성조사",
+      "bid_reference_no": "R26BK01560878",
+      "bid_description": "한국해외인프라도시개발지원공사",
+      "procurement_method": "일반경쟁",
+      "summary": "",
+      "source": "나라장터(G2B)",
+      "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01560878&bidPbancOrd=000",
+      "_source_label": "나라장터(G2B)",
+      "notice_type_normalized": "입찰공고",
+      "consortium_signal": false,
+      "traffic_survey_signal": false,
+      "first_seen": "2026-08-13"
+    },
+    {
+      "id": "g2b-R26BK01560911-000",
+      "notice_type": "용역 입찰공고",
+      "notice_date": "2026-06-04 16:52:51",
+      "submission_date": "2026-06-15 10:00:00",
+      "country": "Peru",
+      "project_id": "R26BK01560911",
+      "project_name": "페루 친체로 신공항 및 제3공항그룹 PPP 사업 예비 타당성조사",
+      "bid_reference_no": "R26BK01560911",
+      "bid_description": "한국해외인프라도시개발지원공사",
+      "procurement_method": "일반경쟁",
+      "summary": "",
+      "source": "나라장터(G2B)",
+      "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01560911&bidPbancOrd=000",
+      "_source_label": "나라장터(G2B)",
+      "notice_type_normalized": "입찰공고",
+      "consortium_signal": false,
+      "traffic_survey_signal": false,
+      "first_seen": "2026-08-13"
+    },
+    {
+      "id": "g2b-R26BK01560926-000",
+      "notice_type": "용역 입찰공고",
+      "notice_date": "2026-06-04 16:53:31",
+      "submission_date": "2026-06-15 10:00:00",
+      "country": "Kuwait",
+      "project_id": "R26BK01560926",
+      "project_name": "쿠웨이트 압둘라 신도시 시범주택단지 제안서 작성",
+      "bid_reference_no": "R26BK01560926",
+      "bid_description": "한국해외인프라도시개발지원공사",
+      "procurement_method": "일반경쟁",
+      "summary": "",
+      "source": "나라장터(G2B)",
+      "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01560926&bidPbancOrd=000",
+      "_source_label": "나라장터(G2B)",
+      "notice_type_normalized": "입찰공고",
+      "consortium_signal": false,
+      "traffic_survey_signal": false,
+      "first_seen": "2026-08-13"
+    },
+    {
+      "id": "g2b-R26BK01561612-000",
+      "notice_type": "용역 입찰공고",
+      "notice_date": "2026-06-04 19:37:18",
+      "submission_date": "2026-06-22 10:00:00",
+      "country": "",
+      "project_id": "R26BK01561612",
+      "project_name": "2026년 국토교통 국제개발협력사업(ODA) 자체평가 용역",
+      "bid_reference_no": "R26BK01561612",
+      "bid_description": "해외건설협회",
+      "procurement_method": "일반경쟁",
+      "summary": "",
+      "source": "나라장터(G2B)",
+      "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01561612&bidPbancOrd=000",
+      "_source_label": "나라장터(G2B)",
+      "notice_type_normalized": "입찰공고",
+      "consortium_signal": false,
+      "traffic_survey_signal": false,
+      "first_seen": "2026-08-13"
+    },
+    {
+      "id": "g2b-R26BK01561681-000",
+      "notice_type": "용역 입찰공고",
+      "notice_date": "2026-06-04 19:51:33",
+      "submission_date": "2026-06-22 10:00:00",
+      "country": "",
+      "project_id": "R26BK01561681",
+      "project_name": "2028년 국토교통 ODA 정책사업 형성 지원 용역(사전타당성조사 포함)",
+      "bid_reference_no": "R26BK01561681",
+      "bid_description": "해외건설협회",
+      "procurement_method": "일반경쟁",
+      "summary": "",
+      "source": "나라장터(G2B)",
+      "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01561681&bidPbancOrd=000",
+      "_source_label": "나라장터(G2B)",
+      "notice_type_normalized": "입찰공고",
+      "consortium_signal": false,
+      "traffic_survey_signal": false,
+      "first_seen": "2026-08-13"
+    },
+    {
+      "id": "g2b-R26BK01561681-001",
+      "notice_type": "용역 입찰공고",
+      "notice_date": "2026-06-05 17:08:50",
+      "submission_date": "2026-06-22 10:00:00",
+      "country": "",
+      "project_id": "R26BK01561681",
+      "project_name": "2028년 국토교통 ODA 정책사업 형성 지원 용역(사전타당성조사 포함)",
+      "bid_reference_no": "R26BK01561681",
+      "bid_description": "해외건설협회",
+      "procurement_method": "일반경쟁",
+      "summary": "",
+      "source": "나라장터(G2B)",
+      "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01561681&bidPbancOrd=001",
+      "_source_label": "나라장터(G2B)",
+      "notice_type_normalized": "입찰공고",
+      "consortium_signal": false,
+      "traffic_survey_signal": false,
+      "first_seen": "2026-08-13"
+    },
+    {
+      "id": "g2b-R26BK01561612-001",
+      "notice_type": "용역 입찰공고",
+      "notice_date": "2026-06-05 17:11:40",
+      "submission_date": "2026-06-22 10:00:00",
+      "country": "",
+      "project_id": "R26BK01561612",
+      "project_name": "2026년 국토교통 국제개발협력사업(ODA) 자체평가 용역",
+      "bid_reference_no": "R26BK01561612",
+      "bid_description": "해외건설협회",
+      "procurement_method": "일반경쟁",
+      "summary": "",
+      "source": "나라장터(G2B)",
+      "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01561612&bidPbancOrd=001",
+      "_source_label": "나라장터(G2B)",
+      "notice_type_normalized": "입찰공고",
+      "consortium_signal": false,
+      "traffic_survey_signal": false,
+      "first_seen": "2026-08-13"
+    },
+    {
+      "id": "g2b-R26BK01563997-000",
+      "notice_type": "용역 입찰공고",
+      "notice_date": "2026-06-05 17:54:49",
+      "submission_date": "2026-06-22 10:00:00",
+      "country": "",
+      "project_id": "R26BK01563997",
+      "project_name": "2026년 국토교통 국제개발협력사업(ODA) 자체평가 용역",
+      "bid_reference_no": "R26BK01563997",
+      "bid_description": "해외건설협회",
+      "procurement_method": "일반경쟁",
+      "summary": "",
+      "source": "나라장터(G2B)",
+      "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01563997&bidPbancOrd=000",
+      "_source_label": "나라장터(G2B)",
+      "notice_type_normalized": "입찰공고",
+      "consortium_signal": false,
+      "traffic_survey_signal": false,
+      "first_seen": "2026-08-13"
+    },
+    {
+      "id": "g2b-R26BK01564134-000",
+      "notice_type": "용역 입찰공고",
+      "notice_date": "2026-06-05 18:12:48",
+      "submission_date": "2026-06-22 10:00:00",
+      "country": "",
+      "project_id": "R26BK01564134",
+      "project_name": "2028년 국토교통 ODA 정책사업 형성 지원 용역(사전타당성조사 포함)",
+      "bid_reference_no": "R26BK01564134",
+      "bid_description": "해외건설협회",
+      "procurement_method": "일반경쟁",
+      "summary": "",
+      "source": "나라장터(G2B)",
+      "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01564134&bidPbancOrd=000",
+      "_source_label": "나라장터(G2B)",
+      "notice_type_normalized": "입찰공고",
+      "consortium_signal": false,
+      "traffic_survey_signal": false,
+      "first_seen": "2026-08-13"
+    },
+    {
+      "id": "g2b-R26BK01566513-000",
+      "notice_type": "용역 입찰공고",
+      "notice_date": "2026-06-09 14:53:22",
+      "submission_date": "2026-06-30 10:00:00",
+      "country": "",
+      "project_id": "R26BK01566513",
+      "project_name": "2026학년도 김해외국어고등학교 2학년 국외 현장체험학습 위탁용역 입찰 공고[2단계 입찰(규격·가격동시)]",
+      "bid_reference_no": "R26BK01566513",
+      "bid_description": "경상남도교육청 김해외국어고등학교",
+      "procurement_method": "제한경쟁",
+      "summary": "",
+      "source": "나라장터(G2B)",
+      "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01566513&bidPbancOrd=000",
+      "_source_label": "나라장터(G2B)",
+      "notice_type_normalized": "입찰공고",
+      "consortium_signal": false,
+      "traffic_survey_signal": false,
+      "first_seen": "2026-08-13"
+    },
+    {
+      "id": "g2b-R26BK01572590-000",
+      "notice_type": "용역 입찰공고",
+      "notice_date": "2026-06-10 15:26:41",
+      "submission_date": "2026-07-01 10:00:00",
+      "country": "",
+      "project_id": "R26BK01572590",
+      "project_name": "2026학년도 김해외국어고등학교 1학년 국외 현장체험학습 위탁용역 입찰 공고[2단계 입찰(규격·가격 동시)]",
+      "bid_reference_no": "R26BK01572590",
+      "bid_description": "경상남도교육청 김해외국어고등학교",
+      "procurement_method": "일반경쟁",
+      "summary": "",
+      "source": "나라장터(G2B)",
+      "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01572590&bidPbancOrd=000",
+      "_source_label": "나라장터(G2B)",
+      "notice_type_normalized": "입찰공고",
+      "consortium_signal": false,
+      "traffic_survey_signal": false,
+      "first_seen": "2026-08-13"
+    },
+    {
+      "id": "g2b-R26BK01572590-001",
+      "notice_type": "용역 입찰공고",
+      "notice_date": "2026-06-10 15:42:46",
+      "submission_date": "2026-07-01 10:00:00",
+      "country": "",
+      "project_id": "R26BK01572590",
+      "project_name": "(긴급)2026학년도 김해외국어고등학교 1학년 국외 현장체험학습 위탁용역 입찰 공고[2단계 입찰(규격·가격 동시)]",
+      "bid_reference_no": "R26BK01572590",
+      "bid_description": "경상남도교육청 김해외국어고등학교",
+      "procurement_method": "일반경쟁",
+      "summary": "",
+      "source": "나라장터(G2B)",
+      "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01572590&bidPbancOrd=001",
+      "_source_label": "나라장터(G2B)",
+      "notice_type_normalized": "입찰공고",
+      "consortium_signal": false,
+      "traffic_survey_signal": false,
+      "first_seen": "2026-08-13"
+    },
+    {
+      "id": "g2b-R26BK01581793-000",
+      "notice_type": "용역 입찰공고",
+      "notice_date": "2026-06-15 17:06:22",
+      "submission_date": "2026-06-26 10:00:00",
+      "country": "",
+      "project_id": "R26BK01581793",
+      "project_name": "미국 텍사스 오블리가토 200MW/400MWh BESS 건설 본 타당성조사",
+      "bid_reference_no": "R26BK01581793",
+      "bid_description": "한국해외인프라도시개발지원공사",
+      "procurement_method": "일반경쟁",
+      "summary": "",
+      "source": "나라장터(G2B)",
+      "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01581793&bidPbancOrd=000",
+      "_source_label": "나라장터(G2B)",
+      "notice_type_normalized": "입찰공고",
+      "consortium_signal": false,
+      "traffic_survey_signal": false,
+      "first_seen": "2026-08-13"
+    },
+    {
+      "id": "g2b-R26BK01587173-000",
+      "notice_type": "용역 입찰공고",
+      "notice_date": "2026-06-17 15:42:25",
+      "submission_date": "2026-06-18 17:55:00",
+      "country": "Philippines",
+      "project_id": "R26BK01587173",
+      "project_name": "필리핀 국가 해상교량의 스마트 통합유지관리 기술 및 재난대응 역량강화 사업",
+      "bid_reference_no": "R26BK01587173",
+      "bid_description": "해외건설협회",
+      "procurement_method": "수의계약",
+      "summary": "",
+      "source": "나라장터(G2B)",
+      "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01587173&bidPbancOrd=000",
+      "_source_label": "나라장터(G2B)",
+      "notice_type_normalized": "입찰공고",
+      "consortium_signal": false,
+      "traffic_survey_signal": false,
+      "first_seen": "2026-08-13"
+    },
+    {
+      "id": "g2b-R26BK01587505-000",
+      "notice_type": "용역 입찰공고",
+      "notice_date": "2026-06-17 16:16:00",
+      "submission_date": "2026-06-18 17:55:00",
+      "country": "Colombia",
+      "project_id": "R26BK01587505",
+      "project_name": "콜롬비아 메데진시 모빌리티 안전성·이동성 향상 전략 수립 및 한국형 스마트 솔루션 시범구축 사업",
+      "bid_reference_no": "R26BK01587505",
+      "bid_description": "해외건설협회",
+      "procurement_method": "수의계약",
+      "summary": "",
+      "source": "나라장터(G2B)",
+      "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01587505&bidPbancOrd=000",
+      "_source_label": "나라장터(G2B)",
+      "notice_type_normalized": "입찰공고",
+      "consortium_signal": false,
+      "traffic_survey_signal": false,
+      "first_seen": "2026-08-13"
+    },
+    {
+      "id": "g2b-R26BK01587633-000",
+      "notice_type": "용역 입찰공고",
+      "notice_date": "2026-06-17 18:16:11",
+      "submission_date": "2026-06-18 17:55:00",
+      "country": "Bangladesh",
+      "project_id": "R26BK01587633",
+      "project_name": "방글라데시 토지가격 정보시스템 개발 및 역량강화 사업",
+      "bid_reference_no": "R26BK01587633",
+      "bid_description": "해외건설협회",
+      "procurement_method": "수의계약",
+      "summary": "",
+      "source": "나라장터(G2B)",
+      "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01587633&bidPbancOrd=000",
+      "_source_label": "나라장터(G2B)",
+      "notice_type_normalized": "입찰공고",
+      "consortium_signal": false,
+      "traffic_survey_signal": false,
+      "first_seen": "2026-08-13"
+    },
+    {
+      "id": "g2b-R26BK01588162-000",
+      "notice_type": "용역 입찰공고",
+      "notice_date": "2026-06-17 18:35:46",
+      "submission_date": "2026-06-18 17:55:00",
+      "country": "Laos",
+      "project_id": "R26BK01588162",
+      "project_name": "지속가능한 라오스 도로 이동성 및 안전성 향상을 위한 비포장도로 개선 실증 고도화 사업",
+      "bid_reference_no": "R26BK01588162",
+      "bid_description": "해외건설협회",
+      "procurement_method": "수의계약",
+      "summary": "",
+      "source": "나라장터(G2B)",
+      "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01588162&bidPbancOrd=000",
+      "_source_label": "나라장터(G2B)",
+      "notice_type_normalized": "입찰공고",
+      "consortium_signal": false,
+      "traffic_survey_signal": false,
+      "first_seen": "2026-08-13"
+    },
+    {
+      "id": "g2b-R26BK01588182-000",
+      "notice_type": "용역 입찰공고",
+      "notice_date": "2026-06-17 18:49:14",
+      "submission_date": "2026-06-18 17:55:00",
+      "country": "Ghana",
+      "project_id": "R26BK01588182",
+      "project_name": "가나 고속도로 마스터플랜 수립 및 고속도로 개발 역량 강화 사업",
+      "bid_reference_no": "R26BK01588182",
+      "bid_description": "해외건설협회",
+      "procurement_method": "수의계약",
+      "summary": "",
+      "source": "나라장터(G2B)",
+      "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01588182&bidPbancOrd=000",
+      "_source_label": "나라장터(G2B)",
+      "notice_type_normalized": "입찰공고",
+      "consortium_signal": false,
+      "traffic_survey_signal": false,
+      "first_seen": "2026-08-13"
+    },
+    {
+      "id": "g2b-R26BK01540744-000",
+      "notice_type": "용역 입찰공고",
+      "notice_date": "2026-05-22 17:33:01",
+      "submission_date": "2026-06-02 10:00:00",
+      "country": "Indonesia",
+      "project_id": "R26BK01540744",
+      "project_name": "인도네시아 북칼리만탄주 Kayan1 수력발전 사업 예비 타당성조사",
+      "bid_reference_no": "R26BK01540744",
+      "bid_description": "한국해외인프라도시개발지원공사",
+      "procurement_method": "일반경쟁",
+      "summary": "",
+      "source": "나라장터(G2B)",
+      "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01540744&bidPbancOrd=000",
+      "_source_label": "나라장터(G2B)",
+      "notice_type_normalized": "입찰공고",
+      "consortium_signal": false,
+      "traffic_survey_signal": false,
+      "first_seen": "2026-08-13"
+    },
+    {
+      "id": "g2b-R26BK01540761-000",
+      "notice_type": "용역 입찰공고",
+      "notice_date": "2026-05-22 17:37:19",
+      "submission_date": "2026-06-02 10:00:00",
+      "country": "Uzbekistan",
+      "project_id": "R26BK01540761",
+      "project_name": "우즈베키스탄 타슈켄트 바이오 클러스터 개발 및 운영사업 본 타당성조사",
+      "bid_reference_no": "R26BK01540761",
+      "bid_description": "한국해외인프라도시개발지원공사",
+      "procurement_method": "일반경쟁",
+      "summary": "",
+      "source": "나라장터(G2B)",
+      "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01540761&bidPbancOrd=000",
+      "_source_label": "나라장터(G2B)",
+      "notice_type_normalized": "입찰공고",
+      "consortium_signal": false,
+      "traffic_survey_signal": false,
+      "first_seen": "2026-08-13"
+    },
+    {
+      "id": "g2b-R26BK01540772-000",
+      "notice_type": "용역 입찰공고",
+      "notice_date": "2026-05-22 17:43:24",
+      "submission_date": "2026-06-02 14:00:00",
+      "country": "Peru",
+      "project_id": "R26BK01540772",
+      "project_name": "페루 친체로 신공항 및 제3공항그룹 PPP 사업 예비 타당성조사",
+      "bid_reference_no": "R26BK01540772",
+      "bid_description": "한국해외인프라도시개발지원공사",
+      "procurement_method": "일반경쟁",
+      "summary": "",
+      "source": "나라장터(G2B)",
+      "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01540772&bidPbancOrd=000",
+      "_source_label": "나라장터(G2B)",
+      "notice_type_normalized": "입찰공고",
+      "consortium_signal": false,
+      "traffic_survey_signal": false,
+      "first_seen": "2026-08-13"
+    },
+    {
+      "id": "g2b-R26BK01540791-000",
+      "notice_type": "용역 입찰공고",
+      "notice_date": "2026-05-22 17:51:05",
+      "submission_date": "",
+      "country": "",
+      "project_id": "R26BK01540791",
+      "project_name": "G2G 협력 국가군 건설시장 진출환경 심층조사",
+      "bid_reference_no": "R26BK01540791",
+      "bid_description": "해외건설협회",
+      "procurement_method": "일반경쟁",
+      "summary": "",
+      "source": "나라장터(G2B)",
+      "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01540791&bidPbancOrd=000",
+      "_source_label": "나라장터(G2B)",
+      "notice_type_normalized": "입찰공고",
+      "consortium_signal": false,
+      "traffic_survey_signal": false,
+      "first_seen": "2026-08-13"
+    },
+    {
+      "id": "g2b-R26BK01540809-000",
+      "notice_type": "용역 입찰공고",
+      "notice_date": "2026-05-22 17:53:31",
+      "submission_date": "2026-06-02 14:00:00",
+      "country": "Kuwait",
+      "project_id": "R26BK01540809",
+      "project_name": "쿠웨이트 압둘라 신도시 시범주택단지 제안서 작성",
+      "bid_reference_no": "R26BK01540809",
+      "bid_description": "한국해외인프라도시개발지원공사",
+      "procurement_method": "일반경쟁",
+      "summary": "",
+      "source": "나라장터(G2B)",
+      "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01540809&bidPbancOrd=000",
+      "_source_label": "나라장터(G2B)",
+      "notice_type_normalized": "입찰공고",
+      "consortium_signal": false,
+      "traffic_survey_signal": false,
+      "first_seen": "2026-08-13"
+    },
+    {
+      "id": "g2b-R26BK01545880-000",
+      "notice_type": "용역 입찰공고",
+      "notice_date": "2026-05-27 14:43:53",
+      "submission_date": "2026-06-08 10:00:00",
+      "country": "Uzbekistan",
+      "project_id": "R26BK01545880",
+      "project_name": "우즈베키스탄 타슈켄트 복합물류센터 건설·운영 사업 본 타당성조사",
+      "bid_reference_no": "R26BK01545880",
+      "bid_description": "한국해외인프라도시개발지원공사",
+      "procurement_method": "일반경쟁",
+      "summary": "",
+      "source": "나라장터(G2B)",
+      "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01545880&bidPbancOrd=000",
+      "_source_label": "나라장터(G2B)",
+      "notice_type_normalized": "입찰공고",
+      "consortium_signal": false,
+      "traffic_survey_signal": false,
+      "first_seen": "2026-08-13"
+    },
+    {
+      "id": "g2b-R26BK01545959-000",
+      "notice_type": "용역 입찰공고",
+      "notice_date": "2026-05-27 14:44:25",
+      "submission_date": "2026-06-08 10:00:00",
+      "country": "Vietnam",
+      "project_id": "R26BK01545959",
+      "project_name": "베트남 동나이 임대형 공장 플랫폼 개발 예비 타당성조사",
+      "bid_reference_no": "R26BK01545959",
+      "bid_description": "한국해외인프라도시개발지원공사",
+      "procurement_method": "일반경쟁",
+      "summary": "",
+      "source": "나라장터(G2B)",
+      "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01545959&bidPbancOrd=000",
+      "_source_label": "나라장터(G2B)",
+      "notice_type_normalized": "입찰공고",
+      "consortium_signal": false,
+      "traffic_survey_signal": false,
+      "first_seen": "2026-08-13"
+    },
+    {
+      "id": "g2b-R26BK01546031-000",
+      "notice_type": "용역 입찰공고",
+      "notice_date": "2026-05-27 14:45:52",
+      "submission_date": "2026-06-08 10:00:00",
+      "country": "Vietnam",
+      "project_id": "R26BK01546031",
+      "project_name": "베트남 빈투언 그린암모니아 생산시설 구축사업 예비 타당성조사",
+      "bid_reference_no": "R26BK01546031",
+      "bid_description": "한국해외인프라도시개발지원공사",
+      "procurement_method": "일반경쟁",
+      "summary": "",
+      "source": "나라장터(G2B)",
+      "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01546031&bidPbancOrd=000",
+      "_source_label": "나라장터(G2B)",
+      "notice_type_normalized": "입찰공고",
+      "consortium_signal": false,
+      "traffic_survey_signal": false,
+      "first_seen": "2026-08-13"
+    },
+    {
+      "id": "g2b-R26BK01548113-000",
+      "notice_type": "용역 입찰공고",
+      "notice_date": "2026-05-28 10:51:48",
+      "submission_date": "2026-05-28 14:30:00",
+      "country": "",
+      "project_id": "R26BK01548113",
+      "project_name": "2026년 해외건설통합정보서비스 시스템 유지관리",
+      "bid_reference_no": "R26BK01548113",
+      "bid_description": "해외건설협회",
+      "procurement_method": "수의계약",
+      "summary": "",
+      "source": "나라장터(G2B)",
+      "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01548113&bidPbancOrd=000",
+      "_source_label": "나라장터(G2B)",
+      "notice_type_normalized": "입찰공고",
+      "consortium_signal": false,
+      "traffic_survey_signal": false,
+      "first_seen": "2026-08-13"
+    },
+    {
+      "id": "g2b-R26BK01526043-000",
+      "notice_type": "용역 입찰공고",
+      "notice_date": "2026-05-15 15:19:51",
+      "submission_date": "2026-05-21 11:00:00",
+      "country": "",
+      "project_id": "R26BK01526043",
+      "project_name": "2026년 해외건설통합정보서비스 시스템 유지관리",
+      "bid_reference_no": "R26BK01526043",
+      "bid_description": "해외건설협회",
+      "procurement_method": "제한경쟁",
+      "summary": "",
+      "source": "나라장터(G2B)",
+      "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01526043&bidPbancOrd=000",
+      "_source_label": "나라장터(G2B)",
+      "notice_type_normalized": "입찰공고",
+      "consortium_signal": false,
+      "traffic_survey_signal": false,
+      "first_seen": "2026-08-13"
     },
     {
       "id": "g2b-R26BK01657048-000",
       "notice_type": "용역 입찰공고",
       "notice_date": "2026-07-30 13:27:56",
       "submission_date": "2026-09-09 11:00:00",
-      "country": "우즈베키스탄",
+      "country": "Uzbekistan",
       "project_id": "R26BK01657048",
       "project_name": "우즈베키스탄 페르가나 직업훈련원 건립사업 사후지원 사업 PMC 용역",
       "bid_reference_no": "R26BK01657048",
@@ -2205,15 +2765,15 @@
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
-      "first_seen": "2026-08-11",
-      "traffic_survey_signal": false
+      "traffic_survey_signal": false,
+      "first_seen": "2026-08-11"
     },
     {
       "id": "g2b-R26BK01584318-001",
       "notice_type": "용역 입찰공고",
       "notice_date": "2026-07-30 17:39:13",
       "submission_date": "2026-08-05 10:00:00",
-      "country": "코트디부아르",
+      "country": "Côte d'Ivoire",
       "project_id": "R26BK01584318",
       "project_name": "코트디부아르 산페드로 지역사회 응급산과신생아케어(EmONC) 역량강화사업 PMC 용역",
       "bid_reference_no": "R26BK01584318",
@@ -2225,8 +2785,8 @@
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
-      "first_seen": "2026-08-11",
-      "traffic_survey_signal": false
+      "traffic_survey_signal": false,
+      "first_seen": "2026-08-11"
     },
     {
       "id": "g2b-R26BK01650609-000",
@@ -2245,15 +2805,15 @@
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
-      "first_seen": "2026-08-11",
-      "traffic_survey_signal": false
+      "traffic_survey_signal": false,
+      "first_seen": "2026-08-11"
     },
     {
       "id": "g2b-R26BK01664379-000",
       "notice_type": "용역 입찰공고",
       "notice_date": "2026-08-05 15:58:46",
       "submission_date": "2026-09-15 10:00:00",
-      "country": "도미니카공화국",
+      "country": "Dominican Republic",
       "project_id": "R26BK01664379",
       "project_name": "도미니카공화국 카리브해 해조류(모자반) 재해 대응 및 관리 역량강화 사업 PMC 용역",
       "bid_reference_no": "R26BK01664379",
@@ -2265,8 +2825,8 @@
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
-      "first_seen": "2026-08-11",
-      "traffic_survey_signal": false
+      "traffic_survey_signal": false,
+      "first_seen": "2026-08-11"
     },
     {
       "id": "g2b-R26BK01615313-001",
@@ -2285,8 +2845,8 @@
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
-      "first_seen": "2026-08-11",
-      "traffic_survey_signal": false
+      "traffic_survey_signal": false,
+      "first_seen": "2026-08-11"
     },
     {
       "id": "g2b-R26BK01672194-000",
@@ -2305,8 +2865,8 @@
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
-      "first_seen": "2026-08-11",
-      "traffic_survey_signal": false
+      "traffic_survey_signal": false,
+      "first_seen": "2026-08-11"
     },
     {
       "id": "g2b-R26BK01668938-000",
@@ -2325,8 +2885,8 @@
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
-      "first_seen": "2026-08-11",
-      "traffic_survey_signal": false
+      "traffic_survey_signal": false,
+      "first_seen": "2026-08-11"
     },
     {
       "id": "g2b-R26BK01636729-000",
@@ -2345,15 +2905,15 @@
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
-      "first_seen": "2026-08-11",
-      "traffic_survey_signal": false
+      "traffic_survey_signal": false,
+      "first_seen": "2026-08-11"
     },
     {
       "id": "g2b-R26BK01568442-001",
       "notice_type": "용역 입찰공고",
       "notice_date": "2026-07-16 17:30:55",
       "submission_date": "2026-07-24 10:00:00",
-      "country": "도미니카공화국",
+      "country": "Dominican Republic",
       "project_id": "R26BK01568442",
       "project_name": "도미니카공화국 카리브해 해조류(모자반) 대해 대응 및 관리 역량강화 사업 PMC 용역",
       "bid_reference_no": "R26BK01568442",
@@ -2365,15 +2925,15 @@
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
-      "first_seen": "2026-08-11",
-      "traffic_survey_signal": false
+      "traffic_survey_signal": false,
+      "first_seen": "2026-08-11"
     },
     {
       "id": "g2b-R26BK01619680-000",
       "notice_type": "용역 입찰공고",
       "notice_date": "2026-07-20 18:06:07",
       "submission_date": "2026-08-11 18:00:00",
-      "country": "요르단",
+      "country": "Jordan",
       "project_id": "R26BK01619680",
       "project_name": "(긴급) 요르단 발카대학교 카락 및 이르비드 전문대 시장기반 직업기술교육 역량강화 사업 국내 초청연수 위탁 용역",
       "bid_reference_no": "R26BK01619680",
@@ -2385,8 +2945,8 @@
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
-      "first_seen": "2026-08-11",
-      "traffic_survey_signal": false
+      "traffic_survey_signal": false,
+      "first_seen": "2026-08-11"
     },
     {
       "id": "g2b-R26BK01638829-000",
@@ -2405,8 +2965,8 @@
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
-      "first_seen": "2026-08-11",
-      "traffic_survey_signal": false
+      "traffic_survey_signal": false,
+      "first_seen": "2026-08-11"
     },
     {
       "id": "g2b-R26BK01638829-001",
@@ -2425,8 +2985,8 @@
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
-      "first_seen": "2026-08-11",
-      "traffic_survey_signal": false
+      "traffic_survey_signal": false,
+      "first_seen": "2026-08-11"
     },
     {
       "id": "g2b-R26BK01637510-000",
@@ -2445,15 +3005,15 @@
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
-      "first_seen": "2026-08-11",
-      "traffic_survey_signal": false
+      "traffic_survey_signal": false,
+      "first_seen": "2026-08-11"
     },
     {
       "id": "g2b-R26BK01644803-000",
       "notice_type": "용역 입찰공고",
       "notice_date": "2026-07-23 13:53:14",
       "submission_date": "2026-09-02 11:00:00",
-      "country": "라오스",
+      "country": "Laos",
       "project_id": "R26BK01644803",
       "project_name": "라오스 지식재산서비스센터 구축 및 지재권관리 시스템 개선사업 PMC 용역",
       "bid_reference_no": "R26BK01644803",
@@ -2465,8 +3025,8 @@
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
-      "first_seen": "2026-08-11",
-      "traffic_survey_signal": false
+      "traffic_survey_signal": false,
+      "first_seen": "2026-08-11"
     },
     {
       "id": "g2b-R26BK01645195-000",
@@ -2485,8 +3045,8 @@
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
-      "first_seen": "2026-08-11",
-      "traffic_survey_signal": false
+      "traffic_survey_signal": false,
+      "first_seen": "2026-08-11"
     },
     {
       "id": "g2b-R26BK01647739-000",
@@ -2505,8 +3065,8 @@
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
-      "first_seen": "2026-08-11",
-      "traffic_survey_signal": false
+      "traffic_survey_signal": false,
+      "first_seen": "2026-08-11"
     },
     {
       "id": "g2b-R26BK01647671-000",
@@ -2525,8 +3085,8 @@
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
-      "first_seen": "2026-08-11",
-      "traffic_survey_signal": false
+      "traffic_survey_signal": false,
+      "first_seen": "2026-08-11"
     },
     {
       "id": "g2b-R26BK01645195-001",
@@ -2545,15 +3105,15 @@
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
-      "first_seen": "2026-08-11",
-      "traffic_survey_signal": false
+      "traffic_survey_signal": false,
+      "first_seen": "2026-08-11"
     },
     {
       "id": "g2b-R26BK01619680-001",
       "notice_type": "용역 입찰공고",
       "notice_date": "2026-07-28 10:41:04",
       "submission_date": "2026-08-19 11:00:00",
-      "country": "요르단",
+      "country": "Jordan",
       "project_id": "R26BK01619680",
       "project_name": "(긴급) 요르단 발카대학교 카락 및 이르비드 전문대 시장기반 직업기술교육 역량강화 사업 국내 초청연수 위탁 용역",
       "bid_reference_no": "R26BK01619680",
@@ -2565,8 +3125,8 @@
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
-      "first_seen": "2026-08-11",
-      "traffic_survey_signal": false
+      "traffic_survey_signal": false,
+      "first_seen": "2026-08-11"
     },
     {
       "id": "g2b-R26BK01610560-000",
@@ -2585,8 +3145,8 @@
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
-      "first_seen": "2026-08-11",
-      "traffic_survey_signal": false
+      "traffic_survey_signal": false,
+      "first_seen": "2026-08-11"
     },
     {
       "id": "g2b-R26BK01602087-001",
@@ -2605,8 +3165,8 @@
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
-      "first_seen": "2026-08-11",
-      "traffic_survey_signal": false
+      "traffic_survey_signal": false,
+      "first_seen": "2026-08-11"
     },
     {
       "id": "g2b-R26BK01615313-000",
@@ -2625,8 +3185,8 @@
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
-      "first_seen": "2026-08-11",
-      "traffic_survey_signal": false
+      "traffic_survey_signal": false,
+      "first_seen": "2026-08-11"
     },
     {
       "id": "g2b-R26BK01596637-000",
@@ -2645,15 +3205,15 @@
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
-      "first_seen": "2026-08-11",
-      "traffic_survey_signal": false
+      "traffic_survey_signal": false,
+      "first_seen": "2026-08-11"
     },
     {
       "id": "g2b-R26BK01621561-000",
       "notice_type": "용역 입찰공고",
       "notice_date": "2026-07-08 18:15:23",
       "submission_date": "2026-07-29 15:00:00",
-      "country": "인도",
+      "country": "India",
       "project_id": "R26BK01621561",
       "project_name": "2026-2028 KOICA 인도적 지원 사업 회계정산 검토 용역",
       "bid_reference_no": "R26BK01621561",
@@ -2665,15 +3225,15 @@
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
-      "first_seen": "2026-08-11",
-      "traffic_survey_signal": false
+      "traffic_survey_signal": false,
+      "first_seen": "2026-08-11"
     },
     {
       "id": "g2b-R26BK01613529-000",
       "notice_type": "용역 입찰공고",
       "notice_date": "2026-07-10 16:36:32",
       "submission_date": "2026-08-20 11:00:00",
-      "country": "라오스",
+      "country": "Laos",
       "project_id": "R26BK01613529",
       "project_name": "라오스 공무원 디지털 역량강화를 위한 국립 D-HRD센터 설립사업 PMC 용역",
       "bid_reference_no": "R26BK01613529",
@@ -2685,8 +3245,8 @@
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
-      "first_seen": "2026-08-11",
-      "traffic_survey_signal": false
+      "traffic_survey_signal": false,
+      "first_seen": "2026-08-11"
     },
     {
       "id": "g2b-R26BK01614251-000",
@@ -2705,15 +3265,15 @@
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
-      "first_seen": "2026-08-11",
-      "traffic_survey_signal": false
+      "traffic_survey_signal": false,
+      "first_seen": "2026-08-11"
     },
     {
       "id": "g2b-R26BK01630949-000",
       "notice_type": "용역 입찰공고",
       "notice_date": "2026-07-14 21:52:38",
       "submission_date": "2026-08-27 14:00:00",
-      "country": "우즈베키스탄",
+      "country": "Uzbekistan",
       "project_id": "R26BK01630949",
       "project_name": "우즈베키스탄 소외지역 청소년 IT 교육환경 구축 및 취창업 역량강화 사업 PMC 용역",
       "bid_reference_no": "R26BK01630949",
@@ -2725,15 +3285,15 @@
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
-      "first_seen": "2026-08-11",
-      "traffic_survey_signal": false
+      "traffic_survey_signal": false,
+      "first_seen": "2026-08-11"
     },
     {
       "id": "g2b-R26BK01630767-000",
       "notice_type": "용역 입찰공고",
       "notice_date": "2026-07-14 21:53:10",
       "submission_date": "2026-08-25 14:00:00",
-      "country": "우즈베키스탄",
+      "country": "Uzbekistan",
       "project_id": "R26BK01630767",
       "project_name": "우즈베키스탄 지식재산권 공공행정 정보시스템 개선 사업 감리 용역",
       "bid_reference_no": "R26BK01630767",
@@ -2745,15 +3305,15 @@
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
-      "first_seen": "2026-08-11",
-      "traffic_survey_signal": false
+      "traffic_survey_signal": false,
+      "first_seen": "2026-08-11"
     },
     {
       "id": "g2b-R26BK01634598-000",
       "notice_type": "용역 입찰공고",
       "notice_date": "2026-07-15 17:55:16",
       "submission_date": "2026-08-26 10:00:00",
-      "country": "파키스탄",
+      "country": "Pakistan",
       "project_id": "R26BK01634598",
       "project_name": "파키스탄 PCRWR 연구 인프라 개선 및 통합수자원관리 역량강화 사업 PMC 용역",
       "bid_reference_no": "R26BK01634598",
@@ -2765,15 +3325,15 @@
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
-      "first_seen": "2026-08-11",
-      "traffic_survey_signal": false
+      "traffic_survey_signal": false,
+      "first_seen": "2026-08-11"
     },
     {
       "id": "g2b-R26BK01578790-000",
       "notice_type": "용역 입찰공고",
       "notice_date": "2026-06-22 17:59:03",
       "submission_date": "2026-08-19 14:00:00",
-      "country": "인도네시아",
+      "country": "Indonesia",
       "project_id": "R26BK01578790",
       "project_name": "인도네시아 모성 및 신생아 건강향상을 위한 조산사 전문교육체계 및 정책기반 강화사업(UNFPA) 심층 성과관리 용역",
       "bid_reference_no": "R26BK01578790",
@@ -2785,15 +3345,15 @@
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
-      "first_seen": "2026-08-11",
-      "traffic_survey_signal": false
+      "traffic_survey_signal": false,
+      "first_seen": "2026-08-11"
     },
     {
       "id": "g2b-R26BK01576058-001",
       "notice_type": "용역 입찰공고",
       "notice_date": "2026-06-23 17:11:32",
       "submission_date": "2026-07-29 14:00:00",
-      "country": "인도네시아",
+      "country": "Indonesia",
       "project_id": "R26BK01576058",
       "project_name": "인도네시아 파푸아 지역 모성 및 신생아 건강 개선사업(UNICEF) 심층 성과관리 용역",
       "bid_reference_no": "R26BK01576058",
@@ -2805,8 +3365,8 @@
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
-      "first_seen": "2026-08-11",
-      "traffic_survey_signal": false
+      "traffic_survey_signal": false,
+      "first_seen": "2026-08-11"
     },
     {
       "id": "g2b-R26BK01602087-000",
@@ -2825,8 +3385,8 @@
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
-      "first_seen": "2026-08-11",
-      "traffic_survey_signal": false
+      "traffic_survey_signal": false,
+      "first_seen": "2026-08-11"
     },
     {
       "id": "g2b-R26BK01603261-000",
@@ -2845,15 +3405,15 @@
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
-      "first_seen": "2026-08-11",
-      "traffic_survey_signal": false
+      "traffic_survey_signal": false,
+      "first_seen": "2026-08-11"
     },
     {
       "id": "g2b-R26BK01599634-000",
       "notice_type": "용역 입찰공고",
       "notice_date": "2026-06-26 13:20:06",
       "submission_date": "2026-07-22 10:00:00",
-      "country": "라오스",
+      "country": "Laos",
       "project_id": "R26BK01599634",
       "project_name": "(긴급/국제) 라오스 재활서비스 접근성 향상 및 역량강화 사업(2025-2029/880만불) PMC 용역",
       "bid_reference_no": "R26BK01599634",
@@ -2865,15 +3425,15 @@
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
-      "first_seen": "2026-08-11",
-      "traffic_survey_signal": false
+      "traffic_survey_signal": false,
+      "first_seen": "2026-08-11"
     },
     {
       "id": "g2b-R26BK01608611-000",
       "notice_type": "용역 입찰공고",
       "notice_date": "2026-07-01 13:37:58",
       "submission_date": "2026-08-12 14:00:00",
-      "country": "르완다",
+      "country": "Rwanda",
       "project_id": "R26BK01608611",
       "project_name": "르완다 전국 청소년 사회경제적 자립 역량강화 지원사업 PMC 용역",
       "bid_reference_no": "R26BK01608611",
@@ -2885,8 +3445,8 @@
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
-      "first_seen": "2026-08-11",
-      "traffic_survey_signal": false
+      "traffic_survey_signal": false,
+      "first_seen": "2026-08-11"
     },
     {
       "id": "g2b-R26BK01559646-000",
@@ -2905,8 +3465,8 @@
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
-      "first_seen": "2026-08-11",
-      "traffic_survey_signal": false
+      "traffic_survey_signal": false,
+      "first_seen": "2026-08-11"
     },
     {
       "id": "g2b-R26BK01561311-000",
@@ -2925,8 +3485,8 @@
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
-      "first_seen": "2026-08-11",
-      "traffic_survey_signal": false
+      "traffic_survey_signal": false,
+      "first_seen": "2026-08-11"
     },
     {
       "id": "g2b-R26BK01564540-000",
@@ -2945,15 +3505,15 @@
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
-      "first_seen": "2026-08-11",
-      "traffic_survey_signal": false
+      "traffic_survey_signal": false,
+      "first_seen": "2026-08-11"
     },
     {
       "id": "g2b-R26BK01568442-000",
       "notice_type": "용역 입찰공고",
       "notice_date": "2026-06-11 16:10:59",
       "submission_date": "2026-07-24 10:00:00",
-      "country": "도미니카공화국",
+      "country": "Dominican Republic",
       "project_id": "R26BK01568442",
       "project_name": "도미니카공화국 카리브해 해조류(모자반) 대해 대응 및 관리 역량강화 사업 PMC 용역",
       "bid_reference_no": "R26BK01568442",
@@ -2965,15 +3525,15 @@
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
-      "first_seen": "2026-08-11",
-      "traffic_survey_signal": false
+      "traffic_survey_signal": false,
+      "first_seen": "2026-08-11"
     },
     {
       "id": "g2b-R26BK01576058-000",
       "notice_type": "용역 입찰공고",
       "notice_date": "2026-06-12 17:50:43",
       "submission_date": "2026-07-24 14:00:00",
-      "country": "인도네시아",
+      "country": "Indonesia",
       "project_id": "R26BK01576058",
       "project_name": "인도네시아 파푸아 지역 모성 및 신생아 건강 개선사업(UNICEF) 심층 성과관리 용역",
       "bid_reference_no": "R26BK01576058",
@@ -2985,8 +3545,8 @@
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
-      "first_seen": "2026-08-11",
-      "traffic_survey_signal": false
+      "traffic_survey_signal": false,
+      "first_seen": "2026-08-11"
     },
     {
       "id": "g2b-R26BK01580608-000",
@@ -3005,15 +3565,15 @@
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
-      "first_seen": "2026-08-11",
-      "traffic_survey_signal": false
+      "traffic_survey_signal": false,
+      "first_seen": "2026-08-11"
     },
     {
       "id": "g2b-R26BK01580897-000",
       "notice_type": "용역 입찰공고",
       "notice_date": "2026-06-17 13:10:26",
       "submission_date": "2026-07-28 10:00:00",
-      "country": "베트남",
+      "country": "Vietnam",
       "project_id": "R26BK01580897",
       "project_name": "베트남 띠엔비엔성 소외지역 전력 인프라 구축을 통한 농촌 자립역량 강화사업(2025-2029/2,000만불) PMC 용역",
       "bid_reference_no": "R26BK01580897",
@@ -3025,15 +3585,15 @@
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
-      "first_seen": "2026-08-11",
-      "traffic_survey_signal": false
+      "traffic_survey_signal": false,
+      "first_seen": "2026-08-11"
     },
     {
       "id": "g2b-R26BK01584318-000",
       "notice_type": "용역 입찰공고",
       "notice_date": "2026-06-17 17:04:28",
       "submission_date": "2026-07-30 10:00:00",
-      "country": "코트디부아르",
+      "country": "Côte d'Ivoire",
       "project_id": "R26BK01584318",
       "project_name": "코트디부아르 산페드로 지역사회 응급산과신생아케어(EmONC) 역량강화사업 PMC 용역",
       "bid_reference_no": "R26BK01584318",
@@ -3045,15 +3605,15 @@
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
-      "first_seen": "2026-08-11",
-      "traffic_survey_signal": false
+      "traffic_survey_signal": false,
+      "first_seen": "2026-08-11"
     },
     {
       "id": "g2b-R26BK01533408-000",
       "notice_type": "용역 입찰공고",
       "notice_date": "2026-05-21 15:28:21",
       "submission_date": "2026-06-10 15:00:00",
-      "country": "에콰도르",
+      "country": "Ecuador",
       "project_id": "R26BK01533408",
       "project_name": "에콰도르 침보라소주 관개수로건설 및 영농기술 사업 사후지원 PMC 용역",
       "bid_reference_no": "R26BK01533408",
@@ -3065,15 +3625,15 @@
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
-      "first_seen": "2026-08-11",
-      "traffic_survey_signal": false
+      "traffic_survey_signal": false,
+      "first_seen": "2026-08-11"
     },
     {
       "id": "g2b-R26BK01543116-000",
       "notice_type": "용역 입찰공고",
       "notice_date": "2026-05-27 09:14:30",
       "submission_date": "2026-07-07 11:00:00",
-      "country": "르완다",
+      "country": "Rwanda",
       "project_id": "R26BK01543116",
       "project_name": "르완다 키갈리시 기후변화 대응을 위한 ICT 활용 그린 모빌리티 서비스 개선사업 정보화 감리 용역",
       "bid_reference_no": "R26BK01543116",
@@ -3085,8 +3645,8 @@
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
-      "first_seen": "2026-08-11",
-      "traffic_survey_signal": false
+      "traffic_survey_signal": false,
+      "first_seen": "2026-08-11"
     },
     {
       "id": "g2b-R26BK01553703-000",
@@ -3105,8 +3665,8 @@
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
-      "first_seen": "2026-08-11",
-      "traffic_survey_signal": false
+      "traffic_survey_signal": false,
+      "first_seen": "2026-08-11"
     },
     {
       "id": "g2b-R26BK01527567-000",
@@ -3125,8 +3685,8 @@
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
-      "first_seen": "2026-08-11",
-      "traffic_survey_signal": false
+      "traffic_survey_signal": false,
+      "first_seen": "2026-08-11"
     },
     {
       "id": "g2b-R26BK01528009-000",
@@ -3145,8 +3705,8 @@
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
-      "first_seen": "2026-08-11",
-      "traffic_survey_signal": false
+      "traffic_survey_signal": false,
+      "first_seen": "2026-08-11"
     },
     {
       "id": "icak-503456",
