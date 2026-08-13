@@ -64,6 +64,7 @@ INCLUDE_PATTERNS = [
     r"projeto detalhado", r"dise[ñn]o detallado",
     r"construction supervision", r"시공감리", r"감리",
     r"supervision des travaux", r"contr[ôo]le des travaux", r"supervis[ãa]o de obras", r"supervisi[óo]n de obras",
+    r"fiscalizaci[óo]n de obras",
 ]
 
 # 강한 포함 신호가 전혀 없을 때만 이 키워드로 제외 판단
