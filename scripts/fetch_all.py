@@ -305,7 +305,7 @@ def main():
             n.get("project_name", ""), n.get("bid_description", ""), n.get("summary", "")
         )
         n["traffic_survey_signal"] = has_traffic_survey_signal (
-             n.get("project_name", ""), n.get("bid_description", ""), n.get("summary"
+             n.get("project_name", ""), n.get("bid_description", ""), n.get("summary",
         )
         nid = n.get("id")
         first_seen = previous_first_seen.get(nid) or today_kst
