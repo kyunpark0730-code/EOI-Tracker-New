@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-13T23:46:46.245339+00:00",
+  "generated_at": "2026-08-13T23:52:54.361061+00:00",
   "today_kst": "2026-08-14",
   "sources": [
     "World Bank 656건",
@@ -22,7 +22,7 @@
     },
     "ADB": {
       "last_success": "알 수 없음",
-      "consecutive_failures": 53
+      "consecutive_failures": 54
     },
     "나라장터(G2B)": {
       "last_success": "2026-08-14",
@@ -45,8 +45,8 @@
       "consecutive_failures": 0
     }
   },
-  "count": 376,
-  "new_today_count": 9,
+  "count": 373,
+  "new_today_count": 8,
   "notices": [
     {
       "id": "wb-OP00460776",
@@ -189,27 +189,6 @@
       "summary": "FEDERAL GOVERNMENT OF NIGERIA FEDERAL MINISTRY OF WATER RESOURCES AND SANITATION SUSTAINABLE POWER AND IRRIGATION FOR NIGERIA (SPIN) PROJECT IDA Credit No: IDA76370 REQUEST FOR EXPRESSIONS OF INTEREST FOR CONSULTANCY SERVICES Assignment Title: ENGAGEMENT OF A CONSULTING FIRM FOR CONSTRUCTION SUPERVISION OF THE DESIGN &amp; BUILD OF IRRIGATION SCHEMES FOR ADANI (ENUGU STATE) AND NDIEZE (EBONYI STATE) IRRIGATION SCHEME Reference No.: FMWR&amp;S/SPIN/QCBS/CS/9D The Federal Government of Nigeria (FG",
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00461964",
-      "_source_label": "World Bank",
-      "notice_type_normalized": "관심표명(EOI)",
-      "consortium_signal": false,
-      "traffic_survey_signal": false,
-      "first_seen": "2026-08-14"
-    },
-    {
-      "id": "wb-OP00462130",
-      "notice_type": "Request for Expression of Interest",
-      "notice_date": "12-Aug-2026",
-      "submission_date": "2026-08-31T00:00:00Z",
-      "country": "Pakistan",
-      "project_id": "P166732",
-      "project_name": "Karachi Mobility Project",
-      "bid_reference_no": "PK-SMTA-528011-CS-CQS",
-      "bid_description": "Procurement of Consulting Services (Firms Selection) for Carbon Crediting and Monetization for Karachi Mobility Project - Yellow Line BRTS",
-      "procurement_method": "Consultant Qualification  Selection",
-      "procurement_group": "CS",
-      "summary": "REQUEST FOR EXPRESSIONS OF INTEREST CONSULTING SERVICES &ndash; FIRMS SELECTION N ame of Country: Islamic Republic of Pakistan N ame of Project: Karachi Mobility Project&ndash; Yellow Line Corridor (BRT) Loan No: IBRD-8995-PK C lie n t : Sindh Mass Transit Authority (SMTA), Government of Sindh The Islamic Republic of Pakistan has received financing from the World Bank toward the cost of the Karachi Mobility Project&ndash; Yellow Line Corridor (BRT) [ the Project ], and intends to apply part of t",
-      "source": "World Bank",
-      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00462130",
       "_source_label": "World Bank",
       "notice_type_normalized": "관심표명(EOI)",
       "consortium_signal": false,
@@ -1217,27 +1196,6 @@
       "summary": "SOLLICITATION DE MANIFESTATIONS D&rsquo;INTERET SELECTION/ RECRUTEMENT D&rsquo;UN LABORATOIRE POUR L&rsquo;ANALYSE DE LA TOXICITE DES BOUES DES COLLECTEURS DANS LES ZONES 1, 2, 3, 4, 5, 6, 7, DANS LE CADRE DES TRAVAUX REHABILITATION DES INFRASTRUCTURES DE DRAINAGE A BANGUI ****************** NOM DU PAYS : REPUBLIQUE CENTRAFRICAINE NOM DU PROJET : PROJET DES VILLES INCLUSIVES ET RESILIENTES EN RCA (PROVIR ). NO. IDENTIFICATION : P 178774 FINANCEMENT : BANQUE MONDIALE NO. DU DON : E-3700 &ndash; C",
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00460407",
-      "_source_label": "World Bank",
-      "notice_type_normalized": "관심표명(EOI)",
-      "consortium_signal": false,
-      "traffic_survey_signal": false,
-      "first_seen": "2026-08-06"
-    },
-    {
-      "id": "wb-OP00459656",
-      "notice_type": "Request for Expression of Interest",
-      "notice_date": "04-Aug-2026",
-      "submission_date": "2026-09-04T00:00:00Z",
-      "country": "Turkiye",
-      "project_id": "P180248",
-      "project_name": "Türkiye PMI Carbon Market Development Project",
-      "bid_reference_no": "TR/PMI/DOCC/CS/QCBS/01A",
-      "bid_description": "Technical Asistance in Implementation of Emissions Trading System ( Lump Sum)\nSupport for Implementation of TR ETS (Time-based)",
-      "procurement_method": "Quality And Cost-Based Selection",
-      "procurement_group": "CS",
-      "summary": "REQUEST FOR EXPRESSIONS OF INTEREST (REOI) (CONSULTING SERVICES &ndash; FIRMS SELECTION) REPUBLIC OF T&Uuml;RKYE T&Uuml;RKYE PMIF CARBON MARKET DEVELOPMENT PROJECT Grant No.: TF0C1425 Assignment Title: Technical Assistance in Implementation of T&uuml;rkiye Emissions Trading System Reference No. : TR/PMI/DOCC/CS/QCBS/01A 1. The Ministry of Environment, Urbanization and Climate Change - Directorate of Climate Change (DoCC), through Ministry of Treasury and Finance (MoTF) has received financing fro",
-      "source": "World Bank",
-      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00459656",
       "_source_label": "World Bank",
       "notice_type_normalized": "관심표명(EOI)",
       "consortium_signal": false,
@@ -5573,26 +5531,6 @@
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
       "notice_type_normalized": "기타",
-      "consortium_signal": false,
-      "traffic_survey_signal": false,
-      "first_seen": "2026-08-10"
-    },
-    {
-      "id": "eib-695fa2e6bf5da45fdc430354",
-      "notice_type": "Calls for tenders",
-      "notice_date": "12/02/2026",
-      "submission_date": "10/03/2026",
-      "country": "",
-      "project_id": "CFT-1827",
-      "project_name": "Purchasing of certified carbon credits for EIB Group’s residual internal greenhouse gas emissions in 2024-2025",
-      "bid_reference_no": "CFT-1827",
-      "bid_description": "Closed",
-      "procurement_method": "",
-      "summary": "",
-      "source": "EIB",
-      "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
-      "_source_label": "EIB",
-      "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
       "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
