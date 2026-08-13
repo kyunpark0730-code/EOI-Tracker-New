@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-13T00:07:18.813620+00:00",
+  "generated_at": "2026-08-13T00:20:11.610226+00:00",
   "today_kst": "2026-08-13",
   "sources": [
-    "World Bank 620건",
+    "World Bank 619건",
     "한국건설엔지니어링협회 1건",
     "ADB 0건",
     "나라장터(G2B) 77건",
@@ -22,11 +22,11 @@
     },
     "ADB": {
       "last_success": "알 수 없음",
-      "consecutive_failures": 35
+      "consecutive_failures": 36
     },
     "나라장터(G2B)": {
       "last_success": "2026-08-12",
-      "consecutive_failures": 3
+      "consecutive_failures": 4
     },
     "해외건설협회(ICAK)": {
       "last_success": "2026-08-13",
