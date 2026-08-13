@@ -83,6 +83,8 @@ EXCLUDE_PATTERNS = [
     r"microfinance", r"banking sector", r"금융권",
     r"finance for jobs", r"jobs? and (economic|livelihood)", r"access to finance",
     r"financial inclusion", r"private sector development",
+    r"investment facilitation", r"investor engagement", r"investment package",
+    r"project teaser",
     # 탈탄소화/기후정책, 교사교육/스마트교육 등 산업정책·교육 분야 PMC(사업관리)용역
     # (PMC 자체는 다산도 할 수 있는 역할이지만, 관리 대상 사업이 무관 분야인 경우)
     r"교사\s*교육", r"스마트\s*교육", r"학생\s*성장",
