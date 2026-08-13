@@ -77,6 +77,26 @@ def normalize_notice_type(raw: str) -> str:
     return "기타"
 
 
+# 재무/거래자문(Transaction Advisory) 등 다산 전문영역 밖의 업무가, 타당성조사/설계 같은
+# 진짜 관련 업무랑 "하나의 계약"으로 묶여 있으면 컨소시엄 파트너가 필요할 가능성이 높다.
+# (예: "Phase 1: Feasibility Study, Phase 2: Transaction Advisory Services"처럼
+# 도로 타당성조사만 하고 싶어도 그 뒤에 딸린 재무자문까지 통째로 계약해야 하는 경우)
+_NON_ENGINEERING_ADVISORY_KEYWORDS = [
+    "transaction advisory", "financial advisory", "legal advisory",
+    "ppp advisory", "public private partnership", "public-private partnership",
+]
+
+
+def has_consortium_signal(*texts: str) -> bool:
+    combined = " ".join(t for t in texts if t).lower()
+    if not combined:
+        return False
+    has_advisory = any(kw in combined for kw in _NON_ENGINEERING_ADVISORY_KEYWORDS)
+    has_multi_phase = ("phase 1" in combined or "phase i " in combined) and \
+        ("phase 2" in combined or "phase ii " in combined)
+    return has_advisory or has_multi_phase
+
+
 SOURCES = [
     ("World Bank", worldbank),
     ("한국건설엔지니어링협회", ekacem),
@@ -268,6 +288,9 @@ def main():
     for n in all_notices:
         n.pop("_sort_date", None)
         n["notice_type_normalized"] = normalize_notice_type(n.get("notice_type", ""))
+        n["consortium_signal"] = has_consortium_signal(
+            n.get("project_name", ""), n.get("bid_description", ""), n.get("summary", "")
+        )
         nid = n.get("id")
         first_seen = previous_first_seen.get(nid) or today_kst
         n["first_seen"] = first_seen
