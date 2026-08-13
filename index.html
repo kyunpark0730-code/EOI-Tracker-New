@@ -347,8 +347,9 @@ function renderGrid(items, currentMode){
     const descLine = n.bid_description ? `<span class="desc-line">${escapeHtml(n.bid_description)}</span>` : '';
 
     const dateBits = [];
-    if (n.notice_date) dateBits.push(`게시 ${escapeHtml(n.notice_date)}`);
+    if (n.first_seen) dateBits.push(`<b>확인 ${escapeHtml(n.first_seen)}</b>`);
     if (n.submission_date) dateBits.push(`<span class="deadline">마감 ${escapeHtml(n.submission_date)}</span>`);
+    if (n.notice_date) dateBits.push(`<span style="color:#a1a7b0;">원문 날짜(참고) ${escapeHtml(n.notice_date)}</span>`);
     const dateBlock = dateBits.length ? dateBits.join('<br>') : '-';
 
     return `
