@@ -377,7 +377,8 @@ function renderGrid(items, currentMode){
     const isWeakMethod = methodUpper.includes('CQS') || methodUpper.includes('QUALIFICATION');
     if (n.procurement_method) chips.push(`<span class="meta-chip ${isStrongMethod ? 'method-strong' : ''}" style="${isWeakMethod ? 'opacity:.55;' : ''}">${escapeHtml(n.procurement_method)}</span>`);
     if (n.consortium_signal) chips.push(`<span class="meta-chip" style="background:#fef3e2; color:#92400e; font-weight:700;" title="재무/거래자문 등 다산 전문영역 밖 업무가 같은 계약에 함께 묶여있을 수 있어요 (여러 단계 계약 또는 Transaction Advisory 표현 감지)">⚠ 복합용역(컨소시엄 필요 가능성)</span>`);
-    const metaRow = chips.length ? `<div class="meta-row">${chips.join('')}</div>` : '';
+        if (n.traffic_survey_signal) chips.push('<span class="meta-chip" style="background:#eef2ff; color:#3730a3; font-weight:700;" title="교통수요조사(Trafiic Count/OD/WTP 등)가 설계·감리 없이 단독 용역으로 나온 것일 수 있어요 - 교통계획/경제분석 전문영역이라 별도 확인이 필요할 수 있습니다">⚠ 교통수요조사 단독용역</span>' );
+        const metaRow = chips.length ? `<div class="meta-row">${chips.join('')}</div>` : '';
     const descLine = n.bid_description ? `<span class="desc-line">${escapeHtml(n.bid_description)}</span>` : '';
 
     const dateBits = [];
