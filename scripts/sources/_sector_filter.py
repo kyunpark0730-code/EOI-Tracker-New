@@ -31,6 +31,9 @@ HARD_EXCLUDE_PATTERNS = [
     # 법률/사법 분야 교육·역량강화 (판사·행정관 연수, 파산법 등 법조인 대상 훈련)
     r"insolvency", r"judges? and administrators", r"judicial training",
     r"commercial law", r"legal training program",
+    # 전력시장 설계·거래제도 자문 (물리적 송배전망 설계가 아니라 시장운영/규제 정책)
+    r"trading bilateral contract market", r"electricity market design",
+    r"power market reform", r"market operator",
     r"jours-homme", r"person-days? of it", r"it staffing",
     r"탈탄소화", r"decarboniz",
 ]
