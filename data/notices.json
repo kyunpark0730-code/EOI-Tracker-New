@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-13T04:42:30.873479+00:00",
+  "generated_at": "2026-08-13T04:52:42.605668+00:00",
   "today_kst": "2026-08-13",
   "sources": [
-    "World Bank 620건",
+    "World Bank 619건",
     "한국건설엔지니어링협회 1건",
     "ADB 0건",
     "나라장터(G2B) 89건",
     "해외건설협회(ICAK) 3건",
-    "EIB 200건",
+    "EIB 188건",
     "KIND 4건",
     "AIIB 4건"
   ],
@@ -22,7 +22,7 @@
     },
     "ADB": {
       "last_success": "알 수 없음",
-      "consecutive_failures": 44
+      "consecutive_failures": 45
     },
     "나라장터(G2B)": {
       "last_success": "2026-08-13",
@@ -34,7 +34,7 @@
     },
     "EIB": {
       "last_success": "2026-08-13",
-      "consecutive_failures": 0
+      "consecutive_failures": 1
     },
     "KIND": {
       "last_success": "2026-08-13",
@@ -45,8 +45,8 @@
       "consecutive_failures": 0
     }
   },
-  "count": 374,
-  "new_today_count": 14,
+  "count": 369,
+  "new_today_count": 13,
   "notices": [
     {
       "id": "wb-OP00461888",
@@ -1622,26 +1622,6 @@
       "summary": "SOLLICITATION DE MANIFESTATION D&rsquo;INTERET RENFORCEMENT DES COMPETENCES TECHNIQUES DU PERSONNEL DU MINISTERE DES MINES ET DE LA GEOLOGIE(MMG) SMI N&deg;005/PGRNME/C/2026 (REDIFFUSION) Date de fin : 18 Ao&ucirc;t 2026 Le Gouvernement de la R&eacute;publique de Guin&eacute;e a re&ccedil;u un financement de la Banque mondiale pour couvrir les co&ucirc;ts du Projet de Gestion des Ressources Naturelles, Mini&egrave;res et de l&rsquo;Environnement (PGRNME), et a l&rsquo;intention d&rsquo;utiliser ",
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00445288",
-      "_source_label": "World Bank",
-      "notice_type_normalized": "관심표명(EOI)",
-      "consortium_signal": false,
-      "first_seen": "2026-08-06"
-    },
-    {
-      "id": "wb-OP00459337",
-      "notice_type": "Request for Expression of Interest",
-      "notice_date": "28-Jul-2026",
-      "submission_date": "2026-08-20T00:00:00Z",
-      "country": "Ukraine",
-      "project_id": "P176114",
-      "project_name": "Improving Power System Resilience for European Power Grid Integration Project",
-      "bid_reference_no": "UHE-IPSR-ESG",
-      "bid_description": "Сonsultancy service provision by Consultant (legal entity (consulting firm)) for the ESG \n(Environmental, Social, and Corporate Governance) focused Training and Workshops (Capacity Building on O&M and Safety)",
-      "procurement_method": "Consultant Qualification  Selection",
-      "procurement_group": "CS",
-      "summary": "REQUEST FOR EXPRESSION OF INTEREST ( CONSULTING SERVICES &ndash; FIRMS SELECTION ) Country : Ukraine Project : 176114: &ldquo;Ukraine &ndash; Improving Power System Resilience for European Power Grid Integration (Installation of Hybrid Systems for Electricity Production in Ukrhydroenergo)&rdquo; Grant No. : CTF Grant No. TF0B5724 Assignment Title : &ldquo;Consulting service provision on training and workshops focused on Environmental, Social, and Corporate Governance (ESG)&rdquo; Reference numbe",
-      "source": "World Bank",
-      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00459337",
       "_source_label": "World Bank",
       "notice_type_normalized": "관심표명(EOI)",
       "consortium_signal": false,
@@ -3648,25 +3628,6 @@
       "first_seen": "2026-08-06"
     },
     {
-      "id": "eib-6a7c700cc3644c6383dfd89e",
-      "notice_type": "Project procurement",
-      "notice_date": "12/08/2026",
-      "submission_date": "15/10/2026",
-      "country": "Ukraine",
-      "project_id": "Ukraine Municipal Infrastructure Programme/ Mykolaiv Water Supply Sub-Project/ Construction Supervision Services (FIDIC Engineer) for the Construction of the Water Treatment Plant (Filtration Station) in the City of Mykolaiv",
-      "project_name": "Construction Supervision Services (FIDIC Engineer) for the Construction of the Water Treatment Plant (Filtration Station) in the City of Mykolaiv",
-      "bid_reference_no": "Ukraine Municipal Infrastructure Programme/ Mykolaiv Water Supply Sub-Project/ Construction Supervision Services (FIDIC Engineer) for the Construction of the Water Treatment Plant (Filtration Station) in the City of Mykolaiv",
-      "bid_description": "On going",
-      "procurement_method": "",
-      "summary": "",
-      "source": "EIB",
-      "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
-      "_source_label": "EIB",
-      "notice_type_normalized": "기타",
-      "consortium_signal": false,
-      "first_seen": "2026-08-13"
-    },
-    {
       "id": "eib-6a7aed4ac3644c6383dfd82f",
       "notice_type": "Project procurement",
       "notice_date": "12/08/2026",
@@ -3722,25 +3683,6 @@
       "notice_type_normalized": "기타",
       "consortium_signal": false,
       "first_seen": "2026-08-10"
-    },
-    {
-      "id": "eib-6a79e5c4c3644c6383dfd7fa",
-      "notice_type": "Project procurement",
-      "notice_date": "10/08/2026",
-      "submission_date": "21/09/2026",
-      "country": "Ukraine",
-      "project_id": "UMIP-OP-2-VOL-052-4",
-      "project_name": "Ukraine Municipal Infrastructure Programme / Complex Modernization of Water Supply and Sewerage Systems in the city Lutsk",
-      "bid_reference_no": "UMIP-OP-2-VOL-052-4",
-      "bid_description": "On going",
-      "procurement_method": "",
-      "summary": "",
-      "source": "EIB",
-      "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
-      "_source_label": "EIB",
-      "notice_type_normalized": "기타",
-      "consortium_signal": false,
-      "first_seen": "2026-08-11"
     },
     {
       "id": "eib-6a7990e9c3644c6383dfd7cd",
@@ -3884,25 +3826,6 @@
       "project_id": "20170671-32",
       "project_name": "Supervision of the Works for the reconstruction and expansion of Serbian port of Bogojevo",
       "bid_reference_no": "20170671-32",
-      "bid_description": "On going",
-      "procurement_method": "",
-      "summary": "",
-      "source": "EIB",
-      "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
-      "_source_label": "EIB",
-      "notice_type_normalized": "기타",
-      "consortium_signal": false,
-      "first_seen": "2026-08-10"
-    },
-    {
-      "id": "eib-6a6b5582b08ff23251672086",
-      "notice_type": "Project procurement",
-      "notice_date": "30/07/2026",
-      "submission_date": "14/09/2026",
-      "country": "Ukraine",
-      "project_id": "UMIP-OP-2-VOL-052-2 ",
-      "project_name": "Ukraine Municipal Infrastructure Programme - Complex Modernization of Water Supply and Sewerage Systems in the city Lutsk",
-      "bid_reference_no": "UMIP-OP-2-VOL-052-2 ",
       "bid_description": "On going",
       "procurement_method": "",
       "summary": "",
@@ -4663,25 +4586,6 @@
       "project_id": "EIB-GtP/ZSIP/PMU/INDV-15",
       "project_name": "Procurement Specialist - Georgia",
       "bid_reference_no": "EIB-GtP/ZSIP/PMU/INDV-15",
-      "bid_description": "Closed",
-      "procurement_method": "",
-      "summary": "",
-      "source": "EIB",
-      "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
-      "_source_label": "EIB",
-      "notice_type_normalized": "기타",
-      "consortium_signal": false,
-      "first_seen": "2026-08-10"
-    },
-    {
-      "id": "eib-69e641aafd92d300c22a4e80",
-      "notice_type": "Project procurement",
-      "notice_date": "18/07/2023",
-      "submission_date": "20/10/2023",
-      "country": "Ukraine",
-      "project_id": "UMIP-OP-2-VOL-052-4",
-      "project_name": "Ukraine Municipal Infrastructure Programme / Complex Modernization of Water Supply and Sewerage Systems in the city Lutsk",
-      "bid_reference_no": "UMIP-OP-2-VOL-052-4",
       "bid_description": "Closed",
       "procurement_method": "",
       "summary": "",
