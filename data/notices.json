@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-13T01:26:58.624446+00:00",
+  "generated_at": "2026-08-13T03:48:09.189780+00:00",
   "today_kst": "2026-08-13",
   "sources": [
     "World Bank 620건",
@@ -22,7 +22,7 @@
     },
     "ADB": {
       "last_success": "알 수 없음",
-      "consecutive_failures": 41
+      "consecutive_failures": 42
     },
     "나라장터(G2B)": {
       "last_success": "2026-08-13",
@@ -45,8 +45,8 @@
       "consecutive_failures": 0
     }
   },
-  "count": 377,
-  "new_today_count": 16,
+  "count": 376,
+  "new_today_count": 15,
   "notices": [
     {
       "id": "wb-OP00461888",
@@ -487,26 +487,6 @@
       "notice_type_normalized": "관심표명(EOI)",
       "consortium_signal": false,
       "first_seen": "2026-08-06"
-    },
-    {
-      "id": "wb-OP00461331",
-      "notice_type": "Request for Expression of Interest",
-      "notice_date": "07-Aug-2026",
-      "submission_date": "2026-08-21T00:00:00Z",
-      "country": "Indonesia",
-      "project_id": "P173446",
-      "project_name": "Global Environment Facility Indonesia Sustainable Cities Impact Project",
-      "bid_reference_no": "ID-PPP BAPPENAS-555293-CS-CQS",
-      "bid_description": "Consulting services for Sustainable Investment Facilitation Advisory (SIFA) for five pilot cities under GEF Indonesia SCIP Component 3, Sub-Component G.2.2, covering investment readiness assessment, market engagement, and financing roadmap co-production.",
-      "procurement_method": "Consultant Qualification  Selection",
-      "procurement_group": "CS",
-      "summary": "REQUEST FOR EXPRESSIONS OF INTEREST (CONSULTANT SERVICES &ndash; FIRMS SELECTION) INDONESIA Global Environment Facility (GEF) Grant: Sustainable Cities Impact Project (SCIP) Grant No.: TF0B8114 Assignment Title: Consulting Services For Sustainable Investment Facilitation Advisory (SIFA) in the Five Pilot Cities of GEF Indonesia SCIP Reference No .: ID-PPP BAPPENAS-508088-CS-CQS The Ministry of National Development Planning/National Development Planning Agency has received financing from the Worl",
-      "source": "World Bank",
-      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00461331",
-      "_source_label": "World Bank",
-      "notice_type_normalized": "관심표명(EOI)",
-      "consortium_signal": false,
-      "first_seen": "2026-08-13"
     },
     {
       "id": "wb-OP00461372",
