@@ -98,6 +98,9 @@ EXCLUDE_PATTERNS = [
     r"tourism", r"관광", r"tourisme", r"turismo",
     r"gender action", r"양성평등", r"genre\b", r"g[êe]nero\b",
     r"agricultur(e|al) value chain", r"농업 가치사슬",
+    # 사회안전망/현금성 지원 프로그램 평가·설계 (사회보호 정책 분야, 토목 아님)
+    r"social safety net", r"filets? sociaux", r"cash transfer", r"transferts? mon[ée]taires?",
+    r"safety net program", r"social protection program",
     r"voltage network", r"transmission line", r"transmission network",
     r"transmission infrastructure", r"power grid", r"substation",
     r"송전", r"배전", r"변전소", r"전력망",
@@ -187,7 +190,7 @@ def has_strong_relevance_signal(*texts: str) -> bool:
 
 
 # 자체적으로 출장이 어려운 위험국/분쟁국. 이 국가들은 "애매하면 포함" 원칙을
-# 적용하지 않고, 관개/도로/댐 등 핵심 인프라 키워드가 확실히 있는 경우에도 포함하지 않는다
+# 적용하지 않고, 관개/도로/댐 등 핵심 인프라 키워드가 확실히 있을 때만 포함한다
 # (예: "도로 재건 사업"은 유지, "CERT 컨설팅"처럼 애매한 건 제외).
 # 국가명은 World Bank(영문) / 국내 소스(국문) 양쪽 표기를 모두 등록해야 함.
 # 남수단은 제외 대상에서 뺐음(사용자 확인) — "수단"의 부분 문자열이 아니라
