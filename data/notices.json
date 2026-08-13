@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-08-13T01:13:52.990668+00:00",
+  "generated_at": "2026-08-13T01:26:58.624446+00:00",
   "today_kst": "2026-08-13",
   "sources": [
-    "World Bank 619건",
+    "World Bank 620건",
     "한국건설엔지니어링협회 1건",
     "ADB 0건",
-    "나라장터(G2B) 77건",
+    "나라장터(G2B) 89건",
     "해외건설협회(ICAK) 3건",
     "EIB 200건",
     "KIND 4건",
@@ -22,11 +22,11 @@
     },
     "ADB": {
       "last_success": "알 수 없음",
-      "consecutive_failures": 40
+      "consecutive_failures": 41
     },
     "나라장터(G2B)": {
       "last_success": "2026-08-13",
-      "consecutive_failures": 3
+      "consecutive_failures": 0
     },
     "해외건설협회(ICAK)": {
       "last_success": "2026-08-13",
@@ -45,8 +45,8 @@
       "consecutive_failures": 0
     }
   },
-  "count": 378,
-  "new_today_count": 17,
+  "count": 377,
+  "new_today_count": 16,
   "notices": [
     {
       "id": "wb-OP00461888",
@@ -183,26 +183,6 @@
       "summary": "ESWATINI ELECTRICITY COMPANY Request for Expression of Interest (REOI) Consultancy Services for the Feasibility Study for Ngwempisi Multipurpose Hydro Scheme FOR THE ACCELERATING SUSTAINABLE AND CLEAN ENERGY ACCESS TRANSFORMATION IN ESWATINI (ASCENT) PROJECT Project ID No: P508960 Request for Expression of Interest (REOI) Eswatini Electricity Company (EEC) (Government of the Kingdom of Eswatini) Consultancy Services for the Feasibility Study for Ngwempisi Multipurpose Hydro Scheme First date of ",
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00461846",
-      "_source_label": "World Bank",
-      "notice_type_normalized": "관심표명(EOI)",
-      "consortium_signal": false,
-      "first_seen": "2026-08-13"
-    },
-    {
-      "id": "wb-OP00461883",
-      "notice_type": "Request for Expression of Interest",
-      "notice_date": "11-Aug-2026",
-      "submission_date": "2026-09-02T00:00:00Z",
-      "country": "Pakistan",
-      "project_id": "P170230",
-      "project_name": "Electricity Distribution Efficiency Improvement Project",
-      "bid_reference_no": "PK-MOE-566558-CS-QCBS-CTBCM",
-      "bid_description": "Hiring a Consultancy Firm for the Market Reform for supporting the operation and development of the competitive Trading Bilateral Contract Market (CTBCM) in Pakistan Power Sector.",
-      "procurement_method": "Quality And Cost-Based Selection",
-      "procurement_group": "CS",
-      "summary": "Government of Pakistan Ministry of Energy (Power Division) REQUEST FOR EXPRESSION OF INTEREST (CONSULTING SERVICES &ndash; FIRM SELECTION) Country: Pakistan Name of Project: Electricity Distribution Efficiency Improvement Project (EDEIP) Loan No./Credit No./ Grant No .: IBRD-93180 Assignment Title: Consultancy Services for Supporting the Operation and Development of the Competitive Trading Bilateral Contract Market (CTBCM) In Pakistan&rsquo;s Power Sector. Reference No . PK-MOE-566558-CS-QCBS-CT",
-      "source": "World Bank",
-      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00461883",
       "_source_label": "World Bank",
       "notice_type_normalized": "관심표명(EOI)",
       "consortium_signal": false,
@@ -2223,8 +2203,8 @@
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01640523&bidPbancOrd=000",
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
-      "first_seen": "2026-08-11",
-      "consortium_signal": false
+      "consortium_signal": false,
+      "first_seen": "2026-08-11"
     },
     {
       "id": "g2b-R26BK01560878-000",
@@ -2242,8 +2222,8 @@
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01560878&bidPbancOrd=000",
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
-      "first_seen": "2026-08-11",
-      "consortium_signal": false
+      "consortium_signal": false,
+      "first_seen": "2026-08-11"
     },
     {
       "id": "g2b-R26BK01560911-000",
@@ -2261,8 +2241,8 @@
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01560911&bidPbancOrd=000",
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
-      "first_seen": "2026-08-11",
-      "consortium_signal": false
+      "consortium_signal": false,
+      "first_seen": "2026-08-11"
     },
     {
       "id": "g2b-R26BK01560926-000",
@@ -2280,8 +2260,8 @@
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01560926&bidPbancOrd=000",
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
-      "first_seen": "2026-08-11",
-      "consortium_signal": false
+      "consortium_signal": false,
+      "first_seen": "2026-08-11"
     },
     {
       "id": "g2b-R26BK01561612-000",
@@ -2299,8 +2279,8 @@
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01561612&bidPbancOrd=000",
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
-      "first_seen": "2026-08-11",
-      "consortium_signal": false
+      "consortium_signal": false,
+      "first_seen": "2026-08-11"
     },
     {
       "id": "g2b-R26BK01561681-000",
@@ -2318,8 +2298,8 @@
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01561681&bidPbancOrd=000",
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
-      "first_seen": "2026-08-11",
-      "consortium_signal": false
+      "consortium_signal": false,
+      "first_seen": "2026-08-11"
     },
     {
       "id": "g2b-R26BK01561681-001",
@@ -2337,8 +2317,8 @@
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01561681&bidPbancOrd=001",
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
-      "first_seen": "2026-08-11",
-      "consortium_signal": false
+      "consortium_signal": false,
+      "first_seen": "2026-08-11"
     },
     {
       "id": "g2b-R26BK01561612-001",
@@ -2356,8 +2336,8 @@
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01561612&bidPbancOrd=001",
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
-      "first_seen": "2026-08-11",
-      "consortium_signal": false
+      "consortium_signal": false,
+      "first_seen": "2026-08-11"
     },
     {
       "id": "g2b-R26BK01563997-000",
@@ -2375,8 +2355,8 @@
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01563997&bidPbancOrd=000",
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
-      "first_seen": "2026-08-11",
-      "consortium_signal": false
+      "consortium_signal": false,
+      "first_seen": "2026-08-11"
     },
     {
       "id": "g2b-R26BK01564134-000",
@@ -2394,8 +2374,8 @@
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01564134&bidPbancOrd=000",
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
-      "first_seen": "2026-08-11",
-      "consortium_signal": false
+      "consortium_signal": false,
+      "first_seen": "2026-08-11"
     },
     {
       "id": "g2b-R26BK01566513-000",
@@ -2413,8 +2393,8 @@
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01566513&bidPbancOrd=000",
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
-      "first_seen": "2026-08-11",
-      "consortium_signal": false
+      "consortium_signal": false,
+      "first_seen": "2026-08-11"
     },
     {
       "id": "g2b-R26BK01572590-000",
@@ -2432,8 +2412,8 @@
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01572590&bidPbancOrd=000",
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
-      "first_seen": "2026-08-11",
-      "consortium_signal": false
+      "consortium_signal": false,
+      "first_seen": "2026-08-11"
     },
     {
       "id": "g2b-R26BK01572590-001",
@@ -2451,8 +2431,8 @@
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01572590&bidPbancOrd=001",
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
-      "first_seen": "2026-08-11",
-      "consortium_signal": false
+      "consortium_signal": false,
+      "first_seen": "2026-08-11"
     },
     {
       "id": "g2b-R26BK01581793-000",
@@ -2470,8 +2450,8 @@
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01581793&bidPbancOrd=000",
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
-      "first_seen": "2026-08-11",
-      "consortium_signal": false
+      "consortium_signal": false,
+      "first_seen": "2026-08-11"
     },
     {
       "id": "g2b-R26BK01587173-000",
@@ -2489,8 +2469,8 @@
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01587173&bidPbancOrd=000",
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
-      "first_seen": "2026-08-11",
-      "consortium_signal": false
+      "consortium_signal": false,
+      "first_seen": "2026-08-11"
     },
     {
       "id": "g2b-R26BK01587505-000",
@@ -2508,8 +2488,8 @@
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01587505&bidPbancOrd=000",
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
-      "first_seen": "2026-08-11",
-      "consortium_signal": false
+      "consortium_signal": false,
+      "first_seen": "2026-08-11"
     },
     {
       "id": "g2b-R26BK01587633-000",
@@ -2527,8 +2507,8 @@
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01587633&bidPbancOrd=000",
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
-      "first_seen": "2026-08-11",
-      "consortium_signal": false
+      "consortium_signal": false,
+      "first_seen": "2026-08-11"
     },
     {
       "id": "g2b-R26BK01588162-000",
@@ -2546,8 +2526,8 @@
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01588162&bidPbancOrd=000",
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
-      "first_seen": "2026-08-11",
-      "consortium_signal": false
+      "consortium_signal": false,
+      "first_seen": "2026-08-11"
     },
     {
       "id": "g2b-R26BK01588182-000",
@@ -2565,8 +2545,8 @@
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01588182&bidPbancOrd=000",
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
-      "first_seen": "2026-08-11",
-      "consortium_signal": false
+      "consortium_signal": false,
+      "first_seen": "2026-08-11"
     },
     {
       "id": "g2b-R26BK01540744-000",
@@ -2584,8 +2564,8 @@
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01540744&bidPbancOrd=000",
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
-      "first_seen": "2026-08-11",
-      "consortium_signal": false
+      "consortium_signal": false,
+      "first_seen": "2026-08-11"
     },
     {
       "id": "g2b-R26BK01540761-000",
@@ -2603,8 +2583,8 @@
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01540761&bidPbancOrd=000",
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
-      "first_seen": "2026-08-11",
-      "consortium_signal": false
+      "consortium_signal": false,
+      "first_seen": "2026-08-11"
     },
     {
       "id": "g2b-R26BK01540772-000",
@@ -2622,8 +2602,8 @@
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01540772&bidPbancOrd=000",
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
-      "first_seen": "2026-08-11",
-      "consortium_signal": false
+      "consortium_signal": false,
+      "first_seen": "2026-08-11"
     },
     {
       "id": "g2b-R26BK01540791-000",
@@ -2641,8 +2621,8 @@
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01540791&bidPbancOrd=000",
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
-      "first_seen": "2026-08-11",
-      "consortium_signal": false
+      "consortium_signal": false,
+      "first_seen": "2026-08-11"
     },
     {
       "id": "g2b-R26BK01540809-000",
@@ -2660,8 +2640,8 @@
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01540809&bidPbancOrd=000",
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
-      "first_seen": "2026-08-11",
-      "consortium_signal": false
+      "consortium_signal": false,
+      "first_seen": "2026-08-11"
     },
     {
       "id": "g2b-R26BK01545880-000",
@@ -2679,8 +2659,8 @@
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01545880&bidPbancOrd=000",
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
-      "first_seen": "2026-08-11",
-      "consortium_signal": false
+      "consortium_signal": false,
+      "first_seen": "2026-08-11"
     },
     {
       "id": "g2b-R26BK01545959-000",
@@ -2698,8 +2678,8 @@
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01545959&bidPbancOrd=000",
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
-      "first_seen": "2026-08-11",
-      "consortium_signal": false
+      "consortium_signal": false,
+      "first_seen": "2026-08-11"
     },
     {
       "id": "g2b-R26BK01546031-000",
@@ -2717,8 +2697,8 @@
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01546031&bidPbancOrd=000",
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
-      "first_seen": "2026-08-11",
-      "consortium_signal": false
+      "consortium_signal": false,
+      "first_seen": "2026-08-11"
     },
     {
       "id": "g2b-R26BK01548113-000",
@@ -2736,8 +2716,8 @@
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01548113&bidPbancOrd=000",
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
-      "first_seen": "2026-08-11",
-      "consortium_signal": false
+      "consortium_signal": false,
+      "first_seen": "2026-08-11"
     },
     {
       "id": "g2b-R26BK01526043-000",
@@ -2755,8 +2735,8 @@
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01526043&bidPbancOrd=000",
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
-      "first_seen": "2026-08-11",
-      "consortium_signal": false
+      "consortium_signal": false,
+      "first_seen": "2026-08-11"
     },
     {
       "id": "g2b-R26BK01657048-000",
@@ -2774,8 +2754,8 @@
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01657048&bidPbancOrd=000",
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
-      "first_seen": "2026-08-11",
-      "consortium_signal": false
+      "consortium_signal": false,
+      "first_seen": "2026-08-11"
     },
     {
       "id": "g2b-R26BK01584318-001",
@@ -2793,8 +2773,8 @@
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01584318&bidPbancOrd=001",
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
-      "first_seen": "2026-08-11",
-      "consortium_signal": false
+      "consortium_signal": false,
+      "first_seen": "2026-08-11"
     },
     {
       "id": "g2b-R26BK01650609-000",
@@ -2812,8 +2792,8 @@
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01650609&bidPbancOrd=000",
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
-      "first_seen": "2026-08-11",
-      "consortium_signal": false
+      "consortium_signal": false,
+      "first_seen": "2026-08-11"
     },
     {
       "id": "g2b-R26BK01664379-000",
@@ -2831,8 +2811,8 @@
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01664379&bidPbancOrd=000",
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
-      "first_seen": "2026-08-11",
-      "consortium_signal": false
+      "consortium_signal": false,
+      "first_seen": "2026-08-11"
     },
     {
       "id": "g2b-R26BK01615313-001",
@@ -2850,8 +2830,8 @@
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01615313&bidPbancOrd=001",
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
-      "first_seen": "2026-08-11",
-      "consortium_signal": false
+      "consortium_signal": false,
+      "first_seen": "2026-08-11"
     },
     {
       "id": "g2b-R26BK01672194-000",
@@ -2869,8 +2849,8 @@
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01672194&bidPbancOrd=000",
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
-      "first_seen": "2026-08-11",
-      "consortium_signal": false
+      "consortium_signal": false,
+      "first_seen": "2026-08-11"
     },
     {
       "id": "g2b-R26BK01668938-000",
@@ -2888,8 +2868,8 @@
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01668938&bidPbancOrd=000",
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
-      "first_seen": "2026-08-11",
-      "consortium_signal": false
+      "consortium_signal": false,
+      "first_seen": "2026-08-11"
     },
     {
       "id": "g2b-R26BK01636729-000",
@@ -2907,8 +2887,8 @@
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01636729&bidPbancOrd=000",
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
-      "first_seen": "2026-08-11",
-      "consortium_signal": false
+      "consortium_signal": false,
+      "first_seen": "2026-08-11"
     },
     {
       "id": "g2b-R26BK01568442-001",
@@ -2926,8 +2906,8 @@
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01568442&bidPbancOrd=001",
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
-      "first_seen": "2026-08-11",
-      "consortium_signal": false
+      "consortium_signal": false,
+      "first_seen": "2026-08-11"
     },
     {
       "id": "g2b-R26BK01619680-000",
@@ -2945,8 +2925,8 @@
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01619680&bidPbancOrd=000",
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
-      "first_seen": "2026-08-11",
-      "consortium_signal": false
+      "consortium_signal": false,
+      "first_seen": "2026-08-11"
     },
     {
       "id": "g2b-R26BK01638829-000",
@@ -2964,8 +2944,8 @@
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01638829&bidPbancOrd=000",
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
-      "first_seen": "2026-08-11",
-      "consortium_signal": false
+      "consortium_signal": false,
+      "first_seen": "2026-08-11"
     },
     {
       "id": "g2b-R26BK01638829-001",
@@ -2983,8 +2963,8 @@
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01638829&bidPbancOrd=001",
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
-      "first_seen": "2026-08-11",
-      "consortium_signal": false
+      "consortium_signal": false,
+      "first_seen": "2026-08-11"
     },
     {
       "id": "g2b-R26BK01637510-000",
@@ -3002,8 +2982,8 @@
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01637510&bidPbancOrd=000",
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
-      "first_seen": "2026-08-11",
-      "consortium_signal": false
+      "consortium_signal": false,
+      "first_seen": "2026-08-11"
     },
     {
       "id": "g2b-R26BK01644803-000",
@@ -3021,8 +3001,8 @@
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01644803&bidPbancOrd=000",
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
-      "first_seen": "2026-08-11",
-      "consortium_signal": false
+      "consortium_signal": false,
+      "first_seen": "2026-08-11"
     },
     {
       "id": "g2b-R26BK01645195-000",
@@ -3040,8 +3020,8 @@
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01645195&bidPbancOrd=000",
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
-      "first_seen": "2026-08-11",
-      "consortium_signal": false
+      "consortium_signal": false,
+      "first_seen": "2026-08-11"
     },
     {
       "id": "g2b-R26BK01647739-000",
@@ -3059,8 +3039,8 @@
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01647739&bidPbancOrd=000",
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
-      "first_seen": "2026-08-11",
-      "consortium_signal": false
+      "consortium_signal": false,
+      "first_seen": "2026-08-11"
     },
     {
       "id": "g2b-R26BK01647671-000",
@@ -3078,8 +3058,8 @@
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01647671&bidPbancOrd=000",
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
-      "first_seen": "2026-08-11",
-      "consortium_signal": false
+      "consortium_signal": false,
+      "first_seen": "2026-08-11"
     },
     {
       "id": "g2b-R26BK01645195-001",
@@ -3097,8 +3077,8 @@
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01645195&bidPbancOrd=001",
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
-      "first_seen": "2026-08-11",
-      "consortium_signal": false
+      "consortium_signal": false,
+      "first_seen": "2026-08-11"
     },
     {
       "id": "g2b-R26BK01619680-001",
@@ -3116,8 +3096,8 @@
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01619680&bidPbancOrd=001",
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
-      "first_seen": "2026-08-11",
-      "consortium_signal": false
+      "consortium_signal": false,
+      "first_seen": "2026-08-11"
     },
     {
       "id": "g2b-R26BK01610560-000",
@@ -3135,8 +3115,8 @@
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01610560&bidPbancOrd=000",
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
-      "first_seen": "2026-08-11",
-      "consortium_signal": false
+      "consortium_signal": false,
+      "first_seen": "2026-08-11"
     },
     {
       "id": "g2b-R26BK01602087-001",
@@ -3154,8 +3134,8 @@
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01602087&bidPbancOrd=001",
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
-      "first_seen": "2026-08-11",
-      "consortium_signal": false
+      "consortium_signal": false,
+      "first_seen": "2026-08-11"
     },
     {
       "id": "g2b-R26BK01615313-000",
@@ -3173,8 +3153,8 @@
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01615313&bidPbancOrd=000",
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
-      "first_seen": "2026-08-11",
-      "consortium_signal": false
+      "consortium_signal": false,
+      "first_seen": "2026-08-11"
     },
     {
       "id": "g2b-R26BK01596637-000",
@@ -3192,8 +3172,8 @@
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01596637&bidPbancOrd=000",
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
-      "first_seen": "2026-08-11",
-      "consortium_signal": false
+      "consortium_signal": false,
+      "first_seen": "2026-08-11"
     },
     {
       "id": "g2b-R26BK01621561-000",
@@ -3211,8 +3191,8 @@
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01621561&bidPbancOrd=000",
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
-      "first_seen": "2026-08-11",
-      "consortium_signal": false
+      "consortium_signal": false,
+      "first_seen": "2026-08-11"
     },
     {
       "id": "g2b-R26BK01613529-000",
@@ -3230,8 +3210,8 @@
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01613529&bidPbancOrd=000",
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
-      "first_seen": "2026-08-11",
-      "consortium_signal": false
+      "consortium_signal": false,
+      "first_seen": "2026-08-11"
     },
     {
       "id": "g2b-R26BK01614251-000",
@@ -3249,8 +3229,8 @@
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01614251&bidPbancOrd=000",
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
-      "first_seen": "2026-08-11",
-      "consortium_signal": false
+      "consortium_signal": false,
+      "first_seen": "2026-08-11"
     },
     {
       "id": "g2b-R26BK01630949-000",
@@ -3268,8 +3248,8 @@
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01630949&bidPbancOrd=000",
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
-      "first_seen": "2026-08-11",
-      "consortium_signal": false
+      "consortium_signal": false,
+      "first_seen": "2026-08-11"
     },
     {
       "id": "g2b-R26BK01630767-000",
@@ -3287,8 +3267,8 @@
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01630767&bidPbancOrd=000",
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
-      "first_seen": "2026-08-11",
-      "consortium_signal": false
+      "consortium_signal": false,
+      "first_seen": "2026-08-11"
     },
     {
       "id": "g2b-R26BK01634598-000",
@@ -3306,8 +3286,8 @@
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01634598&bidPbancOrd=000",
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
-      "first_seen": "2026-08-11",
-      "consortium_signal": false
+      "consortium_signal": false,
+      "first_seen": "2026-08-11"
     },
     {
       "id": "g2b-R26BK01578790-000",
@@ -3325,8 +3305,8 @@
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01578790&bidPbancOrd=000",
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
-      "first_seen": "2026-08-11",
-      "consortium_signal": false
+      "consortium_signal": false,
+      "first_seen": "2026-08-11"
     },
     {
       "id": "g2b-R26BK01576058-001",
@@ -3344,8 +3324,8 @@
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01576058&bidPbancOrd=001",
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
-      "first_seen": "2026-08-11",
-      "consortium_signal": false
+      "consortium_signal": false,
+      "first_seen": "2026-08-11"
     },
     {
       "id": "g2b-R26BK01602087-000",
@@ -3363,8 +3343,8 @@
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01602087&bidPbancOrd=000",
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
-      "first_seen": "2026-08-11",
-      "consortium_signal": false
+      "consortium_signal": false,
+      "first_seen": "2026-08-11"
     },
     {
       "id": "g2b-R26BK01603261-000",
@@ -3382,8 +3362,8 @@
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01603261&bidPbancOrd=000",
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
-      "first_seen": "2026-08-11",
-      "consortium_signal": false
+      "consortium_signal": false,
+      "first_seen": "2026-08-11"
     },
     {
       "id": "g2b-R26BK01599634-000",
@@ -3401,8 +3381,8 @@
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01599634&bidPbancOrd=000",
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
-      "first_seen": "2026-08-11",
-      "consortium_signal": false
+      "consortium_signal": false,
+      "first_seen": "2026-08-11"
     },
     {
       "id": "g2b-R26BK01608611-000",
@@ -3420,8 +3400,8 @@
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01608611&bidPbancOrd=000",
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
-      "first_seen": "2026-08-11",
-      "consortium_signal": false
+      "consortium_signal": false,
+      "first_seen": "2026-08-11"
     },
     {
       "id": "g2b-R26BK01559646-000",
@@ -3439,8 +3419,8 @@
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01559646&bidPbancOrd=000",
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
-      "first_seen": "2026-08-11",
-      "consortium_signal": false
+      "consortium_signal": false,
+      "first_seen": "2026-08-11"
     },
     {
       "id": "g2b-R26BK01561311-000",
@@ -3458,8 +3438,8 @@
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01561311&bidPbancOrd=000",
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
-      "first_seen": "2026-08-11",
-      "consortium_signal": false
+      "consortium_signal": false,
+      "first_seen": "2026-08-11"
     },
     {
       "id": "g2b-R26BK01564540-000",
@@ -3477,8 +3457,8 @@
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01564540&bidPbancOrd=000",
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
-      "first_seen": "2026-08-11",
-      "consortium_signal": false
+      "consortium_signal": false,
+      "first_seen": "2026-08-11"
     },
     {
       "id": "g2b-R26BK01568442-000",
@@ -3496,8 +3476,8 @@
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01568442&bidPbancOrd=000",
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
-      "first_seen": "2026-08-11",
-      "consortium_signal": false
+      "consortium_signal": false,
+      "first_seen": "2026-08-11"
     },
     {
       "id": "g2b-R26BK01576058-000",
@@ -3515,8 +3495,8 @@
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01576058&bidPbancOrd=000",
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
-      "first_seen": "2026-08-11",
-      "consortium_signal": false
+      "consortium_signal": false,
+      "first_seen": "2026-08-11"
     },
     {
       "id": "g2b-R26BK01580608-000",
@@ -3534,8 +3514,8 @@
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01580608&bidPbancOrd=000",
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
-      "first_seen": "2026-08-11",
-      "consortium_signal": false
+      "consortium_signal": false,
+      "first_seen": "2026-08-11"
     },
     {
       "id": "g2b-R26BK01580897-000",
@@ -3553,8 +3533,8 @@
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01580897&bidPbancOrd=000",
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
-      "first_seen": "2026-08-11",
-      "consortium_signal": false
+      "consortium_signal": false,
+      "first_seen": "2026-08-11"
     },
     {
       "id": "g2b-R26BK01584318-000",
@@ -3572,8 +3552,8 @@
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01584318&bidPbancOrd=000",
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
-      "first_seen": "2026-08-11",
-      "consortium_signal": false
+      "consortium_signal": false,
+      "first_seen": "2026-08-11"
     },
     {
       "id": "g2b-R26BK01533408-000",
@@ -3591,8 +3571,8 @@
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01533408&bidPbancOrd=000",
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
-      "first_seen": "2026-08-11",
-      "consortium_signal": false
+      "consortium_signal": false,
+      "first_seen": "2026-08-11"
     },
     {
       "id": "g2b-R26BK01543116-000",
@@ -3610,8 +3590,8 @@
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01543116&bidPbancOrd=000",
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
-      "first_seen": "2026-08-11",
-      "consortium_signal": false
+      "consortium_signal": false,
+      "first_seen": "2026-08-11"
     },
     {
       "id": "g2b-R26BK01553703-000",
@@ -3629,8 +3609,8 @@
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01553703&bidPbancOrd=000",
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
-      "first_seen": "2026-08-11",
-      "consortium_signal": false
+      "consortium_signal": false,
+      "first_seen": "2026-08-11"
     },
     {
       "id": "g2b-R26BK01527567-000",
@@ -3648,8 +3628,8 @@
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01527567&bidPbancOrd=000",
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
-      "first_seen": "2026-08-11",
-      "consortium_signal": false
+      "consortium_signal": false,
+      "first_seen": "2026-08-11"
     },
     {
       "id": "g2b-R26BK01528009-000",
@@ -3667,8 +3647,8 @@
       "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01528009&bidPbancOrd=000",
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
-      "first_seen": "2026-08-11",
-      "consortium_signal": false
+      "consortium_signal": false,
+      "first_seen": "2026-08-11"
     },
     {
       "id": "icak-503456",
@@ -5609,25 +5589,6 @@
       "first_seen": "2026-08-10"
     },
     {
-      "id": "eib-685556ad18d6822642009dda",
-      "notice_type": "Calls for tenders",
-      "notice_date": "20/06/2025",
-      "submission_date": "29/07/2025",
-      "country": "",
-      "project_id": "Consultancy - Financial Manager for the PIU ",
-      "project_name": "Cancellation  Notice - Financial Manager of the Project Implementation Unit",
-      "bid_reference_no": "Consultancy - Financial Manager for the PIU ",
-      "bid_description": "Closed",
-      "procurement_method": "",
-      "summary": "",
-      "source": "EIB",
-      "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
-      "_source_label": "EIB",
-      "notice_type_normalized": "입찰공고",
-      "consortium_signal": false,
-      "first_seen": "2026-08-10"
-    },
-    {
       "id": "eib-685569d518d6822642009e11",
       "notice_type": "Project procurement",
       "notice_date": "20/06/2025",
@@ -5647,21 +5608,21 @@
       "first_seen": "2026-08-10"
     },
     {
-      "id": "eib-685562ae18d6822642009df8",
-      "notice_type": "Project procurement",
+      "id": "eib-685556ad18d6822642009dda",
+      "notice_type": "Calls for tenders",
       "notice_date": "20/06/2025",
-      "submission_date": "25/08/2025",
+      "submission_date": "29/07/2025",
       "country": "",
-      "project_id": "Consultancy - Forestry Expert",
-      "project_name": "Cancellation  Notice - Senior Forestry Expert of the Project Implementation Unit (PIU) for the implementation of the Moldova Forest Development Program",
-      "bid_reference_no": "Consultancy - Forestry Expert",
+      "project_id": "Consultancy - Financial Manager for the PIU ",
+      "project_name": "Cancellation  Notice - Financial Manager of the Project Implementation Unit",
+      "bid_reference_no": "Consultancy - Financial Manager for the PIU ",
       "bid_description": "Closed",
       "procurement_method": "",
       "summary": "",
       "source": "EIB",
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
-      "notice_type_normalized": "기타",
+      "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
       "first_seen": "2026-08-10"
     },
@@ -5674,6 +5635,25 @@
       "project_id": "Consultancy - Project Manager for the PIU",
       "project_name": "Cancellation Notice  - Project Manager of the Project Implementation Unit (PIU) for the implementation of the Moldova Forest Development Program",
       "bid_reference_no": "Consultancy - Project Manager for the PIU",
+      "bid_description": "Closed",
+      "procurement_method": "",
+      "summary": "",
+      "source": "EIB",
+      "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
+      "_source_label": "EIB",
+      "notice_type_normalized": "기타",
+      "consortium_signal": false,
+      "first_seen": "2026-08-10"
+    },
+    {
+      "id": "eib-685562ae18d6822642009df8",
+      "notice_type": "Project procurement",
+      "notice_date": "20/06/2025",
+      "submission_date": "25/08/2025",
+      "country": "",
+      "project_id": "Consultancy - Forestry Expert",
+      "project_name": "Cancellation  Notice - Senior Forestry Expert of the Project Implementation Unit (PIU) for the implementation of the Moldova Forest Development Program",
+      "bid_reference_no": "Consultancy - Forestry Expert",
       "bid_description": "Closed",
       "procurement_method": "",
       "summary": "",
