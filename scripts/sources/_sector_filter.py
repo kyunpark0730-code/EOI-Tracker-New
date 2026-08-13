@@ -40,6 +40,12 @@ HARD_EXCLUDE_PATTERNS = [
     r"power market reform", r"market operator",
     r"jours-homme", r"person-days? of it", r"it staffing",
     r"탈탄소화", r"decarboniz",
+    # 탄소배출권 크레딧 개발/등록/판매(monetization), MRV(모니터링·검증) 등
+    # 탄소금융 자문. 대중교통(BRT) 등 인프라 사업 산하 공고라 INCLUDE(transport 등)에
+    # 걸려도, 실제 업무는 탄소시장/GHG 회계 전문분야라 다산 전문영역과 다름.
+    r"carbon credit", r"carbon crediting", r"carbon monetization", r"carbon monetisation",
+    r"carbon market", r"ghg accounting", r"\bmrv\b", r"verra\b", r"gold standard\b",
+    r"\bcdm\b", r"article 6\.4",
 ]
 
 # 하나라도 걸리면 무조건 포함 (토목/인프라 핵심 분야)
