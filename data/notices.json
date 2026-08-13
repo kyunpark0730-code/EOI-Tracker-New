@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-13T06:11:48.975018+00:00",
+  "generated_at": "2026-08-13T06:28:53.122527+00:00",
   "today_kst": "2026-08-13",
   "sources": [
-    "World Bank 620건",
+    "World Bank 619건",
     "한국건설엔지니어링협회 1건",
     "ADB 0건",
     "나라장터(G2B) 49건",
@@ -22,11 +22,11 @@
     },
     "ADB": {
       "last_success": "알 수 없음",
-      "consecutive_failures": 47
+      "consecutive_failures": 48
     },
     "나라장터(G2B)": {
       "last_success": "2026-08-13",
-      "consecutive_failures": 1
+      "consecutive_failures": 2
     },
     "해외건설협회(ICAK)": {
       "last_success": "2026-08-13",
@@ -45,8 +45,8 @@
       "consecutive_failures": 0
     }
   },
-  "count": 340,
-  "new_today_count": 12,
+  "count": 339,
+  "new_today_count": 11,
   "notices": [
     {
       "id": "wb-OP00461888",
@@ -189,27 +189,6 @@
       "summary": "ESWATINI ELECTRICITY COMPANY Request for Expression of Interest (REOI) Consultancy Services for the Feasibility Study for Ngwempisi Multipurpose Hydro Scheme FOR THE ACCELERATING SUSTAINABLE AND CLEAN ENERGY ACCESS TRANSFORMATION IN ESWATINI (ASCENT) PROJECT Project ID No: P508960 Request for Expression of Interest (REOI) Eswatini Electricity Company (EEC) (Government of the Kingdom of Eswatini) Consultancy Services for the Feasibility Study for Ngwempisi Multipurpose Hydro Scheme First date of ",
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00461846",
-      "_source_label": "World Bank",
-      "notice_type_normalized": "관심표명(EOI)",
-      "consortium_signal": false,
-      "traffic_survey_signal": false,
-      "first_seen": "2026-08-13"
-    },
-    {
-      "id": "wb-OP00461622",
-      "notice_type": "Request for Expression of Interest",
-      "notice_date": "11-Aug-2026",
-      "submission_date": "2026-09-03T00:00:00Z",
-      "country": "Lebanon",
-      "project_id": "P180334",
-      "project_name": "Lebanon Green Agrifood Transformation for Economic Recovery (GATE)",
-      "bid_reference_no": "GC2C2D",
-      "bid_description": "Detailed Designs, Tender Documents and Supervision of Solid Waste Management Facilities",
-      "procurement_method": "Quality And Cost-Based Selection",
-      "procurement_group": "CS",
-      "summary": "REQUEST FOR EXPRESSIONS OF INTEREST Lebanese Republic Council for Development and Reconstruction (CDR) GREEN, AGRI-FOOD TRANSFORMATION FOR ECONOMIC RECOVERY (GATE) Reference : GC2C2d Assignment Title: Detailed Designs, Tender Documents and Supervision of Solid Waste Management Facilities The Republic of Lebanon (the &ldquo; Borrower &rdquo;) represented by the Council for Development and Reconstruction (CDR) (the &ldquo; Client &rdquo;) as a representative to the Borrower will implement the Gree",
-      "source": "World Bank",
-      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00461622",
       "_source_label": "World Bank",
       "notice_type_normalized": "관심표명(EOI)",
       "consortium_signal": false,
@@ -5130,26 +5109,6 @@
       "first_seen": "2026-08-10"
     },
     {
-      "id": "eib-685569d518d6822642009e11",
-      "notice_type": "Project procurement",
-      "notice_date": "20/06/2025",
-      "submission_date": "25/08/2025",
-      "country": "",
-      "project_id": "Consultancy - Procurement Expert ",
-      "project_name": "Cancellation Notice - Procurement Expert of the Project Implementation Unit",
-      "bid_reference_no": "Consultancy - Procurement Expert ",
-      "bid_description": "Closed",
-      "procurement_method": "",
-      "summary": "",
-      "source": "EIB",
-      "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
-      "_source_label": "EIB",
-      "notice_type_normalized": "기타",
-      "consortium_signal": false,
-      "traffic_survey_signal": false,
-      "first_seen": "2026-08-10"
-    },
-    {
       "id": "eib-685556ad18d6822642009dda",
       "notice_type": "Calls for tenders",
       "notice_date": "20/06/2025",
@@ -5170,14 +5129,14 @@
       "first_seen": "2026-08-10"
     },
     {
-      "id": "eib-68556c6218d6822642009e1d",
+      "id": "eib-685569d518d6822642009e11",
       "notice_type": "Project procurement",
       "notice_date": "20/06/2025",
-      "submission_date": "29/07/2025",
+      "submission_date": "25/08/2025",
       "country": "",
-      "project_id": "Consultancy - Project Manager for the PIU",
-      "project_name": "Cancellation Notice  - Project Manager of the Project Implementation Unit (PIU) for the implementation of the Moldova Forest Development Program",
-      "bid_reference_no": "Consultancy - Project Manager for the PIU",
+      "project_id": "Consultancy - Procurement Expert ",
+      "project_name": "Cancellation Notice - Procurement Expert of the Project Implementation Unit",
+      "bid_reference_no": "Consultancy - Procurement Expert ",
       "bid_description": "Closed",
       "procurement_method": "",
       "summary": "",
@@ -5198,6 +5157,26 @@
       "project_id": "Consultancy - Forestry Expert",
       "project_name": "Cancellation  Notice - Senior Forestry Expert of the Project Implementation Unit (PIU) for the implementation of the Moldova Forest Development Program",
       "bid_reference_no": "Consultancy - Forestry Expert",
+      "bid_description": "Closed",
+      "procurement_method": "",
+      "summary": "",
+      "source": "EIB",
+      "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
+      "_source_label": "EIB",
+      "notice_type_normalized": "기타",
+      "consortium_signal": false,
+      "traffic_survey_signal": false,
+      "first_seen": "2026-08-10"
+    },
+    {
+      "id": "eib-68556c6218d6822642009e1d",
+      "notice_type": "Project procurement",
+      "notice_date": "20/06/2025",
+      "submission_date": "29/07/2025",
+      "country": "",
+      "project_id": "Consultancy - Project Manager for the PIU",
+      "project_name": "Cancellation Notice  - Project Manager of the Project Implementation Unit (PIU) for the implementation of the Moldova Forest Development Program",
+      "bid_reference_no": "Consultancy - Project Manager for the PIU",
       "bid_description": "Closed",
       "procurement_method": "",
       "summary": "",
