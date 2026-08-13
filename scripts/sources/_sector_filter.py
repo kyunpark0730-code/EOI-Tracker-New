@@ -31,6 +31,10 @@ HARD_EXCLUDE_PATTERNS = [
     # 법률/사법 분야 교육·역량강화 (판사·행정관 연수, 파산법 등 법조인 대상 훈련)
     r"insolvency", r"judges? and administrators", r"judicial training",
     r"commercial law", r"legal training program",
+    # 해안지구 도시재생/공공공간 개선(공원·보행로·녹지 등) — 관개/도로/수자원처럼
+    # 물리적 토목이 아니라 도시계획·공공공간 조성 성격이라 다산 전문영역과 다름
+    r"eco-inclusive district", r"distrito eco-inclusivo", r"public space improvement",
+    r"mejoramiento de espacios p[úu]blicos", r"coastal resilience", r"franja costera",
     # 전력시장 설계·거래제도 자문 (물리적 송배전망 설계가 아니라 시장운영/규제 정책)
     r"trading bilateral contract market", r"electricity market design",
     r"power market reform", r"market operator",
