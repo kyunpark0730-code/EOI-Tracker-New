@@ -103,7 +103,7 @@ def has_consortium_signal(*texts: str) -> bool:
 # 사람이 직접 판단하게 한다 (라이베리아 톨게이트 WTP 조사 사례를 계기로 만듦).
 _TRAFFIC_SURVEY_KEYWORDS =  [ 
     "willingness-to-pay", "willingness to pay", "origin-destination survey",
-    "origin-destination survey". "stated preference", "traffic count survey".
+    "origin-destination survey", "stated preference", "traffic count survey".
     "toll rate recommendation",
 ]
 
