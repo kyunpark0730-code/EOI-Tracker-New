@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-13T23:25:39.062769+00:00",
+  "generated_at": "2026-08-13T23:46:46.245339+00:00",
   "today_kst": "2026-08-14",
   "sources": [
-    "World Bank 655건",
+    "World Bank 656건",
     "한국건설엔지니어링협회 1건",
     "ADB 0건",
     "나라장터(G2B) 89건",
@@ -22,7 +22,7 @@
     },
     "ADB": {
       "last_success": "알 수 없음",
-      "consecutive_failures": 52
+      "consecutive_failures": 53
     },
     "나라장터(G2B)": {
       "last_success": "2026-08-14",
@@ -45,8 +45,8 @@
       "consecutive_failures": 0
     }
   },
-  "count": 377,
-  "new_today_count": 10,
+  "count": 376,
+  "new_today_count": 9,
   "notices": [
     {
       "id": "wb-OP00460776",
@@ -126,27 +126,6 @@
       "summary": "REQUEST FOR EXPRESSIONS OF INTEREST (CONSULTING SERVICES &ndash; FIRMS SELECTION) The Government of Indonesia Global Environment Facility Indonesia Sustainable Cities Impact Project Grant No.: TF0B8114 Assignment Title: Climate-Smart and Nature-Positive Urban Development Masterplan Reference No.: ID-DIT.TRP3B-563083-CS-CQS The Government of Indonesia had received financing from the World Bank toward the cost of the Global Environmental Facility Indonesia Sustainable Cities Impact Project (SCIP) ",
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00462222",
-      "_source_label": "World Bank",
-      "notice_type_normalized": "관심표명(EOI)",
-      "consortium_signal": false,
-      "traffic_survey_signal": false,
-      "first_seen": "2026-08-14"
-    },
-    {
-      "id": "wb-OP00461832",
-      "notice_type": "Request for Expression of Interest",
-      "notice_date": "12-Aug-2026",
-      "submission_date": "2026-08-26T00:00:00Z",
-      "country": "Uganda",
-      "project_id": "P171305",
-      "project_name": "Uganda Digital Acceleration Project - GovNet",
-      "bid_reference_no": "UG-NITA-U-562756-CS-QCBS",
-      "bid_description": "Consultancy services for the development of a National Digital Skills Framework",
-      "procurement_method": "Quality And Cost-Based Selection",
-      "procurement_group": "CS",
-      "summary": "REQUEST FOR EXPRESSION OF INTEREST (CONSULTING SERVICES &ndash; FIRMS SELECTION) UGANDA UGANDA DIGITAL ACCELERATION PROJECT &ndash; GOVERNMENT NETWORK (UDAP-GOVNET) PROJECT ID-P171305 LOAN NUMBER: IDA-68980 REFERENCE NUMBER: NITA-UDAP/CONS/26-27/0004 ASSIGNMENT TITLE: CONSULTANCY SERVICES FOR THE DEVELOPMENT OF A NATIONAL DIGITAL SKILLS AND COMPETENCE FRAMEWORK (NDSCF) The Government of Uganda, represented by the National Information Technology Authority - Uganda (NITA-U), has received financing",
-      "source": "World Bank",
-      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00461832",
       "_source_label": "World Bank",
       "notice_type_normalized": "관심표명(EOI)",
       "consortium_signal": false,
