@@ -96,6 +96,23 @@ def has_consortium_signal(*texts: str) -> bool:
         ("phase 2" in combined or "phase ii " in combined)
     return has_advisory or has_multi_phase
 
+# 교통수요조사(Traffic Count/Origin-Destination/Willingness-to-Pay 등)는 설계·감리
+# 없이 단독 용역으로 나올 때가 있는데, 이건 교통계획/경제분석 전문영역이라 다산의
+# 주력(설계/감리)이랑 결이 다를 수 있다. 다만 종합 타당성조사 패키지 안에 세부
+# 과업으로 포함되는 경우도 흔해서 무조건 제외하지는 않고, 배지로만 표시해서
+# 사람이 직접 판단하게 한다 (라이베리아 톨게이트 WTP 조사 사례를 계기로 만듦).
+_TRAFFIC_SURVEY_KEYWORDS =  [ 
+    "willingness-to-pay", "willingness to pay", "origin-destination survey",
+    "origin-destination survey". "stated preference", "traffic count survey".
+    "toll rate recommendation",
+]
+
+
+def has_traffic_survey_signal(*texts: str) -> bool:
+    combined = " ".join(t for t in texts if t).lower()
+    if not combined:
+        return False
+    return any(kw in combined for kw in _TRAFFIC_SURVEY_KEYWORDS)
 
 SOURCES = [
     ("World Bank", worldbank),
@@ -286,6 +303,9 @@ def main():
         n["notice_type_normalized"] = normalize_notice_type(n.get("notice_type", ""))
         n["consortium_signal"] = has_consortium_signal(
             n.get("project_name", ""), n.get("bid_description", ""), n.get("summary", "")
+        )
+        n["traffic_survey_signal"] = has_traffic_survey_signal (
+             n.get("project_name", ""), n.get("bid_description", ""), n.get("summary"
         )
         nid = n.get("id")
         first_seen = previous_first_seen.get(nid) or today_kst
