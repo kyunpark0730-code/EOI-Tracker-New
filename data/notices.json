@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-13T00:45:45.430279+00:00",
+  "generated_at": "2026-08-13T00:54:27.005144+00:00",
   "today_kst": "2026-08-13",
   "sources": [
-    "World Bank 619건",
+    "World Bank 618건",
     "한국건설엔지니어링협회 1건",
     "ADB 0건",
     "나라장터(G2B) 77건",
@@ -22,11 +22,11 @@
     },
     "ADB": {
       "last_success": "알 수 없음",
-      "consecutive_failures": 38
+      "consecutive_failures": 39
     },
     "나라장터(G2B)": {
       "last_success": "2026-08-13",
-      "consecutive_failures": 1
+      "consecutive_failures": 2
     },
     "해외건설협회(ICAK)": {
       "last_success": "2026-08-13",
@@ -45,7 +45,7 @@
       "consecutive_failures": 0
     }
   },
-  "count": 381,
+  "count": 377,
   "new_today_count": 16,
   "notices": [
     {
@@ -486,44 +486,6 @@
       "first_seen": "2026-08-06"
     },
     {
-      "id": "wb-OP00461331",
-      "notice_type": "Request for Expression of Interest",
-      "notice_date": "07-Aug-2026",
-      "submission_date": "2026-08-21T00:00:00Z",
-      "country": "Indonesia",
-      "project_id": "P173446",
-      "project_name": "Global Environment Facility Indonesia Sustainable Cities Impact Project",
-      "bid_reference_no": "ID-PPP BAPPENAS-555293-CS-CQS",
-      "bid_description": "Consulting services for Sustainable Investment Facilitation Advisory (SIFA) for five pilot cities under GEF Indonesia SCIP Component 3, Sub-Component G.2.2, covering investment readiness assessment, market engagement, and financing roadmap co-production.",
-      "procurement_method": "Consultant Qualification  Selection",
-      "procurement_group": "CS",
-      "summary": "REQUEST FOR EXPRESSIONS OF INTEREST (CONSULTANT SERVICES &ndash; FIRMS SELECTION) INDONESIA Global Environment Facility (GEF) Grant: Sustainable Cities Impact Project (SCIP) Grant No.: TF0B8114 Assignment Title: Consulting Services For Sustainable Investment Facilitation Advisory (SIFA) in the Five Pilot Cities of GEF Indonesia SCIP Reference No .: ID-PPP BAPPENAS-508088-CS-CQS The Ministry of National Development Planning/National Development Planning Agency has received financing from the Worl",
-      "source": "World Bank",
-      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00461331",
-      "_source_label": "World Bank",
-      "notice_type_normalized": "관심표명(EOI)",
-      "first_seen": "2026-08-11"
-    },
-    {
-      "id": "wb-OP00461367",
-      "notice_type": "Request for Expression of Interest",
-      "notice_date": "07-Aug-2026",
-      "submission_date": "2026-08-24T00:00:00Z",
-      "country": "Brazil",
-      "project_id": "P181965",
-      "project_name": "GFPP for Amazon and Cerrado Bioeconomy, Forest Restoration, and Climate-Smart Agriculture Project",
-      "bid_reference_no": "BR-BB-548585-CS-QCBS",
-      "bid_description": "CONTRATAÇÃO DE SERVIÇOS DE CONSULTORIA PJ ESTRUTURAÇÃO, IMPLANTAÇÃO E OPERAÇÃO DE ESCRITÓRIO DE PROJETOS (PROJECT MANAGEMENT OFFICE – PMO), COM A FINALIDADE DE APOIAR A GESTÃO, IMPLEMENTAÇÃO, MONITORAMENTO E GOVERNANÇA DOS PROJETOS.",
-      "procurement_method": "Quality And Cost-Based Selection",
-      "procurement_group": "CS",
-      "summary": "SMI PUBLIDADA NO SITE DO LICITACOES-E DO BB. https://www.bb.com.br/site/compras-contratacao-e-venda-de-imoveis/compras-e-contratacoes/avisos-e-editais/#/ CONSULTA P&Uacute;BLICA - O Banco do Brasil S.A torna p&uacute;blica a realiza&ccedil;&atilde;o de consulta ao mercado, na forma de solicita&ccedil;&atilde;o de manifesta&ccedil;&atilde;o de interesse com objetivo de contratar servi&ccedil;os especializados de Project Management Office &ndash; PMO, com a finalidade de apoiar a gest&atilde;o, im",
-      "source": "World Bank",
-      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00461367",
-      "_source_label": "World Bank",
-      "notice_type_normalized": "관심표명(EOI)",
-      "first_seen": "2026-08-11"
-    },
-    {
       "id": "wb-OP00461372",
       "notice_type": "Request for Expression of Interest",
       "notice_date": "07-Aug-2026",
@@ -690,25 +652,6 @@
       "summary": "The Metropolitan Manila Development Authority (MMDA) has received financing from the World Bank toward the cost of the Clean Philippines, and intends to apply part of the proceeds for consulting services. The consulting services (&ldquo;the Services&rdquo;) include but not limited to the conduct of Pre-feasibility Study and Investment Preparation for Sustainable Material Recovery and Circular-Economy Facilities in Metro Manila. The consultant is also expected to rapidly assess 4 to 5 candidate s",
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00461171",
-      "_source_label": "World Bank",
-      "notice_type_normalized": "관심표명(EOI)",
-      "first_seen": "2026-08-10"
-    },
-    {
-      "id": "wb-OP00460935",
-      "notice_type": "Request for Expression of Interest",
-      "notice_date": "06-Aug-2026",
-      "submission_date": "2026-08-24T00:00:00Z",
-      "country": "Angola",
-      "project_id": "P178035",
-      "project_name": "Accelerating Economic Diversification and Job Creation Project",
-      "bid_reference_no": "82CS1/MINPLAN/26",
-      "bid_description": "Serviço de Consultoria para Capacitação e Certificação para os Juízes e Administradores de Insolvência",
-      "procurement_method": "Consultant Qualification  Selection",
-      "procurement_group": "CS",
-      "summary": "REPUBLIC OF ANGOLA MINISTRY OF PLANNING ACCELERATING ECONOMIC DIVERSIFICATION AND JOB CREATION PROJECT Loan No.: IBRD-95270 Project ID: P178035 REQUEST FOR EXPRESSIONS OF INTEREST (CONSULTING SERVICES &ndash; FIRMS SELECTION) Assignment Title: CONSULTING SERVICES FOR TRAINING AND CERTIFICATION FOR INSOLVENCY JUDGES AND ADMINISTRATORS Reference No . 82CS1/MINPLAN/26 The Government of Angola has received financing from the World Bank Group&#39;s International Bank for Reconstruction and Developmen",
-      "source": "World Bank",
-      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00460935",
       "_source_label": "World Bank",
       "notice_type_normalized": "관심표명(EOI)",
       "first_seen": "2026-08-10"
@@ -1107,25 +1050,6 @@
       "summary": "APPEL A MANIFESTATIONS D&rsquo;INT&Eacute;R&Ecirc;T (SERVICES DE CONSULTANTS &ndash; S&Eacute;LECTION DE FIRMES) Pays : Madagascar Ma&icirc;tre d&rsquo;Ouvrage : Minist&egrave;re des Transports et de la M&eacute;t&eacute;orologie (MTM) &ndash; A&eacute;roports De Madagascar (ADEMA) Projet : Projet de Transport Multimodal et de Logistique (PTML) Financement : Cr&eacute;dit A : IDA SUW 8005-MG, Cr&eacute;dit B : IDA 8004-MG Intitul&eacute; de la Mission : Maitrise d&rsquo;&oelig;uvre compl&egrave;",
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00460281",
-      "_source_label": "World Bank",
-      "notice_type_normalized": "관심표명(EOI)",
-      "first_seen": "2026-08-06"
-    },
-    {
-      "id": "wb-OP00459769",
-      "notice_type": "Request for Expression of Interest",
-      "notice_date": "03-Aug-2026",
-      "submission_date": "2026-09-06T00:00:00Z",
-      "country": "Georgia",
-      "project_id": "P175629",
-      "project_name": "Georgia Resilient Agriculture, Irrigation, and Land Project",
-      "bid_reference_no": "GR/CS/QCBS/05",
-      "bid_description": "Capacity Building Service Provider (CBSP) for Farmers under the Tashiskari, Narekvavi, Shavghele Masif and Zeda Arkhi Irrigation Schemes",
-      "procurement_method": "Quality And Cost-Based Selection",
-      "procurement_group": "CS",
-      "summary": "REQUEST FOR EXPRESSIONS OF INTEREST (CONSULTING SERVICES &ndash; FIRMS SELECTION) GEORGIA Georgia Resilient Agriculture, Irrigation and Land Project (GRAIL) &ndash; P175629 Loan No. 9504-GE Assignment Title: Capacity Building Service Provider (CBSP) to Deliver Training and Demonstration Activities on Climate-Smart Agriculture (CSA), Water-Efficient Irrigation, Climate Resilience, and Sustainable Agricultural Technologies for Farmers under the Tashiskari, Narekvavi, Shavghele Masif and Zeda Arkhi",
-      "source": "World Bank",
-      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00459769",
       "_source_label": "World Bank",
       "notice_type_normalized": "관심표명(EOI)",
       "first_seen": "2026-08-06"
