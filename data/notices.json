@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-13T06:28:53.122527+00:00",
+  "generated_at": "2026-08-13T06:39:51.497439+00:00",
   "today_kst": "2026-08-13",
   "sources": [
     "World Bank 619건",
@@ -22,11 +22,11 @@
     },
     "ADB": {
       "last_success": "알 수 없음",
-      "consecutive_failures": 48
+      "consecutive_failures": 49
     },
     "나라장터(G2B)": {
       "last_success": "2026-08-13",
-      "consecutive_failures": 2
+      "consecutive_failures": 3
     },
     "해외건설협회(ICAK)": {
       "last_success": "2026-08-13",
@@ -3153,7 +3153,7 @@
       "notice_type": "입찰공고",
       "notice_date": "2026-08-03 00:00:00",
       "submission_date": "2099-12-31 23:59:00",
-      "country": "오만",
+      "country": "Oman",
       "project_id": "",
       "project_name": "두큼 라스 마르카즈 원유저장소 확장사업",
       "bid_reference_no": "",
