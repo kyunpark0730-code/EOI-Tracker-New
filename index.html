@@ -152,6 +152,10 @@
   }
   .col-date{font-size:12px; color:var(--ink-soft); line-height:1.6;}
   .col-date .deadline{color:var(--primary); font-weight:700;}
+  .col-date .deadline-urgent{
+    color:#b91c1c; font-weight:800; background:#fef2f2;
+    padding:1px 6px; border-radius:5px; display:inline-block;
+  }
   .tag{
     font-size:11px;
     font-weight:600;
@@ -276,6 +280,28 @@ function render(data){
   applyFilters();
 }
 
+function daysUntilDeadline(dateStr){
+  if (!dateStr) return null;
+  const target = new Date(dateStr);
+  if (isNaN(target.getTime())) return null;
+  const now = new Date();
+  const msPerDay = 1000 * 60 * 60 * 24;
+  // 날짜 단위로만 비교 (시간대 오차로 D-0이 D-1로 잘못 계산되는 것 방지)
+  const targetMid = new Date(target.getFullYear(), target.getMonth(), target.getDate());
+  const nowMid = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+  return Math.round((targetMid - nowMid) / msPerDay);
+}
+
+function formatDateOnly(dateStr){
+  if (!dateStr) return '';
+  const d = new Date(dateStr);
+  if (isNaN(d.getTime())) return dateStr; // 파싱 안 되면 원본 그대로
+  const y = d.getFullYear();
+  const m = String(d.getMonth() + 1).padStart(2, '0');
+  const day = String(d.getDate()).padStart(2, '0');
+  return `${y}-${m}-${day}`;
+}
+
 function escapeHtml(s){
   return (s||'').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 }
@@ -355,7 +381,13 @@ function renderGrid(items, currentMode){
 
     const dateBits = [];
     if (n.first_seen) dateBits.push(`<b>확인 ${escapeHtml(n.first_seen)}</b>`);
-    if (n.submission_date) dateBits.push(`<span class="deadline">마감 ${escapeHtml(n.submission_date)}</span>`);
+    if (n.submission_date) {
+      const dLeft = daysUntilDeadline(n.submission_date);
+      const niceDate = formatDateOnly(n.submission_date);
+      const urgent = dLeft !== null && dLeft >= 0 && dLeft <= 7;
+      const dLabel = dLeft === null ? '' : (dLeft < 0 ? ' (마감됨)' : ` (D-${dLeft})`);
+      dateBits.push(`<span class="deadline ${urgent ? 'deadline-urgent' : ''}">마감 ${escapeHtml(niceDate)}${dLabel}</span>`);
+    }
     if (n.notice_date) dateBits.push(`<span style="color:#a1a7b0;">원문 날짜(참고) ${escapeHtml(n.notice_date)}</span>`);
     const dateBlock = dateBits.length ? dateBits.join('<br>') : '-';
 
