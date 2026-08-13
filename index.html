@@ -147,6 +147,9 @@
     font-size:11px; color:var(--ink-soft); background:#f3f4f6; border-radius:6px;
     padding:2px 8px; white-space:nowrap;
   }
+  .meta-chip.method-strong{
+    font-weight:700; color:var(--ink); background:#e8edf5;
+  }
   .col-date{font-size:12px; color:var(--ink-soft); line-height:1.6;}
   .col-date .deadline{color:var(--primary); font-weight:700;}
   .tag{
@@ -342,7 +345,11 @@ function renderGrid(items, currentMode){
 
     const chips = [];
     if (n.bid_reference_no) chips.push(`<span class="meta-chip">Ref. ${escapeHtml(n.bid_reference_no)}</span>`);
-    if (n.procurement_method) chips.push(`<span class="meta-chip">${escapeHtml(n.procurement_method)}</span>`);
+    const methodUpper = (n.procurement_method || '').toUpperCase();
+    const isStrongMethod = methodUpper.includes('QCBS') || methodUpper.includes('QUALITY AND COST')
+      || (methodUpper.includes('QBS') && !methodUpper.includes('CQS'));
+    const isWeakMethod = methodUpper.includes('CQS') || methodUpper.includes('QUALIFICATION');
+    if (n.procurement_method) chips.push(`<span class="meta-chip ${isStrongMethod ? 'method-strong' : ''}" style="${isWeakMethod ? 'opacity:.55;' : ''}">${escapeHtml(n.procurement_method)}</span>`);
     const metaRow = chips.length ? `<div class="meta-row">${chips.join('')}</div>` : '';
     const descLine = n.bid_description ? `<span class="desc-line">${escapeHtml(n.bid_description)}</span>` : '';
 
