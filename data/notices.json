@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-08-13T05:02:40.548183+00:00",
+  "generated_at": "2026-08-13T06:11:48.975018+00:00",
   "today_kst": "2026-08-13",
   "sources": [
-    "World Bank 619건",
+    "World Bank 620건",
     "한국건설엔지니어링협회 1건",
     "ADB 0건",
-    "나라장터(G2B) 59건",
+    "나라장터(G2B) 49건",
     "해외건설협회(ICAK) 3건",
     "EIB 200건",
     "KIND 4건",
@@ -22,11 +22,11 @@
     },
     "ADB": {
       "last_success": "알 수 없음",
-      "consecutive_failures": 46
+      "consecutive_failures": 47
     },
     "나라장터(G2B)": {
       "last_success": "2026-08-13",
-      "consecutive_failures": 0
+      "consecutive_failures": 1
     },
     "해외건설협회(ICAK)": {
       "last_success": "2026-08-13",
@@ -66,6 +66,7 @@
       "_source_label": "World Bank",
       "notice_type_normalized": "관심표명(EOI)",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-13"
     },
     {
@@ -86,6 +87,7 @@
       "_source_label": "World Bank",
       "notice_type_normalized": "관심표명(EOI)",
       "consortium_signal": false,
+      "traffic_survey_signal": true,
       "first_seen": "2026-08-13"
     },
     {
@@ -106,6 +108,7 @@
       "_source_label": "World Bank",
       "notice_type_normalized": "관심표명(EOI)",
       "consortium_signal": true,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-13"
     },
     {
@@ -126,6 +129,7 @@
       "_source_label": "World Bank",
       "notice_type_normalized": "관심표명(EOI)",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-13"
     },
     {
@@ -146,6 +150,7 @@
       "_source_label": "World Bank",
       "notice_type_normalized": "관심표명(EOI)",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-13"
     },
     {
@@ -166,6 +171,7 @@
       "_source_label": "World Bank",
       "notice_type_normalized": "관심표명(EOI)",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-13"
     },
     {
@@ -186,6 +192,7 @@
       "_source_label": "World Bank",
       "notice_type_normalized": "관심표명(EOI)",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-13"
     },
     {
@@ -206,6 +213,7 @@
       "_source_label": "World Bank",
       "notice_type_normalized": "관심표명(EOI)",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-13"
     },
     {
@@ -226,6 +234,7 @@
       "_source_label": "World Bank",
       "notice_type_normalized": "관심표명(EOI)",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-13"
     },
     {
@@ -246,6 +255,7 @@
       "_source_label": "World Bank",
       "notice_type_normalized": "관심표명(EOI)",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-13"
     },
     {
@@ -266,6 +276,7 @@
       "_source_label": "World Bank",
       "notice_type_normalized": "관심표명(EOI)",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-13"
     },
     {
@@ -286,6 +297,7 @@
       "_source_label": "World Bank",
       "notice_type_normalized": "관심표명(EOI)",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-13"
     },
     {
@@ -306,6 +318,7 @@
       "_source_label": "World Bank",
       "notice_type_normalized": "관심표명(EOI)",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-12"
     },
     {
@@ -326,6 +339,7 @@
       "_source_label": "World Bank",
       "notice_type_normalized": "관심표명(EOI)",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-12"
     },
     {
@@ -346,6 +360,7 @@
       "_source_label": "World Bank",
       "notice_type_normalized": "관심표명(EOI)",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-12"
     },
     {
@@ -366,6 +381,7 @@
       "_source_label": "World Bank",
       "notice_type_normalized": "관심표명(EOI)",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-12"
     },
     {
@@ -386,6 +402,7 @@
       "_source_label": "World Bank",
       "notice_type_normalized": "관심표명(EOI)",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-12"
     },
     {
@@ -406,6 +423,7 @@
       "_source_label": "World Bank",
       "notice_type_normalized": "관심표명(EOI)",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-12"
     },
     {
@@ -426,6 +444,7 @@
       "_source_label": "World Bank",
       "notice_type_normalized": "관심표명(EOI)",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-11"
     },
     {
@@ -446,6 +465,7 @@
       "_source_label": "World Bank",
       "notice_type_normalized": "관심표명(EOI)",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-11"
     },
     {
@@ -466,6 +486,7 @@
       "_source_label": "World Bank",
       "notice_type_normalized": "관심표명(EOI)",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-06"
     },
     {
@@ -486,6 +507,7 @@
       "_source_label": "World Bank",
       "notice_type_normalized": "관심표명(EOI)",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-11"
     },
     {
@@ -506,6 +528,7 @@
       "_source_label": "World Bank",
       "notice_type_normalized": "관심표명(EOI)",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-11"
     },
     {
@@ -526,6 +549,7 @@
       "_source_label": "World Bank",
       "notice_type_normalized": "관심표명(EOI)",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-11"
     },
     {
@@ -546,6 +570,7 @@
       "_source_label": "World Bank",
       "notice_type_normalized": "관심표명(EOI)",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -566,6 +591,7 @@
       "_source_label": "World Bank",
       "notice_type_normalized": "관심표명(EOI)",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -586,6 +612,7 @@
       "_source_label": "World Bank",
       "notice_type_normalized": "관심표명(EOI)",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -606,6 +633,7 @@
       "_source_label": "World Bank",
       "notice_type_normalized": "관심표명(EOI)",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -626,6 +654,7 @@
       "_source_label": "World Bank",
       "notice_type_normalized": "관심표명(EOI)",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -646,6 +675,7 @@
       "_source_label": "World Bank",
       "notice_type_normalized": "관심표명(EOI)",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -666,6 +696,7 @@
       "_source_label": "World Bank",
       "notice_type_normalized": "관심표명(EOI)",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -686,6 +717,7 @@
       "_source_label": "World Bank",
       "notice_type_normalized": "관심표명(EOI)",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -706,6 +738,7 @@
       "_source_label": "World Bank",
       "notice_type_normalized": "관심표명(EOI)",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -725,6 +758,7 @@
       "_source_label": "AIIB",
       "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -745,6 +779,7 @@
       "_source_label": "World Bank",
       "notice_type_normalized": "관심표명(EOI)",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -765,6 +800,7 @@
       "_source_label": "World Bank",
       "notice_type_normalized": "관심표명(EOI)",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-07"
     },
     {
@@ -785,6 +821,7 @@
       "_source_label": "World Bank",
       "notice_type_normalized": "관심표명(EOI)",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-07"
     },
     {
@@ -805,6 +842,7 @@
       "_source_label": "World Bank",
       "notice_type_normalized": "관심표명(EOI)",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-06"
     },
     {
@@ -825,6 +863,7 @@
       "_source_label": "World Bank",
       "notice_type_normalized": "관심표명(EOI)",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-07"
     },
     {
@@ -845,6 +884,7 @@
       "_source_label": "World Bank",
       "notice_type_normalized": "관심표명(EOI)",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-07"
     },
     {
@@ -865,6 +905,7 @@
       "_source_label": "World Bank",
       "notice_type_normalized": "관심표명(EOI)",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-06"
     },
     {
@@ -885,6 +926,7 @@
       "_source_label": "World Bank",
       "notice_type_normalized": "관심표명(EOI)",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-06"
     },
     {
@@ -905,6 +947,7 @@
       "_source_label": "World Bank",
       "notice_type_normalized": "관심표명(EOI)",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-06"
     },
     {
@@ -925,6 +968,7 @@
       "_source_label": "World Bank",
       "notice_type_normalized": "관심표명(EOI)",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-06"
     },
     {
@@ -945,6 +989,7 @@
       "_source_label": "World Bank",
       "notice_type_normalized": "관심표명(EOI)",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-07"
     },
     {
@@ -965,6 +1010,7 @@
       "_source_label": "World Bank",
       "notice_type_normalized": "관심표명(EOI)",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-06"
     },
     {
@@ -985,6 +1031,7 @@
       "_source_label": "World Bank",
       "notice_type_normalized": "관심표명(EOI)",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-06"
     },
     {
@@ -1005,6 +1052,7 @@
       "_source_label": "World Bank",
       "notice_type_normalized": "관심표명(EOI)",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-06"
     },
     {
@@ -1025,6 +1073,7 @@
       "_source_label": "World Bank",
       "notice_type_normalized": "관심표명(EOI)",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-06"
     },
     {
@@ -1045,6 +1094,7 @@
       "_source_label": "World Bank",
       "notice_type_normalized": "관심표명(EOI)",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-06"
     },
     {
@@ -1065,6 +1115,7 @@
       "_source_label": "World Bank",
       "notice_type_normalized": "관심표명(EOI)",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-06"
     },
     {
@@ -1085,6 +1136,7 @@
       "_source_label": "World Bank",
       "notice_type_normalized": "관심표명(EOI)",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-06"
     },
     {
@@ -1105,6 +1157,7 @@
       "_source_label": "World Bank",
       "notice_type_normalized": "관심표명(EOI)",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-06"
     },
     {
@@ -1125,6 +1178,7 @@
       "_source_label": "World Bank",
       "notice_type_normalized": "관심표명(EOI)",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-06"
     },
     {
@@ -1145,6 +1199,7 @@
       "_source_label": "World Bank",
       "notice_type_normalized": "관심표명(EOI)",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-06"
     },
     {
@@ -1165,6 +1220,7 @@
       "_source_label": "World Bank",
       "notice_type_normalized": "관심표명(EOI)",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-06"
     },
     {
@@ -1185,6 +1241,7 @@
       "_source_label": "World Bank",
       "notice_type_normalized": "관심표명(EOI)",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-06"
     },
     {
@@ -1205,6 +1262,7 @@
       "_source_label": "World Bank",
       "notice_type_normalized": "관심표명(EOI)",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-06"
     },
     {
@@ -1225,6 +1283,7 @@
       "_source_label": "World Bank",
       "notice_type_normalized": "관심표명(EOI)",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-06"
     },
     {
@@ -1245,6 +1304,7 @@
       "_source_label": "World Bank",
       "notice_type_normalized": "관심표명(EOI)",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-06"
     },
     {
@@ -1265,6 +1325,7 @@
       "_source_label": "World Bank",
       "notice_type_normalized": "관심표명(EOI)",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-06"
     },
     {
@@ -1285,6 +1346,7 @@
       "_source_label": "World Bank",
       "notice_type_normalized": "관심표명(EOI)",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-06"
     },
     {
@@ -1305,6 +1367,7 @@
       "_source_label": "World Bank",
       "notice_type_normalized": "관심표명(EOI)",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-06"
     },
     {
@@ -1325,6 +1388,7 @@
       "_source_label": "World Bank",
       "notice_type_normalized": "관심표명(EOI)",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-06"
     },
     {
@@ -1345,6 +1409,7 @@
       "_source_label": "World Bank",
       "notice_type_normalized": "관심표명(EOI)",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-06"
     },
     {
@@ -1365,6 +1430,7 @@
       "_source_label": "World Bank",
       "notice_type_normalized": "관심표명(EOI)",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-06"
     },
     {
@@ -1385,6 +1451,7 @@
       "_source_label": "World Bank",
       "notice_type_normalized": "관심표명(EOI)",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-06"
     },
     {
@@ -1405,6 +1472,7 @@
       "_source_label": "World Bank",
       "notice_type_normalized": "관심표명(EOI)",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-06"
     },
     {
@@ -1425,6 +1493,7 @@
       "_source_label": "World Bank",
       "notice_type_normalized": "관심표명(EOI)",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-06"
     },
     {
@@ -1445,6 +1514,7 @@
       "_source_label": "World Bank",
       "notice_type_normalized": "관심표명(EOI)",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-06"
     },
     {
@@ -1465,6 +1535,7 @@
       "_source_label": "World Bank",
       "notice_type_normalized": "관심표명(EOI)",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -1485,6 +1556,7 @@
       "_source_label": "World Bank",
       "notice_type_normalized": "관심표명(EOI)",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-06"
     },
     {
@@ -1505,6 +1577,7 @@
       "_source_label": "World Bank",
       "notice_type_normalized": "관심표명(EOI)",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-11"
     },
     {
@@ -1525,6 +1598,7 @@
       "_source_label": "World Bank",
       "notice_type_normalized": "관심표명(EOI)",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-06"
     },
     {
@@ -1545,6 +1619,7 @@
       "_source_label": "World Bank",
       "notice_type_normalized": "관심표명(EOI)",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-06"
     },
     {
@@ -1565,6 +1640,7 @@
       "_source_label": "World Bank",
       "notice_type_normalized": "관심표명(EOI)",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-06"
     },
     {
@@ -1585,6 +1661,7 @@
       "_source_label": "World Bank",
       "notice_type_normalized": "관심표명(EOI)",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-06"
     },
     {
@@ -1605,6 +1682,7 @@
       "_source_label": "World Bank",
       "notice_type_normalized": "관심표명(EOI)",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-06"
     },
     {
@@ -1625,6 +1703,7 @@
       "_source_label": "World Bank",
       "notice_type_normalized": "관심표명(EOI)",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-06"
     },
     {
@@ -1645,6 +1724,7 @@
       "_source_label": "World Bank",
       "notice_type_normalized": "관심표명(EOI)",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-06"
     },
     {
@@ -1665,6 +1745,7 @@
       "_source_label": "World Bank",
       "notice_type_normalized": "관심표명(EOI)",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-06"
     },
     {
@@ -1685,6 +1766,7 @@
       "_source_label": "World Bank",
       "notice_type_normalized": "관심표명(EOI)",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-06"
     },
     {
@@ -1705,6 +1787,7 @@
       "_source_label": "World Bank",
       "notice_type_normalized": "관심표명(EOI)",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-06"
     },
     {
@@ -1725,6 +1808,7 @@
       "_source_label": "World Bank",
       "notice_type_normalized": "관심표명(EOI)",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-06"
     },
     {
@@ -1745,6 +1829,7 @@
       "_source_label": "World Bank",
       "notice_type_normalized": "관심표명(EOI)",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-06"
     },
     {
@@ -1765,6 +1850,7 @@
       "_source_label": "World Bank",
       "notice_type_normalized": "관심표명(EOI)",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-06"
     },
     {
@@ -1785,6 +1871,7 @@
       "_source_label": "World Bank",
       "notice_type_normalized": "관심표명(EOI)",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-06"
     },
     {
@@ -1805,6 +1892,7 @@
       "_source_label": "World Bank",
       "notice_type_normalized": "관심표명(EOI)",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-06"
     },
     {
@@ -1825,6 +1913,7 @@
       "_source_label": "World Bank",
       "notice_type_normalized": "관심표명(EOI)",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-06"
     },
     {
@@ -1845,6 +1934,7 @@
       "_source_label": "World Bank",
       "notice_type_normalized": "관심표명(EOI)",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-06"
     },
     {
@@ -1865,6 +1955,7 @@
       "_source_label": "World Bank",
       "notice_type_normalized": "관심표명(EOI)",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-06"
     },
     {
@@ -1885,6 +1976,7 @@
       "_source_label": "World Bank",
       "notice_type_normalized": "관심표명(EOI)",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-06"
     },
     {
@@ -1905,6 +1997,7 @@
       "_source_label": "World Bank",
       "notice_type_normalized": "관심표명(EOI)",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-06"
     },
     {
@@ -1925,6 +2018,7 @@
       "_source_label": "World Bank",
       "notice_type_normalized": "관심표명(EOI)",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-06"
     },
     {
@@ -1945,6 +2039,7 @@
       "_source_label": "World Bank",
       "notice_type_normalized": "관심표명(EOI)",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-06"
     },
     {
@@ -1965,6 +2060,7 @@
       "_source_label": "World Bank",
       "notice_type_normalized": "관심표명(EOI)",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-06"
     },
     {
@@ -1985,6 +2081,7 @@
       "_source_label": "World Bank",
       "notice_type_normalized": "관심표명(EOI)",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-06"
     },
     {
@@ -2005,6 +2102,7 @@
       "_source_label": "World Bank",
       "notice_type_normalized": "관심표명(EOI)",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -2025,6 +2123,7 @@
       "_source_label": "World Bank",
       "notice_type_normalized": "관심표명(EOI)",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-06"
     },
     {
@@ -2045,6 +2144,7 @@
       "_source_label": "World Bank",
       "notice_type_normalized": "관심표명(EOI)",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-06"
     },
     {
@@ -2065,6 +2165,7 @@
       "_source_label": "World Bank",
       "notice_type_normalized": "관심표명(EOI)",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-06"
     },
     {
@@ -2085,6 +2186,7 @@
       "_source_label": "World Bank",
       "notice_type_normalized": "관심표명(EOI)",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-06"
     },
     {
@@ -2104,7 +2206,8 @@
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
-      "first_seen": "2026-08-11"
+      "first_seen": "2026-08-11",
+      "traffic_survey_signal": false
     },
     {
       "id": "g2b-R26BK01657048-000",
@@ -2123,7 +2226,8 @@
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
-      "first_seen": "2026-08-11"
+      "first_seen": "2026-08-11",
+      "traffic_survey_signal": false
     },
     {
       "id": "g2b-R26BK01584318-001",
@@ -2142,7 +2246,8 @@
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
-      "first_seen": "2026-08-11"
+      "first_seen": "2026-08-11",
+      "traffic_survey_signal": false
     },
     {
       "id": "g2b-R26BK01650609-000",
@@ -2161,7 +2266,8 @@
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
-      "first_seen": "2026-08-11"
+      "first_seen": "2026-08-11",
+      "traffic_survey_signal": false
     },
     {
       "id": "g2b-R26BK01664379-000",
@@ -2180,7 +2286,8 @@
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
-      "first_seen": "2026-08-11"
+      "first_seen": "2026-08-11",
+      "traffic_survey_signal": false
     },
     {
       "id": "g2b-R26BK01615313-001",
@@ -2199,7 +2306,8 @@
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
-      "first_seen": "2026-08-11"
+      "first_seen": "2026-08-11",
+      "traffic_survey_signal": false
     },
     {
       "id": "g2b-R26BK01672194-000",
@@ -2218,7 +2326,8 @@
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
-      "first_seen": "2026-08-11"
+      "first_seen": "2026-08-11",
+      "traffic_survey_signal": false
     },
     {
       "id": "g2b-R26BK01668938-000",
@@ -2237,7 +2346,8 @@
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
-      "first_seen": "2026-08-11"
+      "first_seen": "2026-08-11",
+      "traffic_survey_signal": false
     },
     {
       "id": "g2b-R26BK01636729-000",
@@ -2256,7 +2366,8 @@
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
-      "first_seen": "2026-08-11"
+      "first_seen": "2026-08-11",
+      "traffic_survey_signal": false
     },
     {
       "id": "g2b-R26BK01568442-001",
@@ -2275,7 +2386,8 @@
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
-      "first_seen": "2026-08-11"
+      "first_seen": "2026-08-11",
+      "traffic_survey_signal": false
     },
     {
       "id": "g2b-R26BK01619680-000",
@@ -2294,7 +2406,8 @@
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
-      "first_seen": "2026-08-11"
+      "first_seen": "2026-08-11",
+      "traffic_survey_signal": false
     },
     {
       "id": "g2b-R26BK01638829-000",
@@ -2313,7 +2426,8 @@
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
-      "first_seen": "2026-08-11"
+      "first_seen": "2026-08-11",
+      "traffic_survey_signal": false
     },
     {
       "id": "g2b-R26BK01638829-001",
@@ -2332,7 +2446,8 @@
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
-      "first_seen": "2026-08-11"
+      "first_seen": "2026-08-11",
+      "traffic_survey_signal": false
     },
     {
       "id": "g2b-R26BK01637510-000",
@@ -2351,7 +2466,8 @@
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
-      "first_seen": "2026-08-11"
+      "first_seen": "2026-08-11",
+      "traffic_survey_signal": false
     },
     {
       "id": "g2b-R26BK01644803-000",
@@ -2370,7 +2486,8 @@
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
-      "first_seen": "2026-08-11"
+      "first_seen": "2026-08-11",
+      "traffic_survey_signal": false
     },
     {
       "id": "g2b-R26BK01645195-000",
@@ -2389,7 +2506,8 @@
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
-      "first_seen": "2026-08-11"
+      "first_seen": "2026-08-11",
+      "traffic_survey_signal": false
     },
     {
       "id": "g2b-R26BK01647739-000",
@@ -2408,7 +2526,8 @@
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
-      "first_seen": "2026-08-11"
+      "first_seen": "2026-08-11",
+      "traffic_survey_signal": false
     },
     {
       "id": "g2b-R26BK01647671-000",
@@ -2427,7 +2546,8 @@
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
-      "first_seen": "2026-08-11"
+      "first_seen": "2026-08-11",
+      "traffic_survey_signal": false
     },
     {
       "id": "g2b-R26BK01645195-001",
@@ -2446,7 +2566,8 @@
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
-      "first_seen": "2026-08-11"
+      "first_seen": "2026-08-11",
+      "traffic_survey_signal": false
     },
     {
       "id": "g2b-R26BK01619680-001",
@@ -2465,7 +2586,8 @@
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
-      "first_seen": "2026-08-11"
+      "first_seen": "2026-08-11",
+      "traffic_survey_signal": false
     },
     {
       "id": "g2b-R26BK01610560-000",
@@ -2484,7 +2606,8 @@
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
-      "first_seen": "2026-08-11"
+      "first_seen": "2026-08-11",
+      "traffic_survey_signal": false
     },
     {
       "id": "g2b-R26BK01602087-001",
@@ -2503,7 +2626,8 @@
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
-      "first_seen": "2026-08-11"
+      "first_seen": "2026-08-11",
+      "traffic_survey_signal": false
     },
     {
       "id": "g2b-R26BK01615313-000",
@@ -2522,7 +2646,8 @@
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
-      "first_seen": "2026-08-11"
+      "first_seen": "2026-08-11",
+      "traffic_survey_signal": false
     },
     {
       "id": "g2b-R26BK01596637-000",
@@ -2541,7 +2666,8 @@
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
-      "first_seen": "2026-08-11"
+      "first_seen": "2026-08-11",
+      "traffic_survey_signal": false
     },
     {
       "id": "g2b-R26BK01621561-000",
@@ -2560,7 +2686,8 @@
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
-      "first_seen": "2026-08-11"
+      "first_seen": "2026-08-11",
+      "traffic_survey_signal": false
     },
     {
       "id": "g2b-R26BK01613529-000",
@@ -2579,7 +2706,8 @@
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
-      "first_seen": "2026-08-11"
+      "first_seen": "2026-08-11",
+      "traffic_survey_signal": false
     },
     {
       "id": "g2b-R26BK01614251-000",
@@ -2598,7 +2726,8 @@
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
-      "first_seen": "2026-08-11"
+      "first_seen": "2026-08-11",
+      "traffic_survey_signal": false
     },
     {
       "id": "g2b-R26BK01630949-000",
@@ -2617,7 +2746,8 @@
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
-      "first_seen": "2026-08-11"
+      "first_seen": "2026-08-11",
+      "traffic_survey_signal": false
     },
     {
       "id": "g2b-R26BK01630767-000",
@@ -2636,7 +2766,8 @@
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
-      "first_seen": "2026-08-11"
+      "first_seen": "2026-08-11",
+      "traffic_survey_signal": false
     },
     {
       "id": "g2b-R26BK01634598-000",
@@ -2655,7 +2786,8 @@
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
-      "first_seen": "2026-08-11"
+      "first_seen": "2026-08-11",
+      "traffic_survey_signal": false
     },
     {
       "id": "g2b-R26BK01578790-000",
@@ -2674,7 +2806,8 @@
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
-      "first_seen": "2026-08-11"
+      "first_seen": "2026-08-11",
+      "traffic_survey_signal": false
     },
     {
       "id": "g2b-R26BK01576058-001",
@@ -2693,7 +2826,8 @@
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
-      "first_seen": "2026-08-11"
+      "first_seen": "2026-08-11",
+      "traffic_survey_signal": false
     },
     {
       "id": "g2b-R26BK01602087-000",
@@ -2712,7 +2846,8 @@
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
-      "first_seen": "2026-08-11"
+      "first_seen": "2026-08-11",
+      "traffic_survey_signal": false
     },
     {
       "id": "g2b-R26BK01603261-000",
@@ -2731,7 +2866,8 @@
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
-      "first_seen": "2026-08-11"
+      "first_seen": "2026-08-11",
+      "traffic_survey_signal": false
     },
     {
       "id": "g2b-R26BK01599634-000",
@@ -2750,7 +2886,8 @@
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
-      "first_seen": "2026-08-11"
+      "first_seen": "2026-08-11",
+      "traffic_survey_signal": false
     },
     {
       "id": "g2b-R26BK01608611-000",
@@ -2769,7 +2906,8 @@
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
-      "first_seen": "2026-08-11"
+      "first_seen": "2026-08-11",
+      "traffic_survey_signal": false
     },
     {
       "id": "g2b-R26BK01559646-000",
@@ -2788,7 +2926,8 @@
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
-      "first_seen": "2026-08-11"
+      "first_seen": "2026-08-11",
+      "traffic_survey_signal": false
     },
     {
       "id": "g2b-R26BK01561311-000",
@@ -2807,7 +2946,8 @@
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
-      "first_seen": "2026-08-11"
+      "first_seen": "2026-08-11",
+      "traffic_survey_signal": false
     },
     {
       "id": "g2b-R26BK01564540-000",
@@ -2826,7 +2966,8 @@
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
-      "first_seen": "2026-08-11"
+      "first_seen": "2026-08-11",
+      "traffic_survey_signal": false
     },
     {
       "id": "g2b-R26BK01568442-000",
@@ -2845,7 +2986,8 @@
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
-      "first_seen": "2026-08-11"
+      "first_seen": "2026-08-11",
+      "traffic_survey_signal": false
     },
     {
       "id": "g2b-R26BK01576058-000",
@@ -2864,7 +3006,8 @@
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
-      "first_seen": "2026-08-11"
+      "first_seen": "2026-08-11",
+      "traffic_survey_signal": false
     },
     {
       "id": "g2b-R26BK01580608-000",
@@ -2883,7 +3026,8 @@
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
-      "first_seen": "2026-08-11"
+      "first_seen": "2026-08-11",
+      "traffic_survey_signal": false
     },
     {
       "id": "g2b-R26BK01580897-000",
@@ -2902,7 +3046,8 @@
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
-      "first_seen": "2026-08-11"
+      "first_seen": "2026-08-11",
+      "traffic_survey_signal": false
     },
     {
       "id": "g2b-R26BK01584318-000",
@@ -2921,7 +3066,8 @@
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
-      "first_seen": "2026-08-11"
+      "first_seen": "2026-08-11",
+      "traffic_survey_signal": false
     },
     {
       "id": "g2b-R26BK01533408-000",
@@ -2940,7 +3086,8 @@
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
-      "first_seen": "2026-08-11"
+      "first_seen": "2026-08-11",
+      "traffic_survey_signal": false
     },
     {
       "id": "g2b-R26BK01543116-000",
@@ -2959,7 +3106,8 @@
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
-      "first_seen": "2026-08-11"
+      "first_seen": "2026-08-11",
+      "traffic_survey_signal": false
     },
     {
       "id": "g2b-R26BK01553703-000",
@@ -2978,7 +3126,8 @@
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
-      "first_seen": "2026-08-11"
+      "first_seen": "2026-08-11",
+      "traffic_survey_signal": false
     },
     {
       "id": "g2b-R26BK01527567-000",
@@ -2997,7 +3146,8 @@
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
-      "first_seen": "2026-08-11"
+      "first_seen": "2026-08-11",
+      "traffic_survey_signal": false
     },
     {
       "id": "g2b-R26BK01528009-000",
@@ -3016,7 +3166,8 @@
       "_source_label": "나라장터(G2B)",
       "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
-      "first_seen": "2026-08-11"
+      "first_seen": "2026-08-11",
+      "traffic_survey_signal": false
     },
     {
       "id": "icak-503456",
@@ -3035,6 +3186,7 @@
       "_source_label": "해외건설협회(ICAK)",
       "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-06"
     },
     {
@@ -3054,6 +3206,7 @@
       "_source_label": "해외건설협회(ICAK)",
       "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-06"
     },
     {
@@ -3073,6 +3226,7 @@
       "_source_label": "해외건설협회(ICAK)",
       "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-06"
     },
     {
@@ -3092,6 +3246,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "기타",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-12"
     },
     {
@@ -3111,6 +3266,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "기타",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -3130,6 +3286,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "기타",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -3149,6 +3306,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "기타",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-11"
     },
     {
@@ -3168,6 +3326,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "기타",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-11"
     },
     {
@@ -3187,6 +3346,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "기타",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-11"
     },
     {
@@ -3206,6 +3366,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "기타",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-11"
     },
     {
@@ -3225,6 +3386,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "기타",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -3244,6 +3406,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -3263,6 +3426,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -3282,6 +3446,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "기타",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -3301,6 +3466,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "기타",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -3320,6 +3486,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "기타",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -3339,6 +3506,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "기타",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -3358,6 +3526,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "기타",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -3377,6 +3546,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "기타",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -3396,6 +3566,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "기타",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -3415,6 +3586,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "기타",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -3434,6 +3606,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "기타",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -3453,6 +3626,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "기타",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -3472,6 +3646,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "기타",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -3491,6 +3666,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "기타",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -3510,6 +3686,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "기타",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -3529,6 +3706,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "기타",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -3548,6 +3726,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "기타",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -3567,6 +3746,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -3586,6 +3766,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "기타",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -3605,6 +3786,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "기타",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -3624,6 +3806,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "기타",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -3643,6 +3826,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "기타",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -3662,6 +3846,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "기타",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -3681,6 +3866,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -3700,6 +3886,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "기타",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -3719,6 +3906,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "기타",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -3738,6 +3926,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "기타",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -3757,6 +3946,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "기타",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -3776,6 +3966,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "기타",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -3795,6 +3986,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "기타",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -3814,6 +4006,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "기타",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -3833,6 +4026,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "기타",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -3852,6 +4046,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "기타",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -3871,6 +4066,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "기타",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -3890,6 +4086,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "기타",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -3909,6 +4106,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "기타",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -3928,6 +4126,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "기타",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -3947,6 +4146,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "기타",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -3966,6 +4166,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "기타",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -3985,6 +4186,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "기타",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -4004,6 +4206,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "기타",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -4023,6 +4226,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "기타",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -4042,6 +4246,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "기타",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -4061,6 +4266,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "기타",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -4080,6 +4286,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "기타",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -4099,6 +4306,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -4118,6 +4326,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "기타",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -4137,6 +4346,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "기타",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -4156,6 +4366,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "기타",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -4175,6 +4386,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -4194,6 +4406,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "기타",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -4213,6 +4426,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "기타",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -4232,6 +4446,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "기타",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -4251,6 +4466,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "기타",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -4270,6 +4486,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "기타",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -4289,6 +4506,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "기타",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -4308,6 +4526,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "기타",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -4327,6 +4546,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "기타",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -4346,6 +4566,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "기타",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -4365,6 +4586,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "기타",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -4384,6 +4606,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -4403,6 +4626,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -4422,6 +4646,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "기타",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -4441,6 +4666,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "기타",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -4460,6 +4686,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -4479,6 +4706,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "기타",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -4498,6 +4726,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -4517,6 +4746,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "기타",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -4536,6 +4766,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "기타",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -4555,6 +4786,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "기타",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -4574,6 +4806,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "기타",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -4593,6 +4826,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "기타",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -4612,6 +4846,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "기타",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -4631,6 +4866,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -4650,6 +4886,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "기타",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -4669,6 +4906,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "기타",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -4688,6 +4926,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "기타",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -4707,6 +4946,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -4726,6 +4966,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "기타",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -4745,6 +4986,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "기타",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -4764,6 +5006,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -4783,6 +5026,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "기타",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -4802,6 +5046,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "기타",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -4821,6 +5066,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "기타",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -4840,6 +5086,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "기타",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -4859,6 +5106,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "기타",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -4878,6 +5126,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -4897,6 +5146,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "기타",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -4916,6 +5166,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -4935,6 +5186,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "기타",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -4954,6 +5206,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "기타",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -4973,6 +5226,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "기타",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -4992,6 +5246,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "기타",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -5011,6 +5266,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "기타",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -5030,6 +5286,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "기타",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -5049,6 +5306,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "기타",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -5068,6 +5326,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "기타",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -5087,6 +5346,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "기타",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -5106,6 +5366,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "기타",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -5125,6 +5386,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "기타",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -5144,6 +5406,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "기타",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -5163,6 +5426,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "기타",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -5182,6 +5446,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "기타",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -5201,6 +5466,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "기타",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -5220,6 +5486,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "기타",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -5239,6 +5506,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "기타",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -5258,6 +5526,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -5277,6 +5546,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "기타",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -5296,6 +5566,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "기타",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -5315,6 +5586,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -5334,6 +5606,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "기타",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -5353,6 +5626,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -5372,6 +5646,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -5391,6 +5666,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "기타",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -5410,6 +5686,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "기타",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -5429,6 +5706,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "기타",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -5448,6 +5726,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "기타",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -5467,6 +5746,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -5486,6 +5766,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "기타",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -5505,6 +5786,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -5524,6 +5806,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "기타",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -5543,6 +5826,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "기타",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -5562,6 +5846,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -5581,6 +5866,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "기타",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -5600,6 +5886,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "기타",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -5619,6 +5906,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "기타",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -5638,6 +5926,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -5657,6 +5946,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -5676,6 +5966,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -5695,6 +5986,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -5714,6 +6006,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -5733,6 +6026,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -5752,6 +6046,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "기타",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -5771,6 +6066,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "기타",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -5790,6 +6086,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -5809,6 +6106,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "기타",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -5828,6 +6126,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "기타",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -5847,6 +6146,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "기타",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -5866,6 +6166,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -5885,6 +6186,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -5904,6 +6206,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -5923,6 +6226,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -5942,6 +6246,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -5961,6 +6266,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "기타",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -5980,6 +6286,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "기타",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -5999,6 +6306,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -6018,6 +6326,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "기타",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -6037,6 +6346,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -6056,6 +6366,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "기타",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -6075,6 +6386,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "기타",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -6094,6 +6406,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "기타",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -6113,6 +6426,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "기타",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -6132,6 +6446,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -6151,6 +6466,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "기타",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -6170,6 +6486,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "기타",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -6189,6 +6506,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "기타",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -6208,6 +6526,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -6227,6 +6546,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "기타",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -6246,6 +6566,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "기타",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -6265,6 +6586,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "기타",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -6284,6 +6606,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -6303,6 +6626,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "기타",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -6322,6 +6646,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -6341,6 +6666,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "기타",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -6360,6 +6686,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "기타",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -6379,6 +6706,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -6398,6 +6726,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "기타",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -6417,6 +6746,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "기타",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -6436,6 +6766,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -6455,6 +6786,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -6474,6 +6806,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "기타",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -6493,6 +6826,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "기타",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -6512,6 +6846,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "기타",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -6531,6 +6866,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "기타",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -6550,6 +6886,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "기타",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -6569,6 +6906,7 @@
       "_source_label": "EIB",
       "notice_type_normalized": "기타",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -6588,6 +6926,7 @@
       "_source_label": "KIND",
       "notice_type_normalized": "사전공개",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
     },
     {
@@ -6607,6 +6946,7 @@
       "_source_label": "KIND",
       "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
+      "traffic_survey_signal": false,
       "first_seen": "2026-08-06"
     }
   ]
