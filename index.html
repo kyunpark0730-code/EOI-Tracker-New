@@ -376,6 +376,7 @@ function renderGrid(items, currentMode){
       || (methodUpper.includes('QBS') && !methodUpper.includes('CQS'));
     const isWeakMethod = methodUpper.includes('CQS') || methodUpper.includes('QUALIFICATION');
     if (n.procurement_method) chips.push(`<span class="meta-chip ${isStrongMethod ? 'method-strong' : ''}" style="${isWeakMethod ? 'opacity:.55;' : ''}">${escapeHtml(n.procurement_method)}</span>`);
+    if (n.consortium_signal) chips.push(`<span class="meta-chip" style="background:#fef3e2; color:#92400e; font-weight:700;" title="재무/거래자문 등 다산 전문영역 밖 업무가 같은 계약에 함께 묶여있을 수 있어요 (여러 단계 계약 또는 Transaction Advisory 표현 감지)">⚠ 복합용역(컨소시엄 필요 가능성)</span>`);
     const metaRow = chips.length ? `<div class="meta-row">${chips.join('')}</div>` : '';
     const descLine = n.bid_description ? `<span class="desc-line">${escapeHtml(n.bid_description)}</span>` : '';
 
@@ -388,7 +389,7 @@ function renderGrid(items, currentMode){
       const dLabel = dLeft === null ? '' : (dLeft < 0 ? ' (마감됨)' : ` (D-${dLeft})`);
       dateBits.push(`<span class="deadline ${urgent ? 'deadline-urgent' : ''}">마감 ${escapeHtml(niceDate)}${dLabel}</span>`);
     }
-    if (n.notice_date) dateBits.push(`<span style="color:#a1a7b0;">원문 날짜(참고) ${escapeHtml(n.notice_date)}</span>`);
+    if (n.notice_date) dateBits.push(`<b>원문 날짜(참고) ${escapeHtml(n.notice_date)}</b>`);
     const dateBlock = dateBits.length ? dateBits.join('<br>') : '-';
 
     return `
