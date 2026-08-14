@@ -371,6 +371,7 @@ function renderGrid(items, currentMode){
 
     const chips = [];
     if (n.bid_reference_no) chips.push(`<span class="meta-chip">Ref. ${escapeHtml(n.bid_reference_no)}</span>`);
+    if (n.agency_tag) chips.push(`<span class="meta-chip" style="background:#e0f2fe; color:#075985; font-weight:700;">${escapeHtml(n.agency_tag)}</span>`);
     const methodUpper = (n.procurement_method || '').toUpperCase();
     const isStrongMethod = methodUpper.includes('QCBS') || methodUpper.includes('QUALITY AND COST')
       || (methodUpper.includes('QBS') && !methodUpper.includes('CQS'));
