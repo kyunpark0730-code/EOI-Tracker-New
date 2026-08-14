@@ -28,6 +28,11 @@ HARD_EXCLUDE_PATTERNS = [
     # (PMO/PMC 역할 자체는 다산도 하지만, 관리대상 사업이 산림·생물다양성 분야면 무관)
     r"bioeconomy", r"forest restoration", r"climate-smart agriculture",
     r"reflorestamento", r"agroforest",
+    # 마을 단위 토지이용계획/생태 회랑 등 GEF류 환경보전·토지이용 프로그램.
+    # 수자원/관개 관리 사업 산하 세부 과업으로 붙는 경우가 있어 INCLUDE와
+    # 겹칠 수 있으므로 하드제외로 분류.
+    r"village land use", r"land use action plan", r"biodiversity corridor",
+    r"community-based natural resource management",
     # 법률/사법 분야 교육·역량강화 (판사·행정관 연수, 파산법 등 법조인 대상 훈련)
     r"insolvency", r"judges? and administrators", r"judicial training",
     r"commercial law", r"legal training program",
