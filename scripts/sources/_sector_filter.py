@@ -135,6 +135,7 @@ EXCLUDE_PATTERNS = [
     r"voltage network", r"transmission line", r"transmission network",
     r"transmission infrastructure", r"power grid", r"substation",
     r"송전", r"배전", r"변전소", r"전력망",
+    r"\bBESS\b", r"battery energy storage", r"에너지저장장치",
     r"ligne de transmission", r"r[ée]seau [ée]lectrique", r"linha de transmiss[ãa]o", r"l[íi]nea de transmisi[óo]n",
     r"cybersecurity", r"cyber security", r"cybers[ée]curit[ée]", r"ciberseguridad",
     r"\bICT\b", r"information and communications technology",
