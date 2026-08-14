@@ -70,6 +70,15 @@ HARD_EXCLUDE_PATTERNS = [
     # (설계/타당성조사/감리)이 아니라 기관 경영컨설팅이라 다산 전문영역과 다름.
     r"management support consultant", r"institutional strengthening",
     r"organizational restructuring", r"institutional review and organizational",
+    # 에너지저장장치(BESS) — "타당성조사" 등 INCLUDE 키워드와 같이 나오는 경우가
+    # 있어 하드제외로 이동 (전력망/변전소와 같은 전력 부문, 다산 전문영역 아님)
+    r"\bBESS\b", r"battery energy storage", r"에너지저장장치",
+    # 정보화사업 감리(IT/소프트웨어 프로젝트 관리·감독) — "감리"라는 단어가
+    # 건설감리와 똑같이 쓰이지만 실제로는 IT사업으로 완전히 다른 분야
+    r"정보화\s*감리", r"정보화\s*사업\s*관리",
+    # KOICA 등 국내 행정지원 용역(임금체계/전시관 시설/사업평가 등 -
+    # 해외 인프라 설계·감리가 아니라 기관 내부 행정·평가 업무)
+    r"임금체계", r"전시관", r"심층평가", r"배움터",
 ]
 
 # 하나라도 걸리면 무조건 포함 (토목/인프라 핵심 분야)
@@ -138,7 +147,6 @@ EXCLUDE_PATTERNS = [
     r"voltage network", r"transmission line", r"transmission network",
     r"transmission infrastructure", r"power grid", r"substation",
     r"송전", r"배전", r"변전소", r"전력망",
-    r"\bBESS\b", r"battery energy storage", r"에너지저장장치",
     r"ligne de transmission", r"r[ée]seau [ée]lectrique", r"linha de transmiss[ãa]o", r"l[íi]nea de transmisi[óo]n",
     r"cybersecurity", r"cyber security", r"cybers[ée]curit[ée]", r"ciberseguridad",
     r"\bICT\b", r"information and communications technology",
