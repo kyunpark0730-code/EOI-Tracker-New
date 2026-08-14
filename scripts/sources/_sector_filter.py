@@ -40,6 +40,10 @@ HARD_EXCLUDE_PATTERNS = [
     # 토목이 아니라 건축(building) 분야라 construction supervision 등 INCLUDE
     # 키워드와 겹쳐도 하드제외)
     r"public buildings?", r"emergency shelters?", r"retrofitting of (public )?buildings?",
+    # 나라장터 수집기가 수요기관명에 "해외" 포함 여부로 필터링하는데, "김해외국어고등학교"처럼
+    # 지명·교명에 우연히 "해외" 두 글자가 끼어 들어오는 학교/교육청 공고를 걸러냄
+    # (국외 현장체험학습 등 학생 해외연수 용역 - 해외 인프라 사업과 무관)
+    r"고등학교", r"교육청", r"현장체험학습",
     # 법률/사법 분야 교육·역량강화 (판사·행정관 연수, 파산법 등 법조인 대상 훈련)
     r"insolvency", r"judges? and administrators", r"judicial training",
     r"commercial law", r"legal training program",
