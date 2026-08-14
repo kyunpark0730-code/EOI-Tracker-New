@@ -36,6 +36,10 @@ HARD_EXCLUDE_PATTERNS = [
     # 생계형 소규모 사업(livelihood subproject) 사업계획서 작성 등 소득창출·
     # 가치사슬 경제개발 자문 (엔지니어링이 아니라 비즈니스 컨설팅 성격)
     r"livelihood subproject", r"business plans? for livelihood", r"value chains? for",
+    # 공공건물/재난대피소 신축·보강·재건축 설계 및 감리 (도로/관개/댐/제방 등
+    # 토목이 아니라 건축(building) 분야라 construction supervision 등 INCLUDE
+    # 키워드와 겹쳐도 하드제외)
+    r"public buildings?", r"emergency shelters?", r"retrofitting of (public )?buildings?",
     # 법률/사법 분야 교육·역량강화 (판사·행정관 연수, 파산법 등 법조인 대상 훈련)
     r"insolvency", r"judges? and administrators", r"judicial training",
     r"commercial law", r"legal training program",
