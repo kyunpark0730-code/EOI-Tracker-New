@@ -44,6 +44,10 @@ HARD_EXCLUDE_PATTERNS = [
     # 지명·교명에 우연히 "해외" 두 글자가 끼어 들어오는 학교/교육청 공고를 걸러냄
     # (국외 현장체험학습 등 학생 해외연수 용역 - 해외 인프라 사업과 무관)
     r"고등학교", r"교육청", r"현장체험학습",
+    # 계량과학(metrology) 계측장비 운영 역량강화 교육훈련 (계측표준 전문분야,
+    # 산업경쟁력 프로젝트 산하로 나와도 다산 엔지니어링 전문영역과 무관)
+    r"metrology equipment", r"metrology institute", r"calibration and measurement capabilit",
+]
     # 법률/사법 분야 교육·역량강화 (판사·행정관 연수, 파산법 등 법조인 대상 훈련)
     r"insolvency", r"judges? and administrators", r"judicial training",
     r"commercial law", r"legal training program",
