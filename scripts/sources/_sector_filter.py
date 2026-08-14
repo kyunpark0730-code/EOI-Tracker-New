@@ -54,6 +54,10 @@ HARD_EXCLUDE_PATTERNS = [
     # 물리적 토목이 아니라 도시계획·공공공간 조성 성격이라 다산 전문영역과 다름
     r"eco-inclusive district", r"distrito eco-inclusivo", r"public space improvement",
     r"mejoramiento de espacios p[úu]blicos", r"coastal resilience", r"franja costera",
+    # 도시개발 마스터플랜/공간계획 수립, 도시 시뮬레이션·계획 플랫폼 구축 -
+    # 물리적 토목이 아니라 도시계획·정책 수립 자체가 산출물인 용역
+    r"urban development masterplan", r"spatial development framework",
+    r"urban scenario planning platform", r"spatial planning",
     # 전력시장 설계·거래제도 자문 (물리적 송배전망 설계가 아니라 시장운영/규제 정책)
     r"trading bilateral contract market", r"electricity market design",
     r"power market reform", r"market operator",
