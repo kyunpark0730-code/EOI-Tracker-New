@@ -149,6 +149,9 @@ def _fetch_live() -> list:
                         continue
 
                     nid = item.get("bidNtceNo", "") + "-" + item.get("bidNtceOrd", "")
+                    # 수요기관명에 "국제협력단"이 있으면 KOICA(한국국제협력단) 공고임을
+                    # 대시보드에서 바로 알아볼 수 있도록 별도 태그로 표시한다.
+                    agency_tag = "KOICA" if "국제협력단" in dminstt else ""
                     results[nid] = {
                         "id": f"g2b-{nid}",
                         "notice_type": "용역 입찰공고",
@@ -160,6 +163,7 @@ def _fetch_live() -> list:
                         "bid_reference_no": item.get("bidNtceNo", ""),
                         "bid_description": dminstt,
                         "procurement_method": item.get("cntrctCnclsMthdNm", ""),
+                        "agency_tag": agency_tag,
                         "summary": "",
                         "source": "나라장터(G2B)",
                         "source_url": item.get("bidNtceDtlUrl") or "https://www.g2b.go.kr",
