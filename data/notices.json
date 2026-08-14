@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-13T23:52:54.361061+00:00",
+  "generated_at": "2026-08-14T00:18:34.709625+00:00",
   "today_kst": "2026-08-14",
   "sources": [
-    "World Bank 656건",
+    "World Bank 610건",
     "한국건설엔지니어링협회 1건",
     "ADB 0건",
-    "나라장터(G2B) 89건",
+    "나라장터(G2B) 77건",
     "해외건설협회(ICAK) 3건",
-    "EIB 200건",
-    "KIND 4건",
+    "EIB 183건",
+    "KIND 3건",
     "AIIB 6건"
   ],
   "source_status": {
@@ -22,11 +22,11 @@
     },
     "ADB": {
       "last_success": "알 수 없음",
-      "consecutive_failures": 54
+      "consecutive_failures": 55
     },
     "나라장터(G2B)": {
       "last_success": "2026-08-14",
-      "consecutive_failures": 0
+      "consecutive_failures": 1
     },
     "해외건설협회(ICAK)": {
       "last_success": "2026-08-14",
@@ -34,7 +34,7 @@
     },
     "EIB": {
       "last_success": "2026-08-14",
-      "consecutive_failures": 0
+      "consecutive_failures": 1
     },
     "KIND": {
       "last_success": "2026-08-14",
@@ -45,8 +45,8 @@
       "consecutive_failures": 0
     }
   },
-  "count": 373,
-  "new_today_count": 8,
+  "count": 364,
+  "new_today_count": 7,
   "notices": [
     {
       "id": "wb-OP00460776",
@@ -189,27 +189,6 @@
       "summary": "FEDERAL GOVERNMENT OF NIGERIA FEDERAL MINISTRY OF WATER RESOURCES AND SANITATION SUSTAINABLE POWER AND IRRIGATION FOR NIGERIA (SPIN) PROJECT IDA Credit No: IDA76370 REQUEST FOR EXPRESSIONS OF INTEREST FOR CONSULTANCY SERVICES Assignment Title: ENGAGEMENT OF A CONSULTING FIRM FOR CONSTRUCTION SUPERVISION OF THE DESIGN &amp; BUILD OF IRRIGATION SCHEMES FOR ADANI (ENUGU STATE) AND NDIEZE (EBONYI STATE) IRRIGATION SCHEME Reference No.: FMWR&amp;S/SPIN/QCBS/CS/9D The Federal Government of Nigeria (FG",
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00461964",
-      "_source_label": "World Bank",
-      "notice_type_normalized": "관심표명(EOI)",
-      "consortium_signal": false,
-      "traffic_survey_signal": false,
-      "first_seen": "2026-08-14"
-    },
-    {
-      "id": "wb-OP00461027",
-      "notice_type": "Request for Expression of Interest",
-      "notice_date": "12-Aug-2026",
-      "submission_date": "2026-10-02T00:00:00Z",
-      "country": "Pakistan",
-      "project_id": "P163461",
-      "project_name": "Khyber Pakhtunkhwa Hydropower and Renewable Energy Development",
-      "bid_reference_no": "PK-PEDO-505355-CS-QCBS",
-      "bid_description": "Management Support Consultant (MSC)  for Khyber Pakhtunkhwa Hydropower & Renewable Energy Development (KHRE) Program - Pakhtunkhwa Energy Development Organization (PEDO)",
-      "procurement_method": "Quality And Cost-Based Selection",
-      "procurement_group": "CS",
-      "summary": "REQUEST FOR EXPRESSIONS OF INTEREST (REOI) (CONSULTING SERVICES &ndash; FIRMS SELECTION) KHYBER PAKHTUNKHWA HYDROPOWER &amp; RENEWABLE ENERGY DEVELOPMENT (KHRE) PROGRAM ASSIGNMENT TITLE: MANAGEMENT SUPPORT CONSULTANT (MSC) 1. Background The Government of Khyber Pakhtunkhwa (GoKP), through the Pakhtunkhwa Energy Development Organization (PEDO), is implementing the Khyber Pakhtunkhwa Hydropower &amp; Renewable Energy Development (KHRE) Program with financial assistance of the World Bank. The objec",
-      "source": "World Bank",
-      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00461027",
       "_source_label": "World Bank",
       "notice_type_normalized": "관심표명(EOI)",
       "consortium_signal": false,
@@ -1035,27 +1014,6 @@
       "first_seen": "2026-08-07"
     },
     {
-      "id": "wb-OP00460485",
-      "notice_type": "Request for Expression of Interest",
-      "notice_date": "04-Aug-2026",
-      "submission_date": "2026-08-13T00:00:00Z",
-      "country": "Angola",
-      "project_id": "P177305",
-      "project_name": "Smallholder Agricultural Transformation Project",
-      "bid_reference_no": "160/C3/C/MOSAP3/25",
-      "bid_description": "Contratação de uma empresa de comunicação e imagem, para apoiar e aumentar a visibilidade do Projecto nos mercados nacional e internacional.",
-      "procurement_method": "Consultant Qualification  Selection",
-      "procurement_group": "CS",
-      "summary": "Pa&iacute;s: Angola Nome do Projecto: Projecto de Transforma&ccedil;&atilde;o da Agro-pecu&aacute;ria Familiar (MOSAP 3) No. do Empr&eacute;stimo: BIRD-9396 - AO Nome da Actividade: Contrata&ccedil;&atilde;o de uma empresa de comunica&ccedil;&atilde;o e imagem, para apoiar e aumentar a visibilidade do Projecto nos mercados nacional e internacional. N&ordm; da Actividade: 160/C3/C/MOSAP3/25 O Minist&eacute;rio da Agricultura e Florestas (MINAGRIF) recebeu financiamento do Banco Mundial para a cob",
-      "source": "World Bank",
-      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00460485",
-      "_source_label": "World Bank",
-      "notice_type_normalized": "관심표명(EOI)",
-      "consortium_signal": false,
-      "traffic_survey_signal": false,
-      "first_seen": "2026-08-06"
-    },
-    {
       "id": "wb-OP00460269",
       "notice_type": "Request for Expression of Interest",
       "notice_date": "04-Aug-2026",
@@ -1238,27 +1196,6 @@
       "summary": "APPEL A MANIFESTATIONS D&rsquo;INT&Eacute;R&Ecirc;T (SERVICES DE CONSULTANTS &ndash; S&Eacute;LECTION DE FIRMES) Pays : Madagascar Ma&icirc;tre d&rsquo;Ouvrage : Minist&egrave;re des Transports et de la M&eacute;t&eacute;orologie (MTM) &ndash; A&eacute;roports De Madagascar (ADEMA) Projet : Projet de Transport Multimodal et de Logistique (PTML) Financement : Cr&eacute;dit A : IDA SUW 8005-MG, Cr&eacute;dit B : IDA 8004-MG Intitul&eacute; de la Mission : Maitrise d&rsquo;&oelig;uvre compl&egrave;",
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00460281",
-      "_source_label": "World Bank",
-      "notice_type_normalized": "관심표명(EOI)",
-      "consortium_signal": false,
-      "traffic_survey_signal": false,
-      "first_seen": "2026-08-06"
-    },
-    {
-      "id": "wb-OP00460000",
-      "notice_type": "Request for Expression of Interest",
-      "notice_date": "31-Jul-2026",
-      "submission_date": "2026-08-13T00:00:00Z",
-      "country": "Niger",
-      "project_id": "P175857",
-      "project_name": "Niger Integrated Urban Development and Multi-sectoral Resilience Project",
-      "bid_reference_no": "NE-PIDUREM-563688-CS-CQS",
-      "bid_description": "Suivi contrôle travaux de drainage prioritaire phase 2 dans les villes de Tahoua, Agadez et Dosso",
-      "procurement_method": "Consultant Qualification  Selection",
-      "procurement_group": "CS",
-      "summary": "REPUBLIQUE DU NIGER Fraternit&eacute; &ndash; Travail &ndash; Progr&egrave;s ---------------------------------------- Ministere de l&rsquo;Urbanisme et de l&rsquo;Habitat Projet Integr&eacute; de Developpement Urbain et de Resilience Multisectorielle PIDUREM Galley Ma Zaada Avis &agrave; Manifestation d&rsquo;int&eacute;r&ecirc;t pour la s&eacute;lection d&rsquo;un bureau/cabinet pour le suivi contr&ocirc;le de la r&eacute;alisation des routes et ouvrages d&rsquo;assainissement et de drainage (C",
-      "source": "World Bank",
-      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00460000",
       "_source_label": "World Bank",
       "notice_type_normalized": "관심표명(EOI)",
       "consortium_signal": false,
@@ -1511,48 +1448,6 @@
       "summary": "REQUEST FOR EXPRESSIONS OF INTEREST (CONSULTING SERVICES &ndash; FIRMS SELECTION) Country &ndash; Republic of Kosovo Name of Project- Fostering and Leveraging Opportunities for Water Security Project (FLOWS) Assigment Title: Supervision of Construction Works for Priority Remedial and Monitoring/Instrumentation Works for Selected Dams in Kosovo and Supply and Installation of Early Warning and Alarm System (EWAS) IDA Credit No. 6636-XK Project ID No. 169150 Reference number: FLOWS-CS-CQS-22 Issued",
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00459501",
-      "_source_label": "World Bank",
-      "notice_type_normalized": "관심표명(EOI)",
-      "consortium_signal": false,
-      "traffic_survey_signal": false,
-      "first_seen": "2026-08-06"
-    },
-    {
-      "id": "wb-OP00459490",
-      "notice_type": "Request for Expression of Interest",
-      "notice_date": "29-Jul-2026",
-      "submission_date": "2026-08-13T00:00:00Z",
-      "country": "Eastern and Southern Africa",
-      "project_id": "P180117",
-      "project_name": "Building Institutions And Systems to Harness And Realize Agenda 2063 Project",
-      "bid_reference_no": "ET-AUC-555556-CS-QCBS",
-      "bid_description": "Consulting Services to undertake a continental diagnostic study on the state of decentralisation and local governance in Africa",
-      "procurement_method": "Quality And Cost-Based Selection",
-      "procurement_group": "CS",
-      "summary": "REQUEST FOR EXPRESSIONS OF INTEREST (CONSULTING SERVICES &ndash; FIRM SELECTION) Country: Ethiopia Name of Project: The Building Institutions and Systems to Harness and Realize Agenda (BIASHARA) 2063 Project Grant No : P180117 Assignment Title: Consulting Services to Undertake a Continental Diagnostic Study on the State of Decentralisation and Local Governance in Africa Reference No . ET-AUC-555556-CS-QCBS The African Union Commission has received financing from the World Bank toward the cost of",
-      "source": "World Bank",
-      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00459490",
-      "_source_label": "World Bank",
-      "notice_type_normalized": "관심표명(EOI)",
-      "consortium_signal": false,
-      "traffic_survey_signal": false,
-      "first_seen": "2026-08-06"
-    },
-    {
-      "id": "wb-OP00459488",
-      "notice_type": "Request for Expression of Interest",
-      "notice_date": "29-Jul-2026",
-      "submission_date": "2026-08-13T00:00:00Z",
-      "country": "Eastern and Southern Africa",
-      "project_id": "P180117",
-      "project_name": "Building Institutions And Systems to Harness And Realize Agenda 2063 Project",
-      "bid_reference_no": "ET-AUC-555560-CS-QCBS",
-      "bid_description": "Consulting Services to conduct a Continental Study on the State of Performance of Public Service delivery in Africa",
-      "procurement_method": "Quality And Cost-Based Selection",
-      "procurement_group": "CS",
-      "summary": "REQUEST FOR EXPRESSIONS OF INTEREST (CONSULTING SERVICES &ndash; FIRM SELECTION) Country: Ethiopia Name of Project: The Building Institutions and Systems to Harness and Realize Agenda (BIASHARA) 2063 Project Grant No : P180117 Assignment Title: Consulting Services to Conduct a Continental Study on the State of Performance of Public Service Delivery in Africa Reference No . ET-AUC-555560-CS-QCBS The African Union Commission has received financing from the World Bank toward the cost of The Buildin",
-      "source": "World Bank",
-      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00459488",
       "_source_label": "World Bank",
       "notice_type_normalized": "관심표명(EOI)",
       "consortium_signal": false,
@@ -2022,27 +1917,6 @@
       "first_seen": "2026-08-06"
     },
     {
-      "id": "wb-OP00459055",
-      "notice_type": "Request for Expression of Interest",
-      "notice_date": "27-Jul-2026",
-      "submission_date": "2026-09-01T00:00:00Z",
-      "country": "Georgia",
-      "project_id": "P175629",
-      "project_name": "Georgia Resilient Agriculture, Irrigation, and Land Project",
-      "bid_reference_no": "GR/CS/CQS/15",
-      "bid_description": "Consulting Services for the Development of an Institutional Strengthening Strategy, Roadmap, and Action Plan for Sustainable Agricultural Land Management in Georgia",
-      "procurement_method": "Consultant Qualification  Selection",
-      "procurement_group": "CS",
-      "summary": "REQUEST FOR EXPRESSIONS OF INTEREST (CONSULTING SERVICES &ndash; FIRMS SELECTION) GEORGIA Georgia Resilient Agriculture, Irrigation and Land Project (GRAIL) &ndash; P175629 Loan No. 9504-GE Assignment title: Consulting Services for the Development of an Institutional Strengthening Strategy, Roadmap, and Action Plan for Sustainable Agricultural Land Management in Georgia Reference No . GR/CS/CQS/15 Georgia has received financing from the World Bank toward the cost of Georgia Resilient Agriculture",
-      "source": "World Bank",
-      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00459055",
-      "_source_label": "World Bank",
-      "notice_type_normalized": "관심표명(EOI)",
-      "consortium_signal": false,
-      "traffic_survey_signal": false,
-      "first_seen": "2026-08-06"
-    },
-    {
       "id": "wb-OP00457919",
       "notice_type": "Request for Expression of Interest",
       "notice_date": "26-Jul-2026",
@@ -2211,27 +2085,6 @@
       "first_seen": "2026-08-06"
     },
     {
-      "id": "wb-OP00457364",
-      "notice_type": "Request for Expression of Interest",
-      "notice_date": "17-Jul-2026",
-      "submission_date": "2026-08-13T00:00:00Z",
-      "country": "Western and Central Africa",
-      "project_id": "P508837",
-      "project_name": "Health Security Program in Western and Central Africa - Phase III",
-      "bid_reference_no": "TD-MOH-TD-544453-CS-CQS",
-      "bid_description": "Recrutement d’un ingénieur conseil pour les études et contrôle des travaux de réhabilitation d’un magasin COUSP",
-      "procurement_method": "Consultant Qualification  Selection",
-      "procurement_group": "CS",
-      "summary": "R&Eacute;PUBLIQUE DU TCHAD ************** MINIST&Egrave;RE DE LA SANT&Eacute; PUBLIQUE ET DE LA PREVENTION ************** SECRETARIAT D&rsquo;ETAT ************** SECRETARIAT GENERAL ************** UNITE DE COORDINATION DES PROJETS(UCP) **************** VISA SPM : Unit&eacute; &ndash;Travail-Progr&egrave;s - &ndash; ************** ********** ********** ********** AVIS &Agrave; MANIFESTATION D&#39;INT&Eacute;R&Ecirc;T Recrutement d&rsquo;un Bureau d&rsquo;&Eacute;tudes Techniques (BET) pour la r&e",
-      "source": "World Bank",
-      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00457364",
-      "_source_label": "World Bank",
-      "notice_type_normalized": "관심표명(EOI)",
-      "consortium_signal": false,
-      "traffic_survey_signal": false,
-      "first_seen": "2026-08-10"
-    },
-    {
       "id": "wb-OP00457279",
       "notice_type": "Request for Expression of Interest",
       "notice_date": "16-Jul-2026",
@@ -2288,27 +2141,6 @@
       "summary": "REQUEST FOR EXPRESSIONS OF INTEREST SAINT LUCIA UNLEASHING THE BLUE ECONOMY IN THE CARIBBEAN (UBEC) IDA Credit # P171833 Assignment Title: Consultancy Services - Upgrade of the Leachate System Reference No . LC-MOFED-541022-CS-CQS-ULS-26 Saint Lucia has received financing from the World Bank toward the cost of Unleashing the Blue Economy of the Caribbean (UBEC) and intends to apply part of the proceeds to hiring a consulting firm to conduct a technical assessment and upgrade plan for the Deglos ",
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00456499",
-      "_source_label": "World Bank",
-      "notice_type_normalized": "관심표명(EOI)",
-      "consortium_signal": false,
-      "traffic_survey_signal": false,
-      "first_seen": "2026-08-06"
-    },
-    {
-      "id": "wb-OP00450554",
-      "notice_type": "Request for Expression of Interest",
-      "notice_date": "10-Jul-2026",
-      "submission_date": "2026-08-13T00:00:00Z",
-      "country": "Armenia",
-      "project_id": "P181917",
-      "project_name": "Nairit Environmental Remediation and Regeneration Project",
-      "bid_reference_no": "AM-R2E2-557155-CS-CQS",
-      "bid_description": "Feasibility Study on Treatability and Neutralization of Chemicals in the Nairit Chemical Plant",
-      "procurement_method": "Consultant Qualification  Selection",
-      "procurement_group": "CS",
-      "summary": "REQUEST FOR EXPRESSIONS OF INTEREST (REOI) with extended deadline CONSULTING SERVICES &ndash; FIRMS SELECTION Name of Project Nairit Environmental Remediation and Regeneration Project (NATURE) Grant Number TF0C8925 Assignment Title Feasibility Study on Treatment of Chemicals in the Nairit Chemical Plant Procurement Plan Ref Number AM-R2E2-557155-CS-CQS Country Republic of Armenia Date: June 11, 2026 The Republic of Armenia has received grant financing from the World Bank to support preparation o",
-      "source": "World Bank",
-      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00450554",
       "_source_label": "World Bank",
       "notice_type_normalized": "관심표명(EOI)",
       "consortium_signal": false,
@@ -7594,26 +7426,6 @@
       "consortium_signal": false,
       "traffic_survey_signal": false,
       "first_seen": "2026-08-10"
-    },
-    {
-      "id": "kind-11322",
-      "notice_type": "입찰공고 26-027호",
-      "notice_date": "2026-06-15",
-      "submission_date": "",
-      "country": "",
-      "project_id": "11322",
-      "project_name": "[입찰공고 26-027호] 미국 텍사스 오블리가토 200MW/400MWh BESS 건설 본 타당성조사",
-      "bid_reference_no": "",
-      "bid_description": "",
-      "procurement_method": "",
-      "summary": "",
-      "source": "KIND",
-      "source_url": "https://www.kindkorea.or.kr/pages/72?id=11322&menuMode=READ&q=",
-      "_source_label": "KIND",
-      "notice_type_normalized": "입찰공고",
-      "consortium_signal": false,
-      "traffic_survey_signal": false,
-      "first_seen": "2026-08-06"
     }
   ]
 }
