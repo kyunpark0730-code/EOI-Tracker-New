@@ -47,7 +47,6 @@ HARD_EXCLUDE_PATTERNS = [
     # 계량과학(metrology) 계측장비 운영 역량강화 교육훈련 (계측표준 전문분야,
     # 산업경쟁력 프로젝트 산하로 나와도 다산 엔지니어링 전문영역과 무관)
     r"metrology equipment", r"metrology institute", r"calibration and measurement capabilit",
-]
     # 법률/사법 분야 교육·역량강화 (판사·행정관 연수, 파산법 등 법조인 대상 훈련)
     r"insolvency", r"judges? and administrators", r"judicial training",
     r"commercial law", r"legal training program",
