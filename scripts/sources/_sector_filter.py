@@ -46,6 +46,11 @@ HARD_EXCLUDE_PATTERNS = [
     r"carbon credit", r"carbon crediting", r"carbon monetization", r"carbon monetisation",
     r"carbon market", r"ghg accounting", r"\bmrv\b", r"verra\b", r"gold standard\b",
     r"\bcdm\b", r"article 6\.4",
+    # 발전/에너지 사업 시행기관 자체에 대한 경영·제도 자문(조직개편/인사/재무/요금·규제/
+    # ERP 등). "Hydropower" 등 INCLUDE 키워드에 걸려도, 실제 업무는 엔지니어링
+    # (설계/타당성조사/감리)이 아니라 기관 경영컨설팅이라 다산 전문영역과 다름.
+    r"management support consultant", r"institutional strengthening",
+    r"organizational restructuring", r"institutional review and organizational",
 ]
 
 # 하나라도 걸리면 무조건 포함 (토목/인프라 핵심 분야)
