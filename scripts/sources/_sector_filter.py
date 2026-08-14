@@ -33,6 +33,9 @@ HARD_EXCLUDE_PATTERNS = [
     # 겹칠 수 있으므로 하드제외로 분류.
     r"village land use", r"land use action plan", r"biodiversity corridor",
     r"community-based natural resource management",
+    # 생계형 소규모 사업(livelihood subproject) 사업계획서 작성 등 소득창출·
+    # 가치사슬 경제개발 자문 (엔지니어링이 아니라 비즈니스 컨설팅 성격)
+    r"livelihood subproject", r"business plans? for livelihood", r"value chains? for",
     # 법률/사법 분야 교육·역량강화 (판사·행정관 연수, 파산법 등 법조인 대상 훈련)
     r"insolvency", r"judges? and administrators", r"judicial training",
     r"commercial law", r"legal training program",
