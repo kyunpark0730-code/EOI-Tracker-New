@@ -245,6 +245,12 @@ def main():
     all_notices = [n for n in all_notices if n.get("procurement_group") not in EXCLUDED_PROCUREMENT_GROUPS]
     goods_filtered_out = before_goods_filter - len(all_notices)
     print(f"물품/공사/비컨설팅용역(Goods/CW/NC)으로 제외됨: {goods_filtered_out}건")
+    # 나라장터(G2B) 수의계약(경쟁입찰 없이 특정 업체와 협의로 계약금액을 정하는
+    # 절차)은 다산이 지원할 수 있는 경쟁형 조달(EOI/RFP 등)이 아니므로 제외한다.
+    before_sole_source_filter = len(all_notices)
+    all_notices = [n for n in all_notices if "수의" not in (n.get("procurement_method") or "")]
+    sole_source_filtered_out = before_sole_source_filter - len(all_notices)
+    print(f"수의계약으로 제외됨: {sole_source_filtered_out}건")
 
     # 낙찰결과(Contract Award)는 이미 끝난 결과 통보라 지원 기회가 아니므로 통째로 제외한다.
     before_award_filter = len(all_notices)
@@ -285,7 +291,7 @@ def main():
         if is_relevant(n.get("project_name", ""), n.get("bid_description", ""),
                         n.get("notice_type", ""), n.get("summary", ""))
     ]
-    filtered_out = before_filter - len(all_notices) - job_filtered_out - goods_filtered_out - award_filtered_out - pp_filtered_out
+    filtered_out = before_filter - len(all_notices) - job_filtered_out - goods_filtered_out - award_filtered_out - pp_filtered_out - sole_source_filtered_out
     print(f"분야 필터로 제외됨: {filtered_out}건 (관개/도로/수자원 등과 무관)")
 
     # 위험국/분쟁국(소말리아, 아프가니스탄, 우크라이나 등 - 실제 출장이 어려운 국가)은
