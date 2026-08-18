@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-18T08:17:57.160847+00:00",
+  "generated_at": "2026-08-18T08:22:45.259120+00:00",
   "today_kst": "2026-08-18",
   "sources": [
-    "World Bank 578건",
+    "World Bank 577건",
     "한국건설엔지니어링협회 1건",
     "ADB 0건",
     "나라장터(G2B) 86건",
@@ -22,7 +22,7 @@
     },
     "ADB": {
       "last_success": "알 수 없음",
-      "consecutive_failures": 88
+      "consecutive_failures": 89
     },
     "나라장터(G2B)": {
       "last_success": "2026-08-18",
