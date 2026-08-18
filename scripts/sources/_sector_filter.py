@@ -155,7 +155,7 @@ EXCLUDE_PATTERNS = [
     r"social safety net", r"filets? sociaux", r"cash transfer", r"transferts? mon[ée]taires?",
     r"safety net program", r"social protection program",
     r"voltage network", r"transmission line", r"transmission network",
-    r"transmission infrastructure", r"power grid", r"substation",
+    r"transmission infrastructure", r"transmission grid", r"power grid", r"substation",
     r"송전", r"배전", r"변전소", r"전력망",
     r"ligne de transmission", r"r[ée]seau [ée]lectrique", r"linha de transmiss[ãa]o", r"l[íi]nea de transmisi[óo]n",
     r"cybersecurity", r"cyber security", r"cybers[ée]curit[ée]", r"ciberseguridad",
