@@ -311,7 +311,7 @@ def main():
     all_notices = [
         n for n in all_notices
         if not is_koica_without_infra_signal (
-             n.get("agency_tag", ""), n.get("project_name", "")
+             n.get("agency_tag", ""), n.get("project_name", ""),
              n.get("bid_description", ""), n.get("summary", "")
         )
     ]
