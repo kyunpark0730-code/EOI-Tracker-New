@@ -158,7 +158,8 @@ EXCLUDE_PATTERNS = [
     r"agricultur(e|al) value chain", r"농업 가치사슬",
     # 사회안전망/현금성 지원 프로그램 평가·설계 (사회보호 정책 분야, 토목 아님)
     r"social safety net", r"filets? sociaux", r"cash transfer", r"transferts? mon[ée]taires?",
-    r"safety net program", r"social protection program",
+    r"safety net program", r"social protection (system|program)",
+    r"social inspection", r"vulnerable people",
     r"voltage network", r"transmission line", r"transmission network",
     r"transmission infrastructure", r"transmission grid", r"power grid", r"substation",
     r"송전", r"배전", r"변전소", r"전력망",
