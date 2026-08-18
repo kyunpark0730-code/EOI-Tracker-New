@@ -74,6 +74,10 @@ HARD_EXCLUDE_PATTERNS = [
     # (설계/타당성조사/감리)이 아니라 기관 경영컨설팅이라 다산 전문영역과 다름.
     r"management support consultant", r"institutional strengthening",
     r"organizational restructuring", r"institutional review and organizational",
+    # 항만/물류 시설(컨테이너터미널 등) - "transport" INCLUDE 키워드에 걸릴 수 있지만
+    # 다산은 항만·물류 분야를 하지 않으므로 하드제외
+    r"container terminal", r"ports and logistics", r"port authority",
+    r"\bseaport\b", r"maritime terminal",
     # 에너지저장장치(BESS) — "타당성조사" 등 INCLUDE 키워드와 같이 나오는 경우가
     # 있어 하드제외로 이동 (전력망/변전소와 같은 전력 부문, 다산 전문영역 아님)
     r"\bBESS\b", r"battery energy storage", r"에너지저장장치",
@@ -139,7 +143,8 @@ EXCLUDE_PATTERNS = [
     # 홍보/대국민 인식제고 캠페인 컨설팅 (분야와 무관하게 캠페인/홍보 자체가 다산 업무 아님)
     r"public awareness campaign", r"awareness campaign", r"communication campaign",
     r"인식\s*제고\s*캠페인",
-    r"event management", r"행사\s*관리\s*업체",
+    r"comunical[çc][ãa]o institucional", 
+    r"event management", r"행사\s*관리\s*업체", r"plano de comunica[çc][ãa]o", r"estrat[ée]gia de comunica[çc][ãa]o",
     # 이주대책계획(RAP)/토지수용/사회안전장치(social safeguards) 컨설팅.
     # 도로/댐 등 인프라 사업 산하 공고라 INCLUDE에 걸려도, 실제 업무는 이주·보상·
     # 젠더 등 사회분야 전문가 영역이라 다산 전문영역(설계/조사/감리)과 다름.
