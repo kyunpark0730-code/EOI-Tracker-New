@@ -46,7 +46,7 @@ def _guess_notice_type(title: str, link: str) -> str:
     # "General Procurement Notice(GPN)"는 fetch_all.py의 분류 규칙이 "general
     # procurement" 문구로 "사전공개" 카테고리를 판별하므로, 그 문구가 그대로
     # 살아있는 값을 반환해야 한다 (그냥 "Procurement Notice"로 뭉뚱그리면 기타로 빠짐).
-    if "general procurement notice" in text or re.search(r"(^|[\s/_\-])gpn([\s/_\-]|$)
+    if "general procurement notice" in text or re.search(r"(^|[\s/_\-])gpn([\s/_\-]|$)", text):
         return "General Procurement Notice"
     return "Procurement Notice"
 def _guess_country(link: str, title: str, description: str) -> str:
