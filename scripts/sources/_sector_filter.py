@@ -94,7 +94,7 @@ HARD_EXCLUDE_PATTERNS = [
     # EIB/EIB그룹 등 발주기관 자체의 사내 운영 조달(IT/보험/채용/급여/컨설팅 등
     # 행내 서비스 계약) — 회원국 인프라 개발사업이 아니라 발주기관 조직 내부
     # 운영을 위한 조달이라 다산 전문영역과 무관
-    r"for the eib group", r"eib group['’]?s", r"\bIT\s+security\b",
+    r"for the eib group", r"eib groups?", r"\bIT\s+security\b",
 ]
 
 # 하나라도 걸리면 무조건 포함 (토목/인프라 핵심 분야)
