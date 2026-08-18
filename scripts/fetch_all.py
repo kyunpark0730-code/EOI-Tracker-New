@@ -26,7 +26,7 @@ sys.path.insert(0, os.path.dirname(__file__))
 from sources import worldbank, ekacem, adb, g2b, icak, eib, kind, aiib  # noqa: E402
 from sources._sector_filter import (  # noqa: E402
     is_relevant, is_individual_job_posting, is_risk_country,
-    HARD_EXCLUDE_PATTERNS,
+    is_koica_without_infra_signal, HARD_EXCLUDE_PATTERNS,
 )
 
 # 코드가 최신 버전으로 실제 반영됐는지 로그 맨 앞에서 바로 확인할 수 있게 하는
@@ -302,6 +302,21 @@ def main():
     all_notices = [n for n in all_notices if not is_risk_country(n.get("country", ""))]
     risk_filtered_out = before_risk_filter - len(all_notices)
     print(f"위험국으로 제외됨: {risk_filtered_out}건")
+
+    # KOICA(한국국제협력단) 공고 중 관개/도로/댐 등 핵심 인프라 키워드가 전혀 없는
+    # 건은 제외한다. KOICA는 보건/교육/청소년/IT/사후평가 등 다산과 무관한 국내
+    # 행정·개발협력 용역이 매우 다양하게 나오므로, 개별 키워드 추가 대신 이 규칙으로
+    # 근본적으로 처리한다. 
+    before_koica_filter = len(all_notices)
+    all_notices = [
+        n for n in all_notices
+        if not is_koica_without_infra_signal (
+             n.get("agency_tag", ""), n.get("project_name", "")
+             n.get("bid_description", ""), n.get("summary", "")
+        )
+    ]
+    koica_filtered_out = before_koica_filter - len(all_notices)
+    print(f"KOICA(인프라 무관)로 제외됨: {koica_filtered_out}건")
 
     new_today_count = 0
     for n in all_notices:
