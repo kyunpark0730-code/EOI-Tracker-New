@@ -260,6 +260,16 @@ RISK_COUNTRIES_KR = {
 }
 
 
+def is_koica_without_infra_signal(agency_tag:str, *texts:str) -> bool:
+    """KOICA(한국국제협력단) 공고인데 관개/도로/댐 등 핵심 인프라 키워드(INCLUDE_PATTERNS)가
+    전혀 없으면 True를 반환한다. KOICA는 보건/교육/청소년역량강화/IT/평가 등 다산과
+    무관한 국내 행정·개발협력 용역이 워낙 다양하게 나와서, 매번 개별 키워드를 추가하는
+    대신 "KOICA인데 인프라 신호가 없으면 제외"라는 근본 규칙으로 처리한다."""
+    if agency_tag !="KOICA":
+        return False
+    return not has_strong_relevance_signal (*texts)
+    
+
 def is_risk_country(country: str) -> bool:
     """World Bank API는 국가명을 "Somalia, Federal Republic of"처럼 풀네임으로
     줄 때가 많아서 정확히 일치(exact match)하면 놓친다. 그래서 포함(contains)
