@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-18T02:04:04.435213+00:00",
+  "generated_at": "2026-08-18T02:27:30.325876+00:00",
   "today_kst": "2026-08-18",
   "sources": [
-    "World Bank 577건",
+    "World Bank 578건",
     "한국건설엔지니어링협회 1건",
     "ADB 0건",
     "나라장터(G2B) 55건",
@@ -22,11 +22,11 @@
     },
     "ADB": {
       "last_success": "알 수 없음",
-      "consecutive_failures": 72
+      "consecutive_failures": 73
     },
     "나라장터(G2B)": {
       "last_success": "2026-08-18",
-      "consecutive_failures": 3
+      "consecutive_failures": 4
     },
     "해외건설협회(ICAK)": {
       "last_success": "2026-08-18",
@@ -45,7 +45,7 @@
       "consecutive_failures": 0
     }
   },
-  "count": 323,
+  "count": 322,
   "new_today_count": 3,
   "notices": [
     {
@@ -128,27 +128,6 @@
       "consortium_signal": false,
       "traffic_survey_signal": false,
       "first_seen": "2026-08-17"
-    },
-    {
-      "id": "wb-OP00460702",
-      "notice_type": "Request for Expression of Interest",
-      "notice_date": "14-Aug-2026",
-      "submission_date": "2026-09-02T00:00:00Z",
-      "country": "Sri Lanka",
-      "project_id": "P514086",
-      "project_name": "Sri Lanka Ports and Logistics Development Program",
-      "bid_reference_no": "LK-SLPA-GFPP-560842-CS-QCBS",
-      "bid_description": "Hiring of of a consultancy firm for Study on the Modernization of Jaya Container Terminal (JCT) of Port of Colombo",
-      "procurement_method": "Quality And Cost-Based Selection",
-      "procurement_group": "CS",
-      "summary": "REQUEST FOR EXPRESSIONS OF INTEREST (CONSULTANCY SERVICES &ndash; FIRMS SELECTION) SRI LANKA SRI LANKA PORTS AND LOGISTICS DEVELOPMENT PROJECT Grant No.: TF0D0285 Assignment Title: Study on the Modernization of Jaya Container Terminal (JCT) of Port of Colombo Reference No. LK-SLPA-GFPP-560842-CS-QCBS The Democratic Socialist Republic of Sri Lanka has received financing from the World Bank toward the Sri Lanka Ports and Logistics Development Project, and intends to apply part of the proceeds for ",
-      "source": "World Bank",
-      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00460702",
-      "_source_label": "World Bank",
-      "notice_type_normalized": "관심표명(EOI)",
-      "consortium_signal": false,
-      "traffic_survey_signal": false,
-      "first_seen": "2026-08-10"
     },
     {
       "id": "wb-OP00461233",
