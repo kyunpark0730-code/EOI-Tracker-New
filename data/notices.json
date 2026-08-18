@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T01:57:25.703704+00:00",
+  "generated_at": "2026-08-18T02:04:04.435213+00:00",
   "today_kst": "2026-08-18",
   "sources": [
     "World Bank 577건",
@@ -22,11 +22,11 @@
     },
     "ADB": {
       "last_success": "알 수 없음",
-      "consecutive_failures": 71
+      "consecutive_failures": 72
     },
     "나라장터(G2B)": {
       "last_success": "2026-08-18",
-      "consecutive_failures": 2
+      "consecutive_failures": 3
     },
     "해외건설협회(ICAK)": {
       "last_success": "2026-08-18",
@@ -45,7 +45,7 @@
       "consecutive_failures": 0
     }
   },
-  "count": 325,
+  "count": 323,
   "new_today_count": 3,
   "notices": [
     {
@@ -232,27 +232,6 @@
       "consortium_signal": false,
       "traffic_survey_signal": false,
       "first_seen": "2026-08-06"
-    },
-    {
-      "id": "wb-OP00461775",
-      "notice_type": "Request for Expression of Interest",
-      "notice_date": "13-Aug-2026",
-      "submission_date": "2026-08-31T00:00:00Z",
-      "country": "South Sudan",
-      "project_id": "P179278",
-      "project_name": "Strengthening South Sudan’s Financial Sector",
-      "bid_reference_no": "SS-BOSS-562893-CS-QCBS",
-      "bid_description": "Hire a Regional Banking and Finance Institute to Support the Operationalization of the South Sudan Institute of Banking and Finance (SSIBF)",
-      "procurement_method": "Quality And Cost-Based Selection",
-      "procurement_group": "CS",
-      "summary": "Request for Expression of Interest (REOI) COUNTRY: Republic of South Sudan PROJECT: Strengthening South Sudan&rsquo;s Financial Sector (3SF) PROJECT ID: P179278 GRANT No: IDA- E239 CONSULTING SERVICES: Hire Regional Banking and Finance Institute to Support the Operationalization of the South Sudan Institute of Banking and Finance (SSIBF) DUTY STATION: BoSS-HQ, Juba- South Sudan Ref No: SS-BOSS-562893-CS-QCBS The Government of the Republic of South Sudan (GoSS), represented by the Central Bank of",
-      "source": "World Bank",
-      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00461775",
-      "_source_label": "World Bank",
-      "notice_type_normalized": "관심표명(EOI)",
-      "consortium_signal": false,
-      "traffic_survey_signal": false,
-      "first_seen": "2026-08-15"
     },
     {
       "id": "wb-OP00462435",
@@ -1445,27 +1424,6 @@
       "summary": "AVIS A MANIFESTATION D&rsquo;INTERET (SERVICES DE CONSULTANT - SELECTION DE FIRMES) N&deg; 006/MEH/PASEL/UGP-SC-2026 RELATIF AU RECRUTEMENT D&rsquo;UN CABINET CHARGE DE L&rsquo;ETUDE DIAGNOSTIQUE ET PLAN D&rsquo;ACTION POUR LA REMISE A NIVEAU DU COMPLEXE DE PRODUCTION D&rsquo;EAU POTABLE DE DJIRI A BRAZZAVILLE PAYS : R&eacute;publique du Congo Nom du projet : Projet d&rsquo;Am&eacute;lioration des Services d&rsquo;Electricit&eacute; Pr&ecirc;t BIRD n&deg; : 9686-CG Intitul&eacute; de la mission ",
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00459630",
-      "_source_label": "World Bank",
-      "notice_type_normalized": "관심표명(EOI)",
-      "consortium_signal": false,
-      "traffic_survey_signal": false,
-      "first_seen": "2026-08-06"
-    },
-    {
-      "id": "wb-OP00459239",
-      "notice_type": "Request for Expression of Interest",
-      "notice_date": "29-Jul-2026",
-      "submission_date": "2026-08-31T00:00:00Z",
-      "country": "Bangladesh",
-      "project_id": "P512154",
-      "project_name": "Financial Sector Support Project II",
-      "bid_reference_no": "S-1_PPA_FSSP-II",
-      "bid_description": "International Consulting Services for Asset Quality Review (AQR) in the banks",
-      "procurement_method": "Quality And Cost-Based Selection",
-      "procurement_group": "CS",
-      "summary": "Bangladesh Bank (Central Bank of Bangladesh) Head Office, Motijheel, Dhaka-1000 Financial Sector Support and Strategic Planning Department (FSSSPD) Request for Expressions of Interest (REoI) for International Consulting Firms (Service Provider) for Asset Quality Review (AQR) in Banks Reference No.: S-1_PPA_FSSP-II Date: 03 August, 2026 Background Bangladesh Bank (BB), the central bank of Bangladesh, plays a pivotal role in maintaining financial stability, safeguarding depositors&rsquo; interests",
-      "source": "World Bank",
-      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00459239",
       "_source_label": "World Bank",
       "notice_type_normalized": "관심표명(EOI)",
       "consortium_signal": false,
