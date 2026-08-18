@@ -95,6 +95,24 @@ HARD_EXCLUDE_PATTERNS = [
     # 행내 서비스 계약) — 회원국 인프라 개발사업이 아니라 발주기관 조직 내부
     # 운영을 위한 조달이라 다산 전문영역과 무관
     r"for the eib group", r"eib groups?", r"\bIT\s+security\b",
+    # 물품/장비 납품 계약(Goods) — World Bank는 procurement_group(GO)으로 구조적으로
+    # 걸러내지만 EIB 등 다른 소스는 이 필드가 없어서, "장비 납품/공급" 자체를 뜻하는
+    # 표현으로 대신 걸러낸다. 컨설팅 용역이 아니라 물품 조달이라 다산 전문영역과 무관.
+    r"fourniture d[’']?[ée]quipements", r"fourniture de biens",
+    r"fourniture et (pose|installation)", r"supply of equipment",
+    r"supply and delivery of equipment", r"procurement of goods",
+    # 시공 계약 자체(Works) — 마찬가지로 EIB 등에는 WB의 CW 같은 구조적 필드가 없어서
+    # 표현으로 대신 걸러낸다. "Empreitada"(포르투갈어 시공계약), "감리/발주감독"이 아니라
+    # 시공사가 직접 입찰하는 계약이라 다산(설계·감리 컨설턴트) 전문영역과 무관.
+    r"\bempreitada\b", r"march[ée] de travaux", r"ex[ée]cution des travaux",
+    r"obras? de construcci[óo]n", r"ejecuci[óo]n de obras",
+    # 학교/유치원 등 건축(architecture) 분야 건물 신축·보강·재건축 설계 및 감리
+    # (관개/도로/댐 등 토목이 아니라 건축 분야라 기존 public buildings 하드제외와 같은 이유)
+    r"kindergarten", r"[ée]cole maternelle", r"jardin d[’']?enfants",
+    r"jardim de inf[âa]ncia", r"guarder[íi]a infantil",
+    # 기관 거버넌스/재무구조 설계 등 제도·경영 자문 (엔지니어링이 아니라 institutional
+    # strengthening/management support consultant와 같은 성격의 자문)
+    r"governance and financing model",
 ]
 
 # 하나라도 걸리면 무조건 포함 (토목/인프라 핵심 분야)
