@@ -91,6 +91,10 @@ HARD_EXCLUDE_PATTERNS = [
     # 걸려도, 실제 업무는 회계·재무감사 전문용역(공인회계사)이라 다산 전문영역과 다름
     r"external auditor", r"financial audit", r"audit comptable et financier",
     r"auditeur externe", r"audit financier",
+    # EIB/EIB그룹 등 발주기관 자체의 사내 운영 조달(IT/보험/채용/급여/컨설팅 등
+    # 행내 서비스 계약) — 회원국 인프라 개발사업이 아니라 발주기관 조직 내부
+    # 운영을 위한 조달이라 다산 전문영역과 무관
+    r"for the eib group", r"eib group['’]?s", r"\bIT\s+security\b",
 ]
 
 # 하나라도 걸리면 무조건 포함 (토목/인프라 핵심 분야)
@@ -255,42 +259,4 @@ def has_strong_relevance_signal(*texts: str) -> bool:
     return bool(_INCLUDE_RE.search(combined))
 
 
-# 자체적으로 출장이 어려운 위험국/분쟁국. 이 국가들은 "애매하면 포함" 원칙을
-# 적용하지 않고, 관개/도로/댐 등 핵심 인프라 키워드가 확실히 있을 때만 포함한다
-# (예: "도로 재건 사업"은 유지, "CERT 컨설팅"처럼 애매한 건 제외).
-# 국가명은 World Bank(영문) / 국내 소스(국문) 양쪽 표기를 모두 등록해야 함.
-# 남수단은 제외 대상에서 뺐음(사용자 확인) — "수단"의 부분 문자열이 아니라
-# 정확히 일치하는 국가명만 매칭하므로 "남수단"/"South Sudan"은 걸리지 않음.
-RISK_COUNTRIES_EN = {
-    "somalia", "afghanistan", "yemen", "syria", "syrian arab republic",
-    "libya", "sudan", "ukraine", "lebanon", "lebanese",
-}
-RISK_COUNTRIES_KR = {
-    "소말리아", "아프가니스탄", "예멘", "시리아", "리비아", "수단", "우크라이나", "레바논"
-}
-
-
-def is_koica_without_infra_signal(agency_tag: str, *texts: str) -> bool:
-    """KOICA(한국국제협력단) 공고인데 관개/도로/댐 등 핵심 인프라 키워드(INCLUDE_PATTERNS)가
-    전혀 없으면 True를 반환한다. KOICA는 보건/교육/청소년역량강화/IT/평가 등 다산과
-    무관한 국내 행정·개발협력 용역이 워낙 다양하게 나와서, 매번 개별 키워드를 추가하는
-    대신 "KOICA인데 인프라 신호가 없으면 제외"라는 근본 규칙으로 처리한다."""
-    if agency_tag != "KOICA":
-        return False
-    return not has_strong_relevance_signal(*texts)
-
-
-def is_risk_country(country: str) -> bool:
-    """World Bank API는 국가명을 "Somalia, Federal Republic of"처럼 풀네임으로
-    줄 때가 많아서 정확히 일치(exact match)하면 놓친다. 그래서 포함(contains)
-    방식으로 판단하되, "South Sudan"/"남수단"이 "Sudan"/"수단"의 부분 문자열이라
-    잘못 걸리지 않도록 먼저 명시적으로 예외 처리한다."""
-    if not country:
-        return False
-    c = country.strip()
-    cl = c.lower()
-    if "south sudan" in cl or "남수단" in c:
-        return False
-    if any(name in c for name in RISK_COUNTRIES_KR):
-        return True
-    return any(name in cl for name in RISK_COUNTRIES_EN)
+# 자체적으로
