@@ -87,6 +87,10 @@ HARD_EXCLUDE_PATTERNS = [
     # KOICA 등 국내 행정지원 용역(임금체계/전시관 시설/사업평가 등 -
     # 해외 인프라 설계·감리가 아니라 기관 내부 행정·평가 업무)
     r"임금체계", r"전시관", r"심층평가", r"배움터",
+    # 재무제표 감사(외부회계감사) 용역 - 관개/도로 등 인프라 사업 산하 공고라 INCLUDE에
+    # 걸려도, 실제 업무는 회계·재무감사 전문용역(공인회계사)이라 다산 전문영역과 다름
+    r"external auditor", r"financial audit", r"audit comptable et financier",
+    r"auditeur externe", r"audit financier",
 ]
 
 # 하나라도 걸리면 무조건 포함 (토목/인프라 핵심 분야)
