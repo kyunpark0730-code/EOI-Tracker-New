@@ -101,7 +101,7 @@ INCLUDE_PATTERNS = [
     r"\broad\b", r"highway", r"도로", r"\broute\b", r"routier", r"estrada", r"rodovia", r"carretera", r"vial\b",
     r"water resource", r"water supply", r"수자원", r"상수도", r"용수",
     r"ressources en eau", r"alimentation en eau", r"recursos h[íi]dricos", r"abastecimento de [áa]gua",
-    r"\bdam\b", r"댐", r"barrage", r"barragem", r"bpresa\b",
+    r"\bdam\b", r"댐", r"barrage", r"barragem", r"\bpresa\b",
     r"bridge", r"교량", r"\bpont\b", r"ponte\b", r"puente\b",
     r"drainage", r"배수", r"drenagem", r"drenaje",
     r"flood", r"홍수", r"inondation", r"inunda[çc][ãa]o", r"inundaci[óo]n",
@@ -185,6 +185,11 @@ EXCLUDE_PATTERNS = [
     # 행사운영대행(이벤트 에이전시)이나, 국내 정부부처의 공모사업 자체를
     # 운영·지원해주는 행정지원 용역 (실제 해외 프로젝트 설계/조사가 아님)
     r"행사\s*대행", r"행사\s*기획", r"공모\s*제안사업",
+    # 직원 교육훈련(formation du personnel), 원자재 정책분석(heatmap), 사회적
+    # 급수연결 지원 프로그램(branchements sociaux) 등 — 물/전력 유틸리티 관련
+    # 프로젝트 산하라도 실제 업무가 교육·정책분석·사회사업이라 다산 전문영역과 다름
+    r"formation du personnel", r"raw materials heatmap",
+    r"branchements sociaux",
 ]
 
 _HARD_EXCLUDE_RE = re.compile("|".join(HARD_EXCLUDE_PATTERNS), re.IGNORECASE)
@@ -265,15 +270,15 @@ RISK_COUNTRIES_KR = {
 }
 
 
-def is_koica_without_infra_signal(agency_tag:str, *texts:str) -> bool:
+def is_koica_without_infra_signal(agency_tag: str, *texts: str) -> bool:
     """KOICA(한국국제협력단) 공고인데 관개/도로/댐 등 핵심 인프라 키워드(INCLUDE_PATTERNS)가
     전혀 없으면 True를 반환한다. KOICA는 보건/교육/청소년역량강화/IT/평가 등 다산과
     무관한 국내 행정·개발협력 용역이 워낙 다양하게 나와서, 매번 개별 키워드를 추가하는
     대신 "KOICA인데 인프라 신호가 없으면 제외"라는 근본 규칙으로 처리한다."""
-    if agency_tag !="KOICA":
+    if agency_tag != "KOICA":
         return False
-    return not has_strong_relevance_signal (*texts)
-    
+    return not has_strong_relevance_signal(*texts)
+
 
 def is_risk_country(country: str) -> bool:
     """World Bank API는 국가명을 "Somalia, Federal Republic of"처럼 풀네임으로
