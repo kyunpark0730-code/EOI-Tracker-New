@@ -97,7 +97,7 @@ INCLUDE_PATTERNS = [
     r"\broad\b", r"highway", r"도로", r"\broute\b", r"routier", r"estrada", r"rodovia", r"carretera", r"vial\b",
     r"water resource", r"water supply", r"수자원", r"상수도", r"용수",
     r"ressources en eau", r"alimentation en eau", r"recursos h[íi]dricos", r"abastecimento de [áa]gua",
-    r"\bdam\b", r"댐", r"barrage", r"barragem", r"presa\b",
+    r"\bdam\b", r"댐", r"barrage", r"barragem", r"bpresa\b",
     r"bridge", r"교량", r"\bpont\b", r"ponte\b", r"puente\b",
     r"drainage", r"배수", r"drenagem", r"drenaje",
     r"flood", r"홍수", r"inondation", r"inunda[çc][ãa]o", r"inundaci[óo]n",
