@@ -143,8 +143,9 @@ EXCLUDE_PATTERNS = [
     # 홍보/대국민 인식제고 캠페인 컨설팅 (분야와 무관하게 캠페인/홍보 자체가 다산 업무 아님)
     r"public awareness campaign", r"awareness campaign", r"communication campaign",
     r"인식\s*제고\s*캠페인",
-    r"comunical[çc][ãa]o institucional", 
-    r"event management", r"행사\s*관리\s*업체", r"plano de comunica[çc][ãa]o", r"estrat[ée]gia de comunica[çc][ãa]o",
+    r"comunica[çc][ãa]o institucional",
+    r"event management", r"행사\s*관리\s*업체",
+    r"planos? de comunica[çc][ãa]o", r"estrat[ée]gia (e planos? )?de comunica[çc][ãa]o",
     # 이주대책계획(RAP)/토지수용/사회안전장치(social safeguards) 컨설팅.
     # 도로/댐 등 인프라 사업 산하 공고라 INCLUDE에 걸려도, 실제 업무는 이주·보상·
     # 젠더 등 사회분야 전문가 영역이라 다산 전문영역(설계/조사/감리)과 다름.
