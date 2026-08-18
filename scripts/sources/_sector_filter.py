@@ -113,6 +113,15 @@ HARD_EXCLUDE_PATTERNS = [
     # 기관 거버넌스/재무구조 설계 등 제도·경영 자문 (엔지니어링이 아니라 institutional
     # strengthening/management support consultant와 같은 성격의 자문)
     r"governance and financing model",
+    # 부품/장비 구매(물품 조달)의 전형적 표현 — 제목에 "(9 pcs.)"처럼 수량이 붙는 경우.
+    # 프랑스어(fourniture)뿐 아니라 영어로도 이런 형태로 자주 나와서 별도로 잡는다.
+    r"\(\s*\d+\s*pcs\.?\s*\)", r"\(\s*\d+\s*units?\s*\)",
+    # EIB 등 발주기관 자체 직원 교육훈련(내부조달) — 기존 "formation du personnel"의
+    # 영어 표현. 인프라 사업이 아니라 발주기관 내부 인사·역량강화 조달이라 무관.
+    r"corporate (skills )?training", r"staff training",
+    # 도시재생/친수구역 정비 등 공공공간 조성 사업 — "eco-inclusive district"와 같은
+    # 성격(물리적 토목이 아니라 도시계획·공공공간 조성)의 영어 표현
+    r"urban redevelopment", r"river-?front redevelopment", r"waterfront redevelopment",
 ]
 
 # 하나라도 걸리면 무조건 포함 (토목/인프라 핵심 분야)
