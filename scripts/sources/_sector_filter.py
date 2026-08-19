@@ -137,6 +137,15 @@ patrimonial",
     # 에너지저장장치(BESS) — "타당성조사" 등 INCLUDE 키워드와 같이 나오는 경우가
     # 있어 하드제외로 이동 (전력망/변전소와 같은 전력 부문, 다산 전문영역 아님)
     r"\bBESS\b", r"battery energy storage", r"에너지저장장치",
+    # 송배전망(전력망) 시설 관련 전 분야 — 사용자 확인(2026-08): 전력 송전/배전망은
+    # "Construction supervision"/"Design" 등 INCLUDE 키워드가 같이 나와도(에티오피아
+    # 배전망 안정화 사업의 시공감리 사례) 다산이 검토하는 분야가 아니므로 하드제외로
+    # 분류한다. 기존에는 소프트제외였으나 감리 키워드에 밀려 포함되는 문제가 있었음.
+    r"voltage network", r"transmission line", r"transmission network",
+    r"transmission infrastructure", r"transmission grid", r"power grid", r"substation",
+    r"distribution network", r"distribution grid", r"distribution line",
+    r"송전", r"배전", r"변전소", r"전력망",
+    r"ligne de transmission", r"r[ée]seau [ée]lectrique", r"linha de transmiss[ãa]o", r"l[íi]nea de transmisi[óo]n",
     # 정보화사업 감리(IT/소프트웨어 프로젝트 관리·감독) — "감리"라는 단어가
     # 건설감리와 똑같이 쓰이지만 실제로는 IT사업으로 완전히 다른 분야
     r"정보화\s*감리", r"정보화\s*사업\s*관리",
@@ -260,10 +269,6 @@ EXCLUDE_PATTERNS = [
     r"social safety net", r"filets? sociaux", r"cash transfer", r"transferts? mon[ée]taires?",
     r"safety net program", r"social protection (system|program)",
     r"social inspection", r"vulnerable people",
-    r"voltage network", r"transmission line", r"transmission network",
-    r"transmission infrastructure", r"transmission grid", r"power grid", r"substation",
-    r"송전", r"배전", r"변전소", r"전력망",
-    r"ligne de transmission", r"r[ée]seau [ée]lectrique", r"linha de transmiss[ãa]o", r"l[íi]nea de transmisi[óo]n",
     r"cybersecurity", r"cyber security", r"cybers[ée]curit[ée]", r"ciberseguridad",
     r"\bICT\b", r"information and communications technology",
     r"digital transformation", r"digital integration", r"e-government",
