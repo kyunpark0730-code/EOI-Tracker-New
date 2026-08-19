@@ -78,6 +78,10 @@ HARD_EXCLUDE_PATTERNS = [
     # (설계/타당성조사/감리)이 아니라 기관 경영컨설팅이라 다산 전문영역과 다름.
     r"management support consultant", r"institutional strengthening",
     r"organizational restructuring", r"institutional review and organizational",
+    # 전사적 리스크관리(ERM)/내부통제 시스템 구축 (우즈베키스탄 철도공사 사례) —
+    # "Transport" 등 INCLUDE 키워드에 걸려도, 실제 업무는 COSO/ISO 31000 기반
+    # 리스크관리·내부통제 컨설팅이라 기관 경영자문 성격, 엔지니어링과 무관.
+    r"enterprise risk management", r"\bERM\b system", r"\bCOSO\b", r"iso ?31000",
     # 항만/물류 시설(컨테이너터미널 등) - "transport" INCLUDE 키워드에 걸릴 수 있지만
     # 다산은 항만·물류 분야를 하지 않으므로 하드제외
     r"container terminal", r"ports and logistics", r"port authority",
