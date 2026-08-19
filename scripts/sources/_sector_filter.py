@@ -90,6 +90,11 @@ HARD_EXCLUDE_PATTERNS = [
     # 다산은 항만·물류 분야를 하지 않으므로 하드제외
     r"container terminal", r"ports and logistics", r"port authority",
     r"\bseaport\b", r"maritime terminal",
+    # 수산업/어업 관리·법제 자문 및 어항(fisheries harbour) 설계·감리 — "detailed design",
+    # "construction supervision" 등 INCLUDE 키워드가 같이 있어도(스리랑카 어항 설계·감리
+    # 사례), 항만/물류와 같은 이유로 다산 전문영역과 무관하므로 하드제외로 분류.
+    r"fisheries", r"어업", r"수산업", r"p[êe]cheries?", r"pesca\b", r"pesquer[íi]a",
+    r"fish landing",
     # 에너지저장장치(BESS) — "타당성조사" 등 INCLUDE 키워드와 같이 나오는 경우가
     # 있어 하드제외로 이동 (전력망/변전소와 같은 전력 부문, 다산 전문영역 아님)
     r"\bBESS\b", r"battery energy storage", r"에너지저장장치",
