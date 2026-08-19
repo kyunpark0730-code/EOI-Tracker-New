@@ -34,6 +34,40 @@ from sources._sector_filter import (  # noqa: E402
 # 최신본이 아니라는 뜻이다.
 print(f"[버전 확인] HARD_EXCLUDE_PATTERNS {len(HARD_EXCLUDE_PATTERNS)}개 로드됨 "
       f"(RAP 테스트: {'제외됨' if is_relevant('Resettlement Action Plan Road') is False else '제외 안 됨(구버전 의심)'})")
+# [임시 진단] 잠비아 DZAP 2건 / 가이아나 One Health가 계속 살아남는 원인을 찾기
+# 위해, 실제 저장된 필드값 그대로 is_relevant를 호출해서 결과와 매칭된 키워드를
+# 로그에 남긴다. 원인 확인되면 이 블록은 지워도 된다.
+def _debug_case(label, project_name, bid_description, notice_type, summary):
+    from sources._sector_filter import _HARD_EXCLUDE_RE, _INCLUDE_RE, _EXCLUDE_RE
+    combined = " ".join(t for t in (project_name, bid_description, notice_type, summary) if t)
+    h = _HARD_EXCLUDE_RE.search(combined)
+    i = _INCLUDE_RE.search(combined)
+    e = _EXCLUDE_RE.search(combined)
+    result = is_relevant(project_name, bid_description, notice_type, summary)
+    print(f"[진단:{label}] is_relevant={result} | hard={h.group() if h else None} "
+          f"| include={i.group() if i else None} | soft={e.group() if e else None}")
+
+_debug_case(
+    "잠비아DZAP1",
+    "Digital Zambia Acceleration Project (DZAP)",
+    "Consultancy Services for the Design, Development and Deployment of a Web-Based Data Protection Compliance Management System",
+    "Request for Expression of Interest",
+    "DIGITAL ZAMBIA ACCELERATION PROJECT (DZAP) REQUEST FOR EXPRESSIONS OF INTEREST (CONSULTING SERVICES – FIRMS SELECTION) COUNTRY : Zambia NAME OF PROJECT : The Digital Zambia Acceleration Project (DZAP) Loan No./Credit No./ Grant No.: P505094 Name of Implementing Agency: Smart Zambia Institute (SZI) Assignment Title: Selection of a Consulting Firm for the Design, Development, and Deployment of a Digital Data Protection Compliance Management System for the Data Protection Commission of Zambia",
+)
+_debug_case(
+    "잠비아DZAP2",
+    "Digital Zambia Acceleration Project (DZAP)",
+    "Consultancy Services for the Review and Development of National Data Protection Guidelines and Compliance Frameworks.",
+    "Request for Expression of Interest",
+    "DIGITAL ZAMBIA ACCELERATION PROJECT (DZAP) REQUEST FOR EXPRESSIONS OF INTEREST (CONSULTING SERVICES – FIRMS SELECTION) COUNTRY : Zambia NAME OF PROJECT : The Digital Zambia Acceleration Project (DZAP) Loan No./Credit No./ Grant No.: P505094 Name of Implementing Agency: Smart Zambia Institute (SZI) Assignment Title: Consultancy Services for the Review and Development of National Data Protection Guidelines and Compliance Frameworks. Reference No .: ZM-SZ-554942-CS-CQS Background The Governme",
+)
+_debug_case(
+    "가이아나OneHealth",
+    "Guyana One Health Project",
+    "Design and Supervision of the NPHRL Building",
+    "Request for Expression of Interest",
+    "REQUEST FOR EXPRESSIONS OF INTEREST (CONSULTING SERVICES – FIRMS SELECTION) Cooperative Republic of Guyana Guyana One Health Project Project No. : (P508693) Assignment Title : Design and Supervision of the National Public Health Reference Laboratory Building Reference No. : GY-HSDU-MOH-561852-CS-CQS The Government of Co-operative Republic of Guyana has received financing from the World Bank toward the cost of the One Health Project and intends to apply part of the proceeds for consulting s",
+)
 
 # 소스마다(영어/프랑스어/한국어) 제각각인 notice_type 원문을 5개 통합 카테고리로
 # 정리한다. 사전 매칭 대신 키워드 패턴으로 판단해서, 새 소스가 추가되거나
