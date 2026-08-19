@@ -182,6 +182,9 @@ EXCLUDE_PATTERNS = [
     r"\bIT\b system", r"digital platform",
     r"architectur", r"건축\s*설계", r"건물\s*설계", r"architecture\b",
     r"education curriculum", r"교육과정", r"[ée]ducation\b", r"educa[çc][ãa]o\b", r"educaci[óo]n\b",
+    # "education"이라는 단어 없이 "Lower-Secondary Curriculum" 식으로만 나오는 경우도
+    # 있어서(그레나다/도미니카 사례) curriculum 자체를 별도로 잡는다
+    r"\bcurriculum\b",
     # 청소년/여성 역량강화, 교육·사회개발 프로그램 (교육/사회분야 전반)
     r"adolescent", r"youth empowerment", r"youth opportunit", r"girls[’']?\s*(initiative|education|empowerment)",
     r"women['’]?s empowerment", r"skills? training program", r"business development services",
