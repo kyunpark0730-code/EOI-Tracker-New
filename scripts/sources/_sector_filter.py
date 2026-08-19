@@ -101,6 +101,13 @@ HARD_EXCLUDE_PATTERNS = [
     # (설계/타당성조사/감리)이 아니라 기관 경영컨설팅이라 다산 전문영역과 다름.
     r"management support consultant", r"institutional strengthening",
     r"organizational restructuring", r"institutional review and organizational",
+    # 연구기관 자체의 역량강화(조직·인력·제도 강화) 사업 — 파키스탄 PCRWR(물연구
+    # 위원회) "연구 인프라 개선 및 통합수자원관리 역량강화 PMC" 사례. "수자원" 등
+    # INCLUDE 키워드가 있어도, 실제 업무가 연구기관의 조직·역량 강화(institutional
+    # strengthening과 같은 성격)면 관개/댐 등 물리적 설계·시공감리가 아니므로 다산
+    # 전문영역과 무관 (사용자 확인, 2026-08).
+    r"연구기관\s*역량\s*강화", r"연구소\s*역량\s*강화", r"연구\s*인프라\s*개선",
+    r"research institute.*capacity", r"research council.*capacity", r"\bPCRWR\b",
     # 농업협동조합 등을 위한 공동 농기계 파크 설립 지원(제도·재정·법률·운영모델
     # 수립, 역량강화 등) — 튀르키예 TARDP "Ortak Makine Parkları" 사례. 지진 피해
     # 농업 프로젝트 산하 공고라도, 실제 업무는 농기계 공동이용 조직의 사업모델·
@@ -148,7 +155,18 @@ patrimonial",
     r"ligne de transmission", r"r[ée]seau [ée]lectrique", r"linha de transmiss[ãa]o", r"l[íi]nea de transmisi[óo]n",
     # 정보화사업 감리(IT/소프트웨어 프로젝트 관리·감독) — "감리"라는 단어가
     # 건설감리와 똑같이 쓰이지만 실제로는 IT사업으로 완전히 다른 분야
-    r"정보화\s*감리", r"정보화\s*사업\s*관리",
+    # "정보시스템" 자체가 이미 IT 분야 지표라, "정보화 감리"라는 정확한 문구가
+    # 아니라 "정보시스템 개선 사업 감리"처럼 다르게 풀어써도 걸리도록 별도로 추가
+    # (우즈베키스탄 지식재산권 정보시스템 감리 사례 — INCLUDE의 "감리"에 밀려
+    # 잘못 포함됐었음).
+    r"정보화\s*감리", r"정보화\s*사업\s*관리", r"정보시스템",
+    # 국내 산업협회(해외건설협회 등)의 시장동향/진출환경 조사·리포트 — 특정 사업의
+    # 설계/감리가 아니라 업계 전반의 시장조사·리서치 용역이라 다산 전문영역과 무관
+    r"진출환경", r"시장동향\s*조사", r"업계\s*동향\s*조사",
+    # 석유/원유 저장시설(탱크팜) 건설·확장 — 관개/댐 등과 무관한 석유화학·에너지
+    # 저장 인프라 분야라 다산 전문영역과 무관 (오만 두큼 라스 마르카즈 원유저장소 사례)
+    r"원유\s*저장", r"저유소", r"oil storage", r"petroleum storage", r"crude oil storage",
+    r"tank farm",
     # KOICA 등 국내 행정지원 용역(임금체계/전시관 시설/사업평가 등 -
     # 해외 인프라 설계·감리가 아니라 기관 내부 행정·평가 업무)
     r"임금체계", r"전시관", r"심층평가", r"배움터",
