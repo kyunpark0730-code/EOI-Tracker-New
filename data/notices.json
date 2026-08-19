@@ -1,53 +1,74 @@
 {
-  "generated_at": "2026-08-19T08:28:45.126419+00:00",
-  "today_kst": "2026-08-19",
+  "generated_at": "2026-08-19T21:56:25.541593+00:00",
+  "today_kst": "2026-08-20",
   "sources": [
-    "World Bank 557건",
+    "World Bank 598건",
     "한국건설엔지니어링협회 1건",
     "ADB 0건",
-    "나라장터(G2B) 26건",
+    "나라장터(G2B) 22건",
     "해외건설협회(ICAK) 1건",
-    "EIB 175건",
+    "EIB 200건",
     "KIND 3건",
     "AIIB 10건"
   ],
   "source_status": {
     "World Bank": {
-      "last_success": "2026-08-19",
+      "last_success": "2026-08-20",
       "consecutive_failures": 0
     },
     "한국건설엔지니어링협회": {
-      "last_success": "2026-08-19",
+      "last_success": "2026-08-20",
       "consecutive_failures": 0
     },
     "ADB": {
       "last_success": "알 수 없음",
-      "consecutive_failures": 104
+      "consecutive_failures": 105
     },
     "나라장터(G2B)": {
-      "last_success": "2026-08-19",
+      "last_success": "2026-08-20",
       "consecutive_failures": 0
     },
     "해외건설협회(ICAK)": {
-      "last_success": "2026-08-19",
+      "last_success": "2026-08-20",
       "consecutive_failures": 0
     },
     "EIB": {
-      "last_success": "2026-08-19",
+      "last_success": "2026-08-20",
       "consecutive_failures": 0
     },
     "KIND": {
-      "last_success": "2026-08-19",
+      "last_success": "2026-08-20",
       "consecutive_failures": 0
     },
     "AIIB": {
-      "last_success": "2026-08-19",
+      "last_success": "2026-08-20",
       "consecutive_failures": 0
     }
   },
-  "count": 82,
-  "new_today_count": 2,
+  "count": 87,
+  "new_today_count": 5,
   "notices": [
+    {
+      "id": "wb-OP00459222",
+      "notice_type": "Request for Expression of Interest",
+      "notice_date": "18-Aug-2026",
+      "submission_date": "2026-09-01T00:00:00Z",
+      "country": "Nepal",
+      "project_id": "P507516",
+      "project_name": "Third Bridges Improvement and Maintenance Program",
+      "bid_reference_no": "BIMPIII-DOR-CS-QCBS-013",
+      "bid_description": "CONSULTING SERVICES FOR DETAILED STRUCTURAL INSPECTION AND PREPARATION OF\nMAINTENANCE AND REHABILITATION REQUIREMENTS OF SPECIAL BRIDGES",
+      "procurement_method": "Quality And Cost-Based Selection",
+      "procurement_group": "CS",
+      "summary": "REQUEST FOR EXPRESSIONS OF INTEREST (CONSULTING SERVICES &ndash; FIRMS SELECTION) (Amended Notice) Amendment No. 2 NEPAL Third Bridges Improvement and Maintenance Program (BIMP-III) Loan No./Credit No./ Grant No.: IDA-Credit No. 7728-NP Assignment Title: Consulting services for detailed structural inspection and preparation of maintenance and rehabilitation requirements of special bridges 1. Karnali River Bridge, Chisapani, Karnali 2. Bheri River Bridge, Surkhet, Bheri 3. Trishuli (Mugling) Rive",
+      "source": "World Bank",
+      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00459222",
+      "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명(EOI)",
+      "consortium_signal": false,
+      "traffic_survey_signal": false,
+      "first_seen": "2026-08-20"
+    },
     {
       "id": "aiib-https://www.aiib.org/en/projects/details/2026/_download/Uzbekistan/03082026_REoI-_Final_Unified-Consultant_eng.pdf",
       "notice_type": "Request for Expression of Interest",
@@ -148,6 +169,27 @@
       "consortium_signal": false,
       "traffic_survey_signal": false,
       "first_seen": "2026-08-19"
+    },
+    {
+      "id": "wb-OP00461500",
+      "notice_type": "Request for Expression of Interest",
+      "notice_date": "10-Aug-2026",
+      "submission_date": "2026-08-21T00:00:00Z",
+      "country": "Zambia",
+      "project_id": "P505094",
+      "project_name": "Digital Zambia Acceleration Project (DZAP)",
+      "bid_reference_no": "ZM-SZ-554942-CS-CQS",
+      "bid_description": "Consultancy Services for the Review and Development of National Data Protection Guidelines and Compliance Frameworks.",
+      "procurement_method": "Consultant Qualification  Selection",
+      "procurement_group": "CS",
+      "summary": "DIGITAL ZAMBIA ACCELERATION PROJECT (DZAP) REQUEST FOR EXPRESSIONS OF INTEREST (CONSULTING SERVICES &ndash; FIRMS SELECTION) COUNTRY : Zambia NAME OF PROJECT : The Digital Zambia Acceleration Project (DZAP) Loan No./Credit No./ Grant No.: P505094 Name of Implementing Agency: Smart Zambia Institute (SZI) Assignment Title: Consultancy Services for the Review and Development of National Data Protection Guidelines and Compliance Frameworks. Reference No .: ZM-SZ-554942-CS-CQS Background The Governme",
+      "source": "World Bank",
+      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00461500",
+      "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명(EOI)",
+      "consortium_signal": false,
+      "traffic_survey_signal": false,
+      "first_seen": "2026-08-20"
     },
     {
       "id": "wb-OP00461707",
@@ -1693,6 +1735,66 @@
       "consortium_signal": false,
       "traffic_survey_signal": false,
       "first_seen": "2026-08-18"
+    },
+    {
+      "id": "eib-66f2a39ff612a47e01ba5cbf",
+      "notice_type": "Project procurement",
+      "notice_date": "25/09/2025",
+      "submission_date": " ",
+      "country": "Egypt",
+      "project_id": "20110416-49",
+      "project_name": "Al Robaa Wastewater Treatment Plant, Design-Build, Defect Liability Year, and Optional One Year Operation and Maintenance",
+      "bid_reference_no": "20110416-49",
+      "bid_description": "On going",
+      "procurement_method": "",
+      "summary": "",
+      "source": "EIB",
+      "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
+      "_source_label": "EIB",
+      "notice_type_normalized": "기타",
+      "consortium_signal": false,
+      "traffic_survey_signal": false,
+      "first_seen": "2026-08-20"
+    },
+    {
+      "id": "eib-68ad6021ed2dd21ed405e03a",
+      "notice_type": "TA operations",
+      "notice_date": "26/08/2025",
+      "submission_date": " ",
+      "country": "",
+      "project_id": "AA-12634-001",
+      "project_name": "RUFIP III - Rural Finance and Development Project, Ethiopia",
+      "bid_reference_no": "AA-12634-001",
+      "bid_description": "On going",
+      "procurement_method": "",
+      "summary": "",
+      "source": "EIB",
+      "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
+      "_source_label": "EIB",
+      "notice_type_normalized": "기타",
+      "consortium_signal": false,
+      "traffic_survey_signal": false,
+      "first_seen": "2026-08-20"
+    },
+    {
+      "id": "eib-68ac49cf27118428f2de70f0",
+      "notice_type": "Project procurement",
+      "notice_date": "25/08/2025",
+      "submission_date": " ",
+      "country": "",
+      "project_id": "20110078-48",
+      "project_name": "Construction of the new 400 kV Chemaia-Tensift II double-circuit line",
+      "bid_reference_no": "20110078-48",
+      "bid_description": "On going",
+      "procurement_method": "",
+      "summary": "",
+      "source": "EIB",
+      "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
+      "_source_label": "EIB",
+      "notice_type_normalized": "기타",
+      "consortium_signal": false,
+      "traffic_survey_signal": false,
+      "first_seen": "2026-08-20"
     },
     {
       "id": "kind-11421",
