@@ -118,8 +118,7 @@ HARD_EXCLUDE_PATTERNS = [
     # 물리적 설계/시공이 아니라 자산대장(référentiel patrimonial)·GIS·전산유지보수
     # 관리시스템(GMAO)·절차매뉴얼 등 제도·정보시스템 자문(콩고 Congolaise des Eaux
     # 사례). "water supply" 등 INCLUDE 키워드와 함께 나올 수 있어 하드제외로 분류.
-    r"gestion patrimoniale", r"gestion du patrimoine", r"r[ée]f[ée]rentiel
-patrimonial",
+    r"gestion patrimoniale", r"gestion du patrimoine", r"r[ée]f[ée]rentiel patrimonial",
     r"asset management system",  r"\bGMAO\b",
     # 전사적 리스크관리(ERM)/내부통제 시스템 구축 (우즈베키스탄 철도공사 사례) —
     # "Transport" 등 INCLUDE 키워드에 걸려도, 실제 업무는 COSO/ISO 31000 기반
