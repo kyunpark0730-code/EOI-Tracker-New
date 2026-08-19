@@ -213,10 +213,42 @@ def _load_cache() -> list:
     return items
 
 
+def _parse_dt(raw: str):
+    if not raw:
+        return None
+    raw = raw.strip()
+    for fmt in ("%Y-%m-%d %H:%M:%S", "%Y-%m-%d %H:%M", "%Y-%m-%d", "%Y%m%d%H%M", "%Y%m%d"):
+        try:
+            return datetime.strptime(raw, fmt)
+        except ValueError:
+            continue
+    return None
+
+
+def _drop_expired(items: list) -> list:
+    """G2B API는 World Bank와 달리 '공고 게시일' 기준으로 최근 90일치를 가져오기
+    때문에(마감일 기준이 아님), 이미 제출기한이 지난 공고도 그대로 섞여 들어온다.
+    특히 특정 기간 구간이 여러 날 실패하다가 뒤늦게 한 번 성공하면, 이미 마감된
+    공고가 "오늘 신규"로 잘못 표시되는 문제가 있었다. World Bank처럼 마감일이
+    지나지 않은 공고만 남긴다 (마감일 정보가 없거나 파싱 실패하면 안전하게 유지)."""
+    now = datetime.now(timezone.utc).replace(tzinfo=None)
+    active = []
+    dropped = 0
+    for it in items:
+        deadline = _parse_dt(it.get("submission_date", ""))
+        if deadline is not None and deadline < now:
+            dropped += 1
+            continue
+        active.append(it)
+    if dropped:
+        print(f"[나라장터] 마감 지난 공고 {dropped}건 제외", file=sys.stderr)
+    return active
+
+
 def fetch() -> list:
     """메인 오케스트레이터(fetch_all.py)가 부르는 진입점. 실시간 시도 후,
     실패(0건)하면 최근 성공했던 캐시로 자동 대체한다."""
     items = _fetch_live()
-    if items:
-        return items
-    return _load_cache()
+    if not items:
+        items = _load_cache()
+    return _drop_expired(items)
