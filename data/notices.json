@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-08-19T07:14:04.680399+00:00",
+  "generated_at": "2026-08-19T07:24:54.890227+00:00",
   "today_kst": "2026-08-19",
   "sources": [
     "World Bank 558건",
     "한국건설엔지니어링협회 1건",
     "ADB 0건",
-    "나라장터(G2B) 26건",
+    "나라장터(G2B) 19건",
     "해외건설협회(ICAK) 1건",
     "EIB 200건",
     "KIND 3건",
@@ -22,7 +22,7 @@
     },
     "ADB": {
       "last_success": "알 수 없음",
-      "consecutive_failures": 101
+      "consecutive_failures": 102
     },
     "나라장터(G2B)": {
       "last_success": "2026-08-19",
@@ -45,8 +45,8 @@
       "consecutive_failures": 0
     }
   },
-  "count": 88,
-  "new_today_count": 5,
+  "count": 87,
+  "new_today_count": 4,
   "notices": [
     {
       "id": "wb-OP00462826",
@@ -185,27 +185,6 @@
       "summary": "DIGITAL ZAMBIA ACCELERATION PROJECT (DZAP) REQUEST FOR EXPRESSIONS OF INTEREST (CONSULTING SERVICES &ndash; FIRMS SELECTION) COUNTRY : Zambia NAME OF PROJECT : The Digital Zambia Acceleration Project (DZAP) Loan No./Credit No./ Grant No.: P505094 Name of Implementing Agency: Smart Zambia Institute (SZI) Assignment Title: Selection of a Consulting Firm for the Design, Development, and Deployment of a Digital Data Protection Compliance Management System for the Data Protection Commission of Zambia",
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00461498",
-      "_source_label": "World Bank",
-      "notice_type_normalized": "관심표명(EOI)",
-      "consortium_signal": false,
-      "traffic_survey_signal": false,
-      "first_seen": "2026-08-19"
-    },
-    {
-      "id": "wb-OP00461500",
-      "notice_type": "Request for Expression of Interest",
-      "notice_date": "10-Aug-2026",
-      "submission_date": "2026-08-21T00:00:00Z",
-      "country": "Zambia",
-      "project_id": "P505094",
-      "project_name": "Digital Zambia Acceleration Project (DZAP)",
-      "bid_reference_no": "ZM-SZ-554942-CS-CQS",
-      "bid_description": "Consultancy Services for the Review and Development of National Data Protection Guidelines and Compliance Frameworks.",
-      "procurement_method": "Consultant Qualification  Selection",
-      "procurement_group": "CS",
-      "summary": "DIGITAL ZAMBIA ACCELERATION PROJECT (DZAP) REQUEST FOR EXPRESSIONS OF INTEREST (CONSULTING SERVICES &ndash; FIRMS SELECTION) COUNTRY : Zambia NAME OF PROJECT : The Digital Zambia Acceleration Project (DZAP) Loan No./Credit No./ Grant No.: P505094 Name of Implementing Agency: Smart Zambia Institute (SZI) Assignment Title: Consultancy Services for the Review and Development of National Data Protection Guidelines and Compliance Frameworks. Reference No .: ZM-SZ-554942-CS-CQS Background The Governme",
-      "source": "World Bank",
-      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00461500",
       "_source_label": "World Bank",
       "notice_type_normalized": "관심표명(EOI)",
       "consortium_signal": false,
