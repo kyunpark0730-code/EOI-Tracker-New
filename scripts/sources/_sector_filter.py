@@ -61,6 +61,10 @@ HARD_EXCLUDE_PATTERNS = [
     # 전력시장 설계·거래제도 자문 (물리적 송배전망 설계가 아니라 시장운영/규제 정책)
     r"trading bilateral contract market", r"electricity market design",
     r"power market reform", r"market operator",
+    # 위와 같은 성격(전력시장/거래 자문)의 스페인어 표현 — 볼리비아 "Estudio de Mercado
+    # para intercambios Internacionales" 사례(전력 국제거래 시장연구, 물리적 설비가
+    # 아니라 시장·정책 자문이라 다산 전문영역과 무관)
+    r"estudio de mercado para intercambios internacionales", r"mercado el[ée]ctrico",
     r"jours-homme", r"person-days? of it", r"it staffing",
     r"탈탄소화", r"decarboniz",
     # 탄소배출권 크레딧 개발/등록/판매(monetization), MRV(모니터링·검증) 등
