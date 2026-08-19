@@ -194,6 +194,9 @@ EXCLUDE_PATTERNS = [
     # 도로/댐 등 인프라 사업 산하 공고라 INCLUDE에 걸려도, 실제 업무는 이주·보상·
     # 젠더 등 사회분야 전문가 영역이라 다산 전문영역(설계/조사/감리)과 다름.
     r"tourism", r"관광", r"tourisme", r"turismo",
+    # 수산업/어업 관리·법제 자문 (미크로네시아 연안어업 법제정비 사례) — 토목이 아니라
+    # 해양자원 관리·정책·법률 분야라 다산 전문영역과 무관
+    r"fisheries", r"어업", r"수산업", r"p[êe]cheries?", r"pesca\b", r"pesquer[íi]a",
     r"gender action", r"양성평등", r"genre\b", r"g[êe]nero\b",
     r"agricultur(e|al) value chain", r"농업 가치사슬",
     # 사회안전망/현금성 지원 프로그램 평가·설계 (사회보호 정책 분야, 토목 아님)
