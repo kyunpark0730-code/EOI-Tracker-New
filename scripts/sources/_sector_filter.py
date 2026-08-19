@@ -89,6 +89,12 @@ HARD_EXCLUDE_PATTERNS = [
     # (설계/타당성조사/감리)이 아니라 기관 경영컨설팅이라 다산 전문영역과 다름.
     r"management support consultant", r"institutional strengthening",
     r"organizational restructuring", r"institutional review and organizational",
+    # 농업협동조합 등을 위한 공동 농기계 파크 설립 지원(제도·재정·법률·운영모델
+    # 수립, 역량강화 등) — 튀르키예 TARDP "Ortak Makine Parkları" 사례. 지진 피해
+    # 농업 프로젝트 산하 공고라도, 실제 업무는 농기계 공동이용 조직의 사업모델·
+    # 운영체계·역량강화 컨설팅이라 토목 설계/시공감리와 무관.
+    r"machinery park", r"ortak makine park", r"agricultural cooperative",
+    r"farmer(s)?['’]? cooperative",
     # 전사적 리스크관리(ERM)/내부통제 시스템 구축 (우즈베키스탄 철도공사 사례) —
     # "Transport" 등 INCLUDE 키워드에 걸려도, 실제 업무는 COSO/ISO 31000 기반
     # 리스크관리·내부통제 컨설팅이라 기관 경영자문 성격, 엔지니어링과 무관.
@@ -105,6 +111,10 @@ HARD_EXCLUDE_PATTERNS = [
     # 양식업(부화장 등) — 코트디부아르 alevinage(치어부화장) 관리체계 수립 사례.
     # 어업과 마찬가지로 다산 전문영역과 무관 (토목이 아니라 수산양식/기관 거버넌스)
     r"alevinage", r"pisciculture", r"aquaculture", r"station(s)? aquacole",
+    # 고형폐기물 관리 정책/제도 진단 (필리핀 Clean Metro Manila 사례) - 시설 설계가
+    # 아니라 수거·처리 체계의 정책·거버넌스·재정 진단 자문이라 다산 전문영역과 무관.
+    # 폐기물 관리 자체도 다산이 하는 분야가 아님(항만/수산업과 같은 이유).
+    r"solid waste mangement", r"waste management sector",
     # 에너지저장장치(BESS) — "타당성조사" 등 INCLUDE 키워드와 같이 나오는 경우가
     # 있어 하드제외로 이동 (전력망/변전소와 같은 전력 부문, 다산 전문영역 아님)
     r"\bBESS\b", r"battery energy storage", r"에너지저장장치",
