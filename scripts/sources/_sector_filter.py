@@ -221,7 +221,13 @@ HARD_EXCLUDE_PATTERNS = [
 # 함께 포함해야 원문이 그 언어인 공고도 정확히 분류할 수 있음 (번역은 안 하지만 키워드는 인식)
 INCLUDE_PATTERNS = [
     r"irrigation", r"관개", r"irrigación", r"irrigação",
-    r"\broad\b", r"highway", r"도로", r"\broute\b", r"routier", r"estrada", r"rodovia", r"carretera", r"vial\b",
+    r"\broad\b", r"highway", r"도로",
+    # 프랑스어 "route"(도로)는 "feuille de route"(로드맵), "en route"(진행 중)처럼
+    # 도로와 무관한 관용구에도 흔히 쓰여서, 그 두 관용구 뒤에 오는 경우는 제외하고
+    # 매칭한다 (부룬디 PAFEN e-GP 변화관리 사례 — "feuille de route e-GP"에 잘못
+    # 걸려서 IT/변화관리 용역이 포함됐었음).
+    r"(?<!feuille de )(?<!en )\broute\b",
+    r"routier", r"estrada", r"rodovia", r"carretera", r"vial\b",
     r"water resource", r"water supply", r"수자원", r"상수도", r"용수",
     r"ressources en eau", r"alimentation en eau", r"recursos h[íi]dricos", r"abastecimento de [áa]gua",
     r"\bdam\b", r"댐", r"barrage", r"barragem", r"\bpresa\b",
