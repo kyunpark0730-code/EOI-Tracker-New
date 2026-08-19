@@ -19,6 +19,12 @@ import re
 HARD_EXCLUDE_PATTERNS = [
     r"resettlement action plan", r"\bRAP\b", r"이주대책계획",
     r"land acquisition and resettlement", r"social safeguards", r"involuntary resettlement",
+    # 프랑스어권 RAP(이주대책계획) — 프랑스어 약어는 "PAR"이지만 "par"는 불어에서
+    # "~에 의해"라는 뜻으로 매우 흔한 단어라 \bPAR\b 자체는 쓰지 않고, 반드시 전체
+    # 문구로만 매칭한다. 이주대책계획(RAP)은 기존 영어 패턴과 마찬가지로 설계/감리
+    # 등 INCLUDE 키워드와 같이 나와도 무조건 제외 — RAP 자체가 별도 사회안전장치
+    # 전문영역이기 때문 (카메룬/콩고 전력망 건설사업 순수 이주대책 용역 사례).
+    r"plan d[’']?action de r[ée]installation", r"r[ée]installation involontaire",
     r"livestock", r"축산", r"dairy", r"낙농", r"[ée]levage", r"b[ée]tail", r"laitier",
     r"intelligent transport system", r"\bITS\b", r"지능형\s*교통체계",
     # 소프트웨어 개발자/IT 인력 파견(아웃소싱), 인일(jours-homme) 단위 IT 상주지원.
@@ -283,6 +289,16 @@ EXCLUDE_PATTERNS = [
     # 프로젝트 산하라도 실제 업무가 교육·정책분석·사회사업이라 다산 전문영역과 다름
     r"formation du personnel", r"raw materials heatmap",
     r"branchements sociaux",
+    # 환경사회영향평가(ESIA/EIES)·환경사회관리계획(PGES) — 콩고/카메룬 전력망
+    # 건설사업처럼 "이 업무 자체가" 환경사회영향평가 전문용역이면 제외하되,
+    # 마다가스카르 톨리아라 공항처럼 예비설계·상세설계·시공감리를 포함하는 종합
+    # 엔지니어링(maîtrise d'œuvre) 계약의 여러 산출물 중 하나로만 포함된 경우는
+    # INCLUDE(감리/설계 등)가 있으면 그대로 살아남도록 소프트 제외로 둔다
+    # (RAP/이주대책계획은 항상 하드제외이지만, ESIA는 종합설계용역에 흔히 포함되는
+    # 표준 산출물이라 RAP만큼 다산 업무와 명백히 무관하지는 않음).
+    r"[ée]tudes? d[’']?impact environnemental(e)? et social",
+    r"plan de gestion environnementale et sociale", r"\bPGES\b", r"\bEIES\b",
+    r"environmental and social impact (assessment|study)", r"\bESIA\b",
 ]
 
 _HARD_EXCLUDE_RE = re.compile("|".join(HARD_EXCLUDE_PATTERNS), re.IGNORECASE)
