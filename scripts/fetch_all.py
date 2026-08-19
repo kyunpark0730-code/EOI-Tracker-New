@@ -232,6 +232,39 @@ def main():
 
     all_notices.sort(key=sort_key, reverse=True)
 
+    # 마감 지난 공고 최종 제외. 개별 소스(g2b.py 등)가 자체적으로 마감일을 걸러내도,
+    # 위의 "안전장치"(그 소스가 오늘 0건이면 직전 성공 실행 때의 데이터를 그대로 재사용)가
+    # 그 소스별 필터를 우회해서 예전(필터 적용 이전) 원본 데이터를 그대로 들여올 수 있다.
+    # 그래서 소스에 상관없이 여기서 한 번 더, 최종적으로 걸러낸다 (마감일 정보가 없거나
+    # 형식을 못 읽으면 안전하게 유지한다 — "애매하면 살린다" 원칙과 동일).
+    def _parse_deadline(raw):
+        if not raw:
+            return None
+        raw = raw.strip()
+        try:
+            return datetime.fromisoformat(raw.replace("Z", "+00:00")).replace(tzinfo=None)
+        except ValueError:
+            pass
+        for fmt in ("%Y-%m-%d %H:%M:%S", "%Y-%m-%d %H:%M", "%Y-%m-%d",
+                    "%d/%m/%Y %H:%M", "%d/%m/%Y", "%Y%m%d%H%M", "%Y%m%d"):
+            try:
+                return datetime.strptime(raw, fmt)
+            except ValueError:
+                continue
+        return None
+
+    # 시각까지 비교하면, API가 마감"일"만 주고 시각은 00:00:00으로 채워넣는 경우(예:
+    # World Bank) 오늘이 마감일인 공고가 "이미 지남"으로 잘못 걸릴 수 있다. 그래서
+    # 날짜 단위로만 비교한다 (오늘 마감이면 아직 유효한 것으로 취급).
+    _today_naive = datetime.now(timezone.utc).replace(tzinfo=None).date()
+    before_deadline_filter = len(all_notices)
+    all_notices = [
+        n for n in all_notices
+        if (lambda d: d is None or d.date() >= _today_naive)(_parse_deadline(n.get("submission_date", "")))
+    ]
+    deadline_filtered_out = before_deadline_filter - len(all_notices)
+    print(f"마감 지난 공고로 제외됨: {deadline_filtered_out}건 (소스 안전장치로 옛 데이터가 섞여도 여기서 최종 정리)")
+
     before_filter = len(all_notices)
 
     # World Bank는 procurement_group 필드로 물품(Goods)/공사(Civil Works)/컨설팅
