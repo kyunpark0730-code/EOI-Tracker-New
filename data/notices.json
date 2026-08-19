@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-19T08:13:06.424661+00:00",
+  "generated_at": "2026-08-19T08:28:45.126419+00:00",
   "today_kst": "2026-08-19",
   "sources": [
-    "World Bank 559건",
+    "World Bank 557건",
     "한국건설엔지니어링협회 1건",
     "ADB 0건",
-    "나라장터(G2B) 0건",
+    "나라장터(G2B) 26건",
     "해외건설협회(ICAK) 1건",
-    "EIB 200건",
+    "EIB 175건",
     "KIND 3건",
     "AIIB 10건"
   ],
@@ -22,11 +22,11 @@
     },
     "ADB": {
       "last_success": "알 수 없음",
-      "consecutive_failures": 103
+      "consecutive_failures": 104
     },
     "나라장터(G2B)": {
       "last_success": "2026-08-19",
-      "consecutive_failures": 1
+      "consecutive_failures": 0
     },
     "해외건설협회(ICAK)": {
       "last_success": "2026-08-19",
@@ -45,8 +45,8 @@
       "consecutive_failures": 0
     }
   },
-  "count": 86,
-  "new_today_count": 3,
+  "count": 82,
+  "new_today_count": 2,
   "notices": [
     {
       "id": "aiib-https://www.aiib.org/en/projects/details/2026/_download/Uzbekistan/03082026_REoI-_Final_Unified-Consultant_eng.pdf",
@@ -143,27 +143,6 @@
       "summary": "DIGITAL ZAMBIA ACCELERATION PROJECT (DZAP) REQUEST FOR EXPRESSIONS OF INTEREST (CONSULTING SERVICES &ndash; FIRMS SELECTION) COUNTRY : Zambia NAME OF PROJECT : The Digital Zambia Acceleration Project (DZAP) Loan No./Credit No./ Grant No.: P505094 Name of Implementing Agency: Smart Zambia Institute (SZI) Assignment Title: Selection of a Consulting Firm for the Design, Development, and Deployment of a Digital Data Protection Compliance Management System for the Data Protection Commission of Zambia",
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00461498",
-      "_source_label": "World Bank",
-      "notice_type_normalized": "관심표명(EOI)",
-      "consortium_signal": false,
-      "traffic_survey_signal": false,
-      "first_seen": "2026-08-19"
-    },
-    {
-      "id": "wb-OP00461500",
-      "notice_type": "Request for Expression of Interest",
-      "notice_date": "10-Aug-2026",
-      "submission_date": "2026-08-21T00:00:00Z",
-      "country": "Zambia",
-      "project_id": "P505094",
-      "project_name": "Digital Zambia Acceleration Project (DZAP)",
-      "bid_reference_no": "ZM-SZ-554942-CS-CQS",
-      "bid_description": "Consultancy Services for the Review and Development of National Data Protection Guidelines and Compliance Frameworks.",
-      "procurement_method": "Consultant Qualification  Selection",
-      "procurement_group": "CS",
-      "summary": "DIGITAL ZAMBIA ACCELERATION PROJECT (DZAP) REQUEST FOR EXPRESSIONS OF INTEREST (CONSULTING SERVICES &ndash; FIRMS SELECTION) COUNTRY : Zambia NAME OF PROJECT : The Digital Zambia Acceleration Project (DZAP) Loan No./Credit No./ Grant No.: P505094 Name of Implementing Agency: Smart Zambia Institute (SZI) Assignment Title: Consultancy Services for the Review and Development of National Data Protection Guidelines and Compliance Frameworks. Reference No .: ZM-SZ-554942-CS-CQS Background The Governme",
-      "source": "World Bank",
-      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00461500",
       "_source_label": "World Bank",
       "notice_type_normalized": "관심표명(EOI)",
       "consortium_signal": false,
@@ -1704,66 +1683,6 @@
       "project_id": "20200030-06",
       "project_name": "Design, supply, and installation of Low Voltage and Medium Voltage Lines and Service Connections in Bugusera, Rwamgana, Kirehe, Ngoma, Nyagatare, Gatsibo and Kayonza Districts, in Eastern Province",
       "bid_reference_no": "20200030-06",
-      "bid_description": "On going",
-      "procurement_method": "",
-      "summary": "",
-      "source": "EIB",
-      "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
-      "_source_label": "EIB",
-      "notice_type_normalized": "기타",
-      "consortium_signal": false,
-      "traffic_survey_signal": false,
-      "first_seen": "2026-08-18"
-    },
-    {
-      "id": "eib-66f2a39ff612a47e01ba5cbf",
-      "notice_type": "Project procurement",
-      "notice_date": "25/09/2025",
-      "submission_date": " ",
-      "country": "Egypt",
-      "project_id": "20110416-49",
-      "project_name": "Al Robaa Wastewater Treatment Plant, Design-Build, Defect Liability Year, and Optional One Year Operation and Maintenance",
-      "bid_reference_no": "20110416-49",
-      "bid_description": "On going",
-      "procurement_method": "",
-      "summary": "",
-      "source": "EIB",
-      "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
-      "_source_label": "EIB",
-      "notice_type_normalized": "기타",
-      "consortium_signal": false,
-      "traffic_survey_signal": false,
-      "first_seen": "2026-08-18"
-    },
-    {
-      "id": "eib-68ad6021ed2dd21ed405e03a",
-      "notice_type": "TA operations",
-      "notice_date": "26/08/2025",
-      "submission_date": " ",
-      "country": "",
-      "project_id": "AA-12634-001",
-      "project_name": "RUFIP III - Rural Finance and Development Project, Ethiopia",
-      "bid_reference_no": "AA-12634-001",
-      "bid_description": "On going",
-      "procurement_method": "",
-      "summary": "",
-      "source": "EIB",
-      "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
-      "_source_label": "EIB",
-      "notice_type_normalized": "기타",
-      "consortium_signal": false,
-      "traffic_survey_signal": false,
-      "first_seen": "2026-08-18"
-    },
-    {
-      "id": "eib-68ac49cf27118428f2de70f0",
-      "notice_type": "Project procurement",
-      "notice_date": "25/08/2025",
-      "submission_date": " ",
-      "country": "",
-      "project_id": "20110078-48",
-      "project_name": "Construction of the new 400 kV Chemaia-Tensift II double-circuit line",
-      "bid_reference_no": "20110078-48",
       "bid_description": "On going",
       "procurement_method": "",
       "summary": "",
