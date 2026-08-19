@@ -122,6 +122,11 @@ HARD_EXCLUDE_PATTERNS = [
     # 기관 거버넌스/재무구조 설계 등 제도·경영 자문 (엔지니어링이 아니라 institutional
     # strengthening/management support consultant와 같은 성격의 자문)
     r"governance and financing model",
+    # 국가 에너지부문 투자프로그램/정책전략 수립 (마샬제도 REGAIN ESIP 사례) — 진단·
+    # 최소비용개발경로·통합자원계획(IRRP)·재원조달전략·정책로드맵 등 국가 정책·전략
+    # 수립이 중심이라, 개별 사업의 설계/감리/타당성조사가 아니라 다산 전문영역과 무관.
+    r"energy sector investment program(me)?", r"sector investment programme",
+    r"integrated resource and resilience plan", r"\bIRRP\b", r"least-cost development pathway",
     # 부품/장비 구매(물품 조달)의 전형적 표현 — 제목에 "(9 pcs.)"처럼 수량이 붙는 경우.
     # 프랑스어(fourniture)뿐 아니라 영어로도 이런 형태로 자주 나와서 별도로 잡는다.
     r"\(\s*\d+\s*pcs\.?\s*\)", r"\(\s*\d+\s*units?\s*\)",
