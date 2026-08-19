@@ -33,6 +33,10 @@ HARD_EXCLUDE_PATTERNS = [
     # 겹칠 수 있으므로 하드제외로 분류.
     r"village land use", r"land use action plan", r"biodiversity corridor",
     r"community-based natural resource management",
+    # 생물다양성 조사·생태복원계획 (르완다 Nyungwe-Ruhango 사례) — 위와 같은 이유로
+    # 환경보전·생태 분야라 다산 전문영역(토목 설계/감리)과 무관
+    r"biodiversity baseline survey", r"ecological restoration plan",
+    r"ecosystem-based restoration",
     # 생계형 소규모 사업(livelihood subproject) 사업계획서 작성 등 소득창출·
     # 가치사슬 경제개발 자문 (엔지니어링이 아니라 비즈니스 컨설팅 성격)
     r"livelihood subproject", r"business plans? for livelihood", r"value chains? for",
@@ -69,6 +73,9 @@ HARD_EXCLUDE_PATTERNS = [
     # 물리적 설비 설계가 아니라 라벨링 표준·규정 수립 정책자문이라 다산 전문영역과 무관
     r"etiquetado de eficiencia energ[ée]tica", r"energy efficiency label(l)?ing",
     r"programa de etiquetado",
+    # 디젤 사용량 분석 및 청정에너지 대체(에너지효율 진단) 연구 (볼리비아 IDTR III
+    # 광산지역 디젤대체 사례) — 물리적 설비 설계가 아니라 에너지효율 진단/정책 자문
+    r"sustituci[óo]n de diesel", r"diesel substitution",
     r"jours-homme", r"person-days? of it", r"it staffing",
     r"탈탄소화", r"decarboniz",
     # 탄소배출권 크레딧 개발/등록/판매(monetization), MRV(모니터링·검증) 등
