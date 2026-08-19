@@ -322,7 +322,11 @@ def main():
     all_notices = [
         n for n in all_notices
         if is_relevant(n.get("project_name", ""), n.get("bid_description", ""),
-                        n.get("notice_type", ""), n.get("summary", ""))
+                       n.get("notice_type", ""), n.get("summary", ""),
+                        # World Bank는 대시보드 표시용 summary가 500자로 잘려 있어
+                        # 그 뒤에 나오는 실제 과업범위 문구를 놓칠 수 있다(피지 PHIT
+                        # 사업 사례). 있으면 원문 전체(_filter_text)도 같이 검사한다.
+                        n.get("_filter_text", ""))
     ]
     filtered_out = before_filter - len(all_notices) - job_filtered_out - goods_filtered_out - award_filtered_out - pp_filtered_out - sole_source_filtered_out
     print(f"분야 필터로 제외됨: {filtered_out}건 (관개/도로/수자원 등과 무관)")
@@ -354,6 +358,7 @@ def main():
     new_today_count = 0
     for n in all_notices:
         n.pop("_sort_date", None)
+        n.pop("_filter_text", None)
         n["notice_type_normalized"] = normalize_notice_type(n.get("notice_type", ""))
         n["consortium_signal"] = has_consortium_signal(
             n.get("project_name", ""), n.get("bid_description", ""), n.get("summary", "")
