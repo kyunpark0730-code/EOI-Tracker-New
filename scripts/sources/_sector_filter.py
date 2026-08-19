@@ -87,6 +87,11 @@ HARD_EXCLUDE_PATTERNS = [
     # KOICA 등 국내 행정지원 용역(임금체계/전시관 시설/사업평가 등 -
     # 해외 인프라 설계·감리가 아니라 기관 내부 행정·평가 업무)
     r"임금체계", r"전시관", r"심층평가", r"배움터",
+    # 사업/프로그램 성과평가(M&E) 컨설팅 — 케냐 KISIP2 "End of Program Evaluation" 사례.
+    # 설계·감리가 아니라 사업 종료 후 성과·수혜자 평가 자문이라 다산 전문영역과 무관
+    # (관개/도로 등 인프라 사업 산하 공고라도 이 업무 자체가 평가·컨설팅이면 제외).
+    r"end of program evaluation", r"beneficiary assessment",
+    r"value for money assessment", r"impact evaluation",
     # 재무제표 감사(외부회계감사) 용역 - 관개/도로 등 인프라 사업 산하 공고라 INCLUDE에
     # 걸려도, 실제 업무는 회계·재무감사 전문용역(공인회계사)이라 다산 전문영역과 다름
     r"external auditor", r"financial audit", r"audit comptable et financier",
@@ -203,6 +208,11 @@ EXCLUDE_PATTERNS = [
     r"digital skills? (and competence )?framework", r"digital competence framework",
     r"ict competenc\w* framework", r"digital literacy framework", r"national digital skills",
     r"computer emergency response", r"\bCERT\b",
+    # 전자정부/디지털경제 프로그램의 프랑스어 표현 (부룬디 PAFEN "économie numérique" 사례).
+    # 전자조달(e-GP) 시스템 도입에 따른 변화관리(change management)/소통전략 자문도
+    # 엔지니어링이 아니라 조직·IT 전환관리 성격이라 함께 제외한다.
+    r"[ée]conomie num[ée]rique", r"gestion du changement",
+    r"march[ée]s? publics? [ée]lectroniqu", r"\be-GP\b", r"passation [ée]lectronique",
     r"telecommunications sector", r"telecomunica[çc][õo]es", r"telecomunicaciones",
     r"data center", r"network security", r"information security",
     # 소액 물품/장비 구매용 조달 방식(견적요청). 컨설팅 용역(RFP/EOI)이 아니라
