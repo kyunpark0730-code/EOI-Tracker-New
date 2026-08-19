@@ -65,6 +65,10 @@ HARD_EXCLUDE_PATTERNS = [
     # para intercambios Internacionales" 사례(전력 국제거래 시장연구, 물리적 설비가
     # 아니라 시장·정책 자문이라 다산 전문영역과 무관)
     r"estudio de mercado para intercambios internacionales", r"mercado el[ée]ctrico",
+    # 에너지효율 등급라벨링 제도/규정 마련 (볼리비아 IDTR III 라벨링 프로그램 사례) —
+    # 물리적 설비 설계가 아니라 라벨링 표준·규정 수립 정책자문이라 다산 전문영역과 무관
+    r"etiquetado de eficiencia energ[ée]tica", r"energy efficiency label(l)?ing",
+    r"programa de etiquetado",
     r"jours-homme", r"person-days? of it", r"it staffing",
     r"탈탄소화", r"decarboniz",
     # 탄소배출권 크레딧 개발/등록/판매(monetization), MRV(모니터링·검증) 등
