@@ -90,6 +90,12 @@ HARD_EXCLUDE_PATTERNS = [
     r"carbon credit", r"carbon crediting", r"carbon monetization", r"carbon monetisation",
     r"carbon market", r"ghg accounting", r"\bmrv\b", r"verra\b", r"gold standard\b",
     r"\bcdm\b", r"article 6\.4",
+    # REDD+/산림탄소 모니터링(MNV=MRV의 프랑스어 표현) — 기니 REDD+ 국가 MNV체계
+    # 강화 사례. 산림 원격탐사·산림재고조사(IFN)·탄소회계(AFOLU/LULUCF) 등 산림탄소
+    # 전문분야라 다산 전문영역(토목 설계/조사/감리)과 무관.
+    r"\bMNV\b", r"REDD\+", r"forest monitoring", r"national forest monitoring",
+    r"surveillance des for[êe]ts", r"inventaire forestier national", r"\bIFN\b",
+    r"afolu", r"\blulucf\b",
     # 발전/에너지 사업 시행기관 자체에 대한 경영·제도 자문(조직개편/인사/재무/요금·규제/
     # ERP 등). "Hydropower" 등 INCLUDE 키워드에 걸려도, 실제 업무는 엔지니어링
     # (설계/타당성조사/감리)이 아니라 기관 경영컨설팅이라 다산 전문영역과 다름.
