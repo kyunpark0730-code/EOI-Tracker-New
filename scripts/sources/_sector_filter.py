@@ -236,7 +236,12 @@ INCLUDE_PATTERNS = [
     r"flood", r"홍수", r"inondation", r"inunda[çc][ãa]o", r"inundaci[óo]n",
     r"transport", r"교통", r"transporte",
     r"hydro", r"수력",
-    r"canal", r"수로",
+    # 포르투갈어/스페인어 "canal"은 수로라는 뜻 외에 "채널"(방송/소통 채널)이라는
+    # 뜻으로도 흔히 쓰여서 — 특히 "multicanal"(다채널)처럼 다른 단어에 붙어있으면
+    # 단어 경계가 없어 아무데나 걸릴 위험이 있다 (앙골라 AYEOP 커뮤니케이션 전략
+    # 수립 용역 사례 — "multicanal"에 잘못 걸려서 포함됐었음). 최소한 단어 경계는
+    # 지키도록 고친다.
+    r"\bcanal\b", r"수로",
     r"sewer", r"하수", r"assainissement",
     r"embankment", r"제방",
     r"reservoir", r"저수지", r"r[ée]servoir",
