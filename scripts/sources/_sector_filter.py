@@ -206,6 +206,10 @@ HARD_EXCLUDE_PATTERNS = [
     # 기관 거버넌스/재무구조 설계 등 제도·경영 자문 (엔지니어링이 아니라 institutional
     # strengthening/management support consultant와 같은 성격의 자문)
     r"governance and financing model",
+    # 농촌금융/소액금융(microfinance) 개발 프로그램(EIB RUFIP III - 에티오피아 사례) —
+    # 관개/도로 등 인프라의 설계·감리가 아니라 농촌 금융기관/신용 접근성을 개선하는
+    # 금융부문 개발사업이라 다산 전문영역과 무관.
+    r"rural finance", r"microfinance", r"micro-finance", r"financial inclusion",
     # 국가 에너지부문 투자프로그램/정책전략 수립 (마샬제도 REGAIN ESIP 사례) — 진단·
     # 최소비용개발경로·통합자원계획(IRRP)·재원조달전략·정책로드맵 등 국가 정책·전략
     # 수립이 중심이라, 개별 사업의 설계/감리/타당성조사가 아니라 다산 전문영역과 무관.
