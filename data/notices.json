@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T03:58:34.466831+00:00",
+  "generated_at": "2026-08-20T04:42:17.434248+00:00",
   "today_kst": "2026-08-20",
   "sources": [
     "World Bank 574건",
@@ -7,7 +7,7 @@
     "ADB 0건",
     "나라장터(G2B) 23건",
     "해외건설협회(ICAK) 1건",
-    "EIB 54건",
+    "EIB 53건",
     "KIND 4건",
     "AIIB 10건"
   ],
@@ -22,7 +22,7 @@
     },
     "ADB": {
       "last_success": "알 수 없음",
-      "consecutive_failures": 109
+      "consecutive_failures": 110
     },
     "나라장터(G2B)": {
       "last_success": "2026-08-20",
@@ -45,8 +45,8 @@
       "consecutive_failures": 0
     }
   },
-  "count": 92,
-  "new_today_count": 14,
+  "count": 86,
+  "new_today_count": 11,
   "notices": [
     {
       "id": "wb-OP00459222",
@@ -801,47 +801,6 @@
       "first_seen": "2026-08-06"
     },
     {
-      "id": "g2b-R26BK01688513-000",
-      "notice_type": "용역 입찰공고",
-      "notice_date": "2026-08-20 08:47:28",
-      "submission_date": "2026-09-03 10:00:00",
-      "country": "",
-      "project_id": "R26BK01688513",
-      "project_name": "대내 생성형 AI 서비스 구축 사업 감리 용역",
-      "bid_reference_no": "R26BK01688513",
-      "bid_description": "한국해외인프라도시개발지원공사",
-      "procurement_method": "제한경쟁",
-      "agency_tag": "",
-      "summary": "",
-      "source": "나라장터(G2B)",
-      "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01688513&bidPbancOrd=000",
-      "_source_label": "나라장터(G2B)",
-      "notice_type_normalized": "입찰공고",
-      "consortium_signal": false,
-      "traffic_survey_signal": false,
-      "first_seen": "2026-08-20"
-    },
-    {
-      "id": "eib-6a7aed4ac3644c6383dfd82f",
-      "notice_type": "Project procurement",
-      "notice_date": "12/08/2026",
-      "submission_date": "30/09/2026",
-      "country": "",
-      "project_id": "Travaux d’équipement, essais et mise en service de la transformation 225/60kv au poste existant 225/22kv Ben Slimane II (Morocco)",
-      "project_name": "Equipement, essais et mise en service de la transformation 225/60kv au poste existant 225/22kv Ben Slimane II",
-      "bid_reference_no": "Travaux d’équipement, essais et mise en service de la transformation 225/60kv au poste existant 225/22kv Ben Slimane II (Morocco)",
-      "bid_description": "On going",
-      "procurement_method": "",
-      "summary": "",
-      "source": "EIB",
-      "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
-      "_source_label": "EIB",
-      "notice_type_normalized": "기타",
-      "consortium_signal": false,
-      "traffic_survey_signal": false,
-      "first_seen": "2026-08-12"
-    },
-    {
       "id": "eib-6a218a6bf798e73d8164fc62",
       "notice_type": "Project procurement",
       "notice_date": "11/08/2026",
@@ -1482,26 +1441,6 @@
       "first_seen": "2026-08-18"
     },
     {
-      "id": "eib-6953c1d2708ffe303c2bca41",
-      "notice_type": "Project procurement",
-      "notice_date": "30/12/2025",
-      "submission_date": " ",
-      "country": "",
-      "project_id": "20210138-01",
-      "project_name": "Civil works construction, provision of materials, equipment, electromechanical assembly, testing and commissioning of 500 kV Ecuador-Peru electricity interconnection system",
-      "bid_reference_no": "20210138-01",
-      "bid_description": "On going",
-      "procurement_method": "",
-      "summary": "",
-      "source": "EIB",
-      "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
-      "_source_label": "EIB",
-      "notice_type_normalized": "기타",
-      "consortium_signal": false,
-      "traffic_survey_signal": false,
-      "first_seen": "2026-08-18"
-    },
-    {
       "id": "eib-694a8651708ffe303c2bc9a9",
       "notice_type": "Project procurement",
       "notice_date": "23/12/2025",
@@ -1860,66 +1799,6 @@
       "consortium_signal": false,
       "traffic_survey_signal": false,
       "first_seen": "2026-08-20"
-    },
-    {
-      "id": "eib-68ac49cf27118428f2de70f0",
-      "notice_type": "Project procurement",
-      "notice_date": "25/08/2025",
-      "submission_date": " ",
-      "country": "",
-      "project_id": "20110078-48",
-      "project_name": "Construction of the new 400 kV Chemaia-Tensift II double-circuit line",
-      "bid_reference_no": "20110078-48",
-      "bid_description": "On going",
-      "procurement_method": "",
-      "summary": "",
-      "source": "EIB",
-      "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
-      "_source_label": "EIB",
-      "notice_type_normalized": "기타",
-      "consortium_signal": false,
-      "traffic_survey_signal": false,
-      "first_seen": "2026-08-20"
-    },
-    {
-      "id": "kind-11442",
-      "notice_type": "입찰공고 R26BK01688513 - 000",
-      "notice_date": "2026-08-20",
-      "submission_date": "",
-      "country": "",
-      "project_id": "11442",
-      "project_name": "[입찰공고 R26BK01688513 - 000] 대내 생성형 AI 서비스 구축 사업 감리 용역",
-      "bid_reference_no": "",
-      "bid_description": "",
-      "procurement_method": "",
-      "summary": "",
-      "source": "KIND",
-      "source_url": "https://www.kindkorea.or.kr/pages/72?id=11442&menuMode=READ&q=",
-      "_source_label": "KIND",
-      "notice_type_normalized": "입찰공고",
-      "consortium_signal": false,
-      "traffic_survey_signal": false,
-      "first_seen": "2026-08-20"
-    },
-    {
-      "id": "kind-11421",
-      "notice_type": "사전규격 공개",
-      "notice_date": "2026-08-07",
-      "submission_date": "",
-      "country": "",
-      "project_id": "11421",
-      "project_name": "[사전규격 공개] 대내 생성형 AI 서비스 구축 사업 감리 용역",
-      "bid_reference_no": "",
-      "bid_description": "",
-      "procurement_method": "",
-      "summary": "",
-      "source": "KIND",
-      "source_url": "https://www.kindkorea.or.kr/pages/72?id=11421&menuMode=READ&q=",
-      "_source_label": "KIND",
-      "notice_type_normalized": "사전공개",
-      "consortium_signal": false,
-      "traffic_survey_signal": false,
-      "first_seen": "2026-08-10"
     }
   ]
 }
