@@ -132,7 +132,19 @@ def fetch() -> list:
                 # oversight" 등 제외 판단에 필요한 문구)가 나오는 경우가 있어서
                 # (피지 PHIT 사업 사례) 필터는 항상 이 필드(전체 원문)를 봐야 한다.
                 # fetch_all.py에서 필터링에 쓰고 최종 저장 전에 제거한다.
-                "_filter_text": _strip_html(item.get("notice_text", "")),
+                # 분야 필터(is_relevant)용 원문 전체 텍스트. "summary"는 대시보드
+                # 표시용으로 500자로 잘라두는데, 그 잘린 부분 뒤에 실제 과업범위
+                # (예: "social safeguards management", "health service delivery
+                # oversight" 등 제외 판단에 필요한 문구)가 나오는 경우가 있어서
+                # (피지 PHIT 사업 사례) 필터는 이 필드(원문 앞부분 더 길게)를 봐야
+                # 한다. 다만 원문 전체를 다 쓰면 공고 맨 끝에 항상 붙는 담당기관
+                # 제출처 주소("Corner of Nationalist Road and Independence Avenue"
+                # 같은 문구)에 있는 거리 이름이 "road" 등 INCLUDE 키워드에 우연히
+                # 걸리는 문제가 있었다(잠비아 DZAP 사례). 과업범위/자격요건은
+                # 보통 앞쪽 3000자 안에 다 나오고, 주소/연락처는 항상 맨 끝에
+                # 붙으므로 3000자까지만 써서 이 오탐을 막는다.
+                # fetch_all.py에서 필터링에 쓰고 최종 저장 전에 제거한다.
+                "_filter_text": _strip_html(item.get("notice_text", ""))[:3000],
                 "source": "World Bank",
                 "source_url": f"https://projects.worldbank.org/en/projects-operations/procurement-detail/{nid}",
             }
