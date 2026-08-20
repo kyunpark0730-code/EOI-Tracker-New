@@ -158,7 +158,14 @@ SOURCES = [
     ("KIND", kind),
     ("AIIB", aiib),
 ]
-
+# 매일 재수집할 필요가 없는 소스는 특정 요일에만 실제로 새로 수집한다 (사용자
+# 요청, 2026-08: EIB는 매주 수요일에만 갱신). 그 외 요일에는 직전 성공 데이터를
+# 그대로 유지한다 — "실패"가 아니라 "의도된 건너뜀"이므로 연속 실패 카운트에는
+# 포함하지 않는다. 요일 값: 월=0, 화=1, 수=2, 목=3, 금=4, 토=5, 일=6
+# (datetime.weekday() 기준, KST).
+WEEKLY_ONLY_SOURCES = {
+    "EIB": 2,  # 수요일
+}
 # 연속 실패가 이 횟수 이상 누적되면 로그에 강조 경고를 남긴다.
 CONSECUTIVE_FAILURE_ALERT_THRESHOLD = 5
 
@@ -221,6 +228,25 @@ def main():
 
     for label, module in SOURCES:
         prev_status = previous_source_status.get(label, {})
+
+        weekly_day = WEEKLY_ONLY_SOURCES.get(label)
+        if weekly_day is not None and datetime.now(KST).weekday() != weekly_day:
+            cached_items = previous_source_items.get(label, [])
+            for n in cached_items:
+                n["_source_label"] = label
+            items = cached_items
+            source_status[label] = prev_status or {
+                "last_success": "알 수 없음",
+                "consecutive_failures": 0,
+            }
+            print(
+                f"{label}: 매주 지정 요일에만 재수집(오늘은 건너뜀) -> "
+                f"이전 데이터 유지 ({len(items)}건)"
+            )
+          summary_append(f"{label} {len(items)}건")
+          all_notices.extend(items)
+          continue
+          
         try:
             items = module.fetch()
         except Exception as e:
