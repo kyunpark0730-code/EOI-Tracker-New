@@ -399,15 +399,29 @@ def is_individual_job_posting(title: str) -> bool:
     return bool(_JOB_TITLE_ENDING_RE.search(title))
 
 
+# INCLUDE/EXCLUDE(소프트) 판단에 사용할 원문 최대 길이. 공고 맨 끝에 항상 붙는
+# 담당기관 제출처 주소("Corner of Nationalist Road..." 같은 문구)에 있는 거리
+# 이름이 "road" 등 INCLUDE 키워드에 우연히 걸리는 오탐(잠비아 DZAP 사례)을 막기
+# 위해, INCLUDE/EXCLUDE 판단은 앞쪽 부분만 본다. 자격요건/과업범위는 보통 이
+# 길이 안에 다 나오고, 주소·연락처는 항상 맨 끝에 붙기 때문.
+_RELEVANCE_HEAD_CHARS = 3000
+
+
 def is_relevant(*texts: str) -> bool:
     combined = " ".join(t for t in texts if t)
     if not combined:
         return True  # 판단할 정보 자체가 없으면 일단 포함 (안전하게)
+    # HARD_EXCLUDE는 원문 전체(길이 제한 없이)로 검사한다. 자격요건 섹션이 길어서
+    # 배제 신호(예: "institutional strengthening")가 3000자 이후에 나오는 경우도
+    # 있기 때문(나이지리아 SPIN 수력 PPP 제도개선 자문 사례 — 자격요건 항목이
+    # 길어서 "institutional strengthening" 문구가 뒤쪽에 있었는데, INCLUDE/EXCLUDE
+    # 용으로만 앞부분을 잘라 써야지 HARD_EXCLUDE까지 잘라버리면 이런 사례를 놓친다).
     if _HARD_EXCLUDE_RE.search(combined):
         return False  # INCLUDE 키워드가 있어도 무조건 제외 (RAP, ITS, 축산 등)
-    if _INCLUDE_RE.search(combined):
+    head = combined[:_RELEVANCE_HEAD_CHARS]
+    if _INCLUDE_RE.search(head):
         return True
-    if _EXCLUDE_RE.search(combined):
+    if _EXCLUDE_RE.search(head):
         return False
     return True  # 애매하면 포함
 
