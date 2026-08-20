@@ -243,9 +243,9 @@ def main():
                 f"{label}: 매주 지정 요일에만 재수집(오늘은 건너뜀) -> "
                 f"이전 데이터 유지 ({len(items)}건)"
             )
-          summary_append(f"{label} {len(items)}건")
-          all_notices.extend(items)
-          continue
+            summary.append(f"{label} {len(items)}건")
+            all_notices.extend(items)
+            continue
           
         try:
             items = module.fetch()
