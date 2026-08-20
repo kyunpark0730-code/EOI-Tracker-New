@@ -34,40 +34,8 @@ from sources._sector_filter import (  # noqa: E402
 # 최신본이 아니라는 뜻이다.
 print(f"[버전 확인] HARD_EXCLUDE_PATTERNS {len(HARD_EXCLUDE_PATTERNS)}개 로드됨 "
       f"(RAP 테스트: {'제외됨' if is_relevant('Resettlement Action Plan Road') is False else '제외 안 됨(구버전 의심)'})")
-# [임시 진단] 잠비아 DZAP 2건 / 가이아나 One Health가 계속 살아남는 원인을 찾기
-# 위해, 실제 저장된 필드값 그대로 is_relevant를 호출해서 결과와 매칭된 키워드를
-# 로그에 남긴다. 원인 확인되면 이 블록은 지워도 된다.
-def _debug_case(label, project_name, bid_description, notice_type, summary):
-    from sources._sector_filter import _HARD_EXCLUDE_RE, _INCLUDE_RE, _EXCLUDE_RE
-    combined = " ".join(t for t in (project_name, bid_description, notice_type, summary) if t)
-    h = _HARD_EXCLUDE_RE.search(combined)
-    i = _INCLUDE_RE.search(combined)
-    e = _EXCLUDE_RE.search(combined)
-    result = is_relevant(project_name, bid_description, notice_type, summary)
-    print(f"[진단:{label}] is_relevant={result} | hard={h.group() if h else None} "
-          f"| include={i.group() if i else None} | soft={e.group() if e else None}")
-
-_debug_case(
-    "잠비아DZAP1",
-    "Digital Zambia Acceleration Project (DZAP)",
-    "Consultancy Services for the Design, Development and Deployment of a Web-Based Data Protection Compliance Management System",
-    "Request for Expression of Interest",
-    "DIGITAL ZAMBIA ACCELERATION PROJECT (DZAP) REQUEST FOR EXPRESSIONS OF INTEREST (CONSULTING SERVICES – FIRMS SELECTION) COUNTRY : Zambia NAME OF PROJECT : The Digital Zambia Acceleration Project (DZAP) Loan No./Credit No./ Grant No.: P505094 Name of Implementing Agency: Smart Zambia Institute (SZI) Assignment Title: Selection of a Consulting Firm for the Design, Development, and Deployment of a Digital Data Protection Compliance Management System for the Data Protection Commission of Zambia",
-)
-_debug_case(
-    "잠비아DZAP2",
-    "Digital Zambia Acceleration Project (DZAP)",
-    "Consultancy Services for the Review and Development of National Data Protection Guidelines and Compliance Frameworks.",
-    "Request for Expression of Interest",
-    "DIGITAL ZAMBIA ACCELERATION PROJECT (DZAP) REQUEST FOR EXPRESSIONS OF INTEREST (CONSULTING SERVICES – FIRMS SELECTION) COUNTRY : Zambia NAME OF PROJECT : The Digital Zambia Acceleration Project (DZAP) Loan No./Credit No./ Grant No.: P505094 Name of Implementing Agency: Smart Zambia Institute (SZI) Assignment Title: Consultancy Services for the Review and Development of National Data Protection Guidelines and Compliance Frameworks. Reference No .: ZM-SZ-554942-CS-CQS Background The Governme",
-)
-_debug_case(
-    "가이아나OneHealth",
-    "Guyana One Health Project",
-    "Design and Supervision of the NPHRL Building",
-    "Request for Expression of Interest",
-    "REQUEST FOR EXPRESSIONS OF INTEREST (CONSULTING SERVICES – FIRMS SELECTION) Cooperative Republic of Guyana Guyana One Health Project Project No. : (P508693) Assignment Title : Design and Supervision of the National Public Health Reference Laboratory Building Reference No. : GY-HSDU-MOH-561852-CS-CQS The Government of Co-operative Republic of Guyana has received financing from the World Bank toward the cost of the One Health Project and intends to apply part of the proceeds for consulting s",
-)
+# (이전 진단 블록은 제거함 - _filter_text 인자를 빠뜨려서 잘못된 결과를 보여줬음.
+# 진짜 원인은 아래 main() 안, all_notices 수집 직후에 있는 새 진단 블록에서 확인)
 
 # 소스마다(영어/프랑스어/한국어) 제각각인 notice_type 원문을 5개 통합 카테고리로
 # 정리한다. 사전 매칭 대신 키워드 패턴으로 판단해서, 새 소스가 추가되거나
@@ -291,7 +259,22 @@ def main():
         return n.get("_sort_date") or ""
 
     all_notices.sort(key=sort_key, reverse=True)
-
+    # [임시 진단] 잠비아 DZAP 2건 / 가이아나 One Health가 계속 살아남는 원인을 찾기
+    # 위해, 실제로 이번 실행에서 수집된 해당 공고의 _filter_text(500자로 안 잘린
+    # 원문 전체)에서 어떤 INCLUDE 키워드가 걸리는지 직접 출력한다. 원인 확인되면
+    # 이 블록은 지워도 된다.
+    from sources._sector_filter import _INCLUDE_RE
+    _debug_ids = {"wb-OP00461498", "wb-OP00461500", "wb-OP00461136"}
+    for _n in all_notices:
+        if _n.get("id") in _debug_ids:
+            _ft = _n.get("_filter_text", "")
+            _m = _INCLUDE_RE.search(_ft)
+            print(f"[진단2:{_n.get('id')}] _filter_text 길이={len(_ft)} | "
+                  f"include_match={_m.group() if _m else None}")
+            if _m:
+                _start = max(0, _m.start() - 60)
+                _end = min(len(_ft), _m.end() + 60)
+                print(f"[진단2:{_n.get('id')}] 매칭 주변 문맥: ...{_ft[_start:_end]}...")
     # 마감 지난 공고 최종 제외. 개별 소스(g2b.py 등)가 자체적으로 마감일을 걸러내도,
     # 위의 "안전장치"(그 소스가 오늘 0건이면 직전 성공 실행 때의 데이터를 그대로 재사용)가
     # 그 소스별 필터를 우회해서 예전(필터 적용 이전) 원본 데이터를 그대로 들여올 수 있다.
