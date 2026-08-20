@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-19T21:56:25.541593+00:00",
+  "generated_at": "2026-08-20T00:44:18.196332+00:00",
   "today_kst": "2026-08-20",
   "sources": [
-    "World Bank 598건",
+    "World Bank 574건",
     "한국건설엔지니어링협회 1건",
     "ADB 0건",
-    "나라장터(G2B) 22건",
+    "나라장터(G2B) 23건",
     "해외건설협회(ICAK) 1건",
-    "EIB 200건",
-    "KIND 3건",
+    "EIB 54건",
+    "KIND 4건",
     "AIIB 10건"
   ],
   "source_status": {
@@ -22,7 +22,7 @@
     },
     "ADB": {
       "last_success": "알 수 없음",
-      "consecutive_failures": 105
+      "consecutive_failures": 106
     },
     "나라장터(G2B)": {
       "last_success": "2026-08-20",
@@ -46,7 +46,7 @@
     }
   },
   "count": 87,
-  "new_today_count": 5,
+  "new_today_count": 7,
   "notices": [
     {
       "id": "wb-OP00459222",
@@ -337,27 +337,6 @@
       "consortium_signal": false,
       "traffic_survey_signal": false,
       "first_seen": "2026-08-11"
-    },
-    {
-      "id": "wb-OP00460966",
-      "notice_type": "Request for Expression of Interest",
-      "notice_date": "06-Aug-2026",
-      "submission_date": "2026-08-19T00:00:00Z",
-      "country": "Comoros",
-      "project_id": "P504691",
-      "project_name": "Comoros National Water Resilience Project",
-      "bid_reference_no": "KM-CNWRP-558696-CS-CQS",
-      "bid_description": "Recrutement d'un bureau d'étude pour la réalisation des études pour la construction du siège de la SONEDE",
-      "procurement_method": "Consultant Qualification  Selection",
-      "procurement_group": "CS",
-      "summary": "UNION DES COMORES Unit&eacute; &ndash; Solidarit&eacute; &ndash; D&eacute;veloppement ---------------- MINISTERE DE L&rsquo;ENERGIE DE L&rsquo;EAU ET DES HYDROCARBURES __________________________ PROJET NATIONAL DE RESILIENCE DU SECTEUR DE L&rsquo;EAU N&deg; identification du projet (P504691 &ndash; PNRSE) S&eacute;lection des CONSULTANTS PAR LES Emprunteurs de la Banque Mondiale Sollicitation de Manifestations d&rsquo;Int&eacute;r&ecirc;t pour le Recrutement d&rsquo;un Consultant (Bureau) pour l",
-      "source": "World Bank",
-      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00460966",
-      "_source_label": "World Bank",
-      "notice_type_normalized": "관심표명(EOI)",
-      "consortium_signal": false,
-      "traffic_survey_signal": false,
-      "first_seen": "2026-08-10"
     },
     {
       "id": "wb-OP00460945",
@@ -675,27 +654,6 @@
       "first_seen": "2026-08-06"
     },
     {
-      "id": "wb-OP00456824",
-      "notice_type": "Request for Expression of Interest",
-      "notice_date": "21-Jul-2026",
-      "submission_date": "2026-08-19T00:00:00Z",
-      "country": "Cambodia",
-      "project_id": "P510547",
-      "project_name": "Cambodia Regional Connectivity Improvement Project Phase 1",
-      "bid_reference_no": "KH-CRCI-MPWT-QCBS-01",
-      "bid_description": "Selecting Consultant firm for Implementation Support and Works Supervision for Output and Performance Based Roads Contracts",
-      "procurement_method": "Quality And Cost-Based Selection",
-      "procurement_group": "CS",
-      "summary": "Request for Express of Interest (REOI) Consultancy Services for Implementation Support and Works Supervision for Output and Performance Based Roads Contracts under the Cambodia Regional Connectivity Improvement (CRCI) Project (Firms Selection, Reference No. KH-CRCI-MPWT-QCBS-01) 1. The Ministry of Public Works and Transport (MPWT) of the Royal Government of Cambodia (RGC) has applied for financing support from the World Bank&#39;s (WB) International Development Association (IDA) to implement the",
-      "source": "World Bank",
-      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00456824",
-      "_source_label": "World Bank",
-      "notice_type_normalized": "관심표명(EOI)",
-      "consortium_signal": false,
-      "traffic_survey_signal": false,
-      "first_seen": "2026-08-06"
-    },
-    {
       "id": "wb-OP00456499",
       "notice_type": "Request for Expression of Interest",
       "notice_date": "13-Jul-2026",
@@ -715,6 +673,27 @@
       "consortium_signal": false,
       "traffic_survey_signal": false,
       "first_seen": "2026-08-06"
+    },
+    {
+      "id": "g2b-R26BK01688513-000",
+      "notice_type": "용역 입찰공고",
+      "notice_date": "2026-08-20 08:47:28",
+      "submission_date": "2026-09-03 10:00:00",
+      "country": "",
+      "project_id": "R26BK01688513",
+      "project_name": "대내 생성형 AI 서비스 구축 사업 감리 용역",
+      "bid_reference_no": "R26BK01688513",
+      "bid_description": "한국해외인프라도시개발지원공사",
+      "procurement_method": "제한경쟁",
+      "agency_tag": "",
+      "summary": "",
+      "source": "나라장터(G2B)",
+      "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01688513&bidPbancOrd=000",
+      "_source_label": "나라장터(G2B)",
+      "notice_type_normalized": "입찰공고",
+      "consortium_signal": false,
+      "traffic_survey_signal": false,
+      "first_seen": "2026-08-20"
     },
     {
       "id": "eib-6a7aed4ac3644c6383dfd82f",
@@ -1792,6 +1771,26 @@
       "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
       "_source_label": "EIB",
       "notice_type_normalized": "기타",
+      "consortium_signal": false,
+      "traffic_survey_signal": false,
+      "first_seen": "2026-08-20"
+    },
+    {
+      "id": "kind-11442",
+      "notice_type": "입찰공고 R26BK01688513 - 000",
+      "notice_date": "2026-08-20",
+      "submission_date": "",
+      "country": "",
+      "project_id": "11442",
+      "project_name": "[입찰공고 R26BK01688513 - 000] 대내 생성형 AI 서비스 구축 사업 감리 용역",
+      "bid_reference_no": "",
+      "bid_description": "",
+      "procurement_method": "",
+      "summary": "",
+      "source": "KIND",
+      "source_url": "https://www.kindkorea.or.kr/pages/72?id=11442&menuMode=READ&q=",
+      "_source_label": "KIND",
+      "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
       "traffic_survey_signal": false,
       "first_seen": "2026-08-20"
