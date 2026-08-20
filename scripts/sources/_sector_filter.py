@@ -152,6 +152,12 @@ HARD_EXCLUDE_PATTERNS = [
     r"distribution network", r"distribution grid", r"distribution line",
     r"송전", r"배전", r"변전소", r"전력망",
     r"ligne de transmission", r"r[ée]seau [ée]lectrique", r"linha de transmiss[ãa]o", r"l[íi]nea de transmisi[óo]n",
+    # 송전선 공사(EIB 사례) — "transmission"이라는 단어 없이 "400 kV ... double-circuit
+    # line"처럼 전압(kV) 수치와 "line"/"circuit"만으로 표현되는 경우가 있어, 위의
+    # "transmission line" 등 문구 매칭에 걸리지 않고 새어나갔다(모로코 Chemaia-Tensift
+    # 400kV 송전선 사례). 전압(kV) 수치가 있으면 거의 항상 전력 계통 설비이므로,
+    # 숫자+kV 표기 자체를 하드제외 지표로 추가한다.
+    r"\d+\s*kv\b", r"circuit line", r"power line",
     # 정보화사업 감리(IT/소프트웨어 프로젝트 관리·감독) — "감리"라는 단어가
     # 건설감리와 똑같이 쓰이지만 실제로는 IT사업으로 완전히 다른 분야
     # "정보시스템" 자체가 이미 IT 분야 지표라, "정보화 감리"라는 정확한 문구가
@@ -159,6 +165,10 @@ HARD_EXCLUDE_PATTERNS = [
     # (우즈베키스탄 지식재산권 정보시스템 감리 사례 — INCLUDE의 "감리"에 밀려
     # 잘못 포함됐었음).
     r"정보화\s*감리", r"정보화\s*사업\s*관리", r"정보시스템",
+    # 생성형 AI 등 IT 서비스 구축 사업 감리 — "감리"가 있어도 정보시스템처럼
+    # IT/디지털 분야이지 토목(관개/도로/댐) 감리가 아니므로 무관(한국해외인프라
+    # 도시개발지원공사 "대내 생성형 AI 서비스 구축 사업 감리" 사례).
+    r"생성형\s*AI", r"AI\s*서비스\s*구축",
     # 국내 산업협회(해외건설협회 등)의 시장동향/진출환경 조사·리포트 — 특정 사업의
     # 설계/감리가 아니라 업계 전반의 시장조사·리서치 용역이라 다산 전문영역과 무관
     r"진출환경", r"시장동향\s*조사", r"업계\s*동향\s*조사",
