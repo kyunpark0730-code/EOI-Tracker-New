@@ -197,6 +197,12 @@ HARD_EXCLUDE_PATTERNS = [
     # (관개/도로/댐 등 토목이 아니라 건축 분야라 기존 public buildings 하드제외와 같은 이유)
     r"kindergarten", r"[ée]cole maternelle", r"jardin d[’']?enfants",
     r"jardim de inf[âa]ncia", r"guarder[íi]a infantil",
+    # 실험실/연구소 등 특수 건물(laboratory building) 신축 설계·감리 — 가이아나
+    # One Health "국립 공중보건연구소(NPHRL) 건물" 사례. "detailed design"/
+    # "construction supervision" 등 INCLUDE 키워드가 있어도, 학교/유치원과 같은
+    # 이유로 토목(관개/도로/댐)이 아니라 건축(특수 실험시설) 분야라 다산 전문영역과
+    # 무관.
+    r"reference laboratory", r"laboratory building",
     # 기관 거버넌스/재무구조 설계 등 제도·경영 자문 (엔지니어링이 아니라 institutional
     # strengthening/management support consultant와 같은 성격의 자문)
     r"governance and financing model",
