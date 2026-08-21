@@ -281,6 +281,10 @@ EXCLUDE_PATTERNS = [
     r"\bAI\b", r"artificial intelligence", r"인공지능", r"intelligence artificielle", r"intelig[êe]ncia artificial",
     r"software development", r"소프트웨어",
     r"\bIT\b system", r"digital platform",
+    # "digital platform"의 스페인어 표현 — 콜롬비아 Fondo Acción PMI "Interoperabilidad"
+    # (시장정보 디지털 플랫폼 상호운용성) 사례. INCLUDE 키워드가 전혀 없는 순수 IT
+    # 컨설팅이라 애매하면 포함 원칙에 걸려 잘못 포함됐었음.
+    r"plataformas? digitales?", r"sistemas? de informaci[óo]n", r"interoperabilidad",
     r"architectur", r"건축\s*설계", r"건물\s*설계", r"architecture\b",
     r"education curriculum", r"교육과정", r"[ée]ducation\b", r"educa[çc][ãa]o\b", r"educaci[óo]n\b",
     # "education"이라는 단어 없이 "Lower-Secondary Curriculum" 식으로만 나오는 경우도
