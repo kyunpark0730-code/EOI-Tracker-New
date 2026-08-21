@@ -216,6 +216,12 @@ HARD_EXCLUDE_PATTERNS = [
     # 기관 거버넌스/재무구조 설계 등 제도·경영 자문 (엔지니어링이 아니라 institutional
     # strengthening/management support consultant와 같은 성격의 자문)
     r"governance and financing model",
+    # 타당성조사와 결합된 PPP 거래자문(Transaction Advisory) — 케냐 Horn of Africa
+    # Gateway Development Project "나이로비-몸바사 도로 타당성조사 + PPP 거래자문"
+    # 사례. "feasibility study"/"road" 등 INCLUDE 키워드가 있어도, 사업자 선정을
+    # 위한 프로젝트 구조화·재무분석·조달지원 등 PPP 거래자문 역량을 필수로 요구하는
+    # 결합형 용역이라 다산이 실제로 참여하지 않기로 한 유형.
+    r"transaction advisory",
     # 농촌금융/소액금융(microfinance) 개발 프로그램(EIB RUFIP III - 에티오피아 사례) —
     # 관개/도로 등 인프라의 설계·감리가 아니라 농촌 금융기관/신용 접근성을 개선하는
     # 금융부문 개발사업이라 다산 전문영역과 무관.
