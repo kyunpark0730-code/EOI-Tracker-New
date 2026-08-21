@@ -213,6 +213,14 @@ HARD_EXCLUDE_PATTERNS = [
     # 이유로 토목(관개/도로/댐)이 아니라 건축(특수 실험시설) 분야라 다산 전문영역과
     # 무관.
     r"reference laboratory", r"laboratory building",
+    # 위와 같은 실험실/연구소 건물의 프랑스어 표현 — 니제르 PISEN 사업 "Laboratoire
+    # National de Qualité de l'Eau"(국립 수질검사연구소) 신축 설계(APS/APD)·시공감리
+    # 사례. "études techniques"/"suivi contrôle des travaux" 등 INCLUDE 키워드가
+    # 있어도 마찬가지로 건축 분야라 무관. "laboratoire" 단독은 시공 중 자재시험실처럼
+    # 다산이 실제로 다루는 문맥에도 나올 수 있어 너무 넓으므로, "national"이 붙거나
+    # 건물 자체를 가리키는 구체적인 표현으로만 좁혀서 잡는다.
+    r"laboratoire national", r"b[âa]timent (du |de )?laboratoire",
+    r"laboratoire de qualit[ée] de l[’']?eau",
     # 기관 거버넌스/재무구조 설계 등 제도·경영 자문 (엔지니어링이 아니라 institutional
     # strengthening/management support consultant와 같은 성격의 자문)
     r"governance and financing model",
