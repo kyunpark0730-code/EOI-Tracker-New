@@ -188,6 +188,11 @@ HARD_EXCLUDE_PATTERNS = [
     # 걸려도, 실제 업무는 회계·재무감사 전문용역(공인회계사)이라 다산 전문영역과 다름
     r"external auditor", r"financial audit", r"audit comptable et financier",
     r"auditeur externe", r"audit financier",
+    # 재무제표 작성/정정(회계자문) — 기니 EDG(전력공사) "Consultant Financier"
+    # 재무제표 작성 및 준비금(reserves) 오류 정정 자문 사례. 외부회계감사와
+    # 마찬가지로 엔지니어링이 아니라 회계·재무 전문영역이라 다산 전문영역과 무관.
+    r"[ée]laboration des [ée]tats financiers", r"correction des r[ée]serves",
+    r"consultant financier",
     # EIB/EIB그룹 등 발주기관 자체의 사내 운영 조달(IT/보험/채용/급여/컨설팅 등
     # 행내 서비스 계약) — 회원국 인프라 개발사업이 아니라 발주기관 조직 내부
     # 운영을 위한 조달이라 다산 전문영역과 무관
