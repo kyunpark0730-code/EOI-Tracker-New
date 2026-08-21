@@ -230,6 +230,13 @@ HARD_EXCLUDE_PATTERNS = [
     # 위한 프로젝트 구조화·재무분석·조달지원 등 PPP 거래자문 역량을 필수로 요구하는
     # 결합형 용역이라 다산이 실제로 참여하지 않기로 한 유형.
     r"transaction advisory",
+    # 도시 인프라 재원조달 방안 수립(신용등급 분석·재무모델) — 인도네시아 SCIP
+    # "지속가능 재원조달 대안 선정 계산모델(CMSF)" 사례. 자격요건에 "water supply"
+    # 등 INCLUDE 키워드가 있어도(용역 회사의 배경지식 요건일 뿐), 실제 과업은
+    # shadow credit rating·financial model·financing scheme 선정 같은 순수 재무/
+    # 금융자문이라 다산 전문영역(설계/시공감리)과 무관.
+    r"shadow credit rating", r"financing scheme selection",
+    r"sustainable financing alternatives", r"indicative financing schemes? selection",
     # 농촌금융/소액금융(microfinance) 개발 프로그램(EIB RUFIP III - 에티오피아 사례) —
     # 관개/도로 등 인프라의 설계·감리가 아니라 농촌 금융기관/신용 접근성을 개선하는
     # 금융부문 개발사업이라 다산 전문영역과 무관.
