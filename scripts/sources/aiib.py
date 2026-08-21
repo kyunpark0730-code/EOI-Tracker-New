@@ -32,6 +32,7 @@ def _parse_pubdate(raw: str):
 def _guess_notice_type(title: str, link: str) -> str:
     text = f"{title} {link}".lower()
     if "contract_award" in text or "noa-" in text or "notice of award" in text:
+        return "Contract Award"
     # 사전 시장조사(Early Market Engagement, EME) 웨비나 안내 전단(flyer) — 파키스탄
     # 철도 ML-1 사업 사례("This is not a procurement process. No specifications or
     # tender documents are issued." 문구가 전단에 명시됨). 실제 지원 가능한 공고가
@@ -41,7 +42,6 @@ def _guess_notice_type(title: str, link: str) -> str:
     if "flyer" in text or re.search(r"(^|[\s/_\-])eme[-_\d]", text) or \
             "early market engagement" in text or "market sounding" in text:
         return "Market Engagement"
-        return "Contract Award"
     if "ifb" in text or "invitation for bid" in text:
         return "Invitation for Bids"
     if "eoi" in text or "expression of interest" in text:
