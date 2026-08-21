@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-21T04:19:54.478726+00:00",
-  "today_kst": "2026-08-21",
+  "generated_at": "2026-08-21T21:57:26.118016+00:00",
+  "today_kst": "2026-08-22",
   "sources": [
-    "World Bank 578건",
+    "World Bank 605건",
     "한국건설엔지니어링협회 1건",
     "ADB 0건",
     "나라장터(G2B) 21건",
@@ -13,23 +13,23 @@
   ],
   "source_status": {
     "World Bank": {
-      "last_success": "2026-08-21",
+      "last_success": "2026-08-22",
       "consecutive_failures": 0
     },
     "한국건설엔지니어링협회": {
-      "last_success": "2026-08-21",
+      "last_success": "2026-08-22",
       "consecutive_failures": 0
     },
     "ADB": {
       "last_success": "알 수 없음",
-      "consecutive_failures": 115
+      "consecutive_failures": 116
     },
     "나라장터(G2B)": {
-      "last_success": "2026-08-21",
+      "last_success": "2026-08-22",
       "consecutive_failures": 0
     },
     "해외건설협회(ICAK)": {
-      "last_success": "2026-08-21",
+      "last_success": "2026-08-22",
       "consecutive_failures": 0
     },
     "EIB": {
@@ -37,17 +37,59 @@
       "consecutive_failures": 0
     },
     "KIND": {
-      "last_success": "2026-08-21",
+      "last_success": "2026-08-22",
       "consecutive_failures": 0
     },
     "AIIB": {
-      "last_success": "2026-08-21",
+      "last_success": "2026-08-22",
       "consecutive_failures": 0
     }
   },
-  "count": 71,
-  "new_today_count": 1,
+  "count": 73,
+  "new_today_count": 2,
   "notices": [
+    {
+      "id": "wb-OP00463762",
+      "notice_type": "Request for Expression of Interest",
+      "notice_date": "20-Aug-2026",
+      "submission_date": "2026-09-02T00:00:00Z",
+      "country": "Madagascar",
+      "project_id": "P179466",
+      "project_name": "Madagascar Safety Nets and Resilience Project",
+      "bid_reference_no": "DG_26043_SQC_AG_SEC",
+      "bid_description": "Sélection de partenaires chargés de la mise en œuvre de suivi évaluation communautaire (SEC)",
+      "procurement_method": "Consultant Qualification  Selection",
+      "procurement_group": "CS",
+      "summary": "REPOBLIKAN&rsquo;I MADAGASIKARA Fitiavana - Tanindrazana &ndash; Fandrosoana --------- PRIMATURE --------- PROJET FILETS DE SECURITE ET DE RESILIENCE (PFSR) CREDIT IDA 7263-MG APPEL A MANIFESTATION D&rsquo;INTERETS N&deg;47 / AMI/FID/SEC/FSR/26 recrutement dES ASSOCIATIONS, ONG, CONSORTIUM CHARGEE DE LA MISE EN &oelig;uvre DE SUIVI EVALUATION COMMUNAUTAIRE_SEC DANS LE CADRE DU PROJET DE FILETS DE SECURITE ET DE RESILIENCE La R&eacute;publique de Madagascar a re&ccedil;u des financements de l&rsq",
+      "source": "World Bank",
+      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00463762",
+      "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명(EOI)",
+      "consortium_signal": false,
+      "traffic_survey_signal": false,
+      "first_seen": "2026-08-22"
+    },
+    {
+      "id": "wb-OP00463719",
+      "notice_type": "Request for Expression of Interest",
+      "notice_date": "20-Aug-2026",
+      "submission_date": "2026-09-03T00:00:00Z",
+      "country": "Sierra Leone",
+      "project_id": "P507588",
+      "project_name": "Sierra Leone Water Security and WASH Access Improvement Project",
+      "bid_reference_no": "SL-MWRS-558196-CS-CQS",
+      "bid_description": "Consultancy Service for the Establishment of the WASH Sector Information Management Systems Platform",
+      "procurement_method": "Consultant Qualification  Selection",
+      "procurement_group": "CS",
+      "summary": "REQUEST FOR EXPRESSIONS OF INTEREST (CONSULTING SERVICES &ndash; FIRM SELECTION) Sierra Leone Sierra Leone Water Security and WASH Access Improvement Project (SLWSWCIP) Grant No.: E5500 Project ID: P507588 Issue date: 20th August, 2026 Assignment Title: Consultancy Service for the Establishment of the WASH Sector Information Management System Platform. Reference No : SL-MWRS-558196-CS-CQS The Government of Sierra Leone, through the Ministry of Water Resources and Sanitation, has received financi",
+      "source": "World Bank",
+      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00463719",
+      "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명(EOI)",
+      "consortium_signal": false,
+      "traffic_survey_signal": false,
+      "first_seen": "2026-08-22"
+    },
     {
       "id": "wb-OP00463610",
       "notice_type": "Request for Expression of Interest",
