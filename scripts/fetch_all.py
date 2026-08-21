@@ -67,6 +67,15 @@ def _is_procurement_plan(raw: str) -> bool:
     if not raw:
         return False
     return raw.strip().lower() == "procurement plan"
+def _is_market_engagement(raw: str) -> bool:
+    """사전 시장조사(Early Market Engagement) 웨비나 안내 전단(flyer) — 파키스탄
+    철도 ML-1 사업 사례(AIIB 피드에서 "This is not a procurement process. No
+    specifications or tender documents are issued." 라고 명시된 전단이 실제
+    공고처럼 섞여 들어왔음). 지원 가능한 공고가 아니라 사업 소개/의견수렴용
+    행사 안내문이라, 분야와 무관하게 아예 수집 단계에서 제외한다."""
+    if not raw:
+        return False
+    return raw.strip().lower() == "market engagement"
 
 
 def normalize_notice_type(raw: str) -> str:
@@ -339,6 +348,15 @@ def main():
     all_notices = [n for n in all_notices if not _is_procurement_plan(n.get("notice_type", ""))]
     pp_filtered_out = before_pp_filter - len(all_notices)
     print(f"조달계획(Procurement Plan)으로 제외됨: {pp_filtered_out}건")
+    pp_filtered_out = before_pp_filter - len(all_notices)
+    print(f"조달계획(Procurement Plan)으로 제외됨: {pp_filtered_out}건")
+
+    # 사전 시장조사(Early Market Engagement) 웨비나 안내 전단도 실제 지원 가능한
+    # 공고가 아니므로 통째로 제외한다 (파키스탄 철도 ML-1 사업 사례).
+    before_eme_filter = len(all_notices)
+    all_notices = [n for n in all_notices if not _is_market_engagement(n.get("notice_type", ""))]
+    eme_filtered_out = before_eme_filter - len(all_notices)
+    print(f"사전 시장조사(Market Engagement) 안내문으로 제외됨: {eme_filtered_out}건")
 
     before_job_filter = len(all_notices)
 
@@ -371,7 +389,7 @@ def main():
                         # 사업 사례). 있으면 원문 전체(_filter_text)도 같이 검사한다.
                         n.get("_filter_text", ""))
     ]
-    filtered_out = before_filter - len(all_notices) - job_filtered_out - goods_filtered_out - award_filtered_out - pp_filtered_out - sole_source_filtered_out
+    filtered_out = before_filter - len(all_notices) - job_filtered_out - goods_filtered_out - award_filtered_out - pp_filtered_out - sole_source_filtered_out - eme_filtered_out
     print(f"분야 필터로 제외됨: {filtered_out}건 (관개/도로/수자원 등과 무관)")
 
     # 위험국/분쟁국(소말리아, 아프가니스탄, 우크라이나 등 - 실제 출장이 어려운 국가)은
