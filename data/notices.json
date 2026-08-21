@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T04:04:25.572588+00:00",
+  "generated_at": "2026-08-21T04:19:54.478726+00:00",
   "today_kst": "2026-08-21",
   "sources": [
     "World Bank 578건",
@@ -7,7 +7,7 @@
     "ADB 0건",
     "나라장터(G2B) 21건",
     "해외건설협회(ICAK) 2건",
-    "EIB 50건",
+    "EIB 49건",
     "KIND 4건",
     "AIIB 10건"
   ],
@@ -22,7 +22,7 @@
     },
     "ADB": {
       "last_success": "알 수 없음",
-      "consecutive_failures": 114
+      "consecutive_failures": 115
     },
     "나라장터(G2B)": {
       "last_success": "2026-08-21",
@@ -45,7 +45,7 @@
       "consecutive_failures": 0
     }
   },
-  "count": 72,
+  "count": 71,
   "new_today_count": 1,
   "notices": [
     {
@@ -269,27 +269,6 @@
       "summary": "R&eacute;publique D&eacute;mocratique du Congo MINISTERE DES INFRASTRUCTURES ET TRAVAUX PUBLICS Cellule Infrastructures PROJET D&rsquo;APPUI A LA CONNECTIVITE ET AU TRANSPORT (PACT) AVIS DE SOLLICITATION DE MANIFESTATIONS D&rsquo;INTERET Recrutement d&rsquo;un Consultant firme charg&eacute; de l&rsquo;&eacute; laboration d&rsquo;un Plan de Gestion de l&rsquo;Utilisation des Drones civils dans le cadre du Projet d&rsquo;Appui &agrave; la Connectivit&eacute; et au Transport (PACT) en RDC. N&deg; A",
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00461419",
-      "_source_label": "World Bank",
-      "notice_type_normalized": "관심표명(EOI)",
-      "consortium_signal": false,
-      "traffic_survey_signal": false,
-      "first_seen": "2026-08-11"
-    },
-    {
-      "id": "wb-OP00461372",
-      "notice_type": "Request for Expression of Interest",
-      "notice_date": "07-Aug-2026",
-      "submission_date": "2026-08-25T00:00:00Z",
-      "country": "Guinea",
-      "project_id": "P511453",
-      "project_name": "Guinea Electricity Access Scale Up Project-Phase 2",
-      "bid_reference_no": "GN-PAAEG - PHASE 2-560301-CS-CQS",
-      "bid_description": "Services d'Appui à la Direction des Affaires Financières de l'EDG-SA dans l’élaboration des états financiers et la correction des réserves qui figurent dans les états financiers.",
-      "procurement_method": "Consultant Qualification  Selection",
-      "procurement_group": "CS",
-      "summary": "MINISTERE DE L&#39;ENERGIE ELECTRICITE DE GUINEE (EDG SA) Projet d&rsquo;Am&eacute;lioration d&rsquo;Acc&egrave;s &agrave; l&rsquo;Electricit&eacute; en Guin&eacute;e Phase 2 (PAAEG 2) APPEL A MANIFESTATIONS D&rsquo;INT&Eacute;R&Ecirc;T (SERVICES DE CONSULTANT - ACCORD-CADRE - S&Eacute;LECTION DE FIRMES) Financement PAAEG 2 : P511453/ IDA Cr&eacute;dits N&deg; 7869 GN, N&deg; 7870 GN et N&deg; 7882 GN Intitul&eacute; de la Mission : Services de Consultant Financier pour un appui &agrave; la Dire",
-      "source": "World Bank",
-      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00461372",
       "_source_label": "World Bank",
       "notice_type_normalized": "관심표명(EOI)",
       "consortium_signal": false,
