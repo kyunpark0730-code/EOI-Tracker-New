@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-08-21T21:57:26.118016+00:00",
-  "today_kst": "2026-08-22",
+  "generated_at": "2026-08-22T21:50:25.016716+00:00",
+  "today_kst": "2026-08-23",
   "sources": [
-    "World Bank 605건",
+    "World Bank 550건",
     "한국건설엔지니어링협회 1건",
     "ADB 0건",
-    "나라장터(G2B) 21건",
+    "나라장터(G2B) 0건",
     "해외건설협회(ICAK) 2건",
     "EIB 49건",
     "KIND 4건",
@@ -13,23 +13,23 @@
   ],
   "source_status": {
     "World Bank": {
-      "last_success": "2026-08-22",
+      "last_success": "2026-08-23",
       "consecutive_failures": 0
     },
     "한국건설엔지니어링협회": {
-      "last_success": "2026-08-22",
+      "last_success": "2026-08-23",
       "consecutive_failures": 0
     },
     "ADB": {
       "last_success": "알 수 없음",
-      "consecutive_failures": 116
+      "consecutive_failures": 117
     },
     "나라장터(G2B)": {
       "last_success": "2026-08-22",
-      "consecutive_failures": 0
+      "consecutive_failures": 1
     },
     "해외건설협회(ICAK)": {
-      "last_success": "2026-08-22",
+      "last_success": "2026-08-23",
       "consecutive_failures": 0
     },
     "EIB": {
@@ -37,16 +37,16 @@
       "consecutive_failures": 0
     },
     "KIND": {
-      "last_success": "2026-08-22",
+      "last_success": "2026-08-23",
       "consecutive_failures": 0
     },
     "AIIB": {
-      "last_success": "2026-08-22",
+      "last_success": "2026-08-23",
       "consecutive_failures": 0
     }
   },
-  "count": 73,
-  "new_today_count": 2,
+  "count": 71,
+  "new_today_count": 0,
   "notices": [
     {
       "id": "wb-OP00463762",
@@ -297,27 +297,6 @@
       "first_seen": "2026-08-12"
     },
     {
-      "id": "wb-OP00461419",
-      "notice_type": "Request for Expression of Interest",
-      "notice_date": "08-Aug-2026",
-      "submission_date": "2026-08-21T00:00:00Z",
-      "country": "Congo, Democratic Republic of",
-      "project_id": "P161877",
-      "project_name": "DRC Transport and Connectivity Support Project",
-      "bid_reference_no": "ZR-CI-513408-CS-CQS",
-      "bid_description": "MOP- Elaboration d’un Plan de Gestion de l’Utilisation des Drones civils dans le cadre du Projet d’Appui à la Connectivité et au Transport (PACT) en République Démocratique du Congo »",
-      "procurement_method": "Consultant Qualification  Selection",
-      "procurement_group": "CS",
-      "summary": "R&eacute;publique D&eacute;mocratique du Congo MINISTERE DES INFRASTRUCTURES ET TRAVAUX PUBLICS Cellule Infrastructures PROJET D&rsquo;APPUI A LA CONNECTIVITE ET AU TRANSPORT (PACT) AVIS DE SOLLICITATION DE MANIFESTATIONS D&rsquo;INTERET Recrutement d&rsquo;un Consultant firme charg&eacute; de l&rsquo;&eacute; laboration d&rsquo;un Plan de Gestion de l&rsquo;Utilisation des Drones civils dans le cadre du Projet d&rsquo;Appui &agrave; la Connectivit&eacute; et au Transport (PACT) en RDC. N&deg; A",
-      "source": "World Bank",
-      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00461419",
-      "_source_label": "World Bank",
-      "notice_type_normalized": "관심표명(EOI)",
-      "consortium_signal": false,
-      "traffic_survey_signal": false,
-      "first_seen": "2026-08-11"
-    },
-    {
       "id": "wb-OP00461273",
       "notice_type": "Request for Expression of Interest",
       "notice_date": "07-Aug-2026",
@@ -416,27 +395,6 @@
       "summary": "SOLLICITATION DE MANIFESTATIONS D&rsquo;INTERET SELECTION/ RECRUTEMENT D&rsquo;UN LABORATOIRE POUR L&rsquo;ANALYSE DE LA TOXICITE DES BOUES DES COLLECTEURS DANS LES ZONES 1, 2, 3, 4, 5, 6, 7, DANS LE CADRE DES TRAVAUX REHABILITATION DES INFRASTRUCTURES DE DRAINAGE A BANGUI ****************** NOM DU PAYS : REPUBLIQUE CENTRAFRICAINE NOM DU PROJET : PROJET DES VILLES INCLUSIVES ET RESILIENTES EN RCA (PROVIR ). NO. IDENTIFICATION : P 178774 FINANCEMENT : BANQUE MONDIALE NO. DU DON : E-3700 &ndash; C",
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00460407",
-      "_source_label": "World Bank",
-      "notice_type_normalized": "관심표명(EOI)",
-      "consortium_signal": false,
-      "traffic_survey_signal": false,
-      "first_seen": "2026-08-06"
-    },
-    {
-      "id": "wb-OP00460281",
-      "notice_type": "Request for Expression of Interest",
-      "notice_date": "03-Aug-2026",
-      "submission_date": "2026-08-21T00:00:00Z",
-      "country": "Madagascar",
-      "project_id": "P512330",
-      "project_name": "Multimodal Transport and Logistics Project.",
-      "bid_reference_no": "11-ADEMA-C-PTML/2026",
-      "bid_description": "Maitrise d'œuvre complète à l'aéroport de Toliara : Etudes APS-APD des travaux de mise aux normes des infrastructures aéroportuaires, EIES, MDC des travaux d'infrastructure et d'installation des équipements d'aide à la navigation",
-      "procurement_method": "Quality And Cost-Based Selection",
-      "procurement_group": "CS",
-      "summary": "APPEL A MANIFESTATIONS D&rsquo;INT&Eacute;R&Ecirc;T (SERVICES DE CONSULTANTS &ndash; S&Eacute;LECTION DE FIRMES) Pays : Madagascar Ma&icirc;tre d&rsquo;Ouvrage : Minist&egrave;re des Transports et de la M&eacute;t&eacute;orologie (MTM) &ndash; A&eacute;roports De Madagascar (ADEMA) Projet : Projet de Transport Multimodal et de Logistique (PTML) Financement : Cr&eacute;dit A : IDA SUW 8005-MG, Cr&eacute;dit B : IDA 8004-MG Intitul&eacute; de la Mission : Maitrise d&rsquo;&oelig;uvre compl&egrave;",
-      "source": "World Bank",
-      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00460281",
       "_source_label": "World Bank",
       "notice_type_normalized": "관심표명(EOI)",
       "consortium_signal": false,
