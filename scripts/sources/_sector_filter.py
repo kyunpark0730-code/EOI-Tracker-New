@@ -342,6 +342,12 @@ EXCLUDE_PATTERNS = [
     r"financial inclusion", r"private sector development",
     r"investment facilitation", r"investor engagement", r"investment package",
     r"project teaser",
+    # 위 "business development services"/"private sector development"(중소기업
+    # 역량강화·일자리창출)의 스페인어 표현 — 엘살바도르 BANDESAL "MIPYME(중소기업)
+    # 역량강화를 통한 일자리창출 기회 진단" 사례. 토목(관개/도로/댐)이 아니라
+    # 중소기업 지원/고용정책 분야라 다산 전문영역과 무관.
+    r"creaci[óo]n de empleo", r"capacidades empresariales", r"\bmipyme\b",
+    r"v[íi]nculos comprador[\s\-–]proveedor", r"fortalecimiento empresarial",
     # 탈탄소화/기후정책, 교사교육/스마트교육 등 산업정책·교육 분야 PMC(사업관리)용역
     # (PMC 자체는 다산도 할 수 있는 역할이지만, 관리 대상 사업이 무관 분야인 경우)
     r"교사\s*교육", r"스마트\s*교육", r"학생\s*성장",
