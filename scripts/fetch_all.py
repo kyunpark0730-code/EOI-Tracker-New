@@ -348,8 +348,6 @@ def main():
     all_notices = [n for n in all_notices if not _is_procurement_plan(n.get("notice_type", ""))]
     pp_filtered_out = before_pp_filter - len(all_notices)
     print(f"조달계획(Procurement Plan)으로 제외됨: {pp_filtered_out}건")
-    pp_filtered_out = before_pp_filter - len(all_notices)
-    print(f"조달계획(Procurement Plan)으로 제외됨: {pp_filtered_out}건")
 
     # 사전 시장조사(Early Market Engagement) 웨비나 안내 전단도 실제 지원 가능한
     # 공고가 아니므로 통째로 제외한다 (파키스탄 철도 ML-1 사업 사례).
