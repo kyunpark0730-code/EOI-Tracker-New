@@ -196,6 +196,9 @@ HARD_EXCLUDE_PATTERNS = [
     # (관개/도로 등 인프라 사업 산하 공고라도 이 업무 자체가 평가·컨설팅이면 제외).
     r"end of program evaluation", r"beneficiary assessment",
     r"value for money assessment", r"impact evaluation",
+    r"independent verification agent", r"performance-based grants?",
+    r"results verification", r"independent verification of results",
+    r"verification of results",
     # 재무제표 감사(외부회계감사) 용역 - 관개/도로 등 인프라 사업 산하 공고라 INCLUDE에
     # 걸려도, 실제 업무는 회계·재무감사 전문용역(공인회계사)이라 다산 전문영역과 다름
     r"external auditor", r"financial audit", r"audit comptable et financier",
@@ -287,6 +290,7 @@ HARD_EXCLUDE_PATTERNS = [
 # 함께 포함해야 원문이 그 언어인 공고도 정확히 분류할 수 있음 (번역은 안 하지만 키워드는 인식)
 INCLUDE_PATTERNS = [
     r"irrigation", r"관개", r"irrigación", r"irrigação",
+    r"\briego\b", r"sistema de riego",
     r"\broad\b", r"highway", r"도로",
     # 프랑스어 "route"(도로)는 "feuille de route"(로드맵), "en route"(진행 중)처럼
     # 도로와 무관한 관용구에도 흔히 쓰여서, 그 두 관용구 뒤에 오는 경우는 제외하고
