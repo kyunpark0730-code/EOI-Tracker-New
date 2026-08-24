@@ -140,6 +140,9 @@ HARD_EXCLUDE_PATTERNS = [
     # 다산은 항만·물류 분야를 하지 않으므로 하드제외
     r"container terminal", r"ports and logistics", r"port authority",
     r"\bseaport\b", r"maritime terminal",
+    r"orpaillage", r"artisanal (small-scale )?mining",
+    r"mine (site )?(reclamation|rehabilitation|closure)",
+    r"restoration (of |des )?(mining|mine) sites?", r"sites? d[’']?orpaillage",
     # 수산업/어업 관리·법제 자문 및 어항(fisheries harbour) 설계·감리 — "detailed design",
     # "construction supervision" 등 INCLUDE 키워드가 같이 있어도(스리랑카 어항 설계·감리
     # 사례), 항만/물류와 같은 이유로 다산 전문영역과 무관하므로 하드제외로 분류.
