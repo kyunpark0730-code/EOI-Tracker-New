@@ -126,8 +126,6 @@ def fetch() -> list:
                 # 용역만 참여하므로 fetch_all.py에서 이 필드로 물품 조달(GO)을 제외한다.
                 "procurement_group": item.get("procurement_group", ""),
                 "summary": _strip_html(item.get("notice_text", ""))[:500],
-                "procurement_group": item.get("procurement_group", ""),
-                "summary": _strip_html(item.get("notice_text", ""))[:500],
                 # 분야 필터(is_relevant)용 원문 전체 텍스트(길이 제한 없음). "summary"는
                 # 대시보드 표시용으로 500자로 잘라두는데, 그 뒤에 실제 과업범위/자격요건
                 # (예: "social safeguards management" - 피지 PHIT 사례, "institutional
