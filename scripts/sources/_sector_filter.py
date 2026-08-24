@@ -25,6 +25,12 @@ HARD_EXCLUDE_PATTERNS = [
     # 등 INCLUDE 키워드와 같이 나와도 무조건 제외 — RAP 자체가 별도 사회안전장치
     # 전문영역이기 때문 (카메룬/콩고 전력망 건설사업 순수 이주대책 용역 사례).
     r"plan d[’']?action de r[ée]installation", r"r[ée]installation involontaire",
+    # 원주민계획(Indigenous Peoples Plan, PPA) — RAP과 같은 세계은행 사회안전장치
+    # 문서 종류. 콩고민주공화국 PDTC 도로포장 사업의 "Plan en faveur des Populations
+    # Autochtones" 사례. "route"/도로 등 INCLUDE 키워드와 같이 나와도 RAP과 같은
+    # 이유로 무조건 제외 — 설계/감리가 아니라 사회안전장치 전문영역이기 때문.
+    r"plan (en faveur des |des )?(populations|peuples) autochtones",
+    r"indigenous peoples plan",
     r"livestock", r"축산", r"dairy", r"낙농", r"[ée]levage", r"b[ée]tail", r"laitier",
     r"intelligent transport system", r"\bITS\b", r"지능형\s*교통체계",
     # 소프트웨어 개발자/IT 인력 파견(아웃소싱), 인일(jours-homme) 단위 IT 상주지원.
