@@ -251,6 +251,14 @@ HARD_EXCLUDE_PATTERNS = [
     # 수립이 중심이라, 개별 사업의 설계/감리/타당성조사가 아니라 다산 전문영역과 무관.
     r"energy sector investment program(me)?", r"sector investment programme",
     r"integrated resource and resilience plan", r"\bIRRP\b", r"least-cost development pathway",
+    # 국가 단위 도로망 분류체계/우선순위 전략 재정립 — 콩고민주공화국 PDTC 사업
+    # "classification routière" 재정립 연구 사례. 거시경제 분석·교통부문 진단·
+    # 빈곤퇴치 국가전략 연계·투자프로그램 식별이 중심인 국가 정책·방법론 수립이라,
+    # 자격요건에 "도로 타당성조사" 경력을 요구해도 실제 과업은 개별 도로 프로젝트의
+    # 설계/타당성조사가 아니라 위 REGAIN ESIP(에너지정책)과 같은 성격의 국가전략
+    # 수립이라 다산 전문영역과 무관.
+    r"classification routi[èe]re", r"road classification (study|strategy|framework)",
+    r"road network hierarchi[sz]ation",
     # 부품/장비 구매(물품 조달)의 전형적 표현 — 제목에 "(9 pcs.)"처럼 수량이 붙는 경우.
     # 프랑스어(fourniture)뿐 아니라 영어로도 이런 형태로 자주 나와서 별도로 잡는다.
     r"\(\s*\d+\s*pcs\.?\s*\)", r"\(\s*\d+\s*units?\s*\)",
