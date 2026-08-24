@@ -90,6 +90,12 @@ HARD_EXCLUDE_PATTERNS = [
     r"carbon credit", r"carbon crediting", r"carbon monetization", r"carbon monetisation",
     r"carbon market", r"ghg accounting", r"\bmrv\b", r"verra\b", r"gold standard\b",
     r"\bcdm\b", r"article 6\.4",
+    # 탄소가격제(탄소세/부과금) 설계·요율 산정 — 기니 광업부문 탄소가격제(ITC) 파일럿
+    # 사례. "extractif"/"minier" 등 산업 맥락이라 INCLUDE 키워드 자체는 없지만,
+    # 위 탄소시장(carbon market)과 마찬가지로 탄소경제·기후정책 전문분야라 다산
+    # 전문영역(토목 설계/조사/감리)과 무관.
+    r"tarification du carbone", r"carbon pricing", r"redevance carbone", r"carbon levy",
+    r"courbe de co[ûu]t marginal d[’']?abattement", r"marginal abatement cost curve",
     # REDD+/산림탄소 모니터링(MNV=MRV의 프랑스어 표현) — 기니 REDD+ 국가 MNV체계
     # 강화 사례. 산림 원격탐사·산림재고조사(IFN)·탄소회계(AFOLU/LULUCF) 등 산림탄소
     # 전문분야라 다산 전문영역(토목 설계/조사/감리)과 무관.
