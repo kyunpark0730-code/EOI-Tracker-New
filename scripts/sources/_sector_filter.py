@@ -111,8 +111,6 @@ HARD_EXCLUDE_PATTERNS = [
     # 발전/에너지 사업 시행기관 자체에 대한 경영·제도 자문(조직개편/인사/재무/요금·규제/
     # ERP 등). "Hydropower" 등 INCLUDE 키워드에 걸려도, 실제 업무는 엔지니어링
     # (설계/타당성조사/감리)이 아니라 기관 경영컨설팅이라 다산 전문영역과 다름.
-    r"management support consultant", r"institutional strengthening",
-    r"organizational restructuring", r"institutional review and organizational",
     r"human capital blueprint", r"human capital development plan",
     r"\bassessment center\b", r"\bchange management\b",
     r"\bhc\b management practices",
@@ -426,7 +424,16 @@ EXCLUDE_PATTERNS = [
     r"environmental and social impact (assessment|study)", r"\bESIA\b",
 ]
 
+INSTITUTIONAL_MGMT_PATTERNS = [
+    r"management support consultant", r"institutional strengthening",
+    r"organizational restructuring", r"institutional review and organizational",
+]
+COMPREHENSIVE_DESIGN_CARVEOUT_PATTERNS = [
+    r"detailed project report", r"\bDPR\b",
+]
 _HARD_EXCLUDE_RE = re.compile("|".join(HARD_EXCLUDE_PATTERNS), re.IGNORECASE)
+_INSTITUTIONAL_MGMT_RE = re.compile("|".join(INSTITUTIONAL_MGMT_PATTERNS), re.IGNORECASE)
+_COMPREHENSIVE_DESIGN_CARVEOUT_RE = re.compile("|".join(COMPREHENSIVE_DESIGN_CARVEOUT_PATTERNS), re.IGNORECASE)
 _INCLUDE_RE = re.compile("|".join(INCLUDE_PATTERNS), re.IGNORECASE)
 _EXCLUDE_RE = re.compile("|".join(EXCLUDE_PATTERNS), re.IGNORECASE)
 
@@ -472,7 +479,13 @@ def is_individual_job_posting(title: str) -> bool:
 # 길이 안에 다 나오고, 주소·연락처는 항상 맨 끝에 붙기 때문.
 _RELEVANCE_HEAD_CHARS = 3000
 
-
+def _is_hard_excluded(combined: str) -> bool:
+    if _HARD_EXCLUDE_RE.search(combined):
+        return True
+    if _INSTITUTIONAL_MGMT_RE.search(combined):
+        if not _COMPREHENSIVE_DESIGN_CARVEOUT_RE.search(combined):
+            return True
+    return False
 def is_relevant(*texts: str) -> bool:
     combined = " ".join(t for t in texts if t)
     if not combined:
