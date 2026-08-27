@@ -182,6 +182,8 @@ HARD_EXCLUDE_PATTERNS = [
     # (우즈베키스탄 지식재산권 정보시스템 감리 사례 — INCLUDE의 "감리"에 밀려
     # 잘못 포함됐었음).
     r"정보화\s*감리", r"정보화\s*사업\s*관리", r"정보시스템",
+    r"information management (system|platform)",
+    r"sector information management",
     # 생성형 AI 등 IT 서비스 구축 사업 감리 — "감리"가 있어도 정보시스템처럼
     # IT/디지털 분야이지 토목(관개/도로/댐) 감리가 아니므로 무관(한국해외인프라
     # 도시개발지원공사 "대내 생성형 AI 서비스 구축 사업 감리" 사례).
