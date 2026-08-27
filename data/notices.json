@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-27T05:03:24.352412+00:00",
+  "generated_at": "2026-08-27T06:52:05.448099+00:00",
   "today_kst": "2026-08-27",
   "sources": [
-    "World Bank 570건",
+    "World Bank 572건",
     "한국건설엔지니어링협회 2건",
     "ADB 0건",
     "나라장터(G2B) 21건",
@@ -22,7 +22,7 @@
     },
     "ADB": {
       "last_success": "알 수 없음",
-      "consecutive_failures": 123
+      "consecutive_failures": 124
     },
     "나라장터(G2B)": {
       "last_success": "2026-08-27",
@@ -45,8 +45,8 @@
       "consecutive_failures": 0
     }
   },
-  "count": 71,
-  "new_today_count": 5,
+  "count": 68,
+  "new_today_count": 2,
   "notices": [
     {
       "id": "aiib-https://www.aiib.org/en/opportunities/business/project-procurement/_download/nepal/Request-for-Expression-of-Interest-REOI_-Siddhartha-Highway-Butwal-Pokhara-Section-Improvement-Project.pdf",
@@ -83,27 +83,6 @@
       "source": "AIIB",
       "source_url": "https://www.aiib.org/en/opportunities/business/project-procurement/_download/bangladesh/EOI-NoticeESDD.pdf",
       "_source_label": "AIIB",
-      "notice_type_normalized": "관심표명(EOI)",
-      "consortium_signal": false,
-      "traffic_survey_signal": false,
-      "first_seen": "2026-08-27"
-    },
-    {
-      "id": "wb-OP00464643",
-      "notice_type": "Request for Expression of Interest",
-      "notice_date": "25-Aug-2026",
-      "submission_date": "2026-09-14T00:00:00Z",
-      "country": "Brazil",
-      "project_id": "P179088",
-      "project_name": "Progestão Tocantins: Public Sector Management Efficiency",
-      "bid_reference_no": "36 - SEFAZ",
-      "bid_description": "Contratação de empresa especializada para a prestação de serviços técnicos de planejamento, organização e execução de um Programa de Capacitação In Company em Compras Públicas, destinado a servidores e colaboradores no âmbito do Poder Executivo do Estado",
-      "procurement_method": "Quality And Cost-Based Selection",
-      "procurement_group": "CS",
-      "summary": "SOLICITA&Ccedil;&Atilde;O DE MANIFESTA&Ccedil;&Atilde;O DE INTERESSE PARA CONTRATA&Ccedil;&Atilde;O DE CONSULTORIA ESPECIALIZADA PARA A PRESTA&Ccedil;&Atilde;O DE SERVI&Ccedil;OS T&Eacute;CNICOS DE PLANEJAMENTO, ORGANIZA&Ccedil;&Atilde;O E EXECU&Ccedil;&Atilde;O DE UM PROGRAMA DE CAPACITA&Ccedil;&Atilde;O IN COMPANY EM COMPRAS P&Uacute;BLICAS, DESTINADO A SERVIDORES E COLABORADORES NO &Acirc;MBITO DO PODER EXECUTIVO DO ESTADO O TOCANTINS, CONFORME ACORDO DE EMPR&Eacute;STIMO N&ordm; 9584-BR MANI",
-      "source": "World Bank",
-      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00464643",
-      "_source_label": "World Bank",
       "notice_type_normalized": "관심표명(EOI)",
       "consortium_signal": false,
       "traffic_survey_signal": false,
@@ -298,27 +277,6 @@
       "first_seen": "2026-08-22"
     },
     {
-      "id": "wb-OP00463719",
-      "notice_type": "Request for Expression of Interest",
-      "notice_date": "20-Aug-2026",
-      "submission_date": "2026-09-03T00:00:00Z",
-      "country": "Sierra Leone",
-      "project_id": "P507588",
-      "project_name": "Sierra Leone Water Security and WASH Access Improvement Project",
-      "bid_reference_no": "SL-MWRS-558196-CS-CQS",
-      "bid_description": "Consultancy Service for the Establishment of the WASH Sector Information Management Systems Platform",
-      "procurement_method": "Consultant Qualification  Selection",
-      "procurement_group": "CS",
-      "summary": "REQUEST FOR EXPRESSIONS OF INTEREST (CONSULTING SERVICES &ndash; FIRM SELECTION) Sierra Leone Sierra Leone Water Security and WASH Access Improvement Project (SLWSWCIP) Grant No.: E5500 Project ID: P507588 Issue date: 20th August, 2026 Assignment Title: Consultancy Service for the Establishment of the WASH Sector Information Management System Platform. Reference No : SL-MWRS-558196-CS-CQS The Government of Sierra Leone, through the Ministry of Water Resources and Sanitation, has received financi",
-      "source": "World Bank",
-      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00463719",
-      "_source_label": "World Bank",
-      "notice_type_normalized": "관심표명(EOI)",
-      "consortium_signal": false,
-      "traffic_survey_signal": false,
-      "first_seen": "2026-08-27"
-    },
-    {
       "id": "aiib-https://www.aiib.org/en/projects/details/2026/_download/Uzbekistan/03082026_REoI-_Final_Unified-Consultant_eng.pdf",
       "notice_type": "Request for Expression of Interest",
       "notice_date": "Aug 17, 2026",
@@ -505,27 +463,6 @@
       "consortium_signal": false,
       "traffic_survey_signal": false,
       "first_seen": "2026-08-06"
-    },
-    {
-      "id": "g2b-R26BK01700536-000",
-      "notice_type": "용역 입찰공고",
-      "notice_date": "2026-08-27 09:57:20",
-      "submission_date": "",
-      "country": "",
-      "project_id": "R26BK01700536",
-      "project_name": "투자개발사업 등 해외건설 우수사례집 발간",
-      "bid_reference_no": "R26BK01700536",
-      "bid_description": "해외건설협회",
-      "procurement_method": "일반경쟁",
-      "agency_tag": "",
-      "summary": "",
-      "source": "나라장터(G2B)",
-      "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01700536&bidPbancOrd=000",
-      "_source_label": "나라장터(G2B)",
-      "notice_type_normalized": "입찰공고",
-      "consortium_signal": false,
-      "traffic_survey_signal": false,
-      "first_seen": "2026-08-27"
     },
     {
       "id": "eib-6a8849b833a66628419c3b82",
