@@ -495,7 +495,7 @@ def is_relevant(*texts: str) -> bool:
     # 있기 때문(나이지리아 SPIN 수력 PPP 제도개선 자문 사례 — 자격요건 항목이
     # 길어서 "institutional strengthening" 문구가 뒤쪽에 있었는데, INCLUDE/EXCLUDE
     # 용으로만 앞부분을 잘라 써야지 HARD_EXCLUDE까지 잘라버리면 이런 사례를 놓친다).
-    if _HARD_EXCLUDE_RE.search(combined):
+    if _is_hard_excluded(combined):
         return False  # INCLUDE 키워드가 있어도 무조건 제외 (RAP, ITS, 축산 등)
     head = combined[:_RELEVANCE_HEAD_CHARS]
     if _INCLUDE_RE.search(head):
@@ -511,7 +511,7 @@ def has_strong_relevance_signal(*texts: str) -> bool:
     combined = " ".join(t for t in texts if t)
     if not combined:
         return False
-    if _HARD_EXCLUDE_RE.search(combined):
+    if _is_hard_excluded(combined):
         return False
     return bool(_INCLUDE_RE.search(combined))
 
