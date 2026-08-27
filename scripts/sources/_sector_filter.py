@@ -113,6 +113,9 @@ HARD_EXCLUDE_PATTERNS = [
     # (설계/타당성조사/감리)이 아니라 기관 경영컨설팅이라 다산 전문영역과 다름.
     r"management support consultant", r"institutional strengthening",
     r"organizational restructuring", r"institutional review and organizational",
+    r"human capital blueprint", r"human capital development plan",
+    r"\bassessment center\b", r"\bchange management\b",
+    r"\bhc\b management practices",
     # 연구기관 자체의 역량강화(조직·인력·제도 강화) 사업 — 파키스탄 PCRWR(물연구
     # 위원회) "연구 인프라 개선 및 통합수자원관리 역량강화 PMC" 사례. "수자원" 등
     # INCLUDE 키워드가 있어도, 실제 업무가 연구기관의 조직·역량 강화(institutional
