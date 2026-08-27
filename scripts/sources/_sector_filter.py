@@ -143,6 +143,7 @@ HARD_EXCLUDE_PATTERNS = [
     r"orpaillage", r"artisanal (small-scale )?mining",
     r"mine (site )?(reclamation|rehabilitation|closure)",
     r"restoration (of |des )?(mining|mine) sites?", r"sites? d[’']?orpaillage",
+    r"tourism", r"관광", r"tourisme", r"turismo",
     # 수산업/어업 관리·법제 자문 및 어항(fisheries harbour) 설계·감리 — "detailed design",
     # "construction supervision" 등 INCLUDE 키워드가 같이 있어도(스리랑카 어항 설계·감리
     # 사례), 항만/물류와 같은 이유로 다산 전문영역과 무관하므로 하드제외로 분류.
@@ -373,7 +374,6 @@ EXCLUDE_PATTERNS = [
     # 이주대책계획(RAP)/토지수용/사회안전장치(social safeguards) 컨설팅.
     # 도로/댐 등 인프라 사업 산하 공고라 INCLUDE에 걸려도, 실제 업무는 이주·보상·
     # 젠더 등 사회분야 전문가 영역이라 다산 전문영역(설계/조사/감리)과 다름.
-    r"tourism", r"관광", r"tourisme", r"turismo",
     r"gender action", r"양성평등", r"genre\b", r"g[êe]nero\b",
     r"agricultur(e|al) value chain", r"농업 가치사슬",
     # 사회안전망/현금성 지원 프로그램 평가·설계 (사회보호 정책 분야, 토목 아님)
