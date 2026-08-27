@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-08-27T06:52:05.448099+00:00",
-  "today_kst": "2026-08-27",
+  "generated_at": "2026-08-27T23:38:12.479251+00:00",
+  "today_kst": "2026-08-28",
   "sources": [
-    "World Bank 572건",
+    "World Bank 605건",
     "한국건설엔지니어링협회 2건",
     "ADB 0건",
-    "나라장터(G2B) 21건",
+    "나라장터(G2B) 0건",
     "해외건설협회(ICAK) 3건",
     "EIB 48건",
     "KIND 4건",
@@ -13,23 +13,23 @@
   ],
   "source_status": {
     "World Bank": {
-      "last_success": "2026-08-27",
+      "last_success": "2026-08-28",
       "consecutive_failures": 0
     },
     "한국건설엔지니어링협회": {
-      "last_success": "2026-08-27",
+      "last_success": "2026-08-28",
       "consecutive_failures": 0
     },
     "ADB": {
       "last_success": "알 수 없음",
-      "consecutive_failures": 124
+      "consecutive_failures": 125
     },
     "나라장터(G2B)": {
       "last_success": "2026-08-27",
-      "consecutive_failures": 0
+      "consecutive_failures": 1
     },
     "해외건설협회(ICAK)": {
-      "last_success": "2026-08-27",
+      "last_success": "2026-08-28",
       "consecutive_failures": 0
     },
     "EIB": {
@@ -37,16 +37,16 @@
       "consecutive_failures": 0
     },
     "KIND": {
-      "last_success": "2026-08-27",
+      "last_success": "2026-08-28",
       "consecutive_failures": 0
     },
     "AIIB": {
-      "last_success": "2026-08-27",
+      "last_success": "2026-08-28",
       "consecutive_failures": 0
     }
   },
-  "count": 68,
-  "new_today_count": 2,
+  "count": 74,
+  "new_today_count": 6,
   "notices": [
     {
       "id": "aiib-https://www.aiib.org/en/opportunities/business/project-procurement/_download/nepal/Request-for-Expression-of-Interest-REOI_-Siddhartha-Highway-Butwal-Pokhara-Section-Improvement-Project.pdf",
@@ -87,6 +87,132 @@
       "consortium_signal": false,
       "traffic_survey_signal": false,
       "first_seen": "2026-08-27"
+    },
+    {
+      "id": "wb-OP00462198",
+      "notice_type": "Request for Expression of Interest",
+      "notice_date": "26-Aug-2026",
+      "submission_date": "2026-09-10T00:00:00Z",
+      "country": "Brazil",
+      "project_id": "P158000",
+      "project_name": "Amazon Sustainable Landscapes Project",
+      "bid_reference_no": "BR-FGV-561336-CS-CQS",
+      "bid_description": "Contratacao de consultoria pessoa juridica para mapeamento e definicao de areas prioritarias nos territorios quilombolas Murumuru e Murumurutuba, subsidiando monitoramento participativo da regeneracao vegetal. Santarem/PA.",
+      "procurement_method": "Consultant Qualification  Selection",
+      "procurement_group": "CS",
+      "summary": "SOLICITA&Ccedil;&Atilde;O DE MANIFESTA&Ccedil;&Atilde;O DE INTERESSE SERVI&Ccedil;OS DE CONSULTORIA BRASIL &ndash; Minist&eacute;rio do Meio Ambiente e Mudan&ccedil;a do Clima - MMA Paisagens Sustent&aacute;veis da Amaz&ocirc;nia - ASL BRASIL 2 Acordo de Doa&ccedil;&atilde;o N.&ordm; TF0B6898-BR &ndash; Banco Mundial N&uacute;mero de Refer&ecirc;ncia: BR-FGV-561336-CS-CQS DE-ASL2-POA3-SEMAS-2026-0001 Escopo: Sele&ccedil;&atilde;o e contrata&ccedil;&atilde;o de consultoria n&atilde;o individual (",
+      "source": "World Bank",
+      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00462198",
+      "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명(EOI)",
+      "consortium_signal": false,
+      "traffic_survey_signal": false,
+      "first_seen": "2026-08-28"
+    },
+    {
+      "id": "wb-OP00464898",
+      "notice_type": "Request for Expression of Interest",
+      "notice_date": "26-Aug-2026",
+      "submission_date": "2026-09-10T00:00:00Z",
+      "country": "Sierra Leone",
+      "project_id": "P507588",
+      "project_name": "Sierra Leone Water Security and WASH Access Improvement Project",
+      "bid_reference_no": "SL-MWRS-539782-CS-QCBS",
+      "bid_description": "Consultancy Service for City Wide Sanitation for WARD C and FCC",
+      "procurement_method": "Quality And Cost-Based Selection",
+      "procurement_group": "CS",
+      "summary": "REQUEST FOR EXPRESSIONS OF INTEREST (CONSULTING SERVICES &ndash; FIRM SELECTION) Sierra Leone Sierra Leone Water Security and WASH Access Improvement Project (SLWSWCIP) Grant No.: E5500 Project ID: P507588 Issue date: 27th August, 2026 Assignment Title: Consultancy for the Development of a City-Wide Inclusive Sanitation (CWIS) Plan for Freetown City Council (FCC) and Western Area Rural District Council (WARD-C) Reference No : SL-MWRS-539782-CS-QCBS The Government of Sierra Leone, through the Min",
+      "source": "World Bank",
+      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00464898",
+      "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명(EOI)",
+      "consortium_signal": false,
+      "traffic_survey_signal": false,
+      "first_seen": "2026-08-28"
+    },
+    {
+      "id": "wb-OP00453992",
+      "notice_type": "Request for Expression of Interest",
+      "notice_date": "26-Aug-2026",
+      "submission_date": "2026-09-16T00:00:00Z",
+      "country": "Tajikistan",
+      "project_id": "P181029",
+      "project_name": "Sustainable Financing for Rogun Hydropower Project",
+      "bid_reference_no": "TJ-PMG-EFC-CS-QCBS-07",
+      "bid_description": "Provision of Advisory and Technical Support Services to the Project Management Group under the President of Tajikistan",
+      "procurement_method": "Quality And Cost-Based Selection",
+      "procurement_group": "CS",
+      "summary": "REQUEST FOR EXPRESSIONS OF INTEREST (CONSULTING SERVICES &ndash; FIRMS SELECTION) Republic of Tajikistan Sustainable Financing for Rogun Hydropower Project (P181029) Projects Management Group for Energy Facilities Construction under the President of the Republic of Tajikistan (PMG EFC) Grant No.: IDA-E3800 Assignment Title: Provision of International Advisory and Technical Support Services to the Project Management Group under the President of Tajikistan Reference No. (as per Procurement Plan): ",
+      "source": "World Bank",
+      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00453992",
+      "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명(EOI)",
+      "consortium_signal": false,
+      "traffic_survey_signal": false,
+      "first_seen": "2026-08-28"
+    },
+    {
+      "id": "wb-OP00464940",
+      "notice_type": "Request for Expression of Interest",
+      "notice_date": "26-Aug-2026",
+      "submission_date": "2026-09-17T00:00:00Z",
+      "country": "Congo, Democratic Republic of",
+      "project_id": "P178642",
+      "project_name": "Forest and Savanna Restoration Investment Program",
+      "bid_reference_no": "ZR-PIF-554591-CS-QCBS",
+      "bid_description": "MISSION D’UN CONSULTANT (FIRME) SPÉCIALISÉ DANS LES TECHNIQUES DE CARBONISATION AMÉLIORÉE POUR LES PROVINCES DU KASAI ET DU KASAI CENTRAL",
+      "procurement_method": "Quality And Cost-Based Selection",
+      "procurement_group": "CS",
+      "summary": "R&eacute;publique D&eacute;mocratique du Congo SECR&Eacute;TARIAT G&Eacute;N&Eacute;RAL &Agrave; L&rsquo;ENVIRONNEMENT, D&Eacute;VELOPPEMENT DURABLE ET NOUVELLE &Eacute;CONOMIE DU CLIMAT Unit&eacute; de Coordination du Programme d&rsquo;Investissement pour la For&ecirc;t &laquo; UC-PIF &raquo; PROJET PIFORES AVIS A MANIFESTATIONS D&rsquo;INTER&Ecirc;TS (Services de consultants) AMI N&deg;ZR-PIF- 554591-CS-QCBS Recrutement d&rsquo;un Consultant (ONG) sp&eacute;cialis&eacute; dans les techniques a",
+      "source": "World Bank",
+      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00464940",
+      "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명(EOI)",
+      "consortium_signal": false,
+      "traffic_survey_signal": false,
+      "first_seen": "2026-08-28"
+    },
+    {
+      "id": "wb-OP00464943",
+      "notice_type": "Request for Expression of Interest",
+      "notice_date": "26-Aug-2026",
+      "submission_date": "2026-09-17T00:00:00Z",
+      "country": "Congo, Democratic Republic of",
+      "project_id": "P178642",
+      "project_name": "Forest and Savanna Restoration Investment Program",
+      "bid_reference_no": "ZR-PIF-554590-CS-QCBS",
+      "bid_description": "MISSION D’UN CONSULTANT SPÉCIALISÉ DANS LES TECHNIQUES DE CARBONISATION AMÉLIORÉE DANS LES PROVINCES DU KASAI-ORIENTAL ET DE LA LOMAMI",
+      "procurement_method": "Quality And Cost-Based Selection",
+      "procurement_group": "CS",
+      "summary": "R&eacute;publique D&eacute;mocratique du Congo SECR&Eacute;TARIAT G&Eacute;N&Eacute;RAL &Agrave; L&rsquo;ENVIRONNEMENT, D&Eacute;VELOPPEMENT DURABLE ET NOUVELLE &Eacute;CONOMIE DU CLIMAT Unit&eacute; de Coordination du Programme d&rsquo;Investissement pour la For&ecirc;t &laquo; UC-PIF &raquo; PROJET PIFORES AVIS A MANIFESTATIONS D&rsquo;INTER&Ecirc;TS (Services de consultants) AMI N&deg;ZR-PIF- 554590-CS-QCBS Recrutement d&rsquo;un Consultant (ONG) sp&eacute;cialis&eacute; dans les techniques a",
+      "source": "World Bank",
+      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00464943",
+      "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명(EOI)",
+      "consortium_signal": false,
+      "traffic_survey_signal": false,
+      "first_seen": "2026-08-28"
+    },
+    {
+      "id": "wb-OP00464955",
+      "notice_type": "Request for Expression of Interest",
+      "notice_date": "26-Aug-2026",
+      "submission_date": "2026-09-17T00:00:00Z",
+      "country": "Congo, Democratic Republic of",
+      "project_id": "P178642",
+      "project_name": "Forest and Savanna Restoration Investment Program",
+      "bid_reference_no": "ZR-PIF-554586-CS-QCBS",
+      "bid_description": "MISSION D'UN CONSULTANT (FIRME) SPÉCIALISÉ DANS LES TECHNIQUES DE CARBONISATION AMÉLIORÉE POUR LES PROVINCES DU KONGO CENTRAL, DU KWILU ET DE LA VILLE-PROVINCE DE KINSHASA",
+      "procurement_method": "Quality And Cost-Based Selection",
+      "procurement_group": "CS",
+      "summary": "R&eacute;publique D&eacute;mocratique du Congo SECR&Eacute;TARIAT G&Eacute;N&Eacute;RAL &Agrave; L&rsquo;ENVIRONNEMENT, D&Eacute;VELOPPEMENT DURABLE ET NOUVELLE &Eacute;CONOMIE DU CLIMAT Unit&eacute; de Coordination du Programme d&rsquo;Investissement pour la For&ecirc;t &laquo; UC-PIF &raquo; PROJET PIFORES AVIS A MANIFESTATIONS D&rsquo;INTER&Ecirc;TS (Services de consultants) AMI N&deg;ZR-PIF- 554586-CS-QCBS Recrutement d&rsquo;un Consultant (ONG) sp&eacute;cialis&eacute; dans les techniques a",
+      "source": "World Bank",
+      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00464955",
+      "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명(EOI)",
+      "consortium_signal": false,
+      "traffic_survey_signal": false,
+      "first_seen": "2026-08-28"
     },
     {
       "id": "aiib-https://www.aiib.org/en/projects/details/2026/_download/Azerbaijan/REOI_TOR_Senior_Contract_and_Claim_Management_Specialist.pdf",
