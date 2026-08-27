@@ -285,6 +285,8 @@ HARD_EXCLUDE_PATTERNS = [
     # EIB 등 발주기관 자체 직원 교육훈련(내부조달) — 기존 "formation du personnel"의
     # 영어 표현. 인프라 사업이 아니라 발주기관 내부 인사·역량강화 조달이라 무관.
     r"corporate (skills )?training", r"staff training",
+    r"programa de capacita[çc][ãa]o", r"capacita[çc][ãa]o in company",
+    r"compras p[úu]blicas",
     # 도시재생/친수구역 정비 등 공공공간 조성 사업 — "eco-inclusive district"와 같은
     # 성격(물리적 토목이 아니라 도시계획·공공공간 조성)의 영어 표현
     r"urban redevelopment", r"river-?front redevelopment", r"waterfront redevelopment",
