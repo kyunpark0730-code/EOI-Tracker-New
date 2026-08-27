@@ -2,7 +2,7 @@ name: Daily EOI Notice Fetch
 on:
   schedule:
     # 매일 UTC 21:00 = 한국시간(KST) 익일 06:00
-    - cron: "0 21 * * *"
+  - cron: "13 21 * * *"
   workflow_dispatch: {}   # 수동 실행 버튼도 사용 가능
 permissions:
   contents: write
