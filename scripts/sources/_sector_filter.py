@@ -32,7 +32,7 @@ HARD_EXCLUDE_PATTERNS = [
     r"plan (en faveur des |des )?(populations|peuples) autochtones",
     r"indigenous peoples plan",
     r"livestock", r"축산", r"dairy", r"낙농", r"[ée]levage", r"b[ée]tail", r"laitier",
-    r"intelligent transport system", r"\bITS\b", r"지능형\s*교통체계",
+    r"intelligent transport system", r"지능형\s*교통체계",
     # 소프트웨어 개발자/IT 인력 파견(아웃소싱), 인일(jours-homme) 단위 IT 상주지원.
     # 프로젝트명이 뭐든(디지털화/전자정부 등) 업무 자체가 개발 인력 파견이면 무조건 제외.
     r"d[ée]veloppeur", r"software developer", r"ux/ui", r"devops",
