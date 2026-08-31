@@ -73,8 +73,8 @@ HARD_EXCLUDE_PATTERNS = [
     # 도시개발 마스터플랜/공간계획 수립, 도시 시뮬레이션·계획 플랫폼 구축 -
     # 물리적 토목이 아니라 도시계획·정책 수립 자체가 산출물인 용역
     r"urban development masterplan", r"spatial development framework",
-    r"urban scenario planning platform", r"spatial planning",
-    # 전력시장 설계·거래제도 자문 (물리적 송배전망 설계가 아니라 시장운영/규제 정책)
+    r"urban scenario planning platform", r"spatial planning", r"spatial plan\b",
+    r"urban spatial plan",    # 전력시장 설계·거래제도 자문 (물리적 송배전망 설계가 아니라 시장운영/규제 정책)
     r"trading bilateral contract market", r"electricity market design",
     r"power market reform", r"market operator",
     # 위와 같은 성격(전력시장/거래 자문)의 스페인어 표현 — 볼리비아 "Estudio de Mercado
@@ -144,7 +144,7 @@ HARD_EXCLUDE_PATTERNS = [
     r"orpaillage", r"artisanal (small-scale )?mining",
     r"mine (site )?(reclamation|rehabilitation|closure)",
     r"restoration (of |des )?(mining|mine) sites?", r"sites? d[’']?orpaillage",
-    r"tourism", r"관광", r"tourisme", r"turismo",
+    r"tourism", r"관광", r"tourisme", r"turismo", r"touristique",
     # 수산업/어업 관리·법제 자문 및 어항(fisheries harbour) 설계·감리 — "detailed design",
     # "construction supervision" 등 INCLUDE 키워드가 같이 있어도(스리랑카 어항 설계·감리
     # 사례), 항만/물류와 같은 이유로 다산 전문영역과 무관하므로 하드제외로 분류.
