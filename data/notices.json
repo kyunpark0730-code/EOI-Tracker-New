@@ -1,35 +1,35 @@
 {
-  "generated_at": "2026-08-30T23:29:51.486448+00:00",
-  "today_kst": "2026-08-31",
+  "generated_at": "2026-09-01T00:38:54.687726+00:00",
+  "today_kst": "2026-09-01",
   "sources": [
-    "World Bank 620건",
+    "World Bank 578건",
     "한국건설엔지니어링협회 2건",
     "ADB 0건",
-    "나라장터(G2B) 24건",
+    "나라장터(G2B) 26건",
     "해외건설협회(ICAK) 3건",
     "EIB 46건",
-    "KIND 4건",
-    "AIIB 10건"
+    "KIND 3건",
+    "AIIB 9건"
   ],
   "source_status": {
     "World Bank": {
-      "last_success": "2026-08-31",
+      "last_success": "2026-09-01",
       "consecutive_failures": 0
     },
     "한국건설엔지니어링협회": {
-      "last_success": "2026-08-31",
+      "last_success": "2026-09-01",
       "consecutive_failures": 0
     },
     "ADB": {
       "last_success": "알 수 없음",
-      "consecutive_failures": 128
+      "consecutive_failures": 129
     },
     "나라장터(G2B)": {
-      "last_success": "2026-08-31",
+      "last_success": "2026-09-01",
       "consecutive_failures": 0
     },
     "해외건설협회(ICAK)": {
-      "last_success": "2026-08-31",
+      "last_success": "2026-09-01",
       "consecutive_failures": 0
     },
     "EIB": {
@@ -37,37 +37,79 @@
       "consecutive_failures": 0
     },
     "KIND": {
-      "last_success": "2026-08-31",
+      "last_success": "2026-09-01",
       "consecutive_failures": 0
     },
     "AIIB": {
-      "last_success": "2026-08-31",
+      "last_success": "2026-09-01",
       "consecutive_failures": 0
     }
   },
   "count": 84,
-  "new_today_count": 0,
+  "new_today_count": 3,
   "notices": [
     {
-      "id": "wb-OP00454954",
+      "id": "wb-OP00421214",
       "notice_type": "Request for Expression of Interest",
-      "notice_date": "28-Aug-2026",
-      "submission_date": "2026-08-31T00:00:00Z",
+      "notice_date": "30-Aug-2026",
+      "submission_date": "2026-09-06T00:00:00Z",
       "country": "Haiti",
       "project_id": "P180384",
       "project_name": "Haiti Strengthening Public Financial Management Project",
-      "bid_reference_no": "HT-UCP/MEF-528481-CS-LCS",
-      "bid_description": "UCP/Recrutement d'une Firme d'Audit pour le PReGeFIP",
-      "procurement_method": "Least Cost Selection",
+      "bid_reference_no": "HT-UCP/MEF-526130-CS-QCBS",
+      "bid_description": "ULCC/Activité I11.1.1: Mener l'analyse des résultats de l'enquête diagnostique sur la gouvernance et la corruption et evaluer l'ancienne strategie",
+      "procurement_method": "Quality And Cost-Based Selection",
       "procurement_group": "CS",
-      "summary": "UCP/MEF/(PReGeFiP) LD CONSEILS/5-26/14366 Port-au-Prince le, 18 mai 2026 UNITE DE COORDINATION DE PROJETS (UCP) LD CONSEILS Delmas 33, Village de l&rsquo;Amitie, 9 Rue 3 Port-au-Prince, Haiti D&eacute;signation de la Mission : Audit des comptes du Projet de Renforcement de la Gestion des Finances Publiques (PReGeFiP) Lettre d&rsquo;Invitation &agrave; soumettre une proposition pour services de consultants\\ Cette demande de Proposition a du &ecirc;tre relanc&eacute;e pour vice de forme dans l&rsq",
+      "summary": "R&eacute;publique d&rsquo;Ha&iuml;ti MINIST&Egrave;RE DE L&rsquo;ECONOMIE ET DES FINANCES (MEF) SOLLICITATION DE MANIFESTATIONS D&rsquo;INT&Eacute;R&Ecirc;T S&Eacute;LECTION DE CONSULTANT PAR LES EMPRUNTEURS DE LA BANQUE MONDIALE Ha&iuml;ti , Projet de Renforcement de la Gestion des Finances Publiques (PReGeFiP) P180384 Mission : Elaboration et Adoption de la nouvelle strat&eacute;gie nationale de lutte contre la Corruption (SNLCC) Num&eacute;ro de don: IDA E4170 Num&eacute;ro de r&eacute;f&eacu",
       "source": "World Bank",
-      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00454954",
+      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00421214",
       "_source_label": "World Bank",
       "notice_type_normalized": "관심표명(EOI)",
       "consortium_signal": false,
       "traffic_survey_signal": false,
-      "first_seen": "2026-08-30"
+      "first_seen": "2026-09-01"
+    },
+    {
+      "id": "wb-OP00465812",
+      "notice_type": "Request for Expression of Interest",
+      "notice_date": "30-Aug-2026",
+      "submission_date": "2026-09-17T00:00:00Z",
+      "country": "Western and Central Africa",
+      "project_id": "P179078",
+      "project_name": "Health Security Program in Western and Central Africa",
+      "bid_reference_no": "GN-UGPS (GUINEA)-516888-CS-QCBS",
+      "bid_description": "Recrutement d’un bureau d’études d’ingénierie civile pour les études, le suivi- contrôle et la supervision des travaux de construction/réhabilitation des infrastructures.",
+      "procurement_method": "Quality And Cost-Based Selection",
+      "procurement_group": "CS",
+      "summary": "MINISTERE DE LA SANTE ET DE L&rsquo;HYGIENE PUBLIQUE ******** UNITE DE COORDINATION DES PROJETS ******* PROGRAMME REGIONAL DE SECURITE SANITAIRE EN AFRIQUE DE L&rsquo;OUEST ET DU CENTRE (PReSeS-AOC) APPEL A MANIFESTATION D&rsquo;INTERET Date d&eacute;but : 31/08/2026 &ndash; Date limite : 17/09/2026 La R&eacute;publique de Guin&eacute;e a sollicit&eacute; et obtenu de la Banque Mondiale (BM) et du M&eacute;canisme de Financement Mondial (GFF), &agrave; travers le Minist&egrave;re de la Sant&eacu",
+      "source": "World Bank",
+      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00465812",
+      "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명(EOI)",
+      "consortium_signal": false,
+      "traffic_survey_signal": false,
+      "first_seen": "2026-09-01"
+    },
+    {
+      "id": "wb-OP00465662",
+      "notice_type": "Request for Expression of Interest",
+      "notice_date": "29-Aug-2026",
+      "submission_date": "2026-09-11T00:00:00Z",
+      "country": "Liberia",
+      "project_id": "P177478",
+      "project_name": "Governance Reform and Accountability Transformation (GREAT) Project",
+      "bid_reference_no": "LR-LRA-568564-CS-CQS",
+      "bid_description": "Consultancy to Conduct Baseline, Midline, Endline and Post-launch VAT Awareness and Readiness Surveys",
+      "procurement_method": "Consultant Qualification  Selection",
+      "procurement_group": "CS",
+      "summary": "LIBERIA REVENUE AUTHORITY GOVERNANCE REFORM AND ACCOUNTABILITY TRANSFORMATION (GREAT) PROJECT (P177478) IDA CREDIT No: 7511-LR REQUEST FOR EXPRESSIONS OF INTEREST (CONSULTING SERVICES &ndash; FIRM SELECTION) LR-LRA-568564-CS-CQS Consultancy to Conduct Baseline, Midline, Endline and Post Launch VAT Awareness and Readiness Surveys The Government of Liberia, through the Ministry of Finance and Development Planning (MFDP), is implementing the Governance Reform and Accountability Transformation (GREA",
+      "source": "World Bank",
+      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00465662",
+      "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명(EOI)",
+      "consortium_signal": false,
+      "traffic_survey_signal": false,
+      "first_seen": "2026-09-01"
     },
     {
       "id": "wb-OP00464838",
@@ -132,27 +174,6 @@
       "first_seen": "2026-08-29"
     },
     {
-      "id": "wb-OP00465283",
-      "notice_type": "Request for Expression of Interest",
-      "notice_date": "27-Aug-2026",
-      "submission_date": "2026-09-10T00:00:00Z",
-      "country": "Western and Central Africa",
-      "project_id": "P175525",
-      "project_name": "West Africa Coastal Areas Resilience Investment Project 2",
-      "bid_reference_no": "GW-IBAP-561768-CS-QCBS",
-      "bid_description": "Sélection d'un cabinet ou d'un groupement pour la réalisation des études techniques et l’élaboration des plans architecturaux ainsi que les EIES, DAO, suivi et contrôle des travaux de construction des infrastructures touristiques et autres.",
-      "procurement_method": "Quality And Cost-Based Selection",
-      "procurement_group": "CS",
-      "summary": "REP&Uacute;BLICA DA GUIN&Eacute;-BISSAU Minist&eacute;rio do Ambiente, Biodiversidade e A&ccedil;&atilde;o Clim&aacute;tica Instituto da Biodiversidade e das &Aacute;reas Protegidas - Dr. Alfredo Sim&atilde;o da Silva (IBAP) Projeto de Investimento na Resili&ecirc;ncia das Zonas Costeiras da &Aacute;frica Ocidental (WACA - ResIP II) AN&Uacute;NCIO DE CONCURSO &ndash; Ref&ordf; AN/005/agosto/WACA-ResIP 2 GB/SBQC/2026 AVIS DE MANIFESTATION D&rsquo;INT&Eacute;R&Ecirc;T POUR LA S&Eacute;LECTION D&rs",
-      "source": "World Bank",
-      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00465283",
-      "_source_label": "World Bank",
-      "notice_type_normalized": "관심표명(EOI)",
-      "consortium_signal": false,
-      "traffic_survey_signal": false,
-      "first_seen": "2026-08-29"
-    },
-    {
       "id": "wb-OP00465370",
       "notice_type": "Request for Expression of Interest",
       "notice_date": "27-Aug-2026",
@@ -188,27 +209,6 @@
       "summary": "MINISTERIO DE PRODUCCI&Oacute;N SOSTENIBLE, MEDIO AMBIENTE Y AGUA PROGRAMA DE GESTION RESILIENTE DEL AGUA PARA RIEGO COMUNITARIO Y FAMILIAR P178861 - CONTRATO DE PR&Eacute;STAMO N&deg; 9643-BO SOLICITUD DE EXPRESIONES DE INTER&Eacute;S Organismo Ejecutor: Ministerio de Producci&oacute;n Sostenible, Medio Ambiente y Agua, a trav&eacute;s de la Unidad de Coordinaci&oacute;n del Programa Piloto de Resiliencia Clim&aacute;tica (UCP &ndash; PPCR) Direcci&oacute;n: Oficinas de la UCP - PPCR, calle Fer",
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00465396",
-      "_source_label": "World Bank",
-      "notice_type_normalized": "관심표명(EOI)",
-      "consortium_signal": false,
-      "traffic_survey_signal": false,
-      "first_seen": "2026-08-29"
-    },
-    {
-      "id": "wb-OP00465260",
-      "notice_type": "Request for Expression of Interest",
-      "notice_date": "27-Aug-2026",
-      "submission_date": "2026-09-16T00:00:00Z",
-      "country": "Mozambique",
-      "project_id": "P171449",
-      "project_name": "Maputo Urban Transformation Project",
-      "bid_reference_no": "MZ-CMM-490872-CS-QBS",
-      "bid_description": "Urban Spatial Plan for Maputo City",
-      "procurement_method": "Quality Based Selection",
-      "procurement_group": "CS",
-      "summary": "CONSELHO MUNICIPAL PROJECTO DE TRANSFORMA&Ccedil;&Atilde;O URBANA DE MAPUTO Project ID No.: P171449 SOLICITA&Ccedil;&Atilde;O DE MANIFESTA&Ccedil;&Atilde;O DE INTERESSE (Servicos de Consultoria &ndash; Selec&ccedil;&atilde;o de Firmas) Elabora&ccedil;&atilde;o do Plano de Estrutura Urbana do Municipio de Maputo Projecto : Projecto de Transforma&ccedil;&atilde;o Urbana de Maputo Project ID : 171449 Activitade: Elabora&ccedil;&atilde;o do Plano de Estrutura Urbana do Municipio de Maputo Ref&ordf;.",
-      "source": "World Bank",
-      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00465260",
       "_source_label": "World Bank",
       "notice_type_normalized": "관심표명(EOI)",
       "consortium_signal": false,
