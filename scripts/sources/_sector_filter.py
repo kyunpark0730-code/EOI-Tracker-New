@@ -207,6 +207,16 @@ HARD_EXCLUDE_PATTERNS = [
     r"independent verification agent", r"performance-based grants?",
     r"results verification", r"independent verification of results",
     r"verification of results",
+    # 거버넌스/반부패 진단조사(설문조사 분석 등 통치체계 자문) — 아이티 ULCC
+    # "enquête diagnostique sur la gouvernance et la corruption" 사례. 설계·감리가
+    # 아니라 통치구조·반부패 진단·평가 자문이라 다산 전문영역과 무관.
+    r"governance and corruption diagnostic", r"diagnostic survey on governance",
+    r"enqu[êe]te diagnostique sur la gouvernance", r"gouvernance et (la )?corruption",
+    # 세금/부가가치세(VAT) 인지도·이행준비도 설문조사(Baseline/Midline/Endline) —
+    # 라이베리아 GREAT 프로젝트 "VAT Awareness and Readiness Surveys" 사례. 설계·감리가
+    # 아니라 납세자 인지도 조사·홍보라 다산 전문영역과 무관.
+    r"vat awareness", r"tax awareness (and readiness)?",
+    r"awareness and readiness surveys?",
     # 재무제표 감사(외부회계감사) 용역 - 관개/도로 등 인프라 사업 산하 공고라 INCLUDE에
     # 걸려도, 실제 업무는 회계·재무감사 전문용역(공인회계사)이라 다산 전문영역과 다름
     r"external auditor", r"financial audit", r"audit comptable et financier",
@@ -250,6 +260,17 @@ HARD_EXCLUDE_PATTERNS = [
     # 건물 자체를 가리키는 구체적인 표현으로만 좁혀서 잡는다.
     r"laboratoire national", r"b[âa]timent (du |de )?laboratoire",
     r"laboratoire de qualit[ée] de l[’']?eau",
+    # 보건부(보건안보 프로그램) 산하 발주 공고 — 기니 PReSeS-AOC(서아프리카 보건안보
+    # 프로그램) "bureau d'études d'ingénierie civile... infrastructures" 사례.
+    # bid_description 자체는 "études techniques"/"suivi-contrôle"/"supervision des
+    # travaux" 등 INCLUDE 키워드가 있어도, 발주기관이 보건부/보건안보 프로그램이면
+    # (병원·보건소 등 보건 인프라가 실제 대상일 가능성이 높아) 다산 전문영역
+    # (관개/도로/댐)과 무관한 것으로 간주한다. 기존 soft EXCLUDE의 "health"/"santé"는
+    # ESIA/ESMP 보고서에 흔히 나오는 "public health and safety" 같은 일반적 문구까지
+    # 걸릴 수 있어 hard exclude로 승격하지 않고, 발주기관 자체를 가리키는 좁은 표현만
+    # hard exclude로 잡는다.
+    r"minist[èe]re de la sant[ée]", r"ministry of health",
+    r"health security (program|programme)", r"s[ée]curit[ée] sanitaire",
     # 기관 거버넌스/재무구조 설계 등 제도·경영 자문 (엔지니어링이 아니라 institutional
     # strengthening/management support consultant와 같은 성격의 자문)
     r"governance and financing model",
