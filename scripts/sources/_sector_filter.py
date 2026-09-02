@@ -276,6 +276,12 @@ HARD_EXCLUDE_PATTERNS = [
     # hard exclude로 잡는다.
     r"minist[èe]re de la sant[ée]", r"ministry of health",
     r"health security (program|programme)", r"s[ée]curit[ée] sanitaire",
+    # "MoHSW"(Ministry of Health and Social Welfare) 약어 — Republika Srpska(보스니아)
+    # "RS/EIB/MCP/MoHSW/CS-001/25 Technical Advisor for Construction Contracts" 사례.
+    # EIB 공고는 정보가 project_name/bid_description에 거의 없고 bid_reference_no에만
+    # 발주기관 약어가 있어서, 이 약어 자체를 패턴으로 잡는다 (fetch_all.py에서
+    # bid_reference_no도 필터 검사 대상에 포함해야 매칭됨).
+    r"\bMoHSW\b",
     # 기관 거버넌스/재무구조 설계 등 제도·경영 자문 (엔지니어링이 아니라 institutional
     # strengthening/management support consultant와 같은 성격의 자문)
     r"governance and financing model",
