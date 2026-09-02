@@ -385,7 +385,12 @@ def main():
                         # World Bank는 대시보드 표시용 summary가 500자로 잘려 있어
                         # 그 뒤에 나오는 실제 과업범위 문구를 놓칠 수 있다(피지 PHIT
                         # 사업 사례). 있으면 원문 전체(_filter_text)도 같이 검사한다.
-                        n.get("_filter_text", ""))
+                        n.get("_filter_text", ""),
+                        # EIB 등 일부 소스는 project_name/bid_description이 거의
+                        # 비어있고("On going") 발주기관 정보가 bid_reference_no에만
+                        # 있는 경우가 있다(Republika Srpska "MoHSW" 보건복지부 사례) —
+                        # 이 필드도 함께 검사한다.
+                        n.get("bid_reference_no", ""))
     ]
     filtered_out = before_filter - len(all_notices) - job_filtered_out - goods_filtered_out - award_filtered_out - pp_filtered_out - sole_source_filtered_out - eme_filtered_out
     print(f"분야 필터로 제외됨: {filtered_out}건 (관개/도로/수자원 등과 무관)")
