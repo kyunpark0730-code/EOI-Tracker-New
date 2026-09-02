@@ -217,6 +217,11 @@ HARD_EXCLUDE_PATTERNS = [
     # 아니라 납세자 인지도 조사·홍보라 다산 전문영역과 무관.
     r"vat awareness", r"tax awareness (and readiness)?",
     r"awareness and readiness surveys?",
+    # 사회·경제 프로그램의 기초선(Baseline) 설문조사 단독 용역 — 타지키스탄
+    # "Women's Economic Empowerment Project" "Baseline Survey" 사례. 설계·감리가
+    # 아니라 사업 시작 전 현황조사(설문)만 단독으로 발주된 M&E 성격 용역이라
+    # 다산 전문영역과 무관 (환경/생물다양성 기초조사는 이미 별도 패턴으로 처리됨).
+    r"\bbaseline survey\b",
     # 재무제표 감사(외부회계감사) 용역 - 관개/도로 등 인프라 사업 산하 공고라 INCLUDE에
     # 걸려도, 실제 업무는 회계·재무감사 전문용역(공인회계사)이라 다산 전문영역과 다름
     r"external auditor", r"financial audit", r"audit comptable et financier",
@@ -363,6 +368,11 @@ EXCLUDE_PATTERNS = [
     r"\bAI\b", r"artificial intelligence", r"인공지능", r"intelligence artificielle", r"intelig[êe]ncia artificial",
     r"software development", r"소프트웨어",
     r"\bIT\b system", r"digital platform",
+    # 문서보관/기록물 디지털화 진단·전략수립 용역 — 브라질 Progestão Alagoas
+    # "diagnóstico arquivístico... digitalização dos registros funcionais" 사례.
+    # 설계·감리가 아니라 행정기록물 관리·디지털화 자문이라 다산 전문영역과 무관.
+    r"diagn[óo]stico arquiv[íi]stico", r"digitaliza[çc][ãa]o (dos |de )?registros",
+    r"massa documental",
     # "digital platform"의 스페인어 표현 — 콜롬비아 Fondo Acción PMI "Interoperabilidad"
     # (시장정보 디지털 플랫폼 상호운용성) 사례. INCLUDE 키워드가 전혀 없는 순수 IT
     # 컨설팅이라 애매하면 포함 원칙에 걸려 잘못 포함됐었음.
@@ -398,11 +408,20 @@ EXCLUDE_PATTERNS = [
     r"인식\s*제고\s*캠페인",
     r"comunica[çc][ãa]o institucional",
     r"event management", r"행사\s*관리\s*업체",
+    # 영상 촬영/기록·성과홍보 용역 — 중국 산시성 플라스틱 폐기물 프로젝트 "Full-process
+    # Video Documentation & Outcome Promotion Services" 사례. 설계·감리가 아니라
+    # 사업 전과정 영상기록·홍보 제작 용역이라 다산 전문영역과 무관.
+    r"video documentation", r"outcome promotion",
     r"planos? de comunica[çc][ãa]o", r"estrat[ée]gia (e planos? )?de comunica[çc][ãa]o",
     # 이주대책계획(RAP)/토지수용/사회안전장치(social safeguards) 컨설팅.
     # 도로/댐 등 인프라 사업 산하 공고라 INCLUDE에 걸려도, 실제 업무는 이주·보상·
     # 젠더 등 사회분야 전문가 영역이라 다산 전문영역(설계/조사/감리)과 다름.
     r"gender action", r"양성평등", r"genre\b", r"g[êe]nero\b",
+    # 지역사회 투자사업의 "사회공학(ingénierie sociale)" NGO 용역 — 차드 RESICHAD
+    # "Recrutement d'une ONG pour l'ingénierie sociale des investissements" 사례.
+    # "ingénierie"라는 단어가 있어도 토목설계가 아니라 지역사회 참여·사회적 매개를
+    # 담당하는 NGO 용역이라 다산 전문영역과 무관.
+    r"ing[ée]nierie sociale", r"recrutement d[\'’]?une ong",
     r"agricultur(e|al) value chain", r"농업 가치사슬",
     # 사회안전망/현금성 지원 프로그램 평가·설계 (사회보호 정책 분야, 토목 아님)
     r"social safety net", r"filets? sociaux", r"cash transfer", r"transferts? mon[ée]taires?",
