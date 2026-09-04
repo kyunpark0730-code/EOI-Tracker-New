@@ -1,35 +1,35 @@
 {
-  "generated_at": "2026-09-04T08:20:59.429038+00:00",
-  "today_kst": "2026-09-04",
+  "generated_at": "2026-09-04T23:05:20.085817+00:00",
+  "today_kst": "2026-09-05",
   "sources": [
-    "World Bank 582건",
+    "World Bank 622건",
     "한국건설엔지니어링협회 2건",
     "ADB 0건",
-    "나라장터(G2B) 1건",
+    "나라장터(G2B) 26건",
     "해외건설협회(ICAK) 2건",
-    "EIB 44건",
+    "EIB 43건",
     "KIND 3건",
     "AIIB 9건"
   ],
   "source_status": {
     "World Bank": {
-      "last_success": "2026-09-04",
+      "last_success": "2026-09-05",
       "consecutive_failures": 0
     },
     "한국건설엔지니어링협회": {
-      "last_success": "2026-09-04",
+      "last_success": "2026-09-05",
       "consecutive_failures": 0
     },
     "ADB": {
       "last_success": "알 수 없음",
-      "consecutive_failures": 134
+      "consecutive_failures": 135
     },
     "나라장터(G2B)": {
-      "last_success": "2026-09-03",
-      "consecutive_failures": 2
+      "last_success": "2026-09-05",
+      "consecutive_failures": 0
     },
     "해외건설협회(ICAK)": {
-      "last_success": "2026-09-04",
+      "last_success": "2026-09-05",
       "consecutive_failures": 0
     },
     "EIB": {
@@ -37,17 +37,143 @@
       "consecutive_failures": 0
     },
     "KIND": {
-      "last_success": "2026-09-04",
+      "last_success": "2026-09-05",
       "consecutive_failures": 0
     },
     "AIIB": {
-      "last_success": "2026-09-04",
+      "last_success": "2026-09-05",
       "consecutive_failures": 0
     }
   },
-  "count": 81,
-  "new_today_count": 0,
+  "count": 87,
+  "new_today_count": 6,
   "notices": [
+    {
+      "id": "wb-OP00466616",
+      "notice_type": "Request for Expression of Interest",
+      "notice_date": "03-Sep-2026",
+      "submission_date": "2026-09-17T00:00:00Z",
+      "country": "China",
+      "project_id": "P162178",
+      "project_name": "China Food Safety Improvement Project",
+      "bid_reference_no": "GDCS-017AA",
+      "bid_description": "This project plans to hire a third-party institution tocarry out research on the quality and safety of theagricultural product supply chain.",
+      "procurement_method": "Consultant Qualification  Selection",
+      "procurement_group": "CS",
+      "summary": "REOI Country: The People&#39;s Republic of China Project Name: IBRD Guangdong Agricultural Product Quality Safety Improvement (Demonstration) Project Loan No.: 9213-CN Assignment Name : Research topic on Quality and Safety of Agricultural Supply Chains Contract No.: GDCS-017 0733-26083758 The Government of the People&#39;s Republic of China has received a loan from the International Bank for Reconstruction and Development to improve food safety management at the national and sub-national levels ",
+      "source": "World Bank",
+      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00466616",
+      "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명(EOI)",
+      "consortium_signal": false,
+      "traffic_survey_signal": false,
+      "first_seen": "2026-09-05"
+    },
+    {
+      "id": "wb-OP00466810",
+      "notice_type": "Request for Expression of Interest",
+      "notice_date": "03-Sep-2026",
+      "submission_date": "2026-09-18T00:00:00Z",
+      "country": "OECS Countries",
+      "project_id": "P174986",
+      "project_name": "OECS Data for Decision Making (DDM) Project",
+      "bid_reference_no": "GD-PCU - GRENADA-569611-CS-QCBS",
+      "bid_description": "Consultancy Services—The analysis of data and preparation of the national report of living conditions for the survey of living conditions and household budget survey (SLC-HBS)",
+      "procurement_method": "Quality And Cost-Based Selection",
+      "procurement_group": "CS",
+      "summary": "REQUEST FOR EXPRESSIONS OF INTEREST (Consulting Services&ndash; Quality and Cost-Based Selection (QCBS)) GRENADA OECS Data for Decision Making (DDM) Project Assignment Title: Consultancy Services for the Analysis of Data and Preparation of the National Report of Living Conditions for the Survey of Living Conditions and Household Budget Survey (SLC-HBS) Reference No.: GD-PCU - GRENADA-569611-CS-QCBS The Government of Grenada has received financing from the World Bank toward the cost of the OECS D",
+      "source": "World Bank",
+      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00466810",
+      "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명(EOI)",
+      "consortium_signal": false,
+      "traffic_survey_signal": false,
+      "first_seen": "2026-09-05"
+    },
+    {
+      "id": "wb-OP00457758",
+      "notice_type": "Request for Expression of Interest",
+      "notice_date": "03-Sep-2026",
+      "submission_date": "2026-09-21T00:00:00Z",
+      "country": "Ethiopia",
+      "project_id": "P180076",
+      "project_name": "Lowlands Livelihood Resilience Project, Phase Two (LLRP II)",
+      "bid_reference_no": "ET-ILLD-548919-CS-QCBS-2",
+      "bid_description": "Consultancy Service for Independent Procurement Audit of 2017, 2018, 2019 and 2020 EFY for Lowlands Livelihood Resilience Project Phase II (LLRP-II)",
+      "procurement_method": "Quality And Cost-Based Selection",
+      "procurement_group": "CS",
+      "summary": "REQUEST OF EXPRESSIONS OF INTEREST (CONSULTING SERVICES&ndash;FIRMS SELECTION) Country: The Federal Democratic Republic of Ethiopia Name of Project: Lowlands Livelihood Resilience Project, Phase Two (LLRP II) Project ID: P180076, IDA-75190 ET Assignment Title: - Consultancy Services to Undertake an Independent Procurement Audit of the Lowlands Livelihood Resilience Project Phase Two The Federal Democratic Republic of Ethiopia, Ministry of Irrigation and Lowlands has received financing from the W",
+      "source": "World Bank",
+      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00457758",
+      "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명(EOI)",
+      "consortium_signal": false,
+      "traffic_survey_signal": false,
+      "first_seen": "2026-09-05"
+    },
+    {
+      "id": "wb-OP00466085",
+      "notice_type": "Request for Expression of Interest",
+      "notice_date": "03-Sep-2026",
+      "submission_date": "2026-09-22T00:00:00Z",
+      "country": "Madagascar",
+      "project_id": "P178701",
+      "project_name": "Digital and Energy Connectivity for Inclusion in Madagascar Project",
+      "bid_reference_no": "MG-DECIM-P178701-560560-CS-QCBS",
+      "bid_description": "Évaluation des risques et cartographie des zones à risques en rapport avec le secteur Infrastructures Energie et Infrastructures TIC",
+      "procurement_method": "Quality And Cost-Based Selection",
+      "procurement_group": "CS",
+      "summary": "MINISTERE DE L&rsquo;ENERGIE ET DES HYDROCARBURES MINISTERE DU DEVELOPPEMENT NUMERIQUE, DES POSTES ET DES TELECOMMUNICATIONS -------------------------------- PROJET DIGITAL AND ENERGY CONNECTIVITY FOR INCLUSION IN MADAGASCAR (DECIM) -------------------------------- UNITE DE COORDINATION DU PROJET ------------------------ APPEL A MANIFESTATION D&rsquo;INTERET POUR LES SERVICES DE CONSULTANT N&deg; 009/2026/DECIM/AMI Pays : Madagascar Nom du Projet : Projet de Connectivit&eacute; Num&eacute;rique ",
+      "source": "World Bank",
+      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00466085",
+      "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명(EOI)",
+      "consortium_signal": false,
+      "traffic_survey_signal": false,
+      "first_seen": "2026-09-05"
+    },
+    {
+      "id": "wb-OP00466850",
+      "notice_type": "Request for Expression of Interest",
+      "notice_date": "03-Sep-2026",
+      "submission_date": "2026-09-24T00:00:00Z",
+      "country": "Western and Central Africa",
+      "project_id": "P180085",
+      "project_name": "Harmonizing and Improving Statistics in West and Central Africa - Series of Projects Two (HISWACA -",
+      "bid_reference_no": "CG-CG-HISWACA-092-F-SQC-2026",
+      "bid_description": "Recrutement d’un consultant (cabinet) pour la conception et la mise en œuvre de la plateforme numérique \nde suivi évaluation du projet",
+      "procurement_method": "Consultant Qualification  Selection",
+      "procurement_group": "CS",
+      "summary": "MINISTERE DE L&rsquo;ECONOMIE, DU PLAN REPUBLIQUE DU CONGO ET DE L&rsquo;INTEGRATION REGIONALE Unit&eacute;* Travail*Progr&egrave;s -------------------------------- ------------------- PROJET D&rsquo;HARMONISATION ET D&rsquo;AMELIORATION DES STATISTIQUES EN AFRIQUE DE L&rsquo;OUEST ET DU CENTRE - SERIE DE PROJETS N&deg;2 (HISWACA - SOP 2) ---------------------------- UNITE DE GESTION DU PROJET --------------------------------- AVIS A MANIFESTATION D&rsquo;INTER&Ecirc;TS N&deg;092/HISWACA /2026 R",
+      "source": "World Bank",
+      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00466850",
+      "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명(EOI)",
+      "consortium_signal": false,
+      "traffic_survey_signal": false,
+      "first_seen": "2026-09-05"
+    },
+    {
+      "id": "wb-OP00466649",
+      "notice_type": "Request for Expression of Interest",
+      "notice_date": "03-Sep-2026",
+      "submission_date": "2026-09-24T00:00:00Z",
+      "country": "Madagascar",
+      "project_id": "P174477",
+      "project_name": "Madagascar National Water Project",
+      "bid_reference_no": "MG-MEAH-571205-CS-CQS",
+      "bid_description": "Recrutement des opérateurs privés pour la Délégation de Gestion des Systèmes d'Eau Potable dans les Centres Urbains hors Zone JIRAMA.",
+      "procurement_method": "Consultant Qualification  Selection",
+      "procurement_group": "CS",
+      "summary": "MINISTERE DE L&rsquo;EAU, DE L&rsquo;ASSAINISSEMENT ET DE L&rsquo;HYGIENE --------------------- PROJET D&rsquo;AMELIORATION DE L&rsquo;ACCES A L&rsquo;EAU POTABLE --------------------- UGP-MEAH APPEL A MANIFESTATION D&rsquo;INTERET OUVERT NATIONAL Date de lancement : 03 Septembre 2026 AMI N&deg; 11-2026/MEAH/PAAEP/AMI Nom du Projet : Projet d&rsquo;Am&eacute;lioration de l&rsquo;Acc&egrave;s &agrave; l&rsquo;Eau Potable Cr&eacute;dit IDA N&deg;71210 R&eacute;f. STEP : MG-MEAH-571205-CS-CQS Intit",
+      "source": "World Bank",
+      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00466649",
+      "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명(EOI)",
+      "consortium_signal": false,
+      "traffic_survey_signal": false,
+      "first_seen": "2026-09-05"
+    },
     {
       "id": "wb-OP00459044",
       "notice_type": "Request for Expression of Interest",
