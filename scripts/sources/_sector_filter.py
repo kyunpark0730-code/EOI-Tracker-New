@@ -196,6 +196,17 @@ HARD_EXCLUDE_PATTERNS = [
     # 저장 인프라 분야라 다산 전문영역과 무관 (오만 두큼 라스 마르카즈 원유저장소 사례)
     r"원유\s*저장", r"저유소", r"oil storage", r"petroleum storage", r"crude oil storage",
     r"tank farm",
+    # 철도(rail) 설계·시공감리 — 부르키나파소 SKBO "chemin de fer" 사례. "études et
+    # contrôle technique"/"construction supervision" 등 INCLUDE 키워드가 있어도,
+    # 관개/도로/댐/교량이 아니라 철도 분야라 다산 전문영역과 무관.
+    r"chemin de fer", r"\brailway", r"ferrovi[áa]ri[ao]", r"ferrocarril", r"철도",
+    # 기상관측장비망(번개감지·기상레이더·기상관측소 등) 구축 타당성조사 — 잠비아
+    # TRALARD II "National Lightning Detection Network"/"National Weather Radar
+    # Network"/"Meteorological Calibration Facility" 사례. "feasibility study"라는
+    # 범용 INCLUDE 키워드가 있어도, 관개/도로/댐이 아니라 기상관측 장비·계측망
+    # 구축(전자/계측 분야)이라 다산 전문영역과 무관.
+    r"lightning detection network", r"weather radar network",
+    r"meteorological calibration facility", r"automated weather station",
     # KOICA 등 국내 행정지원 용역(임금체계/전시관 시설/사업평가 등 -
     # 해외 인프라 설계·감리가 아니라 기관 내부 행정·평가 업무)
     r"임금체계", r"전시관", r"심층평가", r"배움터",
@@ -418,6 +429,10 @@ EXCLUDE_PATTERNS = [
     # Video Documentation & Outcome Promotion Services" 사례. 설계·감리가 아니라
     # 사업 전과정 영상기록·홍보 제작 용역이라 다산 전문영역과 무관.
     r"video documentation", r"outcome promotion",
+    # 홍보/언론대응(PR & Media Relations) 자문사 선정 — 파키스탄 EDEIP "PR & Media
+    # Relations Firm" 사례. 설계·감리가 아니라 대언론·홍보 자문 용역이라 다산
+    # 전문영역과 무관.
+    r"pr (&|and) media relations", r"media relations firm",
     r"planos? de comunica[çc][ãa]o", r"estrat[ée]gia (e planos? )?de comunica[çc][ãa]o",
     # 이주대책계획(RAP)/토지수용/사회안전장치(social safeguards) 컨설팅.
     # 도로/댐 등 인프라 사업 산하 공고라 INCLUDE에 걸려도, 실제 업무는 이주·보상·
