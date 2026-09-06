@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-05T22:54:24.504742+00:00",
-  "today_kst": "2026-09-06",
+  "generated_at": "2026-09-06T22:53:54.883317+00:00",
+  "today_kst": "2026-09-07",
   "sources": [
-    "World Bank 597건",
+    "World Bank 604건",
     "한국건설엔지니어링협회 2건",
     "ADB 0건",
     "나라장터(G2B) 26건",
@@ -13,23 +13,23 @@
   ],
   "source_status": {
     "World Bank": {
-      "last_success": "2026-09-06",
+      "last_success": "2026-09-07",
       "consecutive_failures": 0
     },
     "한국건설엔지니어링협회": {
-      "last_success": "2026-09-06",
+      "last_success": "2026-09-07",
       "consecutive_failures": 0
     },
     "ADB": {
       "last_success": "알 수 없음",
-      "consecutive_failures": 136
+      "consecutive_failures": 137
     },
     "나라장터(G2B)": {
-      "last_success": "2026-09-06",
+      "last_success": "2026-09-07",
       "consecutive_failures": 0
     },
     "해외건설협회(ICAK)": {
-      "last_success": "2026-09-06",
+      "last_success": "2026-09-07",
       "consecutive_failures": 0
     },
     "EIB": {
@@ -37,17 +37,38 @@
       "consecutive_failures": 0
     },
     "KIND": {
-      "last_success": "2026-09-06",
+      "last_success": "2026-09-07",
       "consecutive_failures": 0
     },
     "AIIB": {
-      "last_success": "2026-09-06",
+      "last_success": "2026-09-07",
       "consecutive_failures": 0
     }
   },
-  "count": 87,
-  "new_today_count": 0,
+  "count": 88,
+  "new_today_count": 1,
   "notices": [
+    {
+      "id": "wb-OP00467118",
+      "notice_type": "Request for Expression of Interest",
+      "notice_date": "05-Sep-2026",
+      "submission_date": "2026-10-06T00:00:00Z",
+      "country": "Kenya",
+      "project_id": "P177048",
+      "project_name": "Second Kenya Urban Support Program",
+      "bid_reference_no": "KE-MOTI-566726-CS-QCBS",
+      "bid_description": "Consulting Services for the Preparation of Municipal Investment Opportunity Packages and Investment Readiness Support for Kisumu, Eldoret, Meru, Ruiru and Kakuma Municipalities in Kenya",
+      "procurement_method": "Quality And Cost-Based Selection",
+      "procurement_group": "CS",
+      "summary": "MINISTRY OF LANDS, PUBLIC WORKS, HOUSING AND URBAN DEVELOPMENT STATE DEPARTMENT FOR HOUSING AND URBAN DEVELOPMENT REQUEST FOR EXPRESSION OF INTEREST Consulting Services &ndash; Firm Selection _______________________________________________________________________&shy;&shy;&shy;&shy;&shy;&shy;&shy;&shy;&shy;&shy;&shy;&shy;&shy;&shy;&shy;&shy;&shy;&shy;&shy;&shy;&shy;&shy;&shy; COUNTRY: The Republic of Kenya PROJECT TITLE: Second Kenya Urban Support Program (KUSP II) PROJECT ID: P177048 CREDIT NO ",
+      "source": "World Bank",
+      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00467118",
+      "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명(EOI)",
+      "consortium_signal": false,
+      "traffic_survey_signal": false,
+      "first_seen": "2026-09-07"
+    },
     {
       "id": "wb-OP00466616",
       "notice_type": "Request for Expression of Interest",
