@@ -273,6 +273,12 @@ HARD_EXCLUDE_PATTERNS = [
     # 표현으로 대신 걸러낸다. "Empreitada"(포르투갈어 시공계약), "감리/발주감독"이 아니라
     # 시공사가 직접 입찰하는 계약이라 다산(설계·감리 컨설턴트) 전문영역과 무관.
     r"\bempreitada\b", r"march[ée] de travaux", r"ex[ée]cution des travaux",
+    # 상하수도 등 공공서비스 위탁운영(민간사업자/오퍼레이터 선정) — 마다가스카르
+    # "Recrutement des opérateurs privés pour la Délégation de Gestion des Systèmes
+    # d'Eau Potable" 사례. 발주기관명에 "assainissement"(위생/하수) 등 INCLUDE
+    # 키워드가 있어도, 실제 업무는 설계·감리가 아니라 상수도 시스템의 위탁운영
+    # (오퍼레이터/O&M 계약)이라 다산 전문영역(엔지니어링)과 무관.
+    r"d[ée]l[ée]gation de gestion",
     r"obras? de construcci[óo]n", r"ejecuci[óo]n de obras",
     # 학교/유치원 등 건축(architecture) 분야 건물 신축·보강·재건축 설계 및 감리
     # (관개/도로/댐 등 토목이 아니라 건축 분야라 기존 public buildings 하드제외와 같은 이유)
@@ -401,6 +407,10 @@ EXCLUDE_PATTERNS = [
     r"\bAI\b", r"artificial intelligence", r"인공지능", r"intelligence artificielle", r"intelig[êe]ncia artificial",
     r"software development", r"소프트웨어",
     r"\bIT\b system", r"digital platform",
+    # "digital platform"의 프랑스어 표현 — 콩고 HISWACA "plateforme numérique de suivi
+    # évaluation du projet"(사업 모니터링·평가 디지털 플랫폼) 사례. 설계·감리가
+    # 아니라 IT 플랫폼 구축 용역이라 다산 전문영역과 무관.
+    r"plateforme num[ée]rique",
     # 문서보관/기록물 디지털화 진단·전략수립 용역 — 브라질 Progestão Alagoas
     # "diagnóstico arquivístico... digitalização dos registros funcionais" 사례.
     # 설계·감리가 아니라 행정기록물 관리·디지털화 자문이라 다산 전문영역과 무관.
