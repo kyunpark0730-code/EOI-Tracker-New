@@ -449,6 +449,10 @@ EXCLUDE_PATTERNS = [
     # 담당하는 NGO 용역이라 다산 전문영역과 무관.
     r"ing[ée]nierie sociale", r"recrutement d[\'’]?une ong",
     r"agricultur(e|al) value chain", r"농업 가치사슬",
+    # 농산물 공급망 품질·안전 연구 용역 — 중국 광둥성 "Research topic on Quality and
+    # Safety of Agricultural Supply Chains" 사례. 설계·감리가 아니라 식품안전/공급망
+    # 품질 연구라 다산 전문영역과 무관.
+    r"food safety", r"agricultural (product )?supply chain",
     # 사회안전망/현금성 지원 프로그램 평가·설계 (사회보호 정책 분야, 토목 아님)
     r"social safety net", r"filets? sociaux", r"cash transfer", r"transferts? mon[ée]taires?",
     r"safety net program", r"social protection (system|program)",
