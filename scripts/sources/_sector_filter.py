@@ -411,6 +411,11 @@ EXCLUDE_PATTERNS = [
     r"financial inclusion", r"private sector development",
     r"investment facilitation", r"investor engagement", r"investment package",
     r"project teaser",
+    # 지자체 투자유치 패키지 준비/투자readiness 지원 — 케냐 KUSP II "Municipal
+    # Investment Opportunity Packages and Investment Readiness Support" 사례.
+    # "investment package"와 어순이 달라 기존 패턴이 못 잡던 케이스. 설계·감리가
+    # 아니라 지자체 투자유치 재무자문이라 다산 전문영역과 무관.
+    r"investment opportunity packages?", r"investment readiness",
     # 위 "business development services"/"private sector development"(중소기업
     # 역량강화·일자리창출)의 스페인어 표현 — 엘살바도르 BANDESAL "MIPYME(중소기업)
     # 역량강화를 통한 일자리창출 기회 진단" 사례. 토목(관개/도로/댐)이 아니라
