@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-07T01:41:49.583487+00:00",
-  "today_kst": "2026-09-07",
+  "generated_at": "2026-09-07T23:30:29.934531+00:00",
+  "today_kst": "2026-09-08",
   "sources": [
-    "World Bank 600건",
+    "World Bank 604건",
     "한국건설엔지니어링협회 2건",
     "ADB 0건",
-    "나라장터(G2B) 26건",
+    "나라장터(G2B) 28건",
     "해외건설협회(ICAK) 2건",
     "EIB 43건",
     "KIND 2건",
@@ -13,23 +13,23 @@
   ],
   "source_status": {
     "World Bank": {
-      "last_success": "2026-09-07",
+      "last_success": "2026-09-08",
       "consecutive_failures": 0
     },
     "한국건설엔지니어링협회": {
-      "last_success": "2026-09-07",
+      "last_success": "2026-09-08",
       "consecutive_failures": 0
     },
     "ADB": {
       "last_success": "알 수 없음",
-      "consecutive_failures": 139
+      "consecutive_failures": 140
     },
     "나라장터(G2B)": {
-      "last_success": "2026-09-07",
+      "last_success": "2026-09-08",
       "consecutive_failures": 0
     },
     "해외건설협회(ICAK)": {
-      "last_success": "2026-09-07",
+      "last_success": "2026-09-08",
       "consecutive_failures": 0
     },
     "EIB": {
@@ -37,17 +37,59 @@
       "consecutive_failures": 0
     },
     "KIND": {
-      "last_success": "2026-09-07",
+      "last_success": "2026-09-08",
       "consecutive_failures": 0
     },
     "AIIB": {
-      "last_success": "2026-09-07",
+      "last_success": "2026-09-08",
       "consecutive_failures": 0
     }
   },
-  "count": 81,
-  "new_today_count": 0,
+  "count": 85,
+  "new_today_count": 4,
   "notices": [
+    {
+      "id": "wb-OP00467190",
+      "notice_type": "Request for Expression of Interest",
+      "notice_date": "06-Sep-2026",
+      "submission_date": "2026-09-21T00:00:00Z",
+      "country": "Cameroon",
+      "project_id": "P178207",
+      "project_name": "Enhancing Connectivity and Resilience in the Far North of Cameroon for Inclusiveness Project",
+      "bid_reference_no": "CM-MINEPAT-567071-CS-QCBS",
+      "bid_description": "Mise en œuvre de la Stratégie pour la Promotion de l’Entrepreneuriat Agricole Féminin dans les communes de Mora et Waza",
+      "procurement_method": "Quality And Cost-Based Selection",
+      "procurement_group": "CS",
+      "summary": "REPUBLIQUE DU CAMEROUN Paix- Travail- Patrie ---------- MINISTERE DE L&rsquo;ECONOMIE, DE LA PLANIFICATION ET DE L&rsquo;AMENAGEMENT DU TERRITOIRE ---------- PROGRAMME SPECIAL DE RECONSTRUCTION ET DE DEVELOPPEMENT DE LA REGION DE L&rsquo;EXTR&Ecirc;ME-NORD ---------- PROJET D&rsquo;AMELIORATION DE LA CONNECTIVITE, LA RESILIENCE ET L&rsquo;INCLUSION LE LONG DU CORRIDOR MORA-DABANGA-KOUSSERI (PACRI-MDK) ----------- UNITE DE COORDINATION ---------- REPUBLIC OF CAMEROON Peace-Work-Fatherland -------",
+      "source": "World Bank",
+      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00467190",
+      "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명(EOI)",
+      "consortium_signal": false,
+      "traffic_survey_signal": false,
+      "first_seen": "2026-09-08"
+    },
+    {
+      "id": "wb-OP00467188",
+      "notice_type": "Request for Expression of Interest",
+      "notice_date": "06-Sep-2026",
+      "submission_date": "2026-09-21T00:00:00Z",
+      "country": "Cameroon",
+      "project_id": "P178207",
+      "project_name": "Enhancing Connectivity and Resilience in the Far North of Cameroon for Inclusiveness Project",
+      "bid_reference_no": "CM-MINEPAT-567042-CS-QCBS",
+      "bid_description": "Mise en œuvre de la Stratégie pour la Promotion de l’Entrepreneuriat Agricole Féminin dans les arrondissements de Makary, Logone birni et Waza pour le PACRI-MDK",
+      "procurement_method": "Quality And Cost-Based Selection",
+      "procurement_group": "CS",
+      "summary": "REPUBLIQUE DU CAMEROUN Paix- Travail- Patrie ---------- MINISTERE DE L&rsquo;ECONOMIE, DE LA PLANIFICATION ET DE L&rsquo;AMENAGEMENT DU TERRITOIRE ---------- PROGRAMME SPECIAL DE RECONSTRUCTION ET DE DEVELOPPEMENT DE LA REGION DE L&rsquo;EXTR&Ecirc;ME-NORD ---------- PROJET D&rsquo;AMELIORATION DE LA CONNECTIVITE, LA RESILIENCE ET L&rsquo;INCLUSION LE LONG DU CORRIDOR MORA-DABANGA-KOUSSERI (PACRI-MDK) ----------- UNITE DE COORDINATION ---------- REPUBLIC OF CAMEROON Peace-Work-Fatherland -------",
+      "source": "World Bank",
+      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00467188",
+      "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명(EOI)",
+      "consortium_signal": false,
+      "traffic_survey_signal": false,
+      "first_seen": "2026-09-08"
+    },
     {
       "id": "wb-OP00459044",
       "notice_type": "Request for Expression of Interest",
@@ -842,6 +884,48 @@
       "consortium_signal": false,
       "traffic_survey_signal": false,
       "first_seen": "2026-08-30"
+    },
+    {
+      "id": "g2b-R26BK01717499-000",
+      "notice_type": "용역 입찰공고",
+      "notice_date": "2026-09-07 20:21:28",
+      "submission_date": "2026-10-01 10:00:00",
+      "country": "",
+      "project_id": "R26BK01717499",
+      "project_name": "2026년 국토교통 ODA 추적조사 평가 및 사후평가 용역",
+      "bid_reference_no": "R26BK01717499",
+      "bid_description": "해외건설협회",
+      "procurement_method": "일반경쟁",
+      "agency_tag": "",
+      "summary": "",
+      "source": "나라장터(G2B)",
+      "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01717499&bidPbancOrd=000",
+      "_source_label": "나라장터(G2B)",
+      "notice_type_normalized": "입찰공고",
+      "consortium_signal": false,
+      "traffic_survey_signal": false,
+      "first_seen": "2026-09-08"
+    },
+    {
+      "id": "g2b-R26BK01717627-000",
+      "notice_type": "용역 입찰공고",
+      "notice_date": "2026-09-07 23:48:49",
+      "submission_date": "2026-10-01 10:00:00",
+      "country": "",
+      "project_id": "R26BK01717627",
+      "project_name": "국제개발협력센터 사업DB 관리시스템 구축 사업",
+      "bid_reference_no": "R26BK01717627",
+      "bid_description": "해외건설협회",
+      "procurement_method": "제한경쟁",
+      "agency_tag": "",
+      "summary": "",
+      "source": "나라장터(G2B)",
+      "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01717627&bidPbancOrd=000",
+      "_source_label": "나라장터(G2B)",
+      "notice_type_normalized": "입찰공고",
+      "consortium_signal": false,
+      "traffic_survey_signal": false,
+      "first_seen": "2026-09-08"
     },
     {
       "id": "eib-6a8849b833a66628419c3b82",
