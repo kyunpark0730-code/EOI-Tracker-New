@@ -244,6 +244,16 @@ HARD_EXCLUDE_PATTERNS = [
     r"external auditor", r"financial audit", r"audit comptable et financier",
     r"auditeur externe", r"audit financier", r"audit des comptes",
     r"firme d[\'’]?audit", r"cabinet d[\'’]?audit",
+    # 조달감사(Procurement Audit) 용역 — 에티오피아 LLRP-II "Independent Procurement
+    # Audit" 사례. 발주기관이 "Ministry of Irrigation and Lowlands"라 INCLUDE
+    # (irrigation)에 걸려도, 실제 업무는 재무감사와 같은 성격의 조달절차 준수감사
+    # (공인회계사/조달전문가 영역)라 다산 전문영역(설계/감리)과 무관.
+    r"procurement audit",
+    # 위험지도 작성(리스크 매핑) 평가 용역 — 마다가스카르 DECIM "Évaluation des
+    # risques et cartographie des zones à risques" (에너지/ICT 인프라 섹터 리스크
+    # 평가·지도화) 사례. 설계·감리가 아니라 정성적 리스크 평가·지도화 자문이라
+    # 다산 전문영역과 무관.
+    r"cartographie des zones [àa] risques",
     # 재무제표 작성/정정(회계자문) — 기니 EDG(전력공사) "Consultant Financier"
     # 재무제표 작성 및 준비금(reserves) 오류 정정 자문 사례. 외부회계감사와
     # 마찬가지로 엔지니어링이 아니라 회계·재무 전문영역이라 다산 전문영역과 무관.
@@ -365,7 +375,7 @@ INCLUDE_PATTERNS = [
     r"drainage", r"배수", r"drenagem", r"drenaje",
     r"flood", r"홍수", r"inondation", r"inunda[çc][ãa]o", r"inundaci[óo]n",
     r"transport", r"교통", r"transporte",
-    r"hydro", r"수력",
+    r"hydro(?!carbon|carbures?)", r"수력",
     # 포르투갈어/스페인어 "canal"은 수로라는 뜻 외에 "채널"(방송/소통 채널)이라는
     # 뜻으로도 흔히 쓰여서 — 특히 "multicanal"(다채널)처럼 다른 단어에 붙어있으면
     # 단어 경계가 없어 아무데나 걸릴 위험이 있다 (앙골라 AYEOP 커뮤니케이션 전략
