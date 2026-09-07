@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-07T01:35:31.791863+00:00",
+  "generated_at": "2026-09-07T01:41:49.583487+00:00",
   "today_kst": "2026-09-07",
   "sources": [
     "World Bank 600건",
     "한국건설엔지니어링협회 2건",
     "ADB 0건",
-    "나라장터(G2B) 1건",
+    "나라장터(G2B) 26건",
     "해외건설협회(ICAK) 2건",
     "EIB 43건",
     "KIND 2건",
@@ -22,11 +22,11 @@
     },
     "ADB": {
       "last_success": "알 수 없음",
-      "consecutive_failures": 138
+      "consecutive_failures": 139
     },
     "나라장터(G2B)": {
       "last_success": "2026-09-07",
-      "consecutive_failures": 1
+      "consecutive_failures": 0
     },
     "해외건설협회(ICAK)": {
       "last_success": "2026-09-07",
@@ -45,51 +45,9 @@
       "consecutive_failures": 0
     }
   },
-  "count": 83,
+  "count": 81,
   "new_today_count": 0,
   "notices": [
-    {
-      "id": "wb-OP00466850",
-      "notice_type": "Request for Expression of Interest",
-      "notice_date": "03-Sep-2026",
-      "submission_date": "2026-09-24T00:00:00Z",
-      "country": "Western and Central Africa",
-      "project_id": "P180085",
-      "project_name": "Harmonizing and Improving Statistics in West and Central Africa - Series of Projects Two (HISWACA -",
-      "bid_reference_no": "CG-CG-HISWACA-092-F-SQC-2026",
-      "bid_description": "Recrutement d’un consultant (cabinet) pour la conception et la mise en œuvre de la plateforme numérique \nde suivi évaluation du projet",
-      "procurement_method": "Consultant Qualification  Selection",
-      "procurement_group": "CS",
-      "summary": "MINISTERE DE L&rsquo;ECONOMIE, DU PLAN REPUBLIQUE DU CONGO ET DE L&rsquo;INTEGRATION REGIONALE Unit&eacute;* Travail*Progr&egrave;s -------------------------------- ------------------- PROJET D&rsquo;HARMONISATION ET D&rsquo;AMELIORATION DES STATISTIQUES EN AFRIQUE DE L&rsquo;OUEST ET DU CENTRE - SERIE DE PROJETS N&deg;2 (HISWACA - SOP 2) ---------------------------- UNITE DE GESTION DU PROJET --------------------------------- AVIS A MANIFESTATION D&rsquo;INTER&Ecirc;TS N&deg;092/HISWACA /2026 R",
-      "source": "World Bank",
-      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00466850",
-      "_source_label": "World Bank",
-      "notice_type_normalized": "관심표명(EOI)",
-      "consortium_signal": false,
-      "traffic_survey_signal": false,
-      "first_seen": "2026-09-05"
-    },
-    {
-      "id": "wb-OP00466649",
-      "notice_type": "Request for Expression of Interest",
-      "notice_date": "03-Sep-2026",
-      "submission_date": "2026-09-24T00:00:00Z",
-      "country": "Madagascar",
-      "project_id": "P174477",
-      "project_name": "Madagascar National Water Project",
-      "bid_reference_no": "MG-MEAH-571205-CS-CQS",
-      "bid_description": "Recrutement des opérateurs privés pour la Délégation de Gestion des Systèmes d'Eau Potable dans les Centres Urbains hors Zone JIRAMA.",
-      "procurement_method": "Consultant Qualification  Selection",
-      "procurement_group": "CS",
-      "summary": "MINISTERE DE L&rsquo;EAU, DE L&rsquo;ASSAINISSEMENT ET DE L&rsquo;HYGIENE --------------------- PROJET D&rsquo;AMELIORATION DE L&rsquo;ACCES A L&rsquo;EAU POTABLE --------------------- UGP-MEAH APPEL A MANIFESTATION D&rsquo;INTERET OUVERT NATIONAL Date de lancement : 03 Septembre 2026 AMI N&deg; 11-2026/MEAH/PAAEP/AMI Nom du Projet : Projet d&rsquo;Am&eacute;lioration de l&rsquo;Acc&egrave;s &agrave; l&rsquo;Eau Potable Cr&eacute;dit IDA N&deg;71210 R&eacute;f. STEP : MG-MEAH-571205-CS-CQS Intit",
-      "source": "World Bank",
-      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00466649",
-      "_source_label": "World Bank",
-      "notice_type_normalized": "관심표명(EOI)",
-      "consortium_signal": false,
-      "traffic_survey_signal": false,
-      "first_seen": "2026-09-05"
-    },
     {
       "id": "wb-OP00459044",
       "notice_type": "Request for Expression of Interest",
