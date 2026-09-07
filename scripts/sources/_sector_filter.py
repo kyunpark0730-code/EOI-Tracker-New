@@ -233,6 +233,12 @@ HARD_EXCLUDE_PATTERNS = [
     # 아니라 사업 시작 전 현황조사(설문)만 단독으로 발주된 M&E 성격 용역이라
     # 다산 전문영역과 무관 (환경/생물다양성 기초조사는 이미 별도 패턴으로 처리됨).
     r"\bbaseline survey\b",
+    # 가계생활실태 통계조사(Household Budget Survey/Survey of Living Conditions) —
+    # OECS 그레나다 "Survey of Living Conditions and Household Budget Survey
+    # (SLC-HBS)" 사례. 설계·감리가 아니라 통계청 성격의 사회조사 용역이라 다산
+    # 전문영역과 무관.
+    r"household budget survey", r"survey of living conditions",
+    r"living conditions survey",
     # 재무제표 감사(외부회계감사) 용역 - 관개/도로 등 인프라 사업 산하 공고라 INCLUDE에
     # 걸려도, 실제 업무는 회계·재무감사 전문용역(공인회계사)이라 다산 전문영역과 다름
     r"external auditor", r"financial audit", r"audit comptable et financier",
