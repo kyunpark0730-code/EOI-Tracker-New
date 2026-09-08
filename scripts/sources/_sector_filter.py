@@ -200,6 +200,12 @@ HARD_EXCLUDE_PATTERNS = [
     # contrôle technique"/"construction supervision" 등 INCLUDE 키워드가 있어도,
     # 관개/도로/댐/교량이 아니라 철도 분야라 다산 전문영역과 무관.
     r"chemin de fer", r"\brailway", r"ferrovi[áa]ri[ao]", r"ferrocarril", r"철도",
+    # 전자지갑/디지털결제 플랫폼 개발 — 카리브해 세인트루시아 "Secure Wallet with
+    # Digital Payment and Integration Solutions" 사례. 소프트 제외 패턴("digital
+    # transformation")이 실제 운영에서 다른 배경설명 문구의 INCLUDE 매칭에 덮어써지는
+    # 것이 확인되어, 확실히 걸러지도록 하드 제외로 승격한다. 설계·감리가 아니라 IT
+    # 핀테크 플랫폼 개발 용역이라 다산 전문영역과 무관.
+    r"secure wallet", r"digital payment (and|&) integration",
     # 기상관측장비망(번개감지·기상레이더·기상관측소 등) 구축 타당성조사 — 잠비아
     # TRALARD II "National Lightning Detection Network"/"National Weather Radar
     # Network"/"Meteorological Calibration Facility" 사례. "feasibility study"라는
@@ -428,6 +434,10 @@ EXCLUDE_PATTERNS = [
     # 청소년/여성 역량강화, 교육·사회개발 프로그램 (교육/사회분야 전반)
     r"adolescent", r"youth empowerment", r"youth opportunit", r"girls[’']?\s*(initiative|education|empowerment)",
     r"women['’]?s empowerment", r"skills? training program", r"business development services",
+    # 소득창출활동(AGR) 촉진 파트너 모집 — 콩고민주공화국 STAR-RDC "Partenaire
+    # facilitateur pour les Activités Génératrices de Recettes (AGR)" 사례. 설계·
+    # 감리가 아니라 지역주민 소득창출·생계지원 프로그램 운영이라 다산 전문영역과 무관.
+    r"activit[ée]s g[ée]n[ée]ratrices de recettes",
     r"life skills", r"scholarship program", r"literacy program",
     r"\bhealth\b", r"hospital", r"보건", r"의료", r"sant[ée]\b", r"sa[úu]de\b", r"salud\b",
     r"vaccin",
