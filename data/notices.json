@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-07T23:30:29.934531+00:00",
+  "generated_at": "2026-09-08T00:54:01.587865+00:00",
   "today_kst": "2026-09-08",
   "sources": [
-    "World Bank 604건",
+    "World Bank 568건",
     "한국건설엔지니어링협회 2건",
     "ADB 0건",
     "나라장터(G2B) 28건",
@@ -22,7 +22,7 @@
     },
     "ADB": {
       "last_success": "알 수 없음",
-      "consecutive_failures": 140
+      "consecutive_failures": 141
     },
     "나라장터(G2B)": {
       "last_success": "2026-09-08",
@@ -45,7 +45,7 @@
       "consecutive_failures": 0
     }
   },
-  "count": 85,
+  "count": 82,
   "new_today_count": 4,
   "notices": [
     {
@@ -89,48 +89,6 @@
       "consortium_signal": false,
       "traffic_survey_signal": false,
       "first_seen": "2026-09-08"
-    },
-    {
-      "id": "wb-OP00459044",
-      "notice_type": "Request for Expression of Interest",
-      "notice_date": "01-Sep-2026",
-      "submission_date": "2026-09-14T00:00:00Z",
-      "country": "Congo, Democratic Republic of",
-      "project_id": "P175834",
-      "project_name": "Stabilization and Recovery in Eastern DRC",
-      "bid_reference_no": "ZR-STAR EST-538179-CS-QCBS",
-      "bid_description": "Recrutement d'un Partenaire facilitateur pour les Activités Génératrices de Recettes (AGR) dans les Provinces de KWANGO, KWILU et MAINDOMBE dans le cadre de la mise en œuvre du Projet de Stabilisation et Relèvement de la de la RD Congo - Projet STAR-RDC",
-      "procurement_method": "Quality And Cost-Based Selection",
-      "procurement_group": "CS",
-      "summary": "AVIS D&rsquo;APPEL PUBLIC A MANIFESTATION D&rsquo;INTERET Titre de la mission : Recrutement d&#39;un Partenaire facilitateur pour les Activit&eacute;s G&eacute;n&eacute;ratrices de Recettes (AGR) dans les Provinces de KWANGO, KWILU et MAINDOMBE dans le cadre de la mise en &oelig;uvre du Projet de Stabilisation et Rel&egrave;vement de la de la RD Congo - Projet STAR-RDC. Date de publication : 28 ao&ucirc;t 2026 Date de cl&ocirc;ture : 14 septembre 2026 Lieu d&rsquo;intervention : Provinces de Kwi",
-      "source": "World Bank",
-      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00459044",
-      "_source_label": "World Bank",
-      "notice_type_normalized": "관심표명(EOI)",
-      "consortium_signal": false,
-      "traffic_survey_signal": false,
-      "first_seen": "2026-09-03"
-    },
-    {
-      "id": "wb-OP00464743",
-      "notice_type": "Request for Expression of Interest",
-      "notice_date": "01-Sep-2026",
-      "submission_date": "2026-09-14T00:00:00Z",
-      "country": "Caribbean",
-      "project_id": "P171528",
-      "project_name": "Caribbean Digital Transformation Project",
-      "bid_reference_no": "LC-DPS-513171-CS-QCBS",
-      "bid_description": "Consultancy for the Development of a Government of St. Lucia (GOSL) Secure Wallet with Digital Payment and Integration Solutions",
-      "procurement_method": "Quality And Cost-Based Selection",
-      "procurement_group": "CS",
-      "summary": "Project Name Caribbean Digital Transformation Project (CARDTP) Loan/Credit/Grant No. IDA Credit #6682-LC Assignment Title: Consultancy for the Development of a Government of Saint Lucia (GOSL) Secure Wallet with Digital Payment and Integration Solutions Reference No: LC-DPS-513171-CS-QCBS Country: Saint Lucia 1. Background The Government of Saint Lucia has received financing from the International Development Association (IDA) (the &ldquo;Bank&rdquo;) in the form of a Credit toward the cost of t",
-      "source": "World Bank",
-      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00464743",
-      "_source_label": "World Bank",
-      "notice_type_normalized": "관심표명(EOI)",
-      "consortium_signal": false,
-      "traffic_survey_signal": false,
-      "first_seen": "2026-08-29"
     },
     {
       "id": "wb-OP00466194",
@@ -800,27 +758,6 @@
       "consortium_signal": false,
       "traffic_survey_signal": false,
       "first_seen": "2026-08-24"
-    },
-    {
-      "id": "wb-OP00463589",
-      "notice_type": "Request for Expression of Interest",
-      "notice_date": "19-Aug-2026",
-      "submission_date": "2026-09-07T00:00:00Z",
-      "country": "Cabo Verde",
-      "project_id": "P171099",
-      "project_name": "Digital Cabo Verde Project",
-      "bid_reference_no": "124/DCVP/UGPE/2026",
-      "bid_description": "Feasibility Study and Procurement Preparation for School and Municipalities Connectivity",
-      "procurement_method": "Consultant Qualification  Selection",
-      "procurement_group": "CS",
-      "summary": "REPUBLIC OF CABO VERDE MINIST&Eacute;RIO DAS FINAN&Ccedil;AS UNIDADE DE GEST&Atilde;O DE PROJETOS ESPECIAIS REQUEST FOR EXPRESSIONS OF INTEREST (CONSULTING SERVICES &ndash; FIRM SELECTION) Country: Cabo Verde Project: Digital Cabo Verde Project ID No. P171099 Date: August 19, 2026 Notice Number: EOI - 124/DCVP/UGPE/2026 Assignment Title: Feasibility Study and Procurement Preparation for School and Municipalities Connectivity 1. The Government of the Republic of Cabo Verde has received from the I",
-      "source": "World Bank",
-      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00463589",
-      "_source_label": "World Bank",
-      "notice_type_normalized": "관심표명(EOI)",
-      "consortium_signal": false,
-      "traffic_survey_signal": false,
-      "first_seen": "2026-08-29"
     },
     {
       "id": "wb-OP00463222",
