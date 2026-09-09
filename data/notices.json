@@ -1,35 +1,35 @@
 {
-  "generated_at": "2026-09-09T03:45:52.776379+00:00",
-  "today_kst": "2026-09-09",
+  "generated_at": "2026-09-09T23:15:05.852228+00:00",
+  "today_kst": "2026-09-10",
   "sources": [
-    "World Bank 542건",
+    "World Bank 573건",
     "한국건설엔지니어링협회 2건",
     "ADB 0건",
     "나라장터(G2B) 2건",
     "해외건설협회(ICAK) 3건",
-    "EIB 200건",
+    "EIB 44건",
     "KIND 2건",
     "AIIB 9건"
   ],
   "source_status": {
     "World Bank": {
-      "last_success": "2026-09-09",
+      "last_success": "2026-09-10",
       "consecutive_failures": 0
     },
     "한국건설엔지니어링협회": {
-      "last_success": "2026-09-09",
+      "last_success": "2026-09-10",
       "consecutive_failures": 0
     },
     "ADB": {
       "last_success": "알 수 없음",
-      "consecutive_failures": 144
+      "consecutive_failures": 145
     },
     "나라장터(G2B)": {
       "last_success": "2026-09-09",
-      "consecutive_failures": 1
+      "consecutive_failures": 2
     },
     "해외건설협회(ICAK)": {
-      "last_success": "2026-09-09",
+      "last_success": "2026-09-10",
       "consecutive_failures": 0
     },
     "EIB": {
@@ -37,17 +37,122 @@
       "consecutive_failures": 0
     },
     "KIND": {
-      "last_success": "2026-09-09",
+      "last_success": "2026-09-10",
       "consecutive_failures": 0
     },
     "AIIB": {
-      "last_success": "2026-09-09",
+      "last_success": "2026-09-10",
       "consecutive_failures": 0
     }
   },
-  "count": 80,
-  "new_today_count": 24,
+  "count": 84,
+  "new_today_count": 4,
   "notices": [
+    {
+      "id": "wb-OP00463263",
+      "notice_type": "Request for Expression of Interest",
+      "notice_date": "08-Sep-2026",
+      "submission_date": "2026-09-10T00:00:00Z",
+      "country": "Western and Central Africa",
+      "project_id": "P169594",
+      "project_name": "West Africa Unique Identification for Regional Integration and Inclusion - Phase 2",
+      "bid_reference_no": "TG-WURI - TOGO-564669-CS-QCBS",
+      "bid_description": "Recrutement d'un consultant (firme) pour l'élaboration du plan stratégique 2027-2029 assortie d’un business model de l'ANID",
+      "procurement_method": "Quality And Cost-Based Selection",
+      "procurement_group": "CS",
+      "summary": "MINISTERE DE L&rsquo;EFFICACITE DU SERVICE PUBLIC REPUBLIQUE TOGOLAISE ET DE LA TRANSFORMATION NUMERIQUE Travail-Libert&eacute; Patrie ______ -------- C A B I N E T &hellip;&hellip;&hellip;&hellip;. WURI-TOGO SUSPENSION PROVISOIRE DE l&rsquo;AVIS D&rsquo;APPEL A MANIFESTATION D&rsquo;INTER&Ecirc;T POUR LE RECRUTEMENT D&rsquo;UN CABINET POUR L&rsquo;ELABORATION DU PLAN STRATEGIQUE 2027 &ndash; 2031 DE L&rsquo;ANID ASSORTI D&rsquo;UN PLAN DE SUIVI-EVALUATION, D&rsquo;UN PLAN DE RENFORCEMENT DE CAP",
+      "source": "World Bank",
+      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00463263",
+      "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명(EOI)",
+      "consortium_signal": false,
+      "traffic_survey_signal": false,
+      "first_seen": "2026-08-26"
+    },
+    {
+      "id": "wb-OP00467556",
+      "notice_type": "Request for Expression of Interest",
+      "notice_date": "08-Sep-2026",
+      "submission_date": "2026-09-10T00:00:00Z",
+      "country": "India",
+      "project_id": "P170811",
+      "project_name": "Punjab Municipal Services Improvement Project",
+      "bid_reference_no": "IN-PMIDC-545132-CS-LCS",
+      "bid_description": "Direct RFP for Consultancy Services for Hiring a Firm for External Auditing at PMU, PIUs & Water Utilities at Ludhiana and Amritsar (For FY 2025-26 and 2026-27)",
+      "procurement_method": "Least Cost Selection",
+      "procurement_group": "CS",
+      "summary": "Specific Procurement Notice Name of Assignment: Consultancy Services for Hiring a Firm for External Auditing at PMU, PIUs &amp; Water Utilities at Ludhiana and Amritsar RFP Reference No.: IN-PMIDC-545132-CS-LCS Loan No. 9226-IN Location and Date: Chandigarh, 25.04.2026 Dear Mr. /Ms.: (through e-bidding website : - https://eproc.punjab.gov.in ) The Government of Punjab through Government of India (hereinafter called&rdquo; Borrower&rdquo;) has received financing from the International Bank for Re",
+      "source": "World Bank",
+      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00467556",
+      "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명(EOI)",
+      "consortium_signal": false,
+      "traffic_survey_signal": false,
+      "first_seen": "2026-09-10"
+    },
+    {
+      "id": "wb-OP00467559",
+      "notice_type": "Request for Expression of Interest",
+      "notice_date": "08-Sep-2026",
+      "submission_date": "2026-09-22T00:00:00Z",
+      "country": "Ethiopia",
+      "project_id": "P171742",
+      "project_name": "Access to Distributed Electricity and Lighting in Ethiopia (ADELE)",
+      "bid_reference_no": "ET-DBE-571276-CS-QCBS",
+      "bid_description": "Consultancy Services for the Design and Establishment of a Wholesale (Apex) Development Finance Framework",
+      "procurement_method": "Quality And Cost-Based Selection",
+      "procurement_group": "CS",
+      "summary": "REQUEST FOR EXPRESSIONS OF INTEREST (CONSULTING SERVICES &ndash; FIRMS SELECTION) FEDERAL DEMOCRATIC REPUBLIC OF ETHIOPIA ADELE PROJECT (P171742) Credit No.: IDA 68570 Assignment Title: Consultancy Services for the Design and Establishment of a Wholesale (Apex) Development Finance Framework Reference No. ET-DBE-571276-CS-QCBS The Federal Democratic Republic of Ethiopia has received World Bank financing for the Access to Distributed Electricity and Lighting in Ethiopia (ADELE) Project. It intends",
+      "source": "World Bank",
+      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00467559",
+      "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명(EOI)",
+      "consortium_signal": false,
+      "traffic_survey_signal": false,
+      "first_seen": "2026-09-10"
+    },
+    {
+      "id": "wb-OP00467591",
+      "notice_type": "Request for Expression of Interest",
+      "notice_date": "08-Sep-2026",
+      "submission_date": "2026-09-23T00:00:00Z",
+      "country": "Senegal",
+      "project_id": "P175830",
+      "project_name": "Stormwater Management and Climate Change Adaptation Project 2",
+      "bid_reference_no": "SN-ADM-523749-CS-QCBS",
+      "bid_description": "Elaboration de Plans intercommunaux d’Urbanisme (PCUI) – Plans de Gestion des Risques d’Inondation (PGRI) - Pans Directeurs de Drainage (PDD) pour les départements de Pikine et Guédiawaye (en deux missions)",
+      "procurement_method": "Quality And Cost-Based Selection",
+      "procurement_group": "CS",
+      "summary": "REPUBLIQUE DU SENEGAL Un Peuple &ndash; Un But &ndash; Une Foi MINIST&Egrave;RE DE L&rsquo;URBANISME, DES COLLECTIVIT&Eacute;S TERRITORIALES, ET DE L&#39;AM&Eacute;NAGEMENT DES TERRITOIRES DEUXI&Eacute;ME PHASE DU PROJET DE GESTION DES EAUX PLUVIALES ET D&rsquo;ADAPTATION AU CHANGEMENT CLIMATIQUES (PROGEP 2) AVIS A MANIFESTATION D&rsquo;INTERET N&deg;01/26/PROGEPII/ADM/IDA Pour la r&eacute;vision des Plans Intercommunaux d&rsquo;Urbanisme (PCUI) &ndash; Plans de Gestion des Risques d&rsquo;Inond",
+      "source": "World Bank",
+      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00467591",
+      "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명(EOI)",
+      "consortium_signal": false,
+      "traffic_survey_signal": false,
+      "first_seen": "2026-09-10"
+    },
+    {
+      "id": "wb-OP00467538",
+      "notice_type": "Request for Expression of Interest",
+      "notice_date": "08-Sep-2026",
+      "submission_date": "2026-09-24T00:00:00Z",
+      "country": "Pakistan",
+      "project_id": "P170230",
+      "project_name": "Electricity Distribution Efficiency Improvement Project",
+      "bid_reference_no": "PK-MOE-571059-CS-CQS-DIGITAL-SOCIAL",
+      "bid_description": "Procurement of Digital & Social Media Solutions Firm",
+      "procurement_method": "Consultant Qualification  Selection",
+      "procurement_group": "CS",
+      "summary": "GOVERNMENT OF PAKISTAN MINISTRY OF ENERGY (POWER DIVISION) Project Implementation Unit &mdash; Electricity Distribution Efficiency Improvement Project (EDEIP) REQUEST FOR EXPRESSIONS OF INTEREST (REOI) Digital &amp; Social Media Solutions Firm PK-MOE-571059-CS-CQS-DIGITAL-SOCIAL The Ministry of Energy (Power Division) is implementing Electricity Distribution Efficiency Improvement Project (EDEIP) with financial assistance of the World Bank under IBRD:93180 aims to achieve affordable electricity,",
+      "source": "World Bank",
+      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00467538",
+      "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명(EOI)",
+      "consortium_signal": false,
+      "traffic_survey_signal": false,
+      "first_seen": "2026-09-10"
+    },
     {
       "id": "wb-OP00467190",
       "notice_type": "Request for Expression of Interest",
@@ -607,27 +712,6 @@
       "summary": "Ministry of Transport and Aviation Connectivity and Agricultural Market Infrastructure Project 7th Floor Youyi Building Freetown Sierra Leone REQUEST FOR EXPRESSIONS OF INTEREST (Consulting Services &ndash; Firm Selection) Date of Issue: 25th August, 2026. Country: Republic of Sierra Leone. Name of Project : Connectivity &amp; Agricultural Market Infrastructure Project (CAMIP) Assignment Title: Consultancy Service for a Gender Based Violence (GBV), Sexual Exploitation, Abuse and Sexual Harassmen",
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00464407",
-      "_source_label": "World Bank",
-      "notice_type_normalized": "관심표명(EOI)",
-      "consortium_signal": false,
-      "traffic_survey_signal": false,
-      "first_seen": "2026-08-26"
-    },
-    {
-      "id": "wb-OP00463263",
-      "notice_type": "Request for Expression of Interest",
-      "notice_date": "24-Aug-2026",
-      "submission_date": "2026-09-10T00:00:00Z",
-      "country": "Western and Central Africa",
-      "project_id": "P169594",
-      "project_name": "West Africa Unique Identification for Regional Integration and Inclusion - Phase 2",
-      "bid_reference_no": "TG-WURI - TOGO-564669-CS-QCBS",
-      "bid_description": "Recrutement d'un consultant (firme) pour l'élaboration du plan stratégique 2027-2029 assortie d’un business model de l'ANID",
-      "procurement_method": "Quality And Cost-Based Selection",
-      "procurement_group": "CS",
-      "summary": "MINISTERE DE L&rsquo;EFFICACITE DU SERVICE PUBLIC REPUBLIQUE TOGOLAISE ET DE LA TRANSFORMATION NUMERIQUE Travail-Libert&eacute; Patrie ______ -------- C A B I N E T &hellip;&hellip;&hellip;&hellip;. WURI-TOGO AVIS D&rsquo;APPEL A MANIFESTATION D&rsquo;INTER&Ecirc;T POUR LE RECRUTEMENT D&rsquo;UN CABINET POUR L&rsquo;ELABORATION DU PLAN STRATEGIQUE 2027 &ndash; 2031 DE L&rsquo;ANID ASSORTI D&rsquo;UN PLAN DE SUIVI-EVALUATION, D&rsquo;UN PLAN DE RENFORCEMENT DE CAPACITES ET D&rsquo;UN MODELE ECONO",
-      "source": "World Bank",
-      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00463263",
       "_source_label": "World Bank",
       "notice_type_normalized": "관심표명(EOI)",
       "consortium_signal": false,
