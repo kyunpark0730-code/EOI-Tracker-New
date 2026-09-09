@@ -249,6 +249,10 @@ HARD_EXCLUDE_PATTERNS = [
     # 걸려도, 실제 업무는 회계·재무감사 전문용역(공인회계사)이라 다산 전문영역과 다름
     r"external auditor", r"financial audit", r"audit comptable et financier",
     r"auditeur externe", r"audit financier", r"audit des comptes",
+    # 디지털 결제수단 효율성 감사 — 베냉 PGEDS "audit de l'efficacité des instruments
+    # de paiement numérisé exploité par le trésor public" 사례. 설계·감리가 아니라
+    # 재무부 디지털 결제시스템 효율성 감사(IT/재무 감사)라 다산 전문영역과 무관.
+    r"instruments? de paiement num[ée]ris[ée]",
     r"firme d[\'’]?audit", r"cabinet d[\'’]?audit",
     # 조달감사(Procurement Audit) 용역 — 에티오피아 LLRP-II "Independent Procurement
     # Audit" 사례. 발주기관이 "Ministry of Irrigation and Lowlands"라 INCLUDE
@@ -296,6 +300,11 @@ HARD_EXCLUDE_PATTERNS = [
     # 이유로 토목(관개/도로/댐)이 아니라 건축(특수 실험시설) 분야라 다산 전문영역과
     # 무관.
     r"reference laboratory", r"laboratory building",
+    # 위 실험실/연구소 건물의 "건설/공사감리" 표현 — 에티오피아 식량시스템회복력 사업
+    # "Supervision and Contract administration of ... National laboratory
+    # construction" 사례. "construction supervision" 성격의 INCLUDE 문구가 있어도
+    # 대상 자체가 실험실 건물(건축)이라 위와 같은 이유로 다산 전문영역과 무관.
+    r"national laboratory construction", r"laboratory construction",
     # 위와 같은 실험실/연구소 건물의 프랑스어 표현 — 니제르 PISEN 사업 "Laboratoire
     # National de Qualité de l'Eau"(국립 수질검사연구소) 신축 설계(APS/APD)·시공감리
     # 사례. "études techniques"/"suivi contrôle des travaux" 등 INCLUDE 키워드가
@@ -485,6 +494,15 @@ EXCLUDE_PATTERNS = [
     # 담당하는 NGO 용역이라 다산 전문영역과 무관.
     r"ing[ée]nierie sociale", r"recrutement d[\'’]?une ong",
     r"agricultur(e|al) value chain", r"농업 가치사슬",
+    # 인도네시아 "Local Service Delivery Improvement Project"(P512328) — 폐기물
+    # (solid waste) 관리·서비스 전담 사업으로, 관개/도로/수자원/댐/교량과 무관.
+    # 공고 문구 자체(NMC/CPMU/PIU 기술지원 등)엔 분야를 알 수 있는 키워드가 전혀
+    # 없어서 사업명으로 직접 잡는다.
+    r"local service delivery improvement",
+    # 여성 농업 창업 촉진 전략 이행 — 카메룬 PACRI-MDK "Stratégie pour la Promotion
+    # de l'Entrepreneuriat Agricole Féminin" 사례. 설계·감리가 아니라 여성 농업창업
+    # 지원 프로그램이라 다산 전문영역과 무관.
+    r"entrepreneuriat agricole f[ée]minin",
     # 농산물 공급망 품질·안전 연구 용역 — 중국 광둥성 "Research topic on Quality and
     # Safety of Agricultural Supply Chains" 사례. 설계·감리가 아니라 식품안전/공급망
     # 품질 연구라 다산 전문영역과 무관.
