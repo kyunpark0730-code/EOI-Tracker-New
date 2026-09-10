@@ -1,35 +1,35 @@
 {
-  "generated_at": "2026-09-09T23:15:05.852228+00:00",
-  "today_kst": "2026-09-10",
+  "generated_at": "2026-09-10T23:11:01.260763+00:00",
+  "today_kst": "2026-09-11",
   "sources": [
-    "World Bank 573건",
+    "World Bank 587건",
     "한국건설엔지니어링협회 2건",
     "ADB 0건",
     "나라장터(G2B) 2건",
     "해외건설협회(ICAK) 3건",
     "EIB 44건",
     "KIND 2건",
-    "AIIB 9건"
+    "AIIB 7건"
   ],
   "source_status": {
     "World Bank": {
-      "last_success": "2026-09-10",
+      "last_success": "2026-09-11",
       "consecutive_failures": 0
     },
     "한국건설엔지니어링협회": {
-      "last_success": "2026-09-10",
+      "last_success": "2026-09-11",
       "consecutive_failures": 0
     },
     "ADB": {
       "last_success": "알 수 없음",
-      "consecutive_failures": 145
+      "consecutive_failures": 146
     },
     "나라장터(G2B)": {
       "last_success": "2026-09-09",
-      "consecutive_failures": 2
+      "consecutive_failures": 3
     },
     "해외건설협회(ICAK)": {
-      "last_success": "2026-09-10",
+      "last_success": "2026-09-11",
       "consecutive_failures": 0
     },
     "EIB": {
@@ -37,17 +37,59 @@
       "consecutive_failures": 0
     },
     "KIND": {
-      "last_success": "2026-09-10",
+      "last_success": "2026-09-11",
       "consecutive_failures": 0
     },
     "AIIB": {
-      "last_success": "2026-09-10",
+      "last_success": "2026-09-11",
       "consecutive_failures": 0
     }
   },
-  "count": 84,
-  "new_today_count": 4,
+  "count": 82,
+  "new_today_count": 2,
   "notices": [
+    {
+      "id": "wb-OP00467939",
+      "notice_type": "Request for Expression of Interest",
+      "notice_date": "09-Sep-2026",
+      "submission_date": "2026-09-18T00:00:00Z",
+      "country": "Ecuador",
+      "project_id": "P181079",
+      "project_name": "Ecuador: Emergency Resilient Reconstruction Project",
+      "bid_reference_no": "EC-MTOP-555810-CS-QCBS",
+      "bid_description": "Consultoría de Apoyo al Marco Ambiental y Social",
+      "procurement_method": "Quality And Cost-Based Selection",
+      "procurement_group": "CS",
+      "summary": "REP&Uacute;BLICA DEL ECUADOR Ministerio de Infraestructura y Tecnolog&iacute;a - MIT PROYECTO DE RECONSTRUCCI&Oacute;N RESILIENTE DE EMERGENCIA Contrato de Pr&eacute;stamo BIRF 9555 - EC SOLICITUD DE EXPRESIONES DE INTER&Eacute;S DE LA CONSULTOR&Iacute;A DE APOYO AL MARCO AMBIENTAL Y SOCIAL REFERENCIA: EC-MTOP-555810-CS-QCBS 09-septiembre-2026 La Rep&uacute;blica del Ecuador ha recibido un Pr&eacute;stamo del Banco Mundial para el financiamiento del &ldquo;Proyecto de Reconstrucci&oacute;n Resil",
+      "source": "World Bank",
+      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00467939",
+      "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명(EOI)",
+      "consortium_signal": false,
+      "traffic_survey_signal": false,
+      "first_seen": "2026-09-11"
+    },
+    {
+      "id": "wb-OP00467877",
+      "notice_type": "Request for Expression of Interest",
+      "notice_date": "09-Sep-2026",
+      "submission_date": "2026-09-28T00:00:00Z",
+      "country": "Burundi",
+      "project_id": "P177146",
+      "project_name": "Urban Resilience Emergency Project",
+      "bid_reference_no": "BI-MIELS-PIU-571282-CS-QCBS",
+      "bid_description": "ÉTUDES D’IMPACT ENVIRONNEMENTAL ET SOCIAL (EIES) DES INFRASTRUCTURES À FAIBLE REGRET Et AUDIT ENVIRONNEMENTAL ET SOCIAL DU MUR EN GABION ET DES TRAVAUX D’AMÉNAGEMENT ET DE RÉHABILITATION DE LA STATION DE POMPAGE D’EAU DE LA RÉGIDESO",
+      "procurement_method": "Quality And Cost-Based Selection",
+      "procurement_group": "CS",
+      "summary": "APPEL A MANIFESTATION D&#39;INTERETS (SERVICES DE CONSULTANTS : SELECTION DE FIRMES/CABINETS) Pays : R&eacute;publique du Burundi Nom du Projet : Projet d&rsquo;Urgence sur la R&eacute;silience Urbaine (PRU) Num&eacute;ro de Don : IDA N&ordm; E3520 N&deg; du projet : P177146 Titre de la mission Termes de r&eacute;f&eacute;rence pour le recrutement d&rsquo;un cabinet/firme pour l&rsquo;&eacute;laboration des &eacute;tudes d&rsquo;impact environnemental et social ( EIES) des infrastructures &agrav",
+      "source": "World Bank",
+      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00467877",
+      "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명(EOI)",
+      "consortium_signal": false,
+      "traffic_survey_signal": false,
+      "first_seen": "2026-09-11"
+    },
     {
       "id": "wb-OP00463263",
       "notice_type": "Request for Expression of Interest",
@@ -510,26 +552,6 @@
       "first_seen": "2026-08-29"
     },
     {
-      "id": "aiib-https://www.aiib.org/en/opportunities/business/project-procurement/_download/nepal/Request-for-Expression-of-Interest-REOI_-Siddhartha-Highway-Butwal-Pokhara-Section-Improvement-Project.pdf",
-      "notice_type": "Request for Expression of Interest",
-      "notice_date": "Aug 27, 2026",
-      "submission_date": "",
-      "country": "nepal",
-      "project_id": "",
-      "project_name": "Nepal Project: Siddartha Highway (Butwal-Pokhara Section) Improvement Project",
-      "bid_reference_no": "",
-      "bid_description": "",
-      "procurement_method": "",
-      "summary": "",
-      "source": "AIIB",
-      "source_url": "https://www.aiib.org/en/opportunities/business/project-procurement/_download/nepal/Request-for-Expression-of-Interest-REOI_-Siddhartha-Highway-Butwal-Pokhara-Section-Improvement-Project.pdf",
-      "_source_label": "AIIB",
-      "notice_type_normalized": "관심표명(EOI)",
-      "consortium_signal": false,
-      "traffic_survey_signal": false,
-      "first_seen": "2026-08-27"
-    },
-    {
       "id": "wb-OP00462198",
       "notice_type": "Request for Expression of Interest",
       "notice_date": "26-Aug-2026",
@@ -677,48 +699,6 @@
       "first_seen": "2026-09-09"
     },
     {
-      "id": "wb-OP00462105",
-      "notice_type": "Request for Expression of Interest",
-      "notice_date": "24-Aug-2026",
-      "submission_date": "2026-09-09T00:00:00Z",
-      "country": "Congo, Democratic Republic of",
-      "project_id": "P508410",
-      "project_name": "DRC Urban Flood Resilience Project",
-      "bid_reference_no": "ZR-PRIUR-502972-CS-QCBS",
-      "bid_description": "Recrutement d'un consultant (firme) chargé de contrôle et surveillance des travaux de réhabilitation des voiries et collecteurs de plateau de Kisenso",
-      "procurement_method": "Quality And Cost-Based Selection",
-      "procurement_group": "CS",
-      "summary": "APPEL A MANIFESTATIONS D&rsquo;INTERET N&deg;045/MITP/CI/PRIUR/2026 (SERVICES CONSULTANT &ndash; ACCORD CADRE &ndash; SELECTION DE FIRMES) REPUBLIQUE DEMOCRATIQUE DU CONGO PROJET DE RESILIENCE AUX INONDATIONS URBAINES EN REPUBLIQUE DEMOCRATIQUE DU CONGO &laquo; PRIUR &raquo; N &deg; de Pr&ecirc;t/cr&eacute;dit/Don : IDA- D78030 Recrutement d&#39;un consultant (firme) charg&eacute; de contr&ocirc;le et surveillance des travaux de r&eacute;habilitation des voiries et collecteurs de plateau de Kise",
-      "source": "World Bank",
-      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00462105",
-      "_source_label": "World Bank",
-      "notice_type_normalized": "관심표명(EOI)",
-      "consortium_signal": false,
-      "traffic_survey_signal": false,
-      "first_seen": "2026-08-26"
-    },
-    {
-      "id": "wb-OP00464407",
-      "notice_type": "Request for Expression of Interest",
-      "notice_date": "24-Aug-2026",
-      "submission_date": "2026-09-09T00:00:00Z",
-      "country": "Sierra Leone",
-      "project_id": "P178683",
-      "project_name": "Sierra Leone Connectivity and Agricultural Market Infrastructure Project",
-      "bid_reference_no": "SL-MTA - TIDU-559617-CS-CQS",
-      "bid_description": "Recruitment of a Service Provider for GBV/SEA/SH for Project Implementation",
-      "procurement_method": "Consultant Qualification  Selection",
-      "procurement_group": "CS",
-      "summary": "Ministry of Transport and Aviation Connectivity and Agricultural Market Infrastructure Project 7th Floor Youyi Building Freetown Sierra Leone REQUEST FOR EXPRESSIONS OF INTEREST (Consulting Services &ndash; Firm Selection) Date of Issue: 25th August, 2026. Country: Republic of Sierra Leone. Name of Project : Connectivity &amp; Agricultural Market Infrastructure Project (CAMIP) Assignment Title: Consultancy Service for a Gender Based Violence (GBV), Sexual Exploitation, Abuse and Sexual Harassmen",
-      "source": "World Bank",
-      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00464407",
-      "_source_label": "World Bank",
-      "notice_type_normalized": "관심표명(EOI)",
-      "consortium_signal": false,
-      "traffic_survey_signal": false,
-      "first_seen": "2026-08-26"
-    },
-    {
       "id": "wb-OP00462607",
       "notice_type": "Request for Expression of Interest",
       "notice_date": "24-Aug-2026",
@@ -796,27 +776,6 @@
       "summary": "The Kingdom of Eswatini Ministry of Natural Resources and Energy Request for Expression of Interest (REOI) Consultancy Services for the Development of a National Clean Cooking Transition Strategy and Costed Implementation PlaN UNDER THE Accelerating Sustainable and Clean Energy Access Transformation in Eswatini (ASCENT-ESWATINI) Project ID No: P508960 Request for Expression of Interest (REOI) Eswatini Electricity Company (EEC) (Government of the Kingdom of Eswatini) Consultancy Services for the ",
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00463222",
-      "_source_label": "World Bank",
-      "notice_type_normalized": "관심표명(EOI)",
-      "consortium_signal": false,
-      "traffic_survey_signal": false,
-      "first_seen": "2026-08-29"
-    },
-    {
-      "id": "wb-OP00461930",
-      "notice_type": "Request for Expression of Interest",
-      "notice_date": "13-Aug-2026",
-      "submission_date": "2026-09-09T00:00:00Z",
-      "country": "Mozambique",
-      "project_id": "P500488",
-      "project_name": "Climate Resilient Roads for the North Project",
-      "bid_reference_no": "47A003041/CP/29/2026",
-      "bid_description": "Feasibility studies, concept design, Environmental and Social Impact Assessment for upgrading/or rehabilitation of selected roads in Nampula province",
-      "procurement_method": "Quality And Cost-Based Selection",
-      "procurement_group": "CS",
-      "summary": "REQUEST FOR EXPRESSIONS OF INTEREST (CONSULTING SERVICES - FIRMS SELECTION) Country: Mozambique Name of Project: Climate Resilient Roads for the North (CRRN - P500488) Grant No.: E315-MZ Assignment Title: Consultancy Services for Preparation of Feasibility Study, Conceptual Design, Environmental and Social Impact Assessment and Bidding Documents for Civil Works under Design and Build Methodology for the Road R689 Angoche &ndash; Monapo (160 km) in Nampula Province. . Reference No: 47A003041/CP/2",
-      "source": "World Bank",
-      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00461930",
       "_source_label": "World Bank",
       "notice_type_normalized": "관심표명(EOI)",
       "consortium_signal": false,
