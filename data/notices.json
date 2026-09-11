@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-10T23:11:01.260763+00:00",
-  "today_kst": "2026-09-11",
+  "generated_at": "2026-09-11T23:16:56.266325+00:00",
+  "today_kst": "2026-09-12",
   "sources": [
-    "World Bank 587건",
-    "한국건설엔지니어링협회 2건",
+    "World Bank 34건",
+    "한국건설엔지니어링협회 1건",
     "ADB 0건",
     "나라장터(G2B) 2건",
     "해외건설협회(ICAK) 3건",
@@ -14,22 +14,22 @@
   "source_status": {
     "World Bank": {
       "last_success": "2026-09-11",
-      "consecutive_failures": 0
+      "consecutive_failures": 1
     },
     "한국건설엔지니어링협회": {
-      "last_success": "2026-09-11",
+      "last_success": "2026-09-12",
       "consecutive_failures": 0
     },
     "ADB": {
       "last_success": "알 수 없음",
-      "consecutive_failures": 146
+      "consecutive_failures": 147
     },
     "나라장터(G2B)": {
       "last_success": "2026-09-09",
-      "consecutive_failures": 3
+      "consecutive_failures": 4
     },
     "해외건설협회(ICAK)": {
-      "last_success": "2026-09-11",
+      "last_success": "2026-09-12",
       "consecutive_failures": 0
     },
     "EIB": {
@@ -37,17 +37,37 @@
       "consecutive_failures": 0
     },
     "KIND": {
-      "last_success": "2026-09-11",
+      "last_success": "2026-09-12",
       "consecutive_failures": 0
     },
     "AIIB": {
-      "last_success": "2026-09-11",
+      "last_success": "2026-09-12",
       "consecutive_failures": 0
     }
   },
-  "count": 82,
-  "new_today_count": 2,
+  "count": 74,
+  "new_today_count": 0,
   "notices": [
+    {
+      "id": "aiib-https://www.aiib.org/en/projects/details/2026/_download/Azerbaijan/BMEP_P1_CW-01_SPN_Darnagul-Depot_28-Aug-26-003-final.pdf",
+      "notice_type": "Procurement Notice",
+      "notice_date": "Aug 28, 2026",
+      "submission_date": "",
+      "country": "Azerbaijan",
+      "project_id": "",
+      "project_name": "Baku Metro Expansion Project – Phase I",
+      "bid_reference_no": "",
+      "bid_description": "",
+      "procurement_method": "",
+      "summary": "",
+      "source": "AIIB",
+      "source_url": "https://www.aiib.org/en/projects/details/2026/_download/Azerbaijan/BMEP_P1_CW-01_SPN_Darnagul-Depot_28-Aug-26-003-final.pdf",
+      "_source_label": "AIIB",
+      "notice_type_normalized": "기타",
+      "consortium_signal": false,
+      "traffic_survey_signal": false,
+      "first_seen": "2026-08-29"
+    },
     {
       "id": "wb-OP00467939",
       "notice_type": "Request for Expression of Interest",
@@ -68,69 +88,6 @@
       "consortium_signal": false,
       "traffic_survey_signal": false,
       "first_seen": "2026-09-11"
-    },
-    {
-      "id": "wb-OP00467877",
-      "notice_type": "Request for Expression of Interest",
-      "notice_date": "09-Sep-2026",
-      "submission_date": "2026-09-28T00:00:00Z",
-      "country": "Burundi",
-      "project_id": "P177146",
-      "project_name": "Urban Resilience Emergency Project",
-      "bid_reference_no": "BI-MIELS-PIU-571282-CS-QCBS",
-      "bid_description": "ÉTUDES D’IMPACT ENVIRONNEMENTAL ET SOCIAL (EIES) DES INFRASTRUCTURES À FAIBLE REGRET Et AUDIT ENVIRONNEMENTAL ET SOCIAL DU MUR EN GABION ET DES TRAVAUX D’AMÉNAGEMENT ET DE RÉHABILITATION DE LA STATION DE POMPAGE D’EAU DE LA RÉGIDESO",
-      "procurement_method": "Quality And Cost-Based Selection",
-      "procurement_group": "CS",
-      "summary": "APPEL A MANIFESTATION D&#39;INTERETS (SERVICES DE CONSULTANTS : SELECTION DE FIRMES/CABINETS) Pays : R&eacute;publique du Burundi Nom du Projet : Projet d&rsquo;Urgence sur la R&eacute;silience Urbaine (PRU) Num&eacute;ro de Don : IDA N&ordm; E3520 N&deg; du projet : P177146 Titre de la mission Termes de r&eacute;f&eacute;rence pour le recrutement d&rsquo;un cabinet/firme pour l&rsquo;&eacute;laboration des &eacute;tudes d&rsquo;impact environnemental et social ( EIES) des infrastructures &agrav",
-      "source": "World Bank",
-      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00467877",
-      "_source_label": "World Bank",
-      "notice_type_normalized": "관심표명(EOI)",
-      "consortium_signal": false,
-      "traffic_survey_signal": false,
-      "first_seen": "2026-09-11"
-    },
-    {
-      "id": "wb-OP00463263",
-      "notice_type": "Request for Expression of Interest",
-      "notice_date": "08-Sep-2026",
-      "submission_date": "2026-09-10T00:00:00Z",
-      "country": "Western and Central Africa",
-      "project_id": "P169594",
-      "project_name": "West Africa Unique Identification for Regional Integration and Inclusion - Phase 2",
-      "bid_reference_no": "TG-WURI - TOGO-564669-CS-QCBS",
-      "bid_description": "Recrutement d'un consultant (firme) pour l'élaboration du plan stratégique 2027-2029 assortie d’un business model de l'ANID",
-      "procurement_method": "Quality And Cost-Based Selection",
-      "procurement_group": "CS",
-      "summary": "MINISTERE DE L&rsquo;EFFICACITE DU SERVICE PUBLIC REPUBLIQUE TOGOLAISE ET DE LA TRANSFORMATION NUMERIQUE Travail-Libert&eacute; Patrie ______ -------- C A B I N E T &hellip;&hellip;&hellip;&hellip;. WURI-TOGO SUSPENSION PROVISOIRE DE l&rsquo;AVIS D&rsquo;APPEL A MANIFESTATION D&rsquo;INTER&Ecirc;T POUR LE RECRUTEMENT D&rsquo;UN CABINET POUR L&rsquo;ELABORATION DU PLAN STRATEGIQUE 2027 &ndash; 2031 DE L&rsquo;ANID ASSORTI D&rsquo;UN PLAN DE SUIVI-EVALUATION, D&rsquo;UN PLAN DE RENFORCEMENT DE CAP",
-      "source": "World Bank",
-      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00463263",
-      "_source_label": "World Bank",
-      "notice_type_normalized": "관심표명(EOI)",
-      "consortium_signal": false,
-      "traffic_survey_signal": false,
-      "first_seen": "2026-08-26"
-    },
-    {
-      "id": "wb-OP00467556",
-      "notice_type": "Request for Expression of Interest",
-      "notice_date": "08-Sep-2026",
-      "submission_date": "2026-09-10T00:00:00Z",
-      "country": "India",
-      "project_id": "P170811",
-      "project_name": "Punjab Municipal Services Improvement Project",
-      "bid_reference_no": "IN-PMIDC-545132-CS-LCS",
-      "bid_description": "Direct RFP for Consultancy Services for Hiring a Firm for External Auditing at PMU, PIUs & Water Utilities at Ludhiana and Amritsar (For FY 2025-26 and 2026-27)",
-      "procurement_method": "Least Cost Selection",
-      "procurement_group": "CS",
-      "summary": "Specific Procurement Notice Name of Assignment: Consultancy Services for Hiring a Firm for External Auditing at PMU, PIUs &amp; Water Utilities at Ludhiana and Amritsar RFP Reference No.: IN-PMIDC-545132-CS-LCS Loan No. 9226-IN Location and Date: Chandigarh, 25.04.2026 Dear Mr. /Ms.: (through e-bidding website : - https://eproc.punjab.gov.in ) The Government of Punjab through Government of India (hereinafter called&rdquo; Borrower&rdquo;) has received financing from the International Bank for Re",
-      "source": "World Bank",
-      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00467556",
-      "_source_label": "World Bank",
-      "notice_type_normalized": "관심표명(EOI)",
-      "consortium_signal": false,
-      "traffic_survey_signal": false,
-      "first_seen": "2026-09-10"
     },
     {
       "id": "wb-OP00467559",
@@ -194,48 +151,6 @@
       "consortium_signal": false,
       "traffic_survey_signal": false,
       "first_seen": "2026-09-10"
-    },
-    {
-      "id": "wb-OP00467190",
-      "notice_type": "Request for Expression of Interest",
-      "notice_date": "06-Sep-2026",
-      "submission_date": "2026-09-21T00:00:00Z",
-      "country": "Cameroon",
-      "project_id": "P178207",
-      "project_name": "Enhancing Connectivity and Resilience in the Far North of Cameroon for Inclusiveness Project",
-      "bid_reference_no": "CM-MINEPAT-567071-CS-QCBS",
-      "bid_description": "Mise en œuvre de la Stratégie pour la Promotion de l’Entrepreneuriat Agricole Féminin dans les communes de Mora et Waza",
-      "procurement_method": "Quality And Cost-Based Selection",
-      "procurement_group": "CS",
-      "summary": "REPUBLIQUE DU CAMEROUN Paix- Travail- Patrie ---------- MINISTERE DE L&rsquo;ECONOMIE, DE LA PLANIFICATION ET DE L&rsquo;AMENAGEMENT DU TERRITOIRE ---------- PROGRAMME SPECIAL DE RECONSTRUCTION ET DE DEVELOPPEMENT DE LA REGION DE L&rsquo;EXTR&Ecirc;ME-NORD ---------- PROJET D&rsquo;AMELIORATION DE LA CONNECTIVITE, LA RESILIENCE ET L&rsquo;INCLUSION LE LONG DU CORRIDOR MORA-DABANGA-KOUSSERI (PACRI-MDK) ----------- UNITE DE COORDINATION ---------- REPUBLIC OF CAMEROON Peace-Work-Fatherland -------",
-      "source": "World Bank",
-      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00467190",
-      "_source_label": "World Bank",
-      "notice_type_normalized": "관심표명(EOI)",
-      "consortium_signal": false,
-      "traffic_survey_signal": false,
-      "first_seen": "2026-09-09"
-    },
-    {
-      "id": "wb-OP00467188",
-      "notice_type": "Request for Expression of Interest",
-      "notice_date": "06-Sep-2026",
-      "submission_date": "2026-09-21T00:00:00Z",
-      "country": "Cameroon",
-      "project_id": "P178207",
-      "project_name": "Enhancing Connectivity and Resilience in the Far North of Cameroon for Inclusiveness Project",
-      "bid_reference_no": "CM-MINEPAT-567042-CS-QCBS",
-      "bid_description": "Mise en œuvre de la Stratégie pour la Promotion de l’Entrepreneuriat Agricole Féminin dans les arrondissements de Makary, Logone birni et Waza pour le PACRI-MDK",
-      "procurement_method": "Quality And Cost-Based Selection",
-      "procurement_group": "CS",
-      "summary": "REPUBLIQUE DU CAMEROUN Paix- Travail- Patrie ---------- MINISTERE DE L&rsquo;ECONOMIE, DE LA PLANIFICATION ET DE L&rsquo;AMENAGEMENT DU TERRITOIRE ---------- PROGRAMME SPECIAL DE RECONSTRUCTION ET DE DEVELOPPEMENT DE LA REGION DE L&rsquo;EXTR&Ecirc;ME-NORD ---------- PROJET D&rsquo;AMELIORATION DE LA CONNECTIVITE, LA RESILIENCE ET L&rsquo;INCLUSION LE LONG DU CORRIDOR MORA-DABANGA-KOUSSERI (PACRI-MDK) ----------- UNITE DE COORDINATION ---------- REPUBLIC OF CAMEROON Peace-Work-Fatherland -------",
-      "source": "World Bank",
-      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00467188",
-      "_source_label": "World Bank",
-      "notice_type_normalized": "관심표명(EOI)",
-      "consortium_signal": false,
-      "traffic_survey_signal": false,
-      "first_seen": "2026-09-09"
     },
     {
       "id": "wb-OP00466194",
@@ -490,26 +405,6 @@
       "first_seen": "2026-09-09"
     },
     {
-      "id": "aiib-https://www.aiib.org/en/projects/details/2026/_download/Azerbaijan/BMEP_P1_CW-01_SPN_Darnagul-Depot_28-Aug-26-003-final.pdf",
-      "notice_type": "Procurement Notice",
-      "notice_date": "Aug 28, 2026",
-      "submission_date": "",
-      "country": "Azerbaijan",
-      "project_id": "",
-      "project_name": "Baku Metro Expansion Project – Phase I",
-      "bid_reference_no": "",
-      "bid_description": "",
-      "procurement_method": "",
-      "summary": "",
-      "source": "AIIB",
-      "source_url": "https://www.aiib.org/en/projects/details/2026/_download/Azerbaijan/BMEP_P1_CW-01_SPN_Darnagul-Depot_28-Aug-26-003-final.pdf",
-      "_source_label": "AIIB",
-      "notice_type_normalized": "기타",
-      "consortium_signal": false,
-      "traffic_survey_signal": false,
-      "first_seen": "2026-08-29"
-    },
-    {
       "id": "wb-OP00465370",
       "notice_type": "Request for Expression of Interest",
       "notice_date": "27-Aug-2026",
@@ -550,48 +445,6 @@
       "consortium_signal": false,
       "traffic_survey_signal": false,
       "first_seen": "2026-08-29"
-    },
-    {
-      "id": "wb-OP00462198",
-      "notice_type": "Request for Expression of Interest",
-      "notice_date": "26-Aug-2026",
-      "submission_date": "2026-09-10T00:00:00Z",
-      "country": "Brazil",
-      "project_id": "P158000",
-      "project_name": "Amazon Sustainable Landscapes Project",
-      "bid_reference_no": "BR-FGV-561336-CS-CQS",
-      "bid_description": "Contratacao de consultoria pessoa juridica para mapeamento e definicao de areas prioritarias nos territorios quilombolas Murumuru e Murumurutuba, subsidiando monitoramento participativo da regeneracao vegetal. Santarem/PA.",
-      "procurement_method": "Consultant Qualification  Selection",
-      "procurement_group": "CS",
-      "summary": "SOLICITA&Ccedil;&Atilde;O DE MANIFESTA&Ccedil;&Atilde;O DE INTERESSE SERVI&Ccedil;OS DE CONSULTORIA BRASIL &ndash; Minist&eacute;rio do Meio Ambiente e Mudan&ccedil;a do Clima - MMA Paisagens Sustent&aacute;veis da Amaz&ocirc;nia - ASL BRASIL 2 Acordo de Doa&ccedil;&atilde;o N.&ordm; TF0B6898-BR &ndash; Banco Mundial N&uacute;mero de Refer&ecirc;ncia: BR-FGV-561336-CS-CQS DE-ASL2-POA3-SEMAS-2026-0001 Escopo: Sele&ccedil;&atilde;o e contrata&ccedil;&atilde;o de consultoria n&atilde;o individual (",
-      "source": "World Bank",
-      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00462198",
-      "_source_label": "World Bank",
-      "notice_type_normalized": "관심표명(EOI)",
-      "consortium_signal": false,
-      "traffic_survey_signal": false,
-      "first_seen": "2026-08-28"
-    },
-    {
-      "id": "wb-OP00464898",
-      "notice_type": "Request for Expression of Interest",
-      "notice_date": "26-Aug-2026",
-      "submission_date": "2026-09-10T00:00:00Z",
-      "country": "Sierra Leone",
-      "project_id": "P507588",
-      "project_name": "Sierra Leone Water Security and WASH Access Improvement Project",
-      "bid_reference_no": "SL-MWRS-539782-CS-QCBS",
-      "bid_description": "Consultancy Service for City Wide Sanitation for WARD C and FCC",
-      "procurement_method": "Quality And Cost-Based Selection",
-      "procurement_group": "CS",
-      "summary": "REQUEST FOR EXPRESSIONS OF INTEREST (CONSULTING SERVICES &ndash; FIRM SELECTION) Sierra Leone Sierra Leone Water Security and WASH Access Improvement Project (SLWSWCIP) Grant No.: E5500 Project ID: P507588 Issue date: 27th August, 2026 Assignment Title: Consultancy for the Development of a City-Wide Inclusive Sanitation (CWIS) Plan for Freetown City Council (FCC) and Western Area Rural District Council (WARD-C) Reference No : SL-MWRS-539782-CS-QCBS The Government of Sierra Leone, through the Min",
-      "source": "World Bank",
-      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00464898",
-      "_source_label": "World Bank",
-      "notice_type_normalized": "관심표명(EOI)",
-      "consortium_signal": false,
-      "traffic_survey_signal": false,
-      "first_seen": "2026-08-28"
     },
     {
       "id": "wb-OP00453992",
@@ -760,27 +613,6 @@
       "consortium_signal": false,
       "traffic_survey_signal": false,
       "first_seen": "2026-08-24"
-    },
-    {
-      "id": "wb-OP00463222",
-      "notice_type": "Request for Expression of Interest",
-      "notice_date": "18-Aug-2026",
-      "submission_date": "2026-09-10T00:00:00Z",
-      "country": "Eswatini",
-      "project_id": "P508960",
-      "project_name": "Accelerating Sustainable and Clean Energy Access Transformation in Eswatini",
-      "bid_reference_no": "SZ-ECC-561941-CS-QCBS",
-      "bid_description": "Consultancy Services For the development of a National Clean Cooking Transition Strategy and Implementation plan for the Kingdom of Eswatini.",
-      "procurement_method": "Quality And Cost-Based Selection",
-      "procurement_group": "CS",
-      "summary": "The Kingdom of Eswatini Ministry of Natural Resources and Energy Request for Expression of Interest (REOI) Consultancy Services for the Development of a National Clean Cooking Transition Strategy and Costed Implementation PlaN UNDER THE Accelerating Sustainable and Clean Energy Access Transformation in Eswatini (ASCENT-ESWATINI) Project ID No: P508960 Request for Expression of Interest (REOI) Eswatini Electricity Company (EEC) (Government of the Kingdom of Eswatini) Consultancy Services for the ",
-      "source": "World Bank",
-      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00463222",
-      "_source_label": "World Bank",
-      "notice_type_normalized": "관심표명(EOI)",
-      "consortium_signal": false,
-      "traffic_survey_signal": false,
-      "first_seen": "2026-08-29"
     },
     {
       "id": "g2b-R26BK01717499-000",
