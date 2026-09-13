@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-12T23:03:38.981172+00:00",
-  "today_kst": "2026-09-13",
+  "generated_at": "2026-09-13T23:09:25.996087+00:00",
+  "today_kst": "2026-09-14",
   "sources": [
-    "World Bank 569건",
+    "World Bank 572건",
     "한국건설엔지니어링협회 1건",
     "ADB 0건",
     "나라장터(G2B) 32건",
@@ -13,23 +13,23 @@
   ],
   "source_status": {
     "World Bank": {
-      "last_success": "2026-09-13",
+      "last_success": "2026-09-14",
       "consecutive_failures": 0
     },
     "한국건설엔지니어링협회": {
-      "last_success": "2026-09-13",
+      "last_success": "2026-09-14",
       "consecutive_failures": 0
     },
     "ADB": {
       "last_success": "알 수 없음",
-      "consecutive_failures": 148
+      "consecutive_failures": 149
     },
     "나라장터(G2B)": {
-      "last_success": "2026-09-13",
+      "last_success": "2026-09-14",
       "consecutive_failures": 0
     },
     "해외건설협회(ICAK)": {
-      "last_success": "2026-09-13",
+      "last_success": "2026-09-14",
       "consecutive_failures": 0
     },
     "EIB": {
@@ -37,17 +37,59 @@
       "consecutive_failures": 0
     },
     "KIND": {
-      "last_success": "2026-09-13",
+      "last_success": "2026-09-14",
       "consecutive_failures": 0
     },
     "AIIB": {
-      "last_success": "2026-09-13",
+      "last_success": "2026-09-14",
       "consecutive_failures": 0
     }
   },
-  "count": 84,
-  "new_today_count": 13,
+  "count": 86,
+  "new_today_count": 2,
   "notices": [
+    {
+      "id": "wb-OP00468455",
+      "notice_type": "Request for Expression of Interest",
+      "notice_date": "12-Sep-2026",
+      "submission_date": "2026-10-12T00:00:00Z",
+      "country": "Sri Lanka",
+      "project_id": "P176164",
+      "project_name": "Inclusive Connectivity and Development Project",
+      "bid_reference_no": "LK-RDA-567082-CS-QCBS",
+      "bid_description": "Consultancy Services for Detailed Engineering Estimates, Environmental & Social Screening Reports (ESSRs) and Environmental & Social Management Plans (ESMPs) Preparation for 720 km Rural Roads under Post-disaster Recovery of ICDP (AF)",
+      "procurement_method": "Quality And Cost-Based Selection",
+      "procurement_group": "CS",
+      "summary": "REQUEST FOR EXPRESSIONS OF INTEREST (CONSULTING SERVICES &ndash; FIRMS SELECTION) Sri Lanka Inclusive Connectivity and Development Project Loan No.: 9290-LK Assignment Title: Consultancy Services for Detailed Engineering Estimates, Environmental &amp; Social Screening Reports (ESSRs) and Environmental &amp; Social Management Plans (ESMPs) Preparation for 720km Rural Roads Reference No : LK-RDA-567082-CS-QCBS The Government of the Democratic Socialist Republic of Sri Lanka (GOSL) has received fin",
+      "source": "World Bank",
+      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00468455",
+      "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명(EOI)",
+      "consortium_signal": false,
+      "traffic_survey_signal": false,
+      "first_seen": "2026-09-14"
+    },
+    {
+      "id": "wb-OP00468452",
+      "notice_type": "Request for Expression of Interest",
+      "notice_date": "12-Sep-2026",
+      "submission_date": "2026-10-14T00:00:00Z",
+      "country": "Kenya",
+      "project_id": "P177048",
+      "project_name": "Second Kenya Urban Support Program",
+      "bid_reference_no": "KE-MOTI-567492-CS-QCBS",
+      "bid_description": "Consulting Services for Preparation of System Design Requirements, Procurement Documents, and Supervision of Deployment of an Electronic Documents and Records Management System (e-DRMS) at the Urban Development Department and Three Municipalities in Kenya",
+      "procurement_method": "Quality And Cost-Based Selection",
+      "procurement_group": "CS",
+      "summary": "MINISTRY OF LANDS, PUBLIC WORKS, HOUSING AND URBAN DEVELOPMENT STATE DEPARTMENT FOR HOUSING AND URBAN DEVELOPMENT REQUEST FOR EXPRESSION OF INTEREST Consulting Services &ndash; Firm Selection _______________________________________________________________________&shy;&shy;&shy;&shy;&shy;&shy;&shy;&shy;&shy;&shy;&shy;&shy;&shy;&shy;&shy;&shy;&shy;&shy;&shy;&shy;&shy;&shy;&shy; COUNTRY: The Republic of Kenya PROJECT TITLE: Second Kenya Urban Support Program (KUSP II) PROJECT ID: P177048 CREDIT NO ",
+      "source": "World Bank",
+      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00468452",
+      "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명(EOI)",
+      "consortium_signal": false,
+      "traffic_survey_signal": false,
+      "first_seen": "2026-09-14"
+    },
     {
       "id": "wb-OP00465600",
       "notice_type": "Request for Expression of Interest",
