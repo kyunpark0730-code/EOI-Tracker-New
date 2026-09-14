@@ -1,35 +1,35 @@
 {
-  "generated_at": "2026-09-13T23:09:25.996087+00:00",
-  "today_kst": "2026-09-14",
+  "generated_at": "2026-09-14T23:53:37.780363+00:00",
+  "today_kst": "2026-09-15",
   "sources": [
-    "World Bank 572건",
+    "World Bank 578건",
     "한국건설엔지니어링협회 1건",
     "ADB 0건",
-    "나라장터(G2B) 32건",
-    "해외건설협회(ICAK) 3건",
+    "나라장터(G2B) 4건",
+    "해외건설협회(ICAK) 4건",
     "EIB 44건",
-    "KIND 2건",
+    "KIND 3건",
     "AIIB 7건"
   ],
   "source_status": {
     "World Bank": {
-      "last_success": "2026-09-14",
+      "last_success": "2026-09-15",
       "consecutive_failures": 0
     },
     "한국건설엔지니어링협회": {
-      "last_success": "2026-09-14",
+      "last_success": "2026-09-15",
       "consecutive_failures": 0
     },
     "ADB": {
       "last_success": "알 수 없음",
-      "consecutive_failures": 149
+      "consecutive_failures": 150
     },
     "나라장터(G2B)": {
       "last_success": "2026-09-14",
-      "consecutive_failures": 0
+      "consecutive_failures": 1
     },
     "해외건설협회(ICAK)": {
-      "last_success": "2026-09-14",
+      "last_success": "2026-09-15",
       "consecutive_failures": 0
     },
     "EIB": {
@@ -37,17 +37,38 @@
       "consecutive_failures": 0
     },
     "KIND": {
-      "last_success": "2026-09-14",
+      "last_success": "2026-09-15",
       "consecutive_failures": 0
     },
     "AIIB": {
-      "last_success": "2026-09-14",
+      "last_success": "2026-09-15",
       "consecutive_failures": 0
     }
   },
-  "count": 86,
-  "new_today_count": 2,
+  "count": 89,
+  "new_today_count": 3,
   "notices": [
+    {
+      "id": "wb-OP00468555",
+      "notice_type": "Request for Expression of Interest",
+      "notice_date": "13-Sep-2026",
+      "submission_date": "2026-09-28T00:00:00Z",
+      "country": "Moldova",
+      "project_id": "P177895",
+      "project_name": "MSME Competitiveness Project",
+      "bid_reference_no": "MD-CEP-566791-CS-CQS",
+      "bid_description": "Conducting B2B export promotion missions to United Kingdom",
+      "procurement_method": "Consultant Qualification  Selection",
+      "procurement_group": "CS",
+      "summary": "REQUEST FOR EXPRESSIONS OF INTEREST CONSULTING SERVICES Conducting B2B export promotion missions for Moldovan SMEs to the United Kingdom REPUBLIC OF MOLDOVA MICRO, SMALL AND MEDIUM-SIZED ENTERPRISES COMPETITIVENESS PROJECT Sector: General industry and trade sector IDA Credit No. 71740 IBRD Loan No. 94230 Project ID No. P177895 Reference No. MD-CEP-566791-CS-CQS The Republic of Moldova has received financing from the World Bank toward the cost of the Micro, Small and Medium-Sized Enterprise Compe",
+      "source": "World Bank",
+      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00468555",
+      "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명(EOI)",
+      "consortium_signal": false,
+      "traffic_survey_signal": false,
+      "first_seen": "2026-09-15"
+    },
     {
       "id": "wb-OP00468455",
       "notice_type": "Request for Expression of Interest",
@@ -907,6 +928,26 @@
       "consortium_signal": false,
       "traffic_survey_signal": false,
       "first_seen": "2026-09-13"
+    },
+    {
+      "id": "icak-503575",
+      "notice_type": "입찰공고",
+      "notice_date": "2026-09-14 00:00:00",
+      "submission_date": "2099-12-31 23:59:00",
+      "country": "",
+      "project_id": "",
+      "project_name": "(신규) 2026년 국토교통 국제개발협력사업(ODA) 신규 용역(2건) 입찰공고 안내",
+      "bid_reference_no": "",
+      "bid_description": "",
+      "procurement_method": "",
+      "summary": "□ 입찰공고 개요 ㅇ 입찰공고 개시: 2026.9.7.(월) ㅇ 입찰 참가신청 마감: 2026.9.30.(수) 18:00 ㅇ 입찰서 제출 마감일시: 2026.10.1.(목) 10:00 ㅇ 발주기관: 해외건설협회 □ 입찰공고 접속 방법 ㅇ 국가종합전자조달 나라장터 홈페이지 ((http://www.g2b.go.kr)→입찰→입찰공고→입찰공고 목록→상세조건→'수요기관'을 '해외건설협회' 및 코드 ‘Z021121’로 검색) □ 대상 용역 ㅇ 2026년 국토교통 ODA 추적조사 평가 및 사후평가 용역 ㅇ 국제개발협력센터 사업DB 관리시스템 구축 사업 □ 문의처 ㅇ 해외건설협회 국제개발협력센터 전완 대리(02-3406-1039/ chun0102@icak.or.kr) ※ 세부 문의사항은 각 공고의 과업지시서를 참조하시기 바랍니다.",
+      "source": "해외건설협회(ICAK)",
+      "source_url": "https://www.icak.or.kr/board/bidPblancList",
+      "_source_label": "해외건설협회(ICAK)",
+      "notice_type_normalized": "입찰공고",
+      "consortium_signal": false,
+      "traffic_survey_signal": false,
+      "first_seen": "2026-09-15"
     },
     {
       "id": "icak-503555",
@@ -1807,6 +1848,26 @@
       "consortium_signal": false,
       "traffic_survey_signal": false,
       "first_seen": "2026-08-20"
+    },
+    {
+      "id": "kind-11473",
+      "notice_type": "사전규격 공개",
+      "notice_date": "2026-09-14",
+      "submission_date": "",
+      "country": "",
+      "project_id": "11473",
+      "project_name": "[사전규격 공개] 2026년도 경영성과개선 교육 및 자문 용역",
+      "bid_reference_no": "",
+      "bid_description": "",
+      "procurement_method": "",
+      "summary": "",
+      "source": "KIND",
+      "source_url": "https://www.kindkorea.or.kr/pages/72?id=11473&menuMode=READ&q=",
+      "_source_label": "KIND",
+      "notice_type_normalized": "사전공개",
+      "consortium_signal": false,
+      "traffic_survey_signal": false,
+      "first_seen": "2026-09-15"
     }
   ]
 }
