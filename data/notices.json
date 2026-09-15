@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-14T23:53:37.780363+00:00",
+  "generated_at": "2026-09-15T05:25:48.319192+00:00",
   "today_kst": "2026-09-15",
   "sources": [
-    "World Bank 578건",
+    "World Bank 533건",
     "한국건설엔지니어링협회 1건",
     "ADB 0건",
-    "나라장터(G2B) 4건",
+    "나라장터(G2B) 35건",
     "해외건설협회(ICAK) 4건",
     "EIB 44건",
     "KIND 3건",
@@ -22,11 +22,11 @@
     },
     "ADB": {
       "last_success": "알 수 없음",
-      "consecutive_failures": 150
+      "consecutive_failures": 151
     },
     "나라장터(G2B)": {
-      "last_success": "2026-09-14",
-      "consecutive_failures": 1
+      "last_success": "2026-09-15",
+      "consecutive_failures": 0
     },
     "해외건설협회(ICAK)": {
       "last_success": "2026-09-15",
@@ -45,7 +45,7 @@
       "consecutive_failures": 0
     }
   },
-  "count": 89,
+  "count": 87,
   "new_today_count": 3,
   "notices": [
     {
@@ -110,27 +110,6 @@
       "consortium_signal": false,
       "traffic_survey_signal": false,
       "first_seen": "2026-09-14"
-    },
-    {
-      "id": "wb-OP00465600",
-      "notice_type": "Request for Expression of Interest",
-      "notice_date": "10-Sep-2026",
-      "submission_date": "2026-09-14T00:00:00Z",
-      "country": "Brazil",
-      "project_id": "P180429",
-      "project_name": "Bahia Sustainable Rural Development Project",
-      "bid_reference_no": "BR-CAR-BA-568627-CS-FBS",
-      "bid_description": "Contratação de Instituição de Cooperação Técnica para Apoio à Execução do Projeto de Desenvolvimento Rural Sustentável - PDRS (Bahia que Produz e Alimenta).",
-      "procurement_method": "Fixed Budget Selection",
-      "procurement_group": "CS",
-      "summary": "SOLICITA&Ccedil;&Atilde;O DEMANIFESTA&Ccedil;&Atilde;O DE INTERESSE CAR/BPA N&ordm; 004/2026 COMPANHIA DE DESENVOLVIMENTO E A&Ccedil;&Atilde;O REGIONAL &ndash; CAR PROJETO BAHIA QUE PRODUZ E ALIMENTA A Companhia de Desenvolvimento e A&ccedil;&atilde;o Regional &ndash; CAR, vinculada &agrave; Secretaria de Desenvolvimento Rural do Estado da Bahia &ndash; SDR, executora do Projeto Bahia que Produz e Alimenta , torna p&uacute;blico que convida empresas de consultoria a apresentarem manifesta&ccedil",
-      "source": "World Bank",
-      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00465600",
-      "_source_label": "World Bank",
-      "notice_type_normalized": "관심표명(EOI)",
-      "consortium_signal": false,
-      "traffic_survey_signal": false,
-      "first_seen": "2026-09-13"
     },
     {
       "id": "wb-OP00468190",
@@ -1198,26 +1177,6 @@
       "project_id": "20190128-01",
       "project_name": "Reconstruction of the Municipal Non-Profit Enterprise of the Kamianske City Council ‘Primary Healthcare Centre No3 (Letter A-7)’ in the City of Kamianske, Ukraine",
       "bid_reference_no": "20190128-01",
-      "bid_description": "On going",
-      "procurement_method": "",
-      "summary": "",
-      "source": "EIB",
-      "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
-      "_source_label": "EIB",
-      "notice_type_normalized": "기타",
-      "consortium_signal": false,
-      "traffic_survey_signal": false,
-      "first_seen": "2026-08-10"
-    },
-    {
-      "id": "eib-6a55dc9e526cf801f68a16fe",
-      "notice_type": "TA operations",
-      "notice_date": "28/07/2026",
-      "submission_date": "14/09/2026",
-      "country": "",
-      "project_id": "AA-011624-003",
-      "project_name": "Climate Action and Sustainability for Corporate",
-      "bid_reference_no": "AA-011624-003",
       "bid_description": "On going",
       "procurement_method": "",
       "summary": "",
