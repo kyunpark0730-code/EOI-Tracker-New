@@ -31,7 +31,6 @@ HARD_EXCLUDE_PATTERNS = [
     # 이유로 무조건 제외 — 설계/감리가 아니라 사회안전장치 전문영역이기 때문.
     r"plan (en faveur des |des )?(populations|peuples) autochtones",
     r"indigenous peoples plan",
-    r"livestock", r"축산", r"dairy", r"낙농", r"[ée]levage", r"b[ée]tail", r"laitier",
     r"intelligent transport system", r"지능형\s*교통체계",
     # 소프트웨어 개발자/IT 인력 파견(아웃소싱), 인일(jours-homme) 단위 IT 상주지원.
     # 프로젝트명이 뭐든(디지털화/전자정부 등) 업무 자체가 개발 인력 파견이면 무조건 제외.
@@ -561,9 +560,23 @@ INSTITUTIONAL_MGMT_PATTERNS = [
 COMPREHENSIVE_DESIGN_CARVEOUT_PATTERNS = [
     r"detailed project report", r"\bDPR\b",
 ]
+# 축산/낙농 분야는 원칙적으로 다산 전문영역이 아니라 하드제외 대상이지만, PMC
+# (사업관리컨설턴트) 용역은 예외로 둔다 — 필리핀 카라바오 낙농개량체계 PMC 용역
+# 사례처럼, 다산이 실제로 수행하는 사업관리 용역은 관리 대상 분야가 축산이어도
+# 다산 업무이기 때문. "PMC"/"Project Management Consultant"/"사업관리" 신호가
+# 있으면 이 축산/낙농 하드제외만 예외로 빠진다(다른 하드제외 사유엔 영향 없음).
+LIVESTOCK_PATTERNS = [
+    r"livestock", r"축산", r"dairy", r"낙농", r"[ée]levage", r"b[ée]tail", r"laitier",
+]
+PMC_CARVEOUT_PATTERNS = [
+    r"\bPMC\b", r"project management consultant",
+    r"사업관리\s*컨설턴트", r"사업관리\s*용역",
+]
 _HARD_EXCLUDE_RE = re.compile("|".join(HARD_EXCLUDE_PATTERNS), re.IGNORECASE)
 _INSTITUTIONAL_MGMT_RE = re.compile("|".join(INSTITUTIONAL_MGMT_PATTERNS), re.IGNORECASE)
 _COMPREHENSIVE_DESIGN_CARVEOUT_RE = re.compile("|".join(COMPREHENSIVE_DESIGN_CARVEOUT_PATTERNS), re.IGNORECASE)
+_LIVESTOCK_RE = re.compile("|".join(LIVESTOCK_PATTERNS), re.IGNORECASE)
+_PMC_CARVEOUT_RE = re.compile("|".join(PMC_CARVEOUT_PATTERNS), re.IGNORECASE)
 _INCLUDE_RE = re.compile("|".join(INCLUDE_PATTERNS), re.IGNORECASE)
 _EXCLUDE_RE = re.compile("|".join(EXCLUDE_PATTERNS), re.IGNORECASE)
 
