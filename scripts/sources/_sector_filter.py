@@ -625,6 +625,8 @@ _RELEVANCE_HEAD_CHARS = 3000
 def _is_hard_excluded(combined: str) -> bool:
     if _HARD_EXCLUDE_RE.search(combined):
         return True
+    if _LIVESTOCK_RE.search(combined) and not _PMC_CARVEOUT_RE.search(combined):
+        return True
     if _INSTITUTIONAL_MGMT_RE.search(combined):
         if not _COMPREHENSIVE_DESIGN_CARVEOUT_RE.search(combined):
             return True
