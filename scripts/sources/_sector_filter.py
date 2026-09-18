@@ -198,7 +198,8 @@ HARD_EXCLUDE_PATTERNS = [
     # 철도(rail) 설계·시공감리 — 부르키나파소 SKBO "chemin de fer" 사례. "études et
     # contrôle technique"/"construction supervision" 등 INCLUDE 키워드가 있어도,
     # 관개/도로/댐/교량이 아니라 철도 분야라 다산 전문영역과 무관.
-    r"chemin de fer", r"\brailway", r"ferrovi[áa]ri[ao]", r"ferrocarril", r"철도",
+    r"chemin de fer", r"voie ferr[ée]e", r"\brailway", r"ferrovi[áa]ri[ao]",
+    r"ferrocarril", r"철도",
     # 전자지갑/디지털결제 플랫폼 개발 — 카리브해 세인트루시아 "Secure Wallet with
     # Digital Payment and Integration Solutions" 사례. 소프트 제외 패턴("digital
     # transformation")이 실제 운영에서 다른 배경설명 문구의 INCLUDE 매칭에 덮어써지는
