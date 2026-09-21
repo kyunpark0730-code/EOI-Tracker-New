@@ -206,6 +206,8 @@ HARD_EXCLUDE_PATTERNS = [
     # 것이 확인되어, 확실히 걸러지도록 하드 제외로 승격한다. 설계·감리가 아니라 IT
     # 핀테크 플랫폼 개발 용역이라 다산 전문영역과 무관.
     r"secure wallet", r"digital payment (and|&) integration",
+    r"port community system",
+    r"infrastructures? socio[- ]?[ée]conomiques?",
     # 기상관측장비망(번개감지·기상레이더·기상관측소 등) 구축 타당성조사 — 잠비아
     # TRALARD II "National Lightning Detection Network"/"National Weather Radar
     # Network"/"Meteorological Calibration Facility" 사례. "feasibility study"라는
@@ -215,7 +217,7 @@ HARD_EXCLUDE_PATTERNS = [
     r"meteorological calibration facility", r"automated weather station",
     # KOICA 등 국내 행정지원 용역(임금체계/전시관 시설/사업평가 등 -
     # 해외 인프라 설계·감리가 아니라 기관 내부 행정·평가 업무)
-    r"임금체계", r"전시관", r"심층평가", r"배움터",
+    r"임금체계", r"전시관", r"심층평가", r"배움터", r"경영\s*성과\s*개선",
     # 사업/프로그램 성과평가(M&E) 컨설팅 — 케냐 KISIP2 "End of Program Evaluation" 사례.
     # 설계·감리가 아니라 사업 종료 후 성과·수혜자 평가 자문이라 다산 전문영역과 무관
     # (관개/도로 등 인프라 사업 산하 공고라도 이 업무 자체가 평가·컨설팅이면 제외).
@@ -224,6 +226,7 @@ HARD_EXCLUDE_PATTERNS = [
     r"independent verification agent", r"performance-based grants?",
     r"results verification", r"independent verification of results",
     r"verification of results",
+    r"추적조사", r"사후평가",
     # 거버넌스/반부패 진단조사(설문조사 분석 등 통치체계 자문) — 아이티 ULCC
     # "enquête diagnostique sur la gouvernance et la corruption" 사례. 설계·감리가
     # 아니라 통치구조·반부패 진단·평가 자문이라 다산 전문영역과 무관.
@@ -248,6 +251,7 @@ HARD_EXCLUDE_PATTERNS = [
     # 재무제표 감사(외부회계감사) 용역 - 관개/도로 등 인프라 사업 산하 공고라 INCLUDE에
     # 걸려도, 실제 업무는 회계·재무감사 전문용역(공인회계사)이라 다산 전문영역과 다름
     r"external auditor", r"financial audit", r"audit comptable et financier",
+    r"audit des conventions",
     r"auditeur externe", r"audit financier", r"audit des comptes",
     # 디지털 결제수단 효율성 감사 — 베냉 PGEDS "audit de l'efficacité des instruments
     # de paiement numérisé exploité par le trésor public" 사례. 설계·감리가 아니라
@@ -288,8 +292,7 @@ HARD_EXCLUDE_PATTERNS = [
     # d'Eau Potable" 사례. 발주기관명에 "assainissement"(위생/하수) 등 INCLUDE
     # 키워드가 있어도, 실제 업무는 설계·감리가 아니라 상수도 시스템의 위탁운영
     # (오퍼레이터/O&M 계약)이라 다산 전문영역(엔지니어링)과 무관.
-    r"d[ée]l[ée]gation de gestion",
-    r"obras? de construcci[óo]n", r"ejecuci[óo]n de obras",
+    r"d[ée]l[ée]gation de gestion", r"d[ée]l[ée]gation (du|de) service public",    r"obras? de construcci[óo]n", r"ejecuci[óo]n de obras",
     # 학교/유치원 등 건축(architecture) 분야 건물 신축·보강·재건축 설계 및 감리
     # (관개/도로/댐 등 토목이 아니라 건축 분야라 기존 public buildings 하드제외와 같은 이유)
     r"kindergarten", r"[ée]cole maternelle", r"jardin d[’']?enfants",
