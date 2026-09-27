@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-26T23:37:02.699438+00:00",
-  "today_kst": "2026-09-27",
+  "generated_at": "2026-09-27T23:48:54.161961+00:00",
+  "today_kst": "2026-09-28",
   "sources": [
-    "World Bank 624건",
+    "World Bank 626건",
     "한국건설엔지니어링협회 0건",
     "ADB 0건",
     "나라장터(G2B) 49건",
@@ -13,23 +13,23 @@
   ],
   "source_status": {
     "World Bank": {
-      "last_success": "2026-09-27",
+      "last_success": "2026-09-28",
       "consecutive_failures": 0
     },
     "한국건설엔지니어링협회": {
       "last_success": "2026-09-25",
-      "consecutive_failures": 2
+      "consecutive_failures": 3
     },
     "ADB": {
       "last_success": "알 수 없음",
-      "consecutive_failures": 164
+      "consecutive_failures": 165
     },
     "나라장터(G2B)": {
-      "last_success": "2026-09-27",
+      "last_success": "2026-09-28",
       "consecutive_failures": 0
     },
     "해외건설협회(ICAK)": {
-      "last_success": "2026-09-27",
+      "last_success": "2026-09-28",
       "consecutive_failures": 0
     },
     "EIB": {
@@ -37,16 +37,16 @@
       "consecutive_failures": 0
     },
     "KIND": {
-      "last_success": "2026-09-27",
+      "last_success": "2026-09-28",
       "consecutive_failures": 0
     },
     "AIIB": {
-      "last_success": "2026-09-27",
+      "last_success": "2026-09-28",
       "consecutive_failures": 0
     }
   },
   "count": 101,
-  "new_today_count": 1,
+  "new_today_count": 0,
   "notices": [
     {
       "id": "wb-OP00470585",
