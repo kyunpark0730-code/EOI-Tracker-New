@@ -195,11 +195,8 @@ HARD_EXCLUDE_PATTERNS = [
     # 저장 인프라 분야라 다산 전문영역과 무관 (오만 두큼 라스 마르카즈 원유저장소 사례)
     r"원유\s*저장", r"저유소", r"oil storage", r"petroleum storage", r"crude oil storage",
     r"tank farm",
-    # 철도(rail) 설계·시공감리 — 부르키나파소 SKBO "chemin de fer" 사례. "études et
-    # contrôle technique"/"construction supervision" 등 INCLUDE 키워드가 있어도,
-    # 관개/도로/댐/교량이 아니라 철도 분야라 다산 전문영역과 무관.
-    r"chemin de fer", r"voie ferr[ée]e", r"\brailway", r"ferrovi[áa]ri[ao]",
-    r"ferrocarril", r"철도",
+    # 철도(rail) 관련 하드제외는 RAILWAY_PATTERNS(도로회랑 사업 설명 중 배경으로
+    # 철도가 언급되는 경우의 예외 처리 필요)로 분리했다. 아래 _is_hard_excluded() 참고.
     # 전자지갑/디지털결제 플랫폼 개발 — 카리브해 세인트루시아 "Secure Wallet with
     # Digital Payment and Integration Solutions" 사례. 소프트 제외 패턴("digital
     # transformation")이 실제 운영에서 다른 배경설명 문구의 INCLUDE 매칭에 덮어써지는
@@ -576,11 +573,28 @@ PMC_CARVEOUT_PATTERNS = [
     r"\bPMC\b", r"project management consultant",
     r"사업관리\s*컨설턴트", r"사업관리\s*용역",
 ]
+# 철도(rail) 설계·시공감리 — 부르키나파소 SKBO "chemin de fer"/"voie ferrée" 사례.
+# "études et contrôle technique"/"construction supervision" 등 INCLUDE 키워드가
+# 있어도, 관개/도로/댐/교량이 아니라 철도 분야라 다산 전문영역과 무관이라 하드제외.
+# 다만 라이베리아 LECO "Buchanan–Nimba (Legacy) Corridor" 도로회랑 타당성조사·
+# 개념설계 사례처럼, 실제 발주 대상은 도로회랑인데 교통수요 예측용 "개발 시나리오"
+# 배경설명에 "Buchanan–Yekepa 철도의 다중이용자(multi-user)화" 같은 문구가 잠깐
+# 언급되는 경우가 있어, bid_description/사업명 자체가 명백히 "road corridor"이면
+# 이 철도 하드제외에서만 예외로 둔다(다른 하드제외 사유엔 영향 없음).
+RAILWAY_PATTERNS = [
+    r"chemin de fer", r"voie ferr[ée]e", r"\brailway", r"ferrovi[áa]ri[ao]",
+    r"ferrocarril", r"철도",
+]
+ROAD_CARVEOUT_PATTERNS = [
+    r"road corridors?",
+]
 _HARD_EXCLUDE_RE = re.compile("|".join(HARD_EXCLUDE_PATTERNS), re.IGNORECASE)
 _INSTITUTIONAL_MGMT_RE = re.compile("|".join(INSTITUTIONAL_MGMT_PATTERNS), re.IGNORECASE)
 _COMPREHENSIVE_DESIGN_CARVEOUT_RE = re.compile("|".join(COMPREHENSIVE_DESIGN_CARVEOUT_PATTERNS), re.IGNORECASE)
 _LIVESTOCK_RE = re.compile("|".join(LIVESTOCK_PATTERNS), re.IGNORECASE)
 _PMC_CARVEOUT_RE = re.compile("|".join(PMC_CARVEOUT_PATTERNS), re.IGNORECASE)
+_RAILWAY_RE = re.compile("|".join(RAILWAY_PATTERNS), re.IGNORECASE)
+_ROAD_CARVEOUT_RE = re.compile("|".join(ROAD_CARVEOUT_PATTERNS), re.IGNORECASE)
 _INCLUDE_RE = re.compile("|".join(INCLUDE_PATTERNS), re.IGNORECASE)
 _EXCLUDE_RE = re.compile("|".join(EXCLUDE_PATTERNS), re.IGNORECASE)
 
@@ -630,6 +644,8 @@ def _is_hard_excluded(combined: str) -> bool:
     if _HARD_EXCLUDE_RE.search(combined):
         return True
     if _LIVESTOCK_RE.search(combined) and not _PMC_CARVEOUT_RE.search(combined):
+        return True
+    if _RAILWAY_RE.search(combined) and not _ROAD_CARVEOUT_RE.search(combined):
         return True
     if _INSTITUTIONAL_MGMT_RE.search(combined):
         if not _COMPREHENSIVE_DESIGN_CARVEOUT_RE.search(combined):
