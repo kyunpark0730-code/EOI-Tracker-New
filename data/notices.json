@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-02T00:47:21.003485+00:00",
-  "today_kst": "2026-10-02",
+  "generated_at": "2026-10-03T00:29:39.763147+00:00",
+  "today_kst": "2026-10-03",
   "sources": [
-    "World Bank 564건",
+    "World Bank 578건",
     "한국건설엔지니어링협회 0건",
     "ADB 0건",
-    "나라장터(G2B) 3건",
+    "나라장터(G2B) 46건",
     "해외건설협회(ICAK) 4건",
     "EIB 42건",
     "KIND 5건",
@@ -13,23 +13,23 @@
   ],
   "source_status": {
     "World Bank": {
-      "last_success": "2026-10-02",
+      "last_success": "2026-10-03",
       "consecutive_failures": 0
     },
     "한국건설엔지니어링협회": {
       "last_success": "2026-09-25",
-      "consecutive_failures": 7
+      "consecutive_failures": 8
     },
     "ADB": {
       "last_success": "알 수 없음",
-      "consecutive_failures": 169
+      "consecutive_failures": 170
     },
     "나라장터(G2B)": {
-      "last_success": "2026-10-01",
-      "consecutive_failures": 1
+      "last_success": "2026-10-03",
+      "consecutive_failures": 0
     },
     "해외건설협회(ICAK)": {
-      "last_success": "2026-10-02",
+      "last_success": "2026-10-03",
       "consecutive_failures": 0
     },
     "EIB": {
@@ -37,17 +37,101 @@
       "consecutive_failures": 0
     },
     "KIND": {
-      "last_success": "2026-10-02",
+      "last_success": "2026-10-03",
       "consecutive_failures": 0
     },
     "AIIB": {
-      "last_success": "2026-10-02",
+      "last_success": "2026-10-03",
       "consecutive_failures": 0
     }
   },
-  "count": 107,
-  "new_today_count": 4,
+  "count": 111,
+  "new_today_count": 5,
   "notices": [
+    {
+      "id": "wb-OP00472536",
+      "notice_type": "Request for Expression of Interest",
+      "notice_date": "01-Oct-2026",
+      "submission_date": "2026-10-16T00:00:00Z",
+      "country": "Cameroon",
+      "project_id": "P175846",
+      "project_name": "Local Governance and Resilient Communities Project",
+      "bid_reference_no": "CM-MINDDEVEL-554062-CS-CQS",
+      "bid_description": "Recrutement d'une organisation d'appui locale (OAL) en vue de la mise en place, de la vulgarisation et du suivi du Mécanisme de gestion des plaintes (MGP), y compris les VBG dans la Région de l'Extreme-Nord pour le compte du Projet gouvernance locale et C",
+      "procurement_method": "Consultant Qualification  Selection",
+      "procurement_group": "CS",
+      "summary": "AVIS A SOLLICITATI O N DE MA NIFESTATIONS D&#39;INTERET N&deg;058/ASMI/MINDDEVEL/ PROLOG /UGP/ SP M /ESN 20 26 DU 01 octobre 2026 RELATIF AU RECRUTEMENT D&rsquo;UNE ORGANISATION D&rsquo;APPUI LOCALE (OAL) EN VUE DE LA MISE EN PLACE, DE LA VULGARISATION ET DE SUIVI DE MECANISME DE GESTION DES PLAINTES (MGP), Y COMPRIS LES VBG DANS LA REGION DE L&rsquo;EXTREME-NORD POUR LE COMPTE DU PROJET GOUVERNANCE LOCALE ET COMMUNAUTES RESILIENTES (PROLOG) La R&eacute;publique du Cameroun a obtenu un financeme",
+      "source": "World Bank",
+      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00472536",
+      "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명(EOI)",
+      "consortium_signal": false,
+      "traffic_survey_signal": false,
+      "first_seen": "2026-10-03"
+    },
+    {
+      "id": "wb-OP00472545",
+      "notice_type": "Request for Expression of Interest",
+      "notice_date": "01-Oct-2026",
+      "submission_date": "2026-10-16T00:00:00Z",
+      "country": "Cameroon",
+      "project_id": "P175846",
+      "project_name": "Local Governance and Resilient Communities Project",
+      "bid_reference_no": "CM-MINDDEVEL-554073-CS-CQS",
+      "bid_description": "Recrutement d'une organisation d'appui locale (OAL) en vue de la mise en place, de la vulgarisation et du suivi du Mécanisme de gestion des plaintes (MGP), y compris les VBG dans la Région du Nord-Ouest pour le compte du Projet gouvernance locale et Commu",
+      "procurement_method": "Consultant Qualification  Selection",
+      "procurement_group": "CS",
+      "summary": "REQUEST FOR EXPRESSIONS OF INTEREST No.055/REOI/MINDDEVEL/PROLOG/PIU/PSM/ESN 2026 OF 01st OCTOBER 2026 FOR THE RECRUITMENT OF A LOCAL SUPPORT ORGANISATION (LSO) FOR THE ESTABLISHMENT, DISSEMINATION AND MONITORING OF A GRIEVANCE REDRESS MECHANISM (GRM), INCLUDING GENDER-BASED VIOLENCE (GBV), IN THE NORTH-WEST REGION UNDER THE LOCAL GOVERNANCE AND RESILIENT COMMUNITIES PROJECT (PROLOG) The Republic of Cameroon has secured financing from the International Development Association (IDA) to cover the ",
+      "source": "World Bank",
+      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00472545",
+      "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명(EOI)",
+      "consortium_signal": false,
+      "traffic_survey_signal": false,
+      "first_seen": "2026-10-03"
+    },
+    {
+      "id": "wb-OP00472030",
+      "notice_type": "Request for Expression of Interest",
+      "notice_date": "01-Oct-2026",
+      "submission_date": "2026-10-19T00:00:00Z",
+      "country": "Bangladesh",
+      "project_id": "P178487",
+      "project_name": "Learning Acceleration in Secondary Education Operation",
+      "bid_reference_no": "SD-21",
+      "bid_description": "Conducting the Mid Term Review of the Project (Nat./Int.)",
+      "procurement_method": "Consultant Qualification  Selection",
+      "procurement_group": "CS",
+      "summary": "Government of the People&rsquo;s Republic of Bangladesh Ministry of Education Secondary and Higher Education Division Directorate of Secondary and Higher Education Learning Acceleration in Secondary Education (LAISE) 5th Floor, 2nd Block, 16-Abdul Goni Road, Shikkha Bhaban, Dhaka-1000. Ref: DSHE/LAISE/1-252/SD-21/Mid Term Review/2026/ 370 Date: 24 September 2026 REQUEST FOR EXPRESSIONS OF INTEREST (CONSULTING SERVICES &ndash; FIRMS SELECTION) Country : Bangladesh Name of the Project : Learning A",
+      "source": "World Bank",
+      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00472030",
+      "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명(EOI)",
+      "consortium_signal": false,
+      "traffic_survey_signal": false,
+      "first_seen": "2026-10-03"
+    },
+    {
+      "id": "wb-OP00468662",
+      "notice_type": "Request for Expression of Interest",
+      "notice_date": "01-Oct-2026",
+      "submission_date": "2026-10-27T00:00:00Z",
+      "country": "Eastern and Southern Africa",
+      "project_id": "P180547",
+      "project_name": "Accelerating Sustainable & Clean Energy Access Transformation Program Using the Multiphase Programma",
+      "bid_reference_no": "ZM-COMESA -565158-CS-QBS",
+      "bid_description": "Establishing a Framework Agreement for Geospatial Electrification Planning and Analytical Services",
+      "procurement_method": "Quality Based Selection",
+      "procurement_group": "CS",
+      "summary": "REQUEST FOR EXPRESSIONS OF INTEREST (CONSULTING SERVICES -FRAMEWORK AGREEMENT &ndash; FIRMS SELECTION) ZAMBIA ACCELERATING SUSTAINABLE AND CLEAN ENERGY ACCESS TRANSFORMATION (ASCENT) PROJECT. Grant No.: P180547 Assignment Title: Framework Agreement for Geospatial Electrification Planning and Analytical Services. Reference No . ZM-COMESA-565158-CS-QBS The Common Market for Eastern and Southern Africa (COMESA) has received financing from the World Bank toward the cost of the Accelerating Sustainab",
+      "source": "World Bank",
+      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00468662",
+      "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명(EOI)",
+      "consortium_signal": false,
+      "traffic_survey_signal": false,
+      "first_seen": "2026-10-03"
+    },
     {
       "id": "wb-OP00472137",
       "notice_type": "Request for Expression of Interest",
@@ -175,27 +259,6 @@
       "first_seen": "2026-10-01"
     },
     {
-      "id": "wb-OP00470966",
-      "notice_type": "Request for Expression of Interest",
-      "notice_date": "29-Sep-2026",
-      "submission_date": "2026-10-14T00:00:00Z",
-      "country": "Chad",
-      "project_id": "P180915",
-      "project_name": "Chad Connectivity and Integration Project",
-      "bid_reference_no": "TD-MTCAMN-573277-CS-CQS",
-      "bid_description": "Recrutement d un consultant firme charge de la cartographie des chaines de valeur agricoles et halieutiques à  forte croissance et capacité d exportations y compris les acteurs tel que les associations SME  transporteurs petits commerçants et producteurs",
-      "procurement_method": "Quality And Cost-Based Selection",
-      "procurement_group": "CS",
-      "summary": "REPUBLIQUE DU TCHAD PRESIDENCE DE LAREPUBLIQUE PRIMATURE MINISTERE DES TRANSPORTS, DE L&rsquo;AVIATION CIVILE ET DE LA METEOROLOGIE NATIONALE SECRETARIAT GENERAL PROJET DE CONNECTIVITE ET D&rsquo;INTEGRATION DU TCHAD SERVICE PASSATION DES MARCHES Unit&eacute;- Travail-Progr&egrave;s -- PROJET DE CONNECTIVITE ET D&rsquo;INTEGRATION DUTCHAD Financement : Cr&eacute;dit IDA E4110-TD Agence fiduciaire : PCIT SOLLICITATION A MANIFESTATION D&rsquo;INTERET N&deg; 07 MTACMN/SG/PCIT/SPM/2026 Pour Recrutem",
-      "source": "World Bank",
-      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00470966",
-      "_source_label": "World Bank",
-      "notice_type_normalized": "관심표명(EOI)",
-      "consortium_signal": false,
-      "traffic_survey_signal": false,
-      "first_seen": "2026-09-26"
-    },
-    {
       "id": "wb-OP00471992",
       "notice_type": "Request for Expression of Interest",
       "notice_date": "29-Sep-2026",
@@ -215,6 +278,27 @@
       "consortium_signal": false,
       "traffic_survey_signal": false,
       "first_seen": "2026-10-01"
+    },
+    {
+      "id": "wb-OP00470966",
+      "notice_type": "Request for Expression of Interest",
+      "notice_date": "29-Sep-2026",
+      "submission_date": "2026-10-14T00:00:00Z",
+      "country": "Chad",
+      "project_id": "P180915",
+      "project_name": "Chad Connectivity and Integration Project",
+      "bid_reference_no": "TD-MTCAMN-573277-CS-CQS",
+      "bid_description": "Recrutement d un consultant firme charge de la cartographie des chaines de valeur agricoles et halieutiques à  forte croissance et capacité d exportations y compris les acteurs tel que les associations SME  transporteurs petits commerçants et producteurs",
+      "procurement_method": "Quality And Cost-Based Selection",
+      "procurement_group": "CS",
+      "summary": "REPUBLIQUE DU TCHAD PRESIDENCE DE LAREPUBLIQUE PRIMATURE MINISTERE DES TRANSPORTS, DE L&rsquo;AVIATION CIVILE ET DE LA METEOROLOGIE NATIONALE SECRETARIAT GENERAL PROJET DE CONNECTIVITE ET D&rsquo;INTEGRATION DU TCHAD SERVICE PASSATION DES MARCHES Unit&eacute;- Travail-Progr&egrave;s -- PROJET DE CONNECTIVITE ET D&rsquo;INTEGRATION DUTCHAD Financement : Cr&eacute;dit IDA E4110-TD Agence fiduciaire : PCIT SOLLICITATION A MANIFESTATION D&rsquo;INTERET N&deg; 07 MTACMN/SG/PCIT/SPM/2026 Pour Recrutem",
+      "source": "World Bank",
+      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00470966",
+      "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명(EOI)",
+      "consortium_signal": false,
+      "traffic_survey_signal": false,
+      "first_seen": "2026-09-26"
     },
     {
       "id": "wb-OP00467773",
@@ -446,27 +530,6 @@
       "first_seen": "2026-09-27"
     },
     {
-      "id": "wb-OP00470797",
-      "notice_type": "Request for Expression of Interest",
-      "notice_date": "24-Sep-2026",
-      "submission_date": "2026-10-02T00:00:00Z",
-      "country": "Uzbekistan",
-      "project_id": "P171683",
-      "project_name": "Electricity Sector Transformation and Resilient Transmission",
-      "bid_reference_no": "ESTART/LCS/ESG-VERIFICATION-2026",
-      "bid_description": "Procurement of ESG Report Verification Services",
-      "procurement_method": "Least Cost Selection",
-      "procurement_group": "CS",
-      "summary": "REQUEST FOR EXPRESSIONS OF INTEREST (CONSULTING SERVICES &ndash; FIRMS SELECTION) Country Republic of Uzbekistan Name of Project Electricity Sector Transformation and Resilient Transmission (ESTART) Project Loan/Credit/Grant No. IDA-69430 Assignment Title Independent Assurance (Verification) of the 2025 Sustainability Report of JSC &ldquo;National Electric Grid of Uzbekistan&rdquo; Reference No. (as per Procurement Plan) ESTART/LCS/ESG-VERIFICATION-2026 Selection Method Least-Cost Based Selectio",
-      "source": "World Bank",
-      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00470797",
-      "_source_label": "World Bank",
-      "notice_type_normalized": "관심표명(EOI)",
-      "consortium_signal": false,
-      "traffic_survey_signal": false,
-      "first_seen": "2026-09-26"
-    },
-    {
       "id": "wb-OP00470853",
       "notice_type": "Request for Expression of Interest",
       "notice_date": "24-Sep-2026",
@@ -570,6 +633,27 @@
       "consortium_signal": false,
       "traffic_survey_signal": false,
       "first_seen": "2026-09-26"
+    },
+    {
+      "id": "wb-OP00470843",
+      "notice_type": "Request for Expression of Interest",
+      "notice_date": "24-Sep-2026",
+      "submission_date": "2026-10-14T00:00:00Z",
+      "country": "Djibouti",
+      "project_id": "P180696",
+      "project_name": "Economic and Financial Governance Project",
+      "bid_reference_no": "DJ-MB-569498-CS-QCBS",
+      "bid_description": "Recrutement d’un Cabinet international pour l’élaboration de la Politique Actionnariale de l’État (PAE) et des Contrats d’Objectifs et de Performance (COP) des Entreprises Publiques",
+      "procurement_method": "Quality And Cost-Based Selection",
+      "procurement_group": "CS",
+      "summary": "PROJET D&#39;APPUI &Agrave; LA GOUVERNANCE &Eacute;CONOMIQUE ET FINANCI&Egrave;RE (PAGEF) Don IDA &ndash; Banque mondiale &ndash; P180696 AVIS &Agrave; MANIFESTATION D&#39;INT&Eacute;R&Ecirc;T AMI N&deg;04/AMI/PAGEF/2026 SERVICES DE CONSULTANTS &ndash; S&Eacute;LECTION D&#39;UN CABINET DE CONSULTANTS Recrutement d&#39;un cabinet international pour l&#39;&eacute;laboration de la Politique Actionnariale de l&#39;&Eacute;tat (PAE) et des Contrats d&#39;Objectifs et de Performance (COP) des entrepri",
+      "source": "World Bank",
+      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00470843",
+      "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명(EOI)",
+      "consortium_signal": false,
+      "traffic_survey_signal": false,
+      "first_seen": "2026-10-03"
     },
     {
       "id": "wb-OP00470841",
