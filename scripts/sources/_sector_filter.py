@@ -204,6 +204,15 @@ HARD_EXCLUDE_PATTERNS = [
     # 핀테크 플랫폼 개발 용역이라 다산 전문영역과 무관.
     r"secure wallet", r"digital payment (and|&) integration",
     r"port community system",
+    # 2026-10-04 신규 오탐 모음 (설계·감리가 아닌 장비유지보수/데이터수집/민원처리/홍보/국토계획 건)
+    r"\bxerox\b",
+    r"collecte des donn[ée]es\s+pour\s+le\s+suivi\s+des\s+indicateurs",
+    r"organisation d[’']appui local",
+    r"documentaire", r"documentary",
+    r"ordenamiento territorial",
+    # 지하수 조사·시추(borehole) 타당성조사/설계 — 에티오피아 LLRP II "Groundwater
+    # Investigation and Borehole Drilling" 사례 (사용자 판단: 도로/교량 외 제외)
+    r"groundwater investigation", r"borehole drilling",
     r"infrastructures? socio[- ]?[ée]conomiques?",
     # 기상관측장비망(번개감지·기상레이더·기상관측소 등) 구축 타당성조사 — 잠비아
     # TRALARD II "National Lightning Detection Network"/"National Weather Radar
