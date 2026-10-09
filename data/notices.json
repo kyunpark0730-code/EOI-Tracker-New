@@ -1,35 +1,35 @@
 {
-  "generated_at": "2026-10-08T00:59:24.741200+00:00",
-  "today_kst": "2026-10-08",
+  "generated_at": "2026-10-09T01:13:04.541919+00:00",
+  "today_kst": "2026-10-09",
   "sources": [
-    "World Bank 616건",
+    "World Bank 612건",
     "한국건설엔지니어링협회 0건",
     "ADB 0건",
-    "나라장터(G2B) 48건",
+    "나라장터(G2B) 49건",
     "해외건설협회(ICAK) 3건",
     "EIB 42건",
     "KIND 4건",
-    "AIIB 3건"
+    "AIIB 10건"
   ],
   "source_status": {
     "World Bank": {
-      "last_success": "2026-10-08",
+      "last_success": "2026-10-09",
       "consecutive_failures": 0
     },
     "한국건설엔지니어링협회": {
       "last_success": "2026-09-25",
-      "consecutive_failures": 13
+      "consecutive_failures": 14
     },
     "ADB": {
       "last_success": "알 수 없음",
-      "consecutive_failures": 175
+      "consecutive_failures": 176
     },
     "나라장터(G2B)": {
-      "last_success": "2026-10-08",
+      "last_success": "2026-10-09",
       "consecutive_failures": 0
     },
     "해외건설협회(ICAK)": {
-      "last_success": "2026-10-08",
+      "last_success": "2026-10-09",
       "consecutive_failures": 0
     },
     "EIB": {
@@ -37,17 +37,100 @@
       "consecutive_failures": 0
     },
     "KIND": {
-      "last_success": "2026-10-08",
+      "last_success": "2026-10-09",
       "consecutive_failures": 0
     },
     "AIIB": {
-      "last_success": "2026-10-08",
+      "last_success": "2026-10-09",
       "consecutive_failures": 0
     }
   },
-  "count": 101,
+  "count": 105,
   "new_today_count": 6,
   "notices": [
+    {
+      "id": "aiib-https://www.aiib.org/en/projects/details/2026/_download/Azerbaijan/261007_CW-01_BM-2-ALL_SPN_Amendment-No.1-to_Specific-Procurement-Notice-DRAFT.pdf",
+      "notice_type": "Procurement Notice",
+      "notice_date": "Oct 8, 2026",
+      "submission_date": "",
+      "country": "Azerbaijan",
+      "project_id": "",
+      "project_name": "Baku Metro Expansion Project – Phase I",
+      "bid_reference_no": "",
+      "bid_description": "",
+      "procurement_method": "",
+      "summary": "",
+      "source": "AIIB",
+      "source_url": "https://www.aiib.org/en/projects/details/2026/_download/Azerbaijan/261007_CW-01_BM-2-ALL_SPN_Amendment-No.1-to_Specific-Procurement-Notice-DRAFT.pdf",
+      "_source_label": "AIIB",
+      "notice_type_normalized": "기타",
+      "consortium_signal": false,
+      "traffic_survey_signal": false,
+      "first_seen": "2026-10-09"
+    },
+    {
+      "id": "wb-OP00473636",
+      "notice_type": "Request for Expression of Interest",
+      "notice_date": "07-Oct-2026",
+      "submission_date": "2026-10-22T00:00:00Z",
+      "country": "Ethiopia",
+      "project_id": "P180076",
+      "project_name": "Lowlands Livelihood Resilience Project, Phase Two (LLRP II)",
+      "bid_reference_no": "ET-ORO-RPCU-570403-CS-QCBS",
+      "bid_description": "Consultancy Services for Design and Study of Bridges and Rural Gravel Roads in Madawalabu, Sawena, Elwaye, Dawe Sarar and Mieso Woredas.",
+      "procurement_method": "Quality And Cost-Based Selection",
+      "procurement_group": "CS",
+      "summary": "REQUEST FOR EXPRESSIONS OF INTEREST CONSULTING SERVICES &ndash; FIRMS SELECTION Country: Ethiopia Project: Lowlands Livelihood Resilience Project Phase II Loan No./Credit No./ Grant No.: IDA-75190 Assignment Title and Procurement Reference No : Small and Medium span Bridges and Roads (ET-ORO-RPCU-570403-CS-QCBS) The Federal Democratic Republic of Ethiopia has received financing from the World Bank toward the cost of the Lowlands Livelihood Resilience Project Phase II. The Oromia Irrigation and P",
+      "source": "World Bank",
+      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00473636",
+      "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명(EOI)",
+      "consortium_signal": false,
+      "traffic_survey_signal": false,
+      "first_seen": "2026-10-09"
+    },
+    {
+      "id": "wb-OP00473662",
+      "notice_type": "Request for Expression of Interest",
+      "notice_date": "07-Oct-2026",
+      "submission_date": "2026-10-22T00:00:00Z",
+      "country": "Georgia",
+      "project_id": "P173975",
+      "project_name": "Georgia Relief and Recovery for Micro, Small, and Medium Enterprises",
+      "bid_reference_no": "GE-GEDC-CS-LCS-03",
+      "bid_description": "Identification of Sectoral Opportunities in Regions of Georgia",
+      "procurement_method": "Least Cost Selection",
+      "procurement_group": "CS",
+      "summary": "REQUEST FOR EXPRESSIONS OF INTEREST (Identification of Sectoral Opportunities in Regions of Georgia &ndash; Least Cost Selection) Country: Georgia Project Name: The Relief and Recovery for Micro, Small and Medium Enterprises (MSMEs) Project No : P173975 Loan No. 9239-GE Assignment Title: Identification of Sectoral Opportunities in Regions of Georgia Reference No . (as per Procurement Plan): GE-GEDC-CS-LCS-03 Implementing Agency: JSC Georgian Economic Development Corporation Date: 07.10.2026 The ",
+      "source": "World Bank",
+      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00473662",
+      "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명(EOI)",
+      "consortium_signal": false,
+      "traffic_survey_signal": false,
+      "first_seen": "2026-10-09"
+    },
+    {
+      "id": "wb-OP00473710",
+      "notice_type": "Request for Expression of Interest",
+      "notice_date": "07-Oct-2026",
+      "submission_date": "2026-11-05T00:00:00Z",
+      "country": "Egypt, Arab Republic of",
+      "project_id": "P172548",
+      "project_name": "Greater Cairo Air Pollution Management and Climate Change Project",
+      "bid_reference_no": "EG-EEAA-559382-CS-QCBS",
+      "bid_description": "developing guidelines for healthcare waste management in Egypt - rebidding process related to activity ref EG-EEAA-474647-CS-CQS",
+      "procurement_method": "Quality And Cost-Based Selection",
+      "procurement_group": "CS",
+      "summary": "REQUEST FOR EXPRESSIONS OF INTEREST (REOI) Arab Republic of Egypt Greater Cairo Air Pollution Management and Climate Change Project Loan No.: P172548 Assignment Title: &ldquo;Updating guidelines for Healthcare Waste Management in Egypt&rdquo; Reference No. (as per Procurement Plan): EG-EEAA-559382-CS-QCBS The Greater Cairo Air Pollution Management and Climate Change Project (herein &ldquo;the Project&rdquo;) aims at reducing air emissions from critical sectors and increasing resilience to air po",
+      "source": "World Bank",
+      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00473710",
+      "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명(EOI)",
+      "consortium_signal": false,
+      "traffic_survey_signal": false,
+      "first_seen": "2026-10-09"
+    },
     {
       "id": "wb-OP00473365",
       "notice_type": "Request for Expression of Interest",
@@ -68,6 +151,27 @@
       "consortium_signal": false,
       "traffic_survey_signal": false,
       "first_seen": "2026-10-08"
+    },
+    {
+      "id": "wb-OP00473258",
+      "notice_type": "Request for Expression of Interest",
+      "notice_date": "06-Oct-2026",
+      "submission_date": "2026-10-20T00:00:00Z",
+      "country": "Ecuador",
+      "project_id": "P181079",
+      "project_name": "Ecuador: Emergency Resilient Reconstruction Project",
+      "bid_reference_no": "EC-MTOP-574260-CS-QCBS",
+      "bid_description": "Fiscalización para la rehabilitación vial e intervención de sitios críticos, del corredor RVE E59 Cuenca - Girón - Pasaje, ubicado en las provincias de Azuay y El Oro",
+      "procurement_method": "Quality And Cost-Based Selection",
+      "procurement_group": "CS",
+      "summary": "REP&Uacute;BLICA DEL ECUADOR Ministerio de Infraestructura y Tecnolog&iacute;a- MIT PROYECTO DE RECONSTRUCCI&Oacute;N RESILIENTE DE EMERGENCIA Contrato de Pr&eacute;stamo BIRF 9555 - EC SOLICITUD DE EXPRESIONES DE INTER&Eacute;S DE LA FISCALIZACI&Oacute;N PARA LA REHABILITACI&Oacute;N VIAL E INTERVENCI&Oacute;N DE SITIOS CR&Iacute;TICOS, DEL CORREDOR RVE E59 CUENCA - GIR&Oacute;N - PASAJE, UBICADO EN LAS PROVINCIAS DE AZUAY Y EL ORO REFERENCIA: EC-MTOP-574260-CS-QCBS 05-octubre-2026 La Rep&uacut",
+      "source": "World Bank",
+      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00473258",
+      "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명(EOI)",
+      "consortium_signal": false,
+      "traffic_survey_signal": false,
+      "first_seen": "2026-10-09"
     },
     {
       "id": "wb-OP00473290",
@@ -343,6 +447,26 @@
       "first_seen": "2026-10-03"
     },
     {
+      "id": "aiib-https://www.aiib.org/en/projects/details/2026/_download/nepal/Addendum-No.-3-to-Request-for-Expressions-of-Interest.pdf",
+      "notice_type": "Procurement Notice",
+      "notice_date": "Oct 1, 2026",
+      "submission_date": "",
+      "country": "nepal",
+      "project_id": "",
+      "project_name": "Nepal Project: Siddartha Highway (Butwal-Pokhara Section) Improvement Project",
+      "bid_reference_no": "",
+      "bid_description": "",
+      "procurement_method": "",
+      "summary": "",
+      "source": "AIIB",
+      "source_url": "https://www.aiib.org/en/projects/details/2026/_download/nepal/Addendum-No.-3-to-Request-for-Expressions-of-Interest.pdf",
+      "_source_label": "AIIB",
+      "notice_type_normalized": "기타",
+      "consortium_signal": false,
+      "traffic_survey_signal": false,
+      "first_seen": "2026-10-09"
+    },
+    {
       "id": "wb-OP00472137",
       "notice_type": "Request for Expression of Interest",
       "notice_date": "30-Sep-2026",
@@ -609,27 +733,6 @@
       "source_url": "https://www.aiib.org/en/projects/details/2026/_download/Cambodia/SPN-AIIB-CAISAR-CW-01.pdf",
       "_source_label": "AIIB",
       "notice_type_normalized": "기타",
-      "consortium_signal": false,
-      "traffic_survey_signal": false,
-      "first_seen": "2026-09-30"
-    },
-    {
-      "id": "wb-OP00471628",
-      "notice_type": "Request for Expression of Interest",
-      "notice_date": "28-Sep-2026",
-      "submission_date": "2026-10-08T00:00:00Z",
-      "country": "Congo, Democratic Republic of",
-      "project_id": "P178389",
-      "project_name": "Water Supply and Sanitation Access Program (PASEA) Project",
-      "bid_reference_no": "ZR-CEP-O-545773-CS-CQS",
-      "bid_description": "Elaboration de la situation de référence pour l'indicateur lié à l'accès à l'eau potable dans les sites de PASEA",
-      "procurement_method": "Consultant Qualification  Selection",
-      "procurement_group": "CS",
-      "summary": "Programme d&rsquo;Acc&egrave;s aux Services d&rsquo;Eau et d&rsquo;Assainissement en RDC (PASEA) Cr&eacute;dit IDA N&deg; 73390-ZR Recrutement d&rsquo;un Consultant (Firme) pour la conduite de deux enqu&ecirc;tes de r&eacute;f&eacute;rence (Baselines) sur l&rsquo;Acc&egrave;s &agrave; l&rsquo;Eau Potable dans les Provinces du Kasai, Kasai Central, Kasai Oriental et Kwilu dans le Cadres des Projets PASEA et AGREE AVIS D&rsquo;APPEL PUBLIC A MANIFESTATION D&rsquo;INTERET N&deg; 140/ZR-CEP-O-545773",
-      "source": "World Bank",
-      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00471628",
-      "_source_label": "World Bank",
-      "notice_type_normalized": "관심표명(EOI)",
       "consortium_signal": false,
       "traffic_survey_signal": false,
       "first_seen": "2026-09-30"
@@ -1032,27 +1135,6 @@
       "consortium_signal": false,
       "traffic_survey_signal": false,
       "first_seen": "2026-10-07"
-    },
-    {
-      "id": "wb-OP00469976",
-      "notice_type": "Request for Expression of Interest",
-      "notice_date": "21-Sep-2026",
-      "submission_date": "2026-10-08T00:00:00Z",
-      "country": "Pakistan",
-      "project_id": "P508094",
-      "project_name": "Punjab Inclusive Cities Program",
-      "bid_reference_no": "PK-PMDFC-572585-CS-CQS",
-      "bid_description": "HIRING OF CONSULTANCY FIRM FOR OWN SOURCE REVENUE (OSR) ASSESSMENT FOR PUNJAB INCLUSIVE CITIES PROGRAM (PICP) PARTNER LOCAL GOVERNMENTS / WASAs",
-      "procurement_method": "Consultant Qualification  Selection",
-      "procurement_group": "CS",
-      "summary": "GOVERNMENT OF THE PUNJAB PUNJAB MUNICIPAL DEVELOPMENT FUND COMPANY (PMDFC) REQUEST FOR EXPRESSION OF INTEREST (CONSULTING FIRMS) HIRING OF CONSULTANCY FIRM FOR OWN SOURCE REVENUE (OSR) ASSESSMENT FOR PUNJAB INCLUSIVE CITIES PROGRAM (PICP) PARTNER LOCAL GOVERNMENTS / WASAs PK-PMDFC-572585-CS-CQS The Govt. of the Punjab (hereinafter called &ldquo;Borrower&rdquo;) has received financing from the International Development Association (IDA) &amp; International Bank of Reconstruction &amp; Development",
-      "source": "World Bank",
-      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00469976",
-      "_source_label": "World Bank",
-      "notice_type_normalized": "관심표명(EOI)",
-      "consortium_signal": false,
-      "traffic_survey_signal": false,
-      "first_seen": "2026-09-23"
     },
     {
       "id": "wb-OP00469914",
