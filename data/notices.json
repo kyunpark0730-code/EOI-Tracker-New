@@ -1,35 +1,35 @@
 {
-  "generated_at": "2026-10-09T01:13:04.541919+00:00",
-  "today_kst": "2026-10-09",
+  "generated_at": "2026-10-10T00:49:34.514628+00:00",
+  "today_kst": "2026-10-10",
   "sources": [
-    "World Bank 612건",
+    "World Bank 613건",
     "한국건설엔지니어링협회 0건",
     "ADB 0건",
     "나라장터(G2B) 49건",
     "해외건설협회(ICAK) 3건",
     "EIB 42건",
     "KIND 4건",
-    "AIIB 10건"
+    "AIIB 7건"
   ],
   "source_status": {
     "World Bank": {
-      "last_success": "2026-10-09",
+      "last_success": "2026-10-10",
       "consecutive_failures": 0
     },
     "한국건설엔지니어링협회": {
       "last_success": "2026-09-25",
-      "consecutive_failures": 14
+      "consecutive_failures": 15
     },
     "ADB": {
       "last_success": "알 수 없음",
-      "consecutive_failures": 176
+      "consecutive_failures": 177
     },
     "나라장터(G2B)": {
-      "last_success": "2026-10-09",
+      "last_success": "2026-10-10",
       "consecutive_failures": 0
     },
     "해외건설협회(ICAK)": {
-      "last_success": "2026-10-09",
+      "last_success": "2026-10-10",
       "consecutive_failures": 0
     },
     "EIB": {
@@ -37,17 +37,59 @@
       "consecutive_failures": 0
     },
     "KIND": {
-      "last_success": "2026-10-09",
+      "last_success": "2026-10-10",
       "consecutive_failures": 0
     },
     "AIIB": {
-      "last_success": "2026-10-09",
+      "last_success": "2026-10-10",
       "consecutive_failures": 0
     }
   },
-  "count": 105,
-  "new_today_count": 6,
+  "count": 99,
+  "new_today_count": 2,
   "notices": [
+    {
+      "id": "wb-OP00473995",
+      "notice_type": "Request for Expression of Interest",
+      "notice_date": "08-Oct-2026",
+      "submission_date": "2026-10-22T00:00:00Z",
+      "country": "Ethiopia",
+      "project_id": "P180076",
+      "project_name": "Lowlands Livelihood Resilience Project, Phase Two (LLRP II)",
+      "bid_reference_no": "ET-BEN-GUM-RPCU-569758-CS-QCBS",
+      "bid_description": "Consultancy Services for Feasibility Study and Detailed Design of Irrigation Schemes in Four Woredas: Golitseha Drip Irrigation, Hobi Gravity Irrigation, Testura Gravity Irrigation, and Undulu Woreda Sprinkler Irrigation.",
+      "procurement_method": "Quality And Cost-Based Selection",
+      "procurement_group": "CS",
+      "summary": "REQUEST FOR EXPRESSIONS OF INTEREST (CONSULTING SERVICES&ndash; FIRMS SELECTION) COUNTRY: [Ethiopia] NAME OF PROJECT: [Benishangul gumuz regional state, Lowlands Livelihood Resilience Project (LLRP-II)] Loan No: [IDA- 75190] Assignment Title: Consultancy Services for Planning, Feasibility Study, Environmental and Social Impact Assessment, Detailed Engineering Design, Preparation of Tender Documents and Construction Readiness Packages for Climate-Resilient Irrigation and Drainage in four woredas ",
+      "source": "World Bank",
+      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00473995",
+      "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명(EOI)",
+      "consortium_signal": false,
+      "traffic_survey_signal": false,
+      "first_seen": "2026-10-10"
+    },
+    {
+      "id": "wb-OP00473911",
+      "notice_type": "Request for Expression of Interest",
+      "notice_date": "08-Oct-2026",
+      "submission_date": "2026-10-29T00:00:00Z",
+      "country": "Angola",
+      "project_id": "P178035",
+      "project_name": "Accelerating Economic Diversification and Job Creation Project",
+      "bid_reference_no": "80CS1/MINPLAN/25",
+      "bid_description": "Serviço de Consultoria para Extensão do sistema de licenciamento nos postos fronteiriços, incluindo meios tecnológico e capacitação técnica",
+      "procurement_method": "Consultant Qualification  Selection",
+      "procurement_group": "CS",
+      "summary": "REP&Uacute;BLICA DE ANGOLA MINIST&Eacute;RIO DO PLANEAMENTO PROJECTO DE ACELERA&Ccedil;&Atilde;O DA DIVERSIFICA&Ccedil;&Atilde;O ECON&Oacute;MICA E CRIA&Ccedil;&Atilde;O DE EMPREGO Empr&eacute;stimo No.: IBRD-95270 Projecto ID: P178035 SOLICITA&Ccedil;&Atilde;O DE MANIFESTA&Ccedil;&Otilde;ES DE INTERESSE (SERVI&Ccedil;OS DE CONSULTORIA) Concurso : SERVI&Ccedil;O DE CONSULTORIA PARA EXTENS&Atilde;O DO SISTEMA DE LICENCIAMENTO NOS POSTOS FRONTEIRI&Ccedil;OS, INCLUINDO MEIOS TECNOL&Oacute;GICO E CA",
+      "source": "World Bank",
+      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00473911",
+      "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명(EOI)",
+      "consortium_signal": false,
+      "traffic_survey_signal": false,
+      "first_seen": "2026-10-10"
+    },
     {
       "id": "aiib-https://www.aiib.org/en/projects/details/2026/_download/Azerbaijan/261007_CW-01_BM-2-ALL_SPN_Amendment-No.1-to_Specific-Procurement-Notice-DRAFT.pdf",
       "notice_type": "Procurement Notice",
@@ -447,47 +489,6 @@
       "first_seen": "2026-10-03"
     },
     {
-      "id": "aiib-https://www.aiib.org/en/projects/details/2026/_download/nepal/Addendum-No.-3-to-Request-for-Expressions-of-Interest.pdf",
-      "notice_type": "Procurement Notice",
-      "notice_date": "Oct 1, 2026",
-      "submission_date": "",
-      "country": "nepal",
-      "project_id": "",
-      "project_name": "Nepal Project: Siddartha Highway (Butwal-Pokhara Section) Improvement Project",
-      "bid_reference_no": "",
-      "bid_description": "",
-      "procurement_method": "",
-      "summary": "",
-      "source": "AIIB",
-      "source_url": "https://www.aiib.org/en/projects/details/2026/_download/nepal/Addendum-No.-3-to-Request-for-Expressions-of-Interest.pdf",
-      "_source_label": "AIIB",
-      "notice_type_normalized": "기타",
-      "consortium_signal": false,
-      "traffic_survey_signal": false,
-      "first_seen": "2026-10-09"
-    },
-    {
-      "id": "wb-OP00472137",
-      "notice_type": "Request for Expression of Interest",
-      "notice_date": "30-Sep-2026",
-      "submission_date": "2026-10-09T00:00:00Z",
-      "country": "Brazil",
-      "project_id": "P180430",
-      "project_name": "Brazil: Pernambuco Rural Water and Sanitation Project (PROSAR)",
-      "bid_reference_no": "BR-SRHS -412844-CS-CQS",
-      "bid_description": "Contratação de empresa de consultoria para desenvolvimento do projeto executivo da sede da APAC.",
-      "procurement_method": "Consultant Qualification  Selection",
-      "procurement_group": "CS",
-      "summary": "SOLICITA&Ccedil;&Atilde;O DE MANIFESTA&Ccedil;&Atilde;O DE INTERESSE Servi&ccedil;os de Consultoria Pessoa Jur&iacute;dica SELE&Ccedil;&Atilde;O BASEADA NAS QUALIFICA&Ccedil;&Otilde;ES DOS CONSULTORES &ndash; SQC N&ordm; 0011.2026.0011.SRHS REP&Uacute;BLICA FEDERATIVA DO BRASIL GOVERNO DO ESTADO DE PERNAMBUCO SECRETARIA DE RECURSOS H&Iacute;DRICOS E DE SANEAMENTO DE PERNAMBUCO &ndash; SRHS/PE SECRETARIA EXECUTIVA DE SANEAMENTO &ndash; SESAN &ldquo;PROJETO DE SANEAMENTO RURAL DE PERNAMBUCO &ndash",
-      "source": "World Bank",
-      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00472137",
-      "_source_label": "World Bank",
-      "notice_type_normalized": "관심표명(EOI)",
-      "consortium_signal": false,
-      "traffic_survey_signal": false,
-      "first_seen": "2026-10-02"
-    },
-    {
       "id": "wb-OP00471254",
       "notice_type": "Request for Expression of Interest",
       "notice_date": "30-Sep-2026",
@@ -698,46 +699,6 @@
       "first_seen": "2026-10-01"
     },
     {
-      "id": "aiib-https://www.aiib.org/en/projects/details/2025/_download/Sri-Lanka/LAMS_EOI-Advertisement.zip",
-      "notice_type": "Request for Expression of Interest",
-      "notice_date": "Sep 29, 2026",
-      "submission_date": "",
-      "country": "Sri Lanka",
-      "project_id": "",
-      "project_name": "Reduction of Landslide Vulnerability by Mitigation Measures (RLVMM) Project",
-      "bid_reference_no": "",
-      "bid_description": "",
-      "procurement_method": "",
-      "summary": "",
-      "source": "AIIB",
-      "source_url": "https://www.aiib.org/en/projects/details/2025/_download/Sri-Lanka/LAMS_EOI-Advertisement.zip",
-      "_source_label": "AIIB",
-      "notice_type_normalized": "관심표명(EOI)",
-      "consortium_signal": false,
-      "traffic_survey_signal": false,
-      "first_seen": "2026-09-30"
-    },
-    {
-      "id": "aiib-https://www.aiib.org/en/projects/details/2026/_download/Cambodia/SPN-AIIB-CAISAR-CW-01.pdf",
-      "notice_type": "Procurement Notice",
-      "notice_date": "Sep 29, 2026",
-      "submission_date": "",
-      "country": "Cambodia",
-      "project_id": "",
-      "project_name": "Climate Adaptive Irrigation and Sustainable Agriculture for Resilience Project (CAISAR)",
-      "bid_reference_no": "",
-      "bid_description": "",
-      "procurement_method": "",
-      "summary": "",
-      "source": "AIIB",
-      "source_url": "https://www.aiib.org/en/projects/details/2026/_download/Cambodia/SPN-AIIB-CAISAR-CW-01.pdf",
-      "_source_label": "AIIB",
-      "notice_type_normalized": "기타",
-      "consortium_signal": false,
-      "traffic_survey_signal": false,
-      "first_seen": "2026-09-30"
-    },
-    {
       "id": "wb-OP00471731",
       "notice_type": "Request for Expression of Interest",
       "notice_date": "28-Sep-2026",
@@ -794,27 +755,6 @@
       "summary": "EAST AFRICAN COMMUNITY REQUEST FOR EXPRESSIONS OF INTEREST (CONSULTING SERVICES - FIRMS SELECTION) Project Name: Eastern Africa Regional Statistics Program-for-Results (EARSPforR) Project ID: P176371 Assignment Title: Consultancy Services for Development of Animated Video Content with Infographics, Data Visualizations and Voice-over Narration for EAC Online Statistics Learning Materials Reference No.: TZ-EAC-564358-CS-CQS 1. BACKGROUND The East African Community (EAC) Secretariat is implementing",
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00471479",
-      "_source_label": "World Bank",
-      "notice_type_normalized": "관심표명(EOI)",
-      "consortium_signal": false,
-      "traffic_survey_signal": false,
-      "first_seen": "2026-09-29"
-    },
-    {
-      "id": "wb-OP00471242",
-      "notice_type": "Request for Expression of Interest",
-      "notice_date": "25-Sep-2026",
-      "submission_date": "2026-10-09T00:00:00Z",
-      "country": "Liberia",
-      "project_id": "P518023",
-      "project_name": "Liberia Economic Corridors GFPP",
-      "bid_reference_no": "LR-IIU-569555-CS-QCBS",
-      "bid_description": "Feasibility Studies, Economic and Financial Analysis, and Conceptual Engineering Design for the Buchanan to Nimba (Legacy) Corridor.",
-      "procurement_method": "Quality And Cost-Based Selection",
-      "procurement_group": "CS",
-      "summary": "Republic of Liberia INFRASTRUCTURE IMPLEMENTATION UNIT MINISTRY OF PUBLIC WORKS P. O Box 9011 South Lynch Street REQUEST FOR EXPRESSIONS OF INTEREST Country: Liberia Grant No.: IDA-E7460 Project ID : P518023 Assignment Title: Consultancy Services for Feasibility Study, Economic and Financial Analysis and the Conceptual Engineering Design of Buchanan&ndash;Nimba (Legacy) Corridor Reference No .: LR-IIU-569555-CS-QCBS This Request for Expressions of Interest follows the General Procurement Notice ",
-      "source": "World Bank",
-      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00471242",
       "_source_label": "World Bank",
       "notice_type_normalized": "관심표명(EOI)",
       "consortium_signal": false,
@@ -990,27 +930,6 @@
       "first_seen": "2026-09-26"
     },
     {
-      "id": "wb-OP00470441",
-      "notice_type": "Request for Expression of Interest",
-      "notice_date": "23-Sep-2026",
-      "submission_date": "2026-10-09T00:00:00Z",
-      "country": "Congo, Democratic Republic of",
-      "project_id": "P508410",
-      "project_name": "DRC Urban Flood Resilience Project",
-      "bid_reference_no": "ZR-PRIUR-513365-CS-QCBS",
-      "bid_description": "Recrutement d'un consultant (firme) en charge de l'élaboration du Plan Directeur de Drainage de la Ville de Kalemie",
-      "procurement_method": "Quality And Cost-Based Selection",
-      "procurement_group": "CS",
-      "summary": "APPEL A MANIFESTATIONS D&rsquo;INTERET N&deg;061/MITP/CI/PRIUR/2026 (SERVICES CONSULTANT &ndash; ACCORD CADRE &ndash; SELECTION DE FIRMES) REPUBLIQUE DEMOCRATIQUE DU CONGO PROJET DE RESILIENCE AUX INONDATIONS URBAINES EN REPUBLIQUE DEMOCRATIQUE DU CONGO &laquo; PRIUR &raquo; N &deg; de Pr&ecirc;t/cr&eacute;dit/Don : IDA- D78030 Recrutement d&rsquo;un Consultant (Firme) charg&eacute; de l&rsquo;&eacute;laboration du Plan Directeur de Drainage de la Ville de Kalemie. N&deg; de r&eacute;f&eacute;re",
-      "source": "World Bank",
-      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00470441",
-      "_source_label": "World Bank",
-      "notice_type_normalized": "관심표명(EOI)",
-      "consortium_signal": false,
-      "traffic_survey_signal": false,
-      "first_seen": "2026-09-25"
-    },
-    {
       "id": "wb-OP00470495",
       "notice_type": "Request for Expression of Interest",
       "notice_date": "23-Sep-2026",
@@ -1051,27 +970,6 @@
       "consortium_signal": false,
       "traffic_survey_signal": false,
       "first_seen": "2026-09-25"
-    },
-    {
-      "id": "wb-OP00470333",
-      "notice_type": "Request for Expression of Interest",
-      "notice_date": "22-Sep-2026",
-      "submission_date": "2026-10-09T00:00:00Z",
-      "country": "Central Africa",
-      "project_id": "P175235",
-      "project_name": "Central Africa Regional Waterways Project",
-      "bid_reference_no": "CG-PRACAC-109-C-QC-26",
-      "bid_description": "RECRUTEMENT D'UNE ONG  POUR  LA FORMATION, LA COMMUNICATION SOCIALE, LE SOUTIEN PSYCHO SOCIAL DANS LE CADRE DE LA PREVENTION DES VBG/AES/HS AINSI QUE LA SENSIBILISATION ET LA VULGARISATION DU MGP, POUR LES ACTIVITES DU PROJET, Y COMPRIS CELLES DU GIE SCEV",
-      "procurement_method": "Consultant Qualification  Selection",
-      "procurement_group": "CS",
-      "summary": "AVIS A MANIFESTATION D&rsquo;INTERET N&deg; 02/MEPSP/2026/UGP PRACAC POUR LE RECRUTEMENT D&#39;UNE ONG LOCALE SPECIALISEE DANS LA PREVENTION ET LA REPONSE AUX VIOLENCES BASEES SUR LE GENRE (VBG), Y COMPRIS L&#39;EXPLOITATION ET LES ABUS SEXUELS (EAS) ET LE HARCELEMENT SEXUEL (HS) ET CHARGEE DE LA FORMATION, DE LA COMMUNICATION SOCIALE, DU SOUTIEN PSYCHOSOCIAL AINSI QUE DE LA SENSIBILISATION ET DE LA VULGARISATION DU MECANISME DE GESTION DES PLAINTES (MGP) DU PRACAC Les Gouvernements de la R&eacu",
-      "source": "World Bank",
-      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00470333",
-      "_source_label": "World Bank",
-      "notice_type_normalized": "관심표명(EOI)",
-      "consortium_signal": false,
-      "traffic_survey_signal": false,
-      "first_seen": "2026-09-24"
     },
     {
       "id": "wb-OP00469866",
@@ -1282,27 +1180,6 @@
       "consortium_signal": false,
       "traffic_survey_signal": false,
       "first_seen": "2026-09-14"
-    },
-    {
-      "id": "wb-OP00468041",
-      "notice_type": "Request for Expression of Interest",
-      "notice_date": "10-Sep-2026",
-      "submission_date": "2026-10-09T00:00:00Z",
-      "country": "Mozambique",
-      "project_id": "P500488",
-      "project_name": "Climate Resilient Roads for the North Project",
-      "bid_reference_no": "47A003041/CP/38/2026",
-      "bid_description": "Consulting Services for a Sexual Exploitation and Abuse/Sexual Harassment/Gender-Based Violence (SEA/SH/GBV) Third-Party Monitoring Consultant.",
-      "procurement_method": "Quality And Cost-Based Selection",
-      "procurement_group": "CS",
-      "summary": "SOLICITA&Ccedil;&Atilde;O DE MANIFESTA&Ccedil;&Atilde;O DE INTERESSE (SERVI&Ccedil;OS DE CONSULTORIA - SELEC&Ccedil;&Atilde;O DE FIRMAS) Pa&iacute;s: Mo&ccedil;ambique Nome do Projecto : Projecto de Estradas Resilientes &agrave;s Altera&ccedil;&otilde;es Clim&aacute;ticas para o Norte (CRRN - P500488) Donativo No.: E315-MZ Designa&ccedil;&atilde;o dos Servi&ccedil;os: Servi&ccedil;os de Consultoria para a Monitoria da Terceira parte para Assuntos de Explora&ccedil;&atilde;o e Abuso Sexual / Ass&",
-      "source": "World Bank",
-      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00468041",
-      "_source_label": "World Bank",
-      "notice_type_normalized": "관심표명(EOI)",
-      "consortium_signal": false,
-      "traffic_survey_signal": false,
-      "first_seen": "2026-09-13"
     },
     {
       "id": "wb-OP00466086",
