@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-10T00:49:34.514628+00:00",
-  "today_kst": "2026-10-10",
+  "generated_at": "2026-10-11T00:14:42.431450+00:00",
+  "today_kst": "2026-10-11",
   "sources": [
-    "World Bank 613건",
+    "World Bank 648건",
     "한국건설엔지니어링협회 0건",
     "ADB 0건",
     "나라장터(G2B) 49건",
@@ -13,23 +13,23 @@
   ],
   "source_status": {
     "World Bank": {
-      "last_success": "2026-10-10",
+      "last_success": "2026-10-11",
       "consecutive_failures": 0
     },
     "한국건설엔지니어링협회": {
       "last_success": "2026-09-25",
-      "consecutive_failures": 15
+      "consecutive_failures": 16
     },
     "ADB": {
       "last_success": "알 수 없음",
-      "consecutive_failures": 177
+      "consecutive_failures": 178
     },
     "나라장터(G2B)": {
-      "last_success": "2026-10-10",
+      "last_success": "2026-10-11",
       "consecutive_failures": 0
     },
     "해외건설협회(ICAK)": {
-      "last_success": "2026-10-10",
+      "last_success": "2026-10-11",
       "consecutive_failures": 0
     },
     "EIB": {
@@ -37,17 +37,38 @@
       "consecutive_failures": 0
     },
     "KIND": {
-      "last_success": "2026-10-10",
+      "last_success": "2026-10-11",
       "consecutive_failures": 0
     },
     "AIIB": {
-      "last_success": "2026-10-10",
+      "last_success": "2026-10-11",
       "consecutive_failures": 0
     }
   },
-  "count": 99,
-  "new_today_count": 2,
+  "count": 100,
+  "new_today_count": 1,
   "notices": [
+    {
+      "id": "wb-OP00474225",
+      "notice_type": "Request for Expression of Interest",
+      "notice_date": "09-Oct-2026",
+      "submission_date": "2026-11-23T00:00:00Z",
+      "country": "Moldova",
+      "project_id": "P180153",
+      "project_name": "Moldova Rural Connectivity Project",
+      "bid_reference_no": "MRCP/CS/C5/01",
+      "bid_description": "Constuction Supervision of Rehabilitation Works on Corridor 5: road G33: R12 - Mindic - Zgurita - Marculesti - R13 and road G35: R14 - Tepilova - Vantina - Cainarii Vechi - G33",
+      "procurement_method": "Quality And Cost-Based Selection",
+      "procurement_group": "CS",
+      "summary": "REQUEST FOR EXPRESSIONS OF INTEREST (CONSULTING SERVICES &ndash; FIRMS SELECTION) Country: Moldova Name of Project: Moldova Rural Connectivity Project Project ID: P180153 Assignment Title: Consulting Services for Construction Supervision of the Design &amp; Build Contract for the Rehabilitation of road G33: R12 &ndash; M&icirc;nd&icirc;c &ndash; Zguria &ndash; Mrculeti &ndash; R13 and G35: R14 &ndash; epilova &ndash; Vanina &ndash; Cinarii Vechi &ndash; G33 (Corridor 5) Reference No . (as per Pr",
+      "source": "World Bank",
+      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00474225",
+      "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명(EOI)",
+      "consortium_signal": false,
+      "traffic_survey_signal": false,
+      "first_seen": "2026-10-11"
+    },
     {
       "id": "wb-OP00473995",
       "notice_type": "Request for Expression of Interest",
