@@ -1,35 +1,35 @@
 {
-  "generated_at": "2026-10-14T00:18:18.027537+00:00",
-  "today_kst": "2026-10-14",
+  "generated_at": "2026-10-14T23:54:56.555006+00:00",
+  "today_kst": "2026-10-15",
   "sources": [
-    "World Bank 623건",
+    "World Bank 667건",
     "한국건설엔지니어링협회 0건",
     "ADB 0건",
-    "나라장터(G2B) 48건",
+    "나라장터(G2B) 46건",
     "해외건설협회(ICAK) 3건",
-    "EIB 200건",
+    "EIB 43건",
     "KIND 7건",
-    "AIIB 7건"
+    "AIIB 5건"
   ],
   "source_status": {
     "World Bank": {
-      "last_success": "2026-10-14",
+      "last_success": "2026-10-15",
       "consecutive_failures": 0
     },
     "한국건설엔지니어링협회": {
       "last_success": "2026-09-25",
-      "consecutive_failures": 19
+      "consecutive_failures": 20
     },
     "ADB": {
       "last_success": "알 수 없음",
-      "consecutive_failures": 181
+      "consecutive_failures": 182
     },
     "나라장터(G2B)": {
-      "last_success": "2026-10-14",
+      "last_success": "2026-10-15",
       "consecutive_failures": 0
     },
     "해외건설협회(ICAK)": {
-      "last_success": "2026-10-14",
+      "last_success": "2026-10-15",
       "consecutive_failures": 0
     },
     "EIB": {
@@ -37,17 +37,101 @@
       "consecutive_failures": 0
     },
     "KIND": {
-      "last_success": "2026-10-14",
+      "last_success": "2026-10-15",
       "consecutive_failures": 0
     },
     "AIIB": {
-      "last_success": "2026-10-14",
+      "last_success": "2026-10-15",
       "consecutive_failures": 0
     }
   },
-  "count": 103,
-  "new_today_count": 8,
+  "count": 106,
+  "new_today_count": 4,
   "notices": [
+    {
+      "id": "wb-OP00474801",
+      "notice_type": "Request for Expression of Interest",
+      "notice_date": "13-Oct-2026",
+      "submission_date": "2026-10-28T00:00:00Z",
+      "country": "Burundi",
+      "project_id": "P176396",
+      "project_name": "Burundi Digital Foundations Project",
+      "bid_reference_no": "BI-PAFEN-PIU-2.2.3.18_8-CS-CQS",
+      "bid_description": "BRB- Recrutement d’un cabinet chargé d’assurer les formations sur NDC+",
+      "procurement_method": "Consultant Qualification  Selection",
+      "procurement_group": "CS",
+      "summary": "DEMANDE DE MANIFESTATIONS D&#39;INT&Eacute;R&Ecirc;T (SERVICES DE CONSULTANTS) S&Eacute;LECTION DE FIRMES/CABINETS Pays : R&eacute;publique du Burundi N&deg; du Projet : P176396 DON IDA N&deg; E0930-BI RECRUTEMENT D&rsquo;UN CABINET CHARGE D&rsquo;ASSURER LES FORMATIONS DES CADRES DE LA BRB SUR NDC+ R&eacute;f. STEP: BI-PAFEN-PIU-2.2.3.18_8-CS-CQS Le Gouvernement de la R&eacute;publique du Burundi a obtenu de l&rsquo;Association Internationale de D&eacute;veloppement (IDA) un Don d&rsquo;un mont",
+      "source": "World Bank",
+      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00474801",
+      "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명(EOI)",
+      "consortium_signal": false,
+      "traffic_survey_signal": false,
+      "first_seen": "2026-10-15"
+    },
+    {
+      "id": "wb-OP00473767",
+      "notice_type": "Request for Expression of Interest",
+      "notice_date": "13-Oct-2026",
+      "submission_date": "2026-10-28T00:00:00Z",
+      "country": "Congo, Democratic Republic of",
+      "project_id": "P512210",
+      "project_name": "Kinshasa Urban Transformation and Jobs Program",
+      "bid_reference_no": "ZR-CI-563048-CS-QCBS",
+      "bid_description": "Mission de contrôle des Travaux de construction d'un centre de Valorisation et Enfouissement Technique (CVET), d'un centre de transfert et leur exploitation, ainsi que de réhabilitation de la route donnant l'accès au site de mise en place du CVET de MPASA",
+      "procurement_method": "Quality And Cost-Based Selection",
+      "procurement_group": "CS",
+      "summary": "Projet de Transformation Urbaine et de Cr&eacute;ation d&rsquo;Emploi &agrave; Kinshasa &laquo; KIN LA BELLE &raquo; AVIS DE SOLLICITATION DE MANIFESTATIONS D&rsquo;INTERETS (SERVICE DE CONSULTANTS - FIRMES) Recrutement d&rsquo;un consultant (firme) charg&eacute; de la Mission de Directeur de Projet (Mission de contr&ocirc;le et surveillance) des Travaux de r&eacute;habilitation du site de MPASA pour la mise en place d&#39;un centre de Valorisation et Enfouissement Technique (CVET), la cr&eacute",
+      "source": "World Bank",
+      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00473767",
+      "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명(EOI)",
+      "consortium_signal": false,
+      "traffic_survey_signal": false,
+      "first_seen": "2026-10-15"
+    },
+    {
+      "id": "wb-OP00474602",
+      "notice_type": "Request for Expression of Interest",
+      "notice_date": "13-Oct-2026",
+      "submission_date": "2026-11-02T00:00:00Z",
+      "country": "Chad",
+      "project_id": "P180915",
+      "project_name": "Chad Connectivity and Integration Project",
+      "bid_reference_no": "TD-MTCAMN-546263-CS-QCBS",
+      "bid_description": "Étude de faisabilité et DAO pour les travaux de balisage des chenaux, de dragage des ponts hauts et élimination des plantes envahissantes",
+      "procurement_method": "Quality And Cost-Based Selection",
+      "procurement_group": "CS",
+      "summary": "PROJET DE CONNECTIVITE ET D&rsquo;INTEGRATION DUTCHAD Financement : Cr&eacute;dit IDA E4110-TD Agence fiduciaire : PCIT SOLLICITATION A MANIFESTATION D&rsquo;INTERET N&deg; 08/SG/PCIT/SPM/2026 Pour le Recrutement d&#39;une firme charg&eacute;e de la r&eacute;alisation des &eacute;tudes techniques D&eacute;taill&eacute;es, &eacute;conomiques, environnementales et sociales, et la pr&eacute;paration du dossier D&rsquo;appel d&#39;offre relatif aux travaux de balisage des chenaux navigables, De drag",
+      "source": "World Bank",
+      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00474602",
+      "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명(EOI)",
+      "consortium_signal": false,
+      "traffic_survey_signal": false,
+      "first_seen": "2026-10-14"
+    },
+    {
+      "id": "wb-OP00474975",
+      "notice_type": "Request for Expression of Interest",
+      "notice_date": "13-Oct-2026",
+      "submission_date": "2026-11-09T00:00:00Z",
+      "country": "Nigeria",
+      "project_id": "P179684",
+      "project_name": "Sustainable Power and Irrigation for Nigeria Project",
+      "bid_reference_no": "NG-CROSS RIVER SPIN-573497-CS-QCBS",
+      "bid_description": "CONSULTANCY SERVICES FOR THE DESIGN REVIEW AND CONSTRUCTION SUPERVISION OF BANSARA IRRIGATION SCHEME, CROSS RIVER STATE",
+      "procurement_method": "Quality And Cost-Based Selection",
+      "procurement_group": "CS",
+      "summary": "IDA Credit No: IDA76370 REQUEST FOR EXPRESSION OF INTEREST (REOI) CONSULTANCY SERVICES FOR THE DESIGN REVIEW AND CONSTRUCTION SUPERVISION OF BANSARA IRRIGATION SCHEME, CROSS RIVER STATE Reference No. NG-CROSS RIVER SPIN- 573497-CS-QCBS The Cross River State Government has received financing from the World Bank toward the cost of the Sustainable Power and Irrigation for Nigeria (SPIN) Project, and intends to apply part of the proceeds for consulting services. 1. Objective of the Assignment The ov",
+      "source": "World Bank",
+      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00474975",
+      "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명(EOI)",
+      "consortium_signal": false,
+      "traffic_survey_signal": false,
+      "first_seen": "2026-10-15"
+    },
     {
       "id": "wb-OP00474517",
       "notice_type": "Request for Expression of Interest",
@@ -112,25 +196,25 @@
       "first_seen": "2026-10-14"
     },
     {
-      "id": "wb-OP00474602",
+      "id": "wb-OP00474729",
       "notice_type": "Request for Expression of Interest",
       "notice_date": "12-Oct-2026",
-      "submission_date": "2026-11-02T00:00:00Z",
-      "country": "Chad",
-      "project_id": "P180915",
-      "project_name": "Chad Connectivity and Integration Project",
-      "bid_reference_no": "TD-MTCAMN-546263-CS-QCBS",
-      "bid_description": "Étude de faisabilité et DAO pour les travaux de balisage des chenaux, de dragage des ponts hauts et élimination des plantes envahissantes",
+      "submission_date": "2026-11-12T00:00:00Z",
+      "country": "India",
+      "project_id": "P179935",
+      "project_name": "Enhancing Landscape and Ecosystem Management (ELEMENT) Project",
+      "bid_reference_no": "IN-MDONER-572452-CS-QCBS",
+      "bid_description": "Project Management Consulting Services for: Establishment and Operation of Knowledge and Information Sharing on Innovative Landscape Management Practices Hub through Direct Request for Proposal",
       "procurement_method": "Quality And Cost-Based Selection",
       "procurement_group": "CS",
-      "summary": "PROJET DE CONNECTIVITE ET D&rsquo;INTEGRATION DUTCHAD Financement : Cr&eacute;dit IDA E4110-TD Agence fiduciaire : PCIT SOLLICITATION A MANIFESTATION D&rsquo;INTERET N&deg; 08/SG/PCIT/SPM/2026 Pour le Recrutement d&#39;une firme charg&eacute;e de la r&eacute;alisation des &eacute;tudes techniques D&eacute;taill&eacute;es, &eacute;conomiques, environnementales et sociales, et la pr&eacute;paration du dossier D&rsquo;appel d&#39;offre relatif aux travaux de balisage des chenaux navigables, De drag",
+      "summary": "Letter of Invitation Consulting Services Name of Assignment: Project Management Consultancy for establishment and Operation of Knowledge and Information Sharing Hub in Ministry of DoNER, Govt of India RFP Reference No.: IN-MDONER-572452-CS-QCBS Loan No./Credit No./ Grant No.: PROGREEN Grant No. TFOC3612 Location and Date: New Delhi, 12/10/2026 The Ministry of Development of North Eastern Region (DoNER), through Government of India (hereinafter called &ldquo;client&rdquo;) has received financing ",
       "source": "World Bank",
-      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00474602",
+      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00474729",
       "_source_label": "World Bank",
       "notice_type_normalized": "관심표명(EOI)",
       "consortium_signal": false,
       "traffic_survey_signal": false,
-      "first_seen": "2026-10-14"
+      "first_seen": "2026-10-15"
     },
     {
       "id": "wb-OP00473974",
@@ -236,26 +320,6 @@
       "consortium_signal": false,
       "traffic_survey_signal": false,
       "first_seen": "2026-10-10"
-    },
-    {
-      "id": "aiib-https://www.aiib.org/en/projects/details/2026/_download/Azerbaijan/261007_CW-01_BM-2-ALL_SPN_Amendment-No.1-to_Specific-Procurement-Notice-DRAFT.pdf",
-      "notice_type": "Procurement Notice",
-      "notice_date": "Oct 8, 2026",
-      "submission_date": "",
-      "country": "Azerbaijan",
-      "project_id": "",
-      "project_name": "Baku Metro Expansion Project – Phase I",
-      "bid_reference_no": "",
-      "bid_description": "",
-      "procurement_method": "",
-      "summary": "",
-      "source": "AIIB",
-      "source_url": "https://www.aiib.org/en/projects/details/2026/_download/Azerbaijan/261007_CW-01_BM-2-ALL_SPN_Amendment-No.1-to_Specific-Procurement-Notice-DRAFT.pdf",
-      "_source_label": "AIIB",
-      "notice_type_normalized": "기타",
-      "consortium_signal": false,
-      "traffic_survey_signal": false,
-      "first_seen": "2026-10-09"
     },
     {
       "id": "wb-OP00473636",
