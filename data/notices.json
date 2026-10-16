@@ -1,35 +1,35 @@
 {
-  "generated_at": "2026-10-15T23:41:27.645679+00:00",
-  "today_kst": "2026-10-16",
+  "generated_at": "2026-10-16T23:35:03.415968+00:00",
+  "today_kst": "2026-10-17",
   "sources": [
-    "World Bank 671건",
+    "World Bank 684건",
     "한국건설엔지니어링협회 0건",
     "ADB 0건",
-    "나라장터(G2B) 48건",
+    "나라장터(G2B) 49건",
     "해외건설협회(ICAK) 3건",
-    "EIB 43건",
+    "EIB 42건",
     "KIND 7건",
-    "AIIB 4건"
+    "AIIB 3건"
   ],
   "source_status": {
     "World Bank": {
-      "last_success": "2026-10-16",
+      "last_success": "2026-10-17",
       "consecutive_failures": 0
     },
     "한국건설엔지니어링협회": {
       "last_success": "2026-09-25",
-      "consecutive_failures": 21
+      "consecutive_failures": 22
     },
     "ADB": {
       "last_success": "알 수 없음",
-      "consecutive_failures": 183
+      "consecutive_failures": 184
     },
     "나라장터(G2B)": {
-      "last_success": "2026-10-16",
+      "last_success": "2026-10-17",
       "consecutive_failures": 0
     },
     "해외건설협회(ICAK)": {
-      "last_success": "2026-10-16",
+      "last_success": "2026-10-17",
       "consecutive_failures": 0
     },
     "EIB": {
@@ -37,17 +37,80 @@
       "consecutive_failures": 0
     },
     "KIND": {
-      "last_success": "2026-10-16",
+      "last_success": "2026-10-17",
       "consecutive_failures": 0
     },
     "AIIB": {
-      "last_success": "2026-10-16",
+      "last_success": "2026-10-17",
       "consecutive_failures": 0
     }
   },
-  "count": 95,
-  "new_today_count": 2,
+  "count": 96,
+  "new_today_count": 4,
   "notices": [
+    {
+      "id": "wb-OP00475363",
+      "notice_type": "Request for Expression of Interest",
+      "notice_date": "15-Oct-2026",
+      "submission_date": "2026-10-22T00:00:00Z",
+      "country": "Uzbekistan",
+      "project_id": "P506803",
+      "project_name": "Geospatial Infrastructure for Sustainable Territorial Development",
+      "bid_reference_no": "GISTDP/C4/LCS/01",
+      "bid_description": "Audit of the project financial statements",
+      "procurement_method": "Least Cost Selection",
+      "procurement_group": "CS",
+      "summary": "REQUEST FOR EXPRESSIONS OF INTEREST (CONSULTING SERVICES &ndash; FIRMS SELECTION) Country: Republic of Uzbekistan Credit No.: IDA 7787-UZ Project: Geospatial Infrastructure for Sustainable Territorial Development Project (GISTDP) Assignment Title: Audit of the Project Financial Statements Reference No.: GISTDP/C4/LCS/01 1. Background The Republic of Uzbekistan has received financing from the International Development Association (IDA) toward the cost of the Geospatial Infrastructure for Sustaina",
+      "source": "World Bank",
+      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00475363",
+      "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명(EOI)",
+      "consortium_signal": false,
+      "traffic_survey_signal": false,
+      "first_seen": "2026-10-17"
+    },
+    {
+      "id": "wb-OP00474612",
+      "notice_type": "Request for Expression of Interest",
+      "notice_date": "15-Oct-2026",
+      "submission_date": "2026-11-03T00:00:00Z",
+      "country": "Ethiopia",
+      "project_id": "P171742",
+      "project_name": "Access to Distributed Electricity and Lighting in Ethiopia (ADELE)",
+      "bid_reference_no": "ET-DBE-575977-CS-QCBS",
+      "bid_description": "Consultancy Services for the Design and Establishment of a Wholesale (Apex) Development Finance Framework",
+      "procurement_method": "Quality And Cost-Based Selection",
+      "procurement_group": "CS",
+      "summary": "Request for Expressions of Interest (Consulting Services &ndash; Firms Selection) Federal Democratic Republic Of Ethiopia Consultancy Services for the Design and Establishment of a Wholesale (Apex) Development Finance Framework Credit No.: IDA 68570 Assignment Title: Consultancy Services for the Design and Establishment of a Wholesale (Apex) Development Finance Framework Reference No. ET-DBE-575977-CS-QCBS The Development Bank of Ethiopia (DBE) is one of the state-owned financial institutions pr",
+      "source": "World Bank",
+      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00474612",
+      "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명(EOI)",
+      "consortium_signal": false,
+      "traffic_survey_signal": false,
+      "first_seen": "2026-10-17"
+    },
+    {
+      "id": "wb-OP00475506",
+      "notice_type": "Request for Expression of Interest",
+      "notice_date": "15-Oct-2026",
+      "submission_date": "2026-11-05T00:00:00Z",
+      "country": "Caribbean",
+      "project_id": "P179519",
+      "project_name": "Caribbean Efficient and Green-Energy Buildings Project (CEGEB)",
+      "bid_reference_no": "GD-MCRERE-489832-CS-CQS",
+      "bid_description": "Regulatory Development Consultancy",
+      "procurement_method": "Consultant Qualification  Selection",
+      "procurement_group": "CS",
+      "summary": "REQUEST FOR EXPRESSIONS OF INTEREST (CONSULTING SERVICES &ndash; FIRMS SELECTION) Country: Grenada Project: Caribbean Efficient and Green-Energy Buildings Project (P179519) Loan No.: Credit No./ Grant No.: IDA-77130 Assignment Title: The Development of Electricity Regulatory Instruments for Grenada, Carriacou and Petite Martinique Reference No .: GD-MCRERE-489829-CS-CQS The Government of Grenada (GOG) has secured funding through the World Bank (WB) to pursue the Caribbean Efficient and Green-Ene",
+      "source": "World Bank",
+      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00475506",
+      "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명(EOI)",
+      "consortium_signal": false,
+      "traffic_survey_signal": false,
+      "first_seen": "2026-10-17"
+    },
     {
       "id": "wb-OP00474990",
       "notice_type": "Request for Expression of Interest",
@@ -427,27 +490,6 @@
       "first_seen": "2026-10-09"
     },
     {
-      "id": "wb-OP00473365",
-      "notice_type": "Request for Expression of Interest",
-      "notice_date": "06-Oct-2026",
-      "submission_date": "2026-10-15T00:00:00Z",
-      "country": "Niger",
-      "project_id": "P175857",
-      "project_name": "Niger Integrated Urban Development and Multi-sectoral Resilience Project",
-      "bid_reference_no": "NE-PIDUREM-544926-CS-CQS",
-      "bid_description": "Suivi contrôle travaux du traitement du kori d’Agzermaden/ Agadez",
-      "procurement_method": "Consultant Qualification  Selection",
-      "procurement_group": "CS",
-      "summary": "REPUBLIQUE DU NIGER Fraternit&eacute; &ndash; Travail &ndash; Progr&egrave;s ---------------------------------------- MINISTERE DE L&rsquo;URBANISME ET DE L&rsquo;HABITAT Projet Integre de Developpement Urbain Et De Resilience Multisectorielle PIDUREM Galley Ma Zaada Avis &agrave; Manifestation d&rsquo;int&eacute;r&ecirc;t pour la s&eacute;lection d&rsquo;un bureau/cabinet pour assurer le Suivi-contr&ocirc;le des travaux d&#39;am&eacute;nagement du Kori Agzermaderan dans la Commune Urbaine d&#39",
-      "source": "World Bank",
-      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00473365",
-      "_source_label": "World Bank",
-      "notice_type_normalized": "관심표명(EOI)",
-      "consortium_signal": false,
-      "traffic_survey_signal": false,
-      "first_seen": "2026-10-08"
-    },
-    {
       "id": "wb-OP00473258",
       "notice_type": "Request for Expression of Interest",
       "notice_date": "06-Oct-2026",
@@ -677,27 +719,6 @@
       "consortium_signal": false,
       "traffic_survey_signal": false,
       "first_seen": "2026-10-04"
-    },
-    {
-      "id": "wb-OP00468924",
-      "notice_type": "Request for Expression of Interest",
-      "notice_date": "01-Oct-2026",
-      "submission_date": "2026-10-15T00:00:00Z",
-      "country": "Nepal",
-      "project_id": "P517244",
-      "project_name": "GFPP Kathmandu Valley Water Security Improvement Project",
-      "bid_reference_no": "NP-KVWSMB-560362-CS-QCBS-ICB-1",
-      "bid_description": "Feasibility Study and Detail Design of the Dam",
-      "procurement_method": "Quality And Cost-Based Selection",
-      "procurement_group": "CS",
-      "summary": "Government of Nepal Kathmandu Valley Water Supply Management Board (KVWSMB) Kathmandu Valley Water Security Improvement Project (KV WaSIP) &ndash; Sisneri Water Supply Project REQUEST FOR EXPRESSIONS OF INTEREST (REOI) (CONSULTING SERVICES &ndash; FIRMS SELECTION) Country: Nepal Name of the Project: Kathmandu Valley Water Security Improvement Project (KV WaSIP) &ndash; Sisneri Water Supply Project Grant No: E757-NP Assignment Ti t le: Consulting Services for Detailed Engineering Design of Dam an",
-      "source": "World Bank",
-      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00468924",
-      "_source_label": "World Bank",
-      "notice_type_normalized": "관심표명(EOI)",
-      "consortium_signal": false,
-      "traffic_survey_signal": false,
-      "first_seen": "2026-09-19"
     },
     {
       "id": "wb-OP00472030",
@@ -1036,25 +1057,25 @@
       "first_seen": "2026-09-23"
     },
     {
-      "id": "wb-OP00469126",
-      "notice_type": "Request for Expression of Interest",
-      "notice_date": "16-Sep-2026",
-      "submission_date": "2026-10-15T00:00:00Z",
-      "country": "Bangladesh",
-      "project_id": "P501274",
-      "project_name": "Host and Rohingya Enhancement of Lives Project",
-      "bid_reference_no": "S-9",
-      "bid_description": "Consulting Service for Development of a detailed Strategic Environmental Assessment (SEA) with Strategic Environmental Management Plan (SEMP)",
-      "procurement_method": "Quality And Cost-Based Selection",
-      "procurement_group": "CS",
-      "summary": "Government of the People&rsquo;s Republic of Bangladesh Department of Environment Host and Rohingya Enhancement of Lives Project (HELP) DoE Component-&ldquo;Comprehensive Environmental Impact and Damage Assessment of Rohingya Influx in Cox&rsquo;s Bazar and Bhasanchar of Chattogram Division 1st Floor, Room: 202, Poribesh Bhaban New Building E/16 Agargaon, Sher-E-Bangla Nagar, Dhaka-1207 www.doe.gov.bd Memo No.: 22.02.0000.020.14.012 . 26.121 Date: 15/09/2026 Request for Expressions of Interest (",
-      "source": "World Bank",
-      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00469126",
-      "_source_label": "World Bank",
-      "notice_type_normalized": "관심표명(EOI)",
+      "id": "g2b-R26BK01776526-000",
+      "notice_type": "용역 입찰공고",
+      "notice_date": "2026-10-16 18:30:36",
+      "submission_date": "2026-10-27 10:00:00",
+      "country": "India",
+      "project_id": "R26BK01776526",
+      "project_name": "인도 내 한국기업 전용 산업단지 조성 예비 타당성조사",
+      "bid_reference_no": "R26BK01776526",
+      "bid_description": "한국해외인프라도시개발지원공사",
+      "procurement_method": "일반경쟁",
+      "agency_tag": "",
+      "summary": "",
+      "source": "나라장터(G2B)",
+      "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01776526&bidPbancOrd=000",
+      "_source_label": "나라장터(G2B)",
+      "notice_type_normalized": "입찰공고",
       "consortium_signal": false,
       "traffic_survey_signal": false,
-      "first_seen": "2026-09-18"
+      "first_seen": "2026-10-17"
     },
     {
       "id": "icak-503603",
