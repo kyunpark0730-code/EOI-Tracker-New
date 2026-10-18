@@ -1,35 +1,35 @@
 {
-  "generated_at": "2026-10-17T23:07:06.787793+00:00",
-  "today_kst": "2026-10-18",
+  "generated_at": "2026-10-18T23:09:08.942667+00:00",
+  "today_kst": "2026-10-19",
   "sources": [
-    "World Bank 683건",
+    "World Bank 689건",
     "한국건설엔지니어링협회 0건",
     "ADB 0건",
     "나라장터(G2B) 49건",
-    "해외건설협회(ICAK) 3건",
-    "EIB 42건",
+    "해외건설협회(ICAK) 2건",
+    "EIB 41건",
     "KIND 7건",
     "AIIB 3건"
   ],
   "source_status": {
     "World Bank": {
-      "last_success": "2026-10-18",
+      "last_success": "2026-10-19",
       "consecutive_failures": 0
     },
     "한국건설엔지니어링협회": {
       "last_success": "2026-09-25",
-      "consecutive_failures": 23
+      "consecutive_failures": 24
     },
     "ADB": {
       "last_success": "알 수 없음",
-      "consecutive_failures": 185
+      "consecutive_failures": 186
     },
     "나라장터(G2B)": {
-      "last_success": "2026-10-18",
+      "last_success": "2026-10-19",
       "consecutive_failures": 0
     },
     "해외건설협회(ICAK)": {
-      "last_success": "2026-10-18",
+      "last_success": "2026-10-19",
       "consecutive_failures": 0
     },
     "EIB": {
@@ -37,17 +37,59 @@
       "consecutive_failures": 0
     },
     "KIND": {
-      "last_success": "2026-10-18",
+      "last_success": "2026-10-19",
       "consecutive_failures": 0
     },
     "AIIB": {
-      "last_success": "2026-10-18",
+      "last_success": "2026-10-19",
       "consecutive_failures": 0
     }
   },
-  "count": 99,
-  "new_today_count": 6,
+  "count": 100,
+  "new_today_count": 2,
   "notices": [
+    {
+      "id": "wb-OP00475928",
+      "notice_type": "Request for Expression of Interest",
+      "notice_date": "17-Oct-2026",
+      "submission_date": "2026-10-30T00:00:00Z",
+      "country": "El Salvador",
+      "project_id": "P171316",
+      "project_name": "Growing Up and Learning Together: Comprehensive Early Childhood Development in El Salvador",
+      "bid_reference_no": "SBCC 21/2026 MINEDUCYT-AME",
+      "bid_description": "Consultoría para el diseño y validación de ítems de pruebas estandarizadas",
+      "procurement_method": "Quality And Cost-Based Selection",
+      "procurement_group": "CS",
+      "summary": "INVITACI&Oacute;N A PRESENTAR EXPRESIONES DE INTER&Eacute;S Rep&uacute;blica de El Salvador Proyecto: &ldquo;Proyecto Crecer y Aprender Juntos: Desarrollo Integral de la Primera Infancia en El Salvador Convenio de Pr&eacute;stamo No. BIRF No. 9067-SV. Solicitud de Expresiones de Inter&eacute;s SBCC No. 21/2026-MINEDUCYT-AME CONSULTOR&Iacute;A PARA EL DISE&Ntilde;O Y VALIDACI&Oacute;N DE &Iacute;TEMS DE PRUEBAS ESTANDARIZADAS. 1. El Gobierno de la Rep&uacute;blica de El Salvador ha recibido un pr",
+      "source": "World Bank",
+      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00475928",
+      "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명(EOI)",
+      "consortium_signal": false,
+      "traffic_survey_signal": false,
+      "first_seen": "2026-10-19"
+    },
+    {
+      "id": "wb-OP00475909",
+      "notice_type": "Request for Expression of Interest",
+      "notice_date": "17-Oct-2026",
+      "submission_date": "2026-11-04T00:00:00Z",
+      "country": "Western and Central Africa",
+      "project_id": "P178497",
+      "project_name": "Harmonizing and Improving Statistics in West and Central Africa - Series of Projects 1 (HISWACA - SO",
+      "bid_reference_no": "NE-INS-NIGER-572857-CS-CQS",
+      "bid_description": "Sélection d'un cabinet pour le recrutement du personnel complémentaire dans le cadre du 5 ème RGPH",
+      "procurement_method": "Consultant Qualification  Selection",
+      "procurement_group": "CS",
+      "summary": "REPUBLIQUE DU NIGER Fraternit&eacute;-Travail-Progr&egrave;s MINISTERE DE L&rsquo;ECONOMIE ET DES FINANCES INSTITUT NATIONAL DE LA STATISTIQUE ETABLISSEMENT PUBLIC A CARACTERE ADMINISTRATIF DIRECTION GENERALE PROJET D&rsquo;HARMONISATION ET D&rsquo;AMELIORATION DES STATISTIQUES EN AFRIQUE DE L&rsquo;OUEST ET DU CENTRE (PHASAOC) - CREDIT IDA 73140 NE 182, rue de la Sirba - BP 13416 Niamey - NIGER &bull; T&eacute;l. : (227) 20 72 35 60 &bull; Fax : (227) 20 72 21 74 &bull; https://www.ins.ne &bull",
+      "source": "World Bank",
+      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00475909",
+      "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명(EOI)",
+      "consortium_signal": false,
+      "traffic_survey_signal": false,
+      "first_seen": "2026-10-19"
+    },
     {
       "id": "wb-OP00473636",
       "notice_type": "Request for Expression of Interest",
@@ -1180,26 +1222,6 @@
       "consortium_signal": false,
       "traffic_survey_signal": false,
       "first_seen": "2026-09-24"
-    },
-    {
-      "id": "icak-503587",
-      "notice_type": "입찰공고",
-      "notice_date": "2026-09-18 00:00:00",
-      "submission_date": "2099-12-31 23:59:00",
-      "country": "Costa Rica",
-      "project_id": "",
-      "project_name": "[주코스타리카공화국대한민국대사관] 국도 32호선 사면안정화·배수시설 등 설계·시공 사업 입찰 공고 안내",
-      "bid_reference_no": "",
-      "bid_description": "",
-      "procurement_method": "",
-      "summary": "주코스타리카공화국대한민국대사관으로부터 코스타리카 국도 32호선 사면안정화·배수시설 및 야생동물 이동통로 설계·시공 사업 입찰공고 관련 정보 를 안내받아 아래와 같이 공유드립니다. 관심 있는 기업은 아래 내용 및 관련 자료를 참고하시기 바랍니다. □ (사업명) 코스타리카 국도 32호선(브라울리오 카리요 국립공원 구간) 사면안정화·배수시설 및 야생동물 이동통로 설계·시공 사업 □ (사업 목적 및 추진 배경) 코스타리카 정부와 중미경제통합은행(CABEI)이 추진하는 「긴급 인프라 재건 프로그램(PROERI)」의 일환으로, 국도 32호선 해당 구간의 사면안정화, 배수시설 정비 및 야생동물 이동통로 구축을 추진함. □ (추정 사업비) 약 1,105만 달러 (US$11,048,116.82) ※ 중미경제통합은행(CABEI) 자금 지원 □ (사업 범위) 국도 32호선 KM 28·31·39 구간 사면안정화·배수시설 및 야생동물 이동통로 설계·시공 ○ 주요 과업 내용: ● 사면안정화 공사 ● 배수시설",
-      "source": "해외건설협회(ICAK)",
-      "source_url": "https://www.icak.or.kr/board/bidPblancList",
-      "_source_label": "해외건설협회(ICAK)",
-      "notice_type_normalized": "입찰공고",
-      "consortium_signal": false,
-      "traffic_survey_signal": false,
-      "first_seen": "2026-09-19"
     },
     {
       "id": "eib-6abd0ea1816e0f53e6a3ff50",
