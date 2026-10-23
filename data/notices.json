@@ -1,35 +1,35 @@
 {
-  "generated_at": "2026-10-22T00:01:39.897620+00:00",
-  "today_kst": "2026-10-22",
+  "generated_at": "2026-10-23T00:00:08.403832+00:00",
+  "today_kst": "2026-10-23",
   "sources": [
-    "World Bank 703건",
+    "World Bank 700건",
     "한국건설엔지니어링협회 0건",
     "ADB 0건",
-    "나라장터(G2B) 2건",
-    "해외건설협회(ICAK) 2건",
+    "나라장터(G2B) 47건",
+    "해외건설협회(ICAK) 1건",
     "EIB 42건",
     "KIND 9건",
     "AIIB 10건"
   ],
   "source_status": {
     "World Bank": {
-      "last_success": "2026-10-22",
+      "last_success": "2026-10-23",
       "consecutive_failures": 0
     },
     "한국건설엔지니어링협회": {
       "last_success": "2026-09-25",
-      "consecutive_failures": 27
+      "consecutive_failures": 28
     },
     "ADB": {
       "last_success": "알 수 없음",
-      "consecutive_failures": 189
+      "consecutive_failures": 190
     },
     "나라장터(G2B)": {
-      "last_success": "2026-10-21",
-      "consecutive_failures": 1
+      "last_success": "2026-10-23",
+      "consecutive_failures": 0
     },
     "해외건설협회(ICAK)": {
-      "last_success": "2026-10-22",
+      "last_success": "2026-10-23",
       "consecutive_failures": 0
     },
     "EIB": {
@@ -37,17 +37,59 @@
       "consecutive_failures": 0
     },
     "KIND": {
-      "last_success": "2026-10-22",
+      "last_success": "2026-10-23",
       "consecutive_failures": 0
     },
     "AIIB": {
-      "last_success": "2026-10-22",
+      "last_success": "2026-10-23",
       "consecutive_failures": 0
     }
   },
-  "count": 109,
-  "new_today_count": 6,
+  "count": 103,
+  "new_today_count": 1,
   "notices": [
+    {
+      "id": "wb-OP00475091",
+      "notice_type": "Request for Expression of Interest",
+      "notice_date": "21-Oct-2026",
+      "submission_date": "2026-10-30T00:00:00Z",
+      "country": "Kazakhstan",
+      "project_id": "P500565",
+      "project_name": "Transport Resilience and Connectivity Enhancement Project (Jezkazgan-Karagandy Section of TCITR (Mid",
+      "bid_reference_no": "KZ-KAZAUTOZHOL-562877-CS-QCBS",
+      "bid_description": "Construction Supervision Consultant for Jezkazgan–Karagandy Section of the Trans-Caspian International Transport Route (Middle Corridor)",
+      "procurement_method": "Quality And Cost-Based Selection",
+      "procurement_group": "CS",
+      "summary": "REQUEST FOR EXPRESSIONS OF INTEREST (CONSULTING SERVICES &ndash; FIRMS SELECTION) Kazakhstan Transport Resilience and Connectivity Enhancement Project (P500565) Jezkazgan&ndash;Karagandy Section of Trans&ndash;Caspian International Transport Route (Middle Corridor) Loan No.: IBRD-97350 Assignment Title: Construction Supervision Consultant for the Jezkazgan&ndash;Karagandy Road Section under OPBRC Contracts Reference No . (as per Procurement Plan): KZ-KAZAUTOZHOL-562877-CS-QCBS The JSC &ldquo;NC ",
+      "source": "World Bank",
+      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00475091",
+      "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명(EOI)",
+      "consortium_signal": false,
+      "traffic_survey_signal": false,
+      "first_seen": "2026-10-18"
+    },
+    {
+      "id": "wb-OP00475800",
+      "notice_type": "Request for Expression of Interest",
+      "notice_date": "21-Oct-2026",
+      "submission_date": "2026-11-06T00:00:00Z",
+      "country": "Angola",
+      "project_id": "P151224",
+      "project_name": "Second Water Sector Institutional Development Project",
+      "bid_reference_no": "167CS4/CABINDA/UCP/24",
+      "bid_description": "Independent Contract Auditor Water Supply",
+      "procurement_method": "Quality And Cost-Based Selection",
+      "procurement_group": "CS",
+      "summary": "REQUEST FOR EXPRESSIONS OF INTEREST CONSULTING SERVICES COUNTRY: REPUBLIC OF ANGOLA PROJECT: Water Sector Institutional Development Project II (WSIDP II) LOAN No. I BRD-8702/ IBRD-8876/ CAO-1026 ASSIGNMENT: Independent Contract Auditor Water Supply PPP (phase 1) in Cabinda Province REFERENCE: 167CS4 CABINDA UCP 24 The Government of the Republic of Angola (GoA) has received financing from the World Bank and the French Agency of Development (AFD) toward the cost of the Second Water Sector Institut",
+      "source": "World Bank",
+      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00475800",
+      "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명(EOI)",
+      "consortium_signal": false,
+      "traffic_survey_signal": false,
+      "first_seen": "2026-10-23"
+    },
     {
       "id": "aiib-https://www.aiib.org/en/projects/details/2026/_download/Cote/avis-dappel-doffres-dao-travaux-zuenoula-mankonologo.pdf",
       "notice_type": "Procurement Notice",
@@ -424,27 +466,6 @@
       "first_seen": "2026-10-18"
     },
     {
-      "id": "wb-OP00475091",
-      "notice_type": "Request for Expression of Interest",
-      "notice_date": "16-Oct-2026",
-      "submission_date": "2026-10-30T00:00:00Z",
-      "country": "Kazakhstan",
-      "project_id": "P500565",
-      "project_name": "Transport Resilience and Connectivity Enhancement Project (Jezkazgan-Karagandy Section of TCITR (Mid",
-      "bid_reference_no": "KZ-KAZAUTOZHOL-562877-CS-QCBS",
-      "bid_description": "Construction Supervision Consultant for Jezkazgan–Karagandy Section of the Trans-Caspian International Transport Route (Middle Corridor)",
-      "procurement_method": "Quality And Cost-Based Selection",
-      "procurement_group": "CS",
-      "summary": "REQUEST FOR EXPRESSIONS OF INTEREST (CONSULTING SERVICES &ndash; FIRMS SELECTION) Kazakhstan Transport Resilience and Connectivity Enhancement Project (P500565) Jezkazgan&ndash;Karagandy Section of Trans&ndash;Caspian International Transport Route (Middle Corridor) Loan No.: IBRD-97350 Assignment Title: Construction Supervision Consultant for the Jezkazgan&ndash;Karagandy Road Section under OPBRC Contracts Reference No . (as per Procurement Plan): KZ-KAZAUTOZHOL-562877-CS-QCBS The JSC &ldquo;NC ",
-      "source": "World Bank",
-      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00475091",
-      "_source_label": "World Bank",
-      "notice_type_normalized": "관심표명(EOI)",
-      "consortium_signal": false,
-      "traffic_survey_signal": false,
-      "first_seen": "2026-10-18"
-    },
-    {
       "id": "wb-OP00475836",
       "notice_type": "Request for Expression of Interest",
       "notice_date": "16-Oct-2026",
@@ -527,27 +548,6 @@
       "consortium_signal": false,
       "traffic_survey_signal": false,
       "first_seen": "2026-10-18"
-    },
-    {
-      "id": "wb-OP00475363",
-      "notice_type": "Request for Expression of Interest",
-      "notice_date": "15-Oct-2026",
-      "submission_date": "2026-10-22T00:00:00Z",
-      "country": "Uzbekistan",
-      "project_id": "P506803",
-      "project_name": "Geospatial Infrastructure for Sustainable Territorial Development",
-      "bid_reference_no": "GISTDP/C4/LCS/01",
-      "bid_description": "Audit of the project financial statements",
-      "procurement_method": "Least Cost Selection",
-      "procurement_group": "CS",
-      "summary": "REQUEST FOR EXPRESSIONS OF INTEREST (CONSULTING SERVICES &ndash; FIRMS SELECTION) Country: Republic of Uzbekistan Credit No.: IDA 7787-UZ Project: Geospatial Infrastructure for Sustainable Territorial Development Project (GISTDP) Assignment Title: Audit of the Project Financial Statements Reference No.: GISTDP/C4/LCS/01 1. Background The Republic of Uzbekistan has received financing from the International Development Association (IDA) toward the cost of the Geospatial Infrastructure for Sustaina",
-      "source": "World Bank",
-      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00475363",
-      "_source_label": "World Bank",
-      "notice_type_normalized": "관심표명(EOI)",
-      "consortium_signal": false,
-      "traffic_survey_signal": false,
-      "first_seen": "2026-10-17"
     },
     {
       "id": "wb-OP00474612",
@@ -844,27 +844,6 @@
       "first_seen": "2026-10-11"
     },
     {
-      "id": "wb-OP00473995",
-      "notice_type": "Request for Expression of Interest",
-      "notice_date": "08-Oct-2026",
-      "submission_date": "2026-10-22T00:00:00Z",
-      "country": "Ethiopia",
-      "project_id": "P180076",
-      "project_name": "Lowlands Livelihood Resilience Project, Phase Two (LLRP II)",
-      "bid_reference_no": "ET-BEN-GUM-RPCU-569758-CS-QCBS",
-      "bid_description": "Consultancy Services for Feasibility Study and Detailed Design of Irrigation Schemes in Four Woredas: Golitseha Drip Irrigation, Hobi Gravity Irrigation, Testura Gravity Irrigation, and Undulu Woreda Sprinkler Irrigation.",
-      "procurement_method": "Quality And Cost-Based Selection",
-      "procurement_group": "CS",
-      "summary": "REQUEST FOR EXPRESSIONS OF INTEREST (CONSULTING SERVICES&ndash; FIRMS SELECTION) COUNTRY: [Ethiopia] NAME OF PROJECT: [Benishangul gumuz regional state, Lowlands Livelihood Resilience Project (LLRP-II)] Loan No: [IDA- 75190] Assignment Title: Consultancy Services for Planning, Feasibility Study, Environmental and Social Impact Assessment, Detailed Engineering Design, Preparation of Tender Documents and Construction Readiness Packages for Climate-Resilient Irrigation and Drainage in four woredas ",
-      "source": "World Bank",
-      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00473995",
-      "_source_label": "World Bank",
-      "notice_type_normalized": "관심표명(EOI)",
-      "consortium_signal": false,
-      "traffic_survey_signal": false,
-      "first_seen": "2026-10-10"
-    },
-    {
       "id": "wb-OP00473911",
       "notice_type": "Request for Expression of Interest",
       "notice_date": "08-Oct-2026",
@@ -884,27 +863,6 @@
       "consortium_signal": false,
       "traffic_survey_signal": false,
       "first_seen": "2026-10-10"
-    },
-    {
-      "id": "wb-OP00473662",
-      "notice_type": "Request for Expression of Interest",
-      "notice_date": "07-Oct-2026",
-      "submission_date": "2026-10-22T00:00:00Z",
-      "country": "Georgia",
-      "project_id": "P173975",
-      "project_name": "Georgia Relief and Recovery for Micro, Small, and Medium Enterprises",
-      "bid_reference_no": "GE-GEDC-CS-LCS-03",
-      "bid_description": "Identification of Sectoral Opportunities in Regions of Georgia",
-      "procurement_method": "Least Cost Selection",
-      "procurement_group": "CS",
-      "summary": "REQUEST FOR EXPRESSIONS OF INTEREST (Identification of Sectoral Opportunities in Regions of Georgia &ndash; Least Cost Selection) Country: Georgia Project Name: The Relief and Recovery for Micro, Small and Medium Enterprises (MSMEs) Project No : P173975 Loan No. 9239-GE Assignment Title: Identification of Sectoral Opportunities in Regions of Georgia Reference No . (as per Procurement Plan): GE-GEDC-CS-LCS-03 Implementing Agency: JSC Georgian Economic Development Corporation Date: 07.10.2026 The ",
-      "source": "World Bank",
-      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00473662",
-      "_source_label": "World Bank",
-      "notice_type_normalized": "관심표명(EOI)",
-      "consortium_signal": false,
-      "traffic_survey_signal": false,
-      "first_seen": "2026-10-09"
     },
     {
       "id": "wb-OP00473710",
@@ -1010,48 +968,6 @@
       "consortium_signal": false,
       "traffic_survey_signal": false,
       "first_seen": "2026-10-08"
-    },
-    {
-      "id": "wb-OP00473137",
-      "notice_type": "Request for Expression of Interest",
-      "notice_date": "05-Oct-2026",
-      "submission_date": "2026-10-22T00:00:00Z",
-      "country": "Burundi",
-      "project_id": "P176396",
-      "project_name": "Burundi Digital Foundations Project",
-      "bid_reference_no": "BI-PAFEN-PIU-2.2.3.1_4-CS-CQS",
-      "bid_description": "BRB-recrutement d’un cabinet charge d’assurer les formations sur : certified payment processing specialist (CPPS)",
-      "procurement_method": "Consultant Qualification  Selection",
-      "procurement_group": "CS",
-      "summary": "DEMANDE DE MANIFESTATIONS D&#39;INT&Eacute;R&Ecirc;T (SERVICES DE CONSULTANTS) S&Eacute;LECTION DE FIRMES/CABINETS Pays : R&eacute;publique du Burundi N&deg; du Projet : P176396 DON IDA N&deg; E0930-BI RECRUTEMENT D&rsquo;UN CABINET CHARGE D&rsquo;ASSURER LES FORMATIONS DES CADRES DE LA BRB SUR CERTIFIED PAYMENT PROCESSING SPECIALIST (CPPS) R&eacute;f. STEP: BI-PAFEN-PIU-2.2.3.18_4-CS-CQS Le Gouvernement de la R&eacute;publique du Burundi a obtenu de l&rsquo;Association Internationale de D&eacut",
-      "source": "World Bank",
-      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00473137",
-      "_source_label": "World Bank",
-      "notice_type_normalized": "관심표명(EOI)",
-      "consortium_signal": false,
-      "traffic_survey_signal": false,
-      "first_seen": "2026-10-07"
-    },
-    {
-      "id": "wb-OP00473074",
-      "notice_type": "Request for Expression of Interest",
-      "notice_date": "05-Oct-2026",
-      "submission_date": "2026-10-22T00:00:00Z",
-      "country": "Burundi",
-      "project_id": "P176396",
-      "project_name": "Burundi Digital Foundations Project",
-      "bid_reference_no": "BI-PAFEN-PIU-2.2.3.18_3-CS-CQS",
-      "bid_description": "BRB -Recrutement d’un cabinet chargé d’assurer les formations sur : certified payment messaging expert (CPME)",
-      "procurement_method": "Consultant Qualification  Selection",
-      "procurement_group": "CS",
-      "summary": "DEMANDE DE MANIFESTATIONS D&#39;INT&Eacute;R&Ecirc;T (SERVICES DE CONSULTANTS) S&Eacute;LECTION DE FIRMES/CABINETS Pays : R&eacute;publique du Burundi N&deg; du Projet : P176396 DON IDA N&deg; E0930-BI RECRUTEMENT D&rsquo;UN CABINET CHARGE D&rsquo;ASSURER LES FORMATIONS DES CADRES DE LA BRB SUR CERTIFIED PAYMENT MESSAGING EXPERT (CPME) R&eacute;f. STEP: BI-PAFEN-PIU-2.2.3.18_3-CS-CQS Le Gouvernement de la R&eacute;publique du Burundi a obtenu de l&rsquo;Association Internationale de D&eacute;vel",
-      "source": "World Bank",
-      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00473074",
-      "_source_label": "World Bank",
-      "notice_type_normalized": "관심표명(EOI)",
-      "consortium_signal": false,
-      "traffic_survey_signal": false,
-      "first_seen": "2026-10-21"
     },
     {
       "id": "wb-OP00473069",
@@ -1306,26 +1222,6 @@
       "first_seen": "2026-10-20"
     },
     {
-      "id": "icak-503603",
-      "notice_type": "입찰공고",
-      "notice_date": "2026-09-23 00:00:00",
-      "submission_date": "2099-12-31 23:59:00",
-      "country": "",
-      "project_id": "",
-      "project_name": "[주가봉대한민국대사관] 가봉 국립통계청 청사 신축 공고",
-      "bid_reference_no": "",
-      "bid_description": "",
-      "procurement_method": "",
-      "summary": "주가봉대한민국대사관에서 수령한 주요입찰정보를 아래와 같이 공유드립니다. (사업주체) 가봉 기획미래전략부 산하 국립통계청 (사업규모) 데이터센터를 포함한 본관 건물(지상 7층) 등 (사업기간) 32개월 (사업비용) WB 차관으로 WB 지침의 직접 지불 방식으로 지급 (사업평가) 경쟁 입찰 방식으로 기술요인(50%), 가격요인(50%) (입찰기한) 2026. 10. 26. 11:00(가봉 현지시간 기준) 붙임: 상세 참고자료. 끝.",
-      "source": "해외건설협회(ICAK)",
-      "source_url": "https://www.icak.or.kr/board/bidPblancList",
-      "_source_label": "해외건설협회(ICAK)",
-      "notice_type_normalized": "입찰공고",
-      "consortium_signal": false,
-      "traffic_survey_signal": false,
-      "first_seen": "2026-09-24"
-    },
-    {
       "id": "eib-6ad22877dab88d5b850a4273",
       "notice_type": "Project procurement",
       "notice_date": "16/10/2026",
@@ -1414,26 +1310,6 @@
       "project_id": "EIB-GtP/VETLAB_TUM2_2026",
       "project_name": "Supply and installation of a Veterinary Computed Tomography (CT) Scanner for the final beneficiary Technical University of Moldova (Faculty of Veterinary Medicine)",
       "bid_reference_no": "EIB-GtP/VETLAB_TUM2_2026",
-      "bid_description": "On going",
-      "procurement_method": "",
-      "summary": "",
-      "source": "EIB",
-      "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
-      "_source_label": "EIB",
-      "notice_type_normalized": "기타",
-      "consortium_signal": false,
-      "traffic_survey_signal": false,
-      "first_seen": "2026-09-30"
-    },
-    {
-      "id": "eib-6ab538e5cbb93236c160756b",
-      "notice_type": "Project procurement",
-      "notice_date": "24/09/2026",
-      "submission_date": "22/10/2026",
-      "country": "",
-      "project_id": "20190324-02",
-      "project_name": "Expression of Interest for Consulting services LAO RESILIENT ROADS FRAMEWORK LOAN",
-      "bid_reference_no": "20190324-02",
       "bid_description": "On going",
       "procurement_method": "",
       "summary": "",
