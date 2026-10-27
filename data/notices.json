@@ -1,35 +1,35 @@
 {
-  "generated_at": "2026-10-25T23:15:17.430271+00:00",
-  "today_kst": "2026-10-26",
+  "generated_at": "2026-10-27T00:26:27.418326+00:00",
+  "today_kst": "2026-10-27",
   "sources": [
-    "World Bank 658건",
+    "World Bank 607건",
     "한국건설엔지니어링협회 0건",
     "ADB 0건",
-    "나라장터(G2B) 48건",
+    "나라장터(G2B) 2건",
     "해외건설협회(ICAK) 2건",
     "EIB 39건",
-    "KIND 10건",
+    "KIND 11건",
     "AIIB 10건"
   ],
   "source_status": {
     "World Bank": {
-      "last_success": "2026-10-26",
+      "last_success": "2026-10-27",
       "consecutive_failures": 0
     },
     "한국건설엔지니어링협회": {
       "last_success": "2026-09-25",
-      "consecutive_failures": 31
+      "consecutive_failures": 32
     },
     "ADB": {
       "last_success": "알 수 없음",
-      "consecutive_failures": 193
+      "consecutive_failures": 194
     },
     "나라장터(G2B)": {
       "last_success": "2026-10-26",
-      "consecutive_failures": 0
+      "consecutive_failures": 1
     },
     "해외건설협회(ICAK)": {
-      "last_success": "2026-10-26",
+      "last_success": "2026-10-27",
       "consecutive_failures": 0
     },
     "EIB": {
@@ -37,16 +37,16 @@
       "consecutive_failures": 0
     },
     "KIND": {
-      "last_success": "2026-10-26",
+      "last_success": "2026-10-27",
       "consecutive_failures": 0
     },
     "AIIB": {
-      "last_success": "2026-10-26",
+      "last_success": "2026-10-27",
       "consecutive_failures": 0
     }
   },
-  "count": 101,
-  "new_today_count": 0,
+  "count": 95,
+  "new_today_count": 1,
   "notices": [
     {
       "id": "wb-OP00475091",
@@ -194,26 +194,6 @@
       "consortium_signal": false,
       "traffic_survey_signal": false,
       "first_seen": "2026-10-23"
-    },
-    {
-      "id": "aiib-https://www.aiib.org/en/projects/details/2026/_download/Cote/avis-dappel-doffres-dao-travaux-zuenoula-mankonologo.pdf",
-      "notice_type": "Procurement Notice",
-      "notice_date": "Oct 21, 2026",
-      "submission_date": "",
-      "country": "Cote",
-      "project_id": "",
-      "project_name": "Agricultural Zones Connectivity Project (AZCP)",
-      "bid_reference_no": "",
-      "bid_description": "",
-      "procurement_method": "",
-      "summary": "",
-      "source": "AIIB",
-      "source_url": "https://www.aiib.org/en/projects/details/2026/_download/Cote/avis-dappel-doffres-dao-travaux-zuenoula-mankonologo.pdf",
-      "_source_label": "AIIB",
-      "notice_type_normalized": "기타",
-      "consortium_signal": false,
-      "traffic_survey_signal": false,
-      "first_seen": "2026-10-22"
     },
     {
       "id": "wb-OP00476362",
@@ -487,27 +467,6 @@
       "consortium_signal": false,
       "traffic_survey_signal": false,
       "first_seen": "2026-10-19"
-    },
-    {
-      "id": "wb-OP00473636",
-      "notice_type": "Request for Expression of Interest",
-      "notice_date": "16-Oct-2026",
-      "submission_date": "2026-10-26T00:00:00Z",
-      "country": "Ethiopia",
-      "project_id": "P180076",
-      "project_name": "Lowlands Livelihood Resilience Project, Phase Two (LLRP II)",
-      "bid_reference_no": "ET-ORO-RPCU-570403-CS-QCBS",
-      "bid_description": "Consultancy Services for Design and Study of Bridges and Rural Gravel Roads in Madawalabu, Sawena, Elwaye, Dawe Sarar and Mieso Woredas.",
-      "procurement_method": "Quality And Cost-Based Selection",
-      "procurement_group": "CS",
-      "summary": "REQUEST FOR EXPRESSIONS OF INTEREST CONSULTING SERVICES &ndash; FIRMS SELECTION Country: Ethiopia Project: Lowlands Livelihood Resilience Project Phase II Loan No./Credit No./ Grant No.: IDA-75190 Assignment Title and Procurement Reference No : Small and Medium span Bridges and Roads (ET-ORO-RPCU-570403-CS-QCBS) The Federal Democratic Republic of Ethiopia has received financing from the World Bank toward the cost of the Lowlands Livelihood Resilience Project Phase II. The Oromia Irrigation and P",
-      "source": "World Bank",
-      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00473636",
-      "_source_label": "World Bank",
-      "notice_type_normalized": "관심표명(EOI)",
-      "consortium_signal": false,
-      "traffic_survey_signal": false,
-      "first_seen": "2026-10-09"
     },
     {
       "id": "wb-OP00475895",
@@ -951,69 +910,6 @@
       "first_seen": "2026-10-09"
     },
     {
-      "id": "wb-OP00473290",
-      "notice_type": "Request for Expression of Interest",
-      "notice_date": "06-Oct-2026",
-      "submission_date": "2026-10-26T00:00:00Z",
-      "country": "Burundi",
-      "project_id": "P176396",
-      "project_name": "Burundi Digital Foundations Project",
-      "bid_reference_no": "BI-PAFEN-PIU-2.2.3.18_10-CS-CQS",
-      "bid_description": "RECRUTEMENT D’UN CABINET CHARGE D’ASSURER LES FORMATIONS SUR: PCI SECURITY STANDARDS",
-      "procurement_method": "Consultant Qualification  Selection",
-      "procurement_group": "CS",
-      "summary": "DEMANDE DE MANIFESTATIONS D&#39;INT&Eacute;R&Ecirc;T (SERVICES DE CONSULTANTS) S&Eacute;LECTION DE FIRMES/CABINETS Pays : R&eacute;publique du Burundi N&deg; du Projet : P176396 DON IDA N&deg; E0930-BI RECRUTEMENT D&rsquo;UN CABINET CHARGE D&rsquo;ASSURER LES FORMATIONS DES CADRES DE LA BRB SUR PCI SECURITY STANDARDS R&eacute;f. STEP: BI-PAFEN-PIU-2.2.3.18_10-CS-CQS Le Gouvernement de la R&eacute;publique du Burundi a obtenu de l&rsquo;Association Internationale de D&eacute;veloppement (IDA) un ",
-      "source": "World Bank",
-      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00473290",
-      "_source_label": "World Bank",
-      "notice_type_normalized": "관심표명(EOI)",
-      "consortium_signal": false,
-      "traffic_survey_signal": false,
-      "first_seen": "2026-10-08"
-    },
-    {
-      "id": "wb-OP00473305",
-      "notice_type": "Request for Expression of Interest",
-      "notice_date": "06-Oct-2026",
-      "submission_date": "2026-10-26T00:00:00Z",
-      "country": "Burundi",
-      "project_id": "P176396",
-      "project_name": "Burundi Digital Foundations Project",
-      "bid_reference_no": "BI-PAFEN-PIU-2.2.3.18-6-CS-CQS",
-      "bid_description": "BRB-RECRUTEMENT D’UN CABINET CHARGE D’ASSURER LES FORMATIONS SUR: CISA (CERTIFIED INFORMATION SYSTEMS AUDITOR)",
-      "procurement_method": "Consultant Qualification  Selection",
-      "procurement_group": "CS",
-      "summary": "DEMANDE DE MANIFESTATIONS D&#39;INT&Eacute;R&Ecirc;T (SERVICES DE CONSULTANTS) S&Eacute;LECTION DE FIRMES/CABINETS Pays : R&eacute;publique du Burundi N&deg; du Projet : P176396 DON IDA N&deg; E0930-BI RECRUTEMENT D&rsquo;UN CABINET CHARGE D&rsquo;ASSURER LES FORMATIONS DES CADRES DE LA BRB SUR CISA (CERTIFIED INFORMATION SYSTEMS AUDITOR) R&eacute;f. STEP: BI-PAFEN-PIU-2.2.3.18_6-CS-CQS Le Gouvernement de la R&eacute;publique du Burundi a obtenu de l&rsquo;Association Internationale de D&eacute;",
-      "source": "World Bank",
-      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00473305",
-      "_source_label": "World Bank",
-      "notice_type_normalized": "관심표명(EOI)",
-      "consortium_signal": false,
-      "traffic_survey_signal": false,
-      "first_seen": "2026-10-08"
-    },
-    {
-      "id": "wb-OP00473292",
-      "notice_type": "Request for Expression of Interest",
-      "notice_date": "06-Oct-2026",
-      "submission_date": "2026-10-26T00:00:00Z",
-      "country": "Burundi",
-      "project_id": "P176396",
-      "project_name": "Burundi Digital Foundations Project",
-      "bid_reference_no": "BI-PAFEN-PIU-2.2.3.18_9-CS-CQS",
-      "bid_description": "Recrutement d’un cabinet chargé d’assurer les formations sur: ISO 8583",
-      "procurement_method": "Consultant Qualification  Selection",
-      "procurement_group": "CS",
-      "summary": "DEMANDE DE MANIFESTATIONS D&#39;INT&Eacute;R&Ecirc;T (SERVICES DE CONSULTANTS) S&Eacute;LECTION DE FIRMES/CABINETS Pays : R&eacute;publique du Burundi N&deg; du Projet : P176396 DON IDA N&deg; E0930-BI RECRUTEMENT D&rsquo;UN CABINET CHARGE D&rsquo;ASSURER LES FORMATIONS DES CADRES DE LA BRB SUR ISO 8583 R&eacute;f. STEP: BI-PAFEN-PIU-2.2.3.18_9-CS-CQS Le Gouvernement de la R&eacute;publique du Burundi a obtenu de l&rsquo;Association Internationale de D&eacute;veloppement (IDA) un Don d&rsquo;un ",
-      "source": "World Bank",
-      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00473292",
-      "_source_label": "World Bank",
-      "notice_type_normalized": "관심표명(EOI)",
-      "consortium_signal": false,
-      "traffic_survey_signal": false,
-      "first_seen": "2026-10-08"
-    },
-    {
       "id": "wb-OP00473299",
       "notice_type": "Request for Expression of Interest",
       "notice_date": "06-Oct-2026",
@@ -1077,27 +973,6 @@
       "first_seen": "2026-10-03"
     },
     {
-      "id": "wb-OP00471995",
-      "notice_type": "Request for Expression of Interest",
-      "notice_date": "30-Sep-2026",
-      "submission_date": "2026-10-26T00:00:00Z",
-      "country": "Dominican Republic",
-      "project_id": "P180163",
-      "project_name": "Dominican Republic Emergency Response and Resilience Project",
-      "bid_reference_no": "DO-MEPYD-470659-CS-QCBS",
-      "bid_description": "Consultoría para aplicar control de calidad de vuelos fotogramétricos, MDS y MDT y ortoimágenes",
-      "procurement_method": "Quality And Cost-Based Selection",
-      "procurement_group": "CS",
-      "summary": "SOLICITUD DE EXPRESIONES DE INTER&Eacute;S SERVICIOS DE CONSULTOR&Iacute;A Rep&uacute;blica Dominicana Proyecto de Respuesta a Emergencias y Resiliencia de la Rep&uacute;blica Dominicana Pr&eacute;stamo No.: 9473-DO T&iacute;tulo del Trabajo: Consultor&iacute;a para aplicar control de calidad de vuelos fotogram&eacute;tricos, MDS y MDT y ortoim&aacute;genes. No. de Referencia : DO-MEPyD-470659-CS-QCBS El Gobierno de la Rep&uacute;blica Dominicana ha recibido financiamiento del Banco Mundial para",
-      "source": "World Bank",
-      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00471995",
-      "_source_label": "World Bank",
-      "notice_type_normalized": "관심표명(EOI)",
-      "consortium_signal": false,
-      "traffic_survey_signal": false,
-      "first_seen": "2026-10-02"
-    },
-    {
       "id": "wb-OP00471574",
       "notice_type": "Request for Expression of Interest",
       "notice_date": "28-Sep-2026",
@@ -1117,27 +992,6 @@
       "consortium_signal": false,
       "traffic_survey_signal": false,
       "first_seen": "2026-09-30"
-    },
-    {
-      "id": "wb-OP00400152",
-      "notice_type": "Request for Expression of Interest",
-      "notice_date": "24-Sep-2026",
-      "submission_date": "2026-10-26T00:00:00Z",
-      "country": "Madagascar",
-      "project_id": "P178701",
-      "project_name": "Digital and Energy Connectivity for Inclusion in Madagascar Project",
-      "bid_reference_no": "MG-DECIM2-512717-CS-QCBS",
-      "bid_description": "DC2-25-TR11- ETUDE DE FAISABILITE D’INTERCONNEXION DU RESEAU DE TRANSPORT D’ELECTRICITE RELIANT TANANARIVE ET MAJUNGA.",
-      "procurement_method": "Quality And Cost-Based Selection",
-      "procurement_group": "CS",
-      "summary": "MINISTERE DE L&rsquo;ENERGIE ET DES HYDROCARBURES MINISTERE DU DEVELOPPEMENT NUMERIQUE, DES POSTES ET DES T&Eacute;L&Eacute;COMMUNICATIONS -------------------------------- PROJET DIGITAL AND ENERGY CONNECTIVITY FOR INCLUSION IN MADAGASCAR (DECIM) -------------------------------- UNIT&Eacute; DE COORDINATION DU PROJET ------------------------ APPEL A MANIFESTATION D&rsquo;INTERET ETUDE DE FAISABILIT&Eacute; D&rsquo;INTERCONNEXION DU R&Eacute;SEAU DE TRANSPORT D&rsquo;&Eacute;LECTRICIT&Eacute; REL",
-      "source": "World Bank",
-      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00400152",
-      "_source_label": "World Bank",
-      "notice_type_normalized": "관심표명(EOI)",
-      "consortium_signal": false,
-      "traffic_survey_signal": false,
-      "first_seen": "2026-09-26"
     },
     {
       "id": "g2b-R26BK01776526-000",
@@ -2020,6 +1874,26 @@
       "consortium_signal": false,
       "traffic_survey_signal": false,
       "first_seen": "2026-10-24"
+    },
+    {
+      "id": "kind-11539",
+      "notice_type": "입찰공고 26-034호",
+      "notice_date": "2026-10-26",
+      "submission_date": "",
+      "country": "",
+      "project_id": "11539",
+      "project_name": "[입찰공고 26-034호] MDB 교류 프로그램 운영 지원 용역",
+      "bid_reference_no": "",
+      "bid_description": "",
+      "procurement_method": "",
+      "summary": "",
+      "source": "KIND",
+      "source_url": "https://www.kindkorea.or.kr/pages/72?id=11539&menuMode=READ&q=",
+      "_source_label": "KIND",
+      "notice_type_normalized": "입찰공고",
+      "consortium_signal": false,
+      "traffic_survey_signal": false,
+      "first_seen": "2026-10-27"
     },
     {
       "id": "kind-11532",
