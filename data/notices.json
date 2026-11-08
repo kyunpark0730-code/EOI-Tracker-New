@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-07T00:56:10.974727+00:00",
-  "today_kst": "2026-11-07",
+  "generated_at": "2026-11-08T00:35:26.681413+00:00",
+  "today_kst": "2026-11-08",
   "sources": [
-    "World Bank 655건",
+    "World Bank 686건",
     "한국건설엔지니어링협회 0건",
     "ADB 0건",
     "나라장터(G2B) 31건",
@@ -13,23 +13,23 @@
   ],
   "source_status": {
     "World Bank": {
-      "last_success": "2026-11-07",
+      "last_success": "2026-11-08",
       "consecutive_failures": 0
     },
     "한국건설엔지니어링협회": {
       "last_success": "2026-09-25",
-      "consecutive_failures": 43
+      "consecutive_failures": 44
     },
     "ADB": {
       "last_success": "알 수 없음",
-      "consecutive_failures": 205
+      "consecutive_failures": 206
     },
     "나라장터(G2B)": {
-      "last_success": "2026-11-07",
+      "last_success": "2026-11-08",
       "consecutive_failures": 0
     },
     "해외건설협회(ICAK)": {
-      "last_success": "2026-11-07",
+      "last_success": "2026-11-08",
       "consecutive_failures": 0
     },
     "EIB": {
@@ -37,17 +37,38 @@
       "consecutive_failures": 0
     },
     "KIND": {
-      "last_success": "2026-11-07",
+      "last_success": "2026-11-08",
       "consecutive_failures": 0
     },
     "AIIB": {
-      "last_success": "2026-11-07",
+      "last_success": "2026-11-08",
       "consecutive_failures": 0
     }
   },
   "count": 102,
-  "new_today_count": 5,
+  "new_today_count": 1,
   "notices": [
+    {
+      "id": "wb-OP00479774",
+      "notice_type": "Request for Expression of Interest",
+      "notice_date": "06-Nov-2026",
+      "submission_date": "2026-11-20T00:00:00Z",
+      "country": "Eastern and Southern Africa",
+      "project_id": "P506439",
+      "project_name": "Accelerating Access to Water, Sanitation and Hygiene in the Eastern and Southern Africa Region",
+      "bid_reference_no": "ZA-AUDA-NEPAD-523373-CS-QCBS",
+      "bid_description": "Consultancy services for the development of Utilities Performance Improvement Action Plans (PIAPS) in participating countries.",
+      "procurement_method": "Quality And Cost-Based Selection",
+      "procurement_group": "CS",
+      "summary": "_____________________________________________________ REQUEST FOR EXPRESSIONS OF INTEREST (CONSULTING SERVICES &ndash; FIRMS SELECTION) Country: Multinational Name of Project: Accelerating Access to Water, Sanitation and Hygiene in the Eastern and Southern Africa Region Project Grant No .: P506439 Assignment Title: Procurement of consultancy services for Utility Diagnostics, Performance Improvement Action Plans (PIAPs), Digitalization Maturity Assessment and New IBNET Benchmarking under the AFE ",
+      "source": "World Bank",
+      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00479774",
+      "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명(EOI)",
+      "consortium_signal": false,
+      "traffic_survey_signal": false,
+      "first_seen": "2026-11-08"
+    },
     {
       "id": "wb-OP00479441",
       "notice_type": "Request for Expression of Interest",
@@ -147,27 +168,6 @@
       "summary": "R&eacute;publique D&eacute;mocratique du Congo MINISTERE DES INFRASTRUCTURES ET TRAVAUX PUBLICS Cellule Infrastructures PROJET D&rsquo;APPUI A LA CONNECTIVITE ET AU TRANSPORT (PACT) AVIS DE SOLLICITATION DE MANIFESTATIONS D&rsquo;INTERET Recrutement d&rsquo;un Consultant firme charg&eacute; de l&rsquo;&eacute;laboration du r&eacute;f&eacute;rentiel des emplois et des comp&eacute;tences ainsi que du bilan des comp&eacute;tences du Secr&eacute;tariat G&eacute;n&eacute;ral des Postes, T&eacute;l&ea",
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00479528",
-      "_source_label": "World Bank",
-      "notice_type_normalized": "관심표명(EOI)",
-      "consortium_signal": false,
-      "traffic_survey_signal": false,
-      "first_seen": "2026-11-07"
-    },
-    {
-      "id": "wb-OP00479653",
-      "notice_type": "Request for Expression of Interest",
-      "notice_date": "05-Nov-2026",
-      "submission_date": "2026-11-20T00:00:00Z",
-      "country": "Madagascar",
-      "project_id": "P174684",
-      "project_name": "Economic Transformation for Inclusive Growth Project",
-      "bid_reference_no": "C-539-PIC3-INF",
-      "bid_description": "Maitrise d’œuvre des travaux de traitement des points critiques des pistes littorales au nord-ouest de Tuléar - Région Atsimo Andrefana",
-      "procurement_method": "Consultant Qualification  Selection",
-      "procurement_group": "CS",
-      "summary": "SOLLICITATION DE MANIFESTATIONS D &rsquo;INTERET ETUDES, C ONTROLES ET SURVEILLANCES DES TRAVAUX DE TRAITEMENT DES POINTS CRITIQUES DES PISTES LITTORALES AU NORD OUEST DE TULEAR &ndash; REGION ATSIMO ANDREFANA Cr&eacute;dit IDA 78730 A MI N&deg; C-539-PIC3/2026 Date de lancement : 05 novembre 2026 1. Le Gouvernement de la R&eacute;publique de Madagascar a obtenu un financement de l&rsquo;Association Internationale de D&eacute;veloppement (IDA) pour financer la mise en &oelig;uvre du Projet de Tr",
-      "source": "World Bank",
-      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00479653",
       "_source_label": "World Bank",
       "notice_type_normalized": "관심표명(EOI)",
       "consortium_signal": false,
