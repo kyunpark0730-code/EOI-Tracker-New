@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-08T00:35:26.681413+00:00",
-  "today_kst": "2026-11-08",
+  "generated_at": "2026-11-09T00:51:24.451079+00:00",
+  "today_kst": "2026-11-09",
   "sources": [
-    "World Bank 686건",
+    "World Bank 695건",
     "한국건설엔지니어링협회 0건",
     "ADB 0건",
     "나라장터(G2B) 31건",
@@ -13,23 +13,23 @@
   ],
   "source_status": {
     "World Bank": {
-      "last_success": "2026-11-08",
+      "last_success": "2026-11-09",
       "consecutive_failures": 0
     },
     "한국건설엔지니어링협회": {
       "last_success": "2026-09-25",
-      "consecutive_failures": 44
+      "consecutive_failures": 45
     },
     "ADB": {
       "last_success": "알 수 없음",
-      "consecutive_failures": 206
+      "consecutive_failures": 207
     },
     "나라장터(G2B)": {
-      "last_success": "2026-11-08",
+      "last_success": "2026-11-09",
       "consecutive_failures": 0
     },
     "해외건설협회(ICAK)": {
-      "last_success": "2026-11-08",
+      "last_success": "2026-11-09",
       "consecutive_failures": 0
     },
     "EIB": {
@@ -37,17 +37,38 @@
       "consecutive_failures": 0
     },
     "KIND": {
-      "last_success": "2026-11-08",
+      "last_success": "2026-11-09",
       "consecutive_failures": 0
     },
     "AIIB": {
-      "last_success": "2026-11-08",
+      "last_success": "2026-11-09",
       "consecutive_failures": 0
     }
   },
   "count": 102,
   "new_today_count": 1,
   "notices": [
+    {
+      "id": "wb-OP00478016",
+      "notice_type": "Request for Expression of Interest",
+      "notice_date": "07-Nov-2026",
+      "submission_date": "2026-11-16T00:00:00Z",
+      "country": "Azerbaijan",
+      "project_id": "P515925",
+      "project_name": "GFPP to Support Preparation of Competitive, Resilient Agriculture and Irrigation Services (CRAIS) in",
+      "bid_reference_no": "CRAIS-P515925-CS-CQS/1",
+      "bid_description": "Review and Updating of Feasibility Studies, Technical Assessments and Detailed Engineering Design for Irrigation Schemes",
+      "procurement_method": "Consultant Qualification  Selection",
+      "procurement_group": "CS",
+      "summary": "ADDENDUM No 1 TO THE REQUEST FOR EXPRESSIONS OF INTEREST (CONSULTING SERVICES &ndash; FIRMS SELECTION) The Republic of Azerbaijan Project Preparation in relation to: Competitive and Resilient Agriculture and Irrigation Services (CRAIS) Project Loan/Grant No.: TF0D1739 Assignment Title: Review and Updating of Feasibility Studies, Technical Assessments and Detailed Engineering Design for Irrigation Schemes Reference No.: CRAIS-P515925-CS-CQS/1 CLARIFICATION RESPONSES REGARDING THE TERMS OF REFEREN",
+      "source": "World Bank",
+      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00478016",
+      "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명(EOI)",
+      "consortium_signal": false,
+      "traffic_survey_signal": false,
+      "first_seen": "2026-10-31"
+    },
     {
       "id": "wb-OP00479774",
       "notice_type": "Request for Expression of Interest",
@@ -89,27 +110,6 @@
       "consortium_signal": false,
       "traffic_survey_signal": false,
       "first_seen": "2026-11-07"
-    },
-    {
-      "id": "wb-OP00478016",
-      "notice_type": "Request for Expression of Interest",
-      "notice_date": "05-Nov-2026",
-      "submission_date": "2026-11-16T00:00:00Z",
-      "country": "Azerbaijan",
-      "project_id": "P515925",
-      "project_name": "GFPP to Support Preparation of Competitive, Resilient Agriculture and Irrigation Services (CRAIS) in",
-      "bid_reference_no": "CRAIS-P515925-CS-CQS/1",
-      "bid_description": "Review and Updating of Feasibility Studies, Technical Assessments and Detailed Engineering Design for Irrigation Schemes",
-      "procurement_method": "Consultant Qualification  Selection",
-      "procurement_group": "CS",
-      "summary": "REQUEST FOR EXPRESSIONS OF INTEREST (CONSULTING SERVICES &ndash; FIRMS SELECTION) The Republic of Azerbaijan Project Preparation in relation to: Competitive and Resilient Agriculture and Irrigation Services (CRAIS) Project Loan/Grant No.: TF0D1739 Assignment Title: Review and Updating of Feasibility Studies, Technical Assessments and Detailed Engineering Design for Irrigation Schemes Reference No.: CRAIS-P515925-CS-CQS/1 The Ministry of Agriculture of the Republic of Azerbaijan has received gran",
-      "source": "World Bank",
-      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00478016",
-      "_source_label": "World Bank",
-      "notice_type_normalized": "관심표명(EOI)",
-      "consortium_signal": false,
-      "traffic_survey_signal": false,
-      "first_seen": "2026-10-31"
     },
     {
       "id": "wb-OP00477928",
@@ -173,6 +173,27 @@
       "consortium_signal": false,
       "traffic_survey_signal": false,
       "first_seen": "2026-11-07"
+    },
+    {
+      "id": "wb-OP00479653",
+      "notice_type": "Request for Expression of Interest",
+      "notice_date": "05-Nov-2026",
+      "submission_date": "2026-11-20T00:00:00Z",
+      "country": "Madagascar",
+      "project_id": "P174684",
+      "project_name": "Economic Transformation for Inclusive Growth Project",
+      "bid_reference_no": "C-539-PIC3-INF",
+      "bid_description": "Maitrise d’œuvre des travaux de traitement des points critiques des pistes littorales au nord-ouest de Tuléar - Région Atsimo Andrefana",
+      "procurement_method": "Consultant Qualification  Selection",
+      "procurement_group": "CS",
+      "summary": "SOLLICITATION DE MANIFESTATIONS D &rsquo;INTERET ETUDES, C ONTROLES ET SURVEILLANCES DES TRAVAUX DE TRAITEMENT DES POINTS CRITIQUES DES PISTES LITTORALES AU NORD OUEST DE TULEAR &ndash; REGION ATSIMO ANDREFANA Cr&eacute;dit IDA 78730 A MI N&deg; C-539-PIC3/2026 Date de lancement : 05 novembre 2026 1. Le Gouvernement de la R&eacute;publique de Madagascar a obtenu un financement de l&rsquo;Association Internationale de D&eacute;veloppement (IDA) pour financer la mise en &oelig;uvre du Projet de Tr",
+      "source": "World Bank",
+      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00479653",
+      "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명(EOI)",
+      "consortium_signal": false,
+      "traffic_survey_signal": false,
+      "first_seen": "2026-11-09"
     },
     {
       "id": "aiib-https://www.aiib.org/en/projects/details/2026/_download/Turkiye/Istanbul-Seismic-Risk-Mitigation-and-Emergency-Preparedness-2_Contract-Award-Publication.pdf",
@@ -314,27 +335,6 @@
       "summary": "PRIMATURE ---------- CELLULE DE PREVENTION ET D&rsquo;APPUI A LA GESTION DES URGENCES (CPGU) --------- PROJET REGIONAL POUR LA RESILIENCE CLIMATIQUE PRRC (P180171, IDA N&deg;7326-MG) --------- SOLLICITATION DE MANIFESTATIONS D&rsquo;INTERET (SERVICES DE CONSEIL-SELECTION DES FIRMES) SELECTION DE CONSULTANTS PAR LES EMPRUNTEURS DE LA BANQUE MONDIALE MADAGASCAR PROJET REGIONAL POUR LA RESILIENCE CLIMATIQUE &ndash; PRRC P180171, IDA N&deg;7326-MG APPEL A MANIFESTATION D&rsquo;INTERET EN VUE DE LA S",
       "source": "World Bank",
       "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00476331",
-      "_source_label": "World Bank",
-      "notice_type_normalized": "관심표명(EOI)",
-      "consortium_signal": false,
-      "traffic_survey_signal": false,
-      "first_seen": "2026-11-05"
-    },
-    {
-      "id": "wb-OP00478592",
-      "notice_type": "Request for Expression of Interest",
-      "notice_date": "03-Nov-2026",
-      "submission_date": "2026-12-03T00:00:00Z",
-      "country": "Cambodia",
-      "project_id": "P179159",
-      "project_name": "Skills for Better Jobs Project",
-      "bid_reference_no": "MLVT-CS-20-A",
-      "bid_description": "Consultancy Firm to Support the Upgrading of the Job Matching Portal (Digital) of the National Employment Agency and Developing the Labour Market Information System (LMIS)",
-      "procurement_method": "Quality And Cost-Based Selection",
-      "procurement_group": "CS",
-      "summary": "KINGDOM OF CAMBODIA NATION RELIGION KING Skills for Better Jobs Project (SBJ) IDA Credit No. 75480-KH Request for Expression of Interest (REoI) CONSULTING SERVICES OF THE FIRM to Consultancy Firm to Support the Upgrading of the Job Matching Portal (Digital) of the National Employment Agency and Developing the Labour Market Information System (LMIS) (MLVT-CS-20-A) Cambodia Ministry of Labour and Vocational Training (MLVT) Skills for Better Jobs Project (SBJ) World Bank: IDA Credit No. 75480-KH Re",
-      "source": "World Bank",
-      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00478592",
       "_source_label": "World Bank",
       "notice_type_normalized": "관심표명(EOI)",
       "consortium_signal": false,
