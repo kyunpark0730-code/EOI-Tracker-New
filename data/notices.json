@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-09T00:51:24.451079+00:00",
-  "today_kst": "2026-11-09",
+  "generated_at": "2026-11-10T03:34:08.817246+00:00",
+  "today_kst": "2026-11-10",
   "sources": [
-    "World Bank 695건",
+    "World Bank 675건",
     "한국건설엔지니어링협회 0건",
     "ADB 0건",
-    "나라장터(G2B) 31건",
+    "나라장터(G2B) 28건",
     "해외건설협회(ICAK) 3건",
     "EIB 38건",
     "KIND 11건",
@@ -13,23 +13,23 @@
   ],
   "source_status": {
     "World Bank": {
-      "last_success": "2026-11-09",
+      "last_success": "2026-11-10",
       "consecutive_failures": 0
     },
     "한국건설엔지니어링협회": {
       "last_success": "2026-09-25",
-      "consecutive_failures": 45
+      "consecutive_failures": 46
     },
     "ADB": {
       "last_success": "알 수 없음",
-      "consecutive_failures": 207
+      "consecutive_failures": 208
     },
     "나라장터(G2B)": {
-      "last_success": "2026-11-09",
+      "last_success": "2026-11-10",
       "consecutive_failures": 0
     },
     "해외건설협회(ICAK)": {
-      "last_success": "2026-11-09",
+      "last_success": "2026-11-10",
       "consecutive_failures": 0
     },
     "EIB": {
@@ -37,17 +37,37 @@
       "consecutive_failures": 0
     },
     "KIND": {
-      "last_success": "2026-11-09",
+      "last_success": "2026-11-10",
       "consecutive_failures": 0
     },
     "AIIB": {
-      "last_success": "2026-11-09",
+      "last_success": "2026-11-10",
       "consecutive_failures": 0
     }
   },
-  "count": 102,
-  "new_today_count": 1,
+  "count": 100,
+  "new_today_count": 2,
   "notices": [
+    {
+      "id": "aiib-https://www.aiib.org/en/projects/details/2026/_download/Uzbekistan/SPN_Invitation_to_PQ_BWSP-W-PQD-01-03_ENG.pdf",
+      "notice_type": "Procurement Notice",
+      "notice_date": "Nov 9, 2026",
+      "submission_date": "",
+      "country": "Uzbekistan",
+      "project_id": "",
+      "project_name": "Bukhara Region Water Supply and Sewerage Project -  Phase 1",
+      "bid_reference_no": "",
+      "bid_description": "",
+      "procurement_method": "",
+      "summary": "",
+      "source": "AIIB",
+      "source_url": "https://www.aiib.org/en/projects/details/2026/_download/Uzbekistan/SPN_Invitation_to_PQ_BWSP-W-PQD-01-03_ENG.pdf",
+      "_source_label": "AIIB",
+      "notice_type_normalized": "기타",
+      "consortium_signal": false,
+      "traffic_survey_signal": false,
+      "first_seen": "2026-11-10"
+    },
     {
       "id": "wb-OP00478016",
       "notice_type": "Request for Expression of Interest",
@@ -279,27 +299,6 @@
       "first_seen": "2026-11-05"
     },
     {
-      "id": "wb-OP00479035",
-      "notice_type": "Request for Expression of Interest",
-      "notice_date": "03-Nov-2026",
-      "submission_date": "2026-11-18T00:00:00Z",
-      "country": "Eastern and Southern Africa",
-      "project_id": "P178566",
-      "project_name": "Food Systems Resilience Program for Eastern and Southern Africa",
-      "bid_reference_no": "DJ-IGAD-567697-CS-CQS",
-      "bid_description": "STUDY TO DEVELOP CROSS-BORDER DIGITAL SOIL AND ASSOCIATED WATER RESOURCES INFORMATION SYSTEM FOR A PILOT AREA IN THE IGAD REGION, INCLUDING DIGITAL SOIL PROPERTY MAPS, AND UNCERTAINTY LAYERS.",
-      "procurement_method": "Consultant Qualification  Selection",
-      "procurement_group": "CS",
-      "summary": "Intergovernmental Authority on Development (IGAD) Request for Expression of Interest (Consulting Services &ndash; Firms Selection) Country: IGAD Secretariat Name of project: Food Systems Resilience Program for Eastern and Southern Africa Project No.: P178566 Grant No.: IDA-E0820 Assignment Title: Study to Develop Cross-Border Digital Soil for a Pilot Area in the IGAD Region, Including Digital Soil Property Maps, and Uncertainty Layers Reference/Contract No.: DJ-IGAD-567697-CS-CQS 1. The Intergov",
-      "source": "World Bank",
-      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00479035",
-      "_source_label": "World Bank",
-      "notice_type_normalized": "관심표명(EOI)",
-      "consortium_signal": false,
-      "traffic_survey_signal": false,
-      "first_seen": "2026-11-05"
-    },
-    {
       "id": "wb-OP00476341",
       "notice_type": "Request for Expression of Interest",
       "notice_date": "03-Nov-2026",
@@ -340,6 +339,27 @@
       "consortium_signal": false,
       "traffic_survey_signal": false,
       "first_seen": "2026-11-05"
+    },
+    {
+      "id": "wb-OP00478592",
+      "notice_type": "Request for Expression of Interest",
+      "notice_date": "03-Nov-2026",
+      "submission_date": "2026-12-03T00:00:00Z",
+      "country": "Cambodia",
+      "project_id": "P179159",
+      "project_name": "Skills for Better Jobs Project",
+      "bid_reference_no": "MLVT-CS-20-A",
+      "bid_description": "Consultancy Firm to Support the Upgrading of the Job Matching Portal (Digital) of the National Employment Agency and Developing the Labour Market Information System (LMIS)",
+      "procurement_method": "Quality And Cost-Based Selection",
+      "procurement_group": "CS",
+      "summary": "KINGDOM OF CAMBODIA NATION RELIGION KING Skills for Better Jobs Project (SBJ) IDA Credit No. 75480-KH Request for Expression of Interest (REoI) CONSULTING SERVICES OF THE FIRM to Consultancy Firm to Support the Upgrading of the Job Matching Portal (Digital) of the National Employment Agency and Developing the Labour Market Information System (LMIS) (MLVT-CS-20-A) Cambodia Ministry of Labour and Vocational Training (MLVT) Skills for Better Jobs Project (SBJ) World Bank: IDA Credit No. 75480-KH Re",
+      "source": "World Bank",
+      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00478592",
+      "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명(EOI)",
+      "consortium_signal": false,
+      "traffic_survey_signal": false,
+      "first_seen": "2026-11-10"
     },
     {
       "id": "wb-OP00478613",
@@ -909,27 +929,6 @@
       "first_seen": "2026-10-28"
     },
     {
-      "id": "wb-OP00457141",
-      "notice_type": "Request for Expression of Interest",
-      "notice_date": "23-Oct-2026",
-      "submission_date": "2026-11-09T00:00:00Z",
-      "country": "Chad",
-      "project_id": "P180915",
-      "project_name": "Chad Connectivity and Integration Project",
-      "bid_reference_no": "TD-MTCAMN-514665-CS-CDS",
-      "bid_description": "étude de faisabilité pour la modernisation des transports sur le lac Tchad et les fleuves Chari et Logone",
-      "procurement_method": "Quality And Cost-Based Selection",
-      "procurement_group": "CS",
-      "summary": "REPUBLIQUE DU TCHAD --- *** --- PRESIDENCE DE LA REPUBLIQUE --- *** --- PRIMATURE --- *** --- MINISTERE DE TRANSPORT, L&rsquo;AVIATION CIVILE ET LA METROLOGIE NATIONALE --- *** --- SECRETARIAT GENERAL --- *** --- COORDINATION DU PROJET DE CONNECTIVITE ET D&rsquo;INTEGRATION DU TCHAD --- *** --- SERVICE DE PASSATION DES MARCHES UNITE - TRAVAIL - PROGRES -- --- *** --- --- *** --- --- *** --- --- *** --- --- *** --- --- *** --- --- *** --- PROJET DE CONNECTIVITE ET D&rsquo;INTEGRATION DUTCHAD Fina",
-      "source": "World Bank",
-      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00457141",
-      "_source_label": "World Bank",
-      "notice_type_normalized": "관심표명(EOI)",
-      "consortium_signal": false,
-      "traffic_survey_signal": false,
-      "first_seen": "2026-10-25"
-    },
-    {
       "id": "wb-OP00476113",
       "notice_type": "Request for Expression of Interest",
       "notice_date": "23-Oct-2026",
@@ -1012,27 +1011,6 @@
       "consortium_signal": false,
       "traffic_survey_signal": false,
       "first_seen": "2026-10-22"
-    },
-    {
-      "id": "wb-OP00474975",
-      "notice_type": "Request for Expression of Interest",
-      "notice_date": "13-Oct-2026",
-      "submission_date": "2026-11-09T00:00:00Z",
-      "country": "Nigeria",
-      "project_id": "P179684",
-      "project_name": "Sustainable Power and Irrigation for Nigeria Project",
-      "bid_reference_no": "NG-CROSS RIVER SPIN-573497-CS-QCBS",
-      "bid_description": "CONSULTANCY SERVICES FOR THE DESIGN REVIEW AND CONSTRUCTION SUPERVISION OF BANSARA IRRIGATION SCHEME, CROSS RIVER STATE",
-      "procurement_method": "Quality And Cost-Based Selection",
-      "procurement_group": "CS",
-      "summary": "IDA Credit No: IDA76370 REQUEST FOR EXPRESSION OF INTEREST (REOI) CONSULTANCY SERVICES FOR THE DESIGN REVIEW AND CONSTRUCTION SUPERVISION OF BANSARA IRRIGATION SCHEME, CROSS RIVER STATE Reference No. NG-CROSS RIVER SPIN- 573497-CS-QCBS The Cross River State Government has received financing from the World Bank toward the cost of the Sustainable Power and Irrigation for Nigeria (SPIN) Project, and intends to apply part of the proceeds for consulting services. 1. Objective of the Assignment The ov",
-      "source": "World Bank",
-      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00474975",
-      "_source_label": "World Bank",
-      "notice_type_normalized": "관심표명(EOI)",
-      "consortium_signal": false,
-      "traffic_survey_signal": false,
-      "first_seen": "2026-10-15"
     },
     {
       "id": "wb-OP00474729",
@@ -1247,26 +1225,6 @@
       "project_id": "20190920-08",
       "project_name": "Travaux de construction de deux chateaux d’eau de capacite 3 200 m3 à Kaolack",
       "bid_reference_no": "20190920-08",
-      "bid_description": "On going",
-      "procurement_method": "",
-      "summary": "",
-      "source": "EIB",
-      "source_url": "https://www.eib.org/en/about/procurement/all/index.htm",
-      "_source_label": "EIB",
-      "notice_type_normalized": "기타",
-      "consortium_signal": false,
-      "traffic_survey_signal": false,
-      "first_seen": "2026-09-30"
-    },
-    {
-      "id": "eib-6ab65db4cbb93236c16075dd",
-      "notice_type": "Project procurement",
-      "notice_date": "25/09/2026",
-      "submission_date": "09/11/2026",
-      "country": "",
-      "project_id": "EIB-GtP/VETLAB_TUM2_2026",
-      "project_name": "Supply and installation of a Veterinary Computed Tomography (CT) Scanner for the final beneficiary Technical University of Moldova (Faculty of Veterinary Medicine)",
-      "bid_reference_no": "EIB-GtP/VETLAB_TUM2_2026",
       "bid_description": "On going",
       "procurement_method": "",
       "summary": "",
