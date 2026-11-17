@@ -1,35 +1,35 @@
 {
-  "generated_at": "2026-11-16T00:59:22.554533+00:00",
-  "today_kst": "2026-11-16",
+  "generated_at": "2026-11-17T03:47:47.850916+00:00",
+  "today_kst": "2026-11-17",
   "sources": [
-    "World Bank 710건",
+    "World Bank 657건",
     "한국건설엔지니어링협회 0건",
     "ADB 0건",
     "나라장터(G2B) 1건",
     "해외건설협회(ICAK) 3건",
     "EIB 39건",
     "KIND 11건",
-    "AIIB 8건"
+    "AIIB 9건"
   ],
   "source_status": {
     "World Bank": {
-      "last_success": "2026-11-16",
+      "last_success": "2026-11-17",
       "consecutive_failures": 0
     },
     "한국건설엔지니어링협회": {
       "last_success": "2026-09-25",
-      "consecutive_failures": 52
+      "consecutive_failures": 53
     },
     "ADB": {
       "last_success": "알 수 없음",
-      "consecutive_failures": 214
+      "consecutive_failures": 215
     },
     "나라장터(G2B)": {
       "last_success": "2026-11-10",
-      "consecutive_failures": 6
+      "consecutive_failures": 7
     },
     "해외건설협회(ICAK)": {
-      "last_success": "2026-11-16",
+      "last_success": "2026-11-17",
       "consecutive_failures": 0
     },
     "EIB": {
@@ -37,17 +37,38 @@
       "consecutive_failures": 0
     },
     "KIND": {
-      "last_success": "2026-11-16",
+      "last_success": "2026-11-17",
       "consecutive_failures": 0
     },
     "AIIB": {
-      "last_success": "2026-11-16",
+      "last_success": "2026-11-17",
       "consecutive_failures": 0
     }
   },
-  "count": 104,
-  "new_today_count": 2,
+  "count": 103,
+  "new_today_count": 3,
   "notices": [
+    {
+      "id": "wb-OP00481634",
+      "notice_type": "Request for Expression of Interest",
+      "notice_date": "15-Nov-2026",
+      "submission_date": "2026-12-08T00:00:00Z",
+      "country": "",
+      "project_id": "P511188",
+      "project_name": "Djibouti Economic Diversification Program-for-Results",
+      "bid_reference_no": "DJ-MEFI-577668-CS-QCBS",
+      "bid_description": "Recrutement d'un agence de vérification indépendante des résultats.",
+      "procurement_method": "Quality And Cost-Based Selection",
+      "procurement_group": "CS",
+      "summary": "Appel &agrave; Manifestation d&rsquo;Int&eacute;r&ecirc;t N&deg; 01/AMI/CF/UGP/MEFI/PForR-AVI/2026 Recrutement d&rsquo;un Agent V&eacute;rificateur Ind&eacute;pendant Le Gouvernement de la R&eacute;publique de Djibouti met en &oelig;uvre un Programme de Diversification &Eacute;conomique soutenu par la Banque mondiale, en tant que Phase 1 de l&rsquo;Approche Programme &agrave; Phases Multiples (APM), dans le cadre d&rsquo;un financement combinant un m&eacute;canisme Program-for-Results (PforR). D",
+      "source": "World Bank",
+      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00481634",
+      "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명(EOI)",
+      "consortium_signal": false,
+      "traffic_survey_signal": false,
+      "first_seen": "2026-11-17"
+    },
     {
       "id": "wb-OP00481539",
       "notice_type": "Request for Expression of Interest",
@@ -133,32 +154,31 @@
       "first_seen": "2026-11-15"
     },
     {
-      "id": "wb-OP00476113",
-      "notice_type": "Request for Expression of Interest",
-      "notice_date": "12-Nov-2026",
-      "submission_date": "2026-11-16T00:00:00Z",
-      "country": "Dominican Republic",
-      "project_id": "P180512",
-      "project_name": "Distribution Efficiency Improvement and Utility Strengthening Project",
-      "bid_reference_no": "DO-EDEESTE-571491-CS-QCBS",
-      "bid_description": "Consultoría para el apoyo a la gestión y a la supervisión de determinadas actividades de obras",
-      "procurement_method": "Quality And Cost-Based Selection",
-      "procurement_group": "CS",
-      "summary": "SOLICITUD DE EXPRESIONES DE INTER&Eacute;S SERVICIOS DE CONSULTOR&Iacute;A PLAZO ENMENDADO DE PRESENTACI&Oacute;N DE EXPRESI&Oacute;N DE INTER&Eacute;S AL 16 DE NOVIEMBRE 2026 Pa&iacute;s: Rep&uacute;blica Dominicana Nombre del Proyecto: Programa de Mejoramiento de Redes de Media y Baja Tensi&oacute;n y Normalizaci&oacute;n de Clientes de las Empresas Distribuidoras de Electricidad a Nivel Nacional. Pr&eacute;stamo n&ordm;: BIRF 9624-DO. T&iacute;tulo del Trabajo : Servicios de Consultor&iacute;",
-      "source": "World Bank",
-      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00476113",
-      "_source_label": "World Bank",
-      "notice_type_normalized": "관심표명(EOI)",
+      "id": "aiib-https://www.aiib.org/en/projects/details/2026/_download/Uzbekistan/SPN_BWSP-W_RFB_11_eng.pdf",
+      "notice_type": "Procurement Notice",
+      "notice_date": "Nov 13, 2026",
+      "submission_date": "",
+      "country": "Uzbekistan",
+      "project_id": "",
+      "project_name": "Bukhara Region Water Supply and Sewerage Project -  Phase 1",
+      "bid_reference_no": "",
+      "bid_description": "",
+      "procurement_method": "",
+      "summary": "",
+      "source": "AIIB",
+      "source_url": "https://www.aiib.org/en/projects/details/2026/_download/Uzbekistan/SPN_BWSP-W_RFB_11_eng.pdf",
+      "_source_label": "AIIB",
+      "notice_type_normalized": "기타",
       "consortium_signal": false,
       "traffic_survey_signal": false,
-      "first_seen": "2026-11-14"
+      "first_seen": "2026-11-17"
     },
     {
       "id": "wb-OP00479441",
       "notice_type": "Request for Expression of Interest",
       "notice_date": "12-Nov-2026",
       "submission_date": "2026-11-23T00:00:00Z",
-      "country": "El Salvador",
+      "country": "",
       "project_id": "P506109",
       "project_name": "El Salvador Geothermal Energy for Sustainable and Inclusive Development",
       "bid_reference_no": "SV-LAGEO-534014-CS-QCBS",
@@ -179,7 +199,7 @@
       "notice_type": "Request for Expression of Interest",
       "notice_date": "11-Nov-2026",
       "submission_date": "2026-11-27T00:00:00Z",
-      "country": "Gabon",
+      "country": "",
       "project_id": "P518958",
       "project_name": "Gabon Booué Hydropower and Power Sector Transformation Project Phase 1 (BOOST)",
       "bid_reference_no": "GA-CN TIPPEE-576135-CS-QCBS",
@@ -242,7 +262,7 @@
       "notice_type": "Request for Expression of Interest",
       "notice_date": "10-Nov-2026",
       "submission_date": "2026-11-26T00:00:00Z",
-      "country": "Angola",
+      "country": "",
       "project_id": "P505158",
       "project_name": "Angola Youth Employment Opportunities Project",
       "bid_reference_no": "AO-INEFOP-564929-CS-CQS",
@@ -305,7 +325,7 @@
       "notice_type": "Request for Expression of Interest",
       "notice_date": "10-Nov-2026",
       "submission_date": "2026-11-26T00:00:00Z",
-      "country": "Angola",
+      "country": "",
       "project_id": "P505158",
       "project_name": "Angola Youth Employment Opportunities Project",
       "bid_reference_no": "1.2.1./C-1.2.1/COMP.1/CS/INEFOP-2026",
@@ -347,7 +367,7 @@
       "notice_type": "Request for Expression of Interest",
       "notice_date": "10-Nov-2026",
       "submission_date": "2026-11-30T00:00:00Z",
-      "country": "Angola",
+      "country": "",
       "project_id": "P505158",
       "project_name": "Angola Youth Employment Opportunities Project",
       "bid_reference_no": "2.2.14./C-2.2.14/COMP.2/CS/INEFOP-2026",
@@ -594,27 +614,6 @@
       "first_seen": "2026-11-10"
     },
     {
-      "id": "wb-OP00478016",
-      "notice_type": "Request for Expression of Interest",
-      "notice_date": "07-Nov-2026",
-      "submission_date": "2026-11-16T00:00:00Z",
-      "country": "Azerbaijan",
-      "project_id": "P515925",
-      "project_name": "GFPP to Support Preparation of Competitive, Resilient Agriculture and Irrigation Services (CRAIS) in",
-      "bid_reference_no": "CRAIS-P515925-CS-CQS/1",
-      "bid_description": "Review and Updating of Feasibility Studies, Technical Assessments and Detailed Engineering Design for Irrigation Schemes",
-      "procurement_method": "Consultant Qualification  Selection",
-      "procurement_group": "CS",
-      "summary": "ADDENDUM No 1 TO THE REQUEST FOR EXPRESSIONS OF INTEREST (CONSULTING SERVICES &ndash; FIRMS SELECTION) The Republic of Azerbaijan Project Preparation in relation to: Competitive and Resilient Agriculture and Irrigation Services (CRAIS) Project Loan/Grant No.: TF0D1739 Assignment Title: Review and Updating of Feasibility Studies, Technical Assessments and Detailed Engineering Design for Irrigation Schemes Reference No.: CRAIS-P515925-CS-CQS/1 CLARIFICATION RESPONSES REGARDING THE TERMS OF REFEREN",
-      "source": "World Bank",
-      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00478016",
-      "_source_label": "World Bank",
-      "notice_type_normalized": "관심표명(EOI)",
-      "consortium_signal": false,
-      "traffic_survey_signal": false,
-      "first_seen": "2026-10-31"
-    },
-    {
       "id": "wb-OP00479774",
       "notice_type": "Request for Expression of Interest",
       "notice_date": "06-Nov-2026",
@@ -720,26 +719,6 @@
       "first_seen": "2026-11-09"
     },
     {
-      "id": "aiib-https://www.aiib.org/en/projects/details/2026/_download/Turkiye/Istanbul-Seismic-Risk-Mitigation-and-Emergency-Preparedness-2_Contract-Award-Publication.pdf",
-      "notice_type": "Procurement Notice",
-      "notice_date": "Nov 5, 2026",
-      "submission_date": "",
-      "country": "Turkiye",
-      "project_id": "",
-      "project_name": "Istanbul Seismic Risk Mitigation and Emergency Preparedness – 2",
-      "bid_reference_no": "",
-      "bid_description": "Selection of Individual Consultant (Cost Controlling and ALB Evaluation Expert) for IPCU",
-      "procurement_method": "",
-      "summary": "Selection of Individual Consultant (Cost Controlling and ALB Evaluation Expert) for IPCU",
-      "source": "AIIB",
-      "source_url": "https://www.aiib.org/en/projects/details/2026/_download/Turkiye/Istanbul-Seismic-Risk-Mitigation-and-Emergency-Preparedness-2_Contract-Award-Publication.pdf",
-      "_source_label": "AIIB",
-      "notice_type_normalized": "기타",
-      "consortium_signal": false,
-      "traffic_survey_signal": false,
-      "first_seen": "2026-11-13"
-    },
-    {
       "id": "wb-OP00478688",
       "notice_type": "Request for Expression of Interest",
       "notice_date": "04-Nov-2026",
@@ -822,6 +801,27 @@
       "consortium_signal": false,
       "traffic_survey_signal": false,
       "first_seen": "2026-11-05"
+    },
+    {
+      "id": "wb-OP00476331",
+      "notice_type": "Request for Expression of Interest",
+      "notice_date": "03-Nov-2026",
+      "submission_date": "2026-12-01T00:00:00Z",
+      "country": "Eastern and Southern Africa",
+      "project_id": "P180171",
+      "project_name": "Regional Climate Resilience Program for Eastern and Southern Africa 1 Project (RCRP1)",
+      "bid_reference_no": "MD-CPGU-C062",
+      "bid_description": "Recrutement d’un cabinet chargé de la formation sur la norme de bâtiments, la révision et vulgarisation du guide sur les cases traditionnelles",
+      "procurement_method": "Consultant Qualification  Selection",
+      "procurement_group": "CS",
+      "summary": "PRIMATURE ---------- CELLULE DE PREVENTION ET D&rsquo;APPUI A LA GESTION DES URGENCES (CPGU) --------- PROJET REGIONAL POUR LA RESILIENCE CLIMATIQUE PRRC (P180171, IDA N&deg;7326-MG) --------- SOLLICITATION DE MANIFESTATIONS D&rsquo;INTERET (SERVICES DE CONSEIL-SELECTION DES FIRMES) SELECTION DE CONSULTANTS PAR LES EMPRUNTEURS DE LA BANQUE MONDIALE MADAGASCAR PROJET REGIONAL POUR LA RESILIENCE CLIMATIQUE &ndash; PRRC P180171, IDA N&deg;7326-MG APPEL A MANIFESTATION D&rsquo;INTERET EN VUE DE LA S",
+      "source": "World Bank",
+      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00476331",
+      "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명(EOI)",
+      "consortium_signal": false,
+      "traffic_survey_signal": false,
+      "first_seen": "2026-11-17"
     },
     {
       "id": "wb-OP00478592",
@@ -1116,27 +1116,6 @@
       "consortium_signal": false,
       "traffic_survey_signal": false,
       "first_seen": "2026-10-11"
-    },
-    {
-      "id": "g2b-R26BK01808439-000",
-      "notice_type": "용역 입찰공고",
-      "notice_date": "2026-11-04 15:55:42",
-      "submission_date": "2026-11-16 10:00:00",
-      "country": "",
-      "project_id": "R26BK01808439",
-      "project_name": "「PIS 1단계 및 2단계 펀드」2026년 운용성과 평가 용역",
-      "bid_reference_no": "R26BK01808439",
-      "bid_description": "한국해외인프라도시개발지원공사",
-      "procurement_method": "일반경쟁",
-      "agency_tag": "",
-      "summary": "",
-      "source": "나라장터(G2B)",
-      "source_url": "https://www.g2b.go.kr/link/PNPE027_01/single/?bidPbancNo=R26BK01808439&bidPbancOrd=000",
-      "_source_label": "나라장터(G2B)",
-      "notice_type_normalized": "입찰공고",
-      "consortium_signal": false,
-      "traffic_survey_signal": false,
-      "first_seen": "2026-11-05"
     },
     {
       "id": "icak-503698",
