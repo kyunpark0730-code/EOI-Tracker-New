@@ -1,35 +1,35 @@
 {
-  "generated_at": "2026-11-21T02:10:54.561336+00:00",
-  "today_kst": "2026-11-21",
+  "generated_at": "2026-11-22T01:14:28.532696+00:00",
+  "today_kst": "2026-11-22",
   "sources": [
-    "World Bank 636건",
+    "World Bank 670건",
     "한국건설엔지니어링협회 0건",
     "ADB 0건",
     "나라장터(G2B) 1건",
-    "해외건설협회(ICAK) 3건",
-    "EIB 41건",
+    "해외건설협회(ICAK) 2건",
+    "EIB 37건",
     "KIND 11건",
     "AIIB 10건"
   ],
   "source_status": {
     "World Bank": {
-      "last_success": "2026-11-21",
+      "last_success": "2026-11-22",
       "consecutive_failures": 0
     },
     "한국건설엔지니어링협회": {
       "last_success": "2026-09-25",
-      "consecutive_failures": 57
+      "consecutive_failures": 58
     },
     "ADB": {
       "last_success": "알 수 없음",
-      "consecutive_failures": 219
+      "consecutive_failures": 220
     },
     "나라장터(G2B)": {
-      "last_success": "2026-11-21",
+      "last_success": "2026-11-22",
       "consecutive_failures": 0
     },
     "해외건설협회(ICAK)": {
-      "last_success": "2026-11-21",
+      "last_success": "2026-11-22",
       "consecutive_failures": 0
     },
     "EIB": {
@@ -37,17 +37,101 @@
       "consecutive_failures": 0
     },
     "KIND": {
-      "last_success": "2026-11-21",
+      "last_success": "2026-11-22",
       "consecutive_failures": 0
     },
     "AIIB": {
-      "last_success": "2026-11-21",
+      "last_success": "2026-11-22",
       "consecutive_failures": 0
     }
   },
-  "count": 107,
-  "new_today_count": 2,
+  "count": 111,
+  "new_today_count": 6,
   "notices": [
+    {
+      "id": "wb-OP00482630",
+      "notice_type": "Request for Expression of Interest",
+      "notice_date": "20-Nov-2026",
+      "submission_date": "2026-12-04T00:00:00Z",
+      "country": "Madagascar",
+      "project_id": "P174684",
+      "project_name": "Economic Transformation for Inclusive Growth Project",
+      "bid_reference_no": "C-457-PIC3-INV",
+      "bid_description": "MISE EN PLACE DU BAROMETRE DE L'INDUSTRIALISATION DE MADAGASCAR",
+      "procurement_method": "Consultant Qualification  Selection",
+      "procurement_group": "CS",
+      "summary": "PROJET DE TRANSFORMATION ECONOMIQUE POUR UNE CROISSANCE INCLUSIVE ----------o----------- SOLLICITATION DE MANIFESTATIONS D&rsquo;INTERET MISE EN PLACE DU BAROMETRE DE L&#39;INDUSTRIALISATION DE MADAGASCAR Cr&eacute;dit IDA 78730 AMI N&deg; C-457-PIC3-INV Date de lancement : 20 novembre 2026 1. Le Gouvernement de la R&eacute;publique de Madagascar a obtenu un financement additionnel de l&rsquo;Association Internationale de D&eacute;veloppement (IDA) pour financer la mise en &oelig;uvre du Projet ",
+      "source": "World Bank",
+      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00482630",
+      "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명(EOI)",
+      "consortium_signal": false,
+      "traffic_survey_signal": false,
+      "first_seen": "2026-11-22"
+    },
+    {
+      "id": "wb-OP00482871",
+      "notice_type": "Request for Expression of Interest",
+      "notice_date": "20-Nov-2026",
+      "submission_date": "2026-12-04T00:00:00Z",
+      "country": "Ethiopia",
+      "project_id": "P180076",
+      "project_name": "Lowlands Livelihood Resilience Project, Phase Two (LLRP II)",
+      "bid_reference_no": "ET-GAM-RPCU-570828-CS-QCBS",
+      "bid_description": "Consultancy Services for Study and Detailed Design for Rial Malow gravel access road (15KM) in Lare Woreda, Gier - Pior gravel access road (27KM) in Makuey Woreda, Matar town - Pibor gravel access road (25KM) in Wantuwo & Jikow Woreda, Akula - Wankay grav",
+      "procurement_method": "Quality And Cost-Based Selection",
+      "procurement_group": "CS",
+      "summary": "REQUEST FOR EXPRESSIONS OF INTEREST (CONSULTING SERVICES &ndash; FIRMS SELECTION) FEDERAL DEMOCRATIC REPUBLIC OF ETHIOPIA LOWLANDS LIVELIHOOD RESILIENCE PROJECT &ndash; PHASE II (LLRP-II) Credit No. : 75190 Assignment Title: Consultancy Services for Route Selection and Survey, Feasibility study, Detailed Engineering Design, ESIA and Tender Document Preparation of Rial Malow gravel access road (15KM) in Lare Woreda, Gier - Pior gravel access road (27KM) in Makuey Woreda, Matar town - Pior gravel ",
+      "source": "World Bank",
+      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00482871",
+      "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명(EOI)",
+      "consortium_signal": false,
+      "traffic_survey_signal": false,
+      "first_seen": "2026-11-22"
+    },
+    {
+      "id": "wb-OP00482808",
+      "notice_type": "Request for Expression of Interest",
+      "notice_date": "20-Nov-2026",
+      "submission_date": "2026-12-10T00:00:00Z",
+      "country": "Central Africa",
+      "project_id": "P175235",
+      "project_name": "Central Africa Regional Waterways Project",
+      "bid_reference_no": "PRACAC-14/SC/SFQC/23",
+      "bid_description": "Diagnostic SCEVN - Sélection d’un cabinet pour réaliser le diagnostic des besoins en formation et élaboration du plan de formation au profit du personnel du GIE-SCEVN.",
+      "procurement_method": "Quality And Cost-Based Selection",
+      "procurement_group": "CS",
+      "summary": "MINISTERE DE L&rsquo;EQUIPEMENT ET DES TRAVAUX PUBLICS ------------------ Direction de Cabinet ------------ Coordination du Projet R&eacute;gional d&rsquo;Am&eacute;lioration des Corridors des Transports Routier et Fluvial en Afrique Centrale ---------------- N&deg;_ 161 _/26/METP/DIRCAB/UGP-PRACAC.- REPUBLIQUE CENTRAFRICAINE Unit&eacute; &ndash; Dignit&eacute; &ndash; Travail -------------- Bangui, le 19 Novembre 2026 SOLLICITATION DE MANIFESTATIONS D&rsquo;INTERET SELECTION DE CONSULTANTS PAR ",
+      "source": "World Bank",
+      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00482808",
+      "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명(EOI)",
+      "consortium_signal": false,
+      "traffic_survey_signal": false,
+      "first_seen": "2026-11-22"
+    },
+    {
+      "id": "wb-OP00482716",
+      "notice_type": "Request for Expression of Interest",
+      "notice_date": "20-Nov-2026",
+      "submission_date": "2026-12-22T00:00:00Z",
+      "country": "Guinea",
+      "project_id": "P179017",
+      "project_name": "Guinea Water and Sanitation Project",
+      "bid_reference_no": "GN-GWSP-573139-CS-QCBS",
+      "bid_description": "Recrutement d’une assistance technique pour l'Autorité de Régulation des Secteurs de l'Electricité et de l'Eau Potable (AREE) pour une formation et un mentorat entre pairs.",
+      "procurement_method": "Quality And Cost-Based Selection",
+      "procurement_group": "CS",
+      "summary": "R&eacute;publique de Guin&eacute;e Travail &ndash; Justice - Solidarit&eacute; ---------------------- MINISTRE DE L&rsquo;ASSAINISSEMENT DE L&rsquo;HYDRAULIQUE ET DES HYDROCARBURES ------------------------- SOCI&Eacute;T&Eacute; DES EAUX DE GUIN&Eacute;E (SEG) SA ------------------------- PROJET EAU ET ASSAINISSEMENT DE GUIN&Eacute;E CR&Eacute;DIT IDA -77420 ------------ UNITE DE COORDINATION ET D&rsquo;EX&Eacute;CUTION DU PROJET - --------------------------------------- APPEL &Agrave; MANIFESTA",
+      "source": "World Bank",
+      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00482716",
+      "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명(EOI)",
+      "consortium_signal": false,
+      "traffic_survey_signal": false,
+      "first_seen": "2026-11-22"
+    },
     {
       "id": "wb-OP00476667",
       "notice_type": "Request for Expression of Interest",
@@ -846,6 +930,27 @@
       "first_seen": "2026-11-12"
     },
     {
+      "id": "wb-OP00480365",
+      "notice_type": "Request for Expression of Interest",
+      "notice_date": "10-Nov-2026",
+      "submission_date": "2026-12-01T00:00:00Z",
+      "country": "Cote d'Ivoire",
+      "project_id": "P177062",
+      "project_name": "Sustainable and Inclusive Secondary Cities Project",
+      "bid_reference_no": "CI-PARU-578791-CS-QCBS",
+      "bid_description": "Sélection d'un Consultant pour le suivi et contrôle des travaux de construction des voiries urbaines et des ouvrages de drainage des eaux pluviales dans la commune de Korhogo",
+      "procurement_method": "Quality And Cost-Based Selection",
+      "procurement_group": "CS",
+      "summary": "APPEL A MANIFESTATIONS D&rsquo;INT&Eacute;R&Ecirc;T C&Ocirc;TE D&rsquo;IVOIRE PROJET DE D&Eacute;VELOPPEMENT DURABLE ET INCLUSIF DES VILLES SECONDAIRES Num&eacute;ro de Pr&ecirc;t/Cr&eacute;dit/Don : Cr&eacute;dit IDA N&deg; 7287-CI Intitul&eacute; de la Mission : Recrutement d&rsquo;un Consultant pour le suivi et contr&ocirc;le des travaux de construction des voiries urbaines et des ouvrages de drainage des eaux pluviales dans la commune de Korhogo. N&deg; de r&eacute;f&eacute;rence : N &deg; C",
+      "source": "World Bank",
+      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00480365",
+      "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명(EOI)",
+      "consortium_signal": false,
+      "traffic_survey_signal": false,
+      "first_seen": "2026-11-22"
+    },
+    {
       "id": "wb-OP00480370",
       "notice_type": "Request for Expression of Interest",
       "notice_date": "10-Nov-2026",
@@ -991,6 +1096,27 @@
       "consortium_signal": false,
       "traffic_survey_signal": false,
       "first_seen": "2026-11-11"
+    },
+    {
+      "id": "wb-OP00479475",
+      "notice_type": "Request for Expression of Interest",
+      "notice_date": "09-Nov-2026",
+      "submission_date": "2026-11-27T00:00:00Z",
+      "country": "Cote d'Ivoire",
+      "project_id": "P177062",
+      "project_name": "Sustainable and Inclusive Secondary Cities Project",
+      "bid_reference_no": "CI-PARU-578798-CS-QCBS",
+      "bid_description": "Sélection d’un Consultant pour le suivi et contrôle des travaux de construction des voiries urbaines dans la commune de Bouna",
+      "procurement_method": "Quality And Cost-Based Selection",
+      "procurement_group": "CS",
+      "summary": "APPEL A MANIFESTATIONS D&rsquo;INT&Eacute;R&Ecirc;T C&Ocirc;TE D&rsquo;IVOIRE PROJET DE D&Eacute;VELOPPEMENT DURABLE ET INCLUSIF DES VILLES SECONDAIRES Num&eacute;ro de Pr&ecirc;t/Cr&eacute;dit/Don : Cr&eacute;dit IDA N&deg; 7287-CI Intitul&eacute; de la Mission : Recrutement d&rsquo;un Consultant pour le suivi et contr&ocirc;le des travaux de construction des voiries urbaines dans la commune de Bouna. N&deg; de r&eacute;f&eacute;rence : N&deg; CI-PARU-578798-CS-QCBS Le Gouvernement de la R&eacu",
+      "source": "World Bank",
+      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00479475",
+      "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명(EOI)",
+      "consortium_signal": false,
+      "traffic_survey_signal": false,
+      "first_seen": "2026-11-22"
     },
     {
       "id": "wb-OP00476775",
@@ -1182,27 +1308,6 @@
       "first_seen": "2026-11-02"
     },
     {
-      "id": "wb-OP00477970",
-      "notice_type": "Request for Expression of Interest",
-      "notice_date": "29-Oct-2026",
-      "submission_date": "2026-11-21T00:00:00Z",
-      "country": "India",
-      "project_id": "P174593",
-      "project_name": "Assam Integrated River Basin Management Program",
-      "bid_reference_no": "FREMAA_CS_19_SWP FIRM",
-      "bid_description": "Consultancy Services for the Development, Stakeholder Engagement, and Finalization of the Assam State Water Policy under AIRBMP",
-      "procurement_method": "Consultant Qualification  Selection",
-      "procurement_group": "CS",
-      "summary": "REQUEST FOR EXPRESSIONS OF INTEREST (REOI) Country: India Project: Assam Integrated River Basin Management Program (AIRBMP)-P174593 Assignment Title: Consultancy Services for the Development, Stakeholder Engagement, and Finalization of the Assam State Water Policy under AIRBMP Reference No.: FREMAA_CS_19_SWP FIRM The Government of Assam has received financing from the World Bank towards the cost of the Assam Integrated River Basin Management Program -P174593 and intends to apply part of the proc",
-      "source": "World Bank",
-      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00477970",
-      "_source_label": "World Bank",
-      "notice_type_normalized": "관심표명(EOI)",
-      "consortium_signal": false,
-      "traffic_survey_signal": false,
-      "first_seen": "2026-10-31"
-    },
-    {
       "id": "wb-OP00477421",
       "notice_type": "Request for Expression of Interest",
       "notice_date": "27-Oct-2026",
@@ -1263,26 +1368,6 @@
       "consortium_signal": false,
       "traffic_survey_signal": false,
       "first_seen": "2026-11-07"
-    },
-    {
-      "id": "icak-503668",
-      "notice_type": "입찰공고",
-      "notice_date": "2026-10-23 00:00:00",
-      "submission_date": "2099-12-31 23:59:00",
-      "country": "Costa Rica",
-      "project_id": "",
-      "project_name": "[주코스타리카공화국대한민국대사관] 코스타리카 산호세-산라몬 도로회랑 확장·개선사업 입찰 공고 안내",
-      "bid_reference_no": "",
-      "bid_description": "",
-      "procurement_method": "",
-      "summary": "주코스타리카공화국대한민국대사관으로부터 코스타리카 산호세-산라몬 도로회랑 확장 ·개선사업 사업 입찰공고 관련 정보 를 안내받아 아래와 같이 공유드립니다. 관심 있는 기업은 아래 내용 및 관련 자료를 참고하시기 바랍니다. □ (사업명) 산호세-산라몬 도로회랑 확장·개선사업 (Proyecto de Ampliación y Mejoramiento del Corredor Vial San José-San Ramón) □ (재원 및 추진 배경) 중미경제통합은행(CABEI) 및 OPEC 국제개발기금(OPEC Fund) 차관 재원으로 코스타리카 주요 간선도로의 인프라를 확장하고 네트워크를 개선하기 위함 □ (추정 사업비) 총 687, 374, 301 달러 ○ 제1공구: 324, 460, 256 달러 ○ 제2공구: 362, 914, 045 달러 □ (사업 범위) 도로회랑 설계·건설·설비 일체 구축 및 계약기간 중 유지관리 ○ 주요 과업 내용: ● 국도 1호선 약 55. 6km 확장 및 개선 ● Rio ",
-      "source": "해외건설협회(ICAK)",
-      "source_url": "https://www.icak.or.kr/board/bidPblancList",
-      "_source_label": "해외건설협회(ICAK)",
-      "notice_type_normalized": "입찰공고",
-      "consortium_signal": false,
-      "traffic_survey_signal": false,
-      "first_seen": "2026-10-24"
     },
     {
       "id": "eib-6af5b1037ba7f65bbf41d6c1",
