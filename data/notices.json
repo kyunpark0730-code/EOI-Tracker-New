@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-23T01:38:30.848113+00:00",
-  "today_kst": "2026-11-23",
+  "generated_at": "2026-11-24T05:19:05.992684+00:00",
+  "today_kst": "2026-11-24",
   "sources": [
-    "World Bank 673건",
+    "World Bank 618건",
     "한국건설엔지니어링협회 0건",
     "ADB 0건",
     "나라장터(G2B) 1건",
@@ -13,23 +13,23 @@
   ],
   "source_status": {
     "World Bank": {
-      "last_success": "2026-11-23",
+      "last_success": "2026-11-24",
       "consecutive_failures": 0
     },
     "한국건설엔지니어링협회": {
       "last_success": "2026-09-25",
-      "consecutive_failures": 59
+      "consecutive_failures": 60
     },
     "ADB": {
       "last_success": "알 수 없음",
-      "consecutive_failures": 221
+      "consecutive_failures": 222
     },
     "나라장터(G2B)": {
-      "last_success": "2026-11-23",
+      "last_success": "2026-11-24",
       "consecutive_failures": 0
     },
     "해외건설협회(ICAK)": {
-      "last_success": "2026-11-23",
+      "last_success": "2026-11-24",
       "consecutive_failures": 0
     },
     "EIB": {
@@ -37,17 +37,38 @@
       "consecutive_failures": 0
     },
     "KIND": {
-      "last_success": "2026-11-23",
+      "last_success": "2026-11-24",
       "consecutive_failures": 0
     },
     "AIIB": {
-      "last_success": "2026-11-23",
+      "last_success": "2026-11-24",
       "consecutive_failures": 0
     }
   },
-  "count": 110,
-  "new_today_count": 0,
+  "count": 107,
+  "new_today_count": 3,
   "notices": [
+    {
+      "id": "wb-OP00479310",
+      "notice_type": "Request for Expression of Interest",
+      "notice_date": "22-Nov-2026",
+      "submission_date": "2026-12-21T00:00:00Z",
+      "country": "Bangladesh",
+      "project_id": "P178077",
+      "project_name": "Economic Acceleration and Resilience for NEET (EARN)",
+      "bid_reference_no": "S-46",
+      "bid_description": "Selection of Online Training Service Provider for EARN Project",
+      "procurement_method": "Quality Based Selection",
+      "procurement_group": "CS",
+      "summary": "Government of the People&rsquo;s Republic of Bangladesh Department of Youth Development Office of the Project Director Economic Acceleration and Resilience for NEET (EARN) Project National Sports Council Tower (Level-19), 62/3 Purana Paltan, Dhaka-1000 www.earndyd.gov.bd Issue no. 34.01.0000.046.48.136.26&hellip;.. Date: &hellip;&hellip;.. November 2026 Request for Expressions of Interest (REOI) Consulting services firm selection COUNTRY: Bangladesh NAME OF PROJECT: Economic Acceleration and Res",
+      "source": "World Bank",
+      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00479310",
+      "_source_label": "World Bank",
+      "notice_type_normalized": "관심표명(EOI)",
+      "consortium_signal": false,
+      "traffic_survey_signal": false,
+      "first_seen": "2026-11-24"
+    },
     {
       "id": "wb-OP00482630",
       "notice_type": "Request for Expression of Interest",
@@ -131,6 +152,46 @@
       "consortium_signal": false,
       "traffic_survey_signal": false,
       "first_seen": "2026-11-22"
+    },
+    {
+      "id": "aiib-https://www.aiib.org/en/opportunities/business/project-procurement/_download/Uzbekistan/REQUEST-FOR-EXPRESSIONS-OF-INTEREST-RIDP-II-QCBS-01.pdf",
+      "notice_type": "Procurement Notice",
+      "notice_date": "Nov 20, 2026",
+      "submission_date": "",
+      "country": "Uzbekistan",
+      "project_id": "",
+      "project_name": "Rural Infrastructure Development Program Phase 2 (RIDP-2)",
+      "bid_reference_no": "",
+      "bid_description": "",
+      "procurement_method": "",
+      "summary": "",
+      "source": "AIIB",
+      "source_url": "https://www.aiib.org/en/opportunities/business/project-procurement/_download/Uzbekistan/REQUEST-FOR-EXPRESSIONS-OF-INTEREST-RIDP-II-QCBS-01.pdf",
+      "_source_label": "AIIB",
+      "notice_type_normalized": "기타",
+      "consortium_signal": false,
+      "traffic_survey_signal": false,
+      "first_seen": "2026-11-24"
+    },
+    {
+      "id": "aiib-https://www.aiib.org/en/projects/details/2026/_download/China/Draft-Tender-Document-Zhenyu-Zhang-2026-11-19_23320261123092944.zip",
+      "notice_type": "Procurement Notice",
+      "notice_date": "Nov 20, 2026",
+      "submission_date": "",
+      "country": "China",
+      "project_id": "",
+      "project_name": "Yunnan Kunming Changshui Airport Expansion and Green Development Project",
+      "bid_reference_no": "",
+      "bid_description": "",
+      "procurement_method": "",
+      "summary": "",
+      "source": "AIIB",
+      "source_url": "https://www.aiib.org/en/projects/details/2026/_download/China/Draft-Tender-Document-Zhenyu-Zhang-2026-11-19_23320261123092944.zip",
+      "_source_label": "AIIB",
+      "notice_type_normalized": "기타",
+      "consortium_signal": false,
+      "traffic_survey_signal": false,
+      "first_seen": "2026-11-24"
     },
     {
       "id": "wb-OP00476667",
@@ -511,48 +572,6 @@
       "first_seen": "2026-11-19"
     },
     {
-      "id": "wb-OP00481841",
-      "notice_type": "Request for Expression of Interest",
-      "notice_date": "16-Nov-2026",
-      "submission_date": "2026-11-23T00:00:00Z",
-      "country": "Mali",
-      "project_id": "P507921",
-      "project_name": "Mali Connectivity and Road Resilience Project (Mali-NSS)",
-      "bid_reference_no": "ML-PACRIR-555323-CS-CQS",
-      "bid_description": "Sélection de consultant pour la mise en place d’un système de vidéoverbalisation dans le cadre du Projet Mali Nafa Soro Siraw  pour le compte de l’ANASER",
-      "procurement_method": "Consultant Qualification  Selection",
-      "procurement_group": "CS",
-      "summary": "MINISTERE DES TRANSPORTS ET DES INFRASTRUCTURES ----------**---------- REPUBLIQUE DU MALI Un Peuple &ndash; Un But &ndash; Une Foi ----------**---------- SECRETARIAT GENERAL ----------**---------- DIRECTION GENERALE DES ROUTES ---------**---------- Unit&eacute; Nationale de Coordination du Projet Mali Nafa Soro Siraw (MALI-NSS) SOLLICITATION DE MANIFESTATIONS D&rsquo;INTERET N&deg; 17 /2026/UNC-Mali NSS SELECTION DE CONSULTANTS PAR LES EMPRUNTEURS DE LA BANQUE MONDIALE SERVICES DE CONSULTANT POU",
-      "source": "World Bank",
-      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00481841",
-      "_source_label": "World Bank",
-      "notice_type_normalized": "관심표명(EOI)",
-      "consortium_signal": false,
-      "traffic_survey_signal": false,
-      "first_seen": "2026-11-18"
-    },
-    {
-      "id": "wb-OP00481838",
-      "notice_type": "Request for Expression of Interest",
-      "notice_date": "16-Nov-2026",
-      "submission_date": "2026-11-23T00:00:00Z",
-      "country": "Mali",
-      "project_id": "P507921",
-      "project_name": "Mali Connectivity and Road Resilience Project (Mali-NSS)",
-      "bid_reference_no": "ML-PACRIR-555343-CS-CQS",
-      "bid_description": "Sélection de consultant pour le développement d’un outil de collecte et de gestion des données d’accidents de la route intégrant des fonctionnalités de cartographie et de géolocalisation dans le cadre de Mali-NSS pour le compte de l’ANASER",
-      "procurement_method": "Consultant Qualification  Selection",
-      "procurement_group": "CS",
-      "summary": "MINISTERE DES TRANSPORTS ET DES INFRASTRUCTURES ----------**---------- REPUBLIQUE DU MALI Un Peuple &ndash; Un But &ndash; Une Foi ----------**---------- SECRETARIAT GENERAL ----------**---------- DIRECTION GENERALE DES ROUTES ---------**---------- Unit&eacute; Nationale de Coordination du Projet Mali Nafa Soro Siraw (MALI-NSS) SOLLICITATION DE MANIFESTATIONS D&rsquo;INTERET N&deg;16/2026/UNC-Mali NSS SELECTION DE CONSULTANTS PAR LES EMPRUNTEURS DE LA BANQUE MONDIALE SERVICES DE CONSULTANT POUR ",
-      "source": "World Bank",
-      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00481838",
-      "_source_label": "World Bank",
-      "notice_type_normalized": "관심표명(EOI)",
-      "consortium_signal": false,
-      "traffic_survey_signal": false,
-      "first_seen": "2026-11-18"
-    },
-    {
       "id": "wb-OP00481750",
       "notice_type": "Request for Expression of Interest",
       "notice_date": "16-Nov-2026",
@@ -698,47 +717,6 @@
       "consortium_signal": false,
       "traffic_survey_signal": false,
       "first_seen": "2026-11-15"
-    },
-    {
-      "id": "aiib-https://www.aiib.org/en/projects/details/2026/_download/Uzbekistan/SPN_BWSP-W_RFB_11_eng.pdf",
-      "notice_type": "Procurement Notice",
-      "notice_date": "Nov 13, 2026",
-      "submission_date": "",
-      "country": "Uzbekistan",
-      "project_id": "",
-      "project_name": "Bukhara Region Water Supply and Sewerage Project -  Phase 1",
-      "bid_reference_no": "",
-      "bid_description": "",
-      "procurement_method": "",
-      "summary": "",
-      "source": "AIIB",
-      "source_url": "https://www.aiib.org/en/projects/details/2026/_download/Uzbekistan/SPN_BWSP-W_RFB_11_eng.pdf",
-      "_source_label": "AIIB",
-      "notice_type_normalized": "기타",
-      "consortium_signal": false,
-      "traffic_survey_signal": false,
-      "first_seen": "2026-11-17"
-    },
-    {
-      "id": "wb-OP00479441",
-      "notice_type": "Request for Expression of Interest",
-      "notice_date": "12-Nov-2026",
-      "submission_date": "2026-11-23T00:00:00Z",
-      "country": "El Salvador",
-      "project_id": "P506109",
-      "project_name": "El Salvador Geothermal Energy for Sustainable and Inclusive Development",
-      "bid_reference_no": "SV-LAGEO-534014-CS-QCBS",
-      "bid_description": "Consultoría por los Servicio de supervisión técnica del proyecto de perforación de pozos geotérmicos en campo geotérmico Chinameca",
-      "procurement_method": "Quality And Cost-Based Selection",
-      "procurement_group": "CS",
-      "summary": "INVITACI&Oacute;N A PRESENTAR EXPRESIONES DE INTER&Eacute;S (SERVICIOS DE CONSULTOR&Iacute;A-SELECCI&Oacute;N DE FIRMAS) Pa&iacute;s: El Salvador Proyecto: &ldquo;Energ&iacute;a Geot&eacute;rmica para el Desarrollo Sostenible e Inclusivo&rdquo; Pr&eacute;stamo No.: 9788-SV T&iacute;tulo Asignado: Servicios de Supervisi&oacute;n T&eacute;cnica del contrato identificado como &ldquo;Servicios de perforaci&oacute;n y de suministros de materiales, accesorios, tuber&iacute;as y servicios complementari",
-      "source": "World Bank",
-      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00479441",
-      "_source_label": "World Bank",
-      "notice_type_normalized": "관심표명(EOI)",
-      "consortium_signal": false,
-      "traffic_survey_signal": false,
-      "first_seen": "2026-11-07"
     },
     {
       "id": "wb-OP00480832",
@@ -1245,27 +1223,6 @@
       "first_seen": "2026-11-10"
     },
     {
-      "id": "wb-OP00478753",
-      "notice_type": "Request for Expression of Interest",
-      "notice_date": "02-Nov-2026",
-      "submission_date": "2026-11-23T00:00:00Z",
-      "country": "Liberia",
-      "project_id": "P173677",
-      "project_name": "Liberia Women Empowerment Project",
-      "bid_reference_no": "LR-MOGCSP-546313-CS-CQS",
-      "bid_description": "consulting Service for the development and rollout of a Gender-Based Management Information System (GB MIS)",
-      "procurement_method": "Consultant Qualification  Selection",
-      "procurement_group": "CS",
-      "summary": "REPUBLIC OF LIBERIA MINISTRY OF GENDER, CHILDREN, AND SOCIAL PROTECTION Ministerial Complex, Congo Town 1000 Monrovia 10, Liberia, West Africa REQUEST FOR EXPRESSIONS OF INTEREST (REOI) COUNTRY: Republic of Liberia NAME OF PROJECT: Liberia Women Empowerment Project PROJECT ID: P173677 CREDIT/GRANT No.: IDA-7168-LR and E0910-LR ASSIGNMENT: Consulting Services for the Development, Deployment, Rollout and Post-Deployment Support for a Gender-Based Management Information System (GB MIS) REFERENCE No",
-      "source": "World Bank",
-      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00478753",
-      "_source_label": "World Bank",
-      "notice_type_normalized": "관심표명(EOI)",
-      "consortium_signal": false,
-      "traffic_survey_signal": false,
-      "first_seen": "2026-11-04"
-    },
-    {
       "id": "wb-OP00478446",
       "notice_type": "Request for Expression of Interest",
       "notice_date": "02-Nov-2026",
@@ -1306,27 +1263,6 @@
       "consortium_signal": false,
       "traffic_survey_signal": false,
       "first_seen": "2026-11-02"
-    },
-    {
-      "id": "wb-OP00474225",
-      "notice_type": "Request for Expression of Interest",
-      "notice_date": "09-Oct-2026",
-      "submission_date": "2026-11-23T00:00:00Z",
-      "country": "Moldova",
-      "project_id": "P180153",
-      "project_name": "Moldova Rural Connectivity Project",
-      "bid_reference_no": "MRCP/CS/C5/01",
-      "bid_description": "Constuction Supervision of Rehabilitation Works on Corridor 5: road G33: R12 - Mindic - Zgurita - Marculesti - R13 and road G35: R14 - Tepilova - Vantina - Cainarii Vechi - G33",
-      "procurement_method": "Quality And Cost-Based Selection",
-      "procurement_group": "CS",
-      "summary": "REQUEST FOR EXPRESSIONS OF INTEREST (CONSULTING SERVICES &ndash; FIRMS SELECTION) Country: Moldova Name of Project: Moldova Rural Connectivity Project Project ID: P180153 Assignment Title: Consulting Services for Construction Supervision of the Design &amp; Build Contract for the Rehabilitation of road G33: R12 &ndash; M&icirc;nd&icirc;c &ndash; Zguria &ndash; Mrculeti &ndash; R13 and G35: R14 &ndash; epilova &ndash; Vanina &ndash; Cinarii Vechi &ndash; G33 (Corridor 5) Reference No . (as per Pr",
-      "source": "World Bank",
-      "source_url": "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00474225",
-      "_source_label": "World Bank",
-      "notice_type_normalized": "관심표명(EOI)",
-      "consortium_signal": false,
-      "traffic_survey_signal": false,
-      "first_seen": "2026-10-11"
     },
     {
       "id": "icak-503698",
